@@ -31,10 +31,10 @@ export async function POST(request: Request) {
             const cachedData = await fs.readFile(itemFilePath, 'utf-8');
             const parsedData = JSON.parse(cachedData);
             // console.log('LOCALE:', LOCALE);
-            // console.log('Parsed Data:', parsedData);
+            console.log('Parsed Data:', parsedData);
             // console.log('Parsed Data Name Keys:', Object.keys(parsedData.name || {}));
             // console.log('Cache hit for itemId:', itemId, parsedData.name?.[LOCALE]);
-            return { id: itemId, name: parsedData.name?.[LOCALE] || 'Unknown' };
+            return { id: itemId, name: parsedData.name?.[LOCALE] || 'Unknown', classid: parsedData.item_class?.id || null };
           } catch (err: any) {
             if (err.code !== 'ENOENT') {
               console.error(`Error reading file for item ${itemId}:`, err);
@@ -58,7 +58,8 @@ export async function POST(request: Request) {
             }
 
             const data = await response.json();
-            return { id: itemId, name: data.name?.[LOCALE] || 'Unknown' };
+            // console.log(`Fetched data for item ${itemId}:`, data);
+            return { id: itemId, name: data.name?.[LOCALE] || 'Unknown', classid: data.item_class?.id || null };
           } catch (fetchError) {
             clearTimeout(timeout);
             console.error(`Error fetching item ${itemId}:`, fetchError);

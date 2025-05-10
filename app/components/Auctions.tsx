@@ -129,9 +129,9 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
 
         const itemsData = await itemResponse.json();
         console.log('Items API response:', itemsData);
-        itemsData.forEach((item: { id: number; name: string; item_class?: { id: number | null } }) => {
+        itemsData.forEach((item: { id: number; name: string; classid: number | null }) => {
           itemDetailsCache.set(item.id, {
-            itemClassId: item.item_class?.id || null,
+            itemClassId: item.classid || null,
             itemName: item.name,
           });
         });

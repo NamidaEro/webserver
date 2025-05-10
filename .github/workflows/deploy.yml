@@ -38,7 +38,7 @@ jobs:
         host: "20.168.3.131"
         username: "azureuser"
         key: ${{ secrets.AZURE_VM_SSH_KEY }}
-        source: .env
+        source: ./webserver/.env
         target: /home/azureuser/webserver/.env
 
     # 6. Update Docker run command to use the correct .env path

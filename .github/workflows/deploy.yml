@@ -39,7 +39,7 @@ jobs:
         username: ${{ secrets.AZURE_VM_USERNAME }}
         key: ${{ secrets.AZURE_VM_SSH_KEY }}
         script: |
-          docker pull rkseksgksl/nodeweb:latest
-          docker stop nodeweb || true
-          docker rm nodeweb || true
-          docker run -d -p 80:3000 --name nodeweb rkseksgksl/nodeweb:latest
+          sudo docker pull rkseksgksl/nodeweb:latest
+          sudo docker stop nodeweb || true
+          sudo docker rm nodeweb || true
+          sudo docker run -d -p 80:3000 --name nodeweb rkseksgksl/nodeweb:latest

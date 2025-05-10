@@ -1,0 +1,618 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/211549?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 211549,
+  "name": {
+    "en_US": "Draconic Combatant's Adamant Epaulets",
+    "es_MX": "Cubrehombros adamantinos de Combatiente dracónico",
+    "pt_BR": "Palas Adamantinas do Combatente Dracônico",
+    "de_DE": "Adamantschulterklappen des ewigen Kämpfers",
+    "en_GB": "Draconic Combatant's Adamant Epaulets",
+    "es_ES": "Cubrehombros de adamantita de Combatiente dracónico",
+    "fr_FR": "Épaulettes adamantines du combattant draconique",
+    "it_IT": "Spalline Adamantine del Combattente Draconico",
+    "ru_RU": "Крепкие эполеты драконьего бойца",
+    "ko_KR": "용족 전투원의 견고한 견장",
+    "zh_TW": "龍族戰鬥者的不滅肩冑",
+    "zh_CN": "腾龙争斗者的坚钢肩章"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 330,
+  "required_level": 70,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/211549?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 211549
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Mail",
+      "es_MX": "Malla",
+      "pt_BR": "Malha",
+      "de_DE": "Kette",
+      "en_GB": "Mail",
+      "es_ES": "Malla",
+      "fr_FR": "Mailles",
+      "it_IT": "Maglia",
+      "ru_RU": "Кольчуга",
+      "ko_KR": "사슬",
+      "zh_TW": "鎖甲",
+      "zh_CN": "锁甲"
+    },
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "SHOULDER",
+    "name": {
+      "en_US": "Shoulder",
+      "es_MX": "Hombro",
+      "pt_BR": "Ombros",
+      "de_DE": "Schulter",
+      "en_GB": "Shoulder",
+      "es_ES": "Hombro",
+      "fr_FR": "Épaule",
+      "it_IT": "Spalle",
+      "ru_RU": "Плечи",
+      "ko_KR": "어깨",
+      "zh_TW": "肩部",
+      "zh_CN": "肩部"
+    }
+  },
+  "purchase_price": 122385,
+  "sell_price": 24477,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/211549?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 211549
+    },
+    "context": 0,
+    "bonus_list": [
+      10250,
+      8840,
+      5247,
+      10251
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Draconic Combatant's Adamant Epaulets",
+      "es_MX": "Cubrehombros adamantinos de Combatiente dracónico",
+      "pt_BR": "Palas Adamantinas do Combatente Dracônico",
+      "de_DE": "Adamantschulterklappen des ewigen Kämpfers",
+      "en_GB": "Draconic Combatant's Adamant Epaulets",
+      "es_ES": "Cubrehombros de adamantita de Combatiente dracónico",
+      "fr_FR": "Épaulettes adamantines du combattant draconique",
+      "it_IT": "Spalline Adamantine del Combattente Draconico",
+      "ru_RU": "Крепкие эполеты драконьего бойца",
+      "ko_KR": "용족 전투원의 견고한 견장",
+      "zh_TW": "龍族戰鬥者的不滅肩冑",
+      "zh_CN": "腾龙争斗者的坚钢肩章"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/211549?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 211549
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Mail",
+        "es_MX": "Malla",
+        "pt_BR": "Malha",
+        "de_DE": "Kette",
+        "en_GB": "Mail",
+        "es_ES": "Malla",
+        "fr_FR": "Mailles",
+        "it_IT": "Maglia",
+        "ru_RU": "Кольчуга",
+        "ko_KR": "사슬",
+        "zh_TW": "鎖甲",
+        "zh_CN": "锁甲"
+      },
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "SHOULDER",
+      "name": {
+        "en_US": "Shoulder",
+        "es_MX": "Hombro",
+        "pt_BR": "Ombros",
+        "de_DE": "Schulter",
+        "en_GB": "Shoulder",
+        "es_ES": "Hombro",
+        "fr_FR": "Épaule",
+        "it_IT": "Spalle",
+        "ru_RU": "Плечи",
+        "ko_KR": "어깨",
+        "zh_TW": "肩部",
+        "zh_CN": "肩部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 880,
+      "display": {
+        "display_string": {
+          "en_US": "880 Armor",
+          "es_MX": "880 p. de armadura",
+          "pt_BR": "880 de Armadura",
+          "de_DE": "880 Rüstung",
+          "en_GB": "880 Armor",
+          "es_ES": "880 p. de armadura",
+          "fr_FR": "Armure : 880",
+          "it_IT": "880 Armatura",
+          "ru_RU": "Броня: 880",
+          "ko_KR": "방어도 880",
+          "zh_TW": "880點護甲",
+          "zh_CN": "880点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 437,
+        "display": {
+          "display_string": {
+            "en_US": "+437 Intellect",
+            "es_MX": "+437 intelecto",
+            "pt_BR": "+437 Intelecto",
+            "de_DE": "+437 Intelligenz",
+            "en_GB": "+437 Intellect",
+            "es_ES": "+437 intelecto",
+            "fr_FR": "+437 Intelligence",
+            "it_IT": "+437 Intelletto",
+            "ru_RU": "+437 к интеллекту",
+            "ko_KR": "지능 +437",
+            "zh_TW": "+437智力",
+            "zh_CN": "+437 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 437,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+437 Agility",
+            "es_MX": "+437 agilidad",
+            "pt_BR": "+437 Agilidade",
+            "de_DE": "+437 Beweglichkeit",
+            "en_GB": "+437 Agility",
+            "es_ES": "+437 agilidad",
+            "fr_FR": "+437 Agilité",
+            "it_IT": "+437 Agilità",
+            "ru_RU": "+437 к ловкости",
+            "ko_KR": "민첩성 +437",
+            "zh_TW": "+437敏捷",
+            "zh_CN": "+437 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 1527,
+        "display": {
+          "display_string": {
+            "en_US": "+1,527 Stamina",
+            "es_MX": "+1,527 aguante",
+            "pt_BR": "+1.527 Vigor",
+            "de_DE": "+1.527 Ausdauer",
+            "en_GB": "+1,527 Stamina",
+            "es_ES": "+1527 aguante",
+            "fr_FR": "+1527 Endurance",
+            "it_IT": "+1.527 Tempra",
+            "ru_RU": "+1527 к выносливости",
+            "ko_KR": "체력 +1,527",
+            "zh_TW": "+1,527耐力",
+            "zh_CN": "+1,527 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": {
+            "en_US": "Haste",
+            "es_MX": "celeridad",
+            "pt_BR": "Aceleração",
+            "de_DE": "Tempo",
+            "en_GB": "Haste",
+            "es_ES": "celeridad",
+            "fr_FR": "Hâte",
+            "it_IT": "Indice di celerità",
+            "ru_RU": "к скорости",
+            "ko_KR": "가속",
+            "zh_TW": "加速",
+            "zh_CN": "急速"
+          }
+        },
+        "value": 319,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+319 Haste",
+            "es_MX": "+319 celeridad",
+            "pt_BR": "+319 Aceleração",
+            "de_DE": "+319 Tempo",
+            "en_GB": "+319 Haste",
+            "es_ES": "+319 celeridad",
+            "fr_FR": "+319 Hâte",
+            "it_IT": "+319 Indice di celerità",
+            "ru_RU": "+319 к скорости",
+            "ko_KR": "가속 +319",
+            "zh_TW": "+319加速",
+            "zh_CN": "+319 急速"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 319,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+319 Versatility",
+            "es_MX": "+319 versatilidad",
+            "pt_BR": "+319 Versatilidade",
+            "de_DE": "+319 Vielseitigkeit",
+            "en_GB": "+319 Versatility",
+            "es_ES": "+319 versatilidad",
+            "fr_FR": "+319 Polyvalence",
+            "it_IT": "+319 Indice di versatilità",
+            "ru_RU": "+319 к универсальности",
+            "ko_KR": "유연성 +319",
+            "zh_TW": "+319臨機應變",
+            "zh_CN": "+319 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 24477,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "silver": {
+          "en_US": "44",
+          "es_MX": "44",
+          "pt_BR": "44",
+          "de_DE": "44",
+          "en_GB": "44",
+          "es_ES": "44",
+          "fr_FR": "44",
+          "it_IT": "44",
+          "ru_RU": "44",
+          "ko_KR": "44",
+          "zh_TW": "44",
+          "zh_CN": "44"
+        },
+        "copper": {
+          "en_US": "77",
+          "es_MX": "77",
+          "pt_BR": "77",
+          "de_DE": "77",
+          "en_GB": "77",
+          "es_ES": "77",
+          "fr_FR": "77",
+          "it_IT": "77",
+          "ru_RU": "77",
+          "ko_KR": "77",
+          "zh_TW": "77",
+          "zh_CN": "77"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 70,
+        "display_string": {
+          "en_US": "Requires Level 70",
+          "es_MX": "Necesitas ser de nivel 70",
+          "pt_BR": "Requer o Nível 70",
+          "de_DE": "Benötigt Stufe 70",
+          "en_GB": "Requires Level 70",
+          "es_ES": "Necesitas ser de nivel 70",
+          "fr_FR": "Niveau 70 requis",
+          "it_IT": "Richiede il livello 70",
+          "ru_RU": "Требуется 70-й уровень",
+          "ko_KR": "최소 요구 레벨: 70",
+          "zh_TW": "需要等級70",
+          "zh_CN": "需要等级 70"
+        }
+      }
+    },
+    "level": {
+      "value": 438,
+      "display_string": {
+        "en_US": "Item Level 438",
+        "es_MX": "Nivel de objeto 438",
+        "pt_BR": "Nível do Item: 438",
+        "de_DE": "Gegenstandsstufe 438",
+        "en_GB": "Item Level 438",
+        "es_ES": "Nivel de objeto 438",
+        "fr_FR": "Niveau d'objet 438",
+        "it_IT": "Livello oggetto: 438",
+        "ru_RU": "Уровень предмета: 438",
+        "ko_KR": "아이템 레벨: 438",
+        "zh_TW": "物品等級438",
+        "zh_CN": "物品等级438"
+      }
+    },
+    "durability": {
+      "value": 70,
+      "display_string": {
+        "en_US": "Durability 70 / 70",
+        "es_MX": "Durabilidad 70 / 70",
+        "pt_BR": "Durabilidade 70 / 70",
+        "de_DE": "Haltbarkeit 70 / 70",
+        "en_GB": "Durability 70 / 70",
+        "es_ES": "Durabilidad 70 / 70",
+        "fr_FR": "Durabilité : 70 / 70",
+        "it_IT": "Integrità 70/70",
+        "ru_RU": "Прочность: 70 / 70",
+        "ko_KR": "내구도 70 / 70",
+        "zh_TW": "耐久度 70 / 70",
+        "zh_CN": "耐久度 70 / 70"
+      }
+    },
+    "modified_crafting_stat": [
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": {
+          "en_US": "Haste",
+          "es_MX": "celeridad",
+          "pt_BR": "Aceleração",
+          "de_DE": "Tempo",
+          "en_GB": "Haste",
+          "es_ES": "celeridad",
+          "fr_FR": "Hâte",
+          "it_IT": "Indice di celerità",
+          "ru_RU": "к скорости",
+          "ko_KR": "가속",
+          "zh_TW": "加速",
+          "zh_CN": "急速"
+        }
+      }
+    ]
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/70227?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 70227
+    }
+  ]
+}

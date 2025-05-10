@@ -1,0 +1,341 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/224435?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 224435,
+  "name": {
+    "en_US": "Pattern: Duskthread Lining",
+    "es_MX": "Patrón: Revestimiento de hilonocta",
+    "pt_BR": "Molde: Forro de Fio Crepuscular",
+    "de_DE": "Muster: Abenddämmerungsfadenfutter",
+    "en_GB": "Pattern: Duskthread Lining",
+    "es_ES": "Patrón: forro de hilo crepuscular",
+    "fr_FR": "Patron : doublure en fil vespéral",
+    "it_IT": "Modello: Imbottitura di Fildivespro",
+    "ru_RU": "Выкройка: закатная подкладка",
+    "ko_KR": "도안: 황혼견사 안감",
+    "zh_TW": "圖樣：暮絲布內襯",
+    "zh_CN": "图样：萤暮线内衬"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/224435?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 224435
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Tailoring",
+      "es_MX": "Sastrería",
+      "pt_BR": "Alfaiataria",
+      "de_DE": "Schneiderei",
+      "en_GB": "Tailoring",
+      "es_ES": "Sastrería",
+      "fr_FR": "Couture",
+      "it_IT": "Sartoria",
+      "ru_RU": "Портняжное дело",
+      "ko_KR": "재봉술",
+      "zh_TW": "裁縫",
+      "zh_CN": "裁缝"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 250000,
+  "sell_price": 50000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Duskthread Lining.",
+    "es_MX": "Te enseña a fabricar un revestimiento de hilonocta.",
+    "pt_BR": "Ensina a fazer Forro de Fio Crepuscular.",
+    "de_DE": "Lehrt Euch, wie man Abenddämmerungsfadenfutter herstellt.",
+    "en_GB": "Teaches you how to craft Duskthread Lining.",
+    "es_ES": "Te enseña a fabricar un forro de hilo crepuscular.",
+    "fr_FR": "Vous apprend à confectionner une doublure en fil vespéral.",
+    "it_IT": "Ti insegna a creare un'Imbottitura di Fildivespro.",
+    "ru_RU": "Обучает изготовлению закатной подкладки.",
+    "ko_KR": "황혼견사 안감 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作暮絲布內襯。",
+    "zh_CN": "教你学会制作萤暮线内衬。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/224435?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 224435
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Duskthread Lining",
+      "es_MX": "Patrón: Revestimiento de hilonocta",
+      "pt_BR": "Molde: Forro de Fio Crepuscular",
+      "de_DE": "Muster: Abenddämmerungsfadenfutter",
+      "en_GB": "Pattern: Duskthread Lining",
+      "es_ES": "Patrón: forro de hilo crepuscular",
+      "fr_FR": "Patron : doublure en fil vespéral",
+      "it_IT": "Modello: Imbottitura di Fildivespro",
+      "ru_RU": "Выкройка: закатная подкладка",
+      "ko_KR": "도안: 황혼견사 안감",
+      "zh_TW": "圖樣：暮絲布內襯",
+      "zh_CN": "图样：萤暮线内衬"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/224435?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 224435
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Tailoring",
+        "es_MX": "Sastrería",
+        "pt_BR": "Alfaiataria",
+        "de_DE": "Schneiderei",
+        "en_GB": "Tailoring",
+        "es_ES": "Sastrería",
+        "fr_FR": "Couture",
+        "it_IT": "Sartoria",
+        "ru_RU": "Портняжное дело",
+        "ko_KR": "재봉술",
+        "zh_TW": "裁縫",
+        "zh_CN": "裁缝"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 50000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "5",
+          "es_MX": "5",
+          "pt_BR": "5",
+          "de_DE": "5",
+          "en_GB": "5",
+          "es_ES": "5",
+          "fr_FR": "5",
+          "it_IT": "5",
+          "ru_RU": "5",
+          "ko_KR": "5",
+          "zh_TW": "5",
+          "zh_CN": "5"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2883?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Khaz Algar Tailoring",
+            "es_MX": "Sastrería de Khaz Algar",
+            "pt_BR": "Alfaiataria de Khaz Algar",
+            "de_DE": "Schneiderei von Khaz Algar",
+            "en_GB": "Khaz Algar Tailoring",
+            "es_ES": "Sastrería de Khaz Algar",
+            "fr_FR": "Couture de Khaz Algar",
+            "it_IT": "Sartoria di Khaz Algar",
+            "ru_RU": "Портняжное дело Каз Алгара",
+            "ko_KR": "카즈 알가르 재봉술",
+            "zh_TW": "卡茲阿爾加裁縫",
+            "zh_CN": "卡兹阿加裁缝"
+          },
+          "id": 2883
+        },
+        "level": 35,
+        "display_string": {
+          "en_US": "Requires Khaz Algar Tailoring (35)",
+          "es_MX": "Requiere Sastrería de Khaz Algar (35)",
+          "pt_BR": "Requer Alfaiataria de Khaz Algar (35)",
+          "de_DE": "Benötigt Schneiderei von Khaz Algar (35)",
+          "en_GB": "Requires Khaz Algar Tailoring (35)",
+          "es_ES": "Requiere Sastrería de Khaz Algar (35)",
+          "fr_FR": "Couture de Khaz Algar (35) requis",
+          "it_IT": "Richiede: Sartoria di Khaz Algar (35)",
+          "ru_RU": "Требуется: Портняжное дело Каз Алгара (35)",
+          "ko_KR": "요구 사항: 카즈 알가르 재봉술 (35)",
+          "zh_TW": "需要卡茲阿爾加裁縫(35)",
+          "zh_CN": "需要卡兹阿加裁缝（35）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft Duskthread Lining.",
+      "es_MX": "Te enseña a fabricar un revestimiento de hilonocta.",
+      "pt_BR": "Ensina a fazer Forro de Fio Crepuscular.",
+      "de_DE": "Lehrt Euch, wie man Abenddämmerungsfadenfutter herstellt.",
+      "en_GB": "Teaches you how to craft Duskthread Lining.",
+      "es_ES": "Te enseña a fabricar un forro de hilo crepuscular.",
+      "fr_FR": "Vous apprend à confectionner une doublure en fil vespéral.",
+      "it_IT": "Ti insegna a creare un'Imbottitura di Fildivespro.",
+      "ru_RU": "Обучает изготовлению закатной подкладки.",
+      "ko_KR": "황혼견사 안감 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作暮絲布內襯。",
+      "zh_CN": "教你学会制作萤暮线内衬。"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

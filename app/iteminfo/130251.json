@@ -1,0 +1,326 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/130251?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 130251,
+  "name": {
+    "en_US": "JewelCraft",
+    "es_MX": "Joyería",
+    "pt_BR": "JoiaCraft",
+    "de_DE": "JewelCraft",
+    "en_GB": "JewelCraft",
+    "es_ES": "JewelCraft",
+    "fr_FR": "Jeu des joyaux",
+    "it_IT": "JewelCraft",
+    "ru_RU": "Каменькрафт",
+    "ko_KR": "보석 맞추기",
+    "zh_TW": "寶石爭霸",
+    "zh_CN": "珠宝争霸"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 42,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/130251?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 130251
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Consumable",
+      "es_MX": "Consumible",
+      "pt_BR": "Consumível",
+      "de_DE": "Verbrauchbares",
+      "en_GB": "Consumable",
+      "es_ES": "Consumible",
+      "fr_FR": "Consommable",
+      "it_IT": "Consumabili",
+      "ru_RU": "Расходуемые",
+      "ko_KR": "소비용품",
+      "zh_TW": "消耗品",
+      "zh_CN": "消耗品"
+    },
+    "id": 0
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Other",
+      "es_MX": "Otros",
+      "pt_BR": "Outro",
+      "de_DE": "Sonstiges",
+      "en_GB": "Other",
+      "es_ES": "Otros",
+      "fr_FR": "Autres",
+      "it_IT": "Altro",
+      "ru_RU": "Другое",
+      "ko_KR": "기타",
+      "zh_TW": "其他",
+      "zh_CN": "其它"
+    },
+    "id": 8
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 3500,
+  "sell_price": 875,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/130251?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 130251
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "JewelCraft",
+      "es_MX": "Joyería",
+      "pt_BR": "JoiaCraft",
+      "de_DE": "JewelCraft",
+      "en_GB": "JewelCraft",
+      "es_ES": "JewelCraft",
+      "fr_FR": "Jeu des joyaux",
+      "it_IT": "JewelCraft",
+      "ru_RU": "Каменькрафт",
+      "ko_KR": "보석 맞추기",
+      "zh_TW": "寶石爭霸",
+      "zh_CN": "珠宝争霸"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/130251?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 130251
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Consumable",
+        "es_MX": "Consumible",
+        "pt_BR": "Consumível",
+        "de_DE": "Verbrauchbares",
+        "en_GB": "Consumable",
+        "es_ES": "Consumible",
+        "fr_FR": "Consommable",
+        "it_IT": "Consumabili",
+        "ru_RU": "Расходуемые",
+        "ko_KR": "소비용품",
+        "zh_TW": "消耗品",
+        "zh_CN": "消耗品"
+      },
+      "id": 0
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Other",
+        "es_MX": "Otros",
+        "pt_BR": "Outro",
+        "de_DE": "Sonstiges",
+        "en_GB": "Other",
+        "es_ES": "Otros",
+        "fr_FR": "Autres",
+        "it_IT": "Altro",
+        "ru_RU": "Другое",
+        "ko_KR": "기타",
+        "zh_TW": "其他",
+        "zh_CN": "其它"
+      },
+      "id": 8
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/196067?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "JewelCraft",
+            "es_MX": "Joyería",
+            "pt_BR": "JoiaCraft",
+            "de_DE": "JewelCraft",
+            "en_GB": "JewelCraft",
+            "es_ES": "JewelCraft",
+            "fr_FR": "Jeu des joyaux",
+            "it_IT": "JewelCraft",
+            "ru_RU": "Каменькрафт",
+            "ko_KR": "보석 맞추기",
+            "zh_TW": "寶石爭霸",
+            "zh_CN": "珠宝争霸"
+          },
+          "id": 196067
+        },
+        "description": {
+          "en_US": "Use: Adds this toy to your Toy Box.\n\nPlay a jewel matching game. (1 Sec Cooldown)",
+          "es_MX": "Uso: Añade este juguete a tu caja de juguetes.\n\nJuega un juego de memoria de joyas. (1 s de tiempo de reutilización)",
+          "pt_BR": "Usar: Adiciona este brinquedo à sua Caixa de Brinquedo.\n\nJogue um jogo de combinação de gemas. (1 s de recarga)",
+          "de_DE": "Benutzen: Fügt dieses Spielzeug Eurer Spielzeugkiste hinzu.\n\nSpielt ein Juwelenpuzzlespiel. (1 Sek. Abklingzeit)",
+          "en_GB": "Use: Adds this toy to your Toy Box.\n\nPlay a jewel matching game. (1 Sec Cooldown)",
+          "es_ES": "Uso: Añade este juguete a tu caja de juguetes.\n\nJuega a un juego de emparejar joyas. (1 s de tiempo de reutilización).",
+          "fr_FR": "Utiliser : ajoute ce jouet à votre collection.\n\nJouez à associer les joyaux. (1 s de recharge)",
+          "it_IT": "Usa: Aggiunge questo giocattolo alla tua collezione.\n\nPartecipi a un gioco con delle gemme. (1 s di recupero)",
+          "ru_RU": "Использование: добавить игрушку в коллекцию.\n\nСыграть в игру с драгоценными камнями. (Восстановление: 1 с.)",
+          "ko_KR": "사용 효과: 이 장난감을 장난감 상자에 추가합니다.\n\n보석 맞추기 놀이에 참여합니다. (1초 후 재사용 가능)",
+          "zh_TW": "使用：將這個玩具加入你的玩具箱。\n\n玩寶石配對遊戲。 (1秒冷卻時間)",
+          "zh_CN": "使用：将该玩具添加到你的玩具箱。\n\n玩一个匹配珠宝的游戏。 （1秒冷却）"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 875,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "8",
+          "es_MX": "8",
+          "pt_BR": "8",
+          "de_DE": "8",
+          "en_GB": "8",
+          "es_ES": "8",
+          "fr_FR": "8",
+          "it_IT": "8",
+          "ru_RU": "8",
+          "ko_KR": "8",
+          "zh_TW": "8",
+          "zh_CN": "8"
+        },
+        "copper": {
+          "en_US": "75",
+          "es_MX": "75",
+          "pt_BR": "75",
+          "de_DE": "75",
+          "en_GB": "75",
+          "es_ES": "75",
+          "fr_FR": "75",
+          "it_IT": "75",
+          "ru_RU": "75",
+          "ko_KR": "75",
+          "zh_TW": "75",
+          "zh_CN": "75"
+        }
+      }
+    },
+    "is_subclass_hidden": true,
+    "toy": {
+      "en_US": "Toy",
+      "es_MX": "Juguete",
+      "pt_BR": "Brinquedo",
+      "de_DE": "Spielzeug",
+      "en_GB": "Toy",
+      "es_ES": "Juguete",
+      "fr_FR": "Jouet",
+      "it_IT": "Giocattolo",
+      "ru_RU": "Игрушка",
+      "ko_KR": "장난감",
+      "zh_TW": "玩具",
+      "zh_CN": "玩具"
+    }
+  },
+  "purchase_quantity": 1
+}

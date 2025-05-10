@@ -1,0 +1,530 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/94218?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 94218,
+  "name": {
+    "en_US": "Skyking Bulwark",
+    "es_MX": "Baluarte de rey celestial",
+    "pt_BR": "Baluarte Rei-do-céu",
+    "de_DE": "Himmelskönigbollwerk",
+    "en_GB": "Skyking Bulwark",
+    "es_ES": "Baluarte de rey celestial",
+    "fr_FR": "Rempart du roi céleste",
+    "it_IT": "Scudo Barricata del Re del Cielo",
+    "ru_RU": "Бастион небесных королей",
+    "ko_KR": "하늘왕 보루 방패",
+    "zh_TW": "天王壁壘",
+    "zh_CN": "天王壁垒"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 38,
+  "required_level": 35,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/94218?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 94218
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Shield",
+      "es_MX": "Escudo",
+      "pt_BR": "Escudo",
+      "de_DE": "Schild",
+      "en_GB": "Shield",
+      "es_ES": "Escudo",
+      "fr_FR": "Bouclier",
+      "it_IT": "Scudo",
+      "ru_RU": "Щит",
+      "ko_KR": "방패",
+      "zh_TW": "盾牌",
+      "zh_CN": "盾牌"
+    },
+    "id": 6
+  },
+  "inventory_type": {
+    "type": "SHIELD",
+    "name": {
+      "en_US": "Off Hand",
+      "es_MX": "Mano izquierda",
+      "pt_BR": "Mão Secundária",
+      "de_DE": "Schildhand",
+      "en_GB": "Off Hand",
+      "es_ES": "Mano izquierda",
+      "fr_FR": "Main gauche",
+      "it_IT": "Mano secondaria",
+      "ru_RU": "Левая рука",
+      "ko_KR": "보조장비",
+      "zh_TW": "副手",
+      "zh_CN": "副手"
+    }
+  },
+  "purchase_price": 596302,
+  "sell_price": 119260,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/94218?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 94218
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Skyking Bulwark",
+      "es_MX": "Baluarte de rey celestial",
+      "pt_BR": "Baluarte Rei-do-céu",
+      "de_DE": "Himmelskönigbollwerk",
+      "en_GB": "Skyking Bulwark",
+      "es_ES": "Baluarte de rey celestial",
+      "fr_FR": "Rempart du roi céleste",
+      "it_IT": "Scudo Barricata del Re del Cielo",
+      "ru_RU": "Бастион небесных королей",
+      "ko_KR": "하늘왕 보루 방패",
+      "zh_TW": "天王壁壘",
+      "zh_CN": "天王壁垒"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/94218?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 94218
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/6?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Shield",
+        "es_MX": "Escudo",
+        "pt_BR": "Escudo",
+        "de_DE": "Schild",
+        "en_GB": "Shield",
+        "es_ES": "Escudo",
+        "fr_FR": "Bouclier",
+        "it_IT": "Scudo",
+        "ru_RU": "Щит",
+        "ko_KR": "방패",
+        "zh_TW": "盾牌",
+        "zh_CN": "盾牌"
+      },
+      "id": 6
+    },
+    "inventory_type": {
+      "type": "SHIELD",
+      "name": {
+        "en_US": "Off Hand",
+        "es_MX": "Mano izquierda",
+        "pt_BR": "Mão Secundária",
+        "de_DE": "Schildhand",
+        "en_GB": "Off Hand",
+        "es_ES": "Mano izquierda",
+        "fr_FR": "Main gauche",
+        "it_IT": "Mano secondaria",
+        "ru_RU": "Левая рука",
+        "ko_KR": "보조장비",
+        "zh_TW": "副手",
+        "zh_CN": "副手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 46,
+      "display": {
+        "display_string": {
+          "en_US": "46 Armor",
+          "es_MX": "46 p. de armadura",
+          "pt_BR": "46 de Armadura",
+          "de_DE": "46 Rüstung",
+          "en_GB": "46 Armor",
+          "es_ES": "46 p. de armadura",
+          "fr_FR": "Armure : 46",
+          "it_IT": "46 Armatura",
+          "ru_RU": "Броня: 46",
+          "ko_KR": "방어도 46",
+          "zh_TW": "46點護甲",
+          "zh_CN": "46点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "shield_block": {
+      "value": 115,
+      "display": {
+        "display_string": {
+          "en_US": "115 Block",
+          "es_MX": "115 de bloqueo",
+          "pt_BR": "Bloqueio de 115",
+          "de_DE": "115 Blocken",
+          "en_GB": "115 Block",
+          "es_ES": "115 bloqueo",
+          "fr_FR": "Bloquer : 115",
+          "it_IT": "Blocco di 115",
+          "ru_RU": "Вероятность блока: 115",
+          "ko_KR": "방패 막기 115",
+          "zh_TW": "115格擋",
+          "zh_CN": "115点格挡"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 6,
+        "display": {
+          "display_string": {
+            "en_US": "+6 Intellect",
+            "es_MX": "+6 intelecto",
+            "pt_BR": "+6 Intelecto",
+            "de_DE": "+6 Intelligenz",
+            "en_GB": "+6 Intellect",
+            "es_ES": "+6 intelecto",
+            "fr_FR": "+6 Intelligence",
+            "it_IT": "+6 Intelletto",
+            "ru_RU": "+6 к интеллекту",
+            "ko_KR": "지능 +6",
+            "zh_TW": "+6智力",
+            "zh_CN": "+6 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": {
+            "en_US": "Strength",
+            "es_MX": "fuerza",
+            "pt_BR": "Força",
+            "de_DE": "Stärke",
+            "en_GB": "Strength",
+            "es_ES": "fuerza",
+            "fr_FR": "Force",
+            "it_IT": "Forza",
+            "ru_RU": "к силе",
+            "ko_KR": "힘",
+            "zh_TW": "力量",
+            "zh_CN": "力量"
+          }
+        },
+        "value": 2,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+2 Strength",
+            "es_MX": "+2 fuerza",
+            "pt_BR": "+2 Força",
+            "de_DE": "+2 Stärke",
+            "en_GB": "+2 Strength",
+            "es_ES": "+2 fuerza",
+            "fr_FR": "+2 Force",
+            "it_IT": "+2 Forza",
+            "ru_RU": "+2 к силе",
+            "ko_KR": "힘 +2",
+            "zh_TW": "+2力量",
+            "zh_CN": "+2 力量"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 3,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Stamina",
+            "es_MX": "+3 aguante",
+            "pt_BR": "+3 Vigor",
+            "de_DE": "+3 Ausdauer",
+            "en_GB": "+3 Stamina",
+            "es_ES": "+3 aguante",
+            "fr_FR": "+3 Endurance",
+            "it_IT": "+3 Tempra",
+            "ru_RU": "+3 к выносливости",
+            "ko_KR": "체력 +3",
+            "zh_TW": "+3耐力",
+            "zh_CN": "+3 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 283,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "copper": {
+          "en_US": "83",
+          "es_MX": "83",
+          "pt_BR": "83",
+          "de_DE": "83",
+          "en_GB": "83",
+          "es_ES": "83",
+          "fr_FR": "83",
+          "it_IT": "83",
+          "ru_RU": "83",
+          "ko_KR": "83",
+          "zh_TW": "83",
+          "zh_CN": "83"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 35,
+        "display_string": {
+          "en_US": "Requires Level 35",
+          "es_MX": "Necesitas ser de nivel 35",
+          "pt_BR": "Requer o Nível 35",
+          "de_DE": "Benötigt Stufe 35",
+          "en_GB": "Requires Level 35",
+          "es_ES": "Necesitas ser de nivel 35",
+          "fr_FR": "Niveau 35 requis",
+          "it_IT": "Richiede il livello 35",
+          "ru_RU": "Требуется 35-й уровень",
+          "ko_KR": "최소 요구 레벨: 35",
+          "zh_TW": "需要等級35",
+          "zh_CN": "需要等级 35"
+        }
+      }
+    },
+    "level": {
+      "value": 38,
+      "display_string": {
+        "en_US": "Item Level 38",
+        "es_MX": "Nivel de objeto 38",
+        "pt_BR": "Nível do Item: 38",
+        "de_DE": "Gegenstandsstufe 38",
+        "en_GB": "Item Level 38",
+        "es_ES": "Nivel de objeto 38",
+        "fr_FR": "Niveau d'objet 38",
+        "it_IT": "Livello oggetto: 38",
+        "ru_RU": "Уровень предмета: 38",
+        "ko_KR": "아이템 레벨: 38",
+        "zh_TW": "物品等級38",
+        "zh_CN": "物品等级38"
+      }
+    },
+    "durability": {
+      "value": 85,
+      "display_string": {
+        "en_US": "Durability 85 / 85",
+        "es_MX": "Durabilidad 85 / 85",
+        "pt_BR": "Durabilidade 85 / 85",
+        "de_DE": "Haltbarkeit 85 / 85",
+        "en_GB": "Durability 85 / 85",
+        "es_ES": "Durabilidad 85 / 85",
+        "fr_FR": "Durabilité : 85 / 85",
+        "it_IT": "Integrità 85/85",
+        "ru_RU": "Прочность: 85 / 85",
+        "ko_KR": "내구도 85 / 85",
+        "zh_TW": "耐久度 85 / 85",
+        "zh_CN": "耐久度 85 / 85"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/8626?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 8626
+    }
+  ]
+}

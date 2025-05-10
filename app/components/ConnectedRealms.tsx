@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import Auctions from './Auctions';
 
 const ConnectedRealms: React.FC = () => {
-  const [connectedRealms, setConnectedRealms] = useState<string[]>([]);
+  const [connectedRealms, setConnectedRealms] = useState<{ id: string; name: string }[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [selectedRealmId, setSelectedRealmId] = useState<string | null>(null);
 
   const fetchConnectedRealms = async () => {
     setError(null);
@@ -13,11 +15,41 @@ const ConnectedRealms: React.FC = () => {
         throw new Error(errorDetails.error || 'Failed to fetch connected realms');
       }
       const data = await response.json();
-      setConnectedRealms(data.connectedRealmIds || []);
+      // console.log('Fetched data:', data);
+
+      if (data.connectedRealmIds && Array.isArray(data.connectedRealmIds)) {
+        const realmDetails = await Promise.all(
+          data.connectedRealmIds.map(async (realmId: string) => {
+            const realmResponse = await fetch(`/api/connected-realm?connectedRealmId=${realmId}`);
+            if (!realmResponse.ok) {
+              console.error(`Failed to fetch details for realm ID: ${realmId}`, await realmResponse.text());
+              throw new Error(`Failed to fetch details for realm ID: ${realmId}`);
+            }
+            const realmData = await realmResponse.json();
+            // console.log('Realm Data:', realmData);
+            return {
+              id: realmData.id,
+              name: realmData.realms[0]?.name?.ko_KR || 'Unknown',
+            };
+          })
+        );
+        setConnectedRealms(realmDetails);
+      } else {
+        setConnectedRealms([]);
+      }
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An unknown error occurred');
     }
   };
+
+  const handleAuctionsFetch = (id: string) => {
+    // console.log('Fetching auctions for realm ID:', id);
+    setSelectedRealmId(id);
+  };
+
+  useEffect(() => {
+    fetchConnectedRealms();
+  }, []);
 
   return (
     <div>
@@ -30,16 +62,23 @@ const ConnectedRealms: React.FC = () => {
         <thead>
           <tr>
             <th style={{ border: '1px solid black', padding: '8px', textAlign: 'left' }}>Connected Realm ID</th>
+            <th style={{ border: '1px solid black', padding: '8px', textAlign: 'left' }}>Name</th>
+            <th style={{ border: '1px solid black', padding: '8px', textAlign: 'left' }}>Actions</th>
           </tr>
         </thead>
         <tbody>
           {connectedRealms.map((realm) => (
-            <tr key={realm}>
-              <td style={{ border: '1px solid black', padding: '8px' }}>{realm}</td>
+            <tr key={realm.id}>
+              <td style={{ border: '1px solid black', padding: '8px' }}>{realm.id}</td>
+              <td style={{ border: '1px solid black', padding: '8px' }}>{realm.name}</td>
+              <td style={{ border: '1px solid black', padding: '8px' }}>
+                <button onClick={() => handleAuctionsFetch(realm.id)}>Fetch Auctions</button>
+              </td>
             </tr>
           ))}
         </tbody>
       </table>
+      <Auctions realmId={selectedRealmId} />
     </div>
   );
 };

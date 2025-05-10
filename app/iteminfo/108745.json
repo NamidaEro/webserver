@@ -1,0 +1,371 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/108745?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 108745,
+  "name": {
+    "en_US": "Personal Hologram",
+    "es_MX": "Holograma personal",
+    "pt_BR": "Holograma Pessoal",
+    "de_DE": "Persönliches Hologramm",
+    "en_GB": "Personal Hologram",
+    "es_ES": "Holograma personal",
+    "fr_FR": "Hologramme personnel",
+    "it_IT": "Ologramma Personale",
+    "ru_RU": "Личная голограмма",
+    "ko_KR": "개인용 홀로그램",
+    "zh_TW": "個人全像儀",
+    "zh_CN": "个人全息投影仪"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/108745?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 108745
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Consumable",
+      "es_MX": "Consumible",
+      "pt_BR": "Consumível",
+      "de_DE": "Verbrauchbares",
+      "en_GB": "Consumable",
+      "es_ES": "Consumible",
+      "fr_FR": "Consommable",
+      "it_IT": "Consumabili",
+      "ru_RU": "Расходуемые",
+      "ko_KR": "소비용품",
+      "zh_TW": "消耗品",
+      "zh_CN": "消耗品"
+    },
+    "id": 0
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Explosives and Devices",
+      "es_MX": "Explosivos y dispositivos",
+      "pt_BR": "Explosivos e Dispositivos",
+      "de_DE": "Sprengstoff und Geräte",
+      "en_GB": "Explosives and Devices",
+      "es_ES": "Explosivos y dispositivos",
+      "fr_FR": "Explosifs et appareils",
+      "it_IT": "Esplosivi e congegni",
+      "ru_RU": "Взрывчатка и устройства",
+      "ko_KR": "폭발물 및 장치",
+      "zh_TW": "爆裂物與裝置",
+      "zh_CN": "爆炸物与装置"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 1200000,
+  "sell_price": 300000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Image may react to some emotes.",
+    "es_MX": "La imagen puede reaccionar a algunas emociones.",
+    "pt_BR": "A imagem parece reagir a algumas expressões.",
+    "de_DE": "Das Bild kann auf einige Emotes reagieren.",
+    "en_GB": "Image may react to some emotes.",
+    "es_ES": "Puede que la imagen reaccione a ciertas emociones.",
+    "fr_FR": "L'image peut réagir à certaines emotes.",
+    "it_IT": "L'immagine potrebbe rispondere ad alcune emote.",
+    "ru_RU": "Изображение может отреагировать на некоторые проявления эмоций.",
+    "ko_KR": "환영은 일부 감정표현에 반응할 수 있습니다.",
+    "zh_TW": "影像可能會和某些表情互動。",
+    "zh_CN": "图像可能会对某些表情做出反应。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/108745?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 108745
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Personal Hologram",
+      "es_MX": "Holograma personal",
+      "pt_BR": "Holograma Pessoal",
+      "de_DE": "Persönliches Hologramm",
+      "en_GB": "Personal Hologram",
+      "es_ES": "Holograma personal",
+      "fr_FR": "Hologramme personnel",
+      "it_IT": "Ologramma Personale",
+      "ru_RU": "Личная голограмма",
+      "ko_KR": "개인용 홀로그램",
+      "zh_TW": "個人全像儀",
+      "zh_CN": "个人全息投影仪"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/108745?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 108745
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Consumable",
+        "es_MX": "Consumible",
+        "pt_BR": "Consumível",
+        "de_DE": "Verbrauchbares",
+        "en_GB": "Consumable",
+        "es_ES": "Consumible",
+        "fr_FR": "Consommable",
+        "it_IT": "Consumabili",
+        "ru_RU": "Расходуемые",
+        "ko_KR": "소비용품",
+        "zh_TW": "消耗品",
+        "zh_CN": "消耗品"
+      },
+      "id": 0
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Explosives and Devices",
+        "es_MX": "Explosivos y dispositivos",
+        "pt_BR": "Explosivos e Dispositivos",
+        "de_DE": "Sprengstoff und Geräte",
+        "en_GB": "Explosives and Devices",
+        "es_ES": "Explosivos y dispositivos",
+        "fr_FR": "Explosifs et appareils",
+        "it_IT": "Esplosivi e congegni",
+        "ru_RU": "Взрывчатка и устройства",
+        "ko_KR": "폭발물 및 장치",
+        "zh_TW": "爆裂物與裝置",
+        "zh_CN": "爆炸物与装置"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "binding": {
+      "type": "ON_USE",
+      "name": {
+        "en_US": "Binds when used",
+        "es_MX": "Se liga al usarlo",
+        "pt_BR": "Vincula-se quando usado",
+        "de_DE": "Wird bei Benutzung gebunden",
+        "en_GB": "Binds when used",
+        "es_ES": "Se liga al usarlo",
+        "fr_FR": "Lié quand utilisé",
+        "it_IT": "Si vincola all'uso",
+        "ru_RU": "Становится персональным при использовании",
+        "ko_KR": "사용 시 귀속",
+        "zh_TW": "使用後綁定",
+        "zh_CN": "使用后绑定"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/155111?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Personal Hologram",
+            "es_MX": "Holograma personal",
+            "pt_BR": "Holograma Pessoal",
+            "de_DE": "Persönliches Hologramm",
+            "en_GB": "Personal Hologram",
+            "es_ES": "Holograma personal",
+            "fr_FR": "Hologramme personnel",
+            "it_IT": "Ologramma Personale",
+            "ru_RU": "Личная голограмма",
+            "ko_KR": "개인용 홀로그램",
+            "zh_TW": "個人全像儀",
+            "zh_CN": "个人全息投影仪"
+          },
+          "id": 155111
+        },
+        "description": {
+          "en_US": "Use: Adds this toy to your Toy Box.\n\nCreate a temporary hologram of yourself for 1 min. (5 Min Cooldown)",
+          "es_MX": "Uso: Añade este juguete a tu caja de juguetes.\n\nCrea un holograma temporario de ti mismo durante 1 min. (5 min de tiempo de reutilización)",
+          "pt_BR": "Usar: Adiciona este brinquedo à sua Caixa de Brinquedo.\n\nCria um holograma temporário de si que dura 1 min. (5 min de recarga)",
+          "de_DE": "Benutzen: Fügt dieses Spielzeug Eurer Spielzeugkiste hinzu.\n\nErstellt 1 Min. lang ein temporäres Hologramm von Euch selbst. (5 Min. Abklingzeit)",
+          "en_GB": "Use: Adds this toy to your Toy Box.\n\nCreate a temporary hologram of yourself for 1 min. (5 Min Cooldown)",
+          "es_ES": "Uso: Añade este juguete a tu caja de juguetes.\n\nCrea un holograma temporal de ti mismo durante 1 min. (5 min de tiempo de reutilización).",
+          "fr_FR": "Utiliser : ajoute ce jouet à votre collection.\n\nCrée un hologramme temporaire à votre image qui dure 1 min. (5 min de recharge)",
+          "it_IT": "Usa: Aggiunge questo giocattolo alla tua collezione.\n\nCrei un ologramma temporaneo di te stesso per 1 min. (5 min di recupero)",
+          "ru_RU": "Использование: добавить игрушку в коллекцию.\n\nВы создаете собственную голограмму, существующую в течение 1 мин. (Восстановление: 5 мин.)",
+          "ko_KR": "사용 효과: 이 장난감을 장난감 상자에 추가합니다.\n\n1분 동안 자신의 홀로그램을 만들어냅니다. (5분 후 재사용 가능)",
+          "zh_TW": "使用：將這個玩具加入你的玩具箱。\n\n製造一個你自己暫時的立體影像，持續1分鐘。 (5分鐘冷卻時間)",
+          "zh_CN": "使用：将该玩具添加到你的玩具箱。\n\n制造一个短暂的个人全息投影，持续1分钟。 （5分钟冷却）"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 300000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "30",
+          "es_MX": "30",
+          "pt_BR": "30",
+          "de_DE": "30",
+          "en_GB": "30",
+          "es_ES": "30",
+          "fr_FR": "30",
+          "it_IT": "30",
+          "ru_RU": "30",
+          "ko_KR": "30",
+          "zh_TW": "30",
+          "zh_CN": "30"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Image may react to some emotes.",
+      "es_MX": "La imagen puede reaccionar a algunas emociones.",
+      "pt_BR": "A imagem parece reagir a algumas expressões.",
+      "de_DE": "Das Bild kann auf einige Emotes reagieren.",
+      "en_GB": "Image may react to some emotes.",
+      "es_ES": "Puede que la imagen reaccione a ciertas emociones.",
+      "fr_FR": "L'image peut réagir à certaines emotes.",
+      "it_IT": "L'immagine potrebbe rispondere ad alcune emote.",
+      "ru_RU": "Изображение может отреагировать на некоторые проявления эмоций.",
+      "ko_KR": "환영은 일부 감정표현에 반응할 수 있습니다.",
+      "zh_TW": "影像可能會和某些表情互動。",
+      "zh_CN": "图像可能会对某些表情做出反应。"
+    },
+    "is_subclass_hidden": true,
+    "toy": {
+      "en_US": "Toy",
+      "es_MX": "Juguete",
+      "pt_BR": "Brinquedo",
+      "de_DE": "Spielzeug",
+      "en_GB": "Toy",
+      "es_ES": "Juguete",
+      "fr_FR": "Jouet",
+      "it_IT": "Giocattolo",
+      "ru_RU": "Игрушка",
+      "ko_KR": "장난감",
+      "zh_TW": "玩具",
+      "zh_CN": "玩具"
+    }
+  },
+  "purchase_quantity": 1
+}

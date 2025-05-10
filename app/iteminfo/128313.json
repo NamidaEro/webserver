@@ -1,0 +1,270 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/128313?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 128313,
+  "name": {
+    "en_US": "Huge Ogre Cache",
+    "es_MX": "Caché de ogro enorme",
+    "pt_BR": "Depósito Ôgrico Enorme",
+    "de_DE": "Riesiger Ogervorrat",
+    "en_GB": "Huge Ogre Cache",
+    "es_ES": "Alijo de ogro enorme",
+    "fr_FR": "Cache ogre énorme",
+    "it_IT": "Cassa degli Ogre Smisurata",
+    "ru_RU": "Огромный тайник огров",
+    "ko_KR": "거대한 오우거 보관함",
+    "zh_TW": "一大箱巨魔貨物",
+    "zh_CN": "巨大的食人魔箱子"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 10,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/128313?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 128313
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "杂项"
+    },
+    "id": 15
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Junk",
+      "es_MX": "Chatarra",
+      "pt_BR": "Sucata",
+      "de_DE": "Plunder",
+      "en_GB": "Junk",
+      "es_ES": "Chatarra",
+      "fr_FR": "Camelote",
+      "it_IT": "Cianfrusaglie",
+      "ru_RU": "Хлам",
+      "ko_KR": "잡동사니",
+      "zh_TW": "垃圾",
+      "zh_CN": "垃圾"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/128313?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 128313
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Huge Ogre Cache",
+      "es_MX": "Caché de ogro enorme",
+      "pt_BR": "Depósito Ôgrico Enorme",
+      "de_DE": "Riesiger Ogervorrat",
+      "en_GB": "Huge Ogre Cache",
+      "es_ES": "Alijo de ogro enorme",
+      "fr_FR": "Cache ogre énorme",
+      "it_IT": "Cassa degli Ogre Smisurata",
+      "ru_RU": "Огромный тайник огров",
+      "ko_KR": "거대한 오우거 보관함",
+      "zh_TW": "一大箱巨魔貨物",
+      "zh_CN": "巨大的食人魔箱子"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/128313?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 128313
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "杂项"
+      },
+      "id": 15
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Junk",
+        "es_MX": "Chatarra",
+        "pt_BR": "Sucata",
+        "de_DE": "Plunder",
+        "en_GB": "Junk",
+        "es_ES": "Chatarra",
+        "fr_FR": "Camelote",
+        "it_IT": "Cianfrusaglie",
+        "ru_RU": "Хлам",
+        "ko_KR": "잡동사니",
+        "zh_TW": "垃圾",
+        "zh_CN": "垃圾"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/189386?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Convert to Garrison Resources",
+            "es_MX": "Convertir a recursos de la fortaleza",
+            "pt_BR": "Transformar em Recursos da Guarnição",
+            "de_DE": "In Garnisonsressourcen umwandeln",
+            "en_GB": "Convert to Garrison Resources",
+            "es_ES": "Convertir en recursos de la ciudadela",
+            "fr_FR": "Convertir en ressources de fief",
+            "it_IT": "Conversione in Risorse per la Guarnigione",
+            "ru_RU": "Преобразование в ресурсы гарнизона",
+            "ko_KR": "주둔지 자원으로 전환",
+            "zh_TW": "轉換為要塞資源",
+            "zh_CN": "转化为要塞资源"
+          },
+          "id": 189386
+        },
+        "description": {
+          "en_US": "Use: Gain 1,000 Garrison Resources. (3 Sec Cooldown)",
+          "es_MX": "Usar: Obtienes 1,000 recursos para la fortaleza (3 s de tiempo de reutilización)",
+          "pt_BR": "Usar: Ganha 1.000 Recursos da Guarnição. (3 s de recarga)",
+          "de_DE": "Benutzen: Erhaltet 1.000 Garnisonsressourcen. (3 Sek. Abklingzeit)",
+          "en_GB": "Use: Gain 1,000 Garrison Resources. (3 Sec Cooldown)",
+          "es_ES": "Uso: Obtienes 1000 recursos de la ciudadela. (3 s de tiempo de reutilización).",
+          "fr_FR": "Utiliser : Recevez 1000 ressources de fief. (3 s de recharge)",
+          "it_IT": "Usa: Fornisce 1.000 Risorse per la Guarnigione. (3 s di recupero)",
+          "ru_RU": "Использование: Получение 1000 ед. ресурсов гарнизона. (Восстановление: 3 с.)",
+          "ko_KR": "사용 효과: 1,000의 주둔지 자원을 얻습니다. (3초 후 재사용 가능)",
+          "zh_TW": "使用： 獲得1,000要塞資源。 (3秒冷卻時間)",
+          "zh_CN": "使用： 获得1,000份要塞资源。 （3秒冷却）"
+        }
+      }
+    ],
+    "requirements": {
+      "level": {
+        "value": 10,
+        "display_string": {
+          "en_US": "Requires Level 10",
+          "es_MX": "Necesitas ser de nivel 10",
+          "pt_BR": "Requer o Nível 10",
+          "de_DE": "Benötigt Stufe 10",
+          "en_GB": "Requires Level 10",
+          "es_ES": "Necesitas ser de nivel 10",
+          "fr_FR": "Niveau 10 requis",
+          "it_IT": "Richiede il livello 10",
+          "ru_RU": "Требуется 10-й уровень",
+          "ko_KR": "최소 요구 레벨: 10",
+          "zh_TW": "需要等級10",
+          "zh_CN": "需要等级 10"
+        }
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,270 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/138793?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 138793,
+  "name": {
+    "en_US": "Tome of Illusions: Pandaria",
+    "es_MX": "Tomo de ilusiones: Pandaria",
+    "pt_BR": "Tomo das Ilusões: Pandária",
+    "de_DE": "Foliant der Illusionen: Pandaria",
+    "en_GB": "Tome of Illusions: Pandaria",
+    "es_ES": "Escrito de ilusiones: Pandaria",
+    "fr_FR": "Tome des illusions : Pandarie",
+    "it_IT": "Tomo delle Illusioni - Pandaria",
+    "ru_RU": "Книга иллюзий: Пандария",
+    "ko_KR": "환영의 고서: 판다리아",
+    "zh_TW": "幻象寶典：潘達利亞",
+    "zh_CN": "幻象之书：潘达利亚"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 32,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/138793?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 138793
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Consumable",
+      "es_MX": "Consumible",
+      "pt_BR": "Consumível",
+      "de_DE": "Verbrauchbares",
+      "en_GB": "Consumable",
+      "es_ES": "Consumible",
+      "fr_FR": "Consommable",
+      "it_IT": "Consumabili",
+      "ru_RU": "Расходуемые",
+      "ko_KR": "소비용품",
+      "zh_TW": "消耗品",
+      "zh_CN": "消耗品"
+    },
+    "id": 0
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Other",
+      "es_MX": "Otros",
+      "pt_BR": "Outro",
+      "de_DE": "Sonstiges",
+      "en_GB": "Other",
+      "es_ES": "Otros",
+      "fr_FR": "Autres",
+      "it_IT": "Altro",
+      "ru_RU": "Другое",
+      "ko_KR": "기타",
+      "zh_TW": "其他",
+      "zh_CN": "其它"
+    },
+    "id": 8
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/138793?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 138793
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Tome of Illusions: Pandaria",
+      "es_MX": "Tomo de ilusiones: Pandaria",
+      "pt_BR": "Tomo das Ilusões: Pandária",
+      "de_DE": "Foliant der Illusionen: Pandaria",
+      "en_GB": "Tome of Illusions: Pandaria",
+      "es_ES": "Escrito de ilusiones: Pandaria",
+      "fr_FR": "Tome des illusions : Pandarie",
+      "it_IT": "Tomo delle Illusioni - Pandaria",
+      "ru_RU": "Книга иллюзий: Пандария",
+      "ko_KR": "환영의 고서: 판다리아",
+      "zh_TW": "幻象寶典：潘達利亞",
+      "zh_CN": "幻象之书：潘达利亚"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/138793?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 138793
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Consumable",
+        "es_MX": "Consumible",
+        "pt_BR": "Consumível",
+        "de_DE": "Verbrauchbares",
+        "en_GB": "Consumable",
+        "es_ES": "Consumible",
+        "fr_FR": "Consommable",
+        "it_IT": "Consumabili",
+        "ru_RU": "Расходуемые",
+        "ko_KR": "소비용품",
+        "zh_TW": "消耗品",
+        "zh_CN": "消耗品"
+      },
+      "id": 0
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Other",
+        "es_MX": "Otros",
+        "pt_BR": "Outro",
+        "de_DE": "Sonstiges",
+        "en_GB": "Other",
+        "es_ES": "Otros",
+        "fr_FR": "Autres",
+        "it_IT": "Altro",
+        "ru_RU": "Другое",
+        "ko_KR": "기타",
+        "zh_TW": "其他",
+        "zh_CN": "其它"
+      },
+      "id": 8
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/217175?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Tome of Illusions - Pandaria",
+            "es_MX": "Tomo de ilusiones: Pandaria",
+            "pt_BR": "Tomo das Ilusões - Pandária",
+            "de_DE": "Foliant der Illusionen: Pandaria",
+            "en_GB": "Tome of Illusions - Pandaria",
+            "es_ES": "Escrito de ilusiones - Pandaria",
+            "fr_FR": "Tome des illusions : Pandarie",
+            "it_IT": "Tomo delle Illusioni - Pandaria",
+            "ru_RU": "Книга иллюзий: Пандария",
+            "ko_KR": "환영의 고서 - 판다리아",
+            "zh_TW": "幻象寶典 - 潘達利亞",
+            "zh_CN": "幻象之书 - 潘达利亚"
+          },
+          "id": 217175
+        },
+        "description": {
+          "en_US": "Use: Collect the weapon enchantment appearances of Windsong, Elemental Force, and Breath of Yu'lon. (1 Sec Cooldown)",
+          "es_MX": "Usar: Reúne las apariencias de los encantamientos de armas de Son del viento, Fuerza elemental y Aliento de Yu'lon. (1 s de tiempo de reutilización)",
+          "pt_BR": "Usar: Coleta as aparências de encantamento de armas de Canção do Vento, Força Elemental e Sopro de Yu'lon. (1 s de recarga)",
+          "de_DE": "Benutzen: Sammelt die Waffenillusionsvorlagen 'Windweise', 'Elementarkraft' und 'Atem von Yu'lon'. (1 Sek. Abklingzeit)",
+          "en_GB": "Use: Collect the weapon enchantment appearances of Windsong, Elemental Force, and Breath of Yu'lon. (1 Sec Cooldown)",
+          "es_ES": "Uso: Recoge las apariciones de los encantamientos de arma Son del viento, Fuerza elemental y Aliento de Yu'lon. (1 s de tiempo de reutilización).",
+          "fr_FR": "Utiliser : Vous obtenez les apparence des enchantements d’arme Chant-du-Vent, Force élémentaire et Souffle de Yu’lon. (1 s de recharge)",
+          "it_IT": "Usa: Ottieni i seguenti aspetti degli incantamenti per arma: Soffiavento, Forza Elementale e Soffio di Yu'lon. (1 s di recupero)",
+          "ru_RU": "Использование: Дает иллюзии чар для оружия \"Песнь ветра\", \"Сила стихий\" и \"Дыхание Юй-лун\". (Восстановление: 1 с.)",
+          "ko_KR": "사용 효과: 바람노래, 원소력, 위론의 숨결 무기 마법부여의 형상을 수집합니다. (1초 후 재사용 가능)",
+          "zh_TW": "使用： 獲得風歌、元素力量、玉龍之息的武器附魔外觀。 (1秒冷卻時間)",
+          "zh_CN": "使用： 收集风歌，元素之力和玉珑之息的武器附魔外观。 （1秒冷却）"
+        }
+      }
+    ],
+    "requirements": {
+      "level": {
+        "value": 32,
+        "display_string": {
+          "en_US": "Requires Level 32",
+          "es_MX": "Necesitas ser de nivel 32",
+          "pt_BR": "Requer o Nível 32",
+          "de_DE": "Benötigt Stufe 32",
+          "en_GB": "Requires Level 32",
+          "es_ES": "Necesitas ser de nivel 32",
+          "fr_FR": "Niveau 32 requis",
+          "it_IT": "Richiede il livello 32",
+          "ru_RU": "Требуется 32-й уровень",
+          "ko_KR": "최소 요구 레벨: 32",
+          "zh_TW": "需要等級32",
+          "zh_CN": "需要等级 32"
+        }
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

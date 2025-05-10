@@ -1,0 +1,362 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/118342?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 118342,
+  "name": {
+    "en_US": "Cyclical Power Framing",
+    "es_MX": "Marco de energía cíclica",
+    "pt_BR": "Estrutura de Poder Cíclico",
+    "de_DE": "Zyklische Energiefassung",
+    "en_GB": "Cyclical Power Framing",
+    "es_ES": "Marco de energía cíclica",
+    "fr_FR": "Armature de puissance cyclique",
+    "it_IT": "Riquadro di Potenza Ciclica",
+    "ru_RU": "Стойка цикличной силовой установки",
+    "ko_KR": "순환 전원 틀",
+    "zh_TW": "週期能量框架",
+    "zh_CN": "循环能源内框"
+  },
+  "quality": {
+    "type": "COMMON",
+    "name": {
+      "en_US": "Common",
+      "es_MX": "Común",
+      "pt_BR": "Comum",
+      "de_DE": "Gewöhnlich",
+      "en_GB": "Common",
+      "es_ES": "Común",
+      "fr_FR": "Commun",
+      "it_IT": "Comune",
+      "ru_RU": "Обычное",
+      "ko_KR": "일반",
+      "zh_TW": "普通",
+      "zh_CN": "普通"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/118342?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 118342
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "杂项"
+    },
+    "id": 15
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Other",
+      "es_MX": "Otros",
+      "pt_BR": "Outro",
+      "de_DE": "Sonstiges",
+      "en_GB": "Other",
+      "es_ES": "Otros",
+      "fr_FR": "Autres",
+      "it_IT": "Altro",
+      "ru_RU": "Другое",
+      "ko_KR": "기타",
+      "zh_TW": "其他",
+      "zh_CN": "其它"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 128756,
+  "sell_price": 32189,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Part 3 of 4",
+    "es_MX": "Parte 3 de 4",
+    "pt_BR": "Parte 3 de 4",
+    "de_DE": "Teil 3 von 4",
+    "en_GB": "Part 3 of 4",
+    "es_ES": "Parte 3 de 4.",
+    "fr_FR": "Partie 3 sur 4",
+    "it_IT": "Parte 3 di 4.",
+    "ru_RU": "Часть 3 из 4",
+    "ko_KR": "3/4",
+    "zh_TW": "四之三",
+    "zh_CN": "零件3/4"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/118342?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 118342
+    },
+    "quality": {
+      "type": "COMMON",
+      "name": {
+        "en_US": "Common",
+        "es_MX": "Común",
+        "pt_BR": "Comum",
+        "de_DE": "Gewöhnlich",
+        "en_GB": "Common",
+        "es_ES": "Común",
+        "fr_FR": "Commun",
+        "it_IT": "Comune",
+        "ru_RU": "Обычное",
+        "ko_KR": "일반",
+        "zh_TW": "普通",
+        "zh_CN": "普通"
+      }
+    },
+    "name": {
+      "en_US": "Cyclical Power Framing",
+      "es_MX": "Marco de energía cíclica",
+      "pt_BR": "Estrutura de Poder Cíclico",
+      "de_DE": "Zyklische Energiefassung",
+      "en_GB": "Cyclical Power Framing",
+      "es_ES": "Marco de energía cíclica",
+      "fr_FR": "Armature de puissance cyclique",
+      "it_IT": "Riquadro di Potenza Ciclica",
+      "ru_RU": "Стойка цикличной силовой установки",
+      "ko_KR": "순환 전원 틀",
+      "zh_TW": "週期能量框架",
+      "zh_CN": "循环能源内框"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/118342?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 118342
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "杂项"
+      },
+      "id": 15
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Other",
+        "es_MX": "Otros",
+        "pt_BR": "Outro",
+        "de_DE": "Sonstiges",
+        "en_GB": "Other",
+        "es_ES": "Otros",
+        "fr_FR": "Autres",
+        "it_IT": "Altro",
+        "ru_RU": "Другое",
+        "ko_KR": "기타",
+        "zh_TW": "其他",
+        "zh_CN": "其它"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/174522?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Meld Cyclical Power Module",
+            "es_MX": "Une el módulo de poder cíclico",
+            "pt_BR": "Fundir Módulo de Poder Cíclico",
+            "de_DE": "Zu zyklischem Spannungsmodul kombinieren",
+            "en_GB": "Meld Cyclical Power Module",
+            "es_ES": "Combinar módulo de potencia cíclica",
+            "fr_FR": "Assembler un module de puissance cyclique",
+            "it_IT": "Creazione Modulo di Potenza Ciclica",
+            "ru_RU": "Собрать модуль цикличной силовой установки",
+            "ko_KR": "순환 전원 모듈 결합",
+            "zh_TW": "合併週期能量模組",
+            "zh_CN": "组装循环能源模块"
+          },
+          "id": 174522
+        },
+        "description": {
+          "en_US": "Use: Combine a cyclical power converter, housing, framing and sequencer into a cyclical power module.",
+          "es_MX": "Usar: Combina un transformador de poder cíclico, carcasa, marco y secuenciador para hacer un módulo de poder cíclico.",
+          "pt_BR": "Usar: Combina um conversor de poder cíclico, o chassi, a estrutura e o sequenciador em um módulo de poder cíclico.",
+          "de_DE": "Benutzen: Kombiniert einen zyklischen Spannungswandler, ein Gehäuse, eine Rahmung und einen Sequenzierer zu einem zyklischen Spannungsmodul.",
+          "en_GB": "Use: Combine a cyclical power converter, housing, framing and sequencer into a cyclical power module.",
+          "es_ES": "Uso: Combina un convertidor de potencia cíclica, una caja, una carcasa y un secuenciador para crear un módulo de potencia cíclica.",
+          "fr_FR": "Utiliser : Combinez un convertisseur, un hébergeur, une armature et un séquenceur de puissance cyclique pour créer un module de puissance cyclique.",
+          "it_IT": "Usa: Unisce un Convertitore di Potenza Ciclica, un Alloggiamento di Potenza Ciclica, un Riquadro di Potenza Ciclica e un Sequenziatore di Potenza Ciclica in un Modulo di Potenza Ciclica.",
+          "ru_RU": "Использование: Объединить трансформатор цикличной силовой установки, а также ее корпус, стойку и контроллер в модуль цикличной силовой установки.",
+          "ko_KR": "사용 효과: 순환 전원 변환기, 덮개, 틀, 순서기를 결합해 순환 전원 모듈을 만듭니다.",
+          "zh_TW": "使用： 將週期能量轉換器、外殼、框架和定序器組裝為週期能量模組。",
+          "zh_CN": "使用： 将一个循环能源转换器、外壳、内框和定序器组合为一个循环能源模块。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 32189,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "3",
+          "es_MX": "3",
+          "pt_BR": "3",
+          "de_DE": "3",
+          "en_GB": "3",
+          "es_ES": "3",
+          "fr_FR": "3",
+          "it_IT": "3",
+          "ru_RU": "3",
+          "ko_KR": "3",
+          "zh_TW": "3",
+          "zh_CN": "3"
+        },
+        "silver": {
+          "en_US": "21",
+          "es_MX": "21",
+          "pt_BR": "21",
+          "de_DE": "21",
+          "en_GB": "21",
+          "es_ES": "21",
+          "fr_FR": "21",
+          "it_IT": "21",
+          "ru_RU": "21",
+          "ko_KR": "21",
+          "zh_TW": "21",
+          "zh_CN": "21"
+        },
+        "copper": {
+          "en_US": "89",
+          "es_MX": "89",
+          "pt_BR": "89",
+          "de_DE": "89",
+          "en_GB": "89",
+          "es_ES": "89",
+          "fr_FR": "89",
+          "it_IT": "89",
+          "ru_RU": "89",
+          "ko_KR": "89",
+          "zh_TW": "89",
+          "zh_CN": "89"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Part 3 of 4",
+      "es_MX": "Parte 3 de 4",
+      "pt_BR": "Parte 3 de 4",
+      "de_DE": "Teil 3 von 4",
+      "en_GB": "Part 3 of 4",
+      "es_ES": "Parte 3 de 4.",
+      "fr_FR": "Partie 3 sur 4",
+      "it_IT": "Parte 3 di 4.",
+      "ru_RU": "Часть 3 из 4",
+      "ko_KR": "3/4",
+      "zh_TW": "四之三",
+      "zh_CN": "零件3/4"
+    },
+    "is_subclass_hidden": true,
+    "name_description": {
+      "display_string": {
+        "en_US": "Trading Post Part",
+        "es_MX": "Parte de puesto de venta",
+        "pt_BR": "Parte do Posto Comercial",
+        "de_DE": "Handelspostenteil",
+        "en_GB": "Trading Post Part",
+        "es_ES": "Parte del puesto comercial",
+        "fr_FR": "Pièce pour comptoir",
+        "it_IT": "Merce dell'Emporio",
+        "ru_RU": "Деталь модуля для торговой лавки",
+        "ko_KR": "교역소 물품",
+        "zh_TW": "貿易站零件",
+        "zh_CN": "货栈零件"
+      },
+      "color": {
+        "r": 0,
+        "g": 204,
+        "b": 255,
+        "a": 1
+      }
+    }
+  },
+  "purchase_quantity": 1
+}

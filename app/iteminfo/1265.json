@@ -1,0 +1,464 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/1265?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 1265,
+  "name": {
+    "en_US": "Scorpion Sting",
+    "es_MX": "Puya de escorpión",
+    "pt_BR": "Picada do Escorpião",
+    "de_DE": "Skorpionstachel",
+    "en_GB": "Scorpion Sting",
+    "es_ES": "Puya de escorpión",
+    "fr_FR": "Dard de scorpion",
+    "it_IT": "Aculeo di Scorpione",
+    "ru_RU": "Жало скорпиона",
+    "ko_KR": "전갈 쐐기",
+    "zh_TW": "蠍刺劍",
+    "zh_CN": "蝎刺剑"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 22,
+  "required_level": 14,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/1265?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 1265
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Sword",
+      "es_MX": "Espada",
+      "pt_BR": "Espada",
+      "de_DE": "Schwert",
+      "en_GB": "Sword",
+      "es_ES": "Espada",
+      "fr_FR": "Epée",
+      "it_IT": "Spada",
+      "ru_RU": "Меч",
+      "ko_KR": "도검",
+      "zh_TW": "劍",
+      "zh_CN": "剑"
+    },
+    "id": 7
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": {
+      "en_US": "One-Hand",
+      "es_MX": "Una mano",
+      "pt_BR": "Uma Mão",
+      "de_DE": "Einhändig",
+      "en_GB": "One-Hand",
+      "es_ES": "Una mano",
+      "fr_FR": "À une main",
+      "it_IT": "Una mano",
+      "ru_RU": "Одноручное",
+      "ko_KR": "한손 장비",
+      "zh_TW": "單手",
+      "zh_CN": "单手"
+    }
+  },
+  "purchase_price": 29211,
+  "sell_price": 5842,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/1265?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 1265
+    },
+    "context": 0,
+    "bonus_list": [
+      6659
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Scorpion Sting",
+      "es_MX": "Puya de escorpión",
+      "pt_BR": "Picada do Escorpião",
+      "de_DE": "Skorpionstachel",
+      "en_GB": "Scorpion Sting",
+      "es_ES": "Puya de escorpión",
+      "fr_FR": "Dard de scorpion",
+      "it_IT": "Aculeo di Scorpione",
+      "ru_RU": "Жало скорпиона",
+      "ko_KR": "전갈 쐐기",
+      "zh_TW": "蠍刺劍",
+      "zh_CN": "蝎刺剑"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/1265?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 1265
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Sword",
+        "es_MX": "Espada",
+        "pt_BR": "Espada",
+        "de_DE": "Schwert",
+        "en_GB": "Sword",
+        "es_ES": "Espada",
+        "fr_FR": "Epée",
+        "it_IT": "Spada",
+        "ru_RU": "Меч",
+        "ko_KR": "도검",
+        "zh_TW": "劍",
+        "zh_CN": "剑"
+      },
+      "id": 7
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": {
+        "en_US": "One-Hand",
+        "es_MX": "Una mano",
+        "pt_BR": "Uma Mão",
+        "de_DE": "Einhändig",
+        "en_GB": "One-Hand",
+        "es_ES": "Una mano",
+        "fr_FR": "À une main",
+        "it_IT": "Una mano",
+        "ru_RU": "Одноручное",
+        "ko_KR": "한손 장비",
+        "zh_TW": "單手",
+        "zh_CN": "单手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 318,
+        "max_value": 531,
+        "display_string": {
+          "en_US": "318 - 531 Damage",
+          "es_MX": "318 - 531 p. de daño",
+          "pt_BR": "318 - 531 de Dano",
+          "de_DE": "318 - 531 Schaden",
+          "en_GB": "318 - 531 Damage",
+          "es_ES": "318 - 531 p. de daño",
+          "fr_FR": "Dégâts : 318 - 531",
+          "it_IT": "318 - 531 Danni",
+          "ru_RU": "Урон: 318 - 531",
+          "ko_KR": "공격력 318 ~ 531",
+          "zh_TW": "318-531點傷害",
+          "zh_CN": "318 - 531点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": {
+          "en_US": "Speed 2.60",
+          "es_MX": "Velocidad 2.60",
+          "pt_BR": "Velocidade 2,60",
+          "de_DE": "Geschwindigkeit 2,60",
+          "en_GB": "Speed 2.60",
+          "es_ES": "Velocidad 2,60",
+          "fr_FR": "Vitesse 2,60",
+          "it_IT": "Velocità 2,60",
+          "ru_RU": "Скорость 2,60",
+          "ko_KR": "속도 2.60",
+          "zh_TW": "速度 2.60",
+          "zh_CN": "速度 2.60"
+        }
+      },
+      "dps": {
+        "value": 163.26923,
+        "display_string": {
+          "en_US": "(163.3 damage per second)",
+          "es_MX": "(163.3 p. de daño por segundo)",
+          "pt_BR": "(163,3 de dano por segundo)",
+          "de_DE": "(163,3 Schaden pro Sekunde)",
+          "en_GB": "(163.3 damage per second)",
+          "es_ES": "(163,3 p. de daño por segundo)",
+          "fr_FR": "(163,3 dégâts par seconde)",
+          "it_IT": "(163,3 danni per secondo)",
+          "ru_RU": "(163,3 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 163.3)",
+          "zh_TW": "(每秒163.3點傷害)",
+          "zh_CN": "（每秒伤害163.3）"
+        }
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/18208?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Poison",
+            "es_MX": "Veneno",
+            "pt_BR": "Veneno",
+            "de_DE": "Gift",
+            "en_GB": "Poison",
+            "es_ES": "Veneno",
+            "fr_FR": "Poison",
+            "it_IT": "Veleno",
+            "ru_RU": "Яд",
+            "ko_KR": "독",
+            "zh_TW": "毒",
+            "zh_CN": "中毒"
+          },
+          "id": 18208
+        },
+        "description": {
+          "en_US": "Chance on hit: Poisons target for 123 Nature damage every 5 sec for 25 sec.",
+          "es_MX": "Probabilidad al golpear: Envenena al objetivo infligiendo 123 p. de daño de Naturaleza cada 5 s durante 25 s.",
+          "pt_BR": "Chance ao acertar: Envenena o alvo, causando 123 de dano de Natureza a cada 5 s por 25 s.",
+          "de_DE": "Chance bei Treffer: Vergiftet das Ziel und fügt 25 Sek. lang alle 5 Sek. 123 Naturschaden zu.",
+          "en_GB": "Chance on hit: Poisons target for 123 Nature damage every 5 sec for 25 sec.",
+          "es_ES": "Probabilidad al acertar: Envenena al objetivo infligiendo 123 p. de daño de Naturaleza cada 5 s durante 25 s.",
+          "fr_FR": "Chances quand vous touchez : Empoisonne la cible et lui inflige 123 points de dégâts de Nature toutes les 5 s pendant 25 s.",
+          "it_IT": "Probabilità all'impatto: Avvelena il bersaglio, infliggendo 123 danni da natura ogni 5 s per 25 s.",
+          "ru_RU": "Возможный эффект при попадании: 123 ед. урона от сил природы раз в 5 сек. в течение 25 сек.",
+          "ko_KR": "발동 효과: 대상을 감염시켜 25초 동안 5초마다 123의 자연 피해를 입힙니다.",
+          "zh_TW": "擊中時可能： 使目標每5秒毒發一次，對其造成123點自然傷害，持續25秒。",
+          "zh_CN": "击中时可能： 使目标每5秒毒发一次，对其造成123点自然伤害，持续25秒。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 567872,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "56",
+          "es_MX": "56",
+          "pt_BR": "56",
+          "de_DE": "56",
+          "en_GB": "56",
+          "es_ES": "56",
+          "fr_FR": "56",
+          "it_IT": "56",
+          "ru_RU": "56",
+          "ko_KR": "56",
+          "zh_TW": "56",
+          "zh_CN": "56"
+        },
+        "silver": {
+          "en_US": "78",
+          "es_MX": "78",
+          "pt_BR": "78",
+          "de_DE": "78",
+          "en_GB": "78",
+          "es_ES": "78",
+          "fr_FR": "78",
+          "it_IT": "78",
+          "ru_RU": "78",
+          "ko_KR": "78",
+          "zh_TW": "78",
+          "zh_CN": "78"
+        },
+        "copper": {
+          "en_US": "72",
+          "es_MX": "72",
+          "pt_BR": "72",
+          "de_DE": "72",
+          "en_GB": "72",
+          "es_ES": "72",
+          "fr_FR": "72",
+          "it_IT": "72",
+          "ru_RU": "72",
+          "ko_KR": "72",
+          "zh_TW": "72",
+          "zh_CN": "72"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 14,
+        "display_string": {
+          "en_US": "Requires Level 14",
+          "es_MX": "Necesitas ser de nivel 14",
+          "pt_BR": "Requer o Nível 14",
+          "de_DE": "Benötigt Stufe 14",
+          "en_GB": "Requires Level 14",
+          "es_ES": "Necesitas ser de nivel 14",
+          "fr_FR": "Niveau 14 requis",
+          "it_IT": "Richiede il livello 14",
+          "ru_RU": "Требуется 14-й уровень",
+          "ko_KR": "최소 요구 레벨: 14",
+          "zh_TW": "需要等級14",
+          "zh_CN": "需要等级 14"
+        }
+      }
+    },
+    "level": {
+      "value": 362,
+      "display_string": {
+        "en_US": "Item Level 362",
+        "es_MX": "Nivel de objeto 362",
+        "pt_BR": "Nível do Item: 362",
+        "de_DE": "Gegenstandsstufe 362",
+        "en_GB": "Item Level 362",
+        "es_ES": "Nivel de objeto 362",
+        "fr_FR": "Niveau d'objet 362",
+        "it_IT": "Livello oggetto: 362",
+        "ru_RU": "Уровень предмета: 362",
+        "ko_KR": "아이템 레벨: 362",
+        "zh_TW": "物品等級362",
+        "zh_CN": "物品等级362"
+      }
+    },
+    "durability": {
+      "value": 70,
+      "display_string": {
+        "en_US": "Durability 70 / 70",
+        "es_MX": "Durabilidad 70 / 70",
+        "pt_BR": "Durabilidade 70 / 70",
+        "de_DE": "Haltbarkeit 70 / 70",
+        "en_GB": "Durability 70 / 70",
+        "es_ES": "Durabilidad 70 / 70",
+        "fr_FR": "Durabilité : 70 / 70",
+        "it_IT": "Integrità 70/70",
+        "ru_RU": "Прочность: 70 / 70",
+        "ko_KR": "내구도 70 / 70",
+        "zh_TW": "耐久度 70 / 70",
+        "zh_CN": "耐久度 70 / 70"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/353?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 353
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/11288?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 11288,
+  "name": {
+    "en_US": "Greater Magic Wand",
+    "es_MX": "Varita mágica superior",
+    "pt_BR": "Varinha Mágica Maior",
+    "de_DE": "Großer Magiezauberstab",
+    "en_GB": "Greater Magic Wand",
+    "es_ES": "Varita mágica superior",
+    "fr_FR": "Baguette magique supérieure",
+    "it_IT": "Bacchetta Magica Superiore",
+    "ru_RU": "Большой магический жезл",
+    "ko_KR": "상급 마술봉",
+    "zh_TW": "強效魔法杖",
+    "zh_CN": "强效魔法杖"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 11,
+  "required_level": 6,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/11288?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 11288
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Wand",
+      "es_MX": "Varita",
+      "pt_BR": "Varinha",
+      "de_DE": "Zauberstab",
+      "en_GB": "Wand",
+      "es_ES": "Varita",
+      "fr_FR": "Baguette",
+      "it_IT": "Bacchetta",
+      "ru_RU": "Жезл",
+      "ko_KR": "마법봉",
+      "zh_TW": "魔杖",
+      "zh_CN": "魔杖"
+    },
+    "id": 19
+  },
+  "inventory_type": {
+    "type": "RANGEDRIGHT",
+    "name": {
+      "en_US": "Ranged",
+      "es_MX": "A distancia",
+      "pt_BR": "Longo alcance",
+      "de_DE": "Distanz",
+      "en_GB": "Ranged",
+      "es_ES": "A distancia",
+      "fr_FR": "À distance",
+      "it_IT": "A distanza",
+      "ru_RU": "Оружие дальнего боя",
+      "ko_KR": "원거리 장비",
+      "zh_TW": "遠程",
+      "zh_CN": "远程"
+    }
+  },
+  "purchase_price": 7500,
+  "sell_price": 1500,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/11288?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 11288
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Greater Magic Wand",
+      "es_MX": "Varita mágica superior",
+      "pt_BR": "Varinha Mágica Maior",
+      "de_DE": "Großer Magiezauberstab",
+      "en_GB": "Greater Magic Wand",
+      "es_ES": "Varita mágica superior",
+      "fr_FR": "Baguette magique supérieure",
+      "it_IT": "Bacchetta Magica Superiore",
+      "ru_RU": "Большой магический жезл",
+      "ko_KR": "상급 마술봉",
+      "zh_TW": "強效魔法杖",
+      "zh_CN": "强效魔法杖"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/11288?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 11288
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/19?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Wand",
+        "es_MX": "Varita",
+        "pt_BR": "Varinha",
+        "de_DE": "Zauberstab",
+        "en_GB": "Wand",
+        "es_ES": "Varita",
+        "fr_FR": "Baguette",
+        "it_IT": "Bacchetta",
+        "ru_RU": "Жезл",
+        "ko_KR": "마법봉",
+        "zh_TW": "魔杖",
+        "zh_CN": "魔杖"
+      },
+      "id": 19
+    },
+    "inventory_type": {
+      "type": "RANGEDRIGHT",
+      "name": {
+        "en_US": "Ranged",
+        "es_MX": "A distancia",
+        "pt_BR": "Longo alcance",
+        "de_DE": "Distanz",
+        "en_GB": "Ranged",
+        "es_ES": "A distancia",
+        "fr_FR": "À distance",
+        "it_IT": "A distanza",
+        "ru_RU": "Оружие дальнего боя",
+        "ko_KR": "원거리 장비",
+        "zh_TW": "遠程",
+        "zh_CN": "远程"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 1,
+        "max_value": 2,
+        "display_string": {
+          "en_US": "1 - 2 Arcane Damage",
+          "es_MX": "1 - 2 p. de daño de Arcano",
+          "pt_BR": "1 - 2 Arcano de Dano",
+          "de_DE": "1 - 2 Arkanschaden",
+          "en_GB": "1 - 2 Arcane Damage",
+          "es_ES": "1 - 2 p. de daño de Arcano",
+          "fr_FR": "1 - 2 points de dégâts (Arcanes)",
+          "it_IT": "1 - 2 Danni da Arcano",
+          "ru_RU": "1 - 2 ед. |3-6(тайная магия)",
+          "ko_KR": "비전 피해 1~2",
+          "zh_TW": "1-2點秘法傷害",
+          "zh_CN": "1 - 2点奥术伤害"
+        },
+        "damage_class": {
+          "type": "ARCANE",
+          "name": {
+            "en_US": "Arcane",
+            "es_MX": "Arcano",
+            "pt_BR": "Arcano",
+            "de_DE": "Arkan",
+            "en_GB": "Arcane",
+            "es_ES": "Arcano",
+            "fr_FR": "Arcanes",
+            "it_IT": "Arcano",
+            "ru_RU": "тайная магия",
+            "ko_KR": "비전",
+            "zh_TW": "秘法",
+            "zh_CN": "奥术"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 2000,
+        "display_string": {
+          "en_US": "Speed 2.00",
+          "es_MX": "Velocidad 2.00",
+          "pt_BR": "Velocidade 2,00",
+          "de_DE": "Geschwindigkeit 2,00",
+          "en_GB": "Speed 2.00",
+          "es_ES": "Velocidad 2,00",
+          "fr_FR": "Vitesse 2,00",
+          "it_IT": "Velocità 2,00",
+          "ru_RU": "Скорость 2,00",
+          "ko_KR": "속도 2.00",
+          "zh_TW": "速度 2.00",
+          "zh_CN": "速度 2.00"
+        }
+      },
+      "dps": {
+        "value": 0.75,
+        "display_string": {
+          "en_US": "(0.8 damage per second)",
+          "es_MX": "(0.8 p. de daño por segundo)",
+          "pt_BR": "(0,8 de dano por segundo)",
+          "de_DE": "(0,8 Schaden pro Sekunde)",
+          "en_GB": "(0.8 damage per second)",
+          "es_ES": "(0,8 p. de daño por segundo)",
+          "fr_FR": "(0,8 dégâts par seconde)",
+          "it_IT": "(0,8 danni per secondo)",
+          "ru_RU": "(0,8 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 0.8)",
+          "zh_TW": "(每秒0.8點傷害)",
+          "zh_CN": "（每秒伤害0.8）"
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 6,
+        "display": {
+          "display_string": {
+            "en_US": "+6 Intellect",
+            "es_MX": "+6 intelecto",
+            "pt_BR": "+6 Intelecto",
+            "de_DE": "+6 Intelligenz",
+            "en_GB": "+6 Intellect",
+            "es_ES": "+6 intelecto",
+            "fr_FR": "+6 Intelligence",
+            "it_IT": "+6 Intelletto",
+            "ru_RU": "+6 к интеллекту",
+            "ko_KR": "지능 +6",
+            "zh_TW": "+6智力",
+            "zh_CN": "+6 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 2,
+        "display": {
+          "display_string": {
+            "en_US": "+2 Stamina",
+            "es_MX": "+2 aguante",
+            "pt_BR": "+2 Vigor",
+            "de_DE": "+2 Ausdauer",
+            "en_GB": "+2 Stamina",
+            "es_ES": "+2 aguante",
+            "fr_FR": "+2 Endurance",
+            "it_IT": "+2 Tempra",
+            "ru_RU": "+2 к выносливости",
+            "ko_KR": "체력 +2",
+            "zh_TW": "+2耐力",
+            "zh_CN": "+2 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "15",
+          "es_MX": "15",
+          "pt_BR": "15",
+          "de_DE": "15",
+          "en_GB": "15",
+          "es_ES": "15",
+          "fr_FR": "15",
+          "it_IT": "15",
+          "ru_RU": "15",
+          "ko_KR": "15",
+          "zh_TW": "15",
+          "zh_CN": "15"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 6,
+        "display_string": {
+          "en_US": "Requires Level 6",
+          "es_MX": "Necesitas ser de nivel 6",
+          "pt_BR": "Requer o Nível 6",
+          "de_DE": "Benötigt Stufe 6",
+          "en_GB": "Requires Level 6",
+          "es_ES": "Necesitas ser de nivel 6",
+          "fr_FR": "Niveau 6 requis",
+          "it_IT": "Richiede il livello 6",
+          "ru_RU": "Требуется 6-й уровень",
+          "ko_KR": "최소 요구 레벨: 6",
+          "zh_TW": "需要等級6",
+          "zh_CN": "需要等级 6"
+        }
+      }
+    },
+    "level": {
+      "value": 11,
+      "display_string": {
+        "en_US": "Item Level 11",
+        "es_MX": "Nivel de objeto 11",
+        "pt_BR": "Nível do Item: 11",
+        "de_DE": "Gegenstandsstufe 11",
+        "en_GB": "Item Level 11",
+        "es_ES": "Nivel de objeto 11",
+        "fr_FR": "Niveau d'objet 11",
+        "it_IT": "Livello oggetto: 11",
+        "ru_RU": "Уровень предмета: 11",
+        "ko_KR": "아이템 레벨: 11",
+        "zh_TW": "物品等級11",
+        "zh_CN": "物品等级11"
+      }
+    },
+    "durability": {
+      "value": 40,
+      "display_string": {
+        "en_US": "Durability 40 / 40",
+        "es_MX": "Durabilidad 40 / 40",
+        "pt_BR": "Durabilidade 40 / 40",
+        "de_DE": "Haltbarkeit 40 / 40",
+        "en_GB": "Durability 40 / 40",
+        "es_ES": "Durabilidad 40 / 40",
+        "fr_FR": "Durabilité : 40 / 40",
+        "it_IT": "Integrità 40/40",
+        "ru_RU": "Прочность: 40 / 40",
+        "ko_KR": "내구도 40 / 40",
+        "zh_TW": "耐久度 40 / 40",
+        "zh_CN": "耐久度 40 / 40"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/3401?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3401
+    }
+  ]
+}

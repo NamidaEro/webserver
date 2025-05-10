@@ -1,0 +1,722 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/23517?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 23517,
+  "name": {
+    "en_US": "Felsteel Gloves",
+    "es_MX": "Guantes de acero vil",
+    "pt_BR": "Luvas de Açovil",
+    "de_DE": "Teufelsstahlhandschuhe",
+    "en_GB": "Felsteel Gloves",
+    "es_ES": "Guantes de acero vil",
+    "fr_FR": "Gants en gangracier",
+    "it_IT": "Guanti di Vilacciaio",
+    "ru_RU": "Перчатки из оскверненной стали",
+    "ko_KR": "지옥강철 장갑",
+    "zh_TW": "魔鋼手套",
+    "zh_CN": "魔钢手套"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 32,
+  "required_level": 27,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/23517?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 23517
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Plate",
+      "es_MX": "Placas",
+      "pt_BR": "Placas",
+      "de_DE": "Platte",
+      "en_GB": "Plate",
+      "es_ES": "Placas",
+      "fr_FR": "Plaques",
+      "it_IT": "Piastre",
+      "ru_RU": "Латы",
+      "ko_KR": "판금",
+      "zh_TW": "鎧甲",
+      "zh_CN": "板甲"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "HAND",
+    "name": {
+      "en_US": "Hands",
+      "es_MX": "Manos",
+      "pt_BR": "Mãos",
+      "de_DE": "Hände",
+      "en_GB": "Hands",
+      "es_ES": "Manos",
+      "fr_FR": "Mains",
+      "it_IT": "Mani",
+      "ru_RU": "Кисти рук",
+      "ko_KR": "손",
+      "zh_TW": "手",
+      "zh_CN": "手部"
+    }
+  },
+  "purchase_price": 44998,
+  "sell_price": 8999,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/23517?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 23517
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": {
+            "en_US": "Prismatic Socket",
+            "es_MX": "Ranura prismática",
+            "pt_BR": "Engaste Prismático",
+            "de_DE": "Prismatischer Sockel",
+            "en_GB": "Prismatic Socket",
+            "es_ES": "Ranura prismática",
+            "fr_FR": "Châsse prismatique",
+            "it_IT": "Incavo Prismatico",
+            "ru_RU": "бесцветное гнездо",
+            "ko_KR": "다색 보석 홈",
+            "zh_TW": "多色插槽",
+            "zh_CN": "棱彩插槽"
+          }
+        }
+      },
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": {
+            "en_US": "Prismatic Socket",
+            "es_MX": "Ranura prismática",
+            "pt_BR": "Engaste Prismático",
+            "de_DE": "Prismatischer Sockel",
+            "en_GB": "Prismatic Socket",
+            "es_ES": "Ranura prismática",
+            "fr_FR": "Châsse prismatique",
+            "it_IT": "Incavo Prismatico",
+            "ru_RU": "бесцветное гнездо",
+            "ko_KR": "다색 보석 홈",
+            "zh_TW": "多色插槽",
+            "zh_CN": "棱彩插槽"
+          }
+        }
+      }
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Felsteel Gloves",
+      "es_MX": "Guantes de acero vil",
+      "pt_BR": "Luvas de Açovil",
+      "de_DE": "Teufelsstahlhandschuhe",
+      "en_GB": "Felsteel Gloves",
+      "es_ES": "Guantes de acero vil",
+      "fr_FR": "Gants en gangracier",
+      "it_IT": "Guanti di Vilacciaio",
+      "ru_RU": "Перчатки из оскверненной стали",
+      "ko_KR": "지옥강철 장갑",
+      "zh_TW": "魔鋼手套",
+      "zh_CN": "魔钢手套"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/23517?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 23517
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Plate",
+        "es_MX": "Placas",
+        "pt_BR": "Placas",
+        "de_DE": "Platte",
+        "en_GB": "Plate",
+        "es_ES": "Placas",
+        "fr_FR": "Plaques",
+        "it_IT": "Piastre",
+        "ru_RU": "Латы",
+        "ko_KR": "판금",
+        "zh_TW": "鎧甲",
+        "zh_CN": "板甲"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "HAND",
+      "name": {
+        "en_US": "Hands",
+        "es_MX": "Manos",
+        "pt_BR": "Mãos",
+        "de_DE": "Hände",
+        "en_GB": "Hands",
+        "es_ES": "Manos",
+        "fr_FR": "Mains",
+        "it_IT": "Mani",
+        "ru_RU": "Кисти рук",
+        "ko_KR": "손",
+        "zh_TW": "手",
+        "zh_CN": "手部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 8,
+      "display": {
+        "display_string": {
+          "en_US": "8 Armor",
+          "es_MX": "8 p. de armadura",
+          "pt_BR": "8 de Armadura",
+          "de_DE": "8 Rüstung",
+          "en_GB": "8 Armor",
+          "es_ES": "8 p. de armadura",
+          "fr_FR": "Armure : 8",
+          "it_IT": "8 Armatura",
+          "ru_RU": "Броня: 8",
+          "ko_KR": "방어도 8",
+          "zh_TW": "8點護甲",
+          "zh_CN": "8点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 3,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Stamina",
+            "es_MX": "+3 aguante",
+            "pt_BR": "+3 Vigor",
+            "de_DE": "+3 Ausdauer",
+            "en_GB": "+3 Stamina",
+            "es_ES": "+3 aguante",
+            "fr_FR": "+3 Endurance",
+            "it_IT": "+3 Tempra",
+            "ru_RU": "+3 к выносливости",
+            "ko_KR": "체력 +3",
+            "zh_TW": "+3耐力",
+            "zh_CN": "+3 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "DODGE_RATING",
+          "name": {
+            "en_US": "Dodge",
+            "es_MX": "esquivar",
+            "pt_BR": "Esquiva",
+            "de_DE": "Ausweichen",
+            "en_GB": "Dodge",
+            "es_ES": "esquivar",
+            "fr_FR": "Esquive",
+            "it_IT": "Indice di schivata",
+            "ru_RU": "к уклонению",
+            "ko_KR": "회피",
+            "zh_TW": "閃躲",
+            "zh_CN": "躲闪"
+          }
+        },
+        "value": 4,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+4 Dodge",
+            "es_MX": "+4 esquivar",
+            "pt_BR": "+4 Esquiva",
+            "de_DE": "+4 Ausweichen",
+            "en_GB": "+4 Dodge",
+            "es_ES": "+4 esquivar",
+            "fr_FR": "+4 Esquive",
+            "it_IT": "+4 Indice di schivata",
+            "ru_RU": "+4 к уклонению",
+            "ko_KR": "회피 +4",
+            "zh_TW": "+4閃躲",
+            "zh_CN": "+4 躲闪"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 1,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+1 Versatility",
+            "es_MX": "+1 versatilidad",
+            "pt_BR": "+1 Versatilidade",
+            "de_DE": "+1 Vielseitigkeit",
+            "en_GB": "+1 Versatility",
+            "es_ES": "+1 versatilidad",
+            "fr_FR": "+1 Polyvalence",
+            "it_IT": "+1 Indice di versatilità",
+            "ru_RU": "+1 к универсальности",
+            "ko_KR": "유연성 +1",
+            "zh_TW": "+1臨機應變",
+            "zh_CN": "+1 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "socket_bonus": {
+      "en_US": "Socket Bonus: +1 Parry",
+      "es_MX": "Bonus ranura: +1 parada",
+      "pt_BR": "Bônus de engaste: +1 de Aparo",
+      "de_DE": "Sockelbonus: +1 Parieren",
+      "en_GB": "Socket Bonus: +1 Parry",
+      "es_ES": "Bonus ranura: +1 parada",
+      "fr_FR": "Bonus de sertissage : +1 à la Parade",
+      "it_IT": "Bonus incavo: +1 Indice di Parata",
+      "ru_RU": "При соответствии цвета: +1 к вероятности парирования",
+      "ko_KR": "보석 장착 보너스: 무기 막기 +1",
+      "zh_TW": "插槽加成：+1招架",
+      "zh_CN": "镶孔奖励：+1 招架"
+    },
+    "sell_price": {
+      "value": 112,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "1",
+          "es_MX": "1",
+          "pt_BR": "1",
+          "de_DE": "1",
+          "en_GB": "1",
+          "es_ES": "1",
+          "fr_FR": "1",
+          "it_IT": "1",
+          "ru_RU": "1",
+          "ko_KR": "1",
+          "zh_TW": "1",
+          "zh_CN": "1"
+        },
+        "copper": {
+          "en_US": "12",
+          "es_MX": "12",
+          "pt_BR": "12",
+          "de_DE": "12",
+          "en_GB": "12",
+          "es_ES": "12",
+          "fr_FR": "12",
+          "it_IT": "12",
+          "ru_RU": "12",
+          "ko_KR": "12",
+          "zh_TW": "12",
+          "zh_CN": "12"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 27,
+        "display_string": {
+          "en_US": "Requires Level 27",
+          "es_MX": "Necesitas ser de nivel 27",
+          "pt_BR": "Requer o Nível 27",
+          "de_DE": "Benötigt Stufe 27",
+          "en_GB": "Requires Level 27",
+          "es_ES": "Necesitas ser de nivel 27",
+          "fr_FR": "Niveau 27 requis",
+          "it_IT": "Richiede il livello 27",
+          "ru_RU": "Требуется 27-й уровень",
+          "ko_KR": "최소 요구 레벨: 27",
+          "zh_TW": "需要等級27",
+          "zh_CN": "需要等级 27"
+        }
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://kr.api.blizzard.com/data/wow/item-set/569?namespace=static-11.1.5_60179-kr"
+        },
+        "name": {
+          "en_US": "Faith in Felsteel",
+          "es_MX": "Fe en el acero vil",
+          "pt_BR": "Fé em Açovil",
+          "de_DE": "Teufelsstählerner Wille",
+          "en_GB": "Faith in Felsteel",
+          "es_ES": "Fe en el acero vil",
+          "fr_FR": "Foi dans le gangracier",
+          "it_IT": "Fede nel Vildestriero",
+          "ru_RU": "Верность оскверненной стали",
+          "ko_KR": "지옥강철 전투장비",
+          "zh_TW": "信仰魔鋼",
+          "zh_CN": "魔钢的信仰"
+        },
+        "id": 569
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/23519?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Felsteel Helm",
+              "es_MX": "Yelmo de acero vil",
+              "pt_BR": "Elmo de Açovil",
+              "de_DE": "Teufelsstahlhelm",
+              "en_GB": "Felsteel Helm",
+              "es_ES": "Yelmo de acero vil",
+              "fr_FR": "Heaume en gangracier",
+              "it_IT": "Elmo di Vilacciaio",
+              "ru_RU": "Шлем из оскверненной стали",
+              "ko_KR": "지옥강철 투구",
+              "zh_TW": "魔鋼頭盔",
+              "zh_CN": "魔钢头盔"
+            },
+            "id": 23519
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/23518?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Felsteel Leggings",
+              "es_MX": "Leotardos de acero vil",
+              "pt_BR": "Perneiras de Açovil",
+              "de_DE": "Teufelsstahlgamaschen",
+              "en_GB": "Felsteel Leggings",
+              "es_ES": "Leotardos de acero vil",
+              "fr_FR": "Jambières en gangracier",
+              "it_IT": "Gambiere di Vilacciaio",
+              "ru_RU": "Поножи из оскверненной стали",
+              "ko_KR": "지옥강철 다리보호구",
+              "zh_TW": "魔鋼護腿",
+              "zh_CN": "魔钢护腿"
+            },
+            "id": 23518
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/23517?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Felsteel Gloves",
+              "es_MX": "Guantes de acero vil",
+              "pt_BR": "Luvas de Açovil",
+              "de_DE": "Teufelsstahlhandschuhe",
+              "en_GB": "Felsteel Gloves",
+              "es_ES": "Guantes de acero vil",
+              "fr_FR": "Gants en gangracier",
+              "it_IT": "Guanti di Vilacciaio",
+              "ru_RU": "Перчатки из оскверненной стали",
+              "ko_KR": "지옥강철 장갑",
+              "zh_TW": "魔鋼手套",
+              "zh_CN": "魔钢手套"
+            },
+            "id": 23517
+          }
+        }
+      ],
+      "effects": [
+        {
+          "display_string": {
+            "en_US": "(3) Set: +13 Strength.",
+            "es_MX": "(3) Bonif.: +13 p. de fuerza.",
+            "pt_BR": "(3) Conjunto: +13 Força.",
+            "de_DE": "(3) Set: +13 Stärke.",
+            "en_GB": "(3) Set: +13 Strength.",
+            "es_ES": "(3) Bonif.: +13 p. de fuerza.",
+            "fr_FR": "(3) Ensemble : +13 en Force.",
+            "it_IT": "Set (3): +13 Forza.",
+            "ru_RU": "Комплект (3 предмета): +13 к силе.",
+            "ko_KR": "(3) 세트 효과: 힘 +13",
+            "zh_TW": "(3)套裝：+13點力量。",
+            "zh_CN": "(3) 套装：+13 力量。"
+          },
+          "required_count": 3
+        }
+      ],
+      "display_string": {
+        "en_US": "Faith in Felsteel (0/3)",
+        "es_MX": "Fe en el acero vil (0/3)",
+        "pt_BR": "Fé em Açovil (0/3)",
+        "de_DE": "Teufelsstählerner Wille (0/3)",
+        "en_GB": "Faith in Felsteel (0/3)",
+        "es_ES": "Fe en el acero vil (0/3)",
+        "fr_FR": "Foi dans le gangracier (0/3)",
+        "it_IT": "Fede nel Vildestriero (0/3)",
+        "ru_RU": "Верность оскверненной стали (0/3)",
+        "ko_KR": "지옥강철 전투장비 (0/3)",
+        "zh_TW": "信仰魔鋼(0/3)",
+        "zh_CN": "魔钢的信仰（0/3）"
+      },
+      "requirements": {
+        "skill": {
+          "profession": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/profession/164?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Blacksmithing",
+              "es_MX": "Herrería",
+              "pt_BR": "Ferraria",
+              "de_DE": "Schmiedekunst",
+              "en_GB": "Blacksmithing",
+              "es_ES": "Herrería",
+              "fr_FR": "Forge",
+              "it_IT": "Forgiatura",
+              "ru_RU": "Кузнечное дело",
+              "ko_KR": "대장기술",
+              "zh_TW": "鍛造",
+              "zh_CN": "锻造"
+            },
+            "id": 164
+          },
+          "level": 350,
+          "display_string": {
+            "en_US": "Requires Blacksmithing (350)",
+            "es_MX": "Requiere Herrería (350)",
+            "pt_BR": "Requer Ferraria (350)",
+            "de_DE": "Benötigt Schmiedekunst (350)",
+            "en_GB": "Requires Blacksmithing (350)",
+            "es_ES": "Requiere Herrería (350)",
+            "fr_FR": "Forge (350) requis",
+            "it_IT": "Richiede: Forgiatura (350)",
+            "ru_RU": "Требуется: Кузнечное дело (350)",
+            "ko_KR": "요구 사항: 대장기술 (350)",
+            "zh_TW": "需要鍛造(350)",
+            "zh_CN": "需要锻造（350）"
+          }
+        }
+      }
+    },
+    "level": {
+      "value": 32,
+      "display_string": {
+        "en_US": "Item Level 32",
+        "es_MX": "Nivel de objeto 32",
+        "pt_BR": "Nível do Item: 32",
+        "de_DE": "Gegenstandsstufe 32",
+        "en_GB": "Item Level 32",
+        "es_ES": "Nivel de objeto 32",
+        "fr_FR": "Niveau d'objet 32",
+        "it_IT": "Livello oggetto: 32",
+        "ru_RU": "Уровень предмета: 32",
+        "ko_KR": "아이템 레벨: 32",
+        "zh_TW": "物品等級32",
+        "zh_CN": "物品等级32"
+      }
+    },
+    "durability": {
+      "value": 50,
+      "display_string": {
+        "en_US": "Durability 50 / 50",
+        "es_MX": "Durabilidad 50 / 50",
+        "pt_BR": "Durabilidade 50 / 50",
+        "de_DE": "Haltbarkeit 50 / 50",
+        "en_GB": "Durability 50 / 50",
+        "es_ES": "Durabilidad 50 / 50",
+        "fr_FR": "Durabilité : 50 / 50",
+        "it_IT": "Integrità 50/50",
+        "ru_RU": "Прочность: 50 / 50",
+        "ko_KR": "내구도 50 / 50",
+        "zh_TW": "耐久度 50 / 50",
+        "zh_CN": "耐久度 50 / 50"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/6221?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 6221
+    }
+  ]
+}

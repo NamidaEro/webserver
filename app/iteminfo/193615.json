@@ -1,0 +1,397 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/193615?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 193615,
+  "name": {
+    "en_US": "Jeweler's Cover",
+    "es_MX": "Cobertor de joyero",
+    "pt_BR": "Mantel do Joalheiro",
+    "de_DE": "Deckung des Juweliers",
+    "en_GB": "Jeweler's Cover",
+    "es_ES": "Protector de joyero",
+    "fr_FR": "Tablier de joaillerie",
+    "it_IT": "Insegna del Gioielliere",
+    "ru_RU": "Фартук ювелира",
+    "ko_KR": "보석세공인의 덮개",
+    "zh_TW": "珠寶師的護袍",
+    "zh_CN": "珠宝匠的护具"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 317,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/193615?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 193615
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Profession",
+      "es_MX": "Profesión",
+      "pt_BR": "Profissão",
+      "de_DE": "Beruf",
+      "en_GB": "Profession",
+      "es_ES": "Profesión",
+      "fr_FR": "Métier",
+      "it_IT": "Professione",
+      "ru_RU": "Профессия",
+      "ko_KR": "전문 기술",
+      "zh_TW": "專業技能",
+      "zh_CN": "专业技能"
+    },
+    "id": 19
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/11?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Jewelcrafting",
+      "es_MX": "Joyería",
+      "pt_BR": "Joalheria",
+      "de_DE": "Juwelierskunst",
+      "en_GB": "Jewelcrafting",
+      "es_ES": "Joyería",
+      "fr_FR": "Joaillerie",
+      "it_IT": "Oreficeria",
+      "ru_RU": "Ювелирное дело",
+      "ko_KR": "보석세공",
+      "zh_TW": "珠寶設計",
+      "zh_CN": "珠宝加工"
+    },
+    "id": 11
+  },
+  "inventory_type": {
+    "type": "PROFESSION_GEAR",
+    "name": {
+      "en_US": "Profession Equipment",
+      "es_MX": "Equipamiento de profesión",
+      "pt_BR": "Equipamento de Profissão",
+      "de_DE": "Berufsausrüstung",
+      "en_GB": "Profession Equipment",
+      "es_ES": "Equipamiento de profesión",
+      "fr_FR": "Équipements de métier",
+      "it_IT": "Equipaggiamento delle Professioni",
+      "ru_RU": "Экипировка профессии",
+      "ko_KR": "전문 기술 장비",
+      "zh_TW": "專業技能裝備",
+      "zh_CN": "专业装备"
+    }
+  },
+  "purchase_price": 100000,
+  "sell_price": 20000,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/193615?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 193615
+    },
+    "context": 0,
+    "bonus_list": [
+      8841,
+      8842
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Jeweler's Cover",
+      "es_MX": "Cobertor de joyero",
+      "pt_BR": "Mantel do Joalheiro",
+      "de_DE": "Deckung des Juweliers",
+      "en_GB": "Jeweler's Cover",
+      "es_ES": "Protector de joyero",
+      "fr_FR": "Tablier de joaillerie",
+      "it_IT": "Insegna del Gioielliere",
+      "ru_RU": "Фартук ювелира",
+      "ko_KR": "보석세공인의 덮개",
+      "zh_TW": "珠寶師的護袍",
+      "zh_CN": "珠宝匠的护具"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/193615?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 193615
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Profession",
+        "es_MX": "Profesión",
+        "pt_BR": "Profissão",
+        "de_DE": "Beruf",
+        "en_GB": "Profession",
+        "es_ES": "Profesión",
+        "fr_FR": "Métier",
+        "it_IT": "Professione",
+        "ru_RU": "Профессия",
+        "ko_KR": "전문 기술",
+        "zh_TW": "專業技能",
+        "zh_CN": "专业技能"
+      },
+      "id": 19
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/11?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Jewelcrafting",
+        "es_MX": "Joyería",
+        "pt_BR": "Joalheria",
+        "de_DE": "Juwelierskunst",
+        "en_GB": "Jewelcrafting",
+        "es_ES": "Joyería",
+        "fr_FR": "Joaillerie",
+        "it_IT": "Oreficeria",
+        "ru_RU": "Ювелирное дело",
+        "ko_KR": "보석세공",
+        "zh_TW": "珠寶設計",
+        "zh_CN": "珠宝加工"
+      },
+      "id": 11
+    },
+    "inventory_type": {
+      "type": "PROFESSION_GEAR",
+      "name": {
+        "en_US": "Profession Equipment",
+        "es_MX": "Equipamiento de profesión",
+        "pt_BR": "Equipamento de Profissão",
+        "de_DE": "Berufsausrüstung",
+        "en_GB": "Profession Equipment",
+        "es_ES": "Equipamiento de profesión",
+        "fr_FR": "Équipements de métier",
+        "it_IT": "Equipaggiamento delle Professioni",
+        "ru_RU": "Экипировка профессии",
+        "ko_KR": "전문 기술 장비",
+        "zh_TW": "專業技能裝備",
+        "zh_CN": "专业装备"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "limit_category": {
+      "en_US": "Unique-Equipped: Chest (1)",
+      "es_MX": "Único-Equipado: Pecho (1)",
+      "pt_BR": "Máximo equipado: Torso (1)",
+      "de_DE": "Einzigartig angelegt: Brust (1)",
+      "en_GB": "Unique-Equipped: Chest (1)",
+      "es_ES": "Único-Equipado: Torso (1)",
+      "fr_FR": "Unique - Équipé : Torse (1)",
+      "it_IT": "Unico equipaggiabile: Torso (1)",
+      "ru_RU": "Уникальный использующийся предмет: Грудь (1)",
+      "ko_KR": "고유 장착 아이템: 몸통 (1)",
+      "zh_TW": "僅可裝備一件：胸部(1)",
+      "zh_CN": "装备唯一：胸部 （1）"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "BONUS_STAT_PROFESSION_RESOURCEFULNESS",
+          "name": {
+            "en_US": "Resourcefulness",
+            "es_MX": "Inventiva",
+            "pt_BR": "Devolução de recursos",
+            "de_DE": "Einfallsreichtum",
+            "en_GB": "Resourcefulness",
+            "es_ES": "Ingenio",
+            "fr_FR": "Ingéniosité",
+            "it_IT": "Parsimonia",
+            "ru_RU": "Находчивость",
+            "ko_KR": "지혜",
+            "zh_TW": "精明",
+            "zh_CN": "充裕"
+          }
+        },
+        "value": 18,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+18 Resourcefulness",
+            "es_MX": "+18 Inventiva",
+            "pt_BR": "+18 Devolução de recursos",
+            "de_DE": "+18 Einfallsreichtum",
+            "en_GB": "+18 Resourcefulness",
+            "es_ES": "+18 Ingenio",
+            "fr_FR": "+18 Ingéniosité",
+            "it_IT": "+18 Parsimonia",
+            "ru_RU": "+18 Находчивость",
+            "ko_KR": "지혜 +18",
+            "zh_TW": "+18精明",
+            "zh_CN": "+18 充裕"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "BONUS_STAT_PROFESSION_CRAFTING_SPEED",
+          "name": {
+            "en_US": "Crafting Speed",
+            "es_MX": "Velocidad de fabricación",
+            "pt_BR": "Velocidade de criação",
+            "de_DE": "Herstellungsgeschwindigkeit",
+            "en_GB": "Crafting Speed",
+            "es_ES": "Velocidad de fabricación",
+            "fr_FR": "Vitesse d’artisanat",
+            "it_IT": "Velocità di creazione",
+            "ru_RU": "Скорость изготовления",
+            "ko_KR": "제작 속도",
+            "zh_TW": "製造速度",
+            "zh_CN": "制作速度"
+          }
+        },
+        "value": 28,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+28 Crafting Speed",
+            "es_MX": "+28 Velocidad de fabricación",
+            "pt_BR": "+28 Velocidade de criação",
+            "de_DE": "+28 Herstellungsgeschwindigkeit",
+            "en_GB": "+28 Crafting Speed",
+            "es_ES": "+28 Velocidad de fabricación",
+            "fr_FR": "+28 Vitesse d’artisanat",
+            "it_IT": "+28 Velocità di creazione",
+            "ru_RU": "+28 Скорость изготовления",
+            "ko_KR": "제작 속도 +28",
+            "zh_TW": "+28製造速度",
+            "zh_CN": "+28 制作速度"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 20000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    }
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,662 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/222835?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 222835,
+  "name": {
+    "en_US": "Pioneer's Perfected Cloak",
+    "es_MX": "Capa perfeccionada de pionero",
+    "pt_BR": "Manto Aperfeiçoado do Pioneiro",
+    "de_DE": "Perfektionierter Umhang des Pioniers",
+    "en_GB": "Pioneer's Perfected Cloak",
+    "es_ES": "Capa perfeccionada de pionero",
+    "fr_FR": "Cape parfaite de pionnier",
+    "it_IT": "Mantello Perfezionato del Pioniere",
+    "ru_RU": "Идеальный плащ первопроходца",
+    "ko_KR": "선구자의 완벽한 망토",
+    "zh_TW": "先鋒完美披風",
+    "zh_CN": "先锋的完善披风"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 447,
+  "required_level": 71,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/222835?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 222835
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "CLOAK",
+    "name": {
+      "en_US": "Back",
+      "es_MX": "Espalda",
+      "pt_BR": "Costas",
+      "de_DE": "Rücken",
+      "en_GB": "Back",
+      "es_ES": "Espalda",
+      "fr_FR": "Dos",
+      "it_IT": "Schiena",
+      "ru_RU": "Спина",
+      "ko_KR": "등",
+      "zh_TW": "背部",
+      "zh_CN": "背部"
+    }
+  },
+  "purchase_price": 104073,
+  "sell_price": 20814,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/222835?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 222835
+    },
+    "context": 0,
+    "bonus_list": [
+      11295,
+      11296,
+      4785
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Pioneer's Perfected Cloak",
+      "es_MX": "Capa perfeccionada de pionero",
+      "pt_BR": "Manto Aperfeiçoado do Pioneiro",
+      "de_DE": "Perfektionierter Umhang des Pioniers",
+      "en_GB": "Pioneer's Perfected Cloak",
+      "es_ES": "Capa perfeccionada de pionero",
+      "fr_FR": "Cape parfaite de pionnier",
+      "it_IT": "Mantello Perfezionato del Pioniere",
+      "ru_RU": "Идеальный плащ первопроходца",
+      "ko_KR": "선구자의 완벽한 망토",
+      "zh_TW": "先鋒完美披風",
+      "zh_CN": "先锋的完善披风"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/222835?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 222835
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "CLOAK",
+      "name": {
+        "en_US": "Back",
+        "es_MX": "Espalda",
+        "pt_BR": "Costas",
+        "de_DE": "Rücken",
+        "en_GB": "Back",
+        "es_ES": "Espalda",
+        "fr_FR": "Dos",
+        "it_IT": "Schiena",
+        "ru_RU": "Спина",
+        "ko_KR": "등",
+        "zh_TW": "背部",
+        "zh_CN": "背部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 688,
+      "display": {
+        "display_string": {
+          "en_US": "688 Armor",
+          "es_MX": "688 p. de armadura",
+          "pt_BR": "688 de Armadura",
+          "de_DE": "688 Rüstung",
+          "en_GB": "688 Armor",
+          "es_ES": "688 p. de armadura",
+          "fr_FR": "Armure : 688",
+          "it_IT": "688 Armatura",
+          "ru_RU": "Броня: 688",
+          "ko_KR": "방어도 688",
+          "zh_TW": "688點護甲",
+          "zh_CN": "688点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 672,
+        "display": {
+          "display_string": {
+            "en_US": "+672 Intellect",
+            "es_MX": "+672 intelecto",
+            "pt_BR": "+672 Intelecto",
+            "de_DE": "+672 Intelligenz",
+            "en_GB": "+672 Intellect",
+            "es_ES": "+672 intelecto",
+            "fr_FR": "+672 Intelligence",
+            "it_IT": "+672 Intelletto",
+            "ru_RU": "+672 к интеллекту",
+            "ko_KR": "지능 +672",
+            "zh_TW": "+672智力",
+            "zh_CN": "+672 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 672,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+672 Agility",
+            "es_MX": "+672 agilidad",
+            "pt_BR": "+672 Agilidade",
+            "de_DE": "+672 Beweglichkeit",
+            "en_GB": "+672 Agility",
+            "es_ES": "+672 agilidad",
+            "fr_FR": "+672 Agilité",
+            "it_IT": "+672 Agilità",
+            "ru_RU": "+672 к ловкости",
+            "ko_KR": "민첩성 +672",
+            "zh_TW": "+672敏捷",
+            "zh_CN": "+672 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": {
+            "en_US": "Strength",
+            "es_MX": "fuerza",
+            "pt_BR": "Força",
+            "de_DE": "Stärke",
+            "en_GB": "Strength",
+            "es_ES": "fuerza",
+            "fr_FR": "Force",
+            "it_IT": "Forza",
+            "ru_RU": "к силе",
+            "ko_KR": "힘",
+            "zh_TW": "力量",
+            "zh_CN": "力量"
+          }
+        },
+        "value": 672,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+672 Strength",
+            "es_MX": "+672 fuerza",
+            "pt_BR": "+672 Força",
+            "de_DE": "+672 Stärke",
+            "en_GB": "+672 Strength",
+            "es_ES": "+672 fuerza",
+            "fr_FR": "+672 Force",
+            "it_IT": "+672 Forza",
+            "ru_RU": "+672 к силе",
+            "ko_KR": "힘 +672",
+            "zh_TW": "+672力量",
+            "zh_CN": "+672 力量"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 3248,
+        "display": {
+          "display_string": {
+            "en_US": "+3,248 Stamina",
+            "es_MX": "+3,248 aguante",
+            "pt_BR": "+3.248 Vigor",
+            "de_DE": "+3.248 Ausdauer",
+            "en_GB": "+3,248 Stamina",
+            "es_ES": "+3248 aguante",
+            "fr_FR": "+3248 Endurance",
+            "it_IT": "+3.248 Tempra",
+            "ru_RU": "+3248 к выносливости",
+            "ko_KR": "체력 +3,248",
+            "zh_TW": "+3,248耐力",
+            "zh_CN": "+3,248 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 331,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+331 Critical Strike",
+            "es_MX": "+331 golpe crítico",
+            "pt_BR": "+331 Acerto Crítico",
+            "de_DE": "+331 Kritischer Trefferwert",
+            "en_GB": "+331 Critical Strike",
+            "es_ES": "+331 golpe crítico",
+            "fr_FR": "+331 Score de crit.",
+            "it_IT": "+331 Indice di critico",
+            "ru_RU": "+331 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +331",
+            "zh_TW": "+331致命一擊",
+            "zh_CN": "+331 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": {
+            "en_US": "Haste",
+            "es_MX": "celeridad",
+            "pt_BR": "Aceleração",
+            "de_DE": "Tempo",
+            "en_GB": "Haste",
+            "es_ES": "celeridad",
+            "fr_FR": "Hâte",
+            "it_IT": "Indice di celerità",
+            "ru_RU": "к скорости",
+            "ko_KR": "가속",
+            "zh_TW": "加速",
+            "zh_CN": "急速"
+          }
+        },
+        "value": 331,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+331 Haste",
+            "es_MX": "+331 celeridad",
+            "pt_BR": "+331 Aceleração",
+            "de_DE": "+331 Tempo",
+            "en_GB": "+331 Haste",
+            "es_ES": "+331 celeridad",
+            "fr_FR": "+331 Hâte",
+            "it_IT": "+331 Indice di celerità",
+            "ru_RU": "+331 к скорости",
+            "ko_KR": "가속 +331",
+            "zh_TW": "+331加速",
+            "zh_CN": "+331 急速"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 20814,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "silver": {
+          "en_US": "8",
+          "es_MX": "8",
+          "pt_BR": "8",
+          "de_DE": "8",
+          "en_GB": "8",
+          "es_ES": "8",
+          "fr_FR": "8",
+          "it_IT": "8",
+          "ru_RU": "8",
+          "ko_KR": "8",
+          "zh_TW": "8",
+          "zh_CN": "8"
+        },
+        "copper": {
+          "en_US": "14",
+          "es_MX": "14",
+          "pt_BR": "14",
+          "de_DE": "14",
+          "en_GB": "14",
+          "es_ES": "14",
+          "fr_FR": "14",
+          "it_IT": "14",
+          "ru_RU": "14",
+          "ko_KR": "14",
+          "zh_TW": "14",
+          "zh_CN": "14"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 71,
+        "display_string": {
+          "en_US": "Requires Level 71",
+          "es_MX": "Necesitas ser de nivel 71",
+          "pt_BR": "Requer o Nível 71",
+          "de_DE": "Benötigt Stufe 71",
+          "en_GB": "Requires Level 71",
+          "es_ES": "Necesitas ser de nivel 71",
+          "fr_FR": "Niveau 71 requis",
+          "it_IT": "Richiede il livello 71",
+          "ru_RU": "Требуется 71-й уровень",
+          "ko_KR": "최소 요구 레벨: 71",
+          "zh_TW": "需要等級71",
+          "zh_CN": "需要等级 71"
+        }
+      }
+    },
+    "level": {
+      "value": 515,
+      "display_string": {
+        "en_US": "Item Level 515",
+        "es_MX": "Nivel de objeto 515",
+        "pt_BR": "Nível do Item: 515",
+        "de_DE": "Gegenstandsstufe 515",
+        "en_GB": "Item Level 515",
+        "es_ES": "Nivel de objeto 515",
+        "fr_FR": "Niveau d'objet 515",
+        "it_IT": "Livello oggetto: 515",
+        "ru_RU": "Уровень предмета: 515",
+        "ko_KR": "아이템 레벨: 515",
+        "zh_TW": "物品等級515",
+        "zh_CN": "物品等级515"
+      }
+    },
+    "is_subclass_hidden": true,
+    "modified_crafting_stat": [
+      {
+        "id": 32,
+        "type": "CRIT_RATING",
+        "name": {
+          "en_US": "Critical Strike",
+          "es_MX": "golpe crítico",
+          "pt_BR": "Acerto Crítico",
+          "de_DE": "Kritischer Trefferwert",
+          "en_GB": "Critical Strike",
+          "es_ES": "golpe crítico",
+          "fr_FR": "Score de crit.",
+          "it_IT": "Indice di critico",
+          "ru_RU": "к критическому удару",
+          "ko_KR": "치명타 및 극대화",
+          "zh_TW": "致命一擊",
+          "zh_CN": "爆击"
+        }
+      },
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": {
+          "en_US": "Haste",
+          "es_MX": "celeridad",
+          "pt_BR": "Aceleração",
+          "de_DE": "Tempo",
+          "en_GB": "Haste",
+          "es_ES": "celeridad",
+          "fr_FR": "Hâte",
+          "it_IT": "Indice di celerità",
+          "ru_RU": "к скорости",
+          "ko_KR": "가속",
+          "zh_TW": "加速",
+          "zh_CN": "急速"
+        }
+      }
+    ]
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/90890?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 90890
+    }
+  ]
+}

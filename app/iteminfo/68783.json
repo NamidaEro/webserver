@@ -1,0 +1,593 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/68783?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 68783,
+  "name": {
+    "en_US": "Design: Burning Shadowspirit Diamond",
+    "es_MX": "Boceto: diamante de espíritu de las Sombras ardiente",
+    "pt_BR": "Desenho: Diamante Umbraspírito Abrasador",
+    "de_DE": "Vorlage: Brennender Irrlichtdiamant",
+    "en_GB": "Design: Burning Shadowspirit Diamond",
+    "es_ES": "Boceto: diamante de espíritu de las Sombras ardiente",
+    "fr_FR": "Dessin : Diamant ombresprit ardent",
+    "it_IT": "Modello: Diamante Spirito Tenebroso Ardente",
+    "ru_RU": "Эскиз: горящий мглистый алмаз",
+    "ko_KR": "디자인: 불타는 어둠영혼 다이아몬드",
+    "zh_TW": "設計圖：燃燒的影魂鑽石",
+    "zh_CN": "图鉴：燃烧之影魂钻石"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/68783?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 68783
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Jewelcrafting",
+      "es_MX": "Joyería",
+      "pt_BR": "Joalheria",
+      "de_DE": "Juwelierskunst",
+      "en_GB": "Jewelcrafting",
+      "es_ES": "Joyería",
+      "fr_FR": "Joaillerie",
+      "it_IT": "Oreficeria",
+      "ru_RU": "Ювелирное дело",
+      "ko_KR": "보석세공",
+      "zh_TW": "珠寶設計",
+      "zh_CN": "珠宝加工"
+    },
+    "id": 10
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 100000,
+  "sell_price": 25000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to cut a Burning Shadowspirit Diamond.",
+    "es_MX": "Te enseña a tallar un diamante de espíritu de las Sombras ardiente.",
+    "pt_BR": "Ensina a lapidar Diamante Umbraspírito Abrasador.",
+    "de_DE": "Lehrt Euch das Schleifen eines brennenden Irrlichtdiamanten.",
+    "en_GB": "Teaches you how to cut a Burning Shadowspirit Diamond.",
+    "es_ES": "Te enseña a tallar un diamante de espíritu de las Sombras ardiente.",
+    "fr_FR": "Vous apprend à tailler un Diamant ombresprit ardent.",
+    "it_IT": "Ti insegna a intagliare un Diamante Spirito Tenebroso Ardente.",
+    "ru_RU": "Обучает огранке горящего мглистого алмаза.",
+    "ko_KR": "불타는 어둠영혼 다이아몬드 세공법을 배웁니다.",
+    "zh_TW": "教你學會如何切割一個燃燒的影魂鑽石。",
+    "zh_CN": "教你学会切割燃烧之影魂钻石。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/68783?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 68783
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Design: Burning Shadowspirit Diamond",
+      "es_MX": "Boceto: diamante de espíritu de las Sombras ardiente",
+      "pt_BR": "Desenho: Diamante Umbraspírito Abrasador",
+      "de_DE": "Vorlage: Brennender Irrlichtdiamant",
+      "en_GB": "Design: Burning Shadowspirit Diamond",
+      "es_ES": "Boceto: diamante de espíritu de las Sombras ardiente",
+      "fr_FR": "Dessin : Diamant ombresprit ardent",
+      "it_IT": "Modello: Diamante Spirito Tenebroso Ardente",
+      "ru_RU": "Эскиз: горящий мглистый алмаз",
+      "ko_KR": "디자인: 불타는 어둠영혼 다이아몬드",
+      "zh_TW": "設計圖：燃燒的影魂鑽石",
+      "zh_CN": "图鉴：燃烧之影魂钻石"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/68783?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 68783
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Jewelcrafting",
+        "es_MX": "Joyería",
+        "pt_BR": "Joalheria",
+        "de_DE": "Juwelierskunst",
+        "en_GB": "Jewelcrafting",
+        "es_ES": "Joyería",
+        "fr_FR": "Joaillerie",
+        "it_IT": "Oreficeria",
+        "ru_RU": "Ювелирное дело",
+        "ko_KR": "보석세공",
+        "zh_TW": "珠寶設計",
+        "zh_CN": "珠宝加工"
+      },
+      "id": 10
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 25000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "silver": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2521?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Cataclysm Jewelcrafting",
+            "es_MX": "Joyería de Cataclysm",
+            "pt_BR": "Joalheria de Cataclysm",
+            "de_DE": "Juwelierskunst des Kataklysmus",
+            "en_GB": "Cataclysm Jewelcrafting",
+            "es_ES": "Joyería de Cataclysm",
+            "fr_FR": "Joaillerie de Cataclysm",
+            "it_IT": "Oreficeria di Cataclysm",
+            "ru_RU": "Ювелирное дело времен Катаклизма",
+            "ko_KR": "대격변 보석세공",
+            "zh_TW": "大災變珠寶設計",
+            "zh_CN": "大地的裂变珠宝加工"
+          },
+          "id": 2521
+        },
+        "level": 40,
+        "display_string": {
+          "en_US": "Requires Cataclysm Jewelcrafting (40)",
+          "es_MX": "Requiere Joyería de Cataclysm (40)",
+          "pt_BR": "Requer Joalheria de Cataclysm (40)",
+          "de_DE": "Benötigt Juwelierskunst des Kataklysmus (40)",
+          "en_GB": "Requires Cataclysm Jewelcrafting (40)",
+          "es_ES": "Requiere Joyería de Cataclysm (40)",
+          "fr_FR": "Joaillerie de Cataclysm (40) requis",
+          "it_IT": "Richiede: Oreficeria di Cataclysm (40)",
+          "ru_RU": "Требуется: Ювелирное дело времен Катаклизма (40)",
+          "ko_KR": "요구 사항: 대격변 보석세공 (40)",
+          "zh_TW": "需要大災變珠寶設計(40)",
+          "zh_CN": "需要大地的裂变珠宝加工（40）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to cut a Burning Shadowspirit Diamond.",
+      "es_MX": "Te enseña a tallar un diamante de espíritu de las Sombras ardiente.",
+      "pt_BR": "Ensina a lapidar Diamante Umbraspírito Abrasador.",
+      "de_DE": "Lehrt Euch das Schleifen eines brennenden Irrlichtdiamanten.",
+      "en_GB": "Teaches you how to cut a Burning Shadowspirit Diamond.",
+      "es_ES": "Te enseña a tallar un diamante de espíritu de las Sombras ardiente.",
+      "fr_FR": "Vous apprend à tailler un Diamant ombresprit ardent.",
+      "it_IT": "Ti insegna a intagliare un Diamante Spirito Tenebroso Ardente.",
+      "ru_RU": "Обучает огранке горящего мглистого алмаза.",
+      "ko_KR": "불타는 어둠영혼 다이아몬드 세공법을 배웁니다.",
+      "zh_TW": "教你學會如何切割一個燃燒的影魂鑽石。",
+      "zh_CN": "教你学会切割燃烧之影魂钻石。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/68780?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 68780
+        },
+        "quality": {
+          "type": "RARE",
+          "name": {
+            "en_US": "Rare",
+            "es_MX": "Raro",
+            "pt_BR": "Raro",
+            "de_DE": "Selten",
+            "en_GB": "Rare",
+            "es_ES": "Raro",
+            "fr_FR": "Rare",
+            "it_IT": "Raro",
+            "ru_RU": "Редкое",
+            "ko_KR": "희귀",
+            "zh_TW": "精良",
+            "zh_CN": "精良"
+          }
+        },
+        "name": {
+          "en_US": "Burning Shadowspirit Diamond",
+          "es_MX": "Diamante de espíritu de las Sombras ardiente",
+          "pt_BR": "Diamante Umbraspírito Abrasador",
+          "de_DE": "Brennender Irrlichtdiamant",
+          "en_GB": "Burning Shadowspirit Diamond",
+          "es_ES": "Diamante de espíritu de las Sombras ardiente",
+          "fr_FR": "Diamant ombresprit ardent",
+          "it_IT": "Diamante Spirito Tenebroso Ardente",
+          "ru_RU": "Горящий мглистый алмаз",
+          "ko_KR": "불타는 어둠영혼 다이아몬드",
+          "zh_TW": "燃燒的影魂鑽石",
+          "zh_CN": "燃烧之影魂钻石"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/68780?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 68780
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Gem",
+            "es_MX": "Gema",
+            "pt_BR": "Gema",
+            "de_DE": "Edelstein",
+            "en_GB": "Gem",
+            "es_ES": "Gema",
+            "fr_FR": "Gemme",
+            "it_IT": "Gemme",
+            "ru_RU": "Самоцвет",
+            "ko_KR": "보석",
+            "zh_TW": "寶石",
+            "zh_CN": "宝石"
+          },
+          "id": 3
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/3/item-subclass/9?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Other",
+            "es_MX": "Otros",
+            "pt_BR": "Outro",
+            "de_DE": "Sonstiges",
+            "en_GB": "Other",
+            "es_ES": "Otros",
+            "fr_FR": "Autres",
+            "it_IT": "Altro",
+            "ru_RU": "Другое",
+            "ko_KR": "기타",
+            "zh_TW": "其他",
+            "zh_CN": "其他"
+          },
+          "id": 9
+        },
+        "inventory_type": {
+          "type": "NON_EQUIP",
+          "name": {
+            "en_US": "Non-equippable",
+            "es_MX": "No equipable",
+            "pt_BR": "Não equipável",
+            "de_DE": "Nicht anlegbar",
+            "en_GB": "Non-equippable",
+            "es_ES": "No se puede equipar",
+            "fr_FR": "Objet hors équipement",
+            "it_IT": "Non equipaggiabile",
+            "ru_RU": "Неэкипируемое",
+            "ko_KR": "착용 불가",
+            "zh_TW": "無法裝備",
+            "zh_CN": "无法装备"
+          }
+        },
+        "sell_price": {
+          "value": 8250,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "82",
+              "es_MX": "82",
+              "pt_BR": "82",
+              "de_DE": "82",
+              "en_GB": "82",
+              "es_ES": "82",
+              "fr_FR": "82",
+              "it_IT": "82",
+              "ru_RU": "82",
+              "ko_KR": "82",
+              "zh_TW": "82",
+              "zh_CN": "82"
+            },
+            "copper": {
+              "en_US": "50",
+              "es_MX": "50",
+              "pt_BR": "50",
+              "de_DE": "50",
+              "en_GB": "50",
+              "es_ES": "50",
+              "fr_FR": "50",
+              "it_IT": "50",
+              "ru_RU": "50",
+              "ko_KR": "50",
+              "zh_TW": "50",
+              "zh_CN": "50"
+            }
+          }
+        },
+        "description": {
+          "en_US": "Only fits in a meta gem slot.",
+          "es_MX": "Solo encaja en una ranura de gema meta.",
+          "pt_BR": "Encaixa-se apenas em um engaste metagema.",
+          "de_DE": "Passt nur in einen Sockel der Kategorie Meta.",
+          "en_GB": "Only fits in a meta gem slot.",
+          "es_ES": "Solo encaja en una ranura de gema meta.",
+          "fr_FR": "Ne peut être serti que dans une châsse de méta-gemme.",
+          "it_IT": "Compatibile solo con un incavo Meta.",
+          "ru_RU": "Подходит только в гнездо для особого самоцвета.",
+          "ko_KR": "얼개 보석 홈에만 장착할 수 있습니다.",
+          "zh_TW": "只適用於變換寶石插槽。",
+          "zh_CN": "只能镶嵌在多彩宝石插槽中。"
+        },
+        "is_subclass_hidden": true,
+        "gem_properties": {
+          "min_item_level": {
+            "value": 10,
+            "display_string": {
+              "en_US": "Requires Item Level: 10",
+              "es_MX": "Requiere nivel de objeto: 10",
+              "pt_BR": "Requer nível de item: 10",
+              "de_DE": "Benötigte Gegenstandsstufe: 10",
+              "en_GB": "Requires Item Level: 10",
+              "es_ES": "Requiere nivel de objeto: 10",
+              "fr_FR": "Exige un objet de niveau : 10",
+              "it_IT": "Richiede un oggetto di livello 10.",
+              "ru_RU": "Требуемый уровень предметов: 10",
+              "ko_KR": "필요한 아이템 레벨: 10",
+              "zh_TW": "需要物品等級：10",
+              "zh_CN": "需要物品等级：10"
+            }
+          },
+          "effect": {
+            "en_US": "+6 Intellect and 3% Increased Critical Effect",
+            "es_MX": "+6 intelecto y 3% de efecto crítico aumentado",
+            "pt_BR": "+6 de Intelecto e aumento de 3% no Efeito Crítico",
+            "de_DE": "+6 Intelligenz und um 3% erhöhter kritischer Effekt",
+            "en_GB": "+6 Intellect and 3% Increased Critical Effect",
+            "es_ES": "+6 intelecto y 3% de efecto crítico aumentado",
+            "fr_FR": "+6 à l’Intelligence et effet critique augmenté de 3%",
+            "it_IT": "+6 Intelletto e 3% Aumento Effetti Critici",
+            "ru_RU": "+6 к интеллекту и 3% к силе критического эффекта",
+            "ko_KR": "지능 +6 / 치명타 및 극대화 효과 3%만큼 증가",
+            "zh_TW": "+6智力和3%致命一擊效果",
+            "zh_CN": "+6 智力，+3% 爆击效果"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/52303?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Shadowspirit Diamond",
+              "es_MX": "Diamante de espíritu de las Sombras",
+              "pt_BR": "Diamante Umbraspírito",
+              "de_DE": "Irrlichtdiamant",
+              "en_GB": "Shadowspirit Diamond",
+              "es_ES": "Diamante de espíritu de las Sombras",
+              "fr_FR": "Diamant ombresprit",
+              "it_IT": "Diamante Spirito Tenebroso",
+              "ru_RU": "Мглистый алмаз",
+              "ko_KR": "어둠영혼 다이아몬드",
+              "zh_TW": "影魂鑽石",
+              "zh_CN": "影魂钻石"
+            },
+            "id": 52303
+          },
+          "quantity": 1
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Shadowspirit Diamond",
+        "es_MX": "Diamante de espíritu de las Sombras",
+        "pt_BR": "Diamante Umbraspírito",
+        "de_DE": "Irrlichtdiamant",
+        "en_GB": "Shadowspirit Diamond",
+        "es_ES": "Diamante de espíritu de las Sombras",
+        "fr_FR": "Diamant ombresprit",
+        "it_IT": "Diamante Spirito Tenebroso",
+        "ru_RU": "Мглистый алмаз",
+        "ko_KR": "어둠영혼 다이아몬드",
+        "zh_TW": "影魂鑽石",
+        "zh_CN": "影魂钻石"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

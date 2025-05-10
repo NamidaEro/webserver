@@ -1,0 +1,293 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/18258?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 18258,
+  "name": {
+    "en_US": "Gordok Ogre Suit",
+    "es_MX": "Disfraz de ogro Gordok",
+    "pt_BR": "Traje de Ogro Gordok",
+    "de_DE": "Ogeranzug der Gordok",
+    "en_GB": "Gordok Ogre Suit",
+    "es_ES": "Disfraz de ogro Gordok",
+    "fr_FR": "Tenue d'ogre gordok",
+    "it_IT": "Completo da Ogre Gordok",
+    "ru_RU": "Броня огров Гордока",
+    "ko_KR": "고르독 오우거 위장복",
+    "zh_TW": "戈多克巨魔裝",
+    "zh_CN": "戈多克食人魔装"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 20,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/18258?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 18258
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Quest",
+      "es_MX": "Misión",
+      "pt_BR": "Missão",
+      "de_DE": "Quest",
+      "en_GB": "Quest",
+      "es_ES": "Misión",
+      "fr_FR": "Quête",
+      "it_IT": "Oggetti di missione",
+      "ru_RU": "Задание",
+      "ko_KR": "퀘스트",
+      "zh_TW": "任務",
+      "zh_CN": "任务"
+    },
+    "id": 12
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Quest",
+      "es_MX": "Misión",
+      "pt_BR": "Missão",
+      "de_DE": "Quest",
+      "en_GB": "Quest",
+      "es_ES": "Misión",
+      "fr_FR": "Quête",
+      "it_IT": "Missione",
+      "ru_RU": "Задания",
+      "ko_KR": "퀘스트",
+      "zh_TW": "任務",
+      "zh_CN": "任务"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 1,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "It lifts AND supports!",
+    "es_MX": "¡Eleva Y sostiene!",
+    "pt_BR": "Levanta E sustenta!",
+    "de_DE": "Macht groß UND stark!",
+    "en_GB": "It lifts AND supports!",
+    "es_ES": "¡Eleva Y sostiene!",
+    "fr_FR": "Soulève et soutient !",
+    "it_IT": "Modella e contiene!",
+    "ru_RU": "Утягивающий эффект и укрепление!",
+    "ko_KR": "모아 주고 올려 줘요!",
+    "zh_TW": "兼備擴大和支撐體型的功效!",
+    "zh_CN": "兼备扩大和支撑体型的功效！"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/18258?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 18258
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Gordok Ogre Suit",
+      "es_MX": "Disfraz de ogro Gordok",
+      "pt_BR": "Traje de Ogro Gordok",
+      "de_DE": "Ogeranzug der Gordok",
+      "en_GB": "Gordok Ogre Suit",
+      "es_ES": "Disfraz de ogro Gordok",
+      "fr_FR": "Tenue d'ogre gordok",
+      "it_IT": "Completo da Ogre Gordok",
+      "ru_RU": "Броня огров Гордока",
+      "ko_KR": "고르독 오우거 위장복",
+      "zh_TW": "戈多克巨魔裝",
+      "zh_CN": "戈多克食人魔装"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/18258?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 18258
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Quest",
+        "es_MX": "Misión",
+        "pt_BR": "Missão",
+        "de_DE": "Quest",
+        "en_GB": "Quest",
+        "es_ES": "Misión",
+        "fr_FR": "Quête",
+        "it_IT": "Oggetti di missione",
+        "ru_RU": "Задание",
+        "ko_KR": "퀘스트",
+        "zh_TW": "任務",
+        "zh_CN": "任务"
+      },
+      "id": 12
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Quest",
+        "es_MX": "Misión",
+        "pt_BR": "Missão",
+        "de_DE": "Quest",
+        "en_GB": "Quest",
+        "es_ES": "Misión",
+        "fr_FR": "Quête",
+        "it_IT": "Missione",
+        "ru_RU": "Задания",
+        "ko_KR": "퀘스트",
+        "zh_TW": "任務",
+        "zh_CN": "任务"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "unique_equipped": {
+      "en_US": "Unique",
+      "es_MX": "Único",
+      "pt_BR": "Único",
+      "de_DE": "Einzigartig",
+      "en_GB": "Unique",
+      "es_ES": "Único",
+      "fr_FR": "Unique",
+      "it_IT": "Unico",
+      "ru_RU": "Уникальный",
+      "ko_KR": "고유 아이템",
+      "zh_TW": "唯一",
+      "zh_CN": "唯一"
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/22736?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Gordok Ogre Suit",
+            "es_MX": "Disfraz de ogro Gordok",
+            "pt_BR": "Traje de Ogro Gordok",
+            "de_DE": "Ogeranzug der Gordok",
+            "en_GB": "Gordok Ogre Suit",
+            "es_ES": "Disfraz de ogro Gordok",
+            "fr_FR": "Tenue d'ogre gordok",
+            "it_IT": "Completo da Ogre Gordok",
+            "ru_RU": "Броня огров Гордока",
+            "ko_KR": "고르독 오우거 위장복",
+            "zh_TW": "戈多克巨魔裝",
+            "zh_CN": "戈多克食人魔装"
+          },
+          "id": 22736
+        },
+        "description": {
+          "en_US": "Use: Disguise yourself as one of the Gordok ogres, and maybe even fool a particular captain in the process!  The suit will only hold together for 10 min.",
+          "es_MX": "Usar: Disfrázate de ogro Gordok y... ¡quizás puedas engañar a un capitán! El disfraz solo será efectivo durante 10 min.",
+          "pt_BR": "Usar: Disfarce-se como um dos ogros Gordok e, quem sabe, talvez você até engane um certo capitão! O traje se desfaz em 10 min.",
+          "de_DE": "Benutzen: Verkleidet Euch als Oger der Gordok und täuscht vielleicht sogar einen gewissen Hauptmann! Der Anzug hält nur 10 Min. lang an.",
+          "en_GB": "Use: Disguise yourself as one of the Gordok ogres, and maybe even fool a particular captain in the process!  The suit will only hold together for 10 min.",
+          "es_ES": "Uso: Disfrázate de ogro Gordok y... ¡quizás puedas engañar a un capitán! El disfraz solo será efectivo durante 10 min.",
+          "fr_FR": "Utiliser : Vous permet de vous déguiser en Ogre gordok, voire de tromper un certain capitaine… Le déguisement ne dure que 10 min.",
+          "it_IT": "Usa: Travestiti da Ogre Gordok e potresti perfino ingannare un certo capitano! Il travestimento dura 10 min.",
+          "ru_RU": "Использование: Позволяет выдать себя за одного из огров Гордока и даже обмануть капитана! Маскировка продержится лишь 10 мин.",
+          "ko_KR": "사용 효과: 고르독 오우거로 변장합니다. 어쩌면 우두머리를 속여 넘길 수 있을지도 모릅니다. 위장복은 10분 동안 지속됩니다.",
+          "zh_TW": "使用： 將你偽裝成一個戈多克巨魔，甚至有可能騙過某個巨魔的軍官!這套衣服只能穿10分鐘。",
+          "zh_CN": "使用： 将你伪装成一个戈多克食人魔，甚至有可能骗过某个食人魔的军官！这套衣服只能穿10分钟。"
+        }
+      }
+    ],
+    "description": {
+      "en_US": "It lifts AND supports!",
+      "es_MX": "¡Eleva Y sostiene!",
+      "pt_BR": "Levanta E sustenta!",
+      "de_DE": "Macht groß UND stark!",
+      "en_GB": "It lifts AND supports!",
+      "es_ES": "¡Eleva Y sostiene!",
+      "fr_FR": "Soulève et soutient !",
+      "it_IT": "Modella e contiene!",
+      "ru_RU": "Утягивающий эффект и укрепление!",
+      "ko_KR": "모아 주고 올려 줘요!",
+      "zh_TW": "兼備擴大和支撐體型的功效!",
+      "zh_CN": "兼备扩大和支撑体型的功效！"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

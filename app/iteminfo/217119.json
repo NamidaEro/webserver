@@ -1,0 +1,590 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/217119?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 217119,
+  "name": {
+    "en_US": "Algari Competitor's Cloth Treads",
+    "es_MX": "Botines de tela de Competidor algari",
+    "pt_BR": "Botinas de Tecido do Competidor Algari",
+    "de_DE": "Stofftreter des Algariwettkämpfers",
+    "en_GB": "Algari Competitor's Cloth Treads",
+    "es_ES": "Botines de tela de competidor algariano",
+    "fr_FR": "Bottines de compétition algaries en tissu",
+    "it_IT": "Stivaletti di Stoffa del Concorrente Algari",
+    "ru_RU": "Тканевые ботфорты алгарийского бойца",
+    "ko_KR": "알가르 경쟁자의 천 발보호대",
+    "zh_TW": "阿爾加競技者布甲足靴",
+    "zh_CN": "阿加竞争者的布甲踏靴"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 577,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/217119?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 217119
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "FEET",
+    "name": {
+      "en_US": "Feet",
+      "es_MX": "Pies",
+      "pt_BR": "Pés",
+      "de_DE": "Füße",
+      "en_GB": "Feet",
+      "es_ES": "Pies",
+      "fr_FR": "Pieds",
+      "it_IT": "Piedi",
+      "ru_RU": "Ступни",
+      "ko_KR": "발",
+      "zh_TW": "腳",
+      "zh_CN": "脚部"
+    }
+  },
+  "purchase_price": 447835,
+  "sell_price": 89567,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/217119?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 217119
+    },
+    "context": 0,
+    "bonus_list": [
+      11318
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Algari Competitor's Cloth Treads",
+      "es_MX": "Botines de tela de Competidor algari",
+      "pt_BR": "Botinas de Tecido do Competidor Algari",
+      "de_DE": "Stofftreter des Algariwettkämpfers",
+      "en_GB": "Algari Competitor's Cloth Treads",
+      "es_ES": "Botines de tela de competidor algariano",
+      "fr_FR": "Bottines de compétition algaries en tissu",
+      "it_IT": "Stivaletti di Stoffa del Concorrente Algari",
+      "ru_RU": "Тканевые ботфорты алгарийского бойца",
+      "ko_KR": "알가르 경쟁자의 천 발보호대",
+      "zh_TW": "阿爾加競技者布甲足靴",
+      "zh_CN": "阿加竞争者的布甲踏靴"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/217119?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 217119
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "FEET",
+      "name": {
+        "en_US": "Feet",
+        "es_MX": "Pies",
+        "pt_BR": "Pés",
+        "de_DE": "Füße",
+        "en_GB": "Feet",
+        "es_ES": "Pies",
+        "fr_FR": "Pieds",
+        "it_IT": "Piedi",
+        "ru_RU": "Ступни",
+        "ko_KR": "발",
+        "zh_TW": "腳",
+        "zh_CN": "脚部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 803,
+      "display": {
+        "display_string": {
+          "en_US": "803 Armor",
+          "es_MX": "803 p. de armadura",
+          "pt_BR": "803 de Armadura",
+          "de_DE": "803 Rüstung",
+          "en_GB": "803 Armor",
+          "es_ES": "803 p. de armadura",
+          "fr_FR": "Armure : 803",
+          "it_IT": "803 Armatura",
+          "ru_RU": "Броня: 803",
+          "ko_KR": "방어도 803",
+          "zh_TW": "803點護甲",
+          "zh_CN": "803点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 1185,
+        "display": {
+          "display_string": {
+            "en_US": "+1,185 Intellect",
+            "es_MX": "+1,185 intelecto",
+            "pt_BR": "+1.185 Intelecto",
+            "de_DE": "+1.185 Intelligenz",
+            "en_GB": "+1,185 Intellect",
+            "es_ES": "+1185 intelecto",
+            "fr_FR": "+1185 Intelligence",
+            "it_IT": "+1.185 Intelletto",
+            "ru_RU": "+1185 к интеллекту",
+            "ko_KR": "지능 +1,185",
+            "zh_TW": "+1,185智力",
+            "zh_CN": "+1,185 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 5913,
+        "display": {
+          "display_string": {
+            "en_US": "+5,913 Stamina",
+            "es_MX": "+5,913 aguante",
+            "pt_BR": "+5.913 Vigor",
+            "de_DE": "+5.913 Ausdauer",
+            "en_GB": "+5,913 Stamina",
+            "es_ES": "+5913 aguante",
+            "fr_FR": "+5913 Endurance",
+            "it_IT": "+5.913 Tempra",
+            "ru_RU": "+5913 к выносливости",
+            "ko_KR": "체력 +5,913",
+            "zh_TW": "+5,913耐力",
+            "zh_CN": "+5,913 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": {
+            "en_US": "Haste",
+            "es_MX": "celeridad",
+            "pt_BR": "Aceleração",
+            "de_DE": "Tempo",
+            "en_GB": "Haste",
+            "es_ES": "celeridad",
+            "fr_FR": "Hâte",
+            "it_IT": "Indice di celerità",
+            "ru_RU": "к скорости",
+            "ko_KR": "가속",
+            "zh_TW": "加速",
+            "zh_CN": "急速"
+          }
+        },
+        "value": 487,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+487 Haste",
+            "es_MX": "+487 celeridad",
+            "pt_BR": "+487 Aceleração",
+            "de_DE": "+487 Tempo",
+            "en_GB": "+487 Haste",
+            "es_ES": "+487 celeridad",
+            "fr_FR": "+487 Hâte",
+            "it_IT": "+487 Indice di celerità",
+            "ru_RU": "+487 к скорости",
+            "ko_KR": "가속 +487",
+            "zh_TW": "+487加速",
+            "zh_CN": "+487 急速"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 487,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+487 Versatility",
+            "es_MX": "+487 versatilidad",
+            "pt_BR": "+487 Versatilidade",
+            "de_DE": "+487 Vielseitigkeit",
+            "en_GB": "+487 Versatility",
+            "es_ES": "+487 versatilidad",
+            "fr_FR": "+487 Polyvalence",
+            "it_IT": "+487 Indice di versatilità",
+            "ru_RU": "+487 к универсальности",
+            "ko_KR": "유연성 +487",
+            "zh_TW": "+487臨機應變",
+            "zh_CN": "+487 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 89567,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "8",
+          "es_MX": "8",
+          "pt_BR": "8",
+          "de_DE": "8",
+          "en_GB": "8",
+          "es_ES": "8",
+          "fr_FR": "8",
+          "it_IT": "8",
+          "ru_RU": "8",
+          "ko_KR": "8",
+          "zh_TW": "8",
+          "zh_CN": "8"
+        },
+        "silver": {
+          "en_US": "95",
+          "es_MX": "95",
+          "pt_BR": "95",
+          "de_DE": "95",
+          "en_GB": "95",
+          "es_ES": "95",
+          "fr_FR": "95",
+          "it_IT": "95",
+          "ru_RU": "95",
+          "ko_KR": "95",
+          "zh_TW": "95",
+          "zh_CN": "95"
+        },
+        "copper": {
+          "en_US": "67",
+          "es_MX": "67",
+          "pt_BR": "67",
+          "de_DE": "67",
+          "en_GB": "67",
+          "es_ES": "67",
+          "fr_FR": "67",
+          "it_IT": "67",
+          "ru_RU": "67",
+          "ko_KR": "67",
+          "zh_TW": "67",
+          "zh_CN": "67"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": {
+          "en_US": "Requires Level 80",
+          "es_MX": "Necesitas ser de nivel 80",
+          "pt_BR": "Requer o Nível 80",
+          "de_DE": "Benötigt Stufe 80",
+          "en_GB": "Requires Level 80",
+          "es_ES": "Necesitas ser de nivel 80",
+          "fr_FR": "Niveau 80 requis",
+          "it_IT": "Richiede il livello 80",
+          "ru_RU": "Требуется 80-й уровень",
+          "ko_KR": "최소 요구 레벨: 80",
+          "zh_TW": "需要等級80",
+          "zh_CN": "需要等级 80"
+        }
+      }
+    },
+    "level": {
+      "value": 545,
+      "display_string": {
+        "en_US": "Item Level 545",
+        "es_MX": "Nivel de objeto 545",
+        "pt_BR": "Nível do Item: 545",
+        "de_DE": "Gegenstandsstufe 545",
+        "en_GB": "Item Level 545",
+        "es_ES": "Nivel de objeto 545",
+        "fr_FR": "Niveau d'objet 545",
+        "it_IT": "Livello oggetto: 545",
+        "ru_RU": "Уровень предмета: 545",
+        "ko_KR": "아이템 레벨: 545",
+        "zh_TW": "物品等級545",
+        "zh_CN": "物品等级545"
+      }
+    },
+    "durability": {
+      "value": 55,
+      "display_string": {
+        "en_US": "Durability 55 / 55",
+        "es_MX": "Durabilidad 55 / 55",
+        "pt_BR": "Durabilidade 55 / 55",
+        "de_DE": "Haltbarkeit 55 / 55",
+        "en_GB": "Durability 55 / 55",
+        "es_ES": "Durabilidad 55 / 55",
+        "fr_FR": "Durabilité : 55 / 55",
+        "it_IT": "Integrità 55/55",
+        "ru_RU": "Прочность: 55 / 55",
+        "ko_KR": "내구도 55 / 55",
+        "zh_TW": "耐久度 55 / 55",
+        "zh_CN": "耐久度 55 / 55"
+      }
+    },
+    "modified_crafting_stat": [
+      {
+        "id": 40,
+        "type": "VERSATILITY",
+        "name": {
+          "en_US": "Versatility",
+          "es_MX": "versatilidad",
+          "pt_BR": "Versatilidade",
+          "de_DE": "Vielseitigkeit",
+          "en_GB": "Versatility",
+          "es_ES": "versatilidad",
+          "fr_FR": "Polyvalence",
+          "it_IT": "Indice di versatilità",
+          "ru_RU": "к универсальности",
+          "ko_KR": "유연성",
+          "zh_TW": "臨機應變",
+          "zh_CN": "全能"
+        }
+      },
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": {
+          "en_US": "Haste",
+          "es_MX": "celeridad",
+          "pt_BR": "Aceleração",
+          "de_DE": "Tempo",
+          "en_GB": "Haste",
+          "es_ES": "celeridad",
+          "fr_FR": "Hâte",
+          "it_IT": "Indice di celerità",
+          "ru_RU": "к скорости",
+          "ko_KR": "가속",
+          "zh_TW": "加速",
+          "zh_CN": "急速"
+        }
+      }
+    ]
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/90887?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 90887
+    }
+  ]
+}

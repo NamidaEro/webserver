@@ -1,0 +1,693 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/4416?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 4416,
+  "name": {
+    "en_US": "Schematic: Goblin Land Mine",
+    "es_MX": "Esquema: mina terrestre goblin",
+    "pt_BR": "Diagrama: Mina Terrestre Goblínica",
+    "de_DE": "Bauplan: Goblinlandmine",
+    "en_GB": "Schematic: Goblin Land Mine",
+    "es_ES": "Esquema: mina terrestre goblin",
+    "fr_FR": "Schéma : Mine gobeline",
+    "it_IT": "Schema: Mina dei Goblin",
+    "ru_RU": "Схема: гоблинская противопехотная мина",
+    "ko_KR": "설계도: 고블린 지뢰",
+    "zh_TW": "結構圖：哥布林地雷",
+    "zh_CN": "结构图：地精暗雷"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/4416?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 4416
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Engineering",
+      "es_MX": "Ingeniería",
+      "pt_BR": "Engenharia",
+      "de_DE": "Ingenieurskunst",
+      "en_GB": "Engineering",
+      "es_ES": "Ingeniería",
+      "fr_FR": "Ingénierie",
+      "it_IT": "Ingegneria",
+      "ru_RU": "Инженерное дело",
+      "ko_KR": "기계공학",
+      "zh_TW": "工程學",
+      "zh_CN": "工程学"
+    },
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 2400,
+  "sell_price": 600,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to make a Goblin Land Mine.",
+    "es_MX": "Te enseña a hacer una mina terrestre goblin.",
+    "pt_BR": "Ensina a fazer Mina Terrestre Goblínica.",
+    "de_DE": "Lehrt Euch die Herstellung einer Goblinlandmine.",
+    "en_GB": "Teaches you how to make a Goblin Land Mine.",
+    "es_ES": "Te enseña a hacer una mina terrestre goblin.",
+    "fr_FR": "Vous apprend à fabriquer une Mine gobeline.",
+    "it_IT": "Ti insegna a creare una Mina dei Goblin.",
+    "ru_RU": "Обучает изготовлению гоблинской противопехотной мины.",
+    "ko_KR": "고블린 지뢰 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作哥布林地雷。",
+    "zh_CN": "教你学会制作地精暗雷。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/4416?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 4416
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Schematic: Goblin Land Mine",
+      "es_MX": "Esquema: mina terrestre goblin",
+      "pt_BR": "Diagrama: Mina Terrestre Goblínica",
+      "de_DE": "Bauplan: Goblinlandmine",
+      "en_GB": "Schematic: Goblin Land Mine",
+      "es_ES": "Esquema: mina terrestre goblin",
+      "fr_FR": "Schéma : Mine gobeline",
+      "it_IT": "Schema: Mina dei Goblin",
+      "ru_RU": "Схема: гоблинская противопехотная мина",
+      "ko_KR": "설계도: 고블린 지뢰",
+      "zh_TW": "結構圖：哥布林地雷",
+      "zh_CN": "结构图：地精暗雷"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/4416?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 4416
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Engineering",
+        "es_MX": "Ingeniería",
+        "pt_BR": "Engenharia",
+        "de_DE": "Ingenieurskunst",
+        "en_GB": "Engineering",
+        "es_ES": "Ingeniería",
+        "fr_FR": "Ingénierie",
+        "it_IT": "Ingegneria",
+        "ru_RU": "Инженерное дело",
+        "ko_KR": "기계공학",
+        "zh_TW": "工程學",
+        "zh_CN": "工程学"
+      },
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/3968?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Goblin Land Mine",
+            "es_MX": "Mina terrestre goblin",
+            "pt_BR": "Mina Terrestre Goblínica",
+            "de_DE": "Goblinlandmine",
+            "en_GB": "Goblin Land Mine",
+            "es_ES": "Mina terrestre goblin",
+            "fr_FR": "Mine gobeline",
+            "it_IT": "Mina dei Goblin",
+            "ru_RU": "Гоблинская противопехотная мина",
+            "ko_KR": "고블린 지뢰",
+            "zh_TW": "哥布林地雷",
+            "zh_CN": "地精暗雷"
+          },
+          "id": 3968
+        },
+        "description": {
+          "en_US": "Use: Teaches you how to make a Goblin Land Mine.",
+          "es_MX": "Usar: Te enseña a hacer una mina terrestre goblin.",
+          "pt_BR": "Usar: Ensina a fazer Mina Terrestre Goblínica.",
+          "de_DE": "Benutzen: Lehrt Euch die Herstellung einer Goblinlandmine.",
+          "en_GB": "Use: Teaches you how to make a Goblin Land Mine.",
+          "es_ES": "Uso: Te enseña a hacer una mina terrestre goblin.",
+          "fr_FR": "Utiliser : Vous apprend à fabriquer une Mine gobeline.",
+          "it_IT": "Usa: Ti insegna a creare una Mina dei Goblin.",
+          "ru_RU": "Использование: Обучает изготовлению гоблинской противопехотной мины.",
+          "ko_KR": "사용 효과: 고블린 지뢰 만드는 법을 배웁니다.",
+          "zh_TW": "使用： 教你學會如何製作哥布林地雷。",
+          "zh_CN": "使用： 教你学会制作地精暗雷。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 600,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "6",
+          "es_MX": "6",
+          "pt_BR": "6",
+          "de_DE": "6",
+          "en_GB": "6",
+          "es_ES": "6",
+          "fr_FR": "6",
+          "it_IT": "6",
+          "ru_RU": "6",
+          "ko_KR": "6",
+          "zh_TW": "6",
+          "zh_CN": "6"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Engineering",
+            "es_MX": "Ingeniería clásica",
+            "pt_BR": "Engenharia do Classic",
+            "de_DE": "Klassische Ingenieurskunst",
+            "en_GB": "Classic Engineering",
+            "es_ES": "Ingeniería clásica",
+            "fr_FR": "Ingénierie classique",
+            "it_IT": "Ingegneria Classica",
+            "ru_RU": "Классическое инженерное дело",
+            "ko_KR": "옛 기계공학",
+            "zh_TW": "艾澤拉斯工程學",
+            "zh_CN": "经典旧世工程学"
+          },
+          "id": 2506
+        },
+        "level": 195,
+        "display_string": {
+          "en_US": "Requires Classic Engineering (195)",
+          "es_MX": "Requiere Ingeniería clásica (195)",
+          "pt_BR": "Requer Engenharia do Classic (195)",
+          "de_DE": "Benötigt Klassische Ingenieurskunst (195)",
+          "en_GB": "Requires Classic Engineering (195)",
+          "es_ES": "Requiere Ingeniería clásica (195)",
+          "fr_FR": "Ingénierie classique (195) requis",
+          "it_IT": "Richiede: Ingegneria Classica (195)",
+          "ru_RU": "Требуется: Классическое инженерное дело (195)",
+          "ko_KR": "요구 사항: 옛 기계공학 (195)",
+          "zh_TW": "需要艾澤拉斯工程學(195)",
+          "zh_CN": "需要经典旧世工程学（195）"
+        }
+      }
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/4395?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 4395
+        },
+        "quality": {
+          "type": "COMMON",
+          "name": {
+            "en_US": "Common",
+            "es_MX": "Común",
+            "pt_BR": "Comum",
+            "de_DE": "Gewöhnlich",
+            "en_GB": "Common",
+            "es_ES": "Común",
+            "fr_FR": "Commun",
+            "it_IT": "Comune",
+            "ru_RU": "Обычное",
+            "ko_KR": "일반",
+            "zh_TW": "普通",
+            "zh_CN": "普通"
+          }
+        },
+        "name": {
+          "en_US": "Goblin Land Mine",
+          "es_MX": "Mina terrestre goblin",
+          "pt_BR": "Mina Terrestre Goblínica",
+          "de_DE": "Goblinlandmine",
+          "en_GB": "Goblin Land Mine",
+          "es_ES": "Mina terrestre goblin",
+          "fr_FR": "Mine gobeline",
+          "it_IT": "Mina dei Goblin",
+          "ru_RU": "Гоблинская противопехотная мина",
+          "ko_KR": "고블린 지뢰",
+          "zh_TW": "哥布林地雷",
+          "zh_CN": "地精暗雷"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/4395?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 4395
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Consumable",
+            "es_MX": "Consumible",
+            "pt_BR": "Consumível",
+            "de_DE": "Verbrauchbares",
+            "en_GB": "Consumable",
+            "es_ES": "Consumible",
+            "fr_FR": "Consommable",
+            "it_IT": "Consumabili",
+            "ru_RU": "Расходуемые",
+            "ko_KR": "소비용품",
+            "zh_TW": "消耗品",
+            "zh_CN": "消耗品"
+          },
+          "id": 0
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Explosives and Devices",
+            "es_MX": "Explosivos y dispositivos",
+            "pt_BR": "Explosivos e Dispositivos",
+            "de_DE": "Sprengstoff und Geräte",
+            "en_GB": "Explosives and Devices",
+            "es_ES": "Explosivos y dispositivos",
+            "fr_FR": "Explosifs et appareils",
+            "it_IT": "Esplosivi e congegni",
+            "ru_RU": "Взрывчатка и устройства",
+            "ko_KR": "폭발물 및 장치",
+            "zh_TW": "爆裂物與裝置",
+            "zh_CN": "爆炸物与装置"
+          },
+          "id": 0
+        },
+        "inventory_type": {
+          "type": "NON_EQUIP",
+          "name": {
+            "en_US": "Non-equippable",
+            "es_MX": "No equipable",
+            "pt_BR": "Não equipável",
+            "de_DE": "Nicht anlegbar",
+            "en_GB": "Non-equippable",
+            "es_ES": "No se puede equipar",
+            "fr_FR": "Objet hors équipement",
+            "it_IT": "Non equipaggiabile",
+            "ru_RU": "Неэкипируемое",
+            "ko_KR": "착용 불가",
+            "zh_TW": "無法裝備",
+            "zh_CN": "无法装备"
+          }
+        },
+        "spells": [
+          {
+            "spell": {
+              "key": {
+                "href": "https://kr.api.blizzard.com/data/wow/spell/4100?namespace=static-11.1.5_60179-kr"
+              },
+              "name": {
+                "en_US": "Goblin Land Mine",
+                "es_MX": "Mina terrestre goblin",
+                "pt_BR": "Mina Terrestre Goblínica",
+                "de_DE": "Goblinlandmine",
+                "en_GB": "Goblin Land Mine",
+                "es_ES": "Mina terrestre goblin",
+                "fr_FR": "Mine gobeline",
+                "it_IT": "Mina dei Goblin",
+                "ru_RU": "Гоблинская противопехотная мина",
+                "ko_KR": "고블린 지뢰",
+                "zh_TW": "哥布林地雷",
+                "zh_CN": "地精暗雷"
+              },
+              "id": 4100
+            },
+            "description": {
+              "en_US": "Use: Places the Goblin Land Mine on the ground.  It will explode for 23 fire damage the next time a hostile creature passes near it.  The mine has a duration of 1 min. (1 Min Cooldown)",
+              "es_MX": "Usar: Deja la mina terrestre goblin en el suelo. Cuando una criatura hostil pase cerca de ella, la mina explotará y causará 23 p. de daño de Fuego. La mina dura 1 min. (1 min de tiempo de reutilización)",
+              "pt_BR": "Usar: Coloca uma Mina Terrestre Goblínica no chão. Ela explodirá quando a próxima criatura hostil passar perto dela, causando 23 de dano de Fogo. A mina dura 1 min. (1 min de recarga)",
+              "de_DE": "Benutzen: Platziert die Goblinlandmine auf dem Boden. Sie explodiert, sobald eine feindliche Kreatur an ihr vorbeigeht, und fügt ihr 23 Feuerschaden zu. Die Mine ist 1 Min. lang aktiv. (1 Min. Abklingzeit)",
+              "en_GB": "Use: Places the Goblin Land Mine on the ground.  It will explode for 23 fire damage the next time a hostile creature passes near it.  The mine has a duration of 1 min. (1 Min Cooldown)",
+              "es_ES": "Uso: Deja la mina terrestre goblin en el suelo. Cuando una criatura hostil pase cerca de ella, la mina explotará y causará 23 p. de daño de Fuego. La mina dura 1 min. (1 min de tiempo de reutilización).",
+              "fr_FR": "Utiliser : Place la Mine gobeline au sol. Elle explose et inflige 23 points de dégâts de Feu à la prochaine créature hostile qui s'en approche. La mine a une durée de 1 min. (1 min de recharge)",
+              "it_IT": "Usa: Piazza la Mina dei Goblin sul terreno. La mina esplode per 23 danni da fuoco quando una creatura ostile si avvicina. La mina dura 1 min. (1 min di recupero)",
+              "ru_RU": "Использование: Установка на землю гоблинской противопехотной мины, которая взорвется, когда мимо нее пройдет противник и нанесет ему 23 ед. урона от огня. Мина действует в течение 1 мин. (Восстановление: 1 мин.)",
+              "ko_KR": "사용 효과: 고블린 지뢰를 지면에 설치합니다. 주변에 적대적인 대상이 지나가면 폭발하여 23의 화염 피해를 입힙니다. 지뢰는 1분 동안 지속됩니다. (1분 후 재사용 가능)",
+              "zh_TW": "使用： 在地面上埋設一枚地雷，如果任何有敵意的生物走近地雷，它就會自動爆炸，對其造成23點火焰傷害。地雷有效時限為1分鐘。 (1分鐘冷卻時間)",
+              "zh_CN": "使用： 在地面上埋设一枚地雷，如果任何有敌意的生物走近地雷，它就会自动爆炸，对其造成23点火焰伤害。地雷的持续时间是1分钟。 （1分钟冷却）"
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 1600,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "16",
+              "es_MX": "16",
+              "pt_BR": "16",
+              "de_DE": "16",
+              "en_GB": "16",
+              "es_ES": "16",
+              "fr_FR": "16",
+              "it_IT": "16",
+              "ru_RU": "16",
+              "ko_KR": "16",
+              "zh_TW": "16",
+              "zh_CN": "16"
+            },
+            "copper": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            }
+          }
+        },
+        "requirements": {
+          "skill": {
+            "profession": {
+              "key": {
+                "href": "https://kr.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.5_60179-kr"
+              },
+              "name": {
+                "en_US": "Classic Engineering",
+                "es_MX": "Ingeniería clásica",
+                "pt_BR": "Engenharia do Classic",
+                "de_DE": "Klassische Ingenieurskunst",
+                "en_GB": "Classic Engineering",
+                "es_ES": "Ingeniería clásica",
+                "fr_FR": "Ingénierie classique",
+                "it_IT": "Ingegneria Classica",
+                "ru_RU": "Классическое инженерное дело",
+                "ko_KR": "옛 기계공학",
+                "zh_TW": "艾澤拉斯工程學",
+                "zh_CN": "经典旧世工程学"
+              },
+              "id": 2506
+            },
+            "level": 195,
+            "display_string": {
+              "en_US": "Requires Classic Engineering (195)",
+              "es_MX": "Requiere Ingeniería clásica (195)",
+              "pt_BR": "Requer Engenharia do Classic (195)",
+              "de_DE": "Benötigt Klassische Ingenieurskunst (195)",
+              "en_GB": "Requires Classic Engineering (195)",
+              "es_ES": "Requiere Ingeniería clásica (195)",
+              "fr_FR": "Ingénierie classique (195) requis",
+              "it_IT": "Richiede: Ingegneria Classica (195)",
+              "ru_RU": "Требуется: Классическое инженерное дело (195)",
+              "ko_KR": "요구 사항: 옛 기계공학 (195)",
+              "zh_TW": "需要艾澤拉斯工程學(195)",
+              "zh_CN": "需要经典旧世工程学（195）"
+            }
+          }
+        },
+        "is_subclass_hidden": true
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/4377?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Heavy Blasting Powder",
+              "es_MX": "Pólvora potente",
+              "pt_BR": "Pó Explosivo Pesado",
+              "de_DE": "Schweres Sprengpulver",
+              "en_GB": "Heavy Blasting Powder",
+              "es_ES": "Pólvora potente",
+              "fr_FR": "Poudre d'explosion majeure",
+              "it_IT": "Polvere Esplosiva Pesante",
+              "ru_RU": "Тяжелое взрывчатое вещество",
+              "ko_KR": "강한 화약",
+              "zh_TW": "烈性火藥粉",
+              "zh_CN": "烈性火药"
+            },
+            "id": 4377
+          },
+          "quantity": 3
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/3575?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Iron Bar",
+              "es_MX": "Barra de hierro",
+              "pt_BR": "Barra de Ferro",
+              "de_DE": "Eisenbarren",
+              "en_GB": "Iron Bar",
+              "es_ES": "Barra de hierro",
+              "fr_FR": "Barre de fer",
+              "it_IT": "Lingotto di Ferro",
+              "ru_RU": "Железный слиток",
+              "ko_KR": "철 주괴",
+              "zh_TW": "鐵錠",
+              "zh_CN": "铁锭"
+            },
+            "id": 3575
+          },
+          "quantity": 2
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/4389?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Gyrochronatom",
+              "es_MX": "Girocronátomo",
+              "pt_BR": "Giroscronatom",
+              "de_DE": "Gyrochronatom",
+              "en_GB": "Gyrochronatom",
+              "es_ES": "Girocronátomo",
+              "fr_FR": "Gyrochronatome",
+              "it_IT": "Girorologio",
+              "ru_RU": "Гирохронатом",
+              "ko_KR": "태엽장치",
+              "zh_TW": "發條式同步協調陀螺儀",
+              "zh_CN": "发条式同步协调陀螺仪"
+            },
+            "id": 4389
+          },
+          "quantity": 1
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Heavy Blasting Powder (3), Iron Bar (2), Gyrochronatom",
+        "es_MX": "Pólvora potente (3), Barra de hierro (2), Girocronátomo",
+        "pt_BR": "Pó Explosivo Pesado (3), Barra de Ferro (2), Giroscronatom",
+        "de_DE": "Schweres Sprengpulver (3), Eisenbarren (2), Gyrochronatom",
+        "en_GB": "Heavy Blasting Powder (3), Iron Bar (2), Gyrochronatom",
+        "es_ES": "Pólvora potente (3), Barra de hierro (2), Girocronátomo",
+        "fr_FR": "Poudre d'explosion majeure (3), Barre de fer (2), Gyrochronatome",
+        "it_IT": "Polvere Esplosiva Pesante (3), Lingotto di Ferro (2), Girorologio",
+        "ru_RU": "Тяжелое взрывчатое вещество (3), Железный слиток (2), Гирохронатом",
+        "ko_KR": "강한 화약 (3), 철 주괴 (2), 태엽장치",
+        "zh_TW": "烈性火藥粉 (3), 鐵錠 (2), 發條式同步協調陀螺儀",
+        "zh_CN": "烈性火药 (3), 铁锭 (2), 发条式同步协调陀螺仪"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

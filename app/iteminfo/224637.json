@@ -1,0 +1,425 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/224637?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 224637,
+  "name": {
+    "en_US": "Deep-Dweller's Orb",
+    "es_MX": "Orbe de habitante de las profundidades",
+    "pt_BR": "Orbe do Emburacado",
+    "de_DE": "Orb des Tiefenbewohners",
+    "en_GB": "Deep-Dweller's Orb",
+    "es_ES": "Orbe de habitante de las zonas profundas",
+    "fr_FR": "Orbe de rôdeur des profondeurs",
+    "it_IT": "Globo dell'Abitante delle Profondità",
+    "ru_RU": "Сфера обитателя глубин",
+    "ko_KR": "심연살이의 보주",
+    "zh_TW": "深淵居民寶珠",
+    "zh_CN": "幽邃住民的宝珠"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 545,
+  "required_level": 70,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/224637?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 224637
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "HOLDABLE",
+    "name": {
+      "en_US": "Held In Off-hand",
+      "es_MX": "Mano izquierda",
+      "pt_BR": "Empunhado na mão secundária",
+      "de_DE": "In Schildhand geführt",
+      "en_GB": "Held In Off-hand",
+      "es_ES": "Mano izquierda",
+      "fr_FR": "Tenu(e) en main gauche",
+      "it_IT": "Accessorio",
+      "ru_RU": "Левая рука",
+      "ko_KR": "보조장비",
+      "zh_TW": "副手物品",
+      "zh_CN": "副手物品"
+    }
+  },
+  "purchase_price": 3085836,
+  "sell_price": 617167,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/224637?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 224637
+    },
+    "context": 0,
+    "bonus_list": [
+      10844
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Deep-Dweller's Orb",
+      "es_MX": "Orbe de habitante de las profundidades",
+      "pt_BR": "Orbe do Emburacado",
+      "de_DE": "Orb des Tiefenbewohners",
+      "en_GB": "Deep-Dweller's Orb",
+      "es_ES": "Orbe de habitante de las zonas profundas",
+      "fr_FR": "Orbe de rôdeur des profondeurs",
+      "it_IT": "Globo dell'Abitante delle Profondità",
+      "ru_RU": "Сфера обитателя глубин",
+      "ko_KR": "심연살이의 보주",
+      "zh_TW": "深淵居民寶珠",
+      "zh_CN": "幽邃住民的宝珠"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/224637?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 224637
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "HOLDABLE",
+      "name": {
+        "en_US": "Held In Off-hand",
+        "es_MX": "Mano izquierda",
+        "pt_BR": "Empunhado na mão secundária",
+        "de_DE": "In Schildhand geführt",
+        "en_GB": "Held In Off-hand",
+        "es_ES": "Mano izquierda",
+        "fr_FR": "Tenu(e) en main gauche",
+        "it_IT": "Accessorio",
+        "ru_RU": "Левая рука",
+        "ko_KR": "보조장비",
+        "zh_TW": "副手物品",
+        "zh_CN": "副手物品"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 2424,
+        "display": {
+          "display_string": {
+            "en_US": "+2,424 Intellect",
+            "es_MX": "+2,424 intelecto",
+            "pt_BR": "+2.424 Intelecto",
+            "de_DE": "+2.424 Intelligenz",
+            "en_GB": "+2,424 Intellect",
+            "es_ES": "+2424 intelecto",
+            "fr_FR": "+2424 Intelligence",
+            "it_IT": "+2.424 Intelletto",
+            "ru_RU": "+2424 к интеллекту",
+            "ko_KR": "지능 +2,424",
+            "zh_TW": "+2,424智力",
+            "zh_CN": "+2,424 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 3942,
+        "display": {
+          "display_string": {
+            "en_US": "+3,942 Stamina",
+            "es_MX": "+3,942 aguante",
+            "pt_BR": "+3.942 Vigor",
+            "de_DE": "+3.942 Ausdauer",
+            "en_GB": "+3,942 Stamina",
+            "es_ES": "+3942 aguante",
+            "fr_FR": "+3942 Endurance",
+            "it_IT": "+3.942 Tempra",
+            "ru_RU": "+3942 к выносливости",
+            "ko_KR": "체력 +3,942",
+            "zh_TW": "+3,942耐力",
+            "zh_CN": "+3,942 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 514020,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "51",
+          "es_MX": "51",
+          "pt_BR": "51",
+          "de_DE": "51",
+          "en_GB": "51",
+          "es_ES": "51",
+          "fr_FR": "51",
+          "it_IT": "51",
+          "ru_RU": "51",
+          "ko_KR": "51",
+          "zh_TW": "51",
+          "zh_CN": "51"
+        },
+        "silver": {
+          "en_US": "40",
+          "es_MX": "40",
+          "pt_BR": "40",
+          "de_DE": "40",
+          "en_GB": "40",
+          "es_ES": "40",
+          "fr_FR": "40",
+          "it_IT": "40",
+          "ru_RU": "40",
+          "ko_KR": "40",
+          "zh_TW": "40",
+          "zh_CN": "40"
+        },
+        "copper": {
+          "en_US": "20",
+          "es_MX": "20",
+          "pt_BR": "20",
+          "de_DE": "20",
+          "en_GB": "20",
+          "es_ES": "20",
+          "fr_FR": "20",
+          "it_IT": "20",
+          "ru_RU": "20",
+          "ko_KR": "20",
+          "zh_TW": "20",
+          "zh_CN": "20"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 70,
+        "display_string": {
+          "en_US": "Requires Level 70",
+          "es_MX": "Necesitas ser de nivel 70",
+          "pt_BR": "Requer o Nível 70",
+          "de_DE": "Benötigt Stufe 70",
+          "en_GB": "Requires Level 70",
+          "es_ES": "Necesitas ser de nivel 70",
+          "fr_FR": "Niveau 70 requis",
+          "it_IT": "Richiede il livello 70",
+          "ru_RU": "Требуется 70-й уровень",
+          "ko_KR": "최소 요구 레벨: 70",
+          "zh_TW": "需要等級70",
+          "zh_CN": "需要等级 70"
+        }
+      }
+    },
+    "level": {
+      "value": 545,
+      "display_string": {
+        "en_US": "Item Level 545",
+        "es_MX": "Nivel de objeto 545",
+        "pt_BR": "Nível do Item: 545",
+        "de_DE": "Gegenstandsstufe 545",
+        "en_GB": "Item Level 545",
+        "es_ES": "Nivel de objeto 545",
+        "fr_FR": "Niveau d'objet 545",
+        "it_IT": "Livello oggetto: 545",
+        "ru_RU": "Уровень предмета: 545",
+        "ko_KR": "아이템 레벨: 545",
+        "zh_TW": "物品等級545",
+        "zh_CN": "物品等级545"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/91016?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 91016
+    }
+  ]
+}

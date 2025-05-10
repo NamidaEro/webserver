@@ -1,0 +1,420 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/7065?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 7065,
+  "name": {
+    "en_US": "Green Silk Armor",
+    "es_MX": "Armadura de seda verde",
+    "pt_BR": "Armadura de Seda Verde",
+    "de_DE": "Grüne Seidenrüstung",
+    "en_GB": "Green Silk Armor",
+    "es_ES": "Armadura de seda verde",
+    "fr_FR": "Armure verte en soie",
+    "it_IT": "Armatura di Seta Verde",
+    "ru_RU": "Зеленая шелковая броня",
+    "ko_KR": "녹색 비단 갑옷",
+    "zh_TW": "綠色絲甲",
+    "zh_CN": "绿色丝甲"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 19,
+  "required_level": 12,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/7065?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 7065
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "CHEST",
+    "name": {
+      "en_US": "Chest",
+      "es_MX": "Pecho",
+      "pt_BR": "Torso",
+      "de_DE": "Brust",
+      "en_GB": "Chest",
+      "es_ES": "Torso",
+      "fr_FR": "Torse",
+      "it_IT": "Torso",
+      "ru_RU": "Грудь",
+      "ko_KR": "가슴",
+      "zh_TW": "胸部",
+      "zh_CN": "胸部"
+    }
+  },
+  "purchase_price": 7500,
+  "sell_price": 1500,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/7065?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 7065
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Green Silk Armor",
+      "es_MX": "Armadura de seda verde",
+      "pt_BR": "Armadura de Seda Verde",
+      "de_DE": "Grüne Seidenrüstung",
+      "en_GB": "Green Silk Armor",
+      "es_ES": "Armadura de seda verde",
+      "fr_FR": "Armure verte en soie",
+      "it_IT": "Armatura di Seta Verde",
+      "ru_RU": "Зеленая шелковая броня",
+      "ko_KR": "녹색 비단 갑옷",
+      "zh_TW": "綠色絲甲",
+      "zh_CN": "绿色丝甲"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/7065?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 7065
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "CHEST",
+      "name": {
+        "en_US": "Chest",
+        "es_MX": "Pecho",
+        "pt_BR": "Torso",
+        "de_DE": "Brust",
+        "en_GB": "Chest",
+        "es_ES": "Torso",
+        "fr_FR": "Torse",
+        "it_IT": "Torso",
+        "ru_RU": "Грудь",
+        "ko_KR": "가슴",
+        "zh_TW": "胸部",
+        "zh_CN": "胸部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 3,
+      "display": {
+        "display_string": {
+          "en_US": "3 Armor",
+          "es_MX": "3 p. de armadura",
+          "pt_BR": "3 de Armadura",
+          "de_DE": "3 Rüstung",
+          "en_GB": "3 Armor",
+          "es_ES": "3 p. de armadura",
+          "fr_FR": "Armure : 3",
+          "it_IT": "3 Armatura",
+          "ru_RU": "Броня: 3",
+          "ko_KR": "방어도 3",
+          "zh_TW": "3點護甲",
+          "zh_CN": "3点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 6,
+        "display": {
+          "display_string": {
+            "en_US": "+6 Intellect",
+            "es_MX": "+6 intelecto",
+            "pt_BR": "+6 Intelecto",
+            "de_DE": "+6 Intelligenz",
+            "en_GB": "+6 Intellect",
+            "es_ES": "+6 intelecto",
+            "fr_FR": "+6 Intelligence",
+            "it_IT": "+6 Intelletto",
+            "ru_RU": "+6 к интеллекту",
+            "ko_KR": "지능 +6",
+            "zh_TW": "+6智力",
+            "zh_CN": "+6 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "15",
+          "es_MX": "15",
+          "pt_BR": "15",
+          "de_DE": "15",
+          "en_GB": "15",
+          "es_ES": "15",
+          "fr_FR": "15",
+          "it_IT": "15",
+          "ru_RU": "15",
+          "ko_KR": "15",
+          "zh_TW": "15",
+          "zh_CN": "15"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 12,
+        "display_string": {
+          "en_US": "Requires Level 12",
+          "es_MX": "Necesitas ser de nivel 12",
+          "pt_BR": "Requer o Nível 12",
+          "de_DE": "Benötigt Stufe 12",
+          "en_GB": "Requires Level 12",
+          "es_ES": "Necesitas ser de nivel 12",
+          "fr_FR": "Niveau 12 requis",
+          "it_IT": "Richiede il livello 12",
+          "ru_RU": "Требуется 12-й уровень",
+          "ko_KR": "최소 요구 레벨: 12",
+          "zh_TW": "需要等級12",
+          "zh_CN": "需要等级 12"
+        }
+      }
+    },
+    "level": {
+      "value": 19,
+      "display_string": {
+        "en_US": "Item Level 19",
+        "es_MX": "Nivel de objeto 19",
+        "pt_BR": "Nível do Item: 19",
+        "de_DE": "Gegenstandsstufe 19",
+        "en_GB": "Item Level 19",
+        "es_ES": "Nivel de objeto 19",
+        "fr_FR": "Niveau d'objet 19",
+        "it_IT": "Livello oggetto: 19",
+        "ru_RU": "Уровень предмета: 19",
+        "ko_KR": "아이템 레벨: 19",
+        "zh_TW": "物品等級19",
+        "zh_CN": "物品等级19"
+      }
+    },
+    "durability": {
+      "value": 90,
+      "display_string": {
+        "en_US": "Durability 90 / 90",
+        "es_MX": "Durabilidad 90 / 90",
+        "pt_BR": "Durabilidade 90 / 90",
+        "de_DE": "Haltbarkeit 90 / 90",
+        "en_GB": "Durability 90 / 90",
+        "es_ES": "Durabilidad 90 / 90",
+        "fr_FR": "Durabilité : 90 / 90",
+        "it_IT": "Integrità 90/90",
+        "ru_RU": "Прочность: 90 / 90",
+        "ko_KR": "내구도 90 / 90",
+        "zh_TW": "耐久度 90 / 90",
+        "zh_CN": "耐久度 90 / 90"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/2331?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 2331
+    }
+  ]
+}

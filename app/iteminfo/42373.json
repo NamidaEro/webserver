@@ -1,0 +1,316 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/42373?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 42373,
+  "name": {
+    "en_US": "Golden Filigreed Shirt",
+    "es_MX": "Camisa de filigrana dorada",
+    "pt_BR": "Camisa Dourada Filigranada",
+    "de_DE": "Filigranes goldenes Hemd",
+    "en_GB": "Golden Filigreed Shirt",
+    "es_ES": "Camisa de filigrana dorada",
+    "fr_FR": "Chemise filigranée d'or",
+    "it_IT": "Camicia Filigranata d'Oro",
+    "ru_RU": "Рубашка с золотой филигранью",
+    "ko_KR": "황금색 띠매듭 셔츠",
+    "zh_TW": "金黃鑲鈿襯衣",
+    "zh_CN": "金色金丝衬衫"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/42373?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 42373
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "BODY",
+    "name": {
+      "en_US": "Shirt",
+      "es_MX": "Camisa",
+      "pt_BR": "Camisa",
+      "de_DE": "Hemd",
+      "en_GB": "Shirt",
+      "es_ES": "Camisa",
+      "fr_FR": "Chemise",
+      "it_IT": "Camicia",
+      "ru_RU": "Рубашка",
+      "ko_KR": "속옷",
+      "zh_TW": "襯衣",
+      "zh_CN": "衬衣"
+    }
+  },
+  "purchase_price": 325000,
+  "sell_price": 81250,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/42373?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 42373
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Golden Filigreed Shirt",
+      "es_MX": "Camisa de filigrana dorada",
+      "pt_BR": "Camisa Dourada Filigranada",
+      "de_DE": "Filigranes goldenes Hemd",
+      "en_GB": "Golden Filigreed Shirt",
+      "es_ES": "Camisa de filigrana dorada",
+      "fr_FR": "Chemise filigranée d'or",
+      "it_IT": "Camicia Filigranata d'Oro",
+      "ru_RU": "Рубашка с золотой филигранью",
+      "ko_KR": "황금색 띠매듭 셔츠",
+      "zh_TW": "金黃鑲鈿襯衣",
+      "zh_CN": "金色金丝衬衫"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/42373?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 42373
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "BODY",
+      "name": {
+        "en_US": "Shirt",
+        "es_MX": "Camisa",
+        "pt_BR": "Camisa",
+        "de_DE": "Hemd",
+        "en_GB": "Shirt",
+        "es_ES": "Camisa",
+        "fr_FR": "Chemise",
+        "it_IT": "Camicia",
+        "ru_RU": "Рубашка",
+        "ko_KR": "속옷",
+        "zh_TW": "襯衣",
+        "zh_CN": "衬衣"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "sell_price": {
+      "value": 81250,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "8",
+          "es_MX": "8",
+          "pt_BR": "8",
+          "de_DE": "8",
+          "en_GB": "8",
+          "es_ES": "8",
+          "fr_FR": "8",
+          "it_IT": "8",
+          "ru_RU": "8",
+          "ko_KR": "8",
+          "zh_TW": "8",
+          "zh_CN": "8"
+        },
+        "silver": {
+          "en_US": "12",
+          "es_MX": "12",
+          "pt_BR": "12",
+          "de_DE": "12",
+          "en_GB": "12",
+          "es_ES": "12",
+          "fr_FR": "12",
+          "it_IT": "12",
+          "ru_RU": "12",
+          "ko_KR": "12",
+          "zh_TW": "12",
+          "zh_CN": "12"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "level": {
+      "value": 1,
+      "display_string": {
+        "en_US": "Item Level 1",
+        "es_MX": "Nivel de objeto 1",
+        "pt_BR": "Nível do Item: 1",
+        "de_DE": "Gegenstandsstufe 1",
+        "en_GB": "Item Level 1",
+        "es_ES": "Nivel de objeto 1",
+        "fr_FR": "Niveau d'objet 1",
+        "it_IT": "Livello oggetto: 1",
+        "ru_RU": "Уровень предмета: 1",
+        "ko_KR": "아이템 레벨: 1",
+        "zh_TW": "物品等級1",
+        "zh_CN": "物品等级1"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/10945?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 10945
+    }
+  ]
+}

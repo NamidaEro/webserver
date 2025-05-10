@@ -1,0 +1,513 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/224638?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 224638,
+  "name": {
+    "en_US": "Underscout's Glaive",
+    "es_MX": "Guja de subexplorador",
+    "pt_BR": "Glaive do Sub-batedor",
+    "de_DE": "Gleve des Tiefenspähers",
+    "en_GB": "Underscout's Glaive",
+    "es_ES": "Guja de explorador subterráneo",
+    "fr_FR": "Glaive de reconnaissance profonde",
+    "it_IT": "Lame da Guerra dell'Esploratore Sotterraneo",
+    "ru_RU": "Глефа глубинного разведчика",
+    "ko_KR": "지저정찰병의 글레이브",
+    "zh_TW": "密探戰旋刃",
+    "zh_CN": "幽暗斥候的战刃"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 545,
+  "required_level": 70,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/224638?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 224638
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Warglaives",
+      "es_MX": "Gujas de guerra",
+      "pt_BR": "Glaives de Guerra",
+      "de_DE": "Kriegsgleven",
+      "en_GB": "Warglaives",
+      "es_ES": "Gujas de guerra",
+      "fr_FR": "Glaives de guerre",
+      "it_IT": "Lame da Guerra",
+      "ru_RU": "Боевые клинки",
+      "ko_KR": "전투검",
+      "zh_TW": "戰刃",
+      "zh_CN": "战刃"
+    },
+    "id": 9
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": {
+      "en_US": "One-Hand",
+      "es_MX": "Una mano",
+      "pt_BR": "Uma Mão",
+      "de_DE": "Einhändig",
+      "en_GB": "One-Hand",
+      "es_ES": "Una mano",
+      "fr_FR": "À une main",
+      "it_IT": "Una mano",
+      "ru_RU": "Одноручное",
+      "ko_KR": "한손 장비",
+      "zh_TW": "單手",
+      "zh_CN": "单手"
+    }
+  },
+  "purchase_price": 5088313,
+  "sell_price": 1017662,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/224638?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 224638
+    },
+    "context": 0,
+    "bonus_list": [
+      10844
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Underscout's Glaive",
+      "es_MX": "Guja de subexplorador",
+      "pt_BR": "Glaive do Sub-batedor",
+      "de_DE": "Gleve des Tiefenspähers",
+      "en_GB": "Underscout's Glaive",
+      "es_ES": "Guja de explorador subterráneo",
+      "fr_FR": "Glaive de reconnaissance profonde",
+      "it_IT": "Lame da Guerra dell'Esploratore Sotterraneo",
+      "ru_RU": "Глефа глубинного разведчика",
+      "ko_KR": "지저정찰병의 글레이브",
+      "zh_TW": "密探戰旋刃",
+      "zh_CN": "幽暗斥候的战刃"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/224638?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 224638
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Warglaives",
+        "es_MX": "Gujas de guerra",
+        "pt_BR": "Glaives de Guerra",
+        "de_DE": "Kriegsgleven",
+        "en_GB": "Warglaives",
+        "es_ES": "Gujas de guerra",
+        "fr_FR": "Glaives de guerre",
+        "it_IT": "Lame da Guerra",
+        "ru_RU": "Боевые клинки",
+        "ko_KR": "전투검",
+        "zh_TW": "戰刃",
+        "zh_CN": "战刃"
+      },
+      "id": 9
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": {
+        "en_US": "One-Hand",
+        "es_MX": "Una mano",
+        "pt_BR": "Uma Mão",
+        "de_DE": "Einhändig",
+        "en_GB": "One-Hand",
+        "es_ES": "Una mano",
+        "fr_FR": "À une main",
+        "it_IT": "Una mano",
+        "ru_RU": "Одноручное",
+        "ko_KR": "한손 장비",
+        "zh_TW": "單手",
+        "zh_CN": "单手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 1809,
+        "max_value": 2862,
+        "display_string": {
+          "en_US": "1,809 - 2,862 Damage",
+          "es_MX": "1,809 - 2,862 p. de daño",
+          "pt_BR": "1.809 - 2.862 de Dano",
+          "de_DE": "1.809 - 2.862 Schaden",
+          "en_GB": "1,809 - 2,862 Damage",
+          "es_ES": "1809 - 2862 p. de daño",
+          "fr_FR": "Dégâts : 1809 - 2862",
+          "it_IT": "1.809 - 2.862 Danni",
+          "ru_RU": "Урон: 1809 - 2862",
+          "ko_KR": "공격력 1,809 ~ 2,862",
+          "zh_TW": "1,809-2,862點傷害",
+          "zh_CN": "1,809 - 2,862点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": {
+          "en_US": "Speed 2.60",
+          "es_MX": "Velocidad 2.60",
+          "pt_BR": "Velocidade 2,60",
+          "de_DE": "Geschwindigkeit 2,60",
+          "en_GB": "Speed 2.60",
+          "es_ES": "Velocidad 2,60",
+          "fr_FR": "Vitesse 2,60",
+          "it_IT": "Velocità 2,60",
+          "ru_RU": "Скорость 2,60",
+          "ko_KR": "속도 2.60",
+          "zh_TW": "速度 2.60",
+          "zh_CN": "速度 2.60"
+        }
+      },
+      "dps": {
+        "value": 898.07684,
+        "display_string": {
+          "en_US": "(898.1 damage per second)",
+          "es_MX": "(898.1 p. de daño por segundo)",
+          "pt_BR": "(898,1 de dano por segundo)",
+          "de_DE": "(898,1 Schaden pro Sekunde)",
+          "en_GB": "(898.1 damage per second)",
+          "es_ES": "(898,1 p. de daño por segundo)",
+          "fr_FR": "(898,1 dégâts par seconde)",
+          "it_IT": "(898,1 danni per secondo)",
+          "ru_RU": "(898,1 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 898.1)",
+          "zh_TW": "(每秒898.1點傷害)",
+          "zh_CN": "（每秒伤害898.1）"
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 790,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+790 Agility",
+            "es_MX": "+790 agilidad",
+            "pt_BR": "+790 Agilidade",
+            "de_DE": "+790 Beweglichkeit",
+            "en_GB": "+790 Agility",
+            "es_ES": "+790 agilidad",
+            "fr_FR": "+790 Agilité",
+            "it_IT": "+790 Agilità",
+            "ru_RU": "+790 к ловкости",
+            "ko_KR": "민첩성 +790",
+            "zh_TW": "+790敏捷",
+            "zh_CN": "+790 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 3942,
+        "display": {
+          "display_string": {
+            "en_US": "+3,942 Stamina",
+            "es_MX": "+3,942 aguante",
+            "pt_BR": "+3.942 Vigor",
+            "de_DE": "+3.942 Ausdauer",
+            "en_GB": "+3,942 Stamina",
+            "es_ES": "+3942 aguante",
+            "fr_FR": "+3942 Endurance",
+            "it_IT": "+3.942 Tempra",
+            "ru_RU": "+3942 к выносливости",
+            "ko_KR": "체력 +3,942",
+            "zh_TW": "+3,942耐力",
+            "zh_CN": "+3,942 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 859825,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "85",
+          "es_MX": "85",
+          "pt_BR": "85",
+          "de_DE": "85",
+          "en_GB": "85",
+          "es_ES": "85",
+          "fr_FR": "85",
+          "it_IT": "85",
+          "ru_RU": "85",
+          "ko_KR": "85",
+          "zh_TW": "85",
+          "zh_CN": "85"
+        },
+        "silver": {
+          "en_US": "98",
+          "es_MX": "98",
+          "pt_BR": "98",
+          "de_DE": "98",
+          "en_GB": "98",
+          "es_ES": "98",
+          "fr_FR": "98",
+          "it_IT": "98",
+          "ru_RU": "98",
+          "ko_KR": "98",
+          "zh_TW": "98",
+          "zh_CN": "98"
+        },
+        "copper": {
+          "en_US": "25",
+          "es_MX": "25",
+          "pt_BR": "25",
+          "de_DE": "25",
+          "en_GB": "25",
+          "es_ES": "25",
+          "fr_FR": "25",
+          "it_IT": "25",
+          "ru_RU": "25",
+          "ko_KR": "25",
+          "zh_TW": "25",
+          "zh_CN": "25"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 70,
+        "display_string": {
+          "en_US": "Requires Level 70",
+          "es_MX": "Necesitas ser de nivel 70",
+          "pt_BR": "Requer o Nível 70",
+          "de_DE": "Benötigt Stufe 70",
+          "en_GB": "Requires Level 70",
+          "es_ES": "Necesitas ser de nivel 70",
+          "fr_FR": "Niveau 70 requis",
+          "it_IT": "Richiede il livello 70",
+          "ru_RU": "Требуется 70-й уровень",
+          "ko_KR": "최소 요구 레벨: 70",
+          "zh_TW": "需要等級70",
+          "zh_CN": "需要等级 70"
+        }
+      }
+    },
+    "level": {
+      "value": 545,
+      "display_string": {
+        "en_US": "Item Level 545",
+        "es_MX": "Nivel de objeto 545",
+        "pt_BR": "Nível do Item: 545",
+        "de_DE": "Gegenstandsstufe 545",
+        "en_GB": "Item Level 545",
+        "es_ES": "Nivel de objeto 545",
+        "fr_FR": "Niveau d'objet 545",
+        "it_IT": "Livello oggetto: 545",
+        "ru_RU": "Уровень предмета: 545",
+        "ko_KR": "아이템 레벨: 545",
+        "zh_TW": "物品等級545",
+        "zh_CN": "物品等级545"
+      }
+    },
+    "durability": {
+      "value": 85,
+      "display_string": {
+        "en_US": "Durability 85 / 85",
+        "es_MX": "Durabilidad 85 / 85",
+        "pt_BR": "Durabilidade 85 / 85",
+        "de_DE": "Haltbarkeit 85 / 85",
+        "en_GB": "Durability 85 / 85",
+        "es_ES": "Durabilidad 85 / 85",
+        "fr_FR": "Durabilité : 85 / 85",
+        "it_IT": "Integrità 85/85",
+        "ru_RU": "Прочность: 85 / 85",
+        "ko_KR": "내구도 85 / 85",
+        "zh_TW": "耐久度 85 / 85",
+        "zh_CN": "耐久度 85 / 85"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/90911?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 90911
+    }
+  ]
+}

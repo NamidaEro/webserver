@@ -1,0 +1,467 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/14431?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 14431,
+  "name": {
+    "en_US": "Windchaser Handguards",
+    "es_MX": "Manoplas Cazavientos",
+    "pt_BR": "Protetores de Mão Seguevento",
+    "de_DE": "Handschützer des Windhetzers",
+    "en_GB": "Windchaser Handguards",
+    "es_ES": "Manoplas Cazavientos",
+    "fr_FR": "Garde-mains chasse-vent",
+    "it_IT": "Guardamani Foderati del Cercavento",
+    "ru_RU": "Боевые рукавицы преследующего ветер",
+    "ko_KR": "바람전사 손보호대",
+    "zh_TW": "逐風手甲",
+    "zh_CN": "逐风护手"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 24,
+  "required_level": 17,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/14431?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 14431
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "HAND",
+    "name": {
+      "en_US": "Hands",
+      "es_MX": "Manos",
+      "pt_BR": "Mãos",
+      "de_DE": "Hände",
+      "en_GB": "Hands",
+      "es_ES": "Manos",
+      "fr_FR": "Mains",
+      "it_IT": "Mani",
+      "ru_RU": "Кисти рук",
+      "ko_KR": "손",
+      "zh_TW": "手",
+      "zh_CN": "手部"
+    }
+  },
+  "purchase_price": 395020,
+  "sell_price": 79004,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/14431?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 14431
+    },
+    "context": 0,
+    "bonus_list": [
+      6654
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Windchaser Handguards",
+      "es_MX": "Manoplas Cazavientos",
+      "pt_BR": "Protetores de Mão Seguevento",
+      "de_DE": "Handschützer des Windhetzers",
+      "en_GB": "Windchaser Handguards",
+      "es_ES": "Manoplas Cazavientos",
+      "fr_FR": "Garde-mains chasse-vent",
+      "it_IT": "Guardamani Foderati del Cercavento",
+      "ru_RU": "Боевые рукавицы преследующего ветер",
+      "ko_KR": "바람전사 손보호대",
+      "zh_TW": "逐風手甲",
+      "zh_CN": "逐风护手"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/14431?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 14431
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "HAND",
+      "name": {
+        "en_US": "Hands",
+        "es_MX": "Manos",
+        "pt_BR": "Mãos",
+        "de_DE": "Hände",
+        "en_GB": "Hands",
+        "es_ES": "Manos",
+        "fr_FR": "Mains",
+        "it_IT": "Mani",
+        "ru_RU": "Кисти рук",
+        "ko_KR": "손",
+        "zh_TW": "手",
+        "zh_CN": "手部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 127,
+      "display": {
+        "display_string": {
+          "en_US": "127 Armor",
+          "es_MX": "127 p. de armadura",
+          "pt_BR": "127 de Armadura",
+          "de_DE": "127 Rüstung",
+          "en_GB": "127 Armor",
+          "es_ES": "127 p. de armadura",
+          "fr_FR": "Armure : 127",
+          "it_IT": "127 Armatura",
+          "ru_RU": "Броня: 127",
+          "ko_KR": "방어도 127",
+          "zh_TW": "127點護甲",
+          "zh_CN": "127点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 84,
+        "display": {
+          "display_string": {
+            "en_US": "+84 Intellect",
+            "es_MX": "+84 intelecto",
+            "pt_BR": "+84 Intelecto",
+            "de_DE": "+84 Intelligenz",
+            "en_GB": "+84 Intellect",
+            "es_ES": "+84 intelecto",
+            "fr_FR": "+84 Intelligence",
+            "it_IT": "+84 Intelletto",
+            "ru_RU": "+84 к интеллекту",
+            "ko_KR": "지능 +84",
+            "zh_TW": "+84智力",
+            "zh_CN": "+84 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 505,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+505 Versatility",
+            "es_MX": "+505 versatilidad",
+            "pt_BR": "+505 Versatilidade",
+            "de_DE": "+505 Vielseitigkeit",
+            "en_GB": "+505 Versatility",
+            "es_ES": "+505 versatilidad",
+            "fr_FR": "+505 Polyvalence",
+            "it_IT": "+505 Indice di versatilità",
+            "ru_RU": "+505 к универсальности",
+            "ko_KR": "유연성 +505",
+            "zh_TW": "+505臨機應變",
+            "zh_CN": "+505 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 163530,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "16",
+          "es_MX": "16",
+          "pt_BR": "16",
+          "de_DE": "16",
+          "en_GB": "16",
+          "es_ES": "16",
+          "fr_FR": "16",
+          "it_IT": "16",
+          "ru_RU": "16",
+          "ko_KR": "16",
+          "zh_TW": "16",
+          "zh_CN": "16"
+        },
+        "silver": {
+          "en_US": "35",
+          "es_MX": "35",
+          "pt_BR": "35",
+          "de_DE": "35",
+          "en_GB": "35",
+          "es_ES": "35",
+          "fr_FR": "35",
+          "it_IT": "35",
+          "ru_RU": "35",
+          "ko_KR": "35",
+          "zh_TW": "35",
+          "zh_CN": "35"
+        },
+        "copper": {
+          "en_US": "30",
+          "es_MX": "30",
+          "pt_BR": "30",
+          "de_DE": "30",
+          "en_GB": "30",
+          "es_ES": "30",
+          "fr_FR": "30",
+          "it_IT": "30",
+          "ru_RU": "30",
+          "ko_KR": "30",
+          "zh_TW": "30",
+          "zh_CN": "30"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 17,
+        "display_string": {
+          "en_US": "Requires Level 17",
+          "es_MX": "Necesitas ser de nivel 17",
+          "pt_BR": "Requer o Nível 17",
+          "de_DE": "Benötigt Stufe 17",
+          "en_GB": "Requires Level 17",
+          "es_ES": "Necesitas ser de nivel 17",
+          "fr_FR": "Niveau 17 requis",
+          "it_IT": "Richiede il livello 17",
+          "ru_RU": "Требуется 17-й уровень",
+          "ko_KR": "최소 요구 레벨: 17",
+          "zh_TW": "需要等級17",
+          "zh_CN": "需要等级 17"
+        }
+      }
+    },
+    "level": {
+      "value": 357,
+      "display_string": {
+        "en_US": "Item Level 357",
+        "es_MX": "Nivel de objeto 357",
+        "pt_BR": "Nível do Item: 357",
+        "de_DE": "Gegenstandsstufe 357",
+        "en_GB": "Item Level 357",
+        "es_ES": "Nivel de objeto 357",
+        "fr_FR": "Niveau d'objet 357",
+        "it_IT": "Livello oggetto: 357",
+        "ru_RU": "Уровень предмета: 357",
+        "ko_KR": "아이템 레벨: 357",
+        "zh_TW": "物品等級357",
+        "zh_CN": "物品等级357"
+      }
+    },
+    "durability": {
+      "value": 35,
+      "display_string": {
+        "en_US": "Durability 35 / 35",
+        "es_MX": "Durabilidad 35 / 35",
+        "pt_BR": "Durabilidade 35 / 35",
+        "de_DE": "Haltbarkeit 35 / 35",
+        "en_GB": "Durability 35 / 35",
+        "es_ES": "Durabilidad 35 / 35",
+        "fr_FR": "Durabilité : 35 / 35",
+        "it_IT": "Integrità 35/35",
+        "ru_RU": "Прочность: 35 / 35",
+        "ko_KR": "내구도 35 / 35",
+        "zh_TW": "耐久度 35 / 35",
+        "zh_CN": "耐久度 35 / 35"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/2762?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 2762
+    }
+  ]
+}

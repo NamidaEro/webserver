@@ -1,0 +1,444 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/219865?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 219865,
+  "name": {
+    "en_US": "Hideshaper's Cover",
+    "es_MX": "Protector de moldeacueros",
+    "pt_BR": "Murça do Moldacouro",
+    "de_DE": "Bedeckung des Balgformers",
+    "en_GB": "Hideshaper's Cover",
+    "es_ES": "Protector de moldeapieles",
+    "fr_FR": "Tablier de corroyeur",
+    "it_IT": "Copertura del Plasmapelli",
+    "ru_RU": "Покров шкуродела",
+    "ko_KR": "가죽조형사의 덮개",
+    "zh_TW": "塑皮者罩篷",
+    "zh_CN": "塑革者的护衣"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 486,
+  "required_level": 68,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/219865?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 219865
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Profession",
+      "es_MX": "Profesión",
+      "pt_BR": "Profissão",
+      "de_DE": "Beruf",
+      "en_GB": "Profession",
+      "es_ES": "Profesión",
+      "fr_FR": "Métier",
+      "it_IT": "Professione",
+      "ru_RU": "Профессия",
+      "ko_KR": "전문 기술",
+      "zh_TW": "專業技能",
+      "zh_CN": "专业技能"
+    },
+    "id": 19
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leatherworking",
+      "es_MX": "Peletería",
+      "pt_BR": "Couraria",
+      "de_DE": "Lederverarbeitung",
+      "en_GB": "Leatherworking",
+      "es_ES": "Peletería",
+      "fr_FR": "Travail du cuir",
+      "it_IT": "Conciatura",
+      "ru_RU": "Кожевничество",
+      "ko_KR": "가죽세공",
+      "zh_TW": "製皮",
+      "zh_CN": "制皮"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "PROFESSION_GEAR",
+    "name": {
+      "en_US": "Profession Equipment",
+      "es_MX": "Equipamiento de profesión",
+      "pt_BR": "Equipamento de Profissão",
+      "de_DE": "Berufsausrüstung",
+      "en_GB": "Profession Equipment",
+      "es_ES": "Equipamiento de profesión",
+      "fr_FR": "Équipements de métier",
+      "it_IT": "Equipaggiamento delle Professioni",
+      "ru_RU": "Экипировка профессии",
+      "ko_KR": "전문 기술 장비",
+      "zh_TW": "專業技能裝備",
+      "zh_CN": "专业装备"
+    }
+  },
+  "purchase_price": 99250,
+  "sell_price": 19850,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/219865?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 219865
+    },
+    "context": 0,
+    "bonus_list": [
+      10827,
+      10830
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Hideshaper's Cover",
+      "es_MX": "Protector de moldeacueros",
+      "pt_BR": "Murça do Moldacouro",
+      "de_DE": "Bedeckung des Balgformers",
+      "en_GB": "Hideshaper's Cover",
+      "es_ES": "Protector de moldeapieles",
+      "fr_FR": "Tablier de corroyeur",
+      "it_IT": "Copertura del Plasmapelli",
+      "ru_RU": "Покров шкуродела",
+      "ko_KR": "가죽조형사의 덮개",
+      "zh_TW": "塑皮者罩篷",
+      "zh_CN": "塑革者的护衣"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/219865?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 219865
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Profession",
+        "es_MX": "Profesión",
+        "pt_BR": "Profissão",
+        "de_DE": "Beruf",
+        "en_GB": "Profession",
+        "es_ES": "Profesión",
+        "fr_FR": "Métier",
+        "it_IT": "Professione",
+        "ru_RU": "Профессия",
+        "ko_KR": "전문 기술",
+        "zh_TW": "專業技能",
+        "zh_CN": "专业技能"
+      },
+      "id": 19
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leatherworking",
+        "es_MX": "Peletería",
+        "pt_BR": "Couraria",
+        "de_DE": "Lederverarbeitung",
+        "en_GB": "Leatherworking",
+        "es_ES": "Peletería",
+        "fr_FR": "Travail du cuir",
+        "it_IT": "Conciatura",
+        "ru_RU": "Кожевничество",
+        "ko_KR": "가죽세공",
+        "zh_TW": "製皮",
+        "zh_CN": "制皮"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "PROFESSION_GEAR",
+      "name": {
+        "en_US": "Profession Equipment",
+        "es_MX": "Equipamiento de profesión",
+        "pt_BR": "Equipamento de Profissão",
+        "de_DE": "Berufsausrüstung",
+        "en_GB": "Profession Equipment",
+        "es_ES": "Equipamiento de profesión",
+        "fr_FR": "Équipements de métier",
+        "it_IT": "Equipaggiamento delle Professioni",
+        "ru_RU": "Экипировка профессии",
+        "ko_KR": "전문 기술 장비",
+        "zh_TW": "專業技能裝備",
+        "zh_CN": "专业装备"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "limit_category": {
+      "en_US": "Unique-Equipped: Chest (1)",
+      "es_MX": "Único-Equipado: Pecho (1)",
+      "pt_BR": "Máximo equipado: Torso (1)",
+      "de_DE": "Einzigartig angelegt: Brust (1)",
+      "en_GB": "Unique-Equipped: Chest (1)",
+      "es_ES": "Único-Equipado: Torso (1)",
+      "fr_FR": "Unique - Équipé : Torse (1)",
+      "it_IT": "Unico equipaggiabile: Torso (1)",
+      "ru_RU": "Уникальный использующийся предмет: Грудь (1)",
+      "ko_KR": "고유 장착 아이템: 몸통 (1)",
+      "zh_TW": "僅可裝備一件：胸部(1)",
+      "zh_CN": "装备唯一：胸部 （1）"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
+          "name": {
+            "en_US": "Multicraft",
+            "es_MX": "Fabricación múltiple",
+            "pt_BR": "Multicriação",
+            "de_DE": "Mehrfachherstellung",
+            "en_GB": "Multicraft",
+            "es_ES": "Multifabricación",
+            "fr_FR": "Fabrication multiple",
+            "it_IT": "Creazione multipla",
+            "ru_RU": "Перепроизводство",
+            "ko_KR": "복수 제작",
+            "zh_TW": "複數製造",
+            "zh_CN": "产能"
+          }
+        },
+        "value": 55,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+55 Multicraft",
+            "es_MX": "+55 Fabricación múltiple",
+            "pt_BR": "+55 Multicriação",
+            "de_DE": "+55 Mehrfachherstellung",
+            "en_GB": "+55 Multicraft",
+            "es_ES": "+55 Multifabricación",
+            "fr_FR": "+55 Fabrication multiple",
+            "it_IT": "+55 Creazione multipla",
+            "ru_RU": "+55 Перепроизводство",
+            "ko_KR": "복수 제작 +55",
+            "zh_TW": "+55複數製造",
+            "zh_CN": "+55 产能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "BONUS_STAT_PROFESSION_INGENUITY",
+          "name": {
+            "en_US": "Ingenuity",
+            "es_MX": "Ingenio",
+            "pt_BR": "Engenhosidade",
+            "de_DE": "Genialität",
+            "en_GB": "Ingenuity",
+            "es_ES": "Inventiva",
+            "fr_FR": "Inventivité",
+            "it_IT": "Ingegno",
+            "ru_RU": "Изобретательность",
+            "ko_KR": "독창성",
+            "zh_TW": "精妙",
+            "zh_CN": "奇思"
+          }
+        },
+        "value": 83,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+83 Ingenuity",
+            "es_MX": "+83 Ingenio",
+            "pt_BR": "+83 Engenhosidade",
+            "de_DE": "+83 Genialität",
+            "en_GB": "+83 Ingenuity",
+            "es_ES": "+83 Inventiva",
+            "fr_FR": "+83 Inventivité",
+            "it_IT": "+83 Ingegno",
+            "ru_RU": "+83 Изобретательность",
+            "ko_KR": "독창성 +83",
+            "zh_TW": "+83精妙",
+            "zh_CN": "+83 奇思"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/455781?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Prof Gear Skill Bonus (DNT)",
+            "en_GB": "Prof Gear Skill Bonus (DNT)"
+          },
+          "id": 455781
+        },
+        "description": {
+          "en_US": "Equip: +5 Khaz Algar Leatherworking Skill",
+          "es_MX": "Equipar: +5 p. de habilidad en peletería de Khaz Algar",
+          "pt_BR": "Equipado: +5 de Perícia em Couraria de Khaz Algar",
+          "de_DE": "Anlegen: +5 Fertigkeit in Lederverarbeitung von Khaz Algar",
+          "en_GB": "Equip: +5 Khaz Algar Leatherworking Skill",
+          "es_ES": "Equipar: +5 p. de habilidad en peletería de Khaz Algar.",
+          "fr_FR": "Équipé : +5 à la compétence en travail du cuir de Khaz Algar",
+          "it_IT": "Equipaggia: Aumenta la Competenza in Conciatura di Khaz Algar di 5.",
+          "ru_RU": "Если на персонаже: +5 к навыку кожевничества Каз Алгара",
+          "ko_KR": "착용 효과: 카즈 알가르 가죽세공 숙련도가 5만큼 증가합니다.",
+          "zh_TW": "裝備： +5點卡茲阿爾加製皮技能",
+          "zh_CN": "装备： +5卡兹阿加制皮技能"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 19850,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "1",
+          "es_MX": "1",
+          "pt_BR": "1",
+          "de_DE": "1",
+          "en_GB": "1",
+          "es_ES": "1",
+          "fr_FR": "1",
+          "it_IT": "1",
+          "ru_RU": "1",
+          "ko_KR": "1",
+          "zh_TW": "1",
+          "zh_CN": "1"
+        },
+        "silver": {
+          "en_US": "98",
+          "es_MX": "98",
+          "pt_BR": "98",
+          "de_DE": "98",
+          "en_GB": "98",
+          "es_ES": "98",
+          "fr_FR": "98",
+          "it_IT": "98",
+          "ru_RU": "98",
+          "ko_KR": "98",
+          "zh_TW": "98",
+          "zh_CN": "98"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 68,
+        "display_string": {
+          "en_US": "Requires Level 68",
+          "es_MX": "Necesitas ser de nivel 68",
+          "pt_BR": "Requer o Nível 68",
+          "de_DE": "Benötigt Stufe 68",
+          "en_GB": "Requires Level 68",
+          "es_ES": "Necesitas ser de nivel 68",
+          "fr_FR": "Niveau 68 requis",
+          "it_IT": "Richiede il livello 68",
+          "ru_RU": "Требуется 68-й уровень",
+          "ko_KR": "최소 요구 레벨: 68",
+          "zh_TW": "需要等級68",
+          "zh_CN": "需要等级 68"
+        }
+      }
+    }
+  },
+  "purchase_quantity": 1
+}

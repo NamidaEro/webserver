@@ -1,0 +1,514 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/9424?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 9424,
+  "name": {
+    "en_US": "Ginn-Su Sword",
+    "es_MX": "Espada de Ginn-Su",
+    "pt_BR": "Espada Ginn-Su",
+    "de_DE": "Ginn-su-Schwert",
+    "en_GB": "Ginn-Su Sword",
+    "es_ES": "Espada de Ginn-Su",
+    "fr_FR": "Epée de Ginn-su",
+    "it_IT": "Spada di Ginn-Su",
+    "ru_RU": "Меч Джинн-су",
+    "ko_KR": "진수도",
+    "zh_TW": "疾速之劍",
+    "zh_CN": "疾速之剑"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 22,
+  "required_level": 15,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/9424?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 9424
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Sword",
+      "es_MX": "Espada",
+      "pt_BR": "Espada",
+      "de_DE": "Schwert",
+      "en_GB": "Sword",
+      "es_ES": "Espada",
+      "fr_FR": "Epée",
+      "it_IT": "Spada",
+      "ru_RU": "Меч",
+      "ko_KR": "도검",
+      "zh_TW": "劍",
+      "zh_CN": "剑"
+    },
+    "id": 7
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": {
+      "en_US": "One-Hand",
+      "es_MX": "Una mano",
+      "pt_BR": "Uma Mão",
+      "de_DE": "Einhändig",
+      "en_GB": "One-Hand",
+      "es_ES": "Una mano",
+      "fr_FR": "À une main",
+      "it_IT": "Una mano",
+      "ru_RU": "Одноручное",
+      "ko_KR": "한손 장비",
+      "zh_TW": "單手",
+      "zh_CN": "单手"
+    }
+  },
+  "purchase_price": 500888,
+  "sell_price": 100177,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/9424?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 9424
+    },
+    "context": 0,
+    "bonus_list": [
+      6710
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Ginn-Su Sword",
+      "es_MX": "Espada de Ginn-Su",
+      "pt_BR": "Espada Ginn-Su",
+      "de_DE": "Ginn-su-Schwert",
+      "en_GB": "Ginn-Su Sword",
+      "es_ES": "Espada de Ginn-Su",
+      "fr_FR": "Epée de Ginn-su",
+      "it_IT": "Spada di Ginn-Su",
+      "ru_RU": "Меч Джинн-су",
+      "ko_KR": "진수도",
+      "zh_TW": "疾速之劍",
+      "zh_CN": "疾速之剑"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/9424?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 9424
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Sword",
+        "es_MX": "Espada",
+        "pt_BR": "Espada",
+        "de_DE": "Schwert",
+        "en_GB": "Sword",
+        "es_ES": "Espada",
+        "fr_FR": "Epée",
+        "it_IT": "Spada",
+        "ru_RU": "Меч",
+        "ko_KR": "도검",
+        "zh_TW": "劍",
+        "zh_CN": "剑"
+      },
+      "id": 7
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": {
+        "en_US": "One-Hand",
+        "es_MX": "Una mano",
+        "pt_BR": "Uma Mão",
+        "de_DE": "Einhändig",
+        "en_GB": "One-Hand",
+        "es_ES": "Una mano",
+        "fr_FR": "À une main",
+        "it_IT": "Una mano",
+        "ru_RU": "Одноручное",
+        "ko_KR": "한손 장비",
+        "zh_TW": "單手",
+        "zh_CN": "单手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 346,
+        "max_value": 577,
+        "display_string": {
+          "en_US": "346 - 577 Damage",
+          "es_MX": "346 - 577 p. de daño",
+          "pt_BR": "346 - 577 de Dano",
+          "de_DE": "346 - 577 Schaden",
+          "en_GB": "346 - 577 Damage",
+          "es_ES": "346 - 577 p. de daño",
+          "fr_FR": "Dégâts : 346 - 577",
+          "it_IT": "346 - 577 Danni",
+          "ru_RU": "Урон: 346 - 577",
+          "ko_KR": "공격력 346 ~ 577",
+          "zh_TW": "346-577點傷害",
+          "zh_CN": "346 - 577点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": {
+          "en_US": "Speed 2.60",
+          "es_MX": "Velocidad 2.60",
+          "pt_BR": "Velocidade 2,60",
+          "de_DE": "Geschwindigkeit 2,60",
+          "en_GB": "Speed 2.60",
+          "es_ES": "Velocidad 2,60",
+          "fr_FR": "Vitesse 2,60",
+          "it_IT": "Velocità 2,60",
+          "ru_RU": "Скорость 2,60",
+          "ko_KR": "속도 2.60",
+          "zh_TW": "速度 2.60",
+          "zh_CN": "速度 2.60"
+        }
+      },
+      "dps": {
+        "value": 177.49998,
+        "display_string": {
+          "en_US": "(177.5 damage per second)",
+          "es_MX": "(177.5 p. de daño por segundo)",
+          "pt_BR": "(177,5 de dano por segundo)",
+          "de_DE": "(177,5 Schaden pro Sekunde)",
+          "en_GB": "(177.5 damage per second)",
+          "es_ES": "(177,5 p. de daño por segundo)",
+          "fr_FR": "(177,5 dégâts par seconde)",
+          "it_IT": "(177,5 danni per secondo)",
+          "ru_RU": "(177,5 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 177.5)",
+          "zh_TW": "(每秒177.5點傷害)",
+          "zh_CN": "（每秒伤害177.5）"
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 226,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+226 Agility",
+            "es_MX": "+226 agilidad",
+            "pt_BR": "+226 Agilidade",
+            "de_DE": "+226 Beweglichkeit",
+            "en_GB": "+226 Agility",
+            "es_ES": "+226 agilidad",
+            "fr_FR": "+226 Agilité",
+            "it_IT": "+226 Agilità",
+            "ru_RU": "+226 к ловкости",
+            "ko_KR": "민첩성 +226",
+            "zh_TW": "+226敏捷",
+            "zh_CN": "+226 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 205,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+205 Critical Strike",
+            "es_MX": "+205 golpe crítico",
+            "pt_BR": "+205 Acerto Crítico",
+            "de_DE": "+205 Kritischer Trefferwert",
+            "en_GB": "+205 Critical Strike",
+            "es_ES": "+205 golpe crítico",
+            "fr_FR": "+205 Score de crit.",
+            "it_IT": "+205 Indice di critico",
+            "ru_RU": "+205 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +205",
+            "zh_TW": "+205致命一擊",
+            "zh_CN": "+205 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 578996,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "57",
+          "es_MX": "57",
+          "pt_BR": "57",
+          "de_DE": "57",
+          "en_GB": "57",
+          "es_ES": "57",
+          "fr_FR": "57",
+          "it_IT": "57",
+          "ru_RU": "57",
+          "ko_KR": "57",
+          "zh_TW": "57",
+          "zh_CN": "57"
+        },
+        "silver": {
+          "en_US": "89",
+          "es_MX": "89",
+          "pt_BR": "89",
+          "de_DE": "89",
+          "en_GB": "89",
+          "es_ES": "89",
+          "fr_FR": "89",
+          "it_IT": "89",
+          "ru_RU": "89",
+          "ko_KR": "89",
+          "zh_TW": "89",
+          "zh_CN": "89"
+        },
+        "copper": {
+          "en_US": "96",
+          "es_MX": "96",
+          "pt_BR": "96",
+          "de_DE": "96",
+          "en_GB": "96",
+          "es_ES": "96",
+          "fr_FR": "96",
+          "it_IT": "96",
+          "ru_RU": "96",
+          "ko_KR": "96",
+          "zh_TW": "96",
+          "zh_CN": "96"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 15,
+        "display_string": {
+          "en_US": "Requires Level 15",
+          "es_MX": "Necesitas ser de nivel 15",
+          "pt_BR": "Requer o Nível 15",
+          "de_DE": "Benötigt Stufe 15",
+          "en_GB": "Requires Level 15",
+          "es_ES": "Necesitas ser de nivel 15",
+          "fr_FR": "Niveau 15 requis",
+          "it_IT": "Richiede il livello 15",
+          "ru_RU": "Требуется 15-й уровень",
+          "ko_KR": "최소 요구 레벨: 15",
+          "zh_TW": "需要等級15",
+          "zh_CN": "需要等级 15"
+        }
+      }
+    },
+    "level": {
+      "value": 371,
+      "display_string": {
+        "en_US": "Item Level 371",
+        "es_MX": "Nivel de objeto 371",
+        "pt_BR": "Nível do Item: 371",
+        "de_DE": "Gegenstandsstufe 371",
+        "en_GB": "Item Level 371",
+        "es_ES": "Nivel de objeto 371",
+        "fr_FR": "Niveau d'objet 371",
+        "it_IT": "Livello oggetto: 371",
+        "ru_RU": "Уровень предмета: 371",
+        "ko_KR": "아이템 레벨: 371",
+        "zh_TW": "物品等級371",
+        "zh_CN": "物品等级371"
+      }
+    },
+    "durability": {
+      "value": 70,
+      "display_string": {
+        "en_US": "Durability 70 / 70",
+        "es_MX": "Durabilidad 70 / 70",
+        "pt_BR": "Durabilidade 70 / 70",
+        "de_DE": "Haltbarkeit 70 / 70",
+        "en_GB": "Durability 70 / 70",
+        "es_ES": "Durabilidad 70 / 70",
+        "fr_FR": "Durabilité : 70 / 70",
+        "it_IT": "Integrità 70/70",
+        "ru_RU": "Прочность: 70 / 70",
+        "ko_KR": "내구도 70 / 70",
+        "zh_TW": "耐久度 70 / 70",
+        "zh_CN": "耐久度 70 / 70"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/2786?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 2786
+    }
+  ]
+}

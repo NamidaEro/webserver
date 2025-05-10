@@ -1,0 +1,504 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/215130?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 215130,
+  "name": {
+    "en_US": "Malleable Band",
+    "es_MX": "Sortija maleable",
+    "pt_BR": "Elo Maleável",
+    "de_DE": "Formbares Band",
+    "en_GB": "Malleable Band",
+    "es_ES": "Sortija maleable",
+    "fr_FR": "Anneau malléable",
+    "it_IT": "Vera Malleabile",
+    "ru_RU": "Гибкое кольцо",
+    "ko_KR": "유연한 고리",
+    "zh_TW": "延展指環",
+    "zh_CN": "韧锻指环"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 447,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/215130?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 215130
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "FINGER",
+    "name": {
+      "en_US": "Finger",
+      "es_MX": "Dedo",
+      "pt_BR": "Dedo",
+      "de_DE": "Finger",
+      "en_GB": "Finger",
+      "es_ES": "Dedo",
+      "fr_FR": "Doigt",
+      "it_IT": "Dito",
+      "ru_RU": "Палец",
+      "ko_KR": "손가락",
+      "zh_TW": "手指",
+      "zh_CN": "手指"
+    }
+  },
+  "purchase_price": 120585,
+  "sell_price": 24117,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/215130?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 215130
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": {
+            "en_US": "Prismatic Socket",
+            "es_MX": "Ranura prismática",
+            "pt_BR": "Engaste Prismático",
+            "de_DE": "Prismatischer Sockel",
+            "en_GB": "Prismatic Socket",
+            "es_ES": "Ranura prismática",
+            "fr_FR": "Châsse prismatique",
+            "it_IT": "Incavo Prismatico",
+            "ru_RU": "бесцветное гнездо",
+            "ko_KR": "다색 보석 홈",
+            "zh_TW": "多色插槽",
+            "zh_CN": "棱彩插槽"
+          }
+        }
+      }
+    ],
+    "context": 0,
+    "bonus_list": [
+      11295,
+      11296,
+      4785,
+      10878
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Malleable Band",
+      "es_MX": "Sortija maleable",
+      "pt_BR": "Elo Maleável",
+      "de_DE": "Formbares Band",
+      "en_GB": "Malleable Band",
+      "es_ES": "Sortija maleable",
+      "fr_FR": "Anneau malléable",
+      "it_IT": "Vera Malleabile",
+      "ru_RU": "Гибкое кольцо",
+      "ko_KR": "유연한 고리",
+      "zh_TW": "延展指環",
+      "zh_CN": "韧锻指环"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/215130?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 215130
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "FINGER",
+      "name": {
+        "en_US": "Finger",
+        "es_MX": "Dedo",
+        "pt_BR": "Dedo",
+        "de_DE": "Finger",
+        "en_GB": "Finger",
+        "es_ES": "Dedo",
+        "fr_FR": "Doigt",
+        "it_IT": "Dito",
+        "ru_RU": "Палец",
+        "ko_KR": "손가락",
+        "zh_TW": "手指",
+        "zh_CN": "手指"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 3248,
+        "display": {
+          "display_string": {
+            "en_US": "+3,248 Stamina",
+            "es_MX": "+3,248 aguante",
+            "pt_BR": "+3.248 Vigor",
+            "de_DE": "+3.248 Ausdauer",
+            "en_GB": "+3,248 Stamina",
+            "es_ES": "+3248 aguante",
+            "fr_FR": "+3248 Endurance",
+            "it_IT": "+3.248 Tempra",
+            "ru_RU": "+3248 к выносливости",
+            "ko_KR": "체력 +3,248",
+            "zh_TW": "+3,248耐力",
+            "zh_CN": "+3,248 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": {
+            "en_US": "Haste",
+            "es_MX": "celeridad",
+            "pt_BR": "Aceleração",
+            "de_DE": "Tempo",
+            "en_GB": "Haste",
+            "es_ES": "celeridad",
+            "fr_FR": "Hâte",
+            "it_IT": "Indice di celerità",
+            "ru_RU": "к скорости",
+            "ko_KR": "가속",
+            "zh_TW": "加速",
+            "zh_CN": "急速"
+          }
+        },
+        "value": 1341,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+1,341 Haste",
+            "es_MX": "+1,341 celeridad",
+            "pt_BR": "+1.341 Aceleração",
+            "de_DE": "+1.341 Tempo",
+            "en_GB": "+1,341 Haste",
+            "es_ES": "+1341 celeridad",
+            "fr_FR": "+1341 Hâte",
+            "it_IT": "+1.341 Indice di celerità",
+            "ru_RU": "+1341 к скорости",
+            "ko_KR": "가속 +1,341",
+            "zh_TW": "+1,341加速",
+            "zh_CN": "+1,341 急速"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": {
+            "en_US": "Mastery",
+            "es_MX": "maestría",
+            "pt_BR": "Maestria",
+            "de_DE": "Meisterschaft",
+            "en_GB": "Mastery",
+            "es_ES": "maestría",
+            "fr_FR": "Maîtrise",
+            "it_IT": "Indice di maestria",
+            "ru_RU": "к искусности",
+            "ko_KR": "특화",
+            "zh_TW": "精通",
+            "zh_CN": "精通"
+          }
+        },
+        "value": 1341,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+1,341 Mastery",
+            "es_MX": "+1,341 maestría",
+            "pt_BR": "+1.341 Maestria",
+            "de_DE": "+1.341 Meisterschaft",
+            "en_GB": "+1,341 Mastery",
+            "es_ES": "+1341 maestría",
+            "fr_FR": "+1341 Maîtrise",
+            "it_IT": "+1.341 Indice di maestria",
+            "ru_RU": "+1341 к искусности",
+            "ko_KR": "특화 +1,341",
+            "zh_TW": "+1,341精通",
+            "zh_CN": "+1,341 精通"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 24117,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "silver": {
+          "en_US": "41",
+          "es_MX": "41",
+          "pt_BR": "41",
+          "de_DE": "41",
+          "en_GB": "41",
+          "es_ES": "41",
+          "fr_FR": "41",
+          "it_IT": "41",
+          "ru_RU": "41",
+          "ko_KR": "41",
+          "zh_TW": "41",
+          "zh_CN": "41"
+        },
+        "copper": {
+          "en_US": "17",
+          "es_MX": "17",
+          "pt_BR": "17",
+          "de_DE": "17",
+          "en_GB": "17",
+          "es_ES": "17",
+          "fr_FR": "17",
+          "it_IT": "17",
+          "ru_RU": "17",
+          "ko_KR": "17",
+          "zh_TW": "17",
+          "zh_CN": "17"
+        }
+      }
+    },
+    "level": {
+      "value": 515,
+      "display_string": {
+        "en_US": "Item Level 515",
+        "es_MX": "Nivel de objeto 515",
+        "pt_BR": "Nível do Item: 515",
+        "de_DE": "Gegenstandsstufe 515",
+        "en_GB": "Item Level 515",
+        "es_ES": "Nivel de objeto 515",
+        "fr_FR": "Niveau d'objet 515",
+        "it_IT": "Livello oggetto: 515",
+        "ru_RU": "Уровень предмета: 515",
+        "ko_KR": "아이템 레벨: 515",
+        "zh_TW": "物品等級515",
+        "zh_CN": "物品等级515"
+      }
+    },
+    "is_subclass_hidden": true,
+    "modified_crafting_stat": [
+      {
+        "id": 49,
+        "type": "MASTERY_RATING",
+        "name": {
+          "en_US": "Mastery",
+          "es_MX": "maestría",
+          "pt_BR": "Maestria",
+          "de_DE": "Meisterschaft",
+          "en_GB": "Mastery",
+          "es_ES": "maestría",
+          "fr_FR": "Maîtrise",
+          "it_IT": "Indice di maestria",
+          "ru_RU": "к искусности",
+          "ko_KR": "특화",
+          "zh_TW": "精通",
+          "zh_CN": "精通"
+        }
+      },
+      {
+        "id": 36,
+        "type": "HASTE_RATING",
+        "name": {
+          "en_US": "Haste",
+          "es_MX": "celeridad",
+          "pt_BR": "Aceleração",
+          "de_DE": "Tempo",
+          "en_GB": "Haste",
+          "es_ES": "celeridad",
+          "fr_FR": "Hâte",
+          "it_IT": "Indice di celerità",
+          "ru_RU": "к скорости",
+          "ko_KR": "가속",
+          "zh_TW": "加速",
+          "zh_CN": "急速"
+        }
+      }
+    ]
+  },
+  "purchase_quantity": 1
+}

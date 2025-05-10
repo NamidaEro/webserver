@@ -1,0 +1,513 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/159543?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 159543,
+  "name": {
+    "en_US": "Loa-Blessed Maul",
+    "es_MX": "Gran maza bendecida por los loa",
+    "pt_BR": "Malho Abençoado pelos Loas",
+    "de_DE": "Loageweihter Schlägel",
+    "en_GB": "Loa-Blessed Maul",
+    "es_ES": "Gran maza bendecida por los loa",
+    "fr_FR": "Maillet béni par les Loas",
+    "it_IT": "Maglio Benedetto dai Loa",
+    "ru_RU": "Дубина милости лоа",
+    "ko_KR": "로아의 축복을 받은 철퇴",
+    "zh_TW": "受羅亞祝福的重錘",
+    "zh_CN": "神赐短槌"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 58,
+  "required_level": 50,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/159543?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 159543
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Mace",
+      "es_MX": "Maza",
+      "pt_BR": "Maça",
+      "de_DE": "Streitkolben",
+      "en_GB": "Mace",
+      "es_ES": "Maza",
+      "fr_FR": "Masse",
+      "it_IT": "Mazza",
+      "ru_RU": "Дробящее",
+      "ko_KR": "둔기",
+      "zh_TW": "錘",
+      "zh_CN": "锤"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": {
+      "en_US": "One-Hand",
+      "es_MX": "Una mano",
+      "pt_BR": "Uma Mão",
+      "de_DE": "Einhändig",
+      "en_GB": "One-Hand",
+      "es_ES": "Una mano",
+      "fr_FR": "À une main",
+      "it_IT": "Una mano",
+      "ru_RU": "Одноручное",
+      "ko_KR": "한손 장비",
+      "zh_TW": "單手",
+      "zh_CN": "单手"
+    }
+  },
+  "purchase_price": 3936729,
+  "sell_price": 787345,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/159543?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 159543
+    },
+    "context": 0,
+    "bonus_list": [
+      6655
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Loa-Blessed Maul",
+      "es_MX": "Gran maza bendecida por los loa",
+      "pt_BR": "Malho Abençoado pelos Loas",
+      "de_DE": "Loageweihter Schlägel",
+      "en_GB": "Loa-Blessed Maul",
+      "es_ES": "Gran maza bendecida por los loa",
+      "fr_FR": "Maillet béni par les Loas",
+      "it_IT": "Maglio Benedetto dai Loa",
+      "ru_RU": "Дубина милости лоа",
+      "ko_KR": "로아의 축복을 받은 철퇴",
+      "zh_TW": "受羅亞祝福的重錘",
+      "zh_CN": "神赐短槌"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/159543?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 159543
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Mace",
+        "es_MX": "Maza",
+        "pt_BR": "Maça",
+        "de_DE": "Streitkolben",
+        "en_GB": "Mace",
+        "es_ES": "Maza",
+        "fr_FR": "Masse",
+        "it_IT": "Mazza",
+        "ru_RU": "Дробящее",
+        "ko_KR": "둔기",
+        "zh_TW": "錘",
+        "zh_CN": "锤"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": {
+        "en_US": "One-Hand",
+        "es_MX": "Una mano",
+        "pt_BR": "Uma Mão",
+        "de_DE": "Einhändig",
+        "en_GB": "One-Hand",
+        "es_ES": "Una mano",
+        "fr_FR": "À une main",
+        "it_IT": "Una mano",
+        "ru_RU": "Одноручное",
+        "ko_KR": "한손 장비",
+        "zh_TW": "單手",
+        "zh_CN": "单手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 354,
+        "max_value": 456,
+        "display_string": {
+          "en_US": "354 - 456 Damage",
+          "es_MX": "354 - 456 p. de daño",
+          "pt_BR": "354 - 456 de Dano",
+          "de_DE": "354 - 456 Schaden",
+          "en_GB": "354 - 456 Damage",
+          "es_ES": "354 - 456 p. de daño",
+          "fr_FR": "Dégâts : 354 - 456",
+          "it_IT": "354 - 456 Danni",
+          "ru_RU": "Урон: 354 - 456",
+          "ko_KR": "공격력 354 ~ 456",
+          "zh_TW": "354-456點傷害",
+          "zh_CN": "354 - 456点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": {
+          "en_US": "Speed 2.60",
+          "es_MX": "Velocidad 2.60",
+          "pt_BR": "Velocidade 2,60",
+          "de_DE": "Geschwindigkeit 2,60",
+          "en_GB": "Speed 2.60",
+          "es_ES": "Velocidad 2,60",
+          "fr_FR": "Vitesse 2,60",
+          "it_IT": "Velocità 2,60",
+          "ru_RU": "Скорость 2,60",
+          "ko_KR": "속도 2.60",
+          "zh_TW": "速度 2.60",
+          "zh_CN": "速度 2.60"
+        }
+      },
+      "dps": {
+        "value": 155.76923,
+        "display_string": {
+          "en_US": "(155.8 damage per second)",
+          "es_MX": "(155.8 p. de daño por segundo)",
+          "pt_BR": "(155,8 de dano por segundo)",
+          "de_DE": "(155,8 Schaden pro Sekunde)",
+          "en_GB": "(155.8 damage per second)",
+          "es_ES": "(155,8 p. de daño por segundo)",
+          "fr_FR": "(155,8 dégâts par seconde)",
+          "it_IT": "(155,8 danni per secondo)",
+          "ru_RU": "(155,8 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 155.8)",
+          "zh_TW": "(每秒155.8點傷害)",
+          "zh_CN": "（每秒伤害155.8）"
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": {
+            "en_US": "Strength",
+            "es_MX": "fuerza",
+            "pt_BR": "Força",
+            "de_DE": "Stärke",
+            "en_GB": "Strength",
+            "es_ES": "fuerza",
+            "fr_FR": "Force",
+            "it_IT": "Forza",
+            "ru_RU": "к силе",
+            "ko_KR": "힘",
+            "zh_TW": "力量",
+            "zh_CN": "力量"
+          }
+        },
+        "value": 137,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+137 Strength",
+            "es_MX": "+137 fuerza",
+            "pt_BR": "+137 Força",
+            "de_DE": "+137 Stärke",
+            "en_GB": "+137 Strength",
+            "es_ES": "+137 fuerza",
+            "fr_FR": "+137 Force",
+            "it_IT": "+137 Forza",
+            "ru_RU": "+137 к силе",
+            "ko_KR": "힘 +137",
+            "zh_TW": "+137力量",
+            "zh_CN": "+137 力量"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 248,
+        "display": {
+          "display_string": {
+            "en_US": "+248 Stamina",
+            "es_MX": "+248 aguante",
+            "pt_BR": "+248 Vigor",
+            "de_DE": "+248 Ausdauer",
+            "en_GB": "+248 Stamina",
+            "es_ES": "+248 aguante",
+            "fr_FR": "+248 Endurance",
+            "it_IT": "+248 Tempra",
+            "ru_RU": "+248 к выносливости",
+            "ko_KR": "체력 +248",
+            "zh_TW": "+248耐力",
+            "zh_CN": "+248 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 492427,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "49",
+          "es_MX": "49",
+          "pt_BR": "49",
+          "de_DE": "49",
+          "en_GB": "49",
+          "es_ES": "49",
+          "fr_FR": "49",
+          "it_IT": "49",
+          "ru_RU": "49",
+          "ko_KR": "49",
+          "zh_TW": "49",
+          "zh_CN": "49"
+        },
+        "silver": {
+          "en_US": "24",
+          "es_MX": "24",
+          "pt_BR": "24",
+          "de_DE": "24",
+          "en_GB": "24",
+          "es_ES": "24",
+          "fr_FR": "24",
+          "it_IT": "24",
+          "ru_RU": "24",
+          "ko_KR": "24",
+          "zh_TW": "24",
+          "zh_CN": "24"
+        },
+        "copper": {
+          "en_US": "27",
+          "es_MX": "27",
+          "pt_BR": "27",
+          "de_DE": "27",
+          "en_GB": "27",
+          "es_ES": "27",
+          "fr_FR": "27",
+          "it_IT": "27",
+          "ru_RU": "27",
+          "ko_KR": "27",
+          "zh_TW": "27",
+          "zh_CN": "27"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 50,
+        "display_string": {
+          "en_US": "Requires Level 50",
+          "es_MX": "Necesitas ser de nivel 50",
+          "pt_BR": "Requer o Nível 50",
+          "de_DE": "Benötigt Stufe 50",
+          "en_GB": "Requires Level 50",
+          "es_ES": "Necesitas ser de nivel 50",
+          "fr_FR": "Niveau 50 requis",
+          "it_IT": "Richiede il livello 50",
+          "ru_RU": "Требуется 50-й уровень",
+          "ko_KR": "최소 요구 레벨: 50",
+          "zh_TW": "需要等級50",
+          "zh_CN": "需要等级 50"
+        }
+      }
+    },
+    "level": {
+      "value": 357,
+      "display_string": {
+        "en_US": "Item Level 357",
+        "es_MX": "Nivel de objeto 357",
+        "pt_BR": "Nível do Item: 357",
+        "de_DE": "Gegenstandsstufe 357",
+        "en_GB": "Item Level 357",
+        "es_ES": "Nivel de objeto 357",
+        "fr_FR": "Niveau d'objet 357",
+        "it_IT": "Livello oggetto: 357",
+        "ru_RU": "Уровень предмета: 357",
+        "ko_KR": "아이템 레벨: 357",
+        "zh_TW": "物品等級357",
+        "zh_CN": "物品等级357"
+      }
+    },
+    "durability": {
+      "value": 75,
+      "display_string": {
+        "en_US": "Durability 75 / 75",
+        "es_MX": "Durabilidad 75 / 75",
+        "pt_BR": "Durabilidade 75 / 75",
+        "de_DE": "Haltbarkeit 75 / 75",
+        "en_GB": "Durability 75 / 75",
+        "es_ES": "Durabilidad 75 / 75",
+        "fr_FR": "Durabilité : 75 / 75",
+        "it_IT": "Integrità 75/75",
+        "ru_RU": "Прочность: 75 / 75",
+        "ko_KR": "내구도 75 / 75",
+        "zh_TW": "耐久度 75 / 75",
+        "zh_CN": "耐久度 75 / 75"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/36412?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 36412
+    }
+  ]
+}

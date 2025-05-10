@@ -1,0 +1,380 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/3968?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 3968,
+  "name": {
+    "en_US": "Thick Leather Tunic",
+    "es_MX": "Guerrera de cuero grueso",
+    "pt_BR": "Túnica de Couro Grosso",
+    "de_DE": "Dicke Ledertunika",
+    "en_GB": "Thick Leather Tunic",
+    "es_ES": "Guerrera de cuero grueso",
+    "fr_FR": "Tunique en cuir épais",
+    "it_IT": "Giubba di Cuoio Spesso",
+    "ru_RU": "Утолщенный кожаный мундир",
+    "ko_KR": "두꺼운 가죽 튜닉",
+    "zh_TW": "厚皮外套",
+    "zh_CN": "厚皮外套"
+  },
+  "quality": {
+    "type": "POOR",
+    "name": {
+      "en_US": "Poor",
+      "es_MX": "Pobre",
+      "pt_BR": "Inferior",
+      "de_DE": "Schlecht",
+      "en_GB": "Poor",
+      "es_ES": "Pobre",
+      "fr_FR": "Mauvais",
+      "it_IT": "Scarso",
+      "ru_RU": "Низкое",
+      "ko_KR": "하급",
+      "zh_TW": "粗糙",
+      "zh_CN": "粗糙"
+    }
+  },
+  "level": 24,
+  "required_level": 17,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/3968?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 3968
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leather",
+      "es_MX": "Cuero",
+      "pt_BR": "Couro",
+      "de_DE": "Leder",
+      "en_GB": "Leather",
+      "es_ES": "Cuero",
+      "fr_FR": "Cuir",
+      "it_IT": "Cuoio",
+      "ru_RU": "Кожа",
+      "ko_KR": "가죽",
+      "zh_TW": "皮甲",
+      "zh_CN": "皮甲"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "CHEST",
+    "name": {
+      "en_US": "Chest",
+      "es_MX": "Pecho",
+      "pt_BR": "Torso",
+      "de_DE": "Brust",
+      "en_GB": "Chest",
+      "es_ES": "Torso",
+      "fr_FR": "Torse",
+      "it_IT": "Torso",
+      "ru_RU": "Грудь",
+      "ko_KR": "가슴",
+      "zh_TW": "胸部",
+      "zh_CN": "胸部"
+    }
+  },
+  "purchase_price": 375382,
+  "sell_price": 75076,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/3968?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3968
+    },
+    "context": 0,
+    "bonus_list": [
+      6656
+    ],
+    "quality": {
+      "type": "POOR",
+      "name": {
+        "en_US": "Poor",
+        "es_MX": "Pobre",
+        "pt_BR": "Inferior",
+        "de_DE": "Schlecht",
+        "en_GB": "Poor",
+        "es_ES": "Pobre",
+        "fr_FR": "Mauvais",
+        "it_IT": "Scarso",
+        "ru_RU": "Низкое",
+        "ko_KR": "하급",
+        "zh_TW": "粗糙",
+        "zh_CN": "粗糙"
+      }
+    },
+    "name": {
+      "en_US": "Thick Leather Tunic",
+      "es_MX": "Guerrera de cuero grueso",
+      "pt_BR": "Túnica de Couro Grosso",
+      "de_DE": "Dicke Ledertunika",
+      "en_GB": "Thick Leather Tunic",
+      "es_ES": "Guerrera de cuero grueso",
+      "fr_FR": "Tunique en cuir épais",
+      "it_IT": "Giubba di Cuoio Spesso",
+      "ru_RU": "Утолщенный кожаный мундир",
+      "ko_KR": "두꺼운 가죽 튜닉",
+      "zh_TW": "厚皮外套",
+      "zh_CN": "厚皮外套"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/3968?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3968
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leather",
+        "es_MX": "Cuero",
+        "pt_BR": "Couro",
+        "de_DE": "Leder",
+        "en_GB": "Leather",
+        "es_ES": "Cuero",
+        "fr_FR": "Cuir",
+        "it_IT": "Cuoio",
+        "ru_RU": "Кожа",
+        "ko_KR": "가죽",
+        "zh_TW": "皮甲",
+        "zh_CN": "皮甲"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "CHEST",
+      "name": {
+        "en_US": "Chest",
+        "es_MX": "Pecho",
+        "pt_BR": "Torso",
+        "de_DE": "Brust",
+        "en_GB": "Chest",
+        "es_ES": "Torso",
+        "fr_FR": "Torse",
+        "it_IT": "Torso",
+        "ru_RU": "Грудь",
+        "ko_KR": "가슴",
+        "zh_TW": "胸部",
+        "zh_CN": "胸部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 267,
+      "display": {
+        "display_string": {
+          "en_US": "267 Armor",
+          "es_MX": "267 p. de armadura",
+          "pt_BR": "267 de Armadura",
+          "de_DE": "267 Rüstung",
+          "en_GB": "267 Armor",
+          "es_ES": "267 p. de armadura",
+          "fr_FR": "Armure : 267",
+          "it_IT": "267 Armatura",
+          "ru_RU": "Броня: 267",
+          "ko_KR": "방어도 267",
+          "zh_TW": "267點護甲",
+          "zh_CN": "267点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "sell_price": {
+      "value": 116371,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "11",
+          "es_MX": "11",
+          "pt_BR": "11",
+          "de_DE": "11",
+          "en_GB": "11",
+          "es_ES": "11",
+          "fr_FR": "11",
+          "it_IT": "11",
+          "ru_RU": "11",
+          "ko_KR": "11",
+          "zh_TW": "11",
+          "zh_CN": "11"
+        },
+        "silver": {
+          "en_US": "63",
+          "es_MX": "63",
+          "pt_BR": "63",
+          "de_DE": "63",
+          "en_GB": "63",
+          "es_ES": "63",
+          "fr_FR": "63",
+          "it_IT": "63",
+          "ru_RU": "63",
+          "ko_KR": "63",
+          "zh_TW": "63",
+          "zh_CN": "63"
+        },
+        "copper": {
+          "en_US": "71",
+          "es_MX": "71",
+          "pt_BR": "71",
+          "de_DE": "71",
+          "en_GB": "71",
+          "es_ES": "71",
+          "fr_FR": "71",
+          "it_IT": "71",
+          "ru_RU": "71",
+          "ko_KR": "71",
+          "zh_TW": "71",
+          "zh_CN": "71"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 17,
+        "display_string": {
+          "en_US": "Requires Level 17",
+          "es_MX": "Necesitas ser de nivel 17",
+          "pt_BR": "Requer o Nível 17",
+          "de_DE": "Benötigt Stufe 17",
+          "en_GB": "Requires Level 17",
+          "es_ES": "Necesitas ser de nivel 17",
+          "fr_FR": "Niveau 17 requis",
+          "it_IT": "Richiede il livello 17",
+          "ru_RU": "Требуется 17-й уровень",
+          "ko_KR": "최소 요구 레벨: 17",
+          "zh_TW": "需要等級17",
+          "zh_CN": "需要等级 17"
+        }
+      }
+    },
+    "level": {
+      "value": 322,
+      "display_string": {
+        "en_US": "Item Level 322",
+        "es_MX": "Nivel de objeto 322",
+        "pt_BR": "Nível do Item: 322",
+        "de_DE": "Gegenstandsstufe 322",
+        "en_GB": "Item Level 322",
+        "es_ES": "Nivel de objeto 322",
+        "fr_FR": "Niveau d'objet 322",
+        "it_IT": "Livello oggetto: 322",
+        "ru_RU": "Уровень предмета: 322",
+        "ko_KR": "아이템 레벨: 322",
+        "zh_TW": "物品等級322",
+        "zh_CN": "物品等级322"
+      }
+    },
+    "durability": {
+      "value": 105,
+      "display_string": {
+        "en_US": "Durability 105 / 105",
+        "es_MX": "Durabilidad 105 / 105",
+        "pt_BR": "Durabilidade 105 / 105",
+        "de_DE": "Haltbarkeit 105 / 105",
+        "en_GB": "Durability 105 / 105",
+        "es_ES": "Durabilidad 105 / 105",
+        "fr_FR": "Durabilité : 105 / 105",
+        "it_IT": "Integrità 105/105",
+        "ru_RU": "Прочность: 105 / 105",
+        "ko_KR": "내구도 105 / 105",
+        "zh_TW": "耐久度 105 / 105",
+        "zh_CN": "耐久度 105 / 105"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/1418?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 1418
+    }
+  ]
+}

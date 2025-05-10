@@ -1,0 +1,858 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/3875?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 3875,
+  "name": {
+    "en_US": "Plans: Golden Scale Boots",
+    "es_MX": "Diseño: botas de escamas doradas",
+    "pt_BR": "Instruções: Botas de Escama Dourada",
+    "de_DE": "Pläne: Goldene Schuppenstiefel",
+    "en_GB": "Plans: Golden Scale Boots",
+    "es_ES": "Diseño: botas de escamas doradas",
+    "fr_FR": "Plans : Bottes en écailles dorées",
+    "it_IT": "Progetto: Stivali di Scaglie d'Oro",
+    "ru_RU": "Чертеж: золотые чешуйчатые сапоги",
+    "ko_KR": "도면: 황금 미늘 장화",
+    "zh_TW": "設計圖：金鱗長靴",
+    "zh_CN": "设计图：金鳞战靴"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/3875?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 3875
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Blacksmithing",
+      "es_MX": "Herrería",
+      "pt_BR": "Ferraria",
+      "de_DE": "Schmiedekunst",
+      "en_GB": "Blacksmithing",
+      "es_ES": "Herrería",
+      "fr_FR": "Forge",
+      "it_IT": "Forgiatura",
+      "ru_RU": "Кузнечное дело",
+      "ko_KR": "대장기술",
+      "zh_TW": "鍛造",
+      "zh_CN": "锻造"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 5000,
+  "sell_price": 1250,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to make Golden Scale Boots.",
+    "es_MX": "Te enseña a hacer botas de escamas doradas.",
+    "pt_BR": "Ensina a fazer Botas de Escama Dourada.",
+    "de_DE": "Lehrt Euch die Herstellung von goldenen Schuppenstiefeln.",
+    "en_GB": "Teaches you how to make Golden Scale Boots.",
+    "es_ES": "Te enseña a hacer botas de escamas doradas.",
+    "fr_FR": "Vous apprend à forger des Bottes en écailles dorées.",
+    "it_IT": "Ti insegna a creare degli Stivali di Scaglie d'Oro.",
+    "ru_RU": "Обучает изготовлению золотых чешуйчатых сапог.",
+    "ko_KR": "황금 미늘 장화 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作金鱗長靴。",
+    "zh_CN": "教你学会制作金鳞靴。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/3875?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3875
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Plans: Golden Scale Boots",
+      "es_MX": "Diseño: botas de escamas doradas",
+      "pt_BR": "Instruções: Botas de Escama Dourada",
+      "de_DE": "Pläne: Goldene Schuppenstiefel",
+      "en_GB": "Plans: Golden Scale Boots",
+      "es_ES": "Diseño: botas de escamas doradas",
+      "fr_FR": "Plans : Bottes en écailles dorées",
+      "it_IT": "Progetto: Stivali di Scaglie d'Oro",
+      "ru_RU": "Чертеж: золотые чешуйчатые сапоги",
+      "ko_KR": "도면: 황금 미늘 장화",
+      "zh_TW": "設計圖：金鱗長靴",
+      "zh_CN": "设计图：金鳞战靴"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/3875?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3875
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Blacksmithing",
+        "es_MX": "Herrería",
+        "pt_BR": "Ferraria",
+        "de_DE": "Schmiedekunst",
+        "en_GB": "Blacksmithing",
+        "es_ES": "Herrería",
+        "fr_FR": "Forge",
+        "it_IT": "Forgiatura",
+        "ru_RU": "Кузнечное дело",
+        "ko_KR": "대장기술",
+        "zh_TW": "鍛造",
+        "zh_CN": "锻造"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 1250,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "12",
+          "es_MX": "12",
+          "pt_BR": "12",
+          "de_DE": "12",
+          "en_GB": "12",
+          "es_ES": "12",
+          "fr_FR": "12",
+          "it_IT": "12",
+          "ru_RU": "12",
+          "ko_KR": "12",
+          "zh_TW": "12",
+          "zh_CN": "12"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Blacksmithing",
+            "es_MX": "Herrería clásica",
+            "pt_BR": "Ferraria do Classic",
+            "de_DE": "Klassische Schmiedekunst",
+            "en_GB": "Classic Blacksmithing",
+            "es_ES": "Herrería clásica",
+            "fr_FR": "Forge classique",
+            "it_IT": "Forgiatura Classica",
+            "ru_RU": "Классическое кузнечное дело",
+            "ko_KR": "옛 대장기술",
+            "zh_TW": "艾澤拉斯鍛造",
+            "zh_CN": "经典旧世锻造"
+          },
+          "id": 2477
+        },
+        "level": 200,
+        "display_string": {
+          "en_US": "Requires Classic Blacksmithing (200)",
+          "es_MX": "Requiere Herrería clásica (200)",
+          "pt_BR": "Requer Ferraria do Classic (200)",
+          "de_DE": "Benötigt Klassische Schmiedekunst (200)",
+          "en_GB": "Requires Classic Blacksmithing (200)",
+          "es_ES": "Requiere Herrería clásica (200)",
+          "fr_FR": "Forge classique (200) requis",
+          "it_IT": "Richiede: Forgiatura Classica (200)",
+          "ru_RU": "Требуется: Классическое кузнечное дело (200)",
+          "ko_KR": "요구 사항: 옛 대장기술 (200)",
+          "zh_TW": "需要艾澤拉斯鍛造(200)",
+          "zh_CN": "需要经典旧世锻造（200）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to make Golden Scale Boots.",
+      "es_MX": "Te enseña a hacer botas de escamas doradas.",
+      "pt_BR": "Ensina a fazer Botas de Escama Dourada.",
+      "de_DE": "Lehrt Euch die Herstellung von goldenen Schuppenstiefeln.",
+      "en_GB": "Teaches you how to make Golden Scale Boots.",
+      "es_ES": "Te enseña a hacer botas de escamas doradas.",
+      "fr_FR": "Vous apprend à forger des Bottes en écailles dorées.",
+      "it_IT": "Ti insegna a creare degli Stivali di Scaglie d'Oro.",
+      "ru_RU": "Обучает изготовлению золотых чешуйчатых сапог.",
+      "ko_KR": "황금 미늘 장화 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作金鱗長靴。",
+      "zh_CN": "教你学会制作金鳞靴。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/3847?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 3847
+        },
+        "quality": {
+          "type": "UNCOMMON",
+          "name": {
+            "en_US": "Uncommon",
+            "es_MX": "Inusual",
+            "pt_BR": "Incomum",
+            "de_DE": "Ungewöhnlich",
+            "en_GB": "Uncommon",
+            "es_ES": "Inusual",
+            "fr_FR": "Inhabituel",
+            "it_IT": "Pregiato",
+            "ru_RU": "Необычное",
+            "ko_KR": "고급",
+            "zh_TW": "優秀",
+            "zh_CN": "优秀"
+          }
+        },
+        "name": {
+          "en_US": "Golden Scale Boots",
+          "es_MX": "Botas de escamas doradas",
+          "pt_BR": "Botas de Escama Dourada",
+          "de_DE": "Goldschuppenstiefel",
+          "en_GB": "Golden Scale Boots",
+          "es_ES": "Botas de escamas doradas",
+          "fr_FR": "Bottes en écailles dorées",
+          "it_IT": "Stivali di Scaglie d'Oro",
+          "ru_RU": "Золотые чешуйчатые сапоги",
+          "ko_KR": "황금 미늘 장화",
+          "zh_TW": "金鱗長靴",
+          "zh_CN": "黄金鳞甲战靴"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/3847?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 3847
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Mail",
+            "es_MX": "Malla",
+            "pt_BR": "Malha",
+            "de_DE": "Kette",
+            "en_GB": "Mail",
+            "es_ES": "Malla",
+            "fr_FR": "Mailles",
+            "it_IT": "Maglia",
+            "ru_RU": "Кольчуга",
+            "ko_KR": "사슬",
+            "zh_TW": "鎖甲",
+            "zh_CN": "锁甲"
+          },
+          "id": 3
+        },
+        "inventory_type": {
+          "type": "FEET",
+          "name": {
+            "en_US": "Feet",
+            "es_MX": "Pies",
+            "pt_BR": "Pés",
+            "de_DE": "Füße",
+            "en_GB": "Feet",
+            "es_ES": "Pies",
+            "fr_FR": "Pieds",
+            "it_IT": "Piedi",
+            "ru_RU": "Ступни",
+            "ko_KR": "발",
+            "zh_TW": "腳",
+            "zh_CN": "脚部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "armor": {
+          "value": 5,
+          "display": {
+            "display_string": {
+              "en_US": "5 Armor",
+              "es_MX": "5 p. de armadura",
+              "pt_BR": "5 de Armadura",
+              "de_DE": "5 Rüstung",
+              "en_GB": "5 Armor",
+              "es_ES": "5 p. de armadura",
+              "fr_FR": "Armure : 5",
+              "it_IT": "5 Armatura",
+              "ru_RU": "Броня: 5",
+              "ko_KR": "방어도 5",
+              "zh_TW": "5點護甲",
+              "zh_CN": "5点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "INTELLECT",
+              "name": {
+                "en_US": "Intellect",
+                "es_MX": "intelecto",
+                "pt_BR": "Intelecto",
+                "de_DE": "Intelligenz",
+                "en_GB": "Intellect",
+                "es_ES": "intelecto",
+                "fr_FR": "Intelligence",
+                "it_IT": "Intelletto",
+                "ru_RU": "к интеллекту",
+                "ko_KR": "지능",
+                "zh_TW": "智力",
+                "zh_CN": "智力"
+              }
+            },
+            "value": 2,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Intellect",
+                "es_MX": "+2 intelecto",
+                "pt_BR": "+2 Intelecto",
+                "de_DE": "+2 Intelligenz",
+                "en_GB": "+2 Intellect",
+                "es_ES": "+2 intelecto",
+                "fr_FR": "+2 Intelligence",
+                "it_IT": "+2 Intelletto",
+                "ru_RU": "+2 к интеллекту",
+                "ko_KR": "지능 +2",
+                "zh_TW": "+2智力",
+                "zh_CN": "+2 智力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "AGILITY",
+              "name": {
+                "en_US": "Agility",
+                "es_MX": "agilidad",
+                "pt_BR": "Agilidade",
+                "de_DE": "Beweglichkeit",
+                "en_GB": "Agility",
+                "es_ES": "agilidad",
+                "fr_FR": "Agilité",
+                "it_IT": "Agilità",
+                "ru_RU": "к ловкости",
+                "ko_KR": "민첩성",
+                "zh_TW": "敏捷",
+                "zh_CN": "敏捷"
+              }
+            },
+            "value": 2,
+            "is_negated": true,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Agility",
+                "es_MX": "+2 agilidad",
+                "pt_BR": "+2 Agilidade",
+                "de_DE": "+2 Beweglichkeit",
+                "en_GB": "+2 Agility",
+                "es_ES": "+2 agilidad",
+                "fr_FR": "+2 Agilité",
+                "it_IT": "+2 Agilità",
+                "ru_RU": "+2 к ловкости",
+                "ko_KR": "민첩성 +2",
+                "zh_TW": "+2敏捷",
+                "zh_CN": "+2 敏捷"
+              },
+              "color": {
+                "r": 128,
+                "g": 128,
+                "b": 128,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "STAMINA",
+              "name": {
+                "en_US": "Stamina",
+                "es_MX": "aguante",
+                "pt_BR": "Vigor",
+                "de_DE": "Ausdauer",
+                "en_GB": "Stamina",
+                "es_ES": "aguante",
+                "fr_FR": "Endurance",
+                "it_IT": "Tempra",
+                "ru_RU": "к выносливости",
+                "ko_KR": "체력",
+                "zh_TW": "耐力",
+                "zh_CN": "耐力"
+              }
+            },
+            "value": 3,
+            "display": {
+              "display_string": {
+                "en_US": "+3 Stamina",
+                "es_MX": "+3 aguante",
+                "pt_BR": "+3 Vigor",
+                "de_DE": "+3 Ausdauer",
+                "en_GB": "+3 Stamina",
+                "es_ES": "+3 aguante",
+                "fr_FR": "+3 Endurance",
+                "it_IT": "+3 Tempra",
+                "ru_RU": "+3 к выносливости",
+                "ko_KR": "체력 +3",
+                "zh_TW": "+3耐力",
+                "zh_CN": "+3 耐力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "CRIT_RATING",
+              "name": {
+                "en_US": "Critical Strike",
+                "es_MX": "golpe crítico",
+                "pt_BR": "Acerto Crítico",
+                "de_DE": "Kritischer Trefferwert",
+                "en_GB": "Critical Strike",
+                "es_ES": "golpe crítico",
+                "fr_FR": "Score de crit.",
+                "it_IT": "Indice di critico",
+                "ru_RU": "к критическому удару",
+                "ko_KR": "치명타 및 극대화",
+                "zh_TW": "致命一擊",
+                "zh_CN": "爆击"
+              }
+            },
+            "value": 3,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+3 Critical Strike",
+                "es_MX": "+3 golpe crítico",
+                "pt_BR": "+3 Acerto Crítico",
+                "de_DE": "+3 Kritischer Trefferwert",
+                "en_GB": "+3 Critical Strike",
+                "es_ES": "+3 golpe crítico",
+                "fr_FR": "+3 Score de crit.",
+                "it_IT": "+3 Indice di critico",
+                "ru_RU": "+3 к критическому удару",
+                "ko_KR": "치명타 및 극대화 +3",
+                "zh_TW": "+3致命一擊",
+                "zh_CN": "+3 爆击"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 1500,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "15",
+              "es_MX": "15",
+              "pt_BR": "15",
+              "de_DE": "15",
+              "en_GB": "15",
+              "es_ES": "15",
+              "fr_FR": "15",
+              "it_IT": "15",
+              "ru_RU": "15",
+              "ko_KR": "15",
+              "zh_TW": "15",
+              "zh_CN": "15"
+            },
+            "copper": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 15,
+            "display_string": {
+              "en_US": "Requires Level 15",
+              "es_MX": "Necesitas ser de nivel 15",
+              "pt_BR": "Requer o Nível 15",
+              "de_DE": "Benötigt Stufe 15",
+              "en_GB": "Requires Level 15",
+              "es_ES": "Necesitas ser de nivel 15",
+              "fr_FR": "Niveau 15 requis",
+              "it_IT": "Richiede il livello 15",
+              "ru_RU": "Требуется 15-й уровень",
+              "ko_KR": "최소 요구 레벨: 15",
+              "zh_TW": "需要等級15",
+              "zh_CN": "需要等级 15"
+            }
+          }
+        },
+        "level": {
+          "value": 22,
+          "display_string": {
+            "en_US": "Item Level 22",
+            "es_MX": "Nivel de objeto 22",
+            "pt_BR": "Nível do Item: 22",
+            "de_DE": "Gegenstandsstufe 22",
+            "en_GB": "Item Level 22",
+            "es_ES": "Nivel de objeto 22",
+            "fr_FR": "Niveau d'objet 22",
+            "it_IT": "Livello oggetto: 22",
+            "ru_RU": "Уровень предмета: 22",
+            "ko_KR": "아이템 레벨: 22",
+            "zh_TW": "物品等級22",
+            "zh_CN": "物品等级22"
+          }
+        },
+        "durability": {
+          "value": 50,
+          "display_string": {
+            "en_US": "Durability 50 / 50",
+            "es_MX": "Durabilidad 50 / 50",
+            "pt_BR": "Durabilidade 50 / 50",
+            "de_DE": "Haltbarkeit 50 / 50",
+            "en_GB": "Durability 50 / 50",
+            "es_ES": "Durabilidad 50 / 50",
+            "fr_FR": "Durabilité : 50 / 50",
+            "it_IT": "Integrità 50/50",
+            "ru_RU": "Прочность: 50 / 50",
+            "ko_KR": "내구도 50 / 50",
+            "zh_TW": "耐久度 50 / 50",
+            "zh_CN": "耐久度 50 / 50"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/3859?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Steel Bar",
+              "es_MX": "Barra de acero",
+              "pt_BR": "Barra de Aço",
+              "de_DE": "Stahlbarren",
+              "en_GB": "Steel Bar",
+              "es_ES": "Barra de acero",
+              "fr_FR": "Barre d'acier",
+              "it_IT": "Lingotto d'Acciaio",
+              "ru_RU": "Стальной слиток",
+              "ko_KR": "강철 주괴",
+              "zh_TW": "鋼錠",
+              "zh_CN": "钢锭"
+            },
+            "id": 3859
+          },
+          "quantity": 10
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/3577?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Gold Bar",
+              "es_MX": "Barra de oro",
+              "pt_BR": "Barra de Ouro",
+              "de_DE": "Goldbarren",
+              "en_GB": "Gold Bar",
+              "es_ES": "Barra de oro",
+              "fr_FR": "Barre d'or",
+              "it_IT": "Lingotto d'Oro",
+              "ru_RU": "Золотой слиток",
+              "ko_KR": "금괴",
+              "zh_TW": "金錠",
+              "zh_CN": "金锭"
+            },
+            "id": 3577
+          },
+          "quantity": 4
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/3486?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Heavy Grinding Stone",
+              "es_MX": "Piedra de pulir pesada",
+              "pt_BR": "Pedra de Amolar Pesada",
+              "de_DE": "Schwerer Schleifstein",
+              "en_GB": "Heavy Grinding Stone",
+              "es_ES": "Piedra de pulir pesada",
+              "fr_FR": "Silex à aiguiser lourd",
+              "it_IT": "Pietra da Molatura Pesante",
+              "ru_RU": "Тяжелый шлифовальный камень",
+              "ko_KR": "단단한 연마석",
+              "zh_TW": "重砂輪",
+              "zh_CN": "重砂轮"
+            },
+            "id": 3486
+          },
+          "quantity": 4
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Steel Bar (10), Gold Bar (4), Heavy Grinding Stone (4)",
+        "es_MX": "Barra de acero (10), Barra de oro (4), Piedra de pulir pesada (4)",
+        "pt_BR": "Barra de Aço (10), Barra de Ouro (4), Pedra de Amolar Pesada (4)",
+        "de_DE": "Stahlbarren (10), Goldbarren (4), Schwerer Schleifstein (4)",
+        "en_GB": "Steel Bar (10), Gold Bar (4), Heavy Grinding Stone (4)",
+        "es_ES": "Barra de acero (10), Barra de oro (4), Piedra de pulir pesada (4)",
+        "fr_FR": "Barre d'acier (10), Barre d'or (4), Silex à aiguiser lourd (4)",
+        "it_IT": "Lingotto d'Acciaio (10), Lingotto d'Oro (4), Pietra da Molatura Pesante (4)",
+        "ru_RU": "Стальной слиток (10), Золотой слиток (4), Тяжелый шлифовальный камень (4)",
+        "ko_KR": "강철 주괴 (10), 금괴 (4), 단단한 연마석 (4)",
+        "zh_TW": "鋼錠 (10), 金錠 (4), 重砂輪 (4)",
+        "zh_CN": "钢锭 (10), 金锭 (4), 重砂轮 (4)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

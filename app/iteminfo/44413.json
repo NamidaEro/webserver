@@ -1,0 +1,335 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/44413?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 44413,
+  "name": {
+    "en_US": "Mekgineer's Chopper",
+    "es_MX": "Chopper de mekigeniero",
+    "pt_BR": "Motoca do Mecangenheiro",
+    "de_DE": "Chopper des Robogenieurs",
+    "en_GB": "Mekgineer's Chopper",
+    "es_ES": "Chopper de mekigeniero",
+    "fr_FR": "Bécane de mekgénieur",
+    "it_IT": "Dueruote del Mekgeniere",
+    "ru_RU": "Анжинерский чоппер",
+    "ko_KR": "기계박사의 붕붕이",
+    "zh_TW": "機電師摩托車",
+    "zh_CN": "机械师的摩托车"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 10,
+  "required_level": 17,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/44413?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 44413
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "杂项"
+    },
+    "id": 15
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Mount",
+      "es_MX": "Montura",
+      "pt_BR": "Montaria",
+      "de_DE": "Reittier",
+      "en_GB": "Mount",
+      "es_ES": "Montura",
+      "fr_FR": "Monture",
+      "it_IT": "Cavalcatura",
+      "ru_RU": "Транспорт",
+      "ko_KR": "탈것",
+      "zh_TW": "坐騎",
+      "zh_CN": "坐骑"
+    },
+    "id": 5
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 50000,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to ride this chopper.",
+    "es_MX": "Te enseña a conducir esta súper chopper.",
+    "pt_BR": "Ensina a pilotar esta motoca.",
+    "de_DE": "Lehrt Euch, wie man diesen Chopper fährt.",
+    "en_GB": "Teaches you how to ride this chopper.",
+    "es_ES": "Te enseña a conducir esta superchopper.",
+    "fr_FR": "Vous apprend à chevaucher cette bécane.",
+    "it_IT": "Ti insegna a cavalcare questa due ruote.",
+    "ru_RU": "Обучает езде на чоппере.",
+    "ko_KR": "붕붕이 타는 법을 배웁니다.",
+    "zh_TW": "教你學會如何駕駛這台摩托車。",
+    "zh_CN": "教你学会驾驶这种摩托车。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/44413?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 44413
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Mekgineer's Chopper",
+      "es_MX": "Chopper de mekigeniero",
+      "pt_BR": "Motoca do Mecangenheiro",
+      "de_DE": "Chopper des Robogenieurs",
+      "en_GB": "Mekgineer's Chopper",
+      "es_ES": "Chopper de mekigeniero",
+      "fr_FR": "Bécane de mekgénieur",
+      "it_IT": "Dueruote del Mekgeniere",
+      "ru_RU": "Анжинерский чоппер",
+      "ko_KR": "기계박사의 붕붕이",
+      "zh_TW": "機電師摩托車",
+      "zh_CN": "机械师的摩托车"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/44413?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 44413
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "杂项"
+      },
+      "id": 15
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/5?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Mount",
+        "es_MX": "Montura",
+        "pt_BR": "Montaria",
+        "de_DE": "Reittier",
+        "en_GB": "Mount",
+        "es_ES": "Montura",
+        "fr_FR": "Monture",
+        "it_IT": "Cavalcatura",
+        "ru_RU": "Транспорт",
+        "ko_KR": "탈것",
+        "zh_TW": "坐騎",
+        "zh_CN": "坐骑"
+      },
+      "id": 5
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/60424?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Mekgineer's Chopper",
+            "es_MX": "Chopper de mekigeniero",
+            "pt_BR": "Motoca do Mecangenheiro",
+            "de_DE": "Chopper des Robogenieurs",
+            "en_GB": "Mekgineer's Chopper",
+            "es_ES": "Chopper de mekigeniero",
+            "fr_FR": "Bécane de mekgénieur",
+            "it_IT": "Dueruote del Mekgeniere",
+            "ru_RU": "Анжинерский чоппер",
+            "ko_KR": "기계박사의 붕붕이",
+            "zh_TW": "機電師摩托車",
+            "zh_CN": "机械师的摩托车"
+          },
+          "id": 60424
+        },
+        "description": {
+          "en_US": "Use: Teaches you how to ride this chopper.",
+          "es_MX": "Usar: Te enseña a conducir esta súper chopper.",
+          "pt_BR": "Usar: Ensina a pilotar esta motoca.",
+          "de_DE": "Benutzen: Lehrt Euch, wie man diesen Chopper fährt.",
+          "en_GB": "Use: Teaches you how to ride this chopper.",
+          "es_ES": "Uso: Te enseña a conducir esta superchopper.",
+          "fr_FR": "Utiliser : Vous apprend à chevaucher cette bécane.",
+          "it_IT": "Usa: Ti insegna a cavalcare questa due ruote.",
+          "ru_RU": "Использование: Обучает езде на чоппере.",
+          "ko_KR": "사용 효과: 붕붕이 타는 법을 배웁니다.",
+          "zh_TW": "使用： 教你學會如何駕駛這台摩托車。",
+          "zh_CN": "使用： 教你学会驾驶这种摩托车。"
+        }
+      }
+    ],
+    "requirements": {
+      "faction": {
+        "value": {
+          "type": "ALLIANCE",
+          "name": {
+            "en_US": "Alliance",
+            "es_MX": "Alianza",
+            "pt_BR": "Aliança",
+            "de_DE": "Allianz",
+            "en_GB": "Alliance",
+            "es_ES": "Alianza",
+            "fr_FR": "Alliance",
+            "it_IT": "Alleanza",
+            "ru_RU": "Альянс",
+            "ko_KR": "얼라이언스",
+            "zh_TW": "聯盟",
+            "zh_CN": "联盟"
+          }
+        },
+        "display_string": {
+          "en_US": "Alliance Only",
+          "es_MX": "Solo Alianza",
+          "pt_BR": "Somente Aliança",
+          "de_DE": "Nur Allianz",
+          "en_GB": "Alliance Only",
+          "es_ES": "Solo Alianza",
+          "fr_FR": "Alliance uniquement",
+          "it_IT": "Solo Alleanza",
+          "ru_RU": "Только для Альянса",
+          "ko_KR": "얼라이언스 전용",
+          "zh_TW": "聯盟限定",
+          "zh_CN": "只限联盟"
+        }
+      },
+      "ability": {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/33388?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Apprentice Riding",
+            "es_MX": "Aprendiz jinete",
+            "pt_BR": "Aprendiz de Montaria",
+            "de_DE": "Unerfahrenes Reiten",
+            "en_GB": "Apprentice Riding",
+            "es_ES": "Aprendiz jinete",
+            "fr_FR": "Apprenti cavalier",
+            "it_IT": "Apprendista in Equitazione",
+            "ru_RU": "Верховая езда (ученик)",
+            "ko_KR": "초급 타기",
+            "zh_TW": "初級騎術",
+            "zh_CN": "初级骑术"
+          },
+          "id": 33388
+        },
+        "display_string": {
+          "en_US": "Requires Apprentice Riding",
+          "es_MX": "Requiere Aprendiz jinete",
+          "pt_BR": "Requer Aprendiz de Montaria",
+          "de_DE": "Benötigt Unerfahrenes Reiten",
+          "en_GB": "Requires Apprentice Riding",
+          "es_ES": "Requiere Aprendiz jinete",
+          "fr_FR": "Requiert Apprenti cavalier",
+          "it_IT": "Richiede: Apprendista in Equitazione",
+          "ru_RU": "Требуется: Верховая езда (ученик)",
+          "ko_KR": "요구 사항: 초급 타기",
+          "zh_TW": "需要初級騎術",
+          "zh_CN": "需要初级骑术"
+        }
+      }
+    }
+  },
+  "purchase_quantity": 1
+}

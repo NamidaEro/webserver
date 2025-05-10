@@ -1,0 +1,730 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/10315?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 10315,
+  "name": {
+    "en_US": "Pattern: Red Mageweave Shoulders",
+    "es_MX": "Patrón: sobrehombros de tejido mágico rojos",
+    "pt_BR": "Molde: Omoplatas de Magitrama Vermelhas",
+    "de_DE": "Muster: Rote Magiestoffschultern",
+    "en_GB": "Pattern: Red Mageweave Shoulders",
+    "es_ES": "Patrón: sobrehombros de tejido mágico rojos",
+    "fr_FR": "Patron : Epaulières rouges en tisse-mage",
+    "it_IT": "Modello: Spallacci di Telamagica Rossi",
+    "ru_RU": "Выкройка: красные наплечники из магической ткани",
+    "ko_KR": "도안: 붉은 마법매듭 어깨보호구",
+    "zh_TW": "圖樣：紅色魔紋護肩",
+    "zh_CN": "图样：红色魔纹护肩"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/10315?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 10315
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Tailoring",
+      "es_MX": "Sastrería",
+      "pt_BR": "Alfaiataria",
+      "de_DE": "Schneiderei",
+      "en_GB": "Tailoring",
+      "es_ES": "Sastrería",
+      "fr_FR": "Couture",
+      "it_IT": "Sartoria",
+      "ru_RU": "Портняжное дело",
+      "ko_KR": "재봉술",
+      "zh_TW": "裁縫",
+      "zh_CN": "裁缝"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 7000,
+  "sell_price": 1750,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to sew Red Mageweave Shoulders.",
+    "es_MX": "Te enseña a confeccionar sobrehombros de tejido mágico rojos.",
+    "pt_BR": "Ensina a confeccionar Omoplatas de Magitrama Vermelhas.",
+    "de_DE": "Lehrt Euch, wie man rote Magiestoffschultern näht.",
+    "en_GB": "Teaches you how to sew Red Mageweave Shoulders.",
+    "es_ES": "Te enseña a confeccionar sobrehombros de tejido mágico rojos.",
+    "fr_FR": "Vous apprend à coudre des Epaulières rouges en tisse-mage.",
+    "it_IT": "Ti insegna a creare degli Spallacci di Telamagica Rossi.",
+    "ru_RU": "Обучает пошиву красных наплечников из магической ткани.",
+    "ko_KR": "붉은 마법매듭 어깨보호구 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何縫製紅色魔紋護肩。",
+    "zh_CN": "教你学会制作红色魔纹护肩。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/10315?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 10315
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Red Mageweave Shoulders",
+      "es_MX": "Patrón: sobrehombros de tejido mágico rojos",
+      "pt_BR": "Molde: Omoplatas de Magitrama Vermelhas",
+      "de_DE": "Muster: Rote Magiestoffschultern",
+      "en_GB": "Pattern: Red Mageweave Shoulders",
+      "es_ES": "Patrón: sobrehombros de tejido mágico rojos",
+      "fr_FR": "Patron : Epaulières rouges en tisse-mage",
+      "it_IT": "Modello: Spallacci di Telamagica Rossi",
+      "ru_RU": "Выкройка: красные наплечники из магической ткани",
+      "ko_KR": "도안: 붉은 마법매듭 어깨보호구",
+      "zh_TW": "圖樣：紅色魔紋護肩",
+      "zh_CN": "图样：红色魔纹护肩"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/10315?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 10315
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Tailoring",
+        "es_MX": "Sastrería",
+        "pt_BR": "Alfaiataria",
+        "de_DE": "Schneiderei",
+        "en_GB": "Tailoring",
+        "es_ES": "Sastrería",
+        "fr_FR": "Couture",
+        "it_IT": "Sartoria",
+        "ru_RU": "Портняжное дело",
+        "ko_KR": "재봉술",
+        "zh_TW": "裁縫",
+        "zh_CN": "裁缝"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 1750,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "17",
+          "es_MX": "17",
+          "pt_BR": "17",
+          "de_DE": "17",
+          "en_GB": "17",
+          "es_ES": "17",
+          "fr_FR": "17",
+          "it_IT": "17",
+          "ru_RU": "17",
+          "ko_KR": "17",
+          "zh_TW": "17",
+          "zh_CN": "17"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Tailoring",
+            "es_MX": "Sastrería clásica",
+            "pt_BR": "Alfaiataria do Classic",
+            "de_DE": "Klassische Schneiderei",
+            "en_GB": "Classic Tailoring",
+            "es_ES": "Sastrería clásica",
+            "fr_FR": "Couture classique",
+            "it_IT": "Sartoria Classica",
+            "ru_RU": "Классическое портняжное дело",
+            "ko_KR": "옛 재봉술",
+            "zh_TW": "艾澤拉斯裁縫",
+            "zh_CN": "经典旧世裁缝"
+          },
+          "id": 2540
+        },
+        "level": 235,
+        "display_string": {
+          "en_US": "Requires Classic Tailoring (235)",
+          "es_MX": "Requiere Sastrería clásica (235)",
+          "pt_BR": "Requer Alfaiataria do Classic (235)",
+          "de_DE": "Benötigt Klassische Schneiderei (235)",
+          "en_GB": "Requires Classic Tailoring (235)",
+          "es_ES": "Requiere Sastrería clásica (235)",
+          "fr_FR": "Couture classique (235) requis",
+          "it_IT": "Richiede: Sartoria Classica (235)",
+          "ru_RU": "Требуется: Классическое портняжное дело (235)",
+          "ko_KR": "요구 사항: 옛 재봉술 (235)",
+          "zh_TW": "需要艾澤拉斯裁縫(235)",
+          "zh_CN": "需要经典旧世裁缝（235）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to sew Red Mageweave Shoulders.",
+      "es_MX": "Te enseña a confeccionar sobrehombros de tejido mágico rojos.",
+      "pt_BR": "Ensina a confeccionar Omoplatas de Magitrama Vermelhas.",
+      "de_DE": "Lehrt Euch, wie man rote Magiestoffschultern näht.",
+      "en_GB": "Teaches you how to sew Red Mageweave Shoulders.",
+      "es_ES": "Te enseña a confeccionar sobrehombros de tejido mágico rojos.",
+      "fr_FR": "Vous apprend à coudre des Epaulières rouges en tisse-mage.",
+      "it_IT": "Ti insegna a creare degli Spallacci di Telamagica Rossi.",
+      "ru_RU": "Обучает пошиву красных наплечников из магической ткани.",
+      "ko_KR": "붉은 마법매듭 어깨보호구 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何縫製紅色魔紋護肩。",
+      "zh_CN": "教你学会制作红色魔纹护肩。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/10029?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 10029
+        },
+        "quality": {
+          "type": "UNCOMMON",
+          "name": {
+            "en_US": "Uncommon",
+            "es_MX": "Inusual",
+            "pt_BR": "Incomum",
+            "de_DE": "Ungewöhnlich",
+            "en_GB": "Uncommon",
+            "es_ES": "Inusual",
+            "fr_FR": "Inhabituel",
+            "it_IT": "Pregiato",
+            "ru_RU": "Необычное",
+            "ko_KR": "고급",
+            "zh_TW": "優秀",
+            "zh_CN": "优秀"
+          }
+        },
+        "name": {
+          "en_US": "Red Mageweave Shoulders",
+          "es_MX": "Sobrehombros de tejido mágico rojos",
+          "pt_BR": "Omoplatas de Magitrama Vermelhas",
+          "de_DE": "Rote Magiestoffschultern",
+          "en_GB": "Red Mageweave Shoulders",
+          "es_ES": "Sobrehombros de tejido mágico rojos",
+          "fr_FR": "Epaulières rouges en tisse-mage",
+          "it_IT": "Spallacci di Telamagica Rossi",
+          "ru_RU": "Красные наплечники из магической ткани",
+          "ko_KR": "붉은 마법매듭 어깨보호구",
+          "zh_TW": "紅色魔紋護肩",
+          "zh_CN": "红色魔纹护肩"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/10029?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 10029
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Cloth",
+            "es_MX": "Tela",
+            "pt_BR": "Tecido",
+            "de_DE": "Stoff",
+            "en_GB": "Cloth",
+            "es_ES": "Tela",
+            "fr_FR": "Tissu",
+            "it_IT": "Stoffa",
+            "ru_RU": "Ткань",
+            "ko_KR": "천",
+            "zh_TW": "布甲",
+            "zh_CN": "布甲"
+          },
+          "id": 1
+        },
+        "inventory_type": {
+          "type": "SHOULDER",
+          "name": {
+            "en_US": "Shoulder",
+            "es_MX": "Hombro",
+            "pt_BR": "Ombros",
+            "de_DE": "Schulter",
+            "en_GB": "Shoulder",
+            "es_ES": "Hombro",
+            "fr_FR": "Épaule",
+            "it_IT": "Spalle",
+            "ru_RU": "Плечи",
+            "ko_KR": "어깨",
+            "zh_TW": "肩部",
+            "zh_CN": "肩部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "armor": {
+          "value": 2,
+          "display": {
+            "display_string": {
+              "en_US": "2 Armor",
+              "es_MX": "2 p. de armadura",
+              "pt_BR": "2 de Armadura",
+              "de_DE": "2 Rüstung",
+              "en_GB": "2 Armor",
+              "es_ES": "2 p. de armadura",
+              "fr_FR": "Armure : 2",
+              "it_IT": "2 Armatura",
+              "ru_RU": "Броня: 2",
+              "ko_KR": "방어도 2",
+              "zh_TW": "2點護甲",
+              "zh_CN": "2点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "INTELLECT",
+              "name": {
+                "en_US": "Intellect",
+                "es_MX": "intelecto",
+                "pt_BR": "Intelecto",
+                "de_DE": "Intelligenz",
+                "en_GB": "Intellect",
+                "es_ES": "intelecto",
+                "fr_FR": "Intelligence",
+                "it_IT": "Intelletto",
+                "ru_RU": "к интеллекту",
+                "ko_KR": "지능",
+                "zh_TW": "智力",
+                "zh_CN": "智力"
+              }
+            },
+            "value": 5,
+            "display": {
+              "display_string": {
+                "en_US": "+5 Intellect",
+                "es_MX": "+5 intelecto",
+                "pt_BR": "+5 Intelecto",
+                "de_DE": "+5 Intelligenz",
+                "en_GB": "+5 Intellect",
+                "es_ES": "+5 intelecto",
+                "fr_FR": "+5 Intelligence",
+                "it_IT": "+5 Intelletto",
+                "ru_RU": "+5 к интеллекту",
+                "ko_KR": "지능 +5",
+                "zh_TW": "+5智力",
+                "zh_CN": "+5 智力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 1500,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "15",
+              "es_MX": "15",
+              "pt_BR": "15",
+              "de_DE": "15",
+              "en_GB": "15",
+              "es_ES": "15",
+              "fr_FR": "15",
+              "it_IT": "15",
+              "ru_RU": "15",
+              "ko_KR": "15",
+              "zh_TW": "15",
+              "zh_CN": "15"
+            },
+            "copper": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 18,
+            "display_string": {
+              "en_US": "Requires Level 18",
+              "es_MX": "Necesitas ser de nivel 18",
+              "pt_BR": "Requer o Nível 18",
+              "de_DE": "Benötigt Stufe 18",
+              "en_GB": "Requires Level 18",
+              "es_ES": "Necesitas ser de nivel 18",
+              "fr_FR": "Niveau 18 requis",
+              "it_IT": "Richiede il livello 18",
+              "ru_RU": "Требуется 18-й уровень",
+              "ko_KR": "최소 요구 레벨: 18",
+              "zh_TW": "需要等級18",
+              "zh_CN": "需要等级 18"
+            }
+          }
+        },
+        "level": {
+          "value": 25,
+          "display_string": {
+            "en_US": "Item Level 25",
+            "es_MX": "Nivel de objeto 25",
+            "pt_BR": "Nível do Item: 25",
+            "de_DE": "Gegenstandsstufe 25",
+            "en_GB": "Item Level 25",
+            "es_ES": "Nivel de objeto 25",
+            "fr_FR": "Niveau d'objet 25",
+            "it_IT": "Livello oggetto: 25",
+            "ru_RU": "Уровень предмета: 25",
+            "ko_KR": "아이템 레벨: 25",
+            "zh_TW": "物品等級25",
+            "zh_CN": "物品等级25"
+          }
+        },
+        "durability": {
+          "value": 65,
+          "display_string": {
+            "en_US": "Durability 65 / 65",
+            "es_MX": "Durabilidad 65 / 65",
+            "pt_BR": "Durabilidade 65 / 65",
+            "de_DE": "Haltbarkeit 65 / 65",
+            "en_GB": "Durability 65 / 65",
+            "es_ES": "Durabilidad 65 / 65",
+            "fr_FR": "Durabilité : 65 / 65",
+            "it_IT": "Integrità 65/65",
+            "ru_RU": "Прочность: 65 / 65",
+            "ko_KR": "내구도 65 / 65",
+            "zh_TW": "耐久度 65 / 65",
+            "zh_CN": "耐久度 65 / 65"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/4339?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Bolt of Mageweave",
+              "es_MX": "Madeja de tejido mágico",
+              "pt_BR": "Peça de Magitrama",
+              "de_DE": "Magiestoffballen",
+              "en_GB": "Bolt of Mageweave",
+              "es_ES": "Madeja de tejido mágico",
+              "fr_FR": "Rouleau de tisse-mage",
+              "it_IT": "Rotolo di Telamagica",
+              "ru_RU": "Рулон магической ткани",
+              "ko_KR": "마법 두루마리",
+              "zh_TW": "魔紋布卷",
+              "zh_CN": "魔纹布卷"
+            },
+            "id": 4339
+          },
+          "quantity": 4
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/2604?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Red Dye",
+              "es_MX": "Tinte rojo",
+              "pt_BR": "Pigmento Vermelho",
+              "de_DE": "Roter Farbstoff",
+              "en_GB": "Red Dye",
+              "es_ES": "Tinte rojo",
+              "fr_FR": "Teinture rouge",
+              "it_IT": "Tintura Rossa",
+              "ru_RU": "Красная краска",
+              "ko_KR": "적색 염료",
+              "zh_TW": "紅色染料",
+              "zh_CN": "红色染料"
+            },
+            "id": 2604
+          },
+          "quantity": 2
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/8343?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Heavy Silken Thread",
+              "es_MX": "Hilo de seda grueso",
+              "pt_BR": "Fio Grosso de Seda",
+              "de_DE": "Schwerer Seidenfaden",
+              "en_GB": "Heavy Silken Thread",
+              "es_ES": "Hilo de seda grueso",
+              "fr_FR": "Bobine de soie lourde",
+              "it_IT": "Filo Pesante di Seta",
+              "ru_RU": "Толстая шелковая нить",
+              "ko_KR": "큰 비단 실타래",
+              "zh_TW": "粗絲線",
+              "zh_CN": "粗丝线"
+            },
+            "id": 8343
+          },
+          "quantity": 3
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Bolt of Mageweave (4), Red Dye (2), Heavy Silken Thread (3)",
+        "es_MX": "Madeja de tejido mágico (4), Tinte rojo (2), Hilo de seda grueso (3)",
+        "pt_BR": "Peça de Magitrama (4), Pigmento Vermelho (2), Fio Grosso de Seda (3)",
+        "de_DE": "Magiestoffballen (4), Roter Farbstoff (2), Schwerer Seidenfaden (3)",
+        "en_GB": "Bolt of Mageweave (4), Red Dye (2), Heavy Silken Thread (3)",
+        "es_ES": "Madeja de tejido mágico (4), Tinte rojo (2), Hilo de seda grueso (3)",
+        "fr_FR": "Rouleau de tisse-mage (4), Teinture rouge (2), Bobine de soie lourde (3)",
+        "it_IT": "Rotolo di Telamagica (4), Tintura Rossa (2), Filo Pesante di Seta (3)",
+        "ru_RU": "Рулон магической ткани (4), Красная краска (2), Толстая шелковая нить (3)",
+        "ko_KR": "마법 두루마리 (4), 적색 염료 (2), 큰 비단 실타래 (3)",
+        "zh_TW": "魔紋布卷 (4), 紅色染料 (2), 粗絲線 (3)",
+        "zh_CN": "魔纹布卷 (4), 红色染料 (2), 粗丝线 (3)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,510 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/8261?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 8261,
+  "name": {
+    "en_US": "Serpentskin Helm",
+    "es_MX": "Yelmo de piel de serpiente",
+    "pt_BR": "Elmo de Couro de Serpente",
+    "de_DE": "Schlangenhauthelm",
+    "en_GB": "Serpentskin Helm",
+    "es_ES": "Yelmo de piel de serpiente",
+    "fr_FR": "Heaume en peau de serpent",
+    "it_IT": "Elmo di Pelle di Serpente",
+    "ru_RU": "Шлем из змеиной кожи",
+    "ko_KR": "뱀비늘 투구",
+    "zh_TW": "蛇皮頭盔",
+    "zh_CN": "蛇皮头盔"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 27,
+  "required_level": 21,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/8261?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 8261
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leather",
+      "es_MX": "Cuero",
+      "pt_BR": "Couro",
+      "de_DE": "Leder",
+      "en_GB": "Leather",
+      "es_ES": "Cuero",
+      "fr_FR": "Cuir",
+      "it_IT": "Cuoio",
+      "ru_RU": "Кожа",
+      "ko_KR": "가죽",
+      "zh_TW": "皮甲",
+      "zh_CN": "皮甲"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": {
+      "en_US": "Head",
+      "es_MX": "Cabeza",
+      "pt_BR": "Cabeça",
+      "de_DE": "Kopf",
+      "en_GB": "Head",
+      "es_ES": "Cabeza",
+      "fr_FR": "Tête",
+      "it_IT": "Testa",
+      "ru_RU": "Голова",
+      "ko_KR": "머리",
+      "zh_TW": "頭部",
+      "zh_CN": "头部"
+    }
+  },
+  "purchase_price": 1449330,
+  "sell_price": 289866,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/8261?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 8261
+    },
+    "context": 0,
+    "bonus_list": [
+      6654
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Serpentskin Helm",
+      "es_MX": "Yelmo de piel de serpiente",
+      "pt_BR": "Elmo de Couro de Serpente",
+      "de_DE": "Schlangenhauthelm",
+      "en_GB": "Serpentskin Helm",
+      "es_ES": "Yelmo de piel de serpiente",
+      "fr_FR": "Heaume en peau de serpent",
+      "it_IT": "Elmo di Pelle di Serpente",
+      "ru_RU": "Шлем из змеиной кожи",
+      "ko_KR": "뱀비늘 투구",
+      "zh_TW": "蛇皮頭盔",
+      "zh_CN": "蛇皮头盔"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/8261?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 8261
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leather",
+        "es_MX": "Cuero",
+        "pt_BR": "Couro",
+        "de_DE": "Leder",
+        "en_GB": "Leather",
+        "es_ES": "Cuero",
+        "fr_FR": "Cuir",
+        "it_IT": "Cuoio",
+        "ru_RU": "Кожа",
+        "ko_KR": "가죽",
+        "zh_TW": "皮甲",
+        "zh_CN": "皮甲"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": {
+        "en_US": "Head",
+        "es_MX": "Cabeza",
+        "pt_BR": "Cabeça",
+        "de_DE": "Kopf",
+        "en_GB": "Head",
+        "es_ES": "Cabeza",
+        "fr_FR": "Tête",
+        "it_IT": "Testa",
+        "ru_RU": "Голова",
+        "ko_KR": "머리",
+        "zh_TW": "頭部",
+        "zh_CN": "头部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 292,
+      "display": {
+        "display_string": {
+          "en_US": "292 Armor",
+          "es_MX": "292 p. de armadura",
+          "pt_BR": "292 de Armadura",
+          "de_DE": "292 Rüstung",
+          "en_GB": "292 Armor",
+          "es_ES": "292 p. de armadura",
+          "fr_FR": "Armure : 292",
+          "it_IT": "292 Armatura",
+          "ru_RU": "Броня: 292",
+          "ko_KR": "방어도 292",
+          "zh_TW": "292點護甲",
+          "zh_CN": "292点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 363,
+        "display": {
+          "display_string": {
+            "en_US": "+363 Intellect",
+            "es_MX": "+363 intelecto",
+            "pt_BR": "+363 Intelecto",
+            "de_DE": "+363 Intelligenz",
+            "en_GB": "+363 Intellect",
+            "es_ES": "+363 intelecto",
+            "fr_FR": "+363 Intelligence",
+            "it_IT": "+363 Intelletto",
+            "ru_RU": "+363 к интеллекту",
+            "ko_KR": "지능 +363",
+            "zh_TW": "+363智力",
+            "zh_CN": "+363 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 363,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+363 Agility",
+            "es_MX": "+363 agilidad",
+            "pt_BR": "+363 Agilidade",
+            "de_DE": "+363 Beweglichkeit",
+            "en_GB": "+363 Agility",
+            "es_ES": "+363 agilidad",
+            "fr_FR": "+363 Agilité",
+            "it_IT": "+363 Agilità",
+            "ru_RU": "+363 к ловкости",
+            "ko_KR": "민첩성 +363",
+            "zh_TW": "+363敏捷",
+            "zh_CN": "+363 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 473,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+473 Versatility",
+            "es_MX": "+473 versatilidad",
+            "pt_BR": "+473 Versatilidade",
+            "de_DE": "+473 Vielseitigkeit",
+            "en_GB": "+473 Versatility",
+            "es_ES": "+473 versatilidad",
+            "fr_FR": "+473 Polyvalence",
+            "it_IT": "+473 Indice di versatilità",
+            "ru_RU": "+473 к универсальности",
+            "ko_KR": "유연성 +473",
+            "zh_TW": "+473臨機應變",
+            "zh_CN": "+473 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 241305,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "24",
+          "es_MX": "24",
+          "pt_BR": "24",
+          "de_DE": "24",
+          "en_GB": "24",
+          "es_ES": "24",
+          "fr_FR": "24",
+          "it_IT": "24",
+          "ru_RU": "24",
+          "ko_KR": "24",
+          "zh_TW": "24",
+          "zh_CN": "24"
+        },
+        "silver": {
+          "en_US": "13",
+          "es_MX": "13",
+          "pt_BR": "13",
+          "de_DE": "13",
+          "en_GB": "13",
+          "es_ES": "13",
+          "fr_FR": "13",
+          "it_IT": "13",
+          "ru_RU": "13",
+          "ko_KR": "13",
+          "zh_TW": "13",
+          "zh_CN": "13"
+        },
+        "copper": {
+          "en_US": "5",
+          "es_MX": "5",
+          "pt_BR": "5",
+          "de_DE": "5",
+          "en_GB": "5",
+          "es_ES": "5",
+          "fr_FR": "5",
+          "it_IT": "5",
+          "ru_RU": "5",
+          "ko_KR": "5",
+          "zh_TW": "5",
+          "zh_CN": "5"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 21,
+        "display_string": {
+          "en_US": "Requires Level 21",
+          "es_MX": "Necesitas ser de nivel 21",
+          "pt_BR": "Requer o Nível 21",
+          "de_DE": "Benötigt Stufe 21",
+          "en_GB": "Requires Level 21",
+          "es_ES": "Necesitas ser de nivel 21",
+          "fr_FR": "Niveau 21 requis",
+          "it_IT": "Richiede il livello 21",
+          "ru_RU": "Требуется 21-й уровень",
+          "ko_KR": "최소 요구 레벨: 21",
+          "zh_TW": "需要等級21",
+          "zh_CN": "需要等级 21"
+        }
+      }
+    },
+    "level": {
+      "value": 357,
+      "display_string": {
+        "en_US": "Item Level 357",
+        "es_MX": "Nivel de objeto 357",
+        "pt_BR": "Nível do Item: 357",
+        "de_DE": "Gegenstandsstufe 357",
+        "en_GB": "Item Level 357",
+        "es_ES": "Nivel de objeto 357",
+        "fr_FR": "Niveau d'objet 357",
+        "it_IT": "Livello oggetto: 357",
+        "ru_RU": "Уровень предмета: 357",
+        "ko_KR": "아이템 레벨: 357",
+        "zh_TW": "物品等級357",
+        "zh_CN": "物品等级357"
+      }
+    },
+    "durability": {
+      "value": 65,
+      "display_string": {
+        "en_US": "Durability 65 / 65",
+        "es_MX": "Durabilidad 65 / 65",
+        "pt_BR": "Durabilidade 65 / 65",
+        "de_DE": "Haltbarkeit 65 / 65",
+        "en_GB": "Durability 65 / 65",
+        "es_ES": "Durabilidad 65 / 65",
+        "fr_FR": "Durabilité : 65 / 65",
+        "it_IT": "Integrità 65/65",
+        "ru_RU": "Прочность: 65 / 65",
+        "ko_KR": "내구도 65 / 65",
+        "zh_TW": "耐久度 65 / 65",
+        "zh_CN": "耐久度 65 / 65"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/2095?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 2095
+    }
+  ]
+}

@@ -1,0 +1,460 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/17193?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 17193,
+  "name": {
+    "en_US": "Sulfuron Hammer",
+    "es_MX": "Martillo de Sulfuron",
+    "pt_BR": "Martelo de Sulfuron",
+    "de_DE": "Sulfuronhammer",
+    "en_GB": "Sulfuron Hammer",
+    "es_ES": "Martillo de Sulfuron",
+    "fr_FR": "Marteau en sulfuron",
+    "it_IT": "Martello di Sulfuron",
+    "ru_RU": "Сульфуронский молот",
+    "ko_KR": "설퍼론 망치",
+    "zh_TW": "薩弗隆戰錘",
+    "zh_CN": "萨弗隆战锤"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 29,
+  "required_level": 25,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/17193?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 17193
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Mace",
+      "es_MX": "Maza",
+      "pt_BR": "Maça",
+      "de_DE": "Streitkolben",
+      "en_GB": "Mace",
+      "es_ES": "Maza",
+      "fr_FR": "Masse",
+      "it_IT": "Mazza",
+      "ru_RU": "Дробящее",
+      "ko_KR": "둔기",
+      "zh_TW": "錘",
+      "zh_CN": "锤"
+    },
+    "id": 5
+  },
+  "inventory_type": {
+    "type": "TWOHWEAPON",
+    "name": {
+      "en_US": "Two-Hand",
+      "es_MX": "Dos manos",
+      "pt_BR": "Duas mãos",
+      "de_DE": "Zweihändig",
+      "en_GB": "Two-Hand",
+      "es_ES": "Dos manos",
+      "fr_FR": "Deux mains",
+      "it_IT": "Due mani",
+      "ru_RU": "Двуручное",
+      "ko_KR": "양손 장비",
+      "zh_TW": "雙手",
+      "zh_CN": "双手"
+    }
+  },
+  "purchase_price": 146567,
+  "sell_price": 29313,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/17193?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 17193
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Sulfuron Hammer",
+      "es_MX": "Martillo de Sulfuron",
+      "pt_BR": "Martelo de Sulfuron",
+      "de_DE": "Sulfuronhammer",
+      "en_GB": "Sulfuron Hammer",
+      "es_ES": "Martillo de Sulfuron",
+      "fr_FR": "Marteau en sulfuron",
+      "it_IT": "Martello di Sulfuron",
+      "ru_RU": "Сульфуронский молот",
+      "ko_KR": "설퍼론 망치",
+      "zh_TW": "薩弗隆戰錘",
+      "zh_CN": "萨弗隆战锤"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/17193?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 17193
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/5?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Mace",
+        "es_MX": "Maza",
+        "pt_BR": "Maça",
+        "de_DE": "Streitkolben",
+        "en_GB": "Mace",
+        "es_ES": "Maza",
+        "fr_FR": "Masse",
+        "it_IT": "Mazza",
+        "ru_RU": "Дробящее",
+        "ko_KR": "둔기",
+        "zh_TW": "錘",
+        "zh_CN": "锤"
+      },
+      "id": 5
+    },
+    "inventory_type": {
+      "type": "TWOHWEAPON",
+      "name": {
+        "en_US": "Two-Hand",
+        "es_MX": "Dos manos",
+        "pt_BR": "Duas mãos",
+        "de_DE": "Zweihändig",
+        "en_GB": "Two-Hand",
+        "es_ES": "Dos manos",
+        "fr_FR": "Deux mains",
+        "it_IT": "Due mani",
+        "ru_RU": "Двуручное",
+        "ko_KR": "양손 장비",
+        "zh_TW": "雙手",
+        "zh_CN": "双手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 8,
+        "max_value": 11,
+        "display_string": {
+          "en_US": "8 - 11 Damage",
+          "es_MX": "8 - 11 p. de daño",
+          "pt_BR": "8 - 11 de Dano",
+          "de_DE": "8 - 11 Schaden",
+          "en_GB": "8 - 11 Damage",
+          "es_ES": "8 - 11 p. de daño",
+          "fr_FR": "Dégâts : 8 - 11",
+          "it_IT": "8 - 11 Danni",
+          "ru_RU": "Урон: 8 - 11",
+          "ko_KR": "공격력 8 ~ 11",
+          "zh_TW": "8-11點傷害",
+          "zh_CN": "8 - 11点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 3600,
+        "display_string": {
+          "en_US": "Speed 3.60",
+          "es_MX": "Velocidad 3.60",
+          "pt_BR": "Velocidade 3,60",
+          "de_DE": "Geschwindigkeit 3,60",
+          "en_GB": "Speed 3.60",
+          "es_ES": "Velocidad 3,60",
+          "fr_FR": "Vitesse 3,60",
+          "it_IT": "Velocità 3,60",
+          "ru_RU": "Скорость 3,60",
+          "ko_KR": "속도 3.60",
+          "zh_TW": "速度 3.60",
+          "zh_CN": "速度 3.60"
+        }
+      },
+      "dps": {
+        "value": 2.6388888,
+        "display_string": {
+          "en_US": "(2.6 damage per second)",
+          "es_MX": "(2.6 p. de daño por segundo)",
+          "pt_BR": "(2,6 de dano por segundo)",
+          "de_DE": "(2,6 Schaden pro Sekunde)",
+          "en_GB": "(2.6 damage per second)",
+          "es_ES": "(2,6 p. de daño por segundo)",
+          "fr_FR": "(2,6 dégâts par seconde)",
+          "it_IT": "(2,6 danni per secondo)",
+          "ru_RU": "(2,6 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 2.6)",
+          "zh_TW": "(每秒2.6點傷害)",
+          "zh_CN": "（每秒伤害2.6）"
+        }
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/265240?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Sulfuron Hammer",
+            "es_MX": "Martillo de Sulfuron",
+            "pt_BR": "Martelo de Sulfuron",
+            "de_DE": "Sulfuronhammer",
+            "en_GB": "Sulfuron Hammer",
+            "es_ES": "Martillo de Sulfuron",
+            "fr_FR": "Marteau en sulfuron",
+            "it_IT": "Martello di Sulfuron",
+            "ru_RU": "Сульфуронский молот",
+            "ko_KR": "설퍼론 망치",
+            "zh_TW": "薩弗隆戰錘",
+            "zh_CN": "萨弗隆战锤"
+          },
+          "id": 265240
+        },
+        "description": {
+          "en_US": "Equip: Hurls a fiery ball that causes 1 Fire damage and an additional 4 damage over 8 sec.",
+          "es_MX": "Equipar: Lanza una bola ígnea que inflige 1 p. de daño de Fuego y 4 p. de daño extra durante 8 s.",
+          "pt_BR": "Equipado: Lança uma bola ardente que causa 1 de dano de Fogo e mais 4 de dano ao longo de 8 s.",
+          "de_DE": "Anlegen: Schleudert eine glühende Kugel, die 1 Feuerschaden sowie zusätzlich 8 Sek. lang insgesamt 4 Schaden verursacht.",
+          "en_GB": "Equip: Hurls a fiery ball that causes 1 Fire damage and an additional 4 damage over 8 sec.",
+          "es_ES": "Equipar: Lanza una bola ígnea que inflige 1 p. de daño de Fuego y 4 p. de daño extra durante 8 s.",
+          "fr_FR": "Équipé : Projette une boule ardente qui inflige 1 points de dégâts de Feu et 4 points de dégâts supplémentaires en 8 s.",
+          "it_IT": "Equipaggia: Lancia una palla infuocata, infliggendo 1 danni da fuoco e 4 danni aggiuntivi in 8 s.",
+          "ru_RU": "Если на персонаже: Запускает огненный шар, который наносит 1 ед. урона от огня мгновенно и 4 ед. урона от огня в течение 8 сек.",
+          "ko_KR": "착용 효과: 적에게 불타는 구체를 날려 1의 화염 피해를 입히고 8초에 걸쳐 총 4의 추가 피해를 입힙니다.",
+          "zh_TW": "裝備： 發射火球造成1點火焰傷害，並在8秒內額外造成4點火焰傷害。",
+          "zh_CN": "装备： 发射一枚火球攻击目标，对其造成1点火焰伤害，并在8秒内造成额外的4点伤害。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 438,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "4",
+          "es_MX": "4",
+          "pt_BR": "4",
+          "de_DE": "4",
+          "en_GB": "4",
+          "es_ES": "4",
+          "fr_FR": "4",
+          "it_IT": "4",
+          "ru_RU": "4",
+          "ko_KR": "4",
+          "zh_TW": "4",
+          "zh_CN": "4"
+        },
+        "copper": {
+          "en_US": "38",
+          "es_MX": "38",
+          "pt_BR": "38",
+          "de_DE": "38",
+          "en_GB": "38",
+          "es_ES": "38",
+          "fr_FR": "38",
+          "it_IT": "38",
+          "ru_RU": "38",
+          "ko_KR": "38",
+          "zh_TW": "38",
+          "zh_CN": "38"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 25,
+        "display_string": {
+          "en_US": "Requires Level 25",
+          "es_MX": "Necesitas ser de nivel 25",
+          "pt_BR": "Requer o Nível 25",
+          "de_DE": "Benötigt Stufe 25",
+          "en_GB": "Requires Level 25",
+          "es_ES": "Necesitas ser de nivel 25",
+          "fr_FR": "Niveau 25 requis",
+          "it_IT": "Richiede il livello 25",
+          "ru_RU": "Требуется 25-й уровень",
+          "ko_KR": "최소 요구 레벨: 25",
+          "zh_TW": "需要等級25",
+          "zh_CN": "需要等级 25"
+        }
+      }
+    },
+    "level": {
+      "value": 29,
+      "display_string": {
+        "en_US": "Item Level 29",
+        "es_MX": "Nivel de objeto 29",
+        "pt_BR": "Nível do Item: 29",
+        "de_DE": "Gegenstandsstufe 29",
+        "en_GB": "Item Level 29",
+        "es_ES": "Nivel de objeto 29",
+        "fr_FR": "Niveau d'objet 29",
+        "it_IT": "Livello oggetto: 29",
+        "ru_RU": "Уровень предмета: 29",
+        "ko_KR": "아이템 레벨: 29",
+        "zh_TW": "物品等級29",
+        "zh_CN": "物品等级29"
+      }
+    },
+    "durability": {
+      "value": 120,
+      "display_string": {
+        "en_US": "Durability 120 / 120",
+        "es_MX": "Durabilidad 120 / 120",
+        "pt_BR": "Durabilidade 120 / 120",
+        "de_DE": "Haltbarkeit 120 / 120",
+        "en_GB": "Durability 120 / 120",
+        "es_ES": "Durabilidad 120 / 120",
+        "fr_FR": "Durabilité : 120 / 120",
+        "it_IT": "Integrità 120/120",
+        "ru_RU": "Прочность: 120 / 120",
+        "ko_KR": "내구도 120 / 120",
+        "zh_TW": "耐久度 120 / 120",
+        "zh_CN": "耐久度 120 / 120"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/5136?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 5136
+    }
+  ]
+}

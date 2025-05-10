@@ -1,0 +1,250 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/82800?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 82800,
+  "name": {
+    "en_US": "Pet Cage",
+    "es_MX": "Jaula de mascota",
+    "pt_BR": "Jaula de Mascote",
+    "de_DE": "Haustierkäfig",
+    "en_GB": "Pet Cage",
+    "es_ES": "Jaula de mascota",
+    "fr_FR": "Cage de mascotte",
+    "it_IT": "Trasportino",
+    "ru_RU": "Клетка для питомца",
+    "ko_KR": "애완동물 우리",
+    "zh_TW": "寵物籠",
+    "zh_CN": "宠物笼"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 20,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/82800?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 82800
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/17?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Battle Pets",
+      "es_MX": "Mascotas de duelo",
+      "pt_BR": "Mascotes de Batalha",
+      "de_DE": "Kampfhaustiere",
+      "en_GB": "Battle Pets",
+      "es_ES": "Mascotas de duelo",
+      "fr_FR": "Mascottes de combat",
+      "it_IT": "Mascotte",
+      "ru_RU": "Боевые питомцы",
+      "ko_KR": "전투 애완동물",
+      "zh_TW": "戰寵",
+      "zh_CN": "战斗宠物"
+    },
+    "id": 17
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/17/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "BattlePet",
+      "es_MX": "Mascota de duelo",
+      "pt_BR": "Mascote de Batalha",
+      "de_DE": "Kampfhaustier",
+      "en_GB": "BattlePet",
+      "es_ES": "Mascota de duelo",
+      "fr_FR": "Mascotte de combat",
+      "it_IT": "Mascotte da combattimento",
+      "ru_RU": "Боевой питомец",
+      "ko_KR": "전투애완동물",
+      "zh_TW": "戰寵",
+      "zh_CN": "战斗宠物"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/82800?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 82800
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Pet Cage",
+      "es_MX": "Jaula de mascota",
+      "pt_BR": "Jaula de Mascote",
+      "de_DE": "Haustierkäfig",
+      "en_GB": "Pet Cage",
+      "es_ES": "Jaula de mascota",
+      "fr_FR": "Cage de mascotte",
+      "it_IT": "Trasportino",
+      "ru_RU": "Клетка для питомца",
+      "ko_KR": "애완동물 우리",
+      "zh_TW": "寵物籠",
+      "zh_CN": "宠物笼"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/82800?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 82800
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/17?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Battle Pets",
+        "es_MX": "Mascotas de duelo",
+        "pt_BR": "Mascotes de Batalha",
+        "de_DE": "Kampfhaustiere",
+        "en_GB": "Battle Pets",
+        "es_ES": "Mascotas de duelo",
+        "fr_FR": "Mascottes de combat",
+        "it_IT": "Mascotte",
+        "ru_RU": "Боевые питомцы",
+        "ko_KR": "전투 애완동물",
+        "zh_TW": "戰寵",
+        "zh_CN": "战斗宠物"
+      },
+      "id": 17
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/17/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "BattlePet",
+        "es_MX": "Mascota de duelo",
+        "pt_BR": "Mascote de Batalha",
+        "de_DE": "Kampfhaustier",
+        "en_GB": "BattlePet",
+        "es_ES": "Mascota de duelo",
+        "fr_FR": "Mascotte de combat",
+        "it_IT": "Mascotte da combattimento",
+        "ru_RU": "Боевой питомец",
+        "ko_KR": "전투애완동물",
+        "zh_TW": "戰寵",
+        "zh_CN": "战斗宠物"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/123302?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Uncage Pet",
+            "es_MX": "Desenjaular mascota",
+            "pt_BR": "Mascote Desenjaulado",
+            "de_DE": "Haustier aus dem Käfig lassen",
+            "en_GB": "Uncage Pet",
+            "es_ES": "Desenjaular mascota",
+            "fr_FR": "Sortir la mascotte de sa cage",
+            "it_IT": "Libera Mascotte",
+            "ru_RU": "Освободить питомца",
+            "ko_KR": "소환수 꺼내기",
+            "zh_TW": "釋放寵物",
+            "zh_CN": "开笼放宠"
+          },
+          "id": 123302
+        },
+        "description": {
+          "en_US": "Use: Teaches you how to summon this companion.",
+          "es_MX": "Usar: Te enseña a invocar este compañero.",
+          "pt_BR": "Usar: Ensina a evocar esta mascote.",
+          "de_DE": "Benutzen: Lehrt Euch, wie man dieses Haustier beschwört.",
+          "en_GB": "Use: Teaches you how to summon this companion.",
+          "es_ES": "Uso: Te enseña a invocar este compañero.",
+          "fr_FR": "Utiliser : Vous apprend à invoquer cette mascotte.",
+          "it_IT": "Usa: Apprendi come evocare questa mascotte.",
+          "ru_RU": "Использование: Учит призывать этого спутника.",
+          "ko_KR": "사용 효과: 애완동물 친구를 소환하는 법을 배웁니다.",
+          "zh_TW": "使用： 教你學會如何召喚這個夥伴。",
+          "zh_CN": "使用： 教你学会召唤这种小伙伴。"
+        }
+      }
+    ]
+  },
+  "purchase_quantity": 1
+}

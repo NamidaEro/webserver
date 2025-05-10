@@ -1,0 +1,293 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/129956?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 129956,
+  "name": {
+    "en_US": "Leather Love Seat",
+    "es_MX": "Asiento del amor de cuero",
+    "pt_BR": "Assento do Amor de Couro",
+    "de_DE": "Ledernes Kuschelsofa",
+    "en_GB": "Leather Love Seat",
+    "es_ES": "Confidente de cuero",
+    "fr_FR": "Divan confortable en cuir",
+    "it_IT": "Sedile Doppio di Cuoio",
+    "ru_RU": "Диванчик для влюбленных",
+    "ko_KR": "사랑의 가죽 소파",
+    "zh_TW": "皮質情人椅",
+    "zh_CN": "皮质情人椅"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 45,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/129956?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 129956
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "杂项"
+    },
+    "id": 15
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Other",
+      "es_MX": "Otros",
+      "pt_BR": "Outro",
+      "de_DE": "Sonstiges",
+      "en_GB": "Other",
+      "es_ES": "Otros",
+      "fr_FR": "Autres",
+      "it_IT": "Altro",
+      "ru_RU": "Другое",
+      "ko_KR": "기타",
+      "zh_TW": "其他",
+      "zh_CN": "其它"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Has room for two.",
+    "es_MX": "Tiene espacio para dos.",
+    "pt_BR": "Tem espaço para dois.",
+    "de_DE": "Hat Platz für zwei.",
+    "en_GB": "Has room for two.",
+    "es_ES": "Tiene sitio para dos.",
+    "fr_FR": "Assez de place pour deux.",
+    "it_IT": "C'è spazio per due.",
+    "ru_RU": "Места хватит и двоим.",
+    "ko_KR": "2인용입니다.",
+    "zh_TW": "小倆口專用。",
+    "zh_CN": "一把双人椅。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/129956?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 129956
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Leather Love Seat",
+      "es_MX": "Asiento del amor de cuero",
+      "pt_BR": "Assento do Amor de Couro",
+      "de_DE": "Ledernes Kuschelsofa",
+      "en_GB": "Leather Love Seat",
+      "es_ES": "Confidente de cuero",
+      "fr_FR": "Divan confortable en cuir",
+      "it_IT": "Sedile Doppio di Cuoio",
+      "ru_RU": "Диванчик для влюбленных",
+      "ko_KR": "사랑의 가죽 소파",
+      "zh_TW": "皮質情人椅",
+      "zh_CN": "皮质情人椅"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/129956?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 129956
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "杂项"
+      },
+      "id": 15
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Other",
+        "es_MX": "Otros",
+        "pt_BR": "Outro",
+        "de_DE": "Sonstiges",
+        "en_GB": "Other",
+        "es_ES": "Otros",
+        "fr_FR": "Autres",
+        "it_IT": "Altro",
+        "ru_RU": "Другое",
+        "ko_KR": "기타",
+        "zh_TW": "其他",
+        "zh_CN": "其它"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/194623?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Love Seat",
+            "es_MX": "Asiento del amor",
+            "pt_BR": "Assento do Amor",
+            "de_DE": "Kuschelsofa",
+            "en_GB": "Love Seat",
+            "es_ES": "Asiento del amor",
+            "fr_FR": "Divan confortable",
+            "it_IT": "Sedile Doppio",
+            "ru_RU": "Диванчик для влюбленных",
+            "ko_KR": "사랑의 소파",
+            "zh_TW": "情人椅",
+            "zh_CN": "情人椅"
+          },
+          "id": 194623
+        },
+        "description": {
+          "en_US": "Use: Adds this toy to your Toy Box.\n\nPlace down a Leather Love Seat. (2 Min Cooldown)",
+          "es_MX": "Uso: Añade este juguete a tu caja de juguetes.\n\nColoca un asiento del amor de cuero. (2 min de tiempo de reutilización)",
+          "pt_BR": "Usar: Adiciona este brinquedo à sua Caixa de Brinquedo.\n\nPosiciona um Assento do Amor de Couro. (2 min de recarga)",
+          "de_DE": "Benutzen: Fügt dieses Spielzeug Eurer Spielzeugkiste hinzu.\n\nStellt ein ledernes Kuschelsofa auf. (2 Min. Abklingzeit)",
+          "en_GB": "Use: Adds this toy to your Toy Box.\n\nPlace down a Leather Love Seat. (2 Min Cooldown)",
+          "es_ES": "Uso: Añade este juguete a tu caja de juguetes.\n\nColoca un confidente de cuero. (2 min de tiempo de reutilización).",
+          "fr_FR": "Utiliser : ajoute ce jouet à votre collection.\n\nPlace un Divan confortable en cuir. (2 min de recharge)",
+          "it_IT": "Usa: Aggiunge questo giocattolo alla tua collezione.\n\nPosizioni un Sedile Doppio di Cuoio. (2 min di recupero)",
+          "ru_RU": "Использование: добавить игрушку в коллекцию.\n\nПоставить кожаный диванчик для влюбленных. (Восстановление: 2 мин.)",
+          "ko_KR": "사용 효과: 이 장난감을 장난감 상자에 추가합니다.\n\n사랑의 가죽 소파를 설치합니다. (2분 후 재사용 가능)",
+          "zh_TW": "使用：將這個玩具加入你的玩具箱。\n\n放置一個皮質情人椅。 (2分鐘冷卻時間)",
+          "zh_CN": "使用：将该玩具添加到你的玩具箱。\n\n放置一把皮质情人椅。 （2分钟冷却）"
+        }
+      }
+    ],
+    "description": {
+      "en_US": "Has room for two.",
+      "es_MX": "Tiene espacio para dos.",
+      "pt_BR": "Tem espaço para dois.",
+      "de_DE": "Hat Platz für zwei.",
+      "en_GB": "Has room for two.",
+      "es_ES": "Tiene sitio para dos.",
+      "fr_FR": "Assez de place pour deux.",
+      "it_IT": "C'è spazio per due.",
+      "ru_RU": "Места хватит и двоим.",
+      "ko_KR": "2인용입니다.",
+      "zh_TW": "小倆口專用。",
+      "zh_CN": "一把双人椅。"
+    },
+    "is_subclass_hidden": true,
+    "toy": {
+      "en_US": "Toy",
+      "es_MX": "Juguete",
+      "pt_BR": "Brinquedo",
+      "de_DE": "Spielzeug",
+      "en_GB": "Toy",
+      "es_ES": "Juguete",
+      "fr_FR": "Jouet",
+      "it_IT": "Giocattolo",
+      "ru_RU": "Игрушка",
+      "ko_KR": "장난감",
+      "zh_TW": "玩具",
+      "zh_CN": "玩具"
+    }
+  },
+  "purchase_quantity": 1
+}

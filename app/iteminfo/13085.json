@@ -1,0 +1,460 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/13085?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 13085,
+  "name": {
+    "en_US": "Horizon Choker",
+    "es_MX": "Gargantilla horizonte",
+    "pt_BR": "Gargantilha do Horizonte",
+    "de_DE": "Halsreif des Horizonts",
+    "en_GB": "Horizon Choker",
+    "es_ES": "Gargantilla horizonte",
+    "fr_FR": "Sautoir de l'horizon",
+    "it_IT": "Girocollo dell'Orizzonte",
+    "ru_RU": "Колье Горизонта",
+    "ko_KR": "지평선 목장식",
+    "zh_TW": "視野頸飾",
+    "zh_CN": "视野项链"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 26,
+  "required_level": 20,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/13085?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 13085
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NECK",
+    "name": {
+      "en_US": "Neck",
+      "es_MX": "Cuello",
+      "pt_BR": "Pescoço",
+      "de_DE": "Hals",
+      "en_GB": "Neck",
+      "es_ES": "Cuello",
+      "fr_FR": "Cou",
+      "it_IT": "Collo",
+      "ru_RU": "Шея",
+      "ko_KR": "목",
+      "zh_TW": "頸部",
+      "zh_CN": "颈部"
+    }
+  },
+  "purchase_price": 36548,
+  "sell_price": 9137,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/13085?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 13085
+    },
+    "context": 0,
+    "bonus_list": [
+      6658
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Horizon Choker",
+      "es_MX": "Gargantilla horizonte",
+      "pt_BR": "Gargantilha do Horizonte",
+      "de_DE": "Halsreif des Horizonts",
+      "en_GB": "Horizon Choker",
+      "es_ES": "Gargantilla horizonte",
+      "fr_FR": "Sautoir de l'horizon",
+      "it_IT": "Girocollo dell'Orizzonte",
+      "ru_RU": "Колье Горизонта",
+      "ko_KR": "지평선 목장식",
+      "zh_TW": "視野頸飾",
+      "zh_CN": "视野项链"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/13085?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 13085
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NECK",
+      "name": {
+        "en_US": "Neck",
+        "es_MX": "Cuello",
+        "pt_BR": "Pescoço",
+        "de_DE": "Hals",
+        "en_GB": "Neck",
+        "es_ES": "Cuello",
+        "fr_FR": "Cou",
+        "it_IT": "Collo",
+        "ru_RU": "Шея",
+        "ko_KR": "목",
+        "zh_TW": "頸部",
+        "zh_CN": "颈部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 269,
+        "display": {
+          "display_string": {
+            "en_US": "+269 Intellect",
+            "es_MX": "+269 intelecto",
+            "pt_BR": "+269 Intelecto",
+            "de_DE": "+269 Intelligenz",
+            "en_GB": "+269 Intellect",
+            "es_ES": "+269 intelecto",
+            "fr_FR": "+269 Intelligence",
+            "it_IT": "+269 Intelletto",
+            "ru_RU": "+269 к интеллекту",
+            "ko_KR": "지능 +269",
+            "zh_TW": "+269智力",
+            "zh_CN": "+269 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 315,
+        "display": {
+          "display_string": {
+            "en_US": "+315 Stamina",
+            "es_MX": "+315 aguante",
+            "pt_BR": "+315 Vigor",
+            "de_DE": "+315 Ausdauer",
+            "en_GB": "+315 Stamina",
+            "es_ES": "+315 aguante",
+            "fr_FR": "+315 Endurance",
+            "it_IT": "+315 Tempra",
+            "ru_RU": "+315 к выносливости",
+            "ko_KR": "체력 +315",
+            "zh_TW": "+315耐力",
+            "zh_CN": "+315 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 123,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+123 Versatility",
+            "es_MX": "+123 versatilidad",
+            "pt_BR": "+123 Versatilidade",
+            "de_DE": "+123 Vielseitigkeit",
+            "en_GB": "+123 Versatility",
+            "es_ES": "+123 versatilidad",
+            "fr_FR": "+123 Polyvalence",
+            "it_IT": "+123 Indice di versatilità",
+            "ru_RU": "+123 к универсальности",
+            "ko_KR": "유연성 +123",
+            "zh_TW": "+123臨機應變",
+            "zh_CN": "+123 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 9137,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "91",
+          "es_MX": "91",
+          "pt_BR": "91",
+          "de_DE": "91",
+          "en_GB": "91",
+          "es_ES": "91",
+          "fr_FR": "91",
+          "it_IT": "91",
+          "ru_RU": "91",
+          "ko_KR": "91",
+          "zh_TW": "91",
+          "zh_CN": "91"
+        },
+        "copper": {
+          "en_US": "37",
+          "es_MX": "37",
+          "pt_BR": "37",
+          "de_DE": "37",
+          "en_GB": "37",
+          "es_ES": "37",
+          "fr_FR": "37",
+          "it_IT": "37",
+          "ru_RU": "37",
+          "ko_KR": "37",
+          "zh_TW": "37",
+          "zh_CN": "37"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 20,
+        "display_string": {
+          "en_US": "Requires Level 20",
+          "es_MX": "Necesitas ser de nivel 20",
+          "pt_BR": "Requer o Nível 20",
+          "de_DE": "Benötigt Stufe 20",
+          "en_GB": "Requires Level 20",
+          "es_ES": "Necesitas ser de nivel 20",
+          "fr_FR": "Niveau 20 requis",
+          "it_IT": "Richiede il livello 20",
+          "ru_RU": "Требуется 20-й уровень",
+          "ko_KR": "최소 요구 레벨: 20",
+          "zh_TW": "需要等級20",
+          "zh_CN": "需要等级 20"
+        }
+      }
+    },
+    "level": {
+      "value": 362,
+      "display_string": {
+        "en_US": "Item Level 362",
+        "es_MX": "Nivel de objeto 362",
+        "pt_BR": "Nível do Item: 362",
+        "de_DE": "Gegenstandsstufe 362",
+        "en_GB": "Item Level 362",
+        "es_ES": "Nivel de objeto 362",
+        "fr_FR": "Niveau d'objet 362",
+        "it_IT": "Livello oggetto: 362",
+        "ru_RU": "Уровень предмета: 362",
+        "ko_KR": "아이템 레벨: 362",
+        "zh_TW": "物品等級362",
+        "zh_CN": "物品等级362"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

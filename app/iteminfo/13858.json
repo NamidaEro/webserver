@@ -1,0 +1,463 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/13858?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 13858,
+  "name": {
+    "en_US": "Runecloth Robe",
+    "es_MX": "Toga de paño rúnico",
+    "pt_BR": "Veste de Runatrama",
+    "de_DE": "Runenstoffrobe",
+    "en_GB": "Runecloth Robe",
+    "es_ES": "Toga de paño rúnico",
+    "fr_FR": "Robe en étoffe runique",
+    "it_IT": "Tonaca di Telarunica",
+    "ru_RU": "Одеяние из рунической ткани",
+    "ko_KR": "룬무늬 로브",
+    "zh_TW": "符文布袍",
+    "zh_CN": "符文布袍"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 27,
+  "required_level": 20,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/13858?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 13858
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "ROBE",
+    "name": {
+      "en_US": "Chest",
+      "es_MX": "Pecho",
+      "pt_BR": "Torso",
+      "de_DE": "Brust",
+      "en_GB": "Chest",
+      "es_ES": "Torso",
+      "fr_FR": "Torse",
+      "it_IT": "Torso",
+      "ru_RU": "Грудь",
+      "ko_KR": "가슴",
+      "zh_TW": "胸部",
+      "zh_CN": "胸部"
+    }
+  },
+  "purchase_price": 7500,
+  "sell_price": 1500,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/13858?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 13858
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Runecloth Robe",
+      "es_MX": "Toga de paño rúnico",
+      "pt_BR": "Veste de Runatrama",
+      "de_DE": "Runenstoffrobe",
+      "en_GB": "Runecloth Robe",
+      "es_ES": "Toga de paño rúnico",
+      "fr_FR": "Robe en étoffe runique",
+      "it_IT": "Tonaca di Telarunica",
+      "ru_RU": "Одеяние из рунической ткани",
+      "ko_KR": "룬무늬 로브",
+      "zh_TW": "符文布袍",
+      "zh_CN": "符文布袍"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/13858?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 13858
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "ROBE",
+      "name": {
+        "en_US": "Chest",
+        "es_MX": "Pecho",
+        "pt_BR": "Torso",
+        "de_DE": "Brust",
+        "en_GB": "Chest",
+        "es_ES": "Torso",
+        "fr_FR": "Torse",
+        "it_IT": "Torso",
+        "ru_RU": "Грудь",
+        "ko_KR": "가슴",
+        "zh_TW": "胸部",
+        "zh_CN": "胸部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 4,
+      "display": {
+        "display_string": {
+          "en_US": "4 Armor",
+          "es_MX": "4 p. de armadura",
+          "pt_BR": "4 de Armadura",
+          "de_DE": "4 Rüstung",
+          "en_GB": "4 Armor",
+          "es_ES": "4 p. de armadura",
+          "fr_FR": "Armure : 4",
+          "it_IT": "4 Armatura",
+          "ru_RU": "Броня: 4",
+          "ko_KR": "방어도 4",
+          "zh_TW": "4點護甲",
+          "zh_CN": "4点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 5,
+        "display": {
+          "display_string": {
+            "en_US": "+5 Intellect",
+            "es_MX": "+5 intelecto",
+            "pt_BR": "+5 Intelecto",
+            "de_DE": "+5 Intelligenz",
+            "en_GB": "+5 Intellect",
+            "es_ES": "+5 intelecto",
+            "fr_FR": "+5 Intelligence",
+            "it_IT": "+5 Intelletto",
+            "ru_RU": "+5 к интеллекту",
+            "ko_KR": "지능 +5",
+            "zh_TW": "+5智力",
+            "zh_CN": "+5 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 5,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+5 Versatility",
+            "es_MX": "+5 versatilidad",
+            "pt_BR": "+5 Versatilidade",
+            "de_DE": "+5 Vielseitigkeit",
+            "en_GB": "+5 Versatility",
+            "es_ES": "+5 versatilidad",
+            "fr_FR": "+5 Polyvalence",
+            "it_IT": "+5 Indice di versatilità",
+            "ru_RU": "+5 к универсальности",
+            "ko_KR": "유연성 +5",
+            "zh_TW": "+5臨機應變",
+            "zh_CN": "+5 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "15",
+          "es_MX": "15",
+          "pt_BR": "15",
+          "de_DE": "15",
+          "en_GB": "15",
+          "es_ES": "15",
+          "fr_FR": "15",
+          "it_IT": "15",
+          "ru_RU": "15",
+          "ko_KR": "15",
+          "zh_TW": "15",
+          "zh_CN": "15"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 20,
+        "display_string": {
+          "en_US": "Requires Level 20",
+          "es_MX": "Necesitas ser de nivel 20",
+          "pt_BR": "Requer o Nível 20",
+          "de_DE": "Benötigt Stufe 20",
+          "en_GB": "Requires Level 20",
+          "es_ES": "Necesitas ser de nivel 20",
+          "fr_FR": "Niveau 20 requis",
+          "it_IT": "Richiede il livello 20",
+          "ru_RU": "Требуется 20-й уровень",
+          "ko_KR": "최소 요구 레벨: 20",
+          "zh_TW": "需要等級20",
+          "zh_CN": "需要等级 20"
+        }
+      }
+    },
+    "level": {
+      "value": 27,
+      "display_string": {
+        "en_US": "Item Level 27",
+        "es_MX": "Nivel de objeto 27",
+        "pt_BR": "Nível do Item: 27",
+        "de_DE": "Gegenstandsstufe 27",
+        "en_GB": "Item Level 27",
+        "es_ES": "Nivel de objeto 27",
+        "fr_FR": "Niveau d'objet 27",
+        "it_IT": "Livello oggetto: 27",
+        "ru_RU": "Уровень предмета: 27",
+        "ko_KR": "아이템 레벨: 27",
+        "zh_TW": "物品等級27",
+        "zh_CN": "物品等级27"
+      }
+    },
+    "durability": {
+      "value": 110,
+      "display_string": {
+        "en_US": "Durability 110 / 110",
+        "es_MX": "Durabilidad 110 / 110",
+        "pt_BR": "Durabilidade 110 / 110",
+        "de_DE": "Haltbarkeit 110 / 110",
+        "en_GB": "Durability 110 / 110",
+        "es_ES": "Durabilidad 110 / 110",
+        "fr_FR": "Durabilité : 110 / 110",
+        "it_IT": "Integrità 110/110",
+        "ru_RU": "Прочность: 110 / 110",
+        "ko_KR": "내구도 110 / 110",
+        "zh_TW": "耐久度 110 / 110",
+        "zh_CN": "耐久度 110 / 110"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/3906?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3906
+    }
+  ]
+}

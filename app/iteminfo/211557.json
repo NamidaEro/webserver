@@ -1,0 +1,575 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/211557?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 211557,
+  "name": {
+    "en_US": "Draconic Combatant's Wildercloth Bands",
+    "es_MX": "Braciles de tela salvaje de Combatiente dracónico",
+    "pt_BR": "Embraces de Selvatrama do Combatente Dracônico",
+    "de_DE": "Wildstoffbänder des drakonischen Kämpfers",
+    "en_GB": "Draconic Combatant's Wildercloth Bands",
+    "es_ES": "Braciles de tela salvaje de Combatiente dracónico",
+    "fr_FR": "Poignets du combattant draconique en trame-sauvage",
+    "it_IT": "Fasce di Stoffabrada del Combattente Draconico",
+    "ru_RU": "Повязки из ткани стихий драконьего бойца",
+    "ko_KR": "용족 전투원의 야생천 손목매듭",
+    "zh_TW": "龍族戰鬥者的荒紋布手環",
+    "zh_CN": "腾龙争斗者的荒布腕带"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 330,
+  "required_level": 70,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/211557?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 211557
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "WRIST",
+    "name": {
+      "en_US": "Wrist",
+      "es_MX": "Muñecas",
+      "pt_BR": "Pulsos",
+      "de_DE": "Handgelenk",
+      "en_GB": "Wrist",
+      "es_ES": "Muñecas",
+      "fr_FR": "Poignets",
+      "it_IT": "Polsi",
+      "ru_RU": "Запястья",
+      "ko_KR": "손목",
+      "zh_TW": "手腕",
+      "zh_CN": "腕部"
+    }
+  },
+  "purchase_price": 122029,
+  "sell_price": 24405,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/211557?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 211557
+    },
+    "context": 0,
+    "bonus_list": [
+      10250,
+      8840,
+      5247,
+      10251
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Draconic Combatant's Wildercloth Bands",
+      "es_MX": "Braciles de tela salvaje de Combatiente dracónico",
+      "pt_BR": "Embraces de Selvatrama do Combatente Dracônico",
+      "de_DE": "Wildstoffbänder des drakonischen Kämpfers",
+      "en_GB": "Draconic Combatant's Wildercloth Bands",
+      "es_ES": "Braciles de tela salvaje de Combatiente dracónico",
+      "fr_FR": "Poignets du combattant draconique en trame-sauvage",
+      "it_IT": "Fasce di Stoffabrada del Combattente Draconico",
+      "ru_RU": "Повязки из ткани стихий драконьего бойца",
+      "ko_KR": "용족 전투원의 야생천 손목매듭",
+      "zh_TW": "龍族戰鬥者的荒紋布手環",
+      "zh_CN": "腾龙争斗者的荒布腕带"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/211557?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 211557
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "WRIST",
+      "name": {
+        "en_US": "Wrist",
+        "es_MX": "Muñecas",
+        "pt_BR": "Pulsos",
+        "de_DE": "Handgelenk",
+        "en_GB": "Wrist",
+        "es_ES": "Muñecas",
+        "fr_FR": "Poignets",
+        "it_IT": "Polsi",
+        "ru_RU": "Запястья",
+        "ko_KR": "손목",
+        "zh_TW": "手腕",
+        "zh_CN": "腕部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 253,
+      "display": {
+        "display_string": {
+          "en_US": "253 Armor",
+          "es_MX": "253 p. de armadura",
+          "pt_BR": "253 de Armadura",
+          "de_DE": "253 Rüstung",
+          "en_GB": "253 Armor",
+          "es_ES": "253 p. de armadura",
+          "fr_FR": "Armure : 253",
+          "it_IT": "253 Armatura",
+          "ru_RU": "Броня: 253",
+          "ko_KR": "방어도 253",
+          "zh_TW": "253點護甲",
+          "zh_CN": "253点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 328,
+        "display": {
+          "display_string": {
+            "en_US": "+328 Intellect",
+            "es_MX": "+328 intelecto",
+            "pt_BR": "+328 Intelecto",
+            "de_DE": "+328 Intelligenz",
+            "en_GB": "+328 Intellect",
+            "es_ES": "+328 intelecto",
+            "fr_FR": "+328 Intelligence",
+            "it_IT": "+328 Intelletto",
+            "ru_RU": "+328 к интеллекту",
+            "ko_KR": "지능 +328",
+            "zh_TW": "+328智力",
+            "zh_CN": "+328 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 1146,
+        "display": {
+          "display_string": {
+            "en_US": "+1,146 Stamina",
+            "es_MX": "+1,146 aguante",
+            "pt_BR": "+1.146 Vigor",
+            "de_DE": "+1.146 Ausdauer",
+            "en_GB": "+1,146 Stamina",
+            "es_ES": "+1146 aguante",
+            "fr_FR": "+1146 Endurance",
+            "it_IT": "+1.146 Tempra",
+            "ru_RU": "+1146 к выносливости",
+            "ko_KR": "체력 +1,146",
+            "zh_TW": "+1,146耐力",
+            "zh_CN": "+1,146 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 239,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+239 Critical Strike",
+            "es_MX": "+239 golpe crítico",
+            "pt_BR": "+239 Acerto Crítico",
+            "de_DE": "+239 Kritischer Trefferwert",
+            "en_GB": "+239 Critical Strike",
+            "es_ES": "+239 golpe crítico",
+            "fr_FR": "+239 Score de crit.",
+            "it_IT": "+239 Indice di critico",
+            "ru_RU": "+239 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +239",
+            "zh_TW": "+239致命一擊",
+            "zh_CN": "+239 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 239,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+239 Versatility",
+            "es_MX": "+239 versatilidad",
+            "pt_BR": "+239 Versatilidade",
+            "de_DE": "+239 Vielseitigkeit",
+            "en_GB": "+239 Versatility",
+            "es_ES": "+239 versatilidad",
+            "fr_FR": "+239 Polyvalence",
+            "it_IT": "+239 Indice di versatilità",
+            "ru_RU": "+239 к универсальности",
+            "ko_KR": "유연성 +239",
+            "zh_TW": "+239臨機應變",
+            "zh_CN": "+239 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 24405,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "silver": {
+          "en_US": "44",
+          "es_MX": "44",
+          "pt_BR": "44",
+          "de_DE": "44",
+          "en_GB": "44",
+          "es_ES": "44",
+          "fr_FR": "44",
+          "it_IT": "44",
+          "ru_RU": "44",
+          "ko_KR": "44",
+          "zh_TW": "44",
+          "zh_CN": "44"
+        },
+        "copper": {
+          "en_US": "5",
+          "es_MX": "5",
+          "pt_BR": "5",
+          "de_DE": "5",
+          "en_GB": "5",
+          "es_ES": "5",
+          "fr_FR": "5",
+          "it_IT": "5",
+          "ru_RU": "5",
+          "ko_KR": "5",
+          "zh_TW": "5",
+          "zh_CN": "5"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 70,
+        "display_string": {
+          "en_US": "Requires Level 70",
+          "es_MX": "Necesitas ser de nivel 70",
+          "pt_BR": "Requer o Nível 70",
+          "de_DE": "Benötigt Stufe 70",
+          "en_GB": "Requires Level 70",
+          "es_ES": "Necesitas ser de nivel 70",
+          "fr_FR": "Niveau 70 requis",
+          "it_IT": "Richiede il livello 70",
+          "ru_RU": "Требуется 70-й уровень",
+          "ko_KR": "최소 요구 레벨: 70",
+          "zh_TW": "需要等級70",
+          "zh_CN": "需要等级 70"
+        }
+      }
+    },
+    "level": {
+      "value": 438,
+      "display_string": {
+        "en_US": "Item Level 438",
+        "es_MX": "Nivel de objeto 438",
+        "pt_BR": "Nível do Item: 438",
+        "de_DE": "Gegenstandsstufe 438",
+        "en_GB": "Item Level 438",
+        "es_ES": "Nivel de objeto 438",
+        "fr_FR": "Niveau d'objet 438",
+        "it_IT": "Livello oggetto: 438",
+        "ru_RU": "Уровень предмета: 438",
+        "ko_KR": "아이템 레벨: 438",
+        "zh_TW": "物品等級438",
+        "zh_CN": "物品等级438"
+      }
+    },
+    "durability": {
+      "value": 40,
+      "display_string": {
+        "en_US": "Durability 40 / 40",
+        "es_MX": "Durabilidad 40 / 40",
+        "pt_BR": "Durabilidade 40 / 40",
+        "de_DE": "Haltbarkeit 40 / 40",
+        "en_GB": "Durability 40 / 40",
+        "es_ES": "Durabilidad 40 / 40",
+        "fr_FR": "Durabilité : 40 / 40",
+        "it_IT": "Integrità 40/40",
+        "ru_RU": "Прочность: 40 / 40",
+        "ko_KR": "내구도 40 / 40",
+        "zh_TW": "耐久度 40 / 40",
+        "zh_CN": "耐久度 40 / 40"
+      }
+    },
+    "modified_crafting_stat": [
+      {
+        "id": 32,
+        "type": "CRIT_RATING",
+        "name": {
+          "en_US": "Critical Strike",
+          "es_MX": "golpe crítico",
+          "pt_BR": "Acerto Crítico",
+          "de_DE": "Kritischer Trefferwert",
+          "en_GB": "Critical Strike",
+          "es_ES": "golpe crítico",
+          "fr_FR": "Score de crit.",
+          "it_IT": "Indice di critico",
+          "ru_RU": "к критическому удару",
+          "ko_KR": "치명타 및 극대화",
+          "zh_TW": "致命一擊",
+          "zh_CN": "爆击"
+        }
+      }
+    ]
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/69501?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 69501
+    }
+  ]
+}

@@ -1,0 +1,836 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/24306?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 24306,
+  "name": {
+    "en_US": "Pattern: Vengeance Wrap",
+    "es_MX": "Patrón: sobrevesta de venganza",
+    "pt_BR": "Molde: Mantelete da Vingança",
+    "de_DE": "Muster: Wickeltuch der Vergeltung",
+    "en_GB": "Pattern: Vengeance Wrap",
+    "es_ES": "Patrón: sobrevesta de venganza",
+    "fr_FR": "Patron : Houppelande vengeresse",
+    "it_IT": "Modello: Mantello della Vendetta",
+    "ru_RU": "Выкройка: плащ отмщения",
+    "ko_KR": "도안: 복수의 외투",
+    "zh_TW": "圖樣：復仇披風",
+    "zh_CN": "图样：复仇披风"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/24306?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 24306
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Tailoring",
+      "es_MX": "Sastrería",
+      "pt_BR": "Alfaiataria",
+      "de_DE": "Schneiderei",
+      "en_GB": "Tailoring",
+      "es_ES": "Sastrería",
+      "fr_FR": "Couture",
+      "it_IT": "Sartoria",
+      "ru_RU": "Портняжное дело",
+      "ko_KR": "재봉술",
+      "zh_TW": "裁縫",
+      "zh_CN": "裁缝"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 120000,
+  "sell_price": 30000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to sew a Vengeance Wrap.",
+    "es_MX": "Te enseña a confeccionar una sobrevesta de venganza.",
+    "pt_BR": "Ensina a confeccionar Mantelete da Vingança.",
+    "de_DE": "Lehrt Euch das Nähen von Wickeltüchern der Vergeltung.",
+    "en_GB": "Teaches you how to sew a Vengeance Wrap.",
+    "es_ES": "Te enseña a confeccionar una sobrevesta de venganza.",
+    "fr_FR": "Vous apprend à coudre une Houppelande vengeresse.",
+    "it_IT": "Ti insegna a creare un Mantello della Vendetta.",
+    "ru_RU": "Обучает пошиву плаща отмщения.",
+    "ko_KR": "복수의 외투 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何縫製復仇披風。",
+    "zh_CN": "教你学会制作复仇披风。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/24306?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 24306
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Vengeance Wrap",
+      "es_MX": "Patrón: sobrevesta de venganza",
+      "pt_BR": "Molde: Mantelete da Vingança",
+      "de_DE": "Muster: Wickeltuch der Vergeltung",
+      "en_GB": "Pattern: Vengeance Wrap",
+      "es_ES": "Patrón: sobrevesta de venganza",
+      "fr_FR": "Patron : Houppelande vengeresse",
+      "it_IT": "Modello: Mantello della Vendetta",
+      "ru_RU": "Выкройка: плащ отмщения",
+      "ko_KR": "도안: 복수의 외투",
+      "zh_TW": "圖樣：復仇披風",
+      "zh_CN": "图样：复仇披风"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/24306?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 24306
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Tailoring",
+        "es_MX": "Sastrería",
+        "pt_BR": "Alfaiataria",
+        "de_DE": "Schneiderei",
+        "en_GB": "Tailoring",
+        "es_ES": "Sastrería",
+        "fr_FR": "Couture",
+        "it_IT": "Sartoria",
+        "ru_RU": "Портняжное дело",
+        "ko_KR": "재봉술",
+        "zh_TW": "裁縫",
+        "zh_CN": "裁缝"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 30000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "3",
+          "es_MX": "3",
+          "pt_BR": "3",
+          "de_DE": "3",
+          "en_GB": "3",
+          "es_ES": "3",
+          "fr_FR": "3",
+          "it_IT": "3",
+          "ru_RU": "3",
+          "ko_KR": "3",
+          "zh_TW": "3",
+          "zh_CN": "3"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2539?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Outland Tailoring",
+            "es_MX": "Sastrería de Terrallende",
+            "pt_BR": "Alfaiataria de Terralém",
+            "de_DE": "Schneiderei der Scherbenwelt",
+            "en_GB": "Outland Tailoring",
+            "es_ES": "Sastrería de Terrallende",
+            "fr_FR": "Couture d’Outreterre",
+            "it_IT": "Sartoria delle Terre Esterne",
+            "ru_RU": "Портняжное дело Запределья",
+            "ko_KR": "아웃랜드 재봉술",
+            "zh_TW": "外域裁縫",
+            "zh_CN": "外域裁缝"
+          },
+          "id": 2539
+        },
+        "level": 65,
+        "display_string": {
+          "en_US": "Requires Outland Tailoring (65)",
+          "es_MX": "Requiere Sastrería de Terrallende (65)",
+          "pt_BR": "Requer Alfaiataria de Terralém (65)",
+          "de_DE": "Benötigt Schneiderei der Scherbenwelt (65)",
+          "en_GB": "Requires Outland Tailoring (65)",
+          "es_ES": "Requiere Sastrería de Terrallende (65)",
+          "fr_FR": "Couture d’Outreterre (65) requis",
+          "it_IT": "Richiede: Sartoria delle Terre Esterne (65)",
+          "ru_RU": "Требуется: Портняжное дело Запределья (65)",
+          "ko_KR": "요구 사항: 아웃랜드 재봉술 (65)",
+          "zh_TW": "需要外域裁縫(65)",
+          "zh_CN": "需要外域裁缝（65）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to sew a Vengeance Wrap.",
+      "es_MX": "Te enseña a confeccionar una sobrevesta de venganza.",
+      "pt_BR": "Ensina a confeccionar Mantelete da Vingança.",
+      "de_DE": "Lehrt Euch das Nähen von Wickeltüchern der Vergeltung.",
+      "en_GB": "Teaches you how to sew a Vengeance Wrap.",
+      "es_ES": "Te enseña a confeccionar una sobrevesta de venganza.",
+      "fr_FR": "Vous apprend à coudre une Houppelande vengeresse.",
+      "it_IT": "Ti insegna a creare un Mantello della Vendetta.",
+      "ru_RU": "Обучает пошиву плаща отмщения.",
+      "ko_KR": "복수의 외투 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何縫製復仇披風。",
+      "zh_CN": "教你学会制作复仇披风。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/24259?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 24259
+        },
+        "sockets": [
+          {
+            "socket_type": {
+              "type": "PRISMATIC",
+              "name": {
+                "en_US": "Prismatic Socket",
+                "es_MX": "Ranura prismática",
+                "pt_BR": "Engaste Prismático",
+                "de_DE": "Prismatischer Sockel",
+                "en_GB": "Prismatic Socket",
+                "es_ES": "Ranura prismática",
+                "fr_FR": "Châsse prismatique",
+                "it_IT": "Incavo Prismatico",
+                "ru_RU": "бесцветное гнездо",
+                "ko_KR": "다색 보석 홈",
+                "zh_TW": "多色插槽",
+                "zh_CN": "棱彩插槽"
+              }
+            }
+          }
+        ],
+        "quality": {
+          "type": "EPIC",
+          "name": {
+            "en_US": "Epic",
+            "es_MX": "Épico",
+            "pt_BR": "Épico",
+            "de_DE": "Episch",
+            "en_GB": "Epic",
+            "es_ES": "Épico",
+            "fr_FR": "Épique",
+            "it_IT": "Epico",
+            "ru_RU": "Эпическое",
+            "ko_KR": "영웅",
+            "zh_TW": "史詩",
+            "zh_CN": "史诗"
+          }
+        },
+        "name": {
+          "en_US": "Vengeance Wrap",
+          "es_MX": "Sobrevesta de venganza",
+          "pt_BR": "Mantelete da Vingança",
+          "de_DE": "Wickeltuch der Vergeltung",
+          "en_GB": "Vengeance Wrap",
+          "es_ES": "Sobrevesta de venganza",
+          "fr_FR": "Houppelande vengeresse",
+          "it_IT": "Mantello della Vendetta",
+          "ru_RU": "Плащ отмщения",
+          "ko_KR": "복수의 외투",
+          "zh_TW": "復仇披風",
+          "zh_CN": "复仇披风"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/24259?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 24259
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Cloth",
+            "es_MX": "Tela",
+            "pt_BR": "Tecido",
+            "de_DE": "Stoff",
+            "en_GB": "Cloth",
+            "es_ES": "Tela",
+            "fr_FR": "Tissu",
+            "it_IT": "Stoffa",
+            "ru_RU": "Ткань",
+            "ko_KR": "천",
+            "zh_TW": "布甲",
+            "zh_CN": "布甲"
+          },
+          "id": 1
+        },
+        "inventory_type": {
+          "type": "CLOAK",
+          "name": {
+            "en_US": "Back",
+            "es_MX": "Espalda",
+            "pt_BR": "Costas",
+            "de_DE": "Rücken",
+            "en_GB": "Back",
+            "es_ES": "Espalda",
+            "fr_FR": "Dos",
+            "it_IT": "Schiena",
+            "ru_RU": "Спина",
+            "ko_KR": "등",
+            "zh_TW": "背部",
+            "zh_CN": "背部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "armor": {
+          "value": 3,
+          "display": {
+            "display_string": {
+              "en_US": "3 Armor",
+              "es_MX": "3 p. de armadura",
+              "pt_BR": "3 de Armadura",
+              "de_DE": "3 Rüstung",
+              "en_GB": "3 Armor",
+              "es_ES": "3 p. de armadura",
+              "fr_FR": "Armure : 3",
+              "it_IT": "3 Armatura",
+              "ru_RU": "Броня: 3",
+              "ko_KR": "방어도 3",
+              "zh_TW": "3點護甲",
+              "zh_CN": "3点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "AGILITY",
+              "name": {
+                "en_US": "Agility",
+                "es_MX": "agilidad",
+                "pt_BR": "Agilidade",
+                "de_DE": "Beweglichkeit",
+                "en_GB": "Agility",
+                "es_ES": "agilidad",
+                "fr_FR": "Agilité",
+                "it_IT": "Agilità",
+                "ru_RU": "к ловкости",
+                "ko_KR": "민첩성",
+                "zh_TW": "敏捷",
+                "zh_CN": "敏捷"
+              }
+            },
+            "value": 2,
+            "is_negated": true,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Agility",
+                "es_MX": "+2 agilidad",
+                "pt_BR": "+2 Agilidade",
+                "de_DE": "+2 Beweglichkeit",
+                "en_GB": "+2 Agility",
+                "es_ES": "+2 agilidad",
+                "fr_FR": "+2 Agilité",
+                "it_IT": "+2 Agilità",
+                "ru_RU": "+2 к ловкости",
+                "ko_KR": "민첩성 +2",
+                "zh_TW": "+2敏捷",
+                "zh_CN": "+2 敏捷"
+              },
+              "color": {
+                "r": 128,
+                "g": 128,
+                "b": 128,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "STRENGTH",
+              "name": {
+                "en_US": "Strength",
+                "es_MX": "fuerza",
+                "pt_BR": "Força",
+                "de_DE": "Stärke",
+                "en_GB": "Strength",
+                "es_ES": "fuerza",
+                "fr_FR": "Force",
+                "it_IT": "Forza",
+                "ru_RU": "к силе",
+                "ko_KR": "힘",
+                "zh_TW": "力量",
+                "zh_CN": "力量"
+              }
+            },
+            "value": 2,
+            "is_negated": true,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Strength",
+                "es_MX": "+2 fuerza",
+                "pt_BR": "+2 Força",
+                "de_DE": "+2 Stärke",
+                "en_GB": "+2 Strength",
+                "es_ES": "+2 fuerza",
+                "fr_FR": "+2 Force",
+                "it_IT": "+2 Forza",
+                "ru_RU": "+2 к силе",
+                "ko_KR": "힘 +2",
+                "zh_TW": "+2力量",
+                "zh_CN": "+2 力量"
+              },
+              "color": {
+                "r": 128,
+                "g": 128,
+                "b": 128,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "CRIT_RATING",
+              "name": {
+                "en_US": "Critical Strike",
+                "es_MX": "golpe crítico",
+                "pt_BR": "Acerto Crítico",
+                "de_DE": "Kritischer Trefferwert",
+                "en_GB": "Critical Strike",
+                "es_ES": "golpe crítico",
+                "fr_FR": "Score de crit.",
+                "it_IT": "Indice di critico",
+                "ru_RU": "к критическому удару",
+                "ko_KR": "치명타 및 극대화",
+                "zh_TW": "致命一擊",
+                "zh_CN": "爆击"
+              }
+            },
+            "value": 3,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+3 Critical Strike",
+                "es_MX": "+3 golpe crítico",
+                "pt_BR": "+3 Acerto Crítico",
+                "de_DE": "+3 Kritischer Trefferwert",
+                "en_GB": "+3 Critical Strike",
+                "es_ES": "+3 golpe crítico",
+                "fr_FR": "+3 Score de crit.",
+                "it_IT": "+3 Indice di critico",
+                "ru_RU": "+3 к критическому удару",
+                "ko_KR": "치명타 및 극대화 +3",
+                "zh_TW": "+3致命一擊",
+                "zh_CN": "+3 爆击"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "socket_bonus": {
+          "en_US": "Socket Bonus: +1 Critical Strike",
+          "es_MX": "Bonus ranura: +1 golpe crítico",
+          "pt_BR": "Bônus de engaste: +1 de Acerto Crítico",
+          "de_DE": "Sockelbonus: +1 kritischer Trefferwert",
+          "en_GB": "Socket Bonus: +1 Critical Strike",
+          "es_ES": "Bonus ranura: +1 golpe crítico",
+          "fr_FR": "Bonus de sertissage : +1 au score de Coup critique",
+          "it_IT": "Bonus incavo: +1 Indice di Critico",
+          "ru_RU": "При соответствии цвета: +1 к вероятности критического удара",
+          "ko_KR": "보석 장착 보너스: 치명타 및 극대화 +1",
+          "zh_TW": "插槽加成：+1致命一擊",
+          "zh_CN": "镶孔奖励：+1 爆击"
+        },
+        "sell_price": {
+          "value": 214,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "2",
+              "es_MX": "2",
+              "pt_BR": "2",
+              "de_DE": "2",
+              "en_GB": "2",
+              "es_ES": "2",
+              "fr_FR": "2",
+              "it_IT": "2",
+              "ru_RU": "2",
+              "ko_KR": "2",
+              "zh_TW": "2",
+              "zh_CN": "2"
+            },
+            "copper": {
+              "en_US": "14",
+              "es_MX": "14",
+              "pt_BR": "14",
+              "de_DE": "14",
+              "en_GB": "14",
+              "es_ES": "14",
+              "fr_FR": "14",
+              "it_IT": "14",
+              "ru_RU": "14",
+              "ko_KR": "14",
+              "zh_TW": "14",
+              "zh_CN": "14"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 27,
+            "display_string": {
+              "en_US": "Requires Level 27",
+              "es_MX": "Necesitas ser de nivel 27",
+              "pt_BR": "Requer o Nível 27",
+              "de_DE": "Benötigt Stufe 27",
+              "en_GB": "Requires Level 27",
+              "es_ES": "Necesitas ser de nivel 27",
+              "fr_FR": "Niveau 27 requis",
+              "it_IT": "Richiede il livello 27",
+              "ru_RU": "Требуется 27-й уровень",
+              "ko_KR": "최소 요구 레벨: 27",
+              "zh_TW": "需要等級27",
+              "zh_CN": "需要等级 27"
+            }
+          }
+        },
+        "level": {
+          "value": 31,
+          "display_string": {
+            "en_US": "Item Level 31",
+            "es_MX": "Nivel de objeto 31",
+            "pt_BR": "Nível do Item: 31",
+            "de_DE": "Gegenstandsstufe 31",
+            "en_GB": "Item Level 31",
+            "es_ES": "Nivel de objeto 31",
+            "fr_FR": "Niveau d'objet 31",
+            "it_IT": "Livello oggetto: 31",
+            "ru_RU": "Уровень предмета: 31",
+            "ko_KR": "아이템 레벨: 31",
+            "zh_TW": "物品等級31",
+            "zh_CN": "物品等级31"
+          }
+        },
+        "is_subclass_hidden": true
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/24272?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Shadowcloth",
+              "es_MX": "Paño de las Sombras",
+              "pt_BR": "Umbratrama",
+              "de_DE": "Schattenstoff",
+              "en_GB": "Shadowcloth",
+              "es_ES": "Paño de las Sombras",
+              "fr_FR": "Étoffe d'ombre",
+              "it_IT": "Teladombra",
+              "ru_RU": "Тенеткань",
+              "ko_KR": "어둠 깃든 옷감",
+              "zh_TW": "暗影布",
+              "zh_CN": "暗影布"
+            },
+            "id": 24272
+          },
+          "quantity": 10
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/22451?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Primal Air",
+              "es_MX": "Aire primigenio",
+              "pt_BR": "Ar Primevo",
+              "de_DE": "Urluft",
+              "en_GB": "Primal Air",
+              "es_ES": "Aire primigenio",
+              "fr_FR": "Air primordial",
+              "it_IT": "Aria Primordiale",
+              "ru_RU": "Изначальный воздух",
+              "ko_KR": "바람의 근원",
+              "zh_TW": "原始空氣",
+              "zh_CN": "源生空气"
+            },
+            "id": 22451
+          },
+          "quantity": 14
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/23572?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Primal Nether",
+              "es_MX": "Abismo primigenio",
+              "pt_BR": "Éter Primevo",
+              "de_DE": "Urnether",
+              "en_GB": "Primal Nether",
+              "es_ES": "Abismo primigenio",
+              "fr_FR": "Néant primordial",
+              "it_IT": "Fatuo Primordiale",
+              "ru_RU": "Изначальная Пустота",
+              "ko_KR": "황천의 근원",
+              "zh_TW": "原始虛空",
+              "zh_CN": "源生虚空"
+            },
+            "id": 23572
+          },
+          "quantity": 1
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Shadowcloth (10), Primal Air (14), Primal Nether",
+        "es_MX": "Paño de las Sombras (10), Aire primigenio (14), Abismo primigenio",
+        "pt_BR": "Umbratrama (10), Ar Primevo (14), Éter Primevo",
+        "de_DE": "Schattenstoff (10), Urluft (14), Urnether",
+        "en_GB": "Shadowcloth (10), Primal Air (14), Primal Nether",
+        "es_ES": "Paño de las Sombras (10), Aire primigenio (14), Abismo primigenio",
+        "fr_FR": "Étoffe d'ombre (10), Air primordial (14), Néant primordial",
+        "it_IT": "Teladombra (10), Aria Primordiale (14), Fatuo Primordiale",
+        "ru_RU": "Тенеткань (10), Изначальный воздух (14), Изначальная Пустота",
+        "ko_KR": "어둠 깃든 옷감 (10), 바람의 근원 (14), 황천의 근원",
+        "zh_TW": "暗影布 (10), 原始空氣 (14), 原始虛空",
+        "zh_CN": "暗影布 (10), 源生空气 (14), 源生虚空"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

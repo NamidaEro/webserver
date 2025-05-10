@@ -1,0 +1,955 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/45098?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 45098,
+  "name": {
+    "en_US": "Pattern: Death-Warmed Belt",
+    "es_MX": "Patrón: cinturón caldeado de muerte",
+    "pt_BR": "Molde: Cinto Aquecido pela Morte",
+    "de_DE": "Muster: Todesgewärmter Gürtel",
+    "en_GB": "Pattern: Death-Warmed Belt",
+    "es_ES": "Patrón: cinturón caldeado de muerte",
+    "fr_FR": "Patron : Ceinture fièvremort",
+    "it_IT": "Modello: Cintura Fresca di Cimitero",
+    "ru_RU": "Выкройка: опаленный смертью пояс",
+    "ko_KR": "도안: 죽음의 온기 허리띠",
+    "zh_TW": "圖樣:溫暖死亡腰帶",
+    "zh_CN": "图样：温暖死亡腰带"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 32,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/45098?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 45098
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leatherworking",
+      "es_MX": "Peletería",
+      "pt_BR": "Couraria",
+      "de_DE": "Lederverarbeitung",
+      "en_GB": "Leatherworking",
+      "es_ES": "Peletería",
+      "fr_FR": "Travail du cuir",
+      "it_IT": "Conciatura",
+      "ru_RU": "Кожевничество",
+      "ko_KR": "가죽세공",
+      "zh_TW": "製皮",
+      "zh_CN": "制皮"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 1000000,
+  "sell_price": 25000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to make a Death-Warmed Belt.",
+    "es_MX": "Te enseña a hacer un cinturón caldeado de muerte.",
+    "pt_BR": "Ensina a fazer Cinto Aquecido pela Morte.",
+    "de_DE": "Lehrt Euch die Herstellung eines Todesgewärmten Gürtels.",
+    "en_GB": "Teaches you how to make a Death-Warmed Belt.",
+    "es_ES": "Te enseña a hacer un cinturón caldeado de muerte.",
+    "fr_FR": "Vous apprend à confectionner une Ceinture fièvremort.",
+    "it_IT": "Ti insegna a creare una Cintura Fresca di Cimitero.",
+    "ru_RU": "Обучает изготовлению опаленного смертью пояса.",
+    "ko_KR": "죽음의 온기 허리띠 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作溫暖死亡腰帶。",
+    "zh_CN": "教你学会制作温暖死亡腰带。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/45098?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 45098
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Death-Warmed Belt",
+      "es_MX": "Patrón: cinturón caldeado de muerte",
+      "pt_BR": "Molde: Cinto Aquecido pela Morte",
+      "de_DE": "Muster: Todesgewärmter Gürtel",
+      "en_GB": "Pattern: Death-Warmed Belt",
+      "es_ES": "Patrón: cinturón caldeado de muerte",
+      "fr_FR": "Patron : Ceinture fièvremort",
+      "it_IT": "Modello: Cintura Fresca di Cimitero",
+      "ru_RU": "Выкройка: опаленный смертью пояс",
+      "ko_KR": "도안: 죽음의 온기 허리띠",
+      "zh_TW": "圖樣:溫暖死亡腰帶",
+      "zh_CN": "图样：温暖死亡腰带"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/45098?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 45098
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leatherworking",
+        "es_MX": "Peletería",
+        "pt_BR": "Couraria",
+        "de_DE": "Lederverarbeitung",
+        "en_GB": "Leatherworking",
+        "es_ES": "Peletería",
+        "fr_FR": "Travail du cuir",
+        "it_IT": "Conciatura",
+        "ru_RU": "Кожевничество",
+        "ko_KR": "가죽세공",
+        "zh_TW": "製皮",
+        "zh_CN": "制皮"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 25000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "silver": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2530?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Northrend Leatherworking",
+            "es_MX": "Peletería de Rasganorte",
+            "pt_BR": "Couraria de Nortúndria",
+            "de_DE": "Lederverarbeitung von Nordend",
+            "en_GB": "Northrend Leatherworking",
+            "es_ES": "Peletería de Rasganorte",
+            "fr_FR": "Travail du cuir du Norfendre",
+            "it_IT": "Conciatura di Nordania",
+            "ru_RU": "Кожевничество Нордскола",
+            "ko_KR": "노스렌드 가죽세공",
+            "zh_TW": "北裂境製皮",
+            "zh_CN": "诺森德制皮"
+          },
+          "id": 2530
+        },
+        "level": 75,
+        "display_string": {
+          "en_US": "Requires Northrend Leatherworking (75)",
+          "es_MX": "Requiere Peletería de Rasganorte (75)",
+          "pt_BR": "Requer Couraria de Nortúndria (75)",
+          "de_DE": "Benötigt Lederverarbeitung von Nordend (75)",
+          "en_GB": "Requires Northrend Leatherworking (75)",
+          "es_ES": "Requiere Peletería de Rasganorte (75)",
+          "fr_FR": "Travail du cuir du Norfendre (75) requis",
+          "it_IT": "Richiede: Conciatura di Nordania (75)",
+          "ru_RU": "Требуется: Кожевничество Нордскола (75)",
+          "ko_KR": "요구 사항: 노스렌드 가죽세공 (75)",
+          "zh_TW": "需要北裂境製皮(75)",
+          "zh_CN": "需要诺森德制皮（75）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to make a Death-Warmed Belt.",
+      "es_MX": "Te enseña a hacer un cinturón caldeado de muerte.",
+      "pt_BR": "Ensina a fazer Cinto Aquecido pela Morte.",
+      "de_DE": "Lehrt Euch die Herstellung eines Todesgewärmten Gürtels.",
+      "en_GB": "Teaches you how to make a Death-Warmed Belt.",
+      "es_ES": "Te enseña a hacer un cinturón caldeado de muerte.",
+      "fr_FR": "Vous apprend à confectionner une Ceinture fièvremort.",
+      "it_IT": "Ti insegna a creare una Cintura Fresca di Cimitero.",
+      "ru_RU": "Обучает изготовлению опаленного смертью пояса.",
+      "ko_KR": "죽음의 온기 허리띠 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作溫暖死亡腰帶。",
+      "zh_CN": "教你学会制作温暖死亡腰带。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/45555?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 45555
+        },
+        "sockets": [
+          {
+            "socket_type": {
+              "type": "PRISMATIC",
+              "name": {
+                "en_US": "Prismatic Socket",
+                "es_MX": "Ranura prismática",
+                "pt_BR": "Engaste Prismático",
+                "de_DE": "Prismatischer Sockel",
+                "en_GB": "Prismatic Socket",
+                "es_ES": "Ranura prismática",
+                "fr_FR": "Châsse prismatique",
+                "it_IT": "Incavo Prismatico",
+                "ru_RU": "бесцветное гнездо",
+                "ko_KR": "다색 보석 홈",
+                "zh_TW": "多色插槽",
+                "zh_CN": "棱彩插槽"
+              }
+            }
+          },
+          {
+            "socket_type": {
+              "type": "PRISMATIC",
+              "name": {
+                "en_US": "Prismatic Socket",
+                "es_MX": "Ranura prismática",
+                "pt_BR": "Engaste Prismático",
+                "de_DE": "Prismatischer Sockel",
+                "en_GB": "Prismatic Socket",
+                "es_ES": "Ranura prismática",
+                "fr_FR": "Châsse prismatique",
+                "it_IT": "Incavo Prismatico",
+                "ru_RU": "бесцветное гнездо",
+                "ko_KR": "다색 보석 홈",
+                "zh_TW": "多色插槽",
+                "zh_CN": "棱彩插槽"
+              }
+            }
+          }
+        ],
+        "quality": {
+          "type": "EPIC",
+          "name": {
+            "en_US": "Epic",
+            "es_MX": "Épico",
+            "pt_BR": "Épico",
+            "de_DE": "Episch",
+            "en_GB": "Epic",
+            "es_ES": "Épico",
+            "fr_FR": "Épique",
+            "it_IT": "Epico",
+            "ru_RU": "Эпическое",
+            "ko_KR": "영웅",
+            "zh_TW": "史詩",
+            "zh_CN": "史诗"
+          }
+        },
+        "name": {
+          "en_US": "Death-Warmed Belt",
+          "es_MX": "Cinturón caldeado de muerte",
+          "pt_BR": "Cinto Aquecido pela Morte",
+          "de_DE": "Todesgewärmter Gürtel",
+          "en_GB": "Death-Warmed Belt",
+          "es_ES": "Cinturón caldeado de muerte",
+          "fr_FR": "Ceinture fièvremort",
+          "it_IT": "Cintura Fresca di Cimitero",
+          "ru_RU": "Опаленный смертью пояс",
+          "ko_KR": "죽음의 온기 허리띠",
+          "zh_TW": "溫暖死亡腰帶",
+          "zh_CN": "温暖死亡腰带"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/45555?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 45555
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Leather",
+            "es_MX": "Cuero",
+            "pt_BR": "Couro",
+            "de_DE": "Leder",
+            "en_GB": "Leather",
+            "es_ES": "Cuero",
+            "fr_FR": "Cuir",
+            "it_IT": "Cuoio",
+            "ru_RU": "Кожа",
+            "ko_KR": "가죽",
+            "zh_TW": "皮甲",
+            "zh_CN": "皮甲"
+          },
+          "id": 2
+        },
+        "inventory_type": {
+          "type": "WAIST",
+          "name": {
+            "en_US": "Waist",
+            "es_MX": "Cintura",
+            "pt_BR": "Cintura",
+            "de_DE": "Taille",
+            "en_GB": "Waist",
+            "es_ES": "Cintura",
+            "fr_FR": "Taille",
+            "it_IT": "Fianchi",
+            "ru_RU": "Пояс",
+            "ko_KR": "허리",
+            "zh_TW": "腰部",
+            "zh_CN": "腰部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "armor": {
+          "value": 4,
+          "display": {
+            "display_string": {
+              "en_US": "4 Armor",
+              "es_MX": "4 p. de armadura",
+              "pt_BR": "4 de Armadura",
+              "de_DE": "4 Rüstung",
+              "en_GB": "4 Armor",
+              "es_ES": "4 p. de armadura",
+              "fr_FR": "Armure : 4",
+              "it_IT": "4 Armatura",
+              "ru_RU": "Броня: 4",
+              "ko_KR": "방어도 4",
+              "zh_TW": "4點護甲",
+              "zh_CN": "4点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "INTELLECT",
+              "name": {
+                "en_US": "Intellect",
+                "es_MX": "intelecto",
+                "pt_BR": "Intelecto",
+                "de_DE": "Intelligenz",
+                "en_GB": "Intellect",
+                "es_ES": "intelecto",
+                "fr_FR": "Intelligence",
+                "it_IT": "Intelletto",
+                "ru_RU": "к интеллекту",
+                "ko_KR": "지능",
+                "zh_TW": "智力",
+                "zh_CN": "智力"
+              }
+            },
+            "value": 2,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Intellect",
+                "es_MX": "+2 intelecto",
+                "pt_BR": "+2 Intelecto",
+                "de_DE": "+2 Intelligenz",
+                "en_GB": "+2 Intellect",
+                "es_ES": "+2 intelecto",
+                "fr_FR": "+2 Intelligence",
+                "it_IT": "+2 Intelletto",
+                "ru_RU": "+2 к интеллекту",
+                "ko_KR": "지능 +2",
+                "zh_TW": "+2智力",
+                "zh_CN": "+2 智力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "AGILITY",
+              "name": {
+                "en_US": "Agility",
+                "es_MX": "agilidad",
+                "pt_BR": "Agilidade",
+                "de_DE": "Beweglichkeit",
+                "en_GB": "Agility",
+                "es_ES": "agilidad",
+                "fr_FR": "Agilité",
+                "it_IT": "Agilità",
+                "ru_RU": "к ловкости",
+                "ko_KR": "민첩성",
+                "zh_TW": "敏捷",
+                "zh_CN": "敏捷"
+              }
+            },
+            "value": 2,
+            "is_negated": true,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Agility",
+                "es_MX": "+2 agilidad",
+                "pt_BR": "+2 Agilidade",
+                "de_DE": "+2 Beweglichkeit",
+                "en_GB": "+2 Agility",
+                "es_ES": "+2 agilidad",
+                "fr_FR": "+2 Agilité",
+                "it_IT": "+2 Agilità",
+                "ru_RU": "+2 к ловкости",
+                "ko_KR": "민첩성 +2",
+                "zh_TW": "+2敏捷",
+                "zh_CN": "+2 敏捷"
+              },
+              "color": {
+                "r": 128,
+                "g": 128,
+                "b": 128,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "STAMINA",
+              "name": {
+                "en_US": "Stamina",
+                "es_MX": "aguante",
+                "pt_BR": "Vigor",
+                "de_DE": "Ausdauer",
+                "en_GB": "Stamina",
+                "es_ES": "aguante",
+                "fr_FR": "Endurance",
+                "it_IT": "Tempra",
+                "ru_RU": "к выносливости",
+                "ko_KR": "체력",
+                "zh_TW": "耐力",
+                "zh_CN": "耐力"
+              }
+            },
+            "value": 4,
+            "display": {
+              "display_string": {
+                "en_US": "+4 Stamina",
+                "es_MX": "+4 aguante",
+                "pt_BR": "+4 Vigor",
+                "de_DE": "+4 Ausdauer",
+                "en_GB": "+4 Stamina",
+                "es_ES": "+4 aguante",
+                "fr_FR": "+4 Endurance",
+                "it_IT": "+4 Tempra",
+                "ru_RU": "+4 к выносливости",
+                "ko_KR": "체력 +4",
+                "zh_TW": "+4耐力",
+                "zh_CN": "+4 耐力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "CRIT_RATING",
+              "name": {
+                "en_US": "Critical Strike",
+                "es_MX": "golpe crítico",
+                "pt_BR": "Acerto Crítico",
+                "de_DE": "Kritischer Trefferwert",
+                "en_GB": "Critical Strike",
+                "es_ES": "golpe crítico",
+                "fr_FR": "Score de crit.",
+                "it_IT": "Indice di critico",
+                "ru_RU": "к критическому удару",
+                "ko_KR": "치명타 및 극대화",
+                "zh_TW": "致命一擊",
+                "zh_CN": "爆击"
+              }
+            },
+            "value": 3,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+3 Critical Strike",
+                "es_MX": "+3 golpe crítico",
+                "pt_BR": "+3 Acerto Crítico",
+                "de_DE": "+3 Kritischer Trefferwert",
+                "en_GB": "+3 Critical Strike",
+                "es_ES": "+3 golpe crítico",
+                "fr_FR": "+3 Score de crit.",
+                "it_IT": "+3 Indice di critico",
+                "ru_RU": "+3 к критическому удару",
+                "ko_KR": "치명타 및 극대화 +3",
+                "zh_TW": "+3致命一擊",
+                "zh_CN": "+3 爆击"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "HASTE_RATING",
+              "name": {
+                "en_US": "Haste",
+                "es_MX": "celeridad",
+                "pt_BR": "Aceleração",
+                "de_DE": "Tempo",
+                "en_GB": "Haste",
+                "es_ES": "celeridad",
+                "fr_FR": "Hâte",
+                "it_IT": "Indice di celerità",
+                "ru_RU": "к скорости",
+                "ko_KR": "가속",
+                "zh_TW": "加速",
+                "zh_CN": "急速"
+              }
+            },
+            "value": 2,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Haste",
+                "es_MX": "+2 celeridad",
+                "pt_BR": "+2 Aceleração",
+                "de_DE": "+2 Tempo",
+                "en_GB": "+2 Haste",
+                "es_ES": "+2 celeridad",
+                "fr_FR": "+2 Hâte",
+                "it_IT": "+2 Indice di celerità",
+                "ru_RU": "+2 к скорости",
+                "ko_KR": "가속 +2",
+                "zh_TW": "+2加速",
+                "zh_CN": "+2 急速"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "socket_bonus": {
+          "en_US": "Socket Bonus: +1 Agility",
+          "es_MX": "Bonus ranura: +1 agilidad",
+          "pt_BR": "Bônus de engaste: +1 de Agilidade",
+          "de_DE": "Sockelbonus: +1 Beweglichkeit",
+          "en_GB": "Socket Bonus: +1 Agility",
+          "es_ES": "Bonus ranura: +1 agilidad",
+          "fr_FR": "Bonus de sertissage : +1 à l’Agilité",
+          "it_IT": "Bonus incavo: +1 Agilità",
+          "ru_RU": "При соответствии цвета: +1 к ловкости",
+          "ko_KR": "보석 장착 보너스: 민첩성 +1",
+          "zh_TW": "插槽加成：+1敏捷",
+          "zh_CN": "镶孔奖励：+1 敏捷"
+        },
+        "sell_price": {
+          "value": 188,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "1",
+              "es_MX": "1",
+              "pt_BR": "1",
+              "de_DE": "1",
+              "en_GB": "1",
+              "es_ES": "1",
+              "fr_FR": "1",
+              "it_IT": "1",
+              "ru_RU": "1",
+              "ko_KR": "1",
+              "zh_TW": "1",
+              "zh_CN": "1"
+            },
+            "copper": {
+              "en_US": "88",
+              "es_MX": "88",
+              "pt_BR": "88",
+              "de_DE": "88",
+              "en_GB": "88",
+              "es_ES": "88",
+              "fr_FR": "88",
+              "it_IT": "88",
+              "ru_RU": "88",
+              "ko_KR": "88",
+              "zh_TW": "88",
+              "zh_CN": "88"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 30,
+            "display_string": {
+              "en_US": "Requires Level 30",
+              "es_MX": "Necesitas ser de nivel 30",
+              "pt_BR": "Requer o Nível 30",
+              "de_DE": "Benötigt Stufe 30",
+              "en_GB": "Requires Level 30",
+              "es_ES": "Necesitas ser de nivel 30",
+              "fr_FR": "Niveau 30 requis",
+              "it_IT": "Richiede il livello 30",
+              "ru_RU": "Требуется 30-й уровень",
+              "ko_KR": "최소 요구 레벨: 30",
+              "zh_TW": "需要等級30",
+              "zh_CN": "需要等级 30"
+            }
+          }
+        },
+        "level": {
+          "value": 35,
+          "display_string": {
+            "en_US": "Item Level 35",
+            "es_MX": "Nivel de objeto 35",
+            "pt_BR": "Nível do Item: 35",
+            "de_DE": "Gegenstandsstufe 35",
+            "en_GB": "Item Level 35",
+            "es_ES": "Nivel de objeto 35",
+            "fr_FR": "Niveau d'objet 35",
+            "it_IT": "Livello oggetto: 35",
+            "ru_RU": "Уровень предмета: 35",
+            "ko_KR": "아이템 레벨: 35",
+            "zh_TW": "物品等級35",
+            "zh_CN": "物品等级35"
+          }
+        },
+        "durability": {
+          "value": 55,
+          "display_string": {
+            "en_US": "Durability 55 / 55",
+            "es_MX": "Durabilidad 55 / 55",
+            "pt_BR": "Durabilidade 55 / 55",
+            "de_DE": "Haltbarkeit 55 / 55",
+            "en_GB": "Durability 55 / 55",
+            "es_ES": "Durabilidad 55 / 55",
+            "fr_FR": "Durabilité : 55 / 55",
+            "it_IT": "Integrità 55/55",
+            "ru_RU": "Прочность: 55 / 55",
+            "ko_KR": "내구도 55 / 55",
+            "zh_TW": "耐久度 55 / 55",
+            "zh_CN": "耐久度 55 / 55"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/44128?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Arctic Fur",
+              "es_MX": "Pelaje ártico",
+              "pt_BR": "Pele Ártica",
+              "de_DE": "Arktischer Pelz",
+              "en_GB": "Arctic Fur",
+              "es_ES": "Pelaje ártico",
+              "fr_FR": "Fourrure arctique",
+              "it_IT": "Pelliccia Artica",
+              "ru_RU": "Арктический мех",
+              "ko_KR": "북극 가죽",
+              "zh_TW": "寒地毛皮",
+              "zh_CN": "极地毛皮"
+            },
+            "id": 44128
+          },
+          "quantity": 3
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/35627?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Eternal Shadow",
+              "es_MX": "Sombra eterna",
+              "pt_BR": "Sombra Eterna",
+              "de_DE": "Äonenschatten",
+              "en_GB": "Eternal Shadow",
+              "es_ES": "Sombra eterna",
+              "fr_FR": "Ombre éternelle",
+              "it_IT": "Ombra Eterna",
+              "ru_RU": "Извечная тьма",
+              "ko_KR": "영원의 어둠",
+              "zh_TW": "永恆暗影",
+              "zh_CN": "永恒暗影"
+            },
+            "id": 35627
+          },
+          "quantity": 4
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/45087?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Runed Orb",
+              "es_MX": "Orbe rúnico",
+              "pt_BR": "Orbe Rúnico",
+              "de_DE": "Runenbeschriebene Kugel",
+              "en_GB": "Runed Orb",
+              "es_ES": "Orbe rúnico",
+              "fr_FR": "Orbe runique",
+              "it_IT": "Globo Runico",
+              "ru_RU": "Руническая сфера",
+              "ko_KR": "룬새김 구슬",
+              "zh_TW": "符文寶珠",
+              "zh_CN": "符文宝珠"
+            },
+            "id": 45087
+          },
+          "quantity": 6
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Arctic Fur (3), Eternal Shadow (4), Runed Orb (6)",
+        "es_MX": "Pelaje ártico (3), Sombra eterna (4), Orbe rúnico (6)",
+        "pt_BR": "Pele Ártica (3), Sombra Eterna (4), Orbe Rúnico (6)",
+        "de_DE": "Arktischer Pelz (3), Äonenschatten (4), Runenbeschriebene Kugel (6)",
+        "en_GB": "Arctic Fur (3), Eternal Shadow (4), Runed Orb (6)",
+        "es_ES": "Pelaje ártico (3), Sombra eterna (4), Orbe rúnico (6)",
+        "fr_FR": "Fourrure arctique (3), Ombre éternelle (4), Orbe runique (6)",
+        "it_IT": "Pelliccia Artica (3), Ombra Eterna (4), Globo Runico (6)",
+        "ru_RU": "Арктический мех (3), Извечная тьма (4), Руническая сфера (6)",
+        "ko_KR": "북극 가죽 (3), 영원의 어둠 (4), 룬새김 구슬 (6)",
+        "zh_TW": "寒地毛皮 (3), 永恆暗影 (4), 符文寶珠 (6)",
+        "zh_CN": "极地毛皮 (3), 永恒暗影 (4), 符文宝珠 (6)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

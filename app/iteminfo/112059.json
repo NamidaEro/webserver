@@ -1,0 +1,399 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/112059?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 112059,
+  "name": {
+    "en_US": "Wormhole Centrifuge",
+    "es_MX": "Centrifugador agujero de gusano",
+    "pt_BR": "Centrífuga Buraco de Minhoca",
+    "de_DE": "Wurmlochzentrifuge",
+    "en_GB": "Wormhole Centrifuge",
+    "es_ES": "Agujero de gusano centrifugador",
+    "fr_FR": "Centrifugeuse spatiotemporelle",
+    "it_IT": "Centrifuga del Tunnel Spaziotemporale",
+    "ru_RU": "Центрифуга червоточины",
+    "ko_KR": "웜홀 원심 분리기",
+    "zh_TW": "蟲洞離心裝置",
+    "zh_CN": "虫洞离心机"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 40,
+  "required_level": 34,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/112059?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 112059
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Consumable",
+      "es_MX": "Consumible",
+      "pt_BR": "Consumível",
+      "de_DE": "Verbrauchbares",
+      "en_GB": "Consumable",
+      "es_ES": "Consumible",
+      "fr_FR": "Consommable",
+      "it_IT": "Consumabili",
+      "ru_RU": "Расходуемые",
+      "ko_KR": "소비용품",
+      "zh_TW": "消耗品",
+      "zh_CN": "消耗品"
+    },
+    "id": 0
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Explosives and Devices",
+      "es_MX": "Explosivos y dispositivos",
+      "pt_BR": "Explosivos e Dispositivos",
+      "de_DE": "Sprengstoff und Geräte",
+      "en_GB": "Explosives and Devices",
+      "es_ES": "Explosivos y dispositivos",
+      "fr_FR": "Explosifs et appareils",
+      "it_IT": "Esplosivi e congegni",
+      "ru_RU": "Взрывчатка и устройства",
+      "ko_KR": "폭발물 및 장치",
+      "zh_TW": "爆裂物與裝置",
+      "zh_CN": "爆炸物与装置"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 20000,
+  "sell_price": 5000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/112059?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 112059
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Wormhole Centrifuge",
+      "es_MX": "Centrifugador agujero de gusano",
+      "pt_BR": "Centrífuga Buraco de Minhoca",
+      "de_DE": "Wurmlochzentrifuge",
+      "en_GB": "Wormhole Centrifuge",
+      "es_ES": "Agujero de gusano centrifugador",
+      "fr_FR": "Centrifugeuse spatiotemporelle",
+      "it_IT": "Centrifuga del Tunnel Spaziotemporale",
+      "ru_RU": "Центрифуга червоточины",
+      "ko_KR": "웜홀 원심 분리기",
+      "zh_TW": "蟲洞離心裝置",
+      "zh_CN": "虫洞离心机"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/112059?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 112059
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Consumable",
+        "es_MX": "Consumible",
+        "pt_BR": "Consumível",
+        "de_DE": "Verbrauchbares",
+        "en_GB": "Consumable",
+        "es_ES": "Consumible",
+        "fr_FR": "Consommable",
+        "it_IT": "Consumabili",
+        "ru_RU": "Расходуемые",
+        "ko_KR": "소비용품",
+        "zh_TW": "消耗品",
+        "zh_CN": "消耗品"
+      },
+      "id": 0
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Explosives and Devices",
+        "es_MX": "Explosivos y dispositivos",
+        "pt_BR": "Explosivos e Dispositivos",
+        "de_DE": "Sprengstoff und Geräte",
+        "en_GB": "Explosives and Devices",
+        "es_ES": "Explosivos y dispositivos",
+        "fr_FR": "Explosifs et appareils",
+        "it_IT": "Esplosivi e congegni",
+        "ru_RU": "Взрывчатка и устройства",
+        "ko_KR": "폭발물 및 장치",
+        "zh_TW": "爆裂物與裝置",
+        "zh_CN": "爆炸物与装置"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "binding": {
+      "type": "ON_USE",
+      "name": {
+        "en_US": "Binds when used",
+        "es_MX": "Se liga al usarlo",
+        "pt_BR": "Vincula-se quando usado",
+        "de_DE": "Wird bei Benutzung gebunden",
+        "en_GB": "Binds when used",
+        "es_ES": "Se liga al usarlo",
+        "fr_FR": "Lié quand utilisé",
+        "it_IT": "Si vincola all'uso",
+        "ru_RU": "Становится персональным при использовании",
+        "ko_KR": "사용 시 귀속",
+        "zh_TW": "使用後綁定",
+        "zh_CN": "使用后绑定"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/163830?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Wormhole",
+            "es_MX": "Agujero de gusano",
+            "pt_BR": "Buraco de Minhoca",
+            "de_DE": "Wurmloch",
+            "en_GB": "Wormhole",
+            "es_ES": "Agujero de gusano",
+            "fr_FR": "Tunnel spatiotemporel",
+            "it_IT": "Tunnel Spaziotemporale",
+            "ru_RU": "Червоточина",
+            "ko_KR": "웜홀",
+            "zh_TW": "蟲洞",
+            "zh_CN": "虫洞"
+          },
+          "id": 163830
+        },
+        "description": {
+          "en_US": "Use: Adds this toy to your Toy Box.\n\nCreates a spinning wormhole the Engineer can use to travel around Draenor. (4 Hr Cooldown)",
+          "es_MX": "Uso: Añade este juguete a tu caja de juguetes.\n\nCrea un agujero de gusano giratorio que el ingeniero puede usar para viajar por Draenor. (4 h de tiempo de reutilización)",
+          "pt_BR": "Usar: Adiciona este brinquedo à sua Caixa de Brinquedo.\n\nCria um buraco de minhoca que o Engenheiro pode usar para ir a qualquer parte de Draenor. (4 H de recarga)",
+          "de_DE": "Benutzen: Fügt dieses Spielzeug Eurer Spielzeugkiste hinzu.\n\nErschafft ein rotierendes Wurmloch, das der Ingenieur verwenden kann, um Draenor zu bereisen. (4 Std. Abklingzeit)",
+          "en_GB": "Use: Adds this toy to your Toy Box.\n\nCreates a spinning wormhole the Engineer can use to travel around Draenor. (4 Hr Cooldown)",
+          "es_ES": "Uso: Añade este juguete a tu caja de juguetes.\n\nCrea un agujero de gusano giratorio que el ingeniero puede utilizar para viajar por Draenor. (4 h de tiempo de reutilización).",
+          "fr_FR": "Utiliser : ajoute ce jouet à votre collection.\n\nCrée un tunnel spatiotemporel tournoyant que l’ingénieur peut utiliser pour voyager à travers Draenor. (4 h de recharge)",
+          "it_IT": "Usa: Aggiunge questo giocattolo alla tua collezione.\n\nCrea un tunnel spaziotemporale che l'ingegnere può usare per spostarsi su Draenor. (4 ore di recupero)",
+          "ru_RU": "Использование: добавить игрушку в коллекцию.\n\nСоздает вращающуюся червоточину, с помощью которой инженер может путешествовать по Дренору. (Восстановление: 4 ч.)",
+          "ko_KR": "사용 효과: 이 장난감을 장난감 상자에 추가합니다.\n\n기계공학자가 드레노어를 여행하는 데 사용할 수 있는 불안정한 웜홀을 생성합니다. (4시간 후 재사용 가능)",
+          "zh_TW": "使用：將這個玩具加入你的玩具箱。\n\n製造可讓工程師在德拉諾穿梭的螺旋蟲洞。 (4小時冷卻時間)",
+          "zh_CN": "使用：将该玩具添加到你的玩具箱。\n\n生成一道旋转的虫洞，使工程师可以漫游德拉诺。 （4小时冷却）"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 5000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 34,
+        "display_string": {
+          "en_US": "Requires Level 34",
+          "es_MX": "Necesitas ser de nivel 34",
+          "pt_BR": "Requer o Nível 34",
+          "de_DE": "Benötigt Stufe 34",
+          "en_GB": "Requires Level 34",
+          "es_ES": "Necesitas ser de nivel 34",
+          "fr_FR": "Niveau 34 requis",
+          "it_IT": "Richiede il livello 34",
+          "ru_RU": "Требуется 34-й уровень",
+          "ko_KR": "최소 요구 레벨: 34",
+          "zh_TW": "需要等級34",
+          "zh_CN": "需要等级 34"
+        }
+      },
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2501?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Draenor Engineering",
+            "es_MX": "Ingeniería de Draenor",
+            "pt_BR": "Engenharia de Draenor",
+            "de_DE": "Ingenieurskunst von Draenor",
+            "en_GB": "Draenor Engineering",
+            "es_ES": "Ingeniería de Draenor",
+            "fr_FR": "Ingénierie de Draenor",
+            "it_IT": "Ingegneria di Draenor",
+            "ru_RU": "Инженерное дело Дренора",
+            "ko_KR": "드레노어 기계공학",
+            "zh_TW": "德拉諾工程學",
+            "zh_CN": "德拉诺工程学"
+          },
+          "id": 2501
+        },
+        "level": 1,
+        "display_string": {
+          "en_US": "Requires Draenor Engineering (1)",
+          "es_MX": "Requiere Ingeniería de Draenor (1)",
+          "pt_BR": "Requer Engenharia de Draenor (1)",
+          "de_DE": "Benötigt Ingenieurskunst von Draenor (1)",
+          "en_GB": "Requires Draenor Engineering (1)",
+          "es_ES": "Requiere Ingeniería de Draenor (1)",
+          "fr_FR": "Ingénierie de Draenor (1) requis",
+          "it_IT": "Richiede: Ingegneria di Draenor (1)",
+          "ru_RU": "Требуется: Инженерное дело Дренора (1)",
+          "ko_KR": "요구 사항: 드레노어 기계공학 (1)",
+          "zh_TW": "需要德拉諾工程學(1)",
+          "zh_CN": "需要德拉诺工程学（1）"
+        }
+      }
+    },
+    "is_subclass_hidden": true,
+    "toy": {
+      "en_US": "Toy",
+      "es_MX": "Juguete",
+      "pt_BR": "Brinquedo",
+      "de_DE": "Spielzeug",
+      "en_GB": "Toy",
+      "es_ES": "Juguete",
+      "fr_FR": "Jouet",
+      "it_IT": "Giocattolo",
+      "ru_RU": "Игрушка",
+      "ko_KR": "장난감",
+      "zh_TW": "玩具",
+      "zh_CN": "玩具"
+    }
+  },
+  "purchase_quantity": 1
+}

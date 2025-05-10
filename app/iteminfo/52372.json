@@ -1,0 +1,531 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/52372?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 52372,
+  "name": {
+    "en_US": "Design: Deadly Hessonite",
+    "es_MX": "Boceto: grosularia mortal",
+    "pt_BR": "Desenho: Hessonita Mortal",
+    "de_DE": "Vorlage: Tödlicher Hessonit",
+    "en_GB": "Design: Deadly Hessonite",
+    "es_ES": "Boceto: grosularia mortal",
+    "fr_FR": "Dessin : Hessonite mortelle",
+    "it_IT": "Modello: Essonite Mortale",
+    "ru_RU": "Эскиз: смертоносный гессонит",
+    "ko_KR": "디자인: 아주 날카로운 헤소나이트",
+    "zh_TW": "設計圖：致命的桂榴石",
+    "zh_CN": "图鉴：致命桂榴石"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/52372?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 52372
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Jewelcrafting",
+      "es_MX": "Joyería",
+      "pt_BR": "Joalheria",
+      "de_DE": "Juwelierskunst",
+      "en_GB": "Jewelcrafting",
+      "es_ES": "Joyería",
+      "fr_FR": "Joaillerie",
+      "it_IT": "Oreficeria",
+      "ru_RU": "Ювелирное дело",
+      "ko_KR": "보석세공",
+      "zh_TW": "珠寶設計",
+      "zh_CN": "珠宝加工"
+    },
+    "id": 10
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to cut a Deadly Hessonite.",
+    "es_MX": "Te enseña a tallar una grosularia mortal.",
+    "pt_BR": "Ensina a lapidar Hessonita Mortal.",
+    "de_DE": "Lehrt Euch die Herstellung eines tödlichen Hessonits.",
+    "en_GB": "Teaches you how to cut a Deadly Hessonite.",
+    "es_ES": "Te enseña a tallar una grosularia mortal.",
+    "fr_FR": "Vous apprend à tailler une Hessonite mortelle.",
+    "it_IT": "Ti insegna a intagliare un'Essonite Mortale.",
+    "ru_RU": "Обучает огранке смертоносного гессонита.",
+    "ko_KR": "아주 날카로운 헤소나이트 세공법을 배웁니다.",
+    "zh_TW": "教你學會如何切割一個致命的桂榴石。",
+    "zh_CN": "教你学会切割致命桂榴石。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/52372?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 52372
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Design: Deadly Hessonite",
+      "es_MX": "Boceto: grosularia mortal",
+      "pt_BR": "Desenho: Hessonita Mortal",
+      "de_DE": "Vorlage: Tödlicher Hessonit",
+      "en_GB": "Design: Deadly Hessonite",
+      "es_ES": "Boceto: grosularia mortal",
+      "fr_FR": "Dessin : Hessonite mortelle",
+      "it_IT": "Modello: Essonite Mortale",
+      "ru_RU": "Эскиз: смертоносный гессонит",
+      "ko_KR": "디자인: 아주 날카로운 헤소나이트",
+      "zh_TW": "設計圖：致命的桂榴石",
+      "zh_CN": "图鉴：致命桂榴石"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/52372?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 52372
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Jewelcrafting",
+        "es_MX": "Joyería",
+        "pt_BR": "Joalheria",
+        "de_DE": "Juwelierskunst",
+        "en_GB": "Jewelcrafting",
+        "es_ES": "Joyería",
+        "fr_FR": "Joaillerie",
+        "it_IT": "Oreficeria",
+        "ru_RU": "Ювелирное дело",
+        "ko_KR": "보석세공",
+        "zh_TW": "珠寶設計",
+        "zh_CN": "珠宝加工"
+      },
+      "id": 10
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2521?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Cataclysm Jewelcrafting",
+            "es_MX": "Joyería de Cataclysm",
+            "pt_BR": "Joalheria de Cataclysm",
+            "de_DE": "Juwelierskunst des Kataklysmus",
+            "en_GB": "Cataclysm Jewelcrafting",
+            "es_ES": "Joyería de Cataclysm",
+            "fr_FR": "Joaillerie de Cataclysm",
+            "it_IT": "Oreficeria di Cataclysm",
+            "ru_RU": "Ювелирное дело времен Катаклизма",
+            "ko_KR": "대격변 보석세공",
+            "zh_TW": "大災變珠寶設計",
+            "zh_CN": "大地的裂变珠宝加工"
+          },
+          "id": 2521
+        },
+        "level": 1,
+        "display_string": {
+          "en_US": "Requires Cataclysm Jewelcrafting (1)",
+          "es_MX": "Requiere Joyería de Cataclysm (1)",
+          "pt_BR": "Requer Joalheria de Cataclysm (1)",
+          "de_DE": "Benötigt Juwelierskunst des Kataklysmus (1)",
+          "en_GB": "Requires Cataclysm Jewelcrafting (1)",
+          "es_ES": "Requiere Joyería de Cataclysm (1)",
+          "fr_FR": "Joaillerie de Cataclysm (1) requis",
+          "it_IT": "Richiede: Oreficeria di Cataclysm (1)",
+          "ru_RU": "Требуется: Ювелирное дело времен Катаклизма (1)",
+          "ko_KR": "요구 사항: 대격변 보석세공 (1)",
+          "zh_TW": "需要大災變珠寶設計(1)",
+          "zh_CN": "需要大地的裂变珠宝加工（1）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to cut a Deadly Hessonite.",
+      "es_MX": "Te enseña a tallar una grosularia mortal.",
+      "pt_BR": "Ensina a lapidar Hessonita Mortal.",
+      "de_DE": "Lehrt Euch die Herstellung eines tödlichen Hessonits.",
+      "en_GB": "Teaches you how to cut a Deadly Hessonite.",
+      "es_ES": "Te enseña a tallar una grosularia mortal.",
+      "fr_FR": "Vous apprend à tailler une Hessonite mortelle.",
+      "it_IT": "Ti insegna a intagliare un'Essonite Mortale.",
+      "ru_RU": "Обучает огранке смертоносного гессонита.",
+      "ko_KR": "아주 날카로운 헤소나이트 세공법을 배웁니다.",
+      "zh_TW": "教你學會如何切割一個致命的桂榴石。",
+      "zh_CN": "教你学会切割致命桂榴石。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/52109?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 52109
+        },
+        "quality": {
+          "type": "UNCOMMON",
+          "name": {
+            "en_US": "Uncommon",
+            "es_MX": "Inusual",
+            "pt_BR": "Incomum",
+            "de_DE": "Ungewöhnlich",
+            "en_GB": "Uncommon",
+            "es_ES": "Inusual",
+            "fr_FR": "Inhabituel",
+            "it_IT": "Pregiato",
+            "ru_RU": "Необычное",
+            "ko_KR": "고급",
+            "zh_TW": "優秀",
+            "zh_CN": "优秀"
+          }
+        },
+        "name": {
+          "en_US": "Deadly Hessonite",
+          "es_MX": "Grosularia mortal",
+          "pt_BR": "Hessonita Mortal",
+          "de_DE": "Tödlicher Hessonit",
+          "en_GB": "Deadly Hessonite",
+          "es_ES": "Grosularia mortal",
+          "fr_FR": "Hessonite mortelle",
+          "it_IT": "Essonite Mortale",
+          "ru_RU": "Смертоносный гессонит",
+          "ko_KR": "아주 날카로운 헤소나이트",
+          "zh_TW": "致命的桂榴石",
+          "zh_CN": "致命桂榴石"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/52109?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 52109
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Gem",
+            "es_MX": "Gema",
+            "pt_BR": "Gema",
+            "de_DE": "Edelstein",
+            "en_GB": "Gem",
+            "es_ES": "Gema",
+            "fr_FR": "Gemme",
+            "it_IT": "Gemme",
+            "ru_RU": "Самоцвет",
+            "ko_KR": "보석",
+            "zh_TW": "寶石",
+            "zh_CN": "宝石"
+          },
+          "id": 3
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/3/item-subclass/10?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Multiple Stats",
+            "es_MX": "Estadísticas múltiples",
+            "pt_BR": "Vários atributos",
+            "de_DE": "Mehrere Werte",
+            "en_GB": "Multiple Stats",
+            "es_ES": "Varias estadísticas",
+            "fr_FR": "Caractéristiques multiples",
+            "it_IT": "Statistiche Multiple",
+            "ru_RU": "Различные характеристики",
+            "ko_KR": "다수의 능력치",
+            "zh_TW": "多項屬性",
+            "zh_CN": "复合属性"
+          },
+          "id": 10
+        },
+        "inventory_type": {
+          "type": "NON_EQUIP",
+          "name": {
+            "en_US": "Non-equippable",
+            "es_MX": "No equipable",
+            "pt_BR": "Não equipável",
+            "de_DE": "Nicht anlegbar",
+            "en_GB": "Non-equippable",
+            "es_ES": "No se puede equipar",
+            "fr_FR": "Objet hors équipement",
+            "it_IT": "Non equipaggiabile",
+            "ru_RU": "Неэкипируемое",
+            "ko_KR": "착용 불가",
+            "zh_TW": "無法裝備",
+            "zh_CN": "无法装备"
+          }
+        },
+        "sell_price": {
+          "value": 8250,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "82",
+              "es_MX": "82",
+              "pt_BR": "82",
+              "de_DE": "82",
+              "en_GB": "82",
+              "es_ES": "82",
+              "fr_FR": "82",
+              "it_IT": "82",
+              "ru_RU": "82",
+              "ko_KR": "82",
+              "zh_TW": "82",
+              "zh_CN": "82"
+            },
+            "copper": {
+              "en_US": "50",
+              "es_MX": "50",
+              "pt_BR": "50",
+              "de_DE": "50",
+              "en_GB": "50",
+              "es_ES": "50",
+              "fr_FR": "50",
+              "it_IT": "50",
+              "ru_RU": "50",
+              "ko_KR": "50",
+              "zh_TW": "50",
+              "zh_CN": "50"
+            }
+          }
+        },
+        "description": {
+          "en_US": "Matches any socket.",
+          "es_MX": "Encaja en cualquier ranura.",
+          "pt_BR": "Encaixa-se em qualquer engaste.",
+          "de_DE": "Passt in jeden Sockel.",
+          "en_GB": "Matches any socket.",
+          "es_ES": "Encaja en cualquier ranura.",
+          "fr_FR": "Correspond à n'importe quelle châsse.",
+          "it_IT": "Compatibile con un incavo di qualsiasi colore.",
+          "ru_RU": "Для любого гнезда.",
+          "ko_KR": "아무 보석 홈에나 잘 맞습니다.",
+          "zh_TW": "與任何插槽相容。",
+          "zh_CN": "对应任意插槽。"
+        },
+        "gem_properties": {
+          "min_item_level": {
+            "value": 10,
+            "display_string": {
+              "en_US": "Requires Item Level: 10",
+              "es_MX": "Requiere nivel de objeto: 10",
+              "pt_BR": "Requer nível de item: 10",
+              "de_DE": "Benötigte Gegenstandsstufe: 10",
+              "en_GB": "Requires Item Level: 10",
+              "es_ES": "Requiere nivel de objeto: 10",
+              "fr_FR": "Exige un objet de niveau : 10",
+              "it_IT": "Richiede un oggetto di livello 10.",
+              "ru_RU": "Требуемый уровень предметов: 10",
+              "ko_KR": "필요한 아이템 레벨: 10",
+              "zh_TW": "需要物品等級：10",
+              "zh_CN": "需要物品等级：10"
+            }
+          },
+          "effect": {
+            "en_US": "+2 Agility and +2 Critical Strike",
+            "es_MX": "+2 agilidad y +2 golpe crítico",
+            "pt_BR": "+2 de Agilidade e +2 de Acerto Crítico",
+            "de_DE": "+2 Beweglichkeit und +2 kritischer Trefferwert",
+            "en_GB": "+2 Agility and +2 Critical Strike",
+            "es_ES": "+2 agilidad y +2 golpe crítico",
+            "fr_FR": "+2 à l’Agilité et +2 au score de Coup critique",
+            "it_IT": "+2 Agilità e +2 Indice di Critico",
+            "ru_RU": "+2 к ловкости и +2 к вероятности критического удара",
+            "ko_KR": "민첩성 +2 / 치명타 및 극대화 +2",
+            "zh_TW": "+2敏捷和+2致命一擊",
+            "zh_CN": "+2 敏捷，+2 爆击"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/52181?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Hessonite",
+              "es_MX": "Grosularia",
+              "pt_BR": "Hessonita",
+              "de_DE": "Hessonit",
+              "en_GB": "Hessonite",
+              "es_ES": "Grosularia",
+              "fr_FR": "Hessonite",
+              "it_IT": "Essonite",
+              "ru_RU": "Гессонит",
+              "ko_KR": "헤소나이트",
+              "zh_TW": "桂榴石",
+              "zh_CN": "桂榴石"
+            },
+            "id": 52181
+          },
+          "quantity": 1
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Hessonite",
+        "es_MX": "Grosularia",
+        "pt_BR": "Hessonita",
+        "de_DE": "Hessonit",
+        "en_GB": "Hessonite",
+        "es_ES": "Grosularia",
+        "fr_FR": "Hessonite",
+        "it_IT": "Essonite",
+        "ru_RU": "Гессонит",
+        "ko_KR": "헤소나이트",
+        "zh_TW": "桂榴石",
+        "zh_CN": "桂榴石"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

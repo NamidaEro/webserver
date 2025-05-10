@@ -1,0 +1,487 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/211536?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 211536,
+  "name": {
+    "en_US": "Draconic Combatant's Jeweled Signet",
+    "es_MX": "Sello enjoyado de Combatiente dracónico",
+    "pt_BR": "Sinete Adornado do Combatente Dracônico",
+    "de_DE": "Juwelensignet des drakonischen Kämpfers",
+    "en_GB": "Draconic Combatant's Jeweled Signet",
+    "es_ES": "Sello con joyas de Combatiente dracónico",
+    "fr_FR": "Chevalière du combattant draconique sertie de joyaux",
+    "it_IT": "Anello con Sigillo Ingioiellato del Combattente Draconico",
+    "ru_RU": "Драгоценная печатка драконьего бойца",
+    "ko_KR": "용족 전투원의 보석 박힌 인장 반지",
+    "zh_TW": "龍族戰鬥者的珠寶璽戒",
+    "zh_CN": "腾龙争斗者的珠光玺戒"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 330,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/211536?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 211536
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "FINGER",
+    "name": {
+      "en_US": "Finger",
+      "es_MX": "Dedo",
+      "pt_BR": "Dedo",
+      "de_DE": "Finger",
+      "en_GB": "Finger",
+      "es_ES": "Dedo",
+      "fr_FR": "Doigt",
+      "it_IT": "Dito",
+      "ru_RU": "Палец",
+      "ko_KR": "손가락",
+      "zh_TW": "手指",
+      "zh_CN": "手指"
+    }
+  },
+  "purchase_price": 125000,
+  "sell_price": 25000,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/211536?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 211536
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": {
+            "en_US": "Prismatic Socket",
+            "es_MX": "Ranura prismática",
+            "pt_BR": "Engaste Prismático",
+            "de_DE": "Prismatischer Sockel",
+            "en_GB": "Prismatic Socket",
+            "es_ES": "Ranura prismática",
+            "fr_FR": "Châsse prismatique",
+            "it_IT": "Incavo Prismatico",
+            "ru_RU": "бесцветное гнездо",
+            "ko_KR": "다색 보석 홈",
+            "zh_TW": "多色插槽",
+            "zh_CN": "棱彩插槽"
+          }
+        }
+      }
+    ],
+    "context": 0,
+    "bonus_list": [
+      10250,
+      8840,
+      5247,
+      10251,
+      8780
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Draconic Combatant's Jeweled Signet",
+      "es_MX": "Sello enjoyado de Combatiente dracónico",
+      "pt_BR": "Sinete Adornado do Combatente Dracônico",
+      "de_DE": "Juwelensignet des drakonischen Kämpfers",
+      "en_GB": "Draconic Combatant's Jeweled Signet",
+      "es_ES": "Sello con joyas de Combatiente dracónico",
+      "fr_FR": "Chevalière du combattant draconique sertie de joyaux",
+      "it_IT": "Anello con Sigillo Ingioiellato del Combattente Draconico",
+      "ru_RU": "Драгоценная печатка драконьего бойца",
+      "ko_KR": "용족 전투원의 보석 박힌 인장 반지",
+      "zh_TW": "龍族戰鬥者的珠寶璽戒",
+      "zh_CN": "腾龙争斗者的珠光玺戒"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/211536?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 211536
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "FINGER",
+      "name": {
+        "en_US": "Finger",
+        "es_MX": "Dedo",
+        "pt_BR": "Dedo",
+        "de_DE": "Finger",
+        "en_GB": "Finger",
+        "es_ES": "Dedo",
+        "fr_FR": "Doigt",
+        "it_IT": "Dito",
+        "ru_RU": "Палец",
+        "ko_KR": "손가락",
+        "zh_TW": "手指",
+        "zh_CN": "手指"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 1146,
+        "display": {
+          "display_string": {
+            "en_US": "+1,146 Stamina",
+            "es_MX": "+1,146 aguante",
+            "pt_BR": "+1.146 Vigor",
+            "de_DE": "+1.146 Ausdauer",
+            "en_GB": "+1,146 Stamina",
+            "es_ES": "+1146 aguante",
+            "fr_FR": "+1146 Endurance",
+            "it_IT": "+1.146 Tempra",
+            "ru_RU": "+1146 к выносливости",
+            "ko_KR": "체력 +1,146",
+            "zh_TW": "+1,146耐力",
+            "zh_CN": "+1,146 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 883,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+883 Critical Strike",
+            "es_MX": "+883 golpe crítico",
+            "pt_BR": "+883 Acerto Crítico",
+            "de_DE": "+883 Kritischer Trefferwert",
+            "en_GB": "+883 Critical Strike",
+            "es_ES": "+883 golpe crítico",
+            "fr_FR": "+883 Score de crit.",
+            "it_IT": "+883 Indice di critico",
+            "ru_RU": "+883 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +883",
+            "zh_TW": "+883致命一擊",
+            "zh_CN": "+883 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 883,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+883 Versatility",
+            "es_MX": "+883 versatilidad",
+            "pt_BR": "+883 Versatilidade",
+            "de_DE": "+883 Vielseitigkeit",
+            "en_GB": "+883 Versatility",
+            "es_ES": "+883 versatilidad",
+            "fr_FR": "+883 Polyvalence",
+            "it_IT": "+883 Indice di versatilità",
+            "ru_RU": "+883 к универсальности",
+            "ko_KR": "유연성 +883",
+            "zh_TW": "+883臨機應變",
+            "zh_CN": "+883 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 25000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "silver": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "level": {
+      "value": 438,
+      "display_string": {
+        "en_US": "Item Level 438",
+        "es_MX": "Nivel de objeto 438",
+        "pt_BR": "Nível do Item: 438",
+        "de_DE": "Gegenstandsstufe 438",
+        "en_GB": "Item Level 438",
+        "es_ES": "Nivel de objeto 438",
+        "fr_FR": "Niveau d'objet 438",
+        "it_IT": "Livello oggetto: 438",
+        "ru_RU": "Уровень предмета: 438",
+        "ko_KR": "아이템 레벨: 438",
+        "zh_TW": "物品等級438",
+        "zh_CN": "物品等级438"
+      }
+    },
+    "is_subclass_hidden": true,
+    "modified_crafting_stat": [
+      {
+        "id": 32,
+        "type": "CRIT_RATING",
+        "name": {
+          "en_US": "Critical Strike",
+          "es_MX": "golpe crítico",
+          "pt_BR": "Acerto Crítico",
+          "de_DE": "Kritischer Trefferwert",
+          "en_GB": "Critical Strike",
+          "es_ES": "golpe crítico",
+          "fr_FR": "Score de crit.",
+          "it_IT": "Indice di critico",
+          "ru_RU": "к критическому удару",
+          "ko_KR": "치명타 및 극대화",
+          "zh_TW": "致命一擊",
+          "zh_CN": "爆击"
+        }
+      }
+    ]
+  },
+  "purchase_quantity": 1
+}

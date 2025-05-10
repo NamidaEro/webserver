@@ -1,0 +1,460 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/13001?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 13001,
+  "name": {
+    "en_US": "Maiden's Circle",
+    "es_MX": "Círculo de doncella",
+    "pt_BR": "Aro da Donzela",
+    "de_DE": "Jungfernreif",
+    "en_GB": "Maiden's Circle",
+    "es_ES": "Círculo de doncella",
+    "fr_FR": "Anneau de damoiselle",
+    "it_IT": "Anello dell'Ancella",
+    "ru_RU": "Обруч девушки",
+    "ko_KR": "처녀의 둥근고리",
+    "zh_TW": "處女之戒",
+    "zh_CN": "处女之戒"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 29,
+  "required_level": 23,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/13001?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 13001
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "FINGER",
+    "name": {
+      "en_US": "Finger",
+      "es_MX": "Dedo",
+      "pt_BR": "Dedo",
+      "de_DE": "Finger",
+      "en_GB": "Finger",
+      "es_ES": "Dedo",
+      "fr_FR": "Doigt",
+      "it_IT": "Dito",
+      "ru_RU": "Палец",
+      "ko_KR": "손가락",
+      "zh_TW": "手指",
+      "zh_CN": "手指"
+    }
+  },
+  "purchase_price": 42594,
+  "sell_price": 10648,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/13001?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 13001
+    },
+    "context": 0,
+    "bonus_list": [
+      6658
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Maiden's Circle",
+      "es_MX": "Círculo de doncella",
+      "pt_BR": "Aro da Donzela",
+      "de_DE": "Jungfernreif",
+      "en_GB": "Maiden's Circle",
+      "es_ES": "Círculo de doncella",
+      "fr_FR": "Anneau de damoiselle",
+      "it_IT": "Anello dell'Ancella",
+      "ru_RU": "Обруч девушки",
+      "ko_KR": "처녀의 둥근고리",
+      "zh_TW": "處女之戒",
+      "zh_CN": "处女之戒"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/13001?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 13001
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "FINGER",
+      "name": {
+        "en_US": "Finger",
+        "es_MX": "Dedo",
+        "pt_BR": "Dedo",
+        "de_DE": "Finger",
+        "en_GB": "Finger",
+        "es_ES": "Dedo",
+        "fr_FR": "Doigt",
+        "it_IT": "Dito",
+        "ru_RU": "Палец",
+        "ko_KR": "손가락",
+        "zh_TW": "手指",
+        "zh_CN": "手指"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 230,
+        "display": {
+          "display_string": {
+            "en_US": "+230 Intellect",
+            "es_MX": "+230 intelecto",
+            "pt_BR": "+230 Intelecto",
+            "de_DE": "+230 Intelligenz",
+            "en_GB": "+230 Intellect",
+            "es_ES": "+230 intelecto",
+            "fr_FR": "+230 Intelligence",
+            "it_IT": "+230 Intelletto",
+            "ru_RU": "+230 к интеллекту",
+            "ko_KR": "지능 +230",
+            "zh_TW": "+230智力",
+            "zh_CN": "+230 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 315,
+        "display": {
+          "display_string": {
+            "en_US": "+315 Stamina",
+            "es_MX": "+315 aguante",
+            "pt_BR": "+315 Vigor",
+            "de_DE": "+315 Ausdauer",
+            "en_GB": "+315 Stamina",
+            "es_ES": "+315 aguante",
+            "fr_FR": "+315 Endurance",
+            "it_IT": "+315 Tempra",
+            "ru_RU": "+315 к выносливости",
+            "ko_KR": "체력 +315",
+            "zh_TW": "+315耐力",
+            "zh_CN": "+315 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 148,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+148 Versatility",
+            "es_MX": "+148 versatilidad",
+            "pt_BR": "+148 Versatilidade",
+            "de_DE": "+148 Vielseitigkeit",
+            "en_GB": "+148 Versatility",
+            "es_ES": "+148 versatilidad",
+            "fr_FR": "+148 Polyvalence",
+            "it_IT": "+148 Indice di versatilità",
+            "ru_RU": "+148 к универсальности",
+            "ko_KR": "유연성 +148",
+            "zh_TW": "+148臨機應變",
+            "zh_CN": "+148 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 10648,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "1",
+          "es_MX": "1",
+          "pt_BR": "1",
+          "de_DE": "1",
+          "en_GB": "1",
+          "es_ES": "1",
+          "fr_FR": "1",
+          "it_IT": "1",
+          "ru_RU": "1",
+          "ko_KR": "1",
+          "zh_TW": "1",
+          "zh_CN": "1"
+        },
+        "silver": {
+          "en_US": "6",
+          "es_MX": "6",
+          "pt_BR": "6",
+          "de_DE": "6",
+          "en_GB": "6",
+          "es_ES": "6",
+          "fr_FR": "6",
+          "it_IT": "6",
+          "ru_RU": "6",
+          "ko_KR": "6",
+          "zh_TW": "6",
+          "zh_CN": "6"
+        },
+        "copper": {
+          "en_US": "48",
+          "es_MX": "48",
+          "pt_BR": "48",
+          "de_DE": "48",
+          "en_GB": "48",
+          "es_ES": "48",
+          "fr_FR": "48",
+          "it_IT": "48",
+          "ru_RU": "48",
+          "ko_KR": "48",
+          "zh_TW": "48",
+          "zh_CN": "48"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 23,
+        "display_string": {
+          "en_US": "Requires Level 23",
+          "es_MX": "Necesitas ser de nivel 23",
+          "pt_BR": "Requer o Nível 23",
+          "de_DE": "Benötigt Stufe 23",
+          "en_GB": "Requires Level 23",
+          "es_ES": "Necesitas ser de nivel 23",
+          "fr_FR": "Niveau 23 requis",
+          "it_IT": "Richiede il livello 23",
+          "ru_RU": "Требуется 23-й уровень",
+          "ko_KR": "최소 요구 레벨: 23",
+          "zh_TW": "需要等級23",
+          "zh_CN": "需要等级 23"
+        }
+      }
+    },
+    "level": {
+      "value": 362,
+      "display_string": {
+        "en_US": "Item Level 362",
+        "es_MX": "Nivel de objeto 362",
+        "pt_BR": "Nível do Item: 362",
+        "de_DE": "Gegenstandsstufe 362",
+        "en_GB": "Item Level 362",
+        "es_ES": "Nivel de objeto 362",
+        "fr_FR": "Niveau d'objet 362",
+        "it_IT": "Livello oggetto: 362",
+        "ru_RU": "Уровень предмета: 362",
+        "ko_KR": "아이템 레벨: 362",
+        "zh_TW": "物品等級362",
+        "zh_CN": "物品等级362"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,304 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/224763?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 224763,
+  "name": {
+    "en_US": "Design: Cubic Blasphemia",
+    "es_MX": "Boceto: Blasfemia cúbica",
+    "pt_BR": "Desenho: Blasfêmia Cúbica",
+    "de_DE": "Vorlage: Kubischer Blasphemit",
+    "en_GB": "Design: Cubic Blasphemia",
+    "es_ES": "Boceto: blasfemia cúbica",
+    "fr_FR": "Dessin : blasphémite cubique",
+    "it_IT": "Modello: Blasfemite Cubica",
+    "ru_RU": "Эскиз: кубическая профания",
+    "ko_KR": "디자인: 입방형 블라스페미아",
+    "zh_TW": "設計圖：立方體之瀆",
+    "zh_CN": "图鉴：立方渎神石"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/224763?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 224763
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Jewelcrafting",
+      "es_MX": "Joyería",
+      "pt_BR": "Joalheria",
+      "de_DE": "Juwelierskunst",
+      "en_GB": "Jewelcrafting",
+      "es_ES": "Joyería",
+      "fr_FR": "Joaillerie",
+      "it_IT": "Oreficeria",
+      "ru_RU": "Ювелирное дело",
+      "ko_KR": "보석세공",
+      "zh_TW": "珠寶設計",
+      "zh_CN": "珠宝加工"
+    },
+    "id": 10
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 2500000,
+  "sell_price": 500000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Cubic Blasphemia.",
+    "es_MX": "Te enseña a fabricar una blasfemia cúbica.",
+    "pt_BR": "Ensina a fazer a Blasfêmia Cúbica.",
+    "de_DE": "Lehrt Euch, wie man einen kubischen Blasphemit herstellt.",
+    "en_GB": "Teaches you how to craft Cubic Blasphemia.",
+    "es_ES": "Te enseña a fabricar una blasfemia cúbica.",
+    "fr_FR": "Vous apprend à façonner une blasphémite cubique.",
+    "it_IT": "Ti insegna a creare una Blasfemite Cubica.",
+    "ru_RU": "Обучает изготовлению кубической профании.",
+    "ko_KR": "입방형 블라스페미아 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作立方體之瀆。",
+    "zh_CN": "教你学会制作立方渎神石。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/224763?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 224763
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Design: Cubic Blasphemia",
+      "es_MX": "Boceto: Blasfemia cúbica",
+      "pt_BR": "Desenho: Blasfêmia Cúbica",
+      "de_DE": "Vorlage: Kubischer Blasphemit",
+      "en_GB": "Design: Cubic Blasphemia",
+      "es_ES": "Boceto: blasfemia cúbica",
+      "fr_FR": "Dessin : blasphémite cubique",
+      "it_IT": "Modello: Blasfemite Cubica",
+      "ru_RU": "Эскиз: кубическая профания",
+      "ko_KR": "디자인: 입방형 블라스페미아",
+      "zh_TW": "設計圖：立方體之瀆",
+      "zh_CN": "图鉴：立方渎神石"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/224763?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 224763
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Jewelcrafting",
+        "es_MX": "Joyería",
+        "pt_BR": "Joalheria",
+        "de_DE": "Juwelierskunst",
+        "en_GB": "Jewelcrafting",
+        "es_ES": "Joyería",
+        "fr_FR": "Joaillerie",
+        "it_IT": "Oreficeria",
+        "ru_RU": "Ювелирное дело",
+        "ko_KR": "보석세공",
+        "zh_TW": "珠寶設計",
+        "zh_CN": "珠宝加工"
+      },
+      "id": 10
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/435392?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Cubic Blasphemia",
+            "es_MX": "Blasfemia cúbica",
+            "pt_BR": "Blasfêmia Cúbica",
+            "de_DE": "Kubischer Blasphemit",
+            "en_GB": "Cubic Blasphemia",
+            "es_ES": "Blasfemia cúbica",
+            "fr_FR": "Blasphémite cubique",
+            "it_IT": "Blasfemite Cubica",
+            "ru_RU": "Кубическая профания",
+            "ko_KR": "입방형 블라스페미아",
+            "zh_TW": "立方體之瀆",
+            "zh_CN": "立方渎神石"
+          },
+          "id": 435392
+        },
+        "description": {
+          "en_US": "Use: Teaches you how to craft Cubic Blasphemia.",
+          "es_MX": "Usar: Te enseña a fabricar una blasfemia cúbica.",
+          "pt_BR": "Usar: Ensina a fazer a Blasfêmia Cúbica.",
+          "de_DE": "Benutzen: Lehrt Euch, wie man einen kubischen Blasphemit herstellt.",
+          "en_GB": "Use: Teaches you how to craft Cubic Blasphemia.",
+          "es_ES": "Uso: Te enseña a fabricar una blasfemia cúbica.",
+          "fr_FR": "Utiliser : Vous apprend à façonner une blasphémite cubique.",
+          "it_IT": "Usa: Ti insegna a creare una Blasfemite Cubica.",
+          "ru_RU": "Использование: Обучает изготовлению кубической профании.",
+          "ko_KR": "사용 효과: 입방형 블라스페미아 만드는 법을 배웁니다.",
+          "zh_TW": "使用： 教你學會如何製作立方體之瀆。",
+          "zh_CN": "使用： 教你学会制作立方渎神石。"
+        }
+      }
+    ],
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2879?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Khaz Algar Jewelcrafting",
+            "es_MX": "Joyería de Khaz Algar",
+            "pt_BR": "Joalheria de Khaz Algar",
+            "de_DE": "Juwelierskunst von Khaz Algar",
+            "en_GB": "Khaz Algar Jewelcrafting",
+            "es_ES": "Joyería de Khaz Algar",
+            "fr_FR": "Joaillerie de Khaz Algar",
+            "it_IT": "Oreficeria di Khaz Algar",
+            "ru_RU": "Ювелирное дело Каз Алгара",
+            "ko_KR": "카즈 알가르 보석세공",
+            "zh_TW": "卡茲阿爾加珠寶設計",
+            "zh_CN": "卡兹阿加珠宝加工"
+          },
+          "id": 2879
+        },
+        "level": 50,
+        "display_string": {
+          "en_US": "Requires Khaz Algar Jewelcrafting (50)",
+          "es_MX": "Requiere Joyería de Khaz Algar (50)",
+          "pt_BR": "Requer Joalheria de Khaz Algar (50)",
+          "de_DE": "Benötigt Juwelierskunst von Khaz Algar (50)",
+          "en_GB": "Requires Khaz Algar Jewelcrafting (50)",
+          "es_ES": "Requiere Joyería de Khaz Algar (50)",
+          "fr_FR": "Joaillerie de Khaz Algar (50) requis",
+          "it_IT": "Richiede: Oreficeria di Khaz Algar (50)",
+          "ru_RU": "Требуется: Ювелирное дело Каз Алгара (50)",
+          "ko_KR": "요구 사항: 카즈 알가르 보석세공 (50)",
+          "zh_TW": "需要卡茲阿爾加珠寶設計(50)",
+          "zh_CN": "需要卡兹阿加珠宝加工（50）"
+        }
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

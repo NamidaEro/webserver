@@ -1,0 +1,781 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/43974?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 43974,
+  "name": {
+    "en_US": "Frostsavage Bracers",
+    "es_MX": "Brazales de escarcha salvaje",
+    "pt_BR": "Braçadeiras de Gelo Selvagem",
+    "de_DE": "Frostgrimmarmschienen",
+    "en_GB": "Frostsavage Bracers",
+    "es_ES": "Brazales de escarcha salvaje",
+    "fr_FR": "Brassards du givre sauvage",
+    "it_IT": "Bracciali del Freddo Feroce",
+    "ru_RU": "Наручи ледяной ярости",
+    "ko_KR": "야만의 서리 팔보호구",
+    "zh_TW": "霜蠻護腕",
+    "zh_CN": "冰霜原始护腕"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 35,
+  "required_level": 29,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/43974?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 43974
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "WRIST",
+    "name": {
+      "en_US": "Wrist",
+      "es_MX": "Muñecas",
+      "pt_BR": "Pulsos",
+      "de_DE": "Handgelenk",
+      "en_GB": "Wrist",
+      "es_ES": "Muñecas",
+      "fr_FR": "Poignets",
+      "it_IT": "Polsi",
+      "ru_RU": "Запястья",
+      "ko_KR": "손목",
+      "zh_TW": "手腕",
+      "zh_CN": "腕部"
+    }
+  },
+  "purchase_price": 7500,
+  "sell_price": 1500,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/43974?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 43974
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Frostsavage Bracers",
+      "es_MX": "Brazales de escarcha salvaje",
+      "pt_BR": "Braçadeiras de Gelo Selvagem",
+      "de_DE": "Frostgrimmarmschienen",
+      "en_GB": "Frostsavage Bracers",
+      "es_ES": "Brazales de escarcha salvaje",
+      "fr_FR": "Brassards du givre sauvage",
+      "it_IT": "Bracciali del Freddo Feroce",
+      "ru_RU": "Наручи ледяной ярости",
+      "ko_KR": "야만의 서리 팔보호구",
+      "zh_TW": "霜蠻護腕",
+      "zh_CN": "冰霜原始护腕"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/43974?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 43974
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "WRIST",
+      "name": {
+        "en_US": "Wrist",
+        "es_MX": "Muñecas",
+        "pt_BR": "Pulsos",
+        "de_DE": "Handgelenk",
+        "en_GB": "Wrist",
+        "es_ES": "Muñecas",
+        "fr_FR": "Poignets",
+        "it_IT": "Polsi",
+        "ru_RU": "Запястья",
+        "ko_KR": "손목",
+        "zh_TW": "手腕",
+        "zh_CN": "腕部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 2,
+      "display": {
+        "display_string": {
+          "en_US": "2 Armor",
+          "es_MX": "2 p. de armadura",
+          "pt_BR": "2 de Armadura",
+          "de_DE": "2 Rüstung",
+          "en_GB": "2 Armor",
+          "es_ES": "2 p. de armadura",
+          "fr_FR": "Armure : 2",
+          "it_IT": "2 Armatura",
+          "ru_RU": "Броня: 2",
+          "ko_KR": "방어도 2",
+          "zh_TW": "2點護甲",
+          "zh_CN": "2点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 2,
+        "display": {
+          "display_string": {
+            "en_US": "+2 Intellect",
+            "es_MX": "+2 intelecto",
+            "pt_BR": "+2 Intelecto",
+            "de_DE": "+2 Intelligenz",
+            "en_GB": "+2 Intellect",
+            "es_ES": "+2 intelecto",
+            "fr_FR": "+2 Intelligence",
+            "it_IT": "+2 Intelletto",
+            "ru_RU": "+2 к интеллекту",
+            "ko_KR": "지능 +2",
+            "zh_TW": "+2智力",
+            "zh_CN": "+2 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 3,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Stamina",
+            "es_MX": "+3 aguante",
+            "pt_BR": "+3 Vigor",
+            "de_DE": "+3 Ausdauer",
+            "en_GB": "+3 Stamina",
+            "es_ES": "+3 aguante",
+            "fr_FR": "+3 Endurance",
+            "it_IT": "+3 Tempra",
+            "ru_RU": "+3 к выносливости",
+            "ko_KR": "체력 +3",
+            "zh_TW": "+3耐力",
+            "zh_CN": "+3 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 2,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+2 Critical Strike",
+            "es_MX": "+2 golpe crítico",
+            "pt_BR": "+2 Acerto Crítico",
+            "de_DE": "+2 Kritischer Trefferwert",
+            "en_GB": "+2 Critical Strike",
+            "es_ES": "+2 golpe crítico",
+            "fr_FR": "+2 Score de crit.",
+            "it_IT": "+2 Indice di critico",
+            "ru_RU": "+2 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +2",
+            "zh_TW": "+2致命一擊",
+            "zh_CN": "+2 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 2,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+2 Versatility",
+            "es_MX": "+2 versatilidad",
+            "pt_BR": "+2 Versatilidade",
+            "de_DE": "+2 Vielseitigkeit",
+            "en_GB": "+2 Versatility",
+            "es_ES": "+2 versatilidad",
+            "fr_FR": "+2 Polyvalence",
+            "it_IT": "+2 Indice di versatilità",
+            "ru_RU": "+2 к универсальности",
+            "ko_KR": "유연성 +2",
+            "zh_TW": "+2臨機應變",
+            "zh_CN": "+2 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "15",
+          "es_MX": "15",
+          "pt_BR": "15",
+          "de_DE": "15",
+          "en_GB": "15",
+          "es_ES": "15",
+          "fr_FR": "15",
+          "it_IT": "15",
+          "ru_RU": "15",
+          "ko_KR": "15",
+          "zh_TW": "15",
+          "zh_CN": "15"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 29,
+        "display_string": {
+          "en_US": "Requires Level 29",
+          "es_MX": "Necesitas ser de nivel 29",
+          "pt_BR": "Requer o Nível 29",
+          "de_DE": "Benötigt Stufe 29",
+          "en_GB": "Requires Level 29",
+          "es_ES": "Necesitas ser de nivel 29",
+          "fr_FR": "Niveau 29 requis",
+          "it_IT": "Richiede il livello 29",
+          "ru_RU": "Требуется 29-й уровень",
+          "ko_KR": "최소 요구 레벨: 29",
+          "zh_TW": "需要等級29",
+          "zh_CN": "需要等级 29"
+        }
+      }
+    },
+    "set": {
+      "item_set": {
+        "key": {
+          "href": "https://kr.api.blizzard.com/data/wow/item-set/819?namespace=static-11.1.5_60179-kr"
+        },
+        "name": {
+          "en_US": "Frostsavage Battlegear",
+          "es_MX": "Equipo de batalla de escarcha salvaje",
+          "pt_BR": "Equipamento de Batalha de Gelo Selvagem",
+          "de_DE": "Frostgrimmschlachtrüstung",
+          "en_GB": "Frostsavage Battlegear",
+          "es_ES": "Equipo de batalla de escarcha salvaje",
+          "fr_FR": "Tenue de combat du givre sauvage",
+          "it_IT": "Tenuta del Freddo Feroce",
+          "ru_RU": "Броня ледяной ярости",
+          "ko_KR": "야만의 서리 전투장비",
+          "zh_TW": "霜蠻戰裝",
+          "zh_CN": "冰霜原始战甲"
+        },
+        "id": 819
+      },
+      "items": [
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/43969?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Frostsavage Belt",
+              "es_MX": "Cinturón de escarcha salvaje",
+              "pt_BR": "Cinto de Gelo Selvagem",
+              "de_DE": "Frostgrimmgürtel",
+              "en_GB": "Frostsavage Belt",
+              "es_ES": "Cinturón de escarcha salvaje",
+              "fr_FR": "Ceinture du givre sauvage",
+              "it_IT": "Cintura del Freddo Feroce",
+              "ru_RU": "Пояс ледяной ярости",
+              "ko_KR": "야만의 서리 허리띠",
+              "zh_TW": "霜蠻腰帶",
+              "zh_CN": "冰霜原始腰带"
+            },
+            "id": 43969
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/43970?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Frostsavage Boots",
+              "es_MX": "Botas de escarcha salvaje",
+              "pt_BR": "Botas de Gelo Selvagem",
+              "de_DE": "Frostgrimmstiefel",
+              "en_GB": "Frostsavage Boots",
+              "es_ES": "Botas de escarcha salvaje",
+              "fr_FR": "Bottes du givre sauvage",
+              "it_IT": "Stivali del Freddo Feroce",
+              "ru_RU": "Сапоги ледяной ярости",
+              "ko_KR": "야만의 서리 장화",
+              "zh_TW": "霜蠻長靴",
+              "zh_CN": "冰霜原始长靴"
+            },
+            "id": 43970
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/43974?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Frostsavage Bracers",
+              "es_MX": "Brazales de escarcha salvaje",
+              "pt_BR": "Braçadeiras de Gelo Selvagem",
+              "de_DE": "Frostgrimmarmschienen",
+              "en_GB": "Frostsavage Bracers",
+              "es_ES": "Brazales de escarcha salvaje",
+              "fr_FR": "Brassards du givre sauvage",
+              "it_IT": "Bracciali del Freddo Feroce",
+              "ru_RU": "Наручи ледяной ярости",
+              "ko_KR": "야만의 서리 팔보호구",
+              "zh_TW": "霜蠻護腕",
+              "zh_CN": "冰霜原始护腕"
+            },
+            "id": 43974
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/43971?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Frostsavage Cowl",
+              "es_MX": "Cogulla de escarcha salvaje",
+              "pt_BR": "Capucho de Gelo Selvagem",
+              "de_DE": "Frostgrimmgugel",
+              "en_GB": "Frostsavage Cowl",
+              "es_ES": "Cogulla de escarcha salvaje",
+              "fr_FR": "Capuche du givre sauvage",
+              "it_IT": "Copricapo del Freddo Feroce",
+              "ru_RU": "Клобук ледяной ярости",
+              "ko_KR": "야만의 서리 수도두건",
+              "zh_TW": "霜蠻風帽",
+              "zh_CN": "冰霜原始兜帽"
+            },
+            "id": 43971
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/41516?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Frostsavage Gloves",
+              "es_MX": "Guantes de escarcha salvaje",
+              "pt_BR": "Luvas de Gelo Selvagem",
+              "de_DE": "Frostgrimmhandschuhe",
+              "en_GB": "Frostsavage Gloves",
+              "es_ES": "Guantes de escarcha salvaje",
+              "fr_FR": "Gants du givre sauvage",
+              "it_IT": "Guanti del Freddo Feroce",
+              "ru_RU": "Перчатки ледяной ярости",
+              "ko_KR": "야만의 서리 장갑",
+              "zh_TW": "霜蠻手套",
+              "zh_CN": "冰霜原始手套"
+            },
+            "id": 41516
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/43975?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Frostsavage Leggings",
+              "es_MX": "Leotardos de escarcha salvaje",
+              "pt_BR": "Perneiras de Gelo Selvagem",
+              "de_DE": "Frostgrimmgamaschen",
+              "en_GB": "Frostsavage Leggings",
+              "es_ES": "Leotardos de escarcha salvaje",
+              "fr_FR": "Jambières du givre sauvage",
+              "it_IT": "Gambiere del Freddo Feroce",
+              "ru_RU": "Поножи ледяной ярости",
+              "ko_KR": "야만의 서리 다리보호구",
+              "zh_TW": "霜蠻護腿",
+              "zh_CN": "冰霜原始护腿"
+            },
+            "id": 43975
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/43972?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Frostsavage Robe",
+              "es_MX": "Toga de escarcha salvaje",
+              "pt_BR": "Veste de Gelo Selvagem",
+              "de_DE": "Frostgrimmrobe",
+              "en_GB": "Frostsavage Robe",
+              "es_ES": "Toga de escarcha salvaje",
+              "fr_FR": "Robe du givre sauvage",
+              "it_IT": "Tonaca del Freddo Feroce",
+              "ru_RU": "Одеяние ледяной ярости",
+              "ko_KR": "야만의 서리 로브",
+              "zh_TW": "霜蠻長袍",
+              "zh_CN": "冰霜原始长袍"
+            },
+            "id": 43972
+          }
+        },
+        {
+          "item": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/43973?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Frostsavage Shoulders",
+              "es_MX": "Sobrehombros de escarcha salvaje",
+              "pt_BR": "Omoplatas de Gelo Selvagem",
+              "de_DE": "Frostgrimmschultern",
+              "en_GB": "Frostsavage Shoulders",
+              "es_ES": "Sobrehombros de escarcha salvaje",
+              "fr_FR": "Epaulières du givre sauvage",
+              "it_IT": "Spallacci del Freddo Feroce",
+              "ru_RU": "Наплечники ледяной ярости",
+              "ko_KR": "야만의 서리 어깨보호구",
+              "zh_TW": "霜蠻護肩",
+              "zh_CN": "冰霜原始护肩"
+            },
+            "id": 43973
+          }
+        }
+      ],
+      "effects": [
+        {
+          "display_string": {
+            "en_US": "(4) Set: +29 Stamina.",
+            "es_MX": "(4) Bonif.: +29 p. de aguante.",
+            "pt_BR": "(4) Conjunto: +29 Vigor.",
+            "de_DE": "(4) Set: +29 Ausdauer.",
+            "en_GB": "(4) Set: +29 Stamina.",
+            "es_ES": "(4) Bonif.: +29 p. de aguante.",
+            "fr_FR": "(4) Ensemble : +29 en Endurance.",
+            "it_IT": "Set (4): +29 Tempra.",
+            "ru_RU": "Комплект (4 предмета): +29 к выносливости",
+            "ko_KR": "(4) 세트 효과: 체력 +29",
+            "zh_TW": "(4)套裝：+29點耐力。",
+            "zh_CN": "(4) 套装：+29 耐力。"
+          },
+          "required_count": 4
+        }
+      ],
+      "display_string": {
+        "en_US": "Frostsavage Battlegear (0/8)",
+        "es_MX": "Equipo de batalla de escarcha salvaje (0/8)",
+        "pt_BR": "Equipamento de Batalha de Gelo Selvagem (0/8)",
+        "de_DE": "Frostgrimmschlachtrüstung (0/8)",
+        "en_GB": "Frostsavage Battlegear (0/8)",
+        "es_ES": "Equipo de batalla de escarcha salvaje (0/8)",
+        "fr_FR": "Tenue de combat du givre sauvage (0/8)",
+        "it_IT": "Tenuta del Freddo Feroce (0/8)",
+        "ru_RU": "Броня ледяной ярости (0/8)",
+        "ko_KR": "야만의 서리 전투장비 (0/8)",
+        "zh_TW": "霜蠻戰裝(0/8)",
+        "zh_CN": "冰霜原始战甲（0/8）"
+      }
+    },
+    "level": {
+      "value": 35,
+      "display_string": {
+        "en_US": "Item Level 35",
+        "es_MX": "Nivel de objeto 35",
+        "pt_BR": "Nível do Item: 35",
+        "de_DE": "Gegenstandsstufe 35",
+        "en_GB": "Item Level 35",
+        "es_ES": "Nivel de objeto 35",
+        "fr_FR": "Niveau d'objet 35",
+        "it_IT": "Livello oggetto: 35",
+        "ru_RU": "Уровень предмета: 35",
+        "ko_KR": "아이템 레벨: 35",
+        "zh_TW": "物品等級35",
+        "zh_CN": "物品等级35"
+      }
+    },
+    "durability": {
+      "value": 50,
+      "display_string": {
+        "en_US": "Durability 50 / 50",
+        "es_MX": "Durabilidad 50 / 50",
+        "pt_BR": "Durabilidade 50 / 50",
+        "de_DE": "Haltbarkeit 50 / 50",
+        "en_GB": "Durability 50 / 50",
+        "es_ES": "Durabilidad 50 / 50",
+        "fr_FR": "Durabilité : 50 / 50",
+        "it_IT": "Integrità 50/50",
+        "ru_RU": "Прочность: 50 / 50",
+        "ko_KR": "내구도 50 / 50",
+        "zh_TW": "耐久度 50 / 50",
+        "zh_CN": "耐久度 50 / 50"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/9736?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 9736
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/15295?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 15295,
+  "name": {
+    "en_US": "Quillfire Bow",
+    "es_MX": "Arco de fuego de pinchos",
+    "pt_BR": "Arco Calamígneo",
+    "de_DE": "Feuerfederbogen",
+    "en_GB": "Quillfire Bow",
+    "es_ES": "Arco de fuego de pinchos",
+    "fr_FR": "Arc pennefeu",
+    "it_IT": "Arco Piumato",
+    "ru_RU": "Огненноперый лук",
+    "ko_KR": "가시불꽃 활",
+    "zh_TW": "羽毛弓",
+    "zh_CN": "羽毛弓"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 28,
+  "required_level": 21,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/15295?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 15295
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Bow",
+      "es_MX": "Arco",
+      "pt_BR": "Arco",
+      "de_DE": "Bogen",
+      "en_GB": "Bow",
+      "es_ES": "Arco",
+      "fr_FR": "Arc",
+      "it_IT": "Arco",
+      "ru_RU": "Лук",
+      "ko_KR": "활",
+      "zh_TW": "弓",
+      "zh_CN": "弓"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "RANGED",
+    "name": {
+      "en_US": "Ranged",
+      "es_MX": "A distancia",
+      "pt_BR": "Longo alcance",
+      "de_DE": "Distanz",
+      "en_GB": "Ranged",
+      "es_ES": "A distancia",
+      "fr_FR": "À distance",
+      "it_IT": "A distanza",
+      "ru_RU": "Дальний бой",
+      "ko_KR": "원거리 장비",
+      "zh_TW": "遠程",
+      "zh_CN": "远程"
+    }
+  },
+  "purchase_price": 3523966,
+  "sell_price": 704793,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/15295?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 15295
+    },
+    "context": 0,
+    "bonus_list": [
+      6655
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Quillfire Bow",
+      "es_MX": "Arco de fuego de pinchos",
+      "pt_BR": "Arco Calamígneo",
+      "de_DE": "Feuerfederbogen",
+      "en_GB": "Quillfire Bow",
+      "es_ES": "Arco de fuego de pinchos",
+      "fr_FR": "Arc pennefeu",
+      "it_IT": "Arco Piumato",
+      "ru_RU": "Огненноперый лук",
+      "ko_KR": "가시불꽃 활",
+      "zh_TW": "羽毛弓",
+      "zh_CN": "羽毛弓"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/15295?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 15295
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Bow",
+        "es_MX": "Arco",
+        "pt_BR": "Arco",
+        "de_DE": "Bogen",
+        "en_GB": "Bow",
+        "es_ES": "Arco",
+        "fr_FR": "Arc",
+        "it_IT": "Arco",
+        "ru_RU": "Лук",
+        "ko_KR": "활",
+        "zh_TW": "弓",
+        "zh_CN": "弓"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "RANGED",
+      "name": {
+        "en_US": "Ranged",
+        "es_MX": "A distancia",
+        "pt_BR": "Longo alcance",
+        "de_DE": "Distanz",
+        "en_GB": "Ranged",
+        "es_ES": "A distancia",
+        "fr_FR": "À distance",
+        "it_IT": "A distanza",
+        "ru_RU": "Дальний бой",
+        "ko_KR": "원거리 장비",
+        "zh_TW": "遠程",
+        "zh_CN": "远程"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 526,
+        "max_value": 712,
+        "display_string": {
+          "en_US": "526 - 712 Damage",
+          "es_MX": "526 - 712 p. de daño",
+          "pt_BR": "526 - 712 de Dano",
+          "de_DE": "526 - 712 Schaden",
+          "en_GB": "526 - 712 Damage",
+          "es_ES": "526 - 712 p. de daño",
+          "fr_FR": "Dégâts : 526 - 712",
+          "it_IT": "526 - 712 Danni",
+          "ru_RU": "Урон: 526 - 712",
+          "ko_KR": "공격력 526 ~ 712",
+          "zh_TW": "526-712點傷害",
+          "zh_CN": "526 - 712点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 3000,
+        "display_string": {
+          "en_US": "Speed 3.00",
+          "es_MX": "Velocidad 3.00",
+          "pt_BR": "Velocidade 3,00",
+          "de_DE": "Geschwindigkeit 3,00",
+          "en_GB": "Speed 3.00",
+          "es_ES": "Velocidad 3,00",
+          "fr_FR": "Vitesse 3,00",
+          "it_IT": "Velocità 3,00",
+          "ru_RU": "Скорость 3,00",
+          "ko_KR": "속도 3.00",
+          "zh_TW": "速度 3.00",
+          "zh_CN": "速度 3.00"
+        }
+      },
+      "dps": {
+        "value": 206.33331,
+        "display_string": {
+          "en_US": "(206.3 damage per second)",
+          "es_MX": "(206.3 p. de daño por segundo)",
+          "pt_BR": "(206,3 de dano por segundo)",
+          "de_DE": "(206,3 Schaden pro Sekunde)",
+          "en_GB": "(206.3 damage per second)",
+          "es_ES": "(206,3 p. de daño por segundo)",
+          "fr_FR": "(206,3 dégâts par seconde)",
+          "it_IT": "(206,3 danni per secondo)",
+          "ru_RU": "(206,3 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 206.3)",
+          "zh_TW": "(每秒206.3點傷害)",
+          "zh_CN": "（每秒伤害206.3）"
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 274,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+274 Agility",
+            "es_MX": "+274 agilidad",
+            "pt_BR": "+274 Agilidade",
+            "de_DE": "+274 Beweglichkeit",
+            "en_GB": "+274 Agility",
+            "es_ES": "+274 agilidad",
+            "fr_FR": "+274 Agilité",
+            "it_IT": "+274 Agilità",
+            "ru_RU": "+274 к ловкости",
+            "ko_KR": "민첩성 +274",
+            "zh_TW": "+274敏捷",
+            "zh_CN": "+274 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 496,
+        "display": {
+          "display_string": {
+            "en_US": "+496 Stamina",
+            "es_MX": "+496 aguante",
+            "pt_BR": "+496 Vigor",
+            "de_DE": "+496 Ausdauer",
+            "en_GB": "+496 Stamina",
+            "es_ES": "+496 aguante",
+            "fr_FR": "+496 Endurance",
+            "it_IT": "+496 Tempra",
+            "ru_RU": "+496 к выносливости",
+            "ko_KR": "체력 +496",
+            "zh_TW": "+496耐力",
+            "zh_CN": "+496 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 580839,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "58",
+          "es_MX": "58",
+          "pt_BR": "58",
+          "de_DE": "58",
+          "en_GB": "58",
+          "es_ES": "58",
+          "fr_FR": "58",
+          "it_IT": "58",
+          "ru_RU": "58",
+          "ko_KR": "58",
+          "zh_TW": "58",
+          "zh_CN": "58"
+        },
+        "silver": {
+          "en_US": "8",
+          "es_MX": "8",
+          "pt_BR": "8",
+          "de_DE": "8",
+          "en_GB": "8",
+          "es_ES": "8",
+          "fr_FR": "8",
+          "it_IT": "8",
+          "ru_RU": "8",
+          "ko_KR": "8",
+          "zh_TW": "8",
+          "zh_CN": "8"
+        },
+        "copper": {
+          "en_US": "39",
+          "es_MX": "39",
+          "pt_BR": "39",
+          "de_DE": "39",
+          "en_GB": "39",
+          "es_ES": "39",
+          "fr_FR": "39",
+          "it_IT": "39",
+          "ru_RU": "39",
+          "ko_KR": "39",
+          "zh_TW": "39",
+          "zh_CN": "39"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 21,
+        "display_string": {
+          "en_US": "Requires Level 21",
+          "es_MX": "Necesitas ser de nivel 21",
+          "pt_BR": "Requer o Nível 21",
+          "de_DE": "Benötigt Stufe 21",
+          "en_GB": "Requires Level 21",
+          "es_ES": "Necesitas ser de nivel 21",
+          "fr_FR": "Niveau 21 requis",
+          "it_IT": "Richiede il livello 21",
+          "ru_RU": "Требуется 21-й уровень",
+          "ko_KR": "최소 요구 레벨: 21",
+          "zh_TW": "需要等級21",
+          "zh_CN": "需要等级 21"
+        }
+      }
+    },
+    "level": {
+      "value": 357,
+      "display_string": {
+        "en_US": "Item Level 357",
+        "es_MX": "Nivel de objeto 357",
+        "pt_BR": "Nível do Item: 357",
+        "de_DE": "Gegenstandsstufe 357",
+        "en_GB": "Item Level 357",
+        "es_ES": "Nivel de objeto 357",
+        "fr_FR": "Niveau d'objet 357",
+        "it_IT": "Livello oggetto: 357",
+        "ru_RU": "Уровень предмета: 357",
+        "ko_KR": "아이템 레벨: 357",
+        "zh_TW": "物品等級357",
+        "zh_CN": "物品等级357"
+      }
+    },
+    "durability": {
+      "value": 80,
+      "display_string": {
+        "en_US": "Durability 80 / 80",
+        "es_MX": "Durabilidad 80 / 80",
+        "pt_BR": "Durabilidade 80 / 80",
+        "de_DE": "Haltbarkeit 80 / 80",
+        "en_GB": "Durability 80 / 80",
+        "es_ES": "Durabilidad 80 / 80",
+        "fr_FR": "Durabilité : 80 / 80",
+        "it_IT": "Integrità 80/80",
+        "ru_RU": "Прочность: 80 / 80",
+        "ko_KR": "내구도 80 / 80",
+        "zh_TW": "耐久度 80 / 80",
+        "zh_CN": "耐久度 80 / 80"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/1833?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 1833
+    }
+  ]
+}

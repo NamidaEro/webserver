@@ -1,0 +1,444 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/221788?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 221788,
+  "name": {
+    "en_US": "Bismuth Brainwave Projector",
+    "es_MX": "Proyector de ondas cerebrales de bismuto",
+    "pt_BR": "Projetor de Onda Mental de Bismuto",
+    "de_DE": "Bismuthirnwellenprojektor",
+    "en_GB": "Bismuth Brainwave Projector",
+    "es_ES": "Proyector de ondas cerebrales de bismuto",
+    "fr_FR": "Projecteur cérébral en bismuth",
+    "it_IT": "Proiettore Celebrale di Bismuto",
+    "ru_RU": "Висмутовый проектор мозговых волн",
+    "ko_KR": "창연 뇌파 투영기",
+    "zh_TW": "鉍礦腦波投射器",
+    "zh_CN": "铋脑波发射器"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 486,
+  "required_level": 68,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/221788?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 221788
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Profession",
+      "es_MX": "Profesión",
+      "pt_BR": "Profissão",
+      "de_DE": "Beruf",
+      "en_GB": "Profession",
+      "es_ES": "Profesión",
+      "fr_FR": "Métier",
+      "it_IT": "Professione",
+      "ru_RU": "Профессия",
+      "ko_KR": "전문 기술",
+      "zh_TW": "專業技能",
+      "zh_CN": "专业技能"
+    },
+    "id": 19
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/7?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Engineering",
+      "es_MX": "Ingeniería",
+      "pt_BR": "Engenharia",
+      "de_DE": "Ingenieurskunst",
+      "en_GB": "Engineering",
+      "es_ES": "Ingeniería",
+      "fr_FR": "Ingénierie",
+      "it_IT": "Ingegneria",
+      "ru_RU": "Инженерное дело",
+      "ko_KR": "기계공학",
+      "zh_TW": "工程學",
+      "zh_CN": "工程学"
+    },
+    "id": 7
+  },
+  "inventory_type": {
+    "type": "PROFESSION_GEAR",
+    "name": {
+      "en_US": "Profession Equipment",
+      "es_MX": "Equipamiento de profesión",
+      "pt_BR": "Equipamento de Profissão",
+      "de_DE": "Berufsausrüstung",
+      "en_GB": "Profession Equipment",
+      "es_ES": "Equipamiento de profesión",
+      "fr_FR": "Équipements de métier",
+      "it_IT": "Equipaggiamento delle Professioni",
+      "ru_RU": "Экипировка профессии",
+      "ko_KR": "전문 기술 장비",
+      "zh_TW": "專業技能裝備",
+      "zh_CN": "专业装备"
+    }
+  },
+  "purchase_price": 1207625,
+  "sell_price": 241525,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/221788?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 221788
+    },
+    "context": 0,
+    "bonus_list": [
+      10827,
+      10830
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Bismuth Brainwave Projector",
+      "es_MX": "Proyector de ondas cerebrales de bismuto",
+      "pt_BR": "Projetor de Onda Mental de Bismuto",
+      "de_DE": "Bismuthirnwellenprojektor",
+      "en_GB": "Bismuth Brainwave Projector",
+      "es_ES": "Proyector de ondas cerebrales de bismuto",
+      "fr_FR": "Projecteur cérébral en bismuth",
+      "it_IT": "Proiettore Celebrale di Bismuto",
+      "ru_RU": "Висмутовый проектор мозговых волн",
+      "ko_KR": "창연 뇌파 투영기",
+      "zh_TW": "鉍礦腦波投射器",
+      "zh_CN": "铋脑波发射器"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/221788?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 221788
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Profession",
+        "es_MX": "Profesión",
+        "pt_BR": "Profissão",
+        "de_DE": "Beruf",
+        "en_GB": "Profession",
+        "es_ES": "Profesión",
+        "fr_FR": "Métier",
+        "it_IT": "Professione",
+        "ru_RU": "Профессия",
+        "ko_KR": "전문 기술",
+        "zh_TW": "專業技能",
+        "zh_CN": "专业技能"
+      },
+      "id": 19
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/7?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Engineering",
+        "es_MX": "Ingeniería",
+        "pt_BR": "Engenharia",
+        "de_DE": "Ingenieurskunst",
+        "en_GB": "Engineering",
+        "es_ES": "Ingeniería",
+        "fr_FR": "Ingénierie",
+        "it_IT": "Ingegneria",
+        "ru_RU": "Инженерное дело",
+        "ko_KR": "기계공학",
+        "zh_TW": "工程學",
+        "zh_CN": "工程学"
+      },
+      "id": 7
+    },
+    "inventory_type": {
+      "type": "PROFESSION_GEAR",
+      "name": {
+        "en_US": "Profession Equipment",
+        "es_MX": "Equipamiento de profesión",
+        "pt_BR": "Equipamento de Profissão",
+        "de_DE": "Berufsausrüstung",
+        "en_GB": "Profession Equipment",
+        "es_ES": "Equipamiento de profesión",
+        "fr_FR": "Équipements de métier",
+        "it_IT": "Equipaggiamento delle Professioni",
+        "ru_RU": "Экипировка профессии",
+        "ko_KR": "전문 기술 장비",
+        "zh_TW": "專業技能裝備",
+        "zh_CN": "专业装备"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "limit_category": {
+      "en_US": "Unique-Equipped: Head (1)",
+      "es_MX": "Único-Equipado: Cabeza (1)",
+      "pt_BR": "Máximo equipado: Cabeça (1)",
+      "de_DE": "Einzigartig angelegt: Kopf (1)",
+      "en_GB": "Unique-Equipped: Head (1)",
+      "es_ES": "Único-Equipado: Cabeza (1)",
+      "fr_FR": "Unique - Équipé : Tête (1)",
+      "it_IT": "Unico equipaggiabile: Testa (1)",
+      "ru_RU": "Уникальный использующийся предмет: Голова (1)",
+      "ko_KR": "고유 장착 아이템: 머리 (1)",
+      "zh_TW": "僅可裝備一件：頭部(1)",
+      "zh_CN": "装备唯一：头部 （1）"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
+          "name": {
+            "en_US": "Multicraft",
+            "es_MX": "Fabricación múltiple",
+            "pt_BR": "Multicriação",
+            "de_DE": "Mehrfachherstellung",
+            "en_GB": "Multicraft",
+            "es_ES": "Multifabricación",
+            "fr_FR": "Fabrication multiple",
+            "it_IT": "Creazione multipla",
+            "ru_RU": "Перепроизводство",
+            "ko_KR": "복수 제작",
+            "zh_TW": "複數製造",
+            "zh_CN": "产能"
+          }
+        },
+        "value": 55,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+55 Multicraft",
+            "es_MX": "+55 Fabricación múltiple",
+            "pt_BR": "+55 Multicriação",
+            "de_DE": "+55 Mehrfachherstellung",
+            "en_GB": "+55 Multicraft",
+            "es_ES": "+55 Multifabricación",
+            "fr_FR": "+55 Fabrication multiple",
+            "it_IT": "+55 Creazione multipla",
+            "ru_RU": "+55 Перепроизводство",
+            "ko_KR": "복수 제작 +55",
+            "zh_TW": "+55複數製造",
+            "zh_CN": "+55 产能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "BONUS_STAT_PROFESSION_INGENUITY",
+          "name": {
+            "en_US": "Ingenuity",
+            "es_MX": "Ingenio",
+            "pt_BR": "Engenhosidade",
+            "de_DE": "Genialität",
+            "en_GB": "Ingenuity",
+            "es_ES": "Inventiva",
+            "fr_FR": "Inventivité",
+            "it_IT": "Ingegno",
+            "ru_RU": "Изобретательность",
+            "ko_KR": "독창성",
+            "zh_TW": "精妙",
+            "zh_CN": "奇思"
+          }
+        },
+        "value": 83,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+83 Ingenuity",
+            "es_MX": "+83 Ingenio",
+            "pt_BR": "+83 Engenhosidade",
+            "de_DE": "+83 Genialität",
+            "en_GB": "+83 Ingenuity",
+            "es_ES": "+83 Inventiva",
+            "fr_FR": "+83 Inventivité",
+            "it_IT": "+83 Ingegno",
+            "ru_RU": "+83 Изобретательность",
+            "ko_KR": "독창성 +83",
+            "zh_TW": "+83精妙",
+            "zh_CN": "+83 奇思"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/455691?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Prof Gear Skill Bonus (DNT)",
+            "en_GB": "Prof Gear Skill Bonus (DNT)"
+          },
+          "id": 455691
+        },
+        "description": {
+          "en_US": "Equip: +5 Khaz Algar Engineering Skill",
+          "es_MX": "Equipar: +5 p. de habilidad en ingeniería de Khaz Algar",
+          "pt_BR": "Equipado: +5 de Perícia em Engenharia de Khaz Algar",
+          "de_DE": "Anlegen: +5 Fertigkeit in Ingenieurskunst von Khaz Algar",
+          "en_GB": "Equip: +5 Khaz Algar Engineering Skill",
+          "es_ES": "Equipar: +5 p. de habilidad en ingeniería de Khaz Algar.",
+          "fr_FR": "Équipé : +5 à la compétence en ingénierie de Khaz Algar",
+          "it_IT": "Equipaggia: Aumenta la Competenza in Ingegneria di Khaz Algar di 5.",
+          "ru_RU": "Если на персонаже: +5 к навыку инженерного дела Каз Алгара",
+          "ko_KR": "착용 효과: 카즈 알가르 기계공학 숙련도가 5만큼 증가합니다.",
+          "zh_TW": "裝備： +5點卡茲阿爾加工程學技能",
+          "zh_CN": "装备： +5卡兹阿加工程学技能"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 241525,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "24",
+          "es_MX": "24",
+          "pt_BR": "24",
+          "de_DE": "24",
+          "en_GB": "24",
+          "es_ES": "24",
+          "fr_FR": "24",
+          "it_IT": "24",
+          "ru_RU": "24",
+          "ko_KR": "24",
+          "zh_TW": "24",
+          "zh_CN": "24"
+        },
+        "silver": {
+          "en_US": "15",
+          "es_MX": "15",
+          "pt_BR": "15",
+          "de_DE": "15",
+          "en_GB": "15",
+          "es_ES": "15",
+          "fr_FR": "15",
+          "it_IT": "15",
+          "ru_RU": "15",
+          "ko_KR": "15",
+          "zh_TW": "15",
+          "zh_CN": "15"
+        },
+        "copper": {
+          "en_US": "25",
+          "es_MX": "25",
+          "pt_BR": "25",
+          "de_DE": "25",
+          "en_GB": "25",
+          "es_ES": "25",
+          "fr_FR": "25",
+          "it_IT": "25",
+          "ru_RU": "25",
+          "ko_KR": "25",
+          "zh_TW": "25",
+          "zh_CN": "25"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 68,
+        "display_string": {
+          "en_US": "Requires Level 68",
+          "es_MX": "Necesitas ser de nivel 68",
+          "pt_BR": "Requer o Nível 68",
+          "de_DE": "Benötigt Stufe 68",
+          "en_GB": "Requires Level 68",
+          "es_ES": "Necesitas ser de nivel 68",
+          "fr_FR": "Niveau 68 requis",
+          "it_IT": "Richiede il livello 68",
+          "ru_RU": "Требуется 68-й уровень",
+          "ko_KR": "최소 요구 레벨: 68",
+          "zh_TW": "需要等級68",
+          "zh_CN": "需要等级 68"
+        }
+      }
+    }
+  },
+  "purchase_quantity": 1
+}

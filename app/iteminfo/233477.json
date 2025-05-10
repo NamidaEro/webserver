@@ -1,0 +1,548 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/233477?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 233477,
+  "name": {
+    "en_US": "Shimmerthread Handwraps",
+    "es_MX": "Manijas de hilo brillante",
+    "pt_BR": "Mitenes de Cintilinha",
+    "de_DE": "Schimmerfadenhandlappen",
+    "en_GB": "Shimmerthread Handwraps",
+    "es_ES": "Manijas de paño brillante",
+    "fr_FR": "Protège-mains en toile chatoyante",
+    "it_IT": "Mitene di Filo Scintillante",
+    "ru_RU": "Светлотканые повязки",
+    "ko_KR": "미명매듭 손등싸개",
+    "zh_TW": "閃線裹手",
+    "zh_CN": "明丝裹手"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 600,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/233477?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 233477
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "HAND",
+    "name": {
+      "en_US": "Hands",
+      "es_MX": "Manos",
+      "pt_BR": "Mãos",
+      "de_DE": "Hände",
+      "en_GB": "Hands",
+      "es_ES": "Manos",
+      "fr_FR": "Mains",
+      "it_IT": "Mani",
+      "ru_RU": "Кисти рук",
+      "ko_KR": "손",
+      "zh_TW": "手",
+      "zh_CN": "手部"
+    }
+  },
+  "purchase_price": 1581794,
+  "sell_price": 316358,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/233477?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 233477
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Shimmerthread Handwraps",
+      "es_MX": "Manijas de hilo brillante",
+      "pt_BR": "Mitenes de Cintilinha",
+      "de_DE": "Schimmerfadenhandlappen",
+      "en_GB": "Shimmerthread Handwraps",
+      "es_ES": "Manijas de paño brillante",
+      "fr_FR": "Protège-mains en toile chatoyante",
+      "it_IT": "Mitene di Filo Scintillante",
+      "ru_RU": "Светлотканые повязки",
+      "ko_KR": "미명매듭 손등싸개",
+      "zh_TW": "閃線裹手",
+      "zh_CN": "明丝裹手"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/233477?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 233477
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "HAND",
+      "name": {
+        "en_US": "Hands",
+        "es_MX": "Manos",
+        "pt_BR": "Mãos",
+        "de_DE": "Hände",
+        "en_GB": "Hands",
+        "es_ES": "Manos",
+        "fr_FR": "Mains",
+        "it_IT": "Mani",
+        "ru_RU": "Кисти рук",
+        "ko_KR": "손",
+        "zh_TW": "手",
+        "zh_CN": "手部"
+      }
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": {
+        "en_US": "Binds when picked up",
+        "es_MX": "Se liga al recogerlo",
+        "pt_BR": "Vincula-se ao ser recolhido",
+        "de_DE": "Wird beim Aufheben gebunden",
+        "en_GB": "Binds when picked up",
+        "es_ES": "Se liga al recogerlo",
+        "fr_FR": "Lié quand ramassé",
+        "it_IT": "Si vincola alla raccolta",
+        "ru_RU": "Становится персональным при получении",
+        "ko_KR": "획득 시 귀속",
+        "zh_TW": "拾取後綁定",
+        "zh_CN": "拾取后绑定"
+      }
+    },
+    "armor": {
+      "value": 1158,
+      "display": {
+        "display_string": {
+          "en_US": "1,158 Armor",
+          "es_MX": "1,158 p. de armadura",
+          "pt_BR": "1.158 de Armadura",
+          "de_DE": "1.158 Rüstung",
+          "en_GB": "1,158 Armor",
+          "es_ES": "1158 p. de armadura",
+          "fr_FR": "Armure : 1158",
+          "it_IT": "1.158 Armatura",
+          "ru_RU": "Броня: 1158",
+          "ko_KR": "방어도 1,158",
+          "zh_TW": "1,158點護甲",
+          "zh_CN": "1,158点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 1979,
+        "display": {
+          "display_string": {
+            "en_US": "+1,979 Intellect",
+            "es_MX": "+1,979 intelecto",
+            "pt_BR": "+1.979 Intelecto",
+            "de_DE": "+1.979 Intelligenz",
+            "en_GB": "+1,979 Intellect",
+            "es_ES": "+1979 intelecto",
+            "fr_FR": "+1979 Intelligence",
+            "it_IT": "+1.979 Intelletto",
+            "ru_RU": "+1979 к интеллекту",
+            "ko_KR": "지능 +1,979",
+            "zh_TW": "+1,979智力",
+            "zh_CN": "+1,979 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 10500,
+        "display": {
+          "display_string": {
+            "en_US": "+10,500 Stamina",
+            "es_MX": "+10,500 aguante",
+            "pt_BR": "+10.500 Vigor",
+            "de_DE": "+10.500 Ausdauer",
+            "en_GB": "+10,500 Stamina",
+            "es_ES": "+10500 aguante",
+            "fr_FR": "+10500 Endurance",
+            "it_IT": "+10.500 Tempra",
+            "ru_RU": "+10500 к выносливости",
+            "ko_KR": "체력 +10,500",
+            "zh_TW": "+10,500耐力",
+            "zh_CN": "+10,500 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 571,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+571 Critical Strike",
+            "es_MX": "+571 golpe crítico",
+            "pt_BR": "+571 Acerto Crítico",
+            "de_DE": "+571 Kritischer Trefferwert",
+            "en_GB": "+571 Critical Strike",
+            "es_ES": "+571 golpe crítico",
+            "fr_FR": "+571 Score de crit.",
+            "it_IT": "+571 Indice di critico",
+            "ru_RU": "+571 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +571",
+            "zh_TW": "+571致命一擊",
+            "zh_CN": "+571 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": {
+            "en_US": "Haste",
+            "es_MX": "celeridad",
+            "pt_BR": "Aceleração",
+            "de_DE": "Tempo",
+            "en_GB": "Haste",
+            "es_ES": "celeridad",
+            "fr_FR": "Hâte",
+            "it_IT": "Indice di celerità",
+            "ru_RU": "к скорости",
+            "ko_KR": "가속",
+            "zh_TW": "加速",
+            "zh_CN": "急速"
+          }
+        },
+        "value": 678,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+678 Haste",
+            "es_MX": "+678 celeridad",
+            "pt_BR": "+678 Aceleração",
+            "de_DE": "+678 Tempo",
+            "en_GB": "+678 Haste",
+            "es_ES": "+678 celeridad",
+            "fr_FR": "+678 Hâte",
+            "it_IT": "+678 Indice di celerità",
+            "ru_RU": "+678 к скорости",
+            "ko_KR": "가속 +678",
+            "zh_TW": "+678加速",
+            "zh_CN": "+678 急速"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 316358,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "31",
+          "es_MX": "31",
+          "pt_BR": "31",
+          "de_DE": "31",
+          "en_GB": "31",
+          "es_ES": "31",
+          "fr_FR": "31",
+          "it_IT": "31",
+          "ru_RU": "31",
+          "ko_KR": "31",
+          "zh_TW": "31",
+          "zh_CN": "31"
+        },
+        "silver": {
+          "en_US": "63",
+          "es_MX": "63",
+          "pt_BR": "63",
+          "de_DE": "63",
+          "en_GB": "63",
+          "es_ES": "63",
+          "fr_FR": "63",
+          "it_IT": "63",
+          "ru_RU": "63",
+          "ko_KR": "63",
+          "zh_TW": "63",
+          "zh_CN": "63"
+        },
+        "copper": {
+          "en_US": "58",
+          "es_MX": "58",
+          "pt_BR": "58",
+          "de_DE": "58",
+          "en_GB": "58",
+          "es_ES": "58",
+          "fr_FR": "58",
+          "it_IT": "58",
+          "ru_RU": "58",
+          "ko_KR": "58",
+          "zh_TW": "58",
+          "zh_CN": "58"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": {
+          "en_US": "Requires Level 80",
+          "es_MX": "Necesitas ser de nivel 80",
+          "pt_BR": "Requer o Nível 80",
+          "de_DE": "Benötigt Stufe 80",
+          "en_GB": "Requires Level 80",
+          "es_ES": "Necesitas ser de nivel 80",
+          "fr_FR": "Niveau 80 requis",
+          "it_IT": "Richiede il livello 80",
+          "ru_RU": "Требуется 80-й уровень",
+          "ko_KR": "최소 요구 레벨: 80",
+          "zh_TW": "需要等級80",
+          "zh_CN": "需要等级 80"
+        }
+      }
+    },
+    "level": {
+      "value": 600,
+      "display_string": {
+        "en_US": "Item Level 600",
+        "es_MX": "Nivel de objeto 600",
+        "pt_BR": "Nível do Item: 600",
+        "de_DE": "Gegenstandsstufe 600",
+        "en_GB": "Item Level 600",
+        "es_ES": "Nivel de objeto 600",
+        "fr_FR": "Niveau d'objet 600",
+        "it_IT": "Livello oggetto: 600",
+        "ru_RU": "Уровень предмета: 600",
+        "ko_KR": "아이템 레벨: 600",
+        "zh_TW": "物品等級600",
+        "zh_CN": "物品等级600"
+      }
+    },
+    "durability": {
+      "value": 40,
+      "display_string": {
+        "en_US": "Durability 40 / 40",
+        "es_MX": "Durabilidad 40 / 40",
+        "pt_BR": "Durabilidade 40 / 40",
+        "de_DE": "Haltbarkeit 40 / 40",
+        "en_GB": "Durability 40 / 40",
+        "es_ES": "Durabilidad 40 / 40",
+        "fr_FR": "Durabilité : 40 / 40",
+        "it_IT": "Integrità 40/40",
+        "ru_RU": "Прочность: 40 / 40",
+        "ko_KR": "내구도 40 / 40",
+        "zh_TW": "耐久度 40 / 40",
+        "zh_CN": "耐久度 40 / 40"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/104714?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 104714
+    }
+  ]
+}

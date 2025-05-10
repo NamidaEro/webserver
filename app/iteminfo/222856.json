@@ -1,0 +1,307 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/222856?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 222856,
+  "name": {
+    "en_US": "Duskweave Bag",
+    "es_MX": "Bolsa de tejido del crepúsculo",
+    "pt_BR": "Bolsa de Tecido Crepuscular",
+    "de_DE": "Dämmergespinsttasche",
+    "en_GB": "Duskweave Bag",
+    "es_ES": "Bolsa de tejido del ocaso",
+    "fr_FR": "Sac en tisse-brune",
+    "it_IT": "Borsa di Tessivespro",
+    "ru_RU": "Сумка из сумеречной ткани",
+    "ko_KR": "황혼매듭 가방",
+    "zh_TW": "暮織包",
+    "zh_CN": "暮纹布包"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 70,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/222856?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 222856
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Container",
+      "es_MX": "Contenedor",
+      "pt_BR": "Recipiente",
+      "de_DE": "Behälter",
+      "en_GB": "Container",
+      "es_ES": "Recipiente",
+      "fr_FR": "Conteneur",
+      "it_IT": "Contenitori",
+      "ru_RU": "Контейнер",
+      "ko_KR": "가방",
+      "zh_TW": "容器",
+      "zh_CN": "容器"
+    },
+    "id": 1
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Bag",
+      "es_MX": "Bolsa",
+      "pt_BR": "Bolsa",
+      "de_DE": "Tasche",
+      "en_GB": "Bag",
+      "es_ES": "Bolsa",
+      "fr_FR": "Sac",
+      "it_IT": "Sacca",
+      "ru_RU": "Сумка",
+      "ko_KR": "가방",
+      "zh_TW": "背包",
+      "zh_CN": "容器"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "BAG",
+    "name": {
+      "en_US": "Bag",
+      "es_MX": "Bolsa",
+      "pt_BR": "Bolsa",
+      "de_DE": "Tasche",
+      "en_GB": "Bag",
+      "es_ES": "Bolsa",
+      "fr_FR": "Sac",
+      "it_IT": "Sacca",
+      "ru_RU": "Сумка",
+      "ko_KR": "가방",
+      "zh_TW": "背包",
+      "zh_CN": "背包"
+    }
+  },
+  "purchase_price": 1517775,
+  "sell_price": 303555,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/222856?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 222856
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Duskweave Bag",
+      "es_MX": "Bolsa de tejido del crepúsculo",
+      "pt_BR": "Bolsa de Tecido Crepuscular",
+      "de_DE": "Dämmergespinsttasche",
+      "en_GB": "Duskweave Bag",
+      "es_ES": "Bolsa de tejido del ocaso",
+      "fr_FR": "Sac en tisse-brune",
+      "it_IT": "Borsa di Tessivespro",
+      "ru_RU": "Сумка из сумеречной ткани",
+      "ko_KR": "황혼매듭 가방",
+      "zh_TW": "暮織包",
+      "zh_CN": "暮纹布包"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/222856?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 222856
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Container",
+        "es_MX": "Contenedor",
+        "pt_BR": "Recipiente",
+        "de_DE": "Behälter",
+        "en_GB": "Container",
+        "es_ES": "Recipiente",
+        "fr_FR": "Conteneur",
+        "it_IT": "Contenitori",
+        "ru_RU": "Контейнер",
+        "ko_KR": "가방",
+        "zh_TW": "容器",
+        "zh_CN": "容器"
+      },
+      "id": 1
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Bag",
+        "es_MX": "Bolsa",
+        "pt_BR": "Bolsa",
+        "de_DE": "Tasche",
+        "en_GB": "Bag",
+        "es_ES": "Bolsa",
+        "fr_FR": "Sac",
+        "it_IT": "Sacca",
+        "ru_RU": "Сумка",
+        "ko_KR": "가방",
+        "zh_TW": "背包",
+        "zh_CN": "容器"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "BAG",
+      "name": {
+        "en_US": "Bag",
+        "es_MX": "Bolsa",
+        "pt_BR": "Bolsa",
+        "de_DE": "Tasche",
+        "en_GB": "Bag",
+        "es_ES": "Bolsa",
+        "fr_FR": "Sac",
+        "it_IT": "Sacca",
+        "ru_RU": "Сумка",
+        "ko_KR": "가방",
+        "zh_TW": "背包",
+        "zh_CN": "背包"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "sell_price": {
+      "value": 303555,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "30",
+          "es_MX": "30",
+          "pt_BR": "30",
+          "de_DE": "30",
+          "en_GB": "30",
+          "es_ES": "30",
+          "fr_FR": "30",
+          "it_IT": "30",
+          "ru_RU": "30",
+          "ko_KR": "30",
+          "zh_TW": "30",
+          "zh_CN": "30"
+        },
+        "silver": {
+          "en_US": "35",
+          "es_MX": "35",
+          "pt_BR": "35",
+          "de_DE": "35",
+          "en_GB": "35",
+          "es_ES": "35",
+          "fr_FR": "35",
+          "it_IT": "35",
+          "ru_RU": "35",
+          "ko_KR": "35",
+          "zh_TW": "35",
+          "zh_CN": "35"
+        },
+        "copper": {
+          "en_US": "55",
+          "es_MX": "55",
+          "pt_BR": "55",
+          "de_DE": "55",
+          "en_GB": "55",
+          "es_ES": "55",
+          "fr_FR": "55",
+          "it_IT": "55",
+          "ru_RU": "55",
+          "ko_KR": "55",
+          "zh_TW": "55",
+          "zh_CN": "55"
+        }
+      }
+    },
+    "container_slots": {
+      "value": 36,
+      "display_string": {
+        "en_US": "36 Slot Bag",
+        "es_MX": "Bolsa de 36 |4casilla:casillas;",
+        "pt_BR": "Bolsa de 36 compartimentos",
+        "de_DE": "36 Platz Tasche",
+        "en_GB": "36 Slot Bag",
+        "es_ES": "Bolsa de 36 ranuras",
+        "fr_FR": "Sac 36 |4emplacement:emplacements;",
+        "it_IT": "Sacca da 36 |4scomparto:scomparti;",
+        "ru_RU": "Сумка (36 |4ячейка:ячейки:ячеек;)",
+        "ko_KR": "36칸 가방",
+        "zh_TW": "36格背包",
+        "zh_CN": "36格容器"
+      }
+    }
+  },
+  "purchase_quantity": 1
+}

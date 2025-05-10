@@ -1,0 +1,380 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/1499?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 1499,
+  "name": {
+    "en_US": "Calico Pants",
+    "es_MX": "Pantalones de percal",
+    "pt_BR": "Calças de Calico",
+    "de_DE": "Kattunhose",
+    "en_GB": "Calico Pants",
+    "es_ES": "Pantalones de percal",
+    "fr_FR": "Pantalon en calicot",
+    "it_IT": "Pantaloni di Calicò",
+    "ru_RU": "Ситцевые штаны",
+    "ko_KR": "얼룩덜룩한 바지",
+    "zh_TW": "棉布束褲",
+    "zh_CN": "棉布短裤"
+  },
+  "quality": {
+    "type": "POOR",
+    "name": {
+      "en_US": "Poor",
+      "es_MX": "Pobre",
+      "pt_BR": "Inferior",
+      "de_DE": "Schlecht",
+      "en_GB": "Poor",
+      "es_ES": "Pobre",
+      "fr_FR": "Mauvais",
+      "it_IT": "Scarso",
+      "ru_RU": "Низкое",
+      "ko_KR": "하급",
+      "zh_TW": "粗糙",
+      "zh_CN": "粗糙"
+    }
+  },
+  "level": 5,
+  "required_level": 3,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/1499?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 1499
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "LEGS",
+    "name": {
+      "en_US": "Legs",
+      "es_MX": "Piernas",
+      "pt_BR": "Pernas",
+      "de_DE": "Beine",
+      "en_GB": "Legs",
+      "es_ES": "Piernas",
+      "fr_FR": "Jambes",
+      "it_IT": "Gambe",
+      "ru_RU": "Ноги",
+      "ko_KR": "다리",
+      "zh_TW": "腿部",
+      "zh_CN": "腿部"
+    }
+  },
+  "purchase_price": 447,
+  "sell_price": 89,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/1499?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 1499
+    },
+    "context": 0,
+    "bonus_list": [
+      6656
+    ],
+    "quality": {
+      "type": "POOR",
+      "name": {
+        "en_US": "Poor",
+        "es_MX": "Pobre",
+        "pt_BR": "Inferior",
+        "de_DE": "Schlecht",
+        "en_GB": "Poor",
+        "es_ES": "Pobre",
+        "fr_FR": "Mauvais",
+        "it_IT": "Scarso",
+        "ru_RU": "Низкое",
+        "ko_KR": "하급",
+        "zh_TW": "粗糙",
+        "zh_CN": "粗糙"
+      }
+    },
+    "name": {
+      "en_US": "Calico Pants",
+      "es_MX": "Pantalones de percal",
+      "pt_BR": "Calças de Calico",
+      "de_DE": "Kattunhose",
+      "en_GB": "Calico Pants",
+      "es_ES": "Pantalones de percal",
+      "fr_FR": "Pantalon en calicot",
+      "it_IT": "Pantaloni di Calicò",
+      "ru_RU": "Ситцевые штаны",
+      "ko_KR": "얼룩덜룩한 바지",
+      "zh_TW": "棉布束褲",
+      "zh_CN": "棉布短裤"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/1499?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 1499
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "LEGS",
+      "name": {
+        "en_US": "Legs",
+        "es_MX": "Piernas",
+        "pt_BR": "Pernas",
+        "de_DE": "Beine",
+        "en_GB": "Legs",
+        "es_ES": "Piernas",
+        "fr_FR": "Jambes",
+        "it_IT": "Gambe",
+        "ru_RU": "Ноги",
+        "ko_KR": "다리",
+        "zh_TW": "腿部",
+        "zh_CN": "腿部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 136,
+      "display": {
+        "display_string": {
+          "en_US": "136 Armor",
+          "es_MX": "136 p. de armadura",
+          "pt_BR": "136 de Armadura",
+          "de_DE": "136 Rüstung",
+          "en_GB": "136 Armor",
+          "es_ES": "136 p. de armadura",
+          "fr_FR": "Armure : 136",
+          "it_IT": "136 Armatura",
+          "ru_RU": "Броня: 136",
+          "ko_KR": "방어도 136",
+          "zh_TW": "136點護甲",
+          "zh_CN": "136点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "sell_price": {
+      "value": 115115,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "11",
+          "es_MX": "11",
+          "pt_BR": "11",
+          "de_DE": "11",
+          "en_GB": "11",
+          "es_ES": "11",
+          "fr_FR": "11",
+          "it_IT": "11",
+          "ru_RU": "11",
+          "ko_KR": "11",
+          "zh_TW": "11",
+          "zh_CN": "11"
+        },
+        "silver": {
+          "en_US": "51",
+          "es_MX": "51",
+          "pt_BR": "51",
+          "de_DE": "51",
+          "en_GB": "51",
+          "es_ES": "51",
+          "fr_FR": "51",
+          "it_IT": "51",
+          "ru_RU": "51",
+          "ko_KR": "51",
+          "zh_TW": "51",
+          "zh_CN": "51"
+        },
+        "copper": {
+          "en_US": "15",
+          "es_MX": "15",
+          "pt_BR": "15",
+          "de_DE": "15",
+          "en_GB": "15",
+          "es_ES": "15",
+          "fr_FR": "15",
+          "it_IT": "15",
+          "ru_RU": "15",
+          "ko_KR": "15",
+          "zh_TW": "15",
+          "zh_CN": "15"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 3,
+        "display_string": {
+          "en_US": "Requires Level 3",
+          "es_MX": "Necesitas ser de nivel 3",
+          "pt_BR": "Requer o Nível 3",
+          "de_DE": "Benötigt Stufe 3",
+          "en_GB": "Requires Level 3",
+          "es_ES": "Necesitas ser de nivel 3",
+          "fr_FR": "Niveau 3 requis",
+          "it_IT": "Richiede il livello 3",
+          "ru_RU": "Требуется 3-й уровень",
+          "ko_KR": "최소 요구 레벨: 3",
+          "zh_TW": "需要等級3",
+          "zh_CN": "需要等级 3"
+        }
+      }
+    },
+    "level": {
+      "value": 322,
+      "display_string": {
+        "en_US": "Item Level 322",
+        "es_MX": "Nivel de objeto 322",
+        "pt_BR": "Nível do Item: 322",
+        "de_DE": "Gegenstandsstufe 322",
+        "en_GB": "Item Level 322",
+        "es_ES": "Nivel de objeto 322",
+        "fr_FR": "Niveau d'objet 322",
+        "it_IT": "Livello oggetto: 322",
+        "ru_RU": "Уровень предмета: 322",
+        "ko_KR": "아이템 레벨: 322",
+        "zh_TW": "物品等級322",
+        "zh_CN": "物品等级322"
+      }
+    },
+    "durability": {
+      "value": 45,
+      "display_string": {
+        "en_US": "Durability 45 / 45",
+        "es_MX": "Durabilidad 45 / 45",
+        "pt_BR": "Durabilidade 45 / 45",
+        "de_DE": "Haltbarkeit 45 / 45",
+        "en_GB": "Durability 45 / 45",
+        "es_ES": "Durabilidad 45 / 45",
+        "fr_FR": "Durabilité : 45 / 45",
+        "it_IT": "Integrità 45/45",
+        "ru_RU": "Прочность: 45 / 45",
+        "ko_KR": "내구도 45 / 45",
+        "zh_TW": "耐久度 45 / 45",
+        "zh_CN": "耐久度 45 / 45"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/446?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 446
+    }
+  ]
+}

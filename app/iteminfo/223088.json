@@ -1,0 +1,365 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/223088?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 223088,
+  "name": {
+    "en_US": "Design: Elusive Blasphemite",
+    "es_MX": "Boceto: Blasfemita esquiva",
+    "pt_BR": "Desenho: Blasfemita Esquiva",
+    "de_DE": "Vorlage: Flüchtiger Blasphemit",
+    "en_GB": "Design: Elusive Blasphemite",
+    "es_ES": "Boceto: blasfemita esquiva",
+    "fr_FR": "Dessin : blasphémite insaisissable",
+    "it_IT": "Modello: Blasfemite Elusiva",
+    "ru_RU": "Эскиз: профанит неуловимости",
+    "ko_KR": "디자인: 교묘함의 블라스페마이트",
+    "zh_TW": "設計圖：飄渺的褻瀆石",
+    "zh_CN": "图鉴：灵动渎神玉"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/223088?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 223088
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Jewelcrafting",
+      "es_MX": "Joyería",
+      "pt_BR": "Joalheria",
+      "de_DE": "Juwelierskunst",
+      "en_GB": "Jewelcrafting",
+      "es_ES": "Joyería",
+      "fr_FR": "Joaillerie",
+      "it_IT": "Oreficeria",
+      "ru_RU": "Ювелирное дело",
+      "ko_KR": "보석세공",
+      "zh_TW": "珠寶設計",
+      "zh_CN": "珠宝加工"
+    },
+    "id": 10
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 5,
+  "sell_price": 1,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Elusive Blasphemite.",
+    "es_MX": "Te enseña a fabricar una Blasfemita esquiva.",
+    "pt_BR": "Ensina a fazer Blasfemita Esquiva.",
+    "de_DE": "Lehrt Euch, wie man einen flüchtigen Blasphemit herstellt.",
+    "en_GB": "Teaches you how to craft Elusive Blasphemite.",
+    "es_ES": "Te enseña a fabricar una blasfemita esquiva.",
+    "fr_FR": "Vous apprend à façonner une blasphémite insaisissable.",
+    "it_IT": "Ti insegna a creare una Blasfemite Elusiva.",
+    "ru_RU": "Обучает изготовлению профанита неуловимости.",
+    "ko_KR": "교묘함의 블라스페마이트 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作飄渺的褻瀆石。",
+    "zh_CN": "教你学会制作灵动渎神玉。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/223088?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 223088
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Design: Elusive Blasphemite",
+      "es_MX": "Boceto: Blasfemita esquiva",
+      "pt_BR": "Desenho: Blasfemita Esquiva",
+      "de_DE": "Vorlage: Flüchtiger Blasphemit",
+      "en_GB": "Design: Elusive Blasphemite",
+      "es_ES": "Boceto: blasfemita esquiva",
+      "fr_FR": "Dessin : blasphémite insaisissable",
+      "it_IT": "Modello: Blasfemite Elusiva",
+      "ru_RU": "Эскиз: профанит неуловимости",
+      "ko_KR": "디자인: 교묘함의 블라스페마이트",
+      "zh_TW": "設計圖：飄渺的褻瀆石",
+      "zh_CN": "图鉴：灵动渎神玉"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/223088?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 223088
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Jewelcrafting",
+        "es_MX": "Joyería",
+        "pt_BR": "Joalheria",
+        "de_DE": "Juwelierskunst",
+        "en_GB": "Jewelcrafting",
+        "es_ES": "Joyería",
+        "fr_FR": "Joaillerie",
+        "it_IT": "Oreficeria",
+        "ru_RU": "Ювелирное дело",
+        "ko_KR": "보석세공",
+        "zh_TW": "珠寶設計",
+        "zh_CN": "珠宝加工"
+      },
+      "id": 10
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/435319?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Elusive Blasphemite",
+            "es_MX": "Blasfemita esquiva",
+            "pt_BR": "Blasfemita Esquiva",
+            "de_DE": "Flüchtiger Blasphemit",
+            "en_GB": "Elusive Blasphemite",
+            "es_ES": "Blasfemita esquiva",
+            "fr_FR": "Blasphémite insaisissable",
+            "it_IT": "Blasfemite Elusiva",
+            "ru_RU": "Профанит неуловимости",
+            "ko_KR": "교묘함의 블라스페마이트",
+            "zh_TW": "飄渺的褻瀆石",
+            "zh_CN": "灵动渎神玉"
+          },
+          "id": 435319
+        },
+        "description": {
+          "en_US": "Use: Teaches you how to craft Elusive Blasphemite.",
+          "es_MX": "Usar: Te enseña a fabricar una Blasfemita esquiva.",
+          "pt_BR": "Usar: Ensina a fazer Blasfemita Esquiva.",
+          "de_DE": "Benutzen: Lehrt Euch, wie man einen flüchtigen Blasphemit herstellt.",
+          "en_GB": "Use: Teaches you how to craft Elusive Blasphemite.",
+          "es_ES": "Uso: Te enseña a fabricar una blasfemita esquiva.",
+          "fr_FR": "Utiliser : Vous apprend à façonner une blasphémite insaisissable.",
+          "it_IT": "Usa: Ti insegna a creare una Blasfemite Elusiva.",
+          "ru_RU": "Использование: Обучает изготовлению профанита неуловимости.",
+          "ko_KR": "사용 효과: 교묘함의 블라스페마이트 만드는 법을 배웁니다.",
+          "zh_TW": "使用： 教你學會如何製作飄渺的褻瀆石。",
+          "zh_CN": "使用： 教你学会制作灵动渎神玉。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "1",
+          "es_MX": "1",
+          "pt_BR": "1",
+          "de_DE": "1",
+          "en_GB": "1",
+          "es_ES": "1",
+          "fr_FR": "1",
+          "it_IT": "1",
+          "ru_RU": "1",
+          "ko_KR": "1",
+          "zh_TW": "1",
+          "zh_CN": "1"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2879?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Khaz Algar Jewelcrafting",
+            "es_MX": "Joyería de Khaz Algar",
+            "pt_BR": "Joalheria de Khaz Algar",
+            "de_DE": "Juwelierskunst von Khaz Algar",
+            "en_GB": "Khaz Algar Jewelcrafting",
+            "es_ES": "Joyería de Khaz Algar",
+            "fr_FR": "Joaillerie de Khaz Algar",
+            "it_IT": "Oreficeria di Khaz Algar",
+            "ru_RU": "Ювелирное дело Каз Алгара",
+            "ko_KR": "카즈 알가르 보석세공",
+            "zh_TW": "卡茲阿爾加珠寶設計",
+            "zh_CN": "卡兹阿加珠宝加工"
+          },
+          "id": 2879
+        },
+        "level": 30,
+        "display_string": {
+          "en_US": "Requires Khaz Algar Jewelcrafting (30)",
+          "es_MX": "Requiere Joyería de Khaz Algar (30)",
+          "pt_BR": "Requer Joalheria de Khaz Algar (30)",
+          "de_DE": "Benötigt Juwelierskunst von Khaz Algar (30)",
+          "en_GB": "Requires Khaz Algar Jewelcrafting (30)",
+          "es_ES": "Requiere Joyería de Khaz Algar (30)",
+          "fr_FR": "Joaillerie de Khaz Algar (30) requis",
+          "it_IT": "Richiede: Oreficeria di Khaz Algar (30)",
+          "ru_RU": "Требуется: Ювелирное дело Каз Алгара (30)",
+          "ko_KR": "요구 사항: 카즈 알가르 보석세공 (30)",
+          "zh_TW": "需要卡茲阿爾加珠寶設計(30)",
+          "zh_CN": "需要卡兹阿加珠宝加工（30）"
+        }
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

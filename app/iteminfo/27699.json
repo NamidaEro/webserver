@@ -1,0 +1,603 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/27699?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 27699,
+  "name": {
+    "en_US": "Recipe: Golden Fish Sticks",
+    "es_MX": "Receta: palitos de pez dorado",
+    "pt_BR": "Receita: Palitinhos de Peixe Dourado",
+    "de_DE": "Rezept: Goldfischstäbchen",
+    "en_GB": "Recipe: Golden Fish Sticks",
+    "es_ES": "Receta: palitos de pez dorado",
+    "fr_FR": "Recette : Bâtonnets de poisson doré",
+    "it_IT": "Ricetta: Bastoncini Panati di Pesci Rossi",
+    "ru_RU": "Рецепт: палочки из золотой рыбки",
+    "ko_KR": "조리법: 황금 어묵",
+    "zh_TW": "食譜：金魚肉串",
+    "zh_CN": "食谱：金色鱼柳"
+  },
+  "quality": {
+    "type": "COMMON",
+    "name": {
+      "en_US": "Common",
+      "es_MX": "Común",
+      "pt_BR": "Comum",
+      "de_DE": "Gewöhnlich",
+      "en_GB": "Common",
+      "es_ES": "Común",
+      "fr_FR": "Commun",
+      "it_IT": "Comune",
+      "ru_RU": "Обычное",
+      "ko_KR": "일반",
+      "zh_TW": "普通",
+      "zh_CN": "普通"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/27699?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 27699
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/5?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cooking",
+      "es_MX": "Cocina",
+      "pt_BR": "Culinária",
+      "de_DE": "Kochkunst",
+      "en_GB": "Cooking",
+      "es_ES": "Cocina",
+      "fr_FR": "Cuisine",
+      "it_IT": "Cucina",
+      "ru_RU": "Кулинария",
+      "ko_KR": "요리",
+      "zh_TW": "烹飪",
+      "zh_CN": "烹饪"
+    },
+    "id": 5
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 30000,
+  "sell_price": 7500,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to cook Golden Fish Sticks.",
+    "es_MX": "Te enseña a cocinar palitos de pez dorado.",
+    "pt_BR": "Ensina a preparar Palitinhos de Peixe Dourado.",
+    "de_DE": "Lehrt Euch die Zubereitung von Goldfischstäbchen.",
+    "en_GB": "Teaches you how to cook Golden Fish Sticks.",
+    "es_ES": "Te enseña a cocinar palitos de pez dorado.",
+    "fr_FR": "Vous apprend à préparer des Bâtonnets de poisson doré.",
+    "it_IT": "Ti insegna a cucinare dei Bastoncini Panati di Pesci Rossi.",
+    "ru_RU": "Обучает приготовлению палочек из золотой рыбки.",
+    "ko_KR": "황금 어묵 요리하는 법을 배웁니다.",
+    "zh_TW": "教你學會如何烹製金魚肉串。",
+    "zh_CN": "教你学会烹制金色鱼柳。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/27699?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 27699
+    },
+    "quality": {
+      "type": "COMMON",
+      "name": {
+        "en_US": "Common",
+        "es_MX": "Común",
+        "pt_BR": "Comum",
+        "de_DE": "Gewöhnlich",
+        "en_GB": "Common",
+        "es_ES": "Común",
+        "fr_FR": "Commun",
+        "it_IT": "Comune",
+        "ru_RU": "Обычное",
+        "ko_KR": "일반",
+        "zh_TW": "普通",
+        "zh_CN": "普通"
+      }
+    },
+    "name": {
+      "en_US": "Recipe: Golden Fish Sticks",
+      "es_MX": "Receta: palitos de pez dorado",
+      "pt_BR": "Receita: Palitinhos de Peixe Dourado",
+      "de_DE": "Rezept: Goldfischstäbchen",
+      "en_GB": "Recipe: Golden Fish Sticks",
+      "es_ES": "Receta: palitos de pez dorado",
+      "fr_FR": "Recette : Bâtonnets de poisson doré",
+      "it_IT": "Ricetta: Bastoncini Panati di Pesci Rossi",
+      "ru_RU": "Рецепт: палочки из золотой рыбки",
+      "ko_KR": "조리법: 황금 어묵",
+      "zh_TW": "食譜：金魚肉串",
+      "zh_CN": "食谱：金色鱼柳"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/27699?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 27699
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/5?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cooking",
+        "es_MX": "Cocina",
+        "pt_BR": "Culinária",
+        "de_DE": "Kochkunst",
+        "en_GB": "Cooking",
+        "es_ES": "Cocina",
+        "fr_FR": "Cuisine",
+        "it_IT": "Cucina",
+        "ru_RU": "Кулинария",
+        "ko_KR": "요리",
+        "zh_TW": "烹飪",
+        "zh_CN": "烹饪"
+      },
+      "id": 5
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 7500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "75",
+          "es_MX": "75",
+          "pt_BR": "75",
+          "de_DE": "75",
+          "en_GB": "75",
+          "es_ES": "75",
+          "fr_FR": "75",
+          "it_IT": "75",
+          "ru_RU": "75",
+          "ko_KR": "75",
+          "zh_TW": "75",
+          "zh_CN": "75"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2547?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Outland Cooking",
+            "es_MX": "Cocina de Terrallende",
+            "pt_BR": "Culinária de Terralém",
+            "de_DE": "Kochkunst der Scherbenwelt",
+            "en_GB": "Outland Cooking",
+            "es_ES": "Cocina de Terrallende",
+            "fr_FR": "Cuisine d’Outreterre",
+            "it_IT": "Cucina delle Terre Esterne",
+            "ru_RU": "Кулинария Запределья",
+            "ko_KR": "아웃랜드 요리",
+            "zh_TW": "外域烹飪",
+            "zh_CN": "外域烹饪"
+          },
+          "id": 2547
+        },
+        "level": 25,
+        "display_string": {
+          "en_US": "Requires Outland Cooking (25)",
+          "es_MX": "Requiere Cocina de Terrallende (25)",
+          "pt_BR": "Requer Culinária de Terralém (25)",
+          "de_DE": "Benötigt Kochkunst der Scherbenwelt (25)",
+          "en_GB": "Requires Outland Cooking (25)",
+          "es_ES": "Requiere Cocina de Terrallende (25)",
+          "fr_FR": "Cuisine d’Outreterre (25) requis",
+          "it_IT": "Richiede: Cucina delle Terre Esterne (25)",
+          "ru_RU": "Требуется: Кулинария Запределья (25)",
+          "ko_KR": "요구 사항: 아웃랜드 요리 (25)",
+          "zh_TW": "需要外域烹飪(25)",
+          "zh_CN": "需要外域烹饪（25）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to cook Golden Fish Sticks.",
+      "es_MX": "Te enseña a cocinar palitos de pez dorado.",
+      "pt_BR": "Ensina a preparar Palitinhos de Peixe Dourado.",
+      "de_DE": "Lehrt Euch die Zubereitung von Goldfischstäbchen.",
+      "en_GB": "Teaches you how to cook Golden Fish Sticks.",
+      "es_ES": "Te enseña a cocinar palitos de pez dorado.",
+      "fr_FR": "Vous apprend à préparer des Bâtonnets de poisson doré.",
+      "it_IT": "Ti insegna a cucinare dei Bastoncini Panati di Pesci Rossi.",
+      "ru_RU": "Обучает приготовлению палочек из золотой рыбки.",
+      "ko_KR": "황금 어묵 요리하는 법을 배웁니다.",
+      "zh_TW": "教你學會如何烹製金魚肉串。",
+      "zh_CN": "教你学会烹制金色鱼柳。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/27666?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 27666
+        },
+        "quality": {
+          "type": "COMMON",
+          "name": {
+            "en_US": "Common",
+            "es_MX": "Común",
+            "pt_BR": "Comum",
+            "de_DE": "Gewöhnlich",
+            "en_GB": "Common",
+            "es_ES": "Común",
+            "fr_FR": "Commun",
+            "it_IT": "Comune",
+            "ru_RU": "Обычное",
+            "ko_KR": "일반",
+            "zh_TW": "普通",
+            "zh_CN": "普通"
+          }
+        },
+        "name": {
+          "en_US": "Golden Fish Sticks",
+          "es_MX": "Palitos de pez dorado",
+          "pt_BR": "Palitinhos de Peixe Dourado",
+          "de_DE": "Goldfischstäbchen",
+          "en_GB": "Golden Fish Sticks",
+          "es_ES": "Palitos de pez dorado",
+          "fr_FR": "Bâtonnets de poisson doré",
+          "it_IT": "Bastoncini Panati di Pesci Rossi",
+          "ru_RU": "Палочки из золотой рыбки",
+          "ko_KR": "황금 어묵",
+          "zh_TW": "金魚肉串",
+          "zh_CN": "金色鱼柳"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/27666?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 27666
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Consumable",
+            "es_MX": "Consumible",
+            "pt_BR": "Consumível",
+            "de_DE": "Verbrauchbares",
+            "en_GB": "Consumable",
+            "es_ES": "Consumible",
+            "fr_FR": "Consommable",
+            "it_IT": "Consumabili",
+            "ru_RU": "Расходуемые",
+            "ko_KR": "소비용품",
+            "zh_TW": "消耗品",
+            "zh_CN": "消耗品"
+          },
+          "id": 0
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/5?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Food & Drink",
+            "es_MX": "Comida y bebida",
+            "pt_BR": "Comida e Bebida",
+            "de_DE": "Speis & Trank",
+            "en_GB": "Food & Drink",
+            "es_ES": "Comida y bebida",
+            "fr_FR": "Nourriture et boissons",
+            "it_IT": "Cibo e bevande",
+            "ru_RU": "Еда и напитки",
+            "ko_KR": "음식과 음료",
+            "zh_TW": "食物和飲料",
+            "zh_CN": "食物和饮水"
+          },
+          "id": 5
+        },
+        "inventory_type": {
+          "type": "NON_EQUIP",
+          "name": {
+            "en_US": "Non-equippable",
+            "es_MX": "No equipable",
+            "pt_BR": "Não equipável",
+            "de_DE": "Nicht anlegbar",
+            "en_GB": "Non-equippable",
+            "es_ES": "No se puede equipar",
+            "fr_FR": "Objet hors équipement",
+            "it_IT": "Non equipaggiabile",
+            "ru_RU": "Неэкипируемое",
+            "ko_KR": "착용 불가",
+            "zh_TW": "無法裝備",
+            "zh_CN": "无法装备"
+          }
+        },
+        "spells": [
+          {
+            "spell": {
+              "key": {
+                "href": "https://kr.api.blizzard.com/data/wow/spell/33269?namespace=static-11.1.5_60179-kr"
+              },
+              "name": {
+                "en_US": "Food",
+                "es_MX": "Comida",
+                "pt_BR": "Comida",
+                "de_DE": "Essen",
+                "en_GB": "Food",
+                "es_ES": "Comida",
+                "fr_FR": "Nourriture",
+                "it_IT": "Cibo",
+                "ru_RU": "Пища",
+                "ko_KR": "음식",
+                "zh_TW": "進食",
+                "zh_CN": "进食"
+              },
+              "id": 33269
+            },
+            "description": {
+              "en_US": "Use: Restores 2,130 health over 30 sec.  Must remain seated while eating.  If you spend at least 10 seconds eating you will become well fed and increase Spell Power by 3 and Versatility by 3 for 30 min. (1 Sec Cooldown)",
+              "es_MX": "Usar: Restablece 2,130 p. de salud en un lapso de 30 s. Debes permanecer sentado mientras comes. Si comes durante al menos 10 s, quedarás bien alimentado y aumentarás 3 p. el poder con hechizos y 3 p. la versatilidad durante 30 min. (1 s de tiempo de reutilización)",
+              "pt_BR": "Usar: Restaura 2.130 pontos de vida ao longo de 30 s. É preciso ficar sentado enquanto come. Se você gastar pelo menos 10 segundos comendo, ficará bem alimentado e aumentará em 3 o Poder Mágico em 3 a Versatilidade por 30 min. (1 s de recarga)",
+              "de_DE": "Benutzen: Stellt im Verlauf von 30 Sek. 2.130 Gesundheit wieder her. Ihr müsst beim Essen sitzen bleiben. Wenn Ihr mindestens 10 Sek. mit Essen verbringt, werdet Ihr satt und erhaltet 30 Min. lang 3 Zaubermacht und 3 Vielseitigkeit. (1 Sek. Abklingzeit)",
+              "en_GB": "Use: Restores 2,130 health over 30 sec.  Must remain seated while eating.  If you spend at least 10 seconds eating you will become well fed and increase Spell Power by 3 and Versatility by 3 for 30 min. (1 Sec Cooldown)",
+              "es_ES": "Uso: Restaura 2130 p. de salud durante 30 s. Debes permanecer sentado mientras comes. Si comes durante al menos 10 s, estarás bien alimentado y ganarás 3 p. de poder con hechizos y 3 p. de versatilidad durante 30 min. (1 s de tiempo de reutilización).",
+              "fr_FR": "Utiliser : Rend 2130 points de vie en 30 s. Vous devez rester assis pendant que vous mangez. Si vous passez au moins 10 secondes à manger, vous serez « bien nourri » et bénéficierez d’un bonus de 3 à la puissance des sorts et de 3 à la polyvalence pendant 30 min. (1 s de recharge)",
+              "it_IT": "Usa: Rigenera 2.130 salute in 30 s. Devi sederti per mangiare. Se mangi per almeno 10 s diventi Ben Nutrito e guadagni 3 potenza magica e 3 indice di versatilità per 30 min. (1 s di recupero)",
+              "ru_RU": "Использование: Восполняет 2130 ед. здоровья за 30 сек. Действие прерывается, если встать с места. По истечении 10 сек. персонаж насыщается, и его сила заклинаний повышается на 3, а универсальность – на 3 на 30 мин. (Восстановление: 1 с.)",
+              "ko_KR": "사용 효과: 30초에 걸쳐 총 2,130의 생명력이 회복됩니다. 음식을 먹으려면 앉아 있어야 합니다. 음식을 꾸준히 10초 이상 먹으면 포만감을 느끼게 되고 30분 동안 주문력이 3만큼, 유연성이 3만큼 증가합니다. (1초 후 재사용 가능)",
+              "zh_TW": "使用： 在30秒內恢復總計2,130點生命力。進食時必須保持坐姿。如果進食時間超過10秒，你將因充分進食而獲得3點法術能量和3點臨機應變，持續30分鐘。 (1秒冷卻時間)",
+              "zh_CN": "使用： 在30秒内恢复2,130点生命值。进食时必须保持坐姿。如果你花费至少10秒进食，则会获得进食充分效果，使你的法术强度提高3点，全能提高3，持续30分钟。 （1秒冷却）"
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 150,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "1",
+              "es_MX": "1",
+              "pt_BR": "1",
+              "de_DE": "1",
+              "en_GB": "1",
+              "es_ES": "1",
+              "fr_FR": "1",
+              "it_IT": "1",
+              "ru_RU": "1",
+              "ko_KR": "1",
+              "zh_TW": "1",
+              "zh_CN": "1"
+            },
+            "copper": {
+              "en_US": "50",
+              "es_MX": "50",
+              "pt_BR": "50",
+              "de_DE": "50",
+              "en_GB": "50",
+              "es_ES": "50",
+              "fr_FR": "50",
+              "it_IT": "50",
+              "ru_RU": "50",
+              "ko_KR": "50",
+              "zh_TW": "50",
+              "zh_CN": "50"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 23,
+            "display_string": {
+              "en_US": "Requires Level 23",
+              "es_MX": "Necesitas ser de nivel 23",
+              "pt_BR": "Requer o Nível 23",
+              "de_DE": "Benötigt Stufe 23",
+              "en_GB": "Requires Level 23",
+              "es_ES": "Necesitas ser de nivel 23",
+              "fr_FR": "Niveau 23 requis",
+              "it_IT": "Richiede il livello 23",
+              "ru_RU": "Требуется 23-й уровень",
+              "ko_KR": "최소 요구 레벨: 23",
+              "zh_TW": "需要等級23",
+              "zh_CN": "需要等级 23"
+            }
+          }
+        },
+        "is_subclass_hidden": true
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/27438?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Golden Darter",
+              "es_MX": "Dardo dorado",
+              "pt_BR": "Plati Dourado",
+              "de_DE": "Goldener Stachelflosser",
+              "en_GB": "Golden Darter",
+              "es_ES": "Dardo dorado",
+              "fr_FR": "Dard doré",
+              "it_IT": "Pesce Rosso",
+              "ru_RU": "Золотой ерш",
+              "ko_KR": "황금 화살고기",
+              "zh_TW": "金色淡水小魚",
+              "zh_CN": "金镖鱼"
+            },
+            "id": 27438
+          },
+          "quantity": 1
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Golden Darter",
+        "es_MX": "Dardo dorado",
+        "pt_BR": "Plati Dourado",
+        "de_DE": "Goldener Stachelflosser",
+        "en_GB": "Golden Darter",
+        "es_ES": "Dardo dorado",
+        "fr_FR": "Dard doré",
+        "it_IT": "Pesce Rosso",
+        "ru_RU": "Золотой ерш",
+        "ko_KR": "황금 화살고기",
+        "zh_TW": "金色淡水小魚",
+        "zh_CN": "金镖鱼"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

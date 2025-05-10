@@ -15,18 +15,17 @@ const oauthClient = new OAuthClient({
   },
 });
 
-export async function GET(request: Request) {
+export async function GET(req: Request) {
+  const urlParams = new URL(req.url).searchParams;
+  const connectedRealmId = urlParams.get('connectedRealmId');
+
+  if (!connectedRealmId) {
+    return NextResponse.json({ error: 'Missing connectedRealmId parameter' }, { status: 400 });
+  }
+
   try {
-    const { searchParams } = new URL(request.url);
-    const connectedRealmId = searchParams.get('connectedRealmId');
-
-    if (!connectedRealmId) {
-      return NextResponse.json({ error: 'connectedRealmId parameter is required' }, { status: 400 });
-    }
-
     const accessToken = await oauthClient.getToken();
     const url = `${API_BASE_URL}/connected-realm/${connectedRealmId}?namespace=dynamic-${REGION}&locale=${LOCALE}`;
-    // console.log('URL:', url);
     const headers = {
       Authorization: `Bearer ${accessToken}`,
     };

@@ -1,0 +1,451 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/25036?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 25036,
+  "name": {
+    "en_US": "Boulderfist Cloak",
+    "es_MX": "Capa de Puño de Roca",
+    "pt_BR": "Manto Punho de Pedra",
+    "de_DE": "Felsfaustumhang",
+    "en_GB": "Boulderfist Cloak",
+    "es_ES": "Capa de Puño de Roca",
+    "fr_FR": "Cape rochepoing",
+    "it_IT": "Mantello dei Rocciadura",
+    "ru_RU": "Плащ Тяжелого Кулака",
+    "ko_KR": "돌주먹 망토",
+    "zh_TW": "石拳披風",
+    "zh_CN": "石拳披风"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 31,
+  "required_level": 25,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/25036?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 25036
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "CLOAK",
+    "name": {
+      "en_US": "Back",
+      "es_MX": "Espalda",
+      "pt_BR": "Costas",
+      "de_DE": "Rücken",
+      "en_GB": "Back",
+      "es_ES": "Espalda",
+      "fr_FR": "Dos",
+      "it_IT": "Schiena",
+      "ru_RU": "Спина",
+      "ko_KR": "등",
+      "zh_TW": "背部",
+      "zh_CN": "背部"
+    }
+  },
+  "purchase_price": 1825268,
+  "sell_price": 365053,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/25036?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 25036
+    },
+    "context": 0,
+    "bonus_list": [
+      6654
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Boulderfist Cloak",
+      "es_MX": "Capa de Puño de Roca",
+      "pt_BR": "Manto Punho de Pedra",
+      "de_DE": "Felsfaustumhang",
+      "en_GB": "Boulderfist Cloak",
+      "es_ES": "Capa de Puño de Roca",
+      "fr_FR": "Cape rochepoing",
+      "it_IT": "Mantello dei Rocciadura",
+      "ru_RU": "Плащ Тяжелого Кулака",
+      "ko_KR": "돌주먹 망토",
+      "zh_TW": "石拳披風",
+      "zh_CN": "石拳披风"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/25036?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 25036
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "CLOAK",
+      "name": {
+        "en_US": "Back",
+        "es_MX": "Espalda",
+        "pt_BR": "Costas",
+        "de_DE": "Rücken",
+        "en_GB": "Back",
+        "es_ES": "Espalda",
+        "fr_FR": "Dos",
+        "it_IT": "Schiena",
+        "ru_RU": "Спина",
+        "ko_KR": "등",
+        "zh_TW": "背部",
+        "zh_CN": "背部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 156,
+      "display": {
+        "display_string": {
+          "en_US": "156 Armor",
+          "es_MX": "156 p. de armadura",
+          "pt_BR": "156 de Armadura",
+          "de_DE": "156 Rüstung",
+          "en_GB": "156 Armor",
+          "es_ES": "156 p. de armadura",
+          "fr_FR": "Armure : 156",
+          "it_IT": "156 Armatura",
+          "ru_RU": "Броня: 156",
+          "ko_KR": "방어도 156",
+          "zh_TW": "156點護甲",
+          "zh_CN": "156点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": {
+            "en_US": "Strength",
+            "es_MX": "fuerza",
+            "pt_BR": "Força",
+            "de_DE": "Stärke",
+            "en_GB": "Strength",
+            "es_ES": "fuerza",
+            "fr_FR": "Force",
+            "it_IT": "Forza",
+            "ru_RU": "к силе",
+            "ko_KR": "힘",
+            "zh_TW": "力量",
+            "zh_CN": "力量"
+          }
+        },
+        "value": 154,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+154 Strength",
+            "es_MX": "+154 fuerza",
+            "pt_BR": "+154 Força",
+            "de_DE": "+154 Stärke",
+            "en_GB": "+154 Strength",
+            "es_ES": "+154 fuerza",
+            "fr_FR": "+154 Force",
+            "it_IT": "+154 Forza",
+            "ru_RU": "+154 к силе",
+            "ko_KR": "힘 +154",
+            "zh_TW": "+154力量",
+            "zh_CN": "+154 力量"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 279,
+        "display": {
+          "display_string": {
+            "en_US": "+279 Stamina",
+            "es_MX": "+279 aguante",
+            "pt_BR": "+279 Vigor",
+            "de_DE": "+279 Ausdauer",
+            "en_GB": "+279 Stamina",
+            "es_ES": "+279 aguante",
+            "fr_FR": "+279 Endurance",
+            "it_IT": "+279 Tempra",
+            "ru_RU": "+279 к выносливости",
+            "ko_KR": "체력 +279",
+            "zh_TW": "+279耐力",
+            "zh_CN": "+279 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 266407,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "26",
+          "es_MX": "26",
+          "pt_BR": "26",
+          "de_DE": "26",
+          "en_GB": "26",
+          "es_ES": "26",
+          "fr_FR": "26",
+          "it_IT": "26",
+          "ru_RU": "26",
+          "ko_KR": "26",
+          "zh_TW": "26",
+          "zh_CN": "26"
+        },
+        "silver": {
+          "en_US": "64",
+          "es_MX": "64",
+          "pt_BR": "64",
+          "de_DE": "64",
+          "en_GB": "64",
+          "es_ES": "64",
+          "fr_FR": "64",
+          "it_IT": "64",
+          "ru_RU": "64",
+          "ko_KR": "64",
+          "zh_TW": "64",
+          "zh_CN": "64"
+        },
+        "copper": {
+          "en_US": "7",
+          "es_MX": "7",
+          "pt_BR": "7",
+          "de_DE": "7",
+          "en_GB": "7",
+          "es_ES": "7",
+          "fr_FR": "7",
+          "it_IT": "7",
+          "ru_RU": "7",
+          "ko_KR": "7",
+          "zh_TW": "7",
+          "zh_CN": "7"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 25,
+        "display_string": {
+          "en_US": "Requires Level 25",
+          "es_MX": "Necesitas ser de nivel 25",
+          "pt_BR": "Requer o Nível 25",
+          "de_DE": "Benötigt Stufe 25",
+          "en_GB": "Requires Level 25",
+          "es_ES": "Necesitas ser de nivel 25",
+          "fr_FR": "Niveau 25 requis",
+          "it_IT": "Richiede il livello 25",
+          "ru_RU": "Требуется 25-й уровень",
+          "ko_KR": "최소 요구 레벨: 25",
+          "zh_TW": "需要等級25",
+          "zh_CN": "需要等级 25"
+        }
+      }
+    },
+    "level": {
+      "value": 357,
+      "display_string": {
+        "en_US": "Item Level 357",
+        "es_MX": "Nivel de objeto 357",
+        "pt_BR": "Nível do Item: 357",
+        "de_DE": "Gegenstandsstufe 357",
+        "en_GB": "Item Level 357",
+        "es_ES": "Nivel de objeto 357",
+        "fr_FR": "Niveau d'objet 357",
+        "it_IT": "Livello oggetto: 357",
+        "ru_RU": "Уровень предмета: 357",
+        "ko_KR": "아이템 레벨: 357",
+        "zh_TW": "物品等級357",
+        "zh_CN": "物品等级357"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/4461?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 4461
+    }
+  ]
+}

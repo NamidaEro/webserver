@@ -1,0 +1,265 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/21309?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 21309,
+  "name": {
+    "en_US": "Snowman Kit",
+    "es_MX": "Equipo de muñeco de nieve",
+    "pt_BR": "Kit de Boneco de Neve",
+    "de_DE": "Schneemannset",
+    "en_GB": "Snowman Kit",
+    "es_ES": "Equipo de muñeco de nieve",
+    "fr_FR": "Boîte de bonhomme de neige",
+    "it_IT": "Kit per Pupazzo di Neve",
+    "ru_RU": "Сделай сам: снеговик",
+    "ko_KR": "눈사람 세트",
+    "zh_TW": "雪人工具",
+    "zh_CN": "雪孩子工具包"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/21309?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 21309
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "杂项"
+    },
+    "id": 15
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Companion Pets",
+      "es_MX": "Mascotas de compañía",
+      "pt_BR": "Mascotes",
+      "de_DE": "Haustier",
+      "en_GB": "Companion Pets",
+      "es_ES": "Mascotas de compañía",
+      "fr_FR": "Mascottes",
+      "it_IT": "Mascotte",
+      "ru_RU": "Питомцы",
+      "ko_KR": "애완동물 친구",
+      "zh_TW": "寵物夥伴",
+      "zh_CN": "宠物小伙伴"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to summon this companion.",
+    "es_MX": "Te enseña a invocar este compañero.",
+    "pt_BR": "Ensina a evocar esta mascote.",
+    "de_DE": "Lehrt Euch, wie man dieses Haustier beschwört.",
+    "en_GB": "Teaches you how to summon this companion.",
+    "es_ES": "Te enseña a invocar este compañero.",
+    "fr_FR": "Vous apprend à invoquer cette mascotte.",
+    "it_IT": "Ti insegna a evocare questa mascotte.",
+    "ru_RU": "Учит призывать этого спутника.",
+    "ko_KR": "애완동물 친구를 소환하는 법을 배웁니다.",
+    "zh_TW": "教你學會如何召喚這個夥伴。",
+    "zh_CN": "教你学会召唤这种小伙伴。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/21309?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 21309
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Snowman Kit",
+      "es_MX": "Equipo de muñeco de nieve",
+      "pt_BR": "Kit de Boneco de Neve",
+      "de_DE": "Schneemannset",
+      "en_GB": "Snowman Kit",
+      "es_ES": "Equipo de muñeco de nieve",
+      "fr_FR": "Boîte de bonhomme de neige",
+      "it_IT": "Kit per Pupazzo di Neve",
+      "ru_RU": "Сделай сам: снеговик",
+      "ko_KR": "눈사람 세트",
+      "zh_TW": "雪人工具",
+      "zh_CN": "雪孩子工具包"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/21309?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 21309
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "杂项"
+      },
+      "id": 15
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Companion Pets",
+        "es_MX": "Mascotas de compañía",
+        "pt_BR": "Mascotes",
+        "de_DE": "Haustier",
+        "en_GB": "Companion Pets",
+        "es_ES": "Mascotas de compañía",
+        "fr_FR": "Mascottes",
+        "it_IT": "Mascotte",
+        "ru_RU": "Питомцы",
+        "ko_KR": "애완동물 친구",
+        "zh_TW": "寵物夥伴",
+        "zh_CN": "宠物小伙伴"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/26045?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Tiny Snowman",
+            "es_MX": "Muñeco de nieve diminuto",
+            "pt_BR": "Bonequinho de Neve",
+            "de_DE": "Winziger Schneemann",
+            "en_GB": "Tiny Snowman",
+            "es_ES": "Muñeco de nieve diminuto",
+            "fr_FR": "Mini-bonhomme de neige",
+            "it_IT": "Pupazzo di Neve Piccino",
+            "ru_RU": "Снеговичок",
+            "ko_KR": "꼬마 눈사람",
+            "zh_TW": "小雪人",
+            "zh_CN": "雪孩子"
+          },
+          "id": 26045
+        },
+        "description": {
+          "en_US": "Use: Teaches you how to summon this companion.",
+          "es_MX": "Usar: Te enseña a invocar este compañero.",
+          "pt_BR": "Usar: Ensina a evocar esta mascote.",
+          "de_DE": "Benutzen: Lehrt Euch, wie man dieses Haustier beschwört.",
+          "en_GB": "Use: Teaches you how to summon this companion.",
+          "es_ES": "Uso: Te enseña a invocar este compañero.",
+          "fr_FR": "Utiliser : Vous apprend à invoquer cette mascotte.",
+          "it_IT": "Usa: Ti insegna a evocare questa mascotte.",
+          "ru_RU": "Использование: Учит призывать этого спутника.",
+          "ko_KR": "사용 효과: 애완동물 친구를 소환하는 법을 배웁니다.",
+          "zh_TW": "使用： 教你學會如何召喚這個夥伴。",
+          "zh_CN": "使用： 教你学会召唤这种小伙伴。"
+        }
+      }
+    ],
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

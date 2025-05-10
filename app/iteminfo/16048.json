@@ -1,0 +1,839 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/16048?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 16048,
+  "name": {
+    "en_US": "Schematic: Dark Iron Rifle",
+    "es_MX": "Esquema: rifle Hierro Negro",
+    "pt_BR": "Diagrama: Rifle de Ferro Negro",
+    "de_DE": "Bauplan: Dunkeleisengewehr",
+    "en_GB": "Schematic: Dark Iron Rifle",
+    "es_ES": "Esquema: rifle Hierro Negro",
+    "fr_FR": "Schéma : Carabine en sombrefer",
+    "it_IT": "Schema: Archibugio dei Ferroscuro",
+    "ru_RU": "Схема: винтовка из черного железа",
+    "ko_KR": "설계도: 검은무쇠 소총",
+    "zh_TW": "結構圖：黑鐵步槍",
+    "zh_CN": "结构图：黑铁步枪"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/16048?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 16048
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Engineering",
+      "es_MX": "Ingeniería",
+      "pt_BR": "Engenharia",
+      "de_DE": "Ingenieurskunst",
+      "en_GB": "Engineering",
+      "es_ES": "Ingeniería",
+      "fr_FR": "Ingénierie",
+      "it_IT": "Ingegneria",
+      "ru_RU": "Инженерное дело",
+      "ko_KR": "기계공학",
+      "zh_TW": "工程學",
+      "zh_CN": "工程学"
+    },
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 16000,
+  "sell_price": 4000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to make a Dark Iron Rifle.",
+    "es_MX": "Te enseña a hacer un rifle Hierro Negro.",
+    "pt_BR": "Ensina a fazer Rifle de Ferro Negro.",
+    "de_DE": "Lehrt Euch die Herstellung eines Dunkeleisengewehrs.",
+    "en_GB": "Teaches you how to make a Dark Iron Rifle.",
+    "es_ES": "Te enseña a hacer un rifle Hierro Negro.",
+    "fr_FR": "Vous apprend à fabriquer une Carabine en sombrefer.",
+    "it_IT": "Ti insegna a creare un Archibugio dei Ferroscuro.",
+    "ru_RU": "Обучает изготовлению винтовки из черного железа.",
+    "ko_KR": "검은무쇠 소총 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作黑鐵步槍。",
+    "zh_CN": "教你学会制作黑铁步枪。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/16048?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 16048
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Schematic: Dark Iron Rifle",
+      "es_MX": "Esquema: rifle Hierro Negro",
+      "pt_BR": "Diagrama: Rifle de Ferro Negro",
+      "de_DE": "Bauplan: Dunkeleisengewehr",
+      "en_GB": "Schematic: Dark Iron Rifle",
+      "es_ES": "Esquema: rifle Hierro Negro",
+      "fr_FR": "Schéma : Carabine en sombrefer",
+      "it_IT": "Schema: Archibugio dei Ferroscuro",
+      "ru_RU": "Схема: винтовка из черного железа",
+      "ko_KR": "설계도: 검은무쇠 소총",
+      "zh_TW": "結構圖：黑鐵步槍",
+      "zh_CN": "结构图：黑铁步枪"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/16048?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 16048
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/3?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Engineering",
+        "es_MX": "Ingeniería",
+        "pt_BR": "Engenharia",
+        "de_DE": "Ingenieurskunst",
+        "en_GB": "Engineering",
+        "es_ES": "Ingeniería",
+        "fr_FR": "Ingénierie",
+        "it_IT": "Ingegneria",
+        "ru_RU": "Инженерное дело",
+        "ko_KR": "기계공학",
+        "zh_TW": "工程學",
+        "zh_CN": "工程学"
+      },
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 4000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "40",
+          "es_MX": "40",
+          "pt_BR": "40",
+          "de_DE": "40",
+          "en_GB": "40",
+          "es_ES": "40",
+          "fr_FR": "40",
+          "it_IT": "40",
+          "ru_RU": "40",
+          "ko_KR": "40",
+          "zh_TW": "40",
+          "zh_CN": "40"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Engineering",
+            "es_MX": "Ingeniería clásica",
+            "pt_BR": "Engenharia do Classic",
+            "de_DE": "Klassische Ingenieurskunst",
+            "en_GB": "Classic Engineering",
+            "es_ES": "Ingeniería clásica",
+            "fr_FR": "Ingénierie classique",
+            "it_IT": "Ingegneria Classica",
+            "ru_RU": "Классическое инженерное дело",
+            "ko_KR": "옛 기계공학",
+            "zh_TW": "艾澤拉斯工程學",
+            "zh_CN": "经典旧世工程学"
+          },
+          "id": 2506
+        },
+        "level": 275,
+        "display_string": {
+          "en_US": "Requires Classic Engineering (275)",
+          "es_MX": "Requiere Ingeniería clásica (275)",
+          "pt_BR": "Requer Engenharia do Classic (275)",
+          "de_DE": "Benötigt Klassische Ingenieurskunst (275)",
+          "en_GB": "Requires Classic Engineering (275)",
+          "es_ES": "Requiere Ingeniería clásica (275)",
+          "fr_FR": "Ingénierie classique (275) requis",
+          "it_IT": "Richiede: Ingegneria Classica (275)",
+          "ru_RU": "Требуется: Классическое инженерное дело (275)",
+          "ko_KR": "요구 사항: 옛 기계공학 (275)",
+          "zh_TW": "需要艾澤拉斯工程學(275)",
+          "zh_CN": "需要经典旧世工程学（275）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to make a Dark Iron Rifle.",
+      "es_MX": "Te enseña a hacer un rifle Hierro Negro.",
+      "pt_BR": "Ensina a fazer Rifle de Ferro Negro.",
+      "de_DE": "Lehrt Euch die Herstellung eines Dunkeleisengewehrs.",
+      "en_GB": "Teaches you how to make a Dark Iron Rifle.",
+      "es_ES": "Te enseña a hacer un rifle Hierro Negro.",
+      "fr_FR": "Vous apprend à fabriquer une Carabine en sombrefer.",
+      "it_IT": "Ti insegna a creare un Archibugio dei Ferroscuro.",
+      "ru_RU": "Обучает изготовлению винтовки из черного железа.",
+      "ko_KR": "검은무쇠 소총 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作黑鐵步槍。",
+      "zh_CN": "教你学会制作黑铁步枪。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/16004?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 16004
+        },
+        "quality": {
+          "type": "RARE",
+          "name": {
+            "en_US": "Rare",
+            "es_MX": "Raro",
+            "pt_BR": "Raro",
+            "de_DE": "Selten",
+            "en_GB": "Rare",
+            "es_ES": "Raro",
+            "fr_FR": "Rare",
+            "it_IT": "Raro",
+            "ru_RU": "Редкое",
+            "ko_KR": "희귀",
+            "zh_TW": "精良",
+            "zh_CN": "精良"
+          }
+        },
+        "name": {
+          "en_US": "Dark Iron Rifle",
+          "es_MX": "Rifle Hierro Negro",
+          "pt_BR": "Rifle de Ferro Negro",
+          "de_DE": "Dunkeleisengewehr",
+          "en_GB": "Dark Iron Rifle",
+          "es_ES": "Rifle Hierro Negro",
+          "fr_FR": "Carabine en sombrefer",
+          "it_IT": "Archibugio dei Ferroscuro",
+          "ru_RU": "Винтовка из черного железа",
+          "ko_KR": "검은무쇠 소총",
+          "zh_TW": "黑鐵步槍",
+          "zh_CN": "黑铁步枪"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/16004?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 16004
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Weapon",
+            "es_MX": "Arma",
+            "pt_BR": "Arma",
+            "de_DE": "Waffe",
+            "en_GB": "Weapon",
+            "es_ES": "Arma",
+            "fr_FR": "Arme",
+            "it_IT": "Arma",
+            "ru_RU": "Оружие",
+            "ko_KR": "무기",
+            "zh_TW": "武器",
+            "zh_CN": "武器"
+          },
+          "id": 2
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Gun",
+            "es_MX": "Arma de fuego",
+            "pt_BR": "Arma de fogo",
+            "de_DE": "Schusswaffe",
+            "en_GB": "Gun",
+            "es_ES": "Arma de fuego",
+            "fr_FR": "Arme à feu",
+            "it_IT": "Arma da fuoco",
+            "ru_RU": "Огнестрельное",
+            "ko_KR": "총",
+            "zh_TW": "槍械",
+            "zh_CN": "枪械"
+          },
+          "id": 3
+        },
+        "inventory_type": {
+          "type": "RANGEDRIGHT",
+          "name": {
+            "en_US": "Ranged",
+            "es_MX": "A distancia",
+            "pt_BR": "Longo alcance",
+            "de_DE": "Distanz",
+            "en_GB": "Ranged",
+            "es_ES": "A distancia",
+            "fr_FR": "À distance",
+            "it_IT": "A distanza",
+            "ru_RU": "Оружие дальнего боя",
+            "ko_KR": "원거리 장비",
+            "zh_TW": "遠程",
+            "zh_CN": "远程"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "weapon": {
+          "damage": {
+            "min_value": 5,
+            "max_value": 10,
+            "display_string": {
+              "en_US": "5 - 10 Damage",
+              "es_MX": "5 - 10 p. de daño",
+              "pt_BR": "5 - 10 de Dano",
+              "de_DE": "5 - 10 Schaden",
+              "en_GB": "5 - 10 Damage",
+              "es_ES": "5 - 10 p. de daño",
+              "fr_FR": "Dégâts : 5 - 10",
+              "it_IT": "5 - 10 Danni",
+              "ru_RU": "Урон: 5 - 10",
+              "ko_KR": "공격력 5 ~ 10",
+              "zh_TW": "5-10點傷害",
+              "zh_CN": "5 - 10点伤害"
+            },
+            "damage_class": {
+              "type": "PHYSICAL",
+              "name": {
+                "en_US": "Physical",
+                "es_MX": "Físico",
+                "pt_BR": "Físico",
+                "de_DE": "Körperlich",
+                "en_GB": "Physical",
+                "es_ES": "Físico",
+                "fr_FR": "Physique",
+                "it_IT": "Fisico",
+                "ru_RU": "физический",
+                "ko_KR": "물리",
+                "zh_TW": "物理",
+                "zh_CN": "物理"
+              }
+            }
+          },
+          "attack_speed": {
+            "value": 3000,
+            "display_string": {
+              "en_US": "Speed 3.00",
+              "es_MX": "Velocidad 3.00",
+              "pt_BR": "Velocidade 3,00",
+              "de_DE": "Geschwindigkeit 3,00",
+              "en_GB": "Speed 3.00",
+              "es_ES": "Velocidad 3,00",
+              "fr_FR": "Vitesse 3,00",
+              "it_IT": "Velocità 3,00",
+              "ru_RU": "Скорость 3,00",
+              "ko_KR": "속도 3.00",
+              "zh_TW": "速度 3.00",
+              "zh_CN": "速度 3.00"
+            }
+          },
+          "dps": {
+            "value": 2.4999998,
+            "display_string": {
+              "en_US": "(2.5 damage per second)",
+              "es_MX": "(2.5 p. de daño por segundo)",
+              "pt_BR": "(2,5 de dano por segundo)",
+              "de_DE": "(2,5 Schaden pro Sekunde)",
+              "en_GB": "(2.5 damage per second)",
+              "es_ES": "(2,5 p. de daño por segundo)",
+              "fr_FR": "(2,5 dégâts par seconde)",
+              "it_IT": "(2,5 danni per secondo)",
+              "ru_RU": "(2,5 ед. урона в секунду)",
+              "ko_KR": "(초당 공격력 2.5)",
+              "zh_TW": "(每秒2.5點傷害)",
+              "zh_CN": "（每秒伤害2.5）"
+            }
+          }
+        },
+        "spells": [
+          {
+            "spell": {
+              "key": {
+                "href": "https://kr.api.blizzard.com/data/wow/spell/29632?namespace=static-11.1.5_60179-kr"
+              },
+              "name": {
+                "en_US": "Shadow Shot",
+                "es_MX": "Disparo de las Sombras",
+                "pt_BR": "Disparo Sombrio",
+                "de_DE": "Schattenschuss",
+                "en_GB": "Shadow Shot",
+                "es_ES": "Disparo de las Sombras",
+                "fr_FR": "Tir de l'ombre",
+                "it_IT": "Tiro dell'Ombra",
+                "ru_RU": "Залп тьмы",
+                "ko_KR": "어둠의 화살",
+                "zh_TW": "暗影射擊",
+                "zh_CN": "暗影射击"
+              },
+              "id": 29632
+            },
+            "description": {
+              "en_US": "Equip: Chance to strike your ranged target with Shadow Shot for 2 Shadow damage.",
+              "es_MX": "Equipar: Probabilidad de golpear a tu objetivo a distancia con un Disparo de las Sombras, inflige 2 de daño de las Sombras.",
+              "pt_BR": "Equipado: Chance de acertar seu alvo de longo alcance com um Disparo Sombrio, causando 2 de dano de Sombra.",
+              "de_DE": "Anlegen: Gewährt eine Chance, Euer Distanzziel mit einem Schattenschuss zu treffen und 2 Schattenschaden zu verursachen.",
+              "en_GB": "Equip: Chance to strike your ranged target with Shadow Shot for 2 Shadow damage.",
+              "es_ES": "Equipar: Probabilidad de golpear a tu objetivo a distancia con un Disparo de las Sombras, inflige 2 de daño de las Sombras.",
+              "fr_FR": "Équipé : Vous donne une chance d’infliger 2 points de dégâts d'Ombre avec un Tir de l'ombre à votre cible à distance.",
+              "it_IT": "Equipaggia: Probabilità di colpire il bersaglio a distanza con Tiro dell'Ombra per 2 danni da ombra.",
+              "ru_RU": "Если на персонаже: Вероятность поразить противника в дальнем бою теневой молнией, наносящей 2 ед. урона от темной магии.",
+              "ko_KR": "착용 효과: 원거리 공격 시 일정 확률로 대상에게 어둠의 화살을 날려 2의 암흑 피해를 입힙니다.",
+              "zh_TW": "裝備： 有機會發出暗影射擊，對你的遠程標靶造成2點暗影傷害。",
+              "zh_CN": "装备： 有一定几率对你的远程攻击目标造成2点暗影伤害。"
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 295,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "2",
+              "es_MX": "2",
+              "pt_BR": "2",
+              "de_DE": "2",
+              "en_GB": "2",
+              "es_ES": "2",
+              "fr_FR": "2",
+              "it_IT": "2",
+              "ru_RU": "2",
+              "ko_KR": "2",
+              "zh_TW": "2",
+              "zh_CN": "2"
+            },
+            "copper": {
+              "en_US": "95",
+              "es_MX": "95",
+              "pt_BR": "95",
+              "de_DE": "95",
+              "en_GB": "95",
+              "es_ES": "95",
+              "fr_FR": "95",
+              "it_IT": "95",
+              "ru_RU": "95",
+              "ko_KR": "95",
+              "zh_TW": "95",
+              "zh_CN": "95"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 21,
+            "display_string": {
+              "en_US": "Requires Level 21",
+              "es_MX": "Necesitas ser de nivel 21",
+              "pt_BR": "Requer o Nível 21",
+              "de_DE": "Benötigt Stufe 21",
+              "en_GB": "Requires Level 21",
+              "es_ES": "Necesitas ser de nivel 21",
+              "fr_FR": "Niveau 21 requis",
+              "it_IT": "Richiede il livello 21",
+              "ru_RU": "Требуется 21-й уровень",
+              "ko_KR": "최소 요구 레벨: 21",
+              "zh_TW": "需要等級21",
+              "zh_CN": "需要等级 21"
+            }
+          }
+        },
+        "level": {
+          "value": 28,
+          "display_string": {
+            "en_US": "Item Level 28",
+            "es_MX": "Nivel de objeto 28",
+            "pt_BR": "Nível do Item: 28",
+            "de_DE": "Gegenstandsstufe 28",
+            "en_GB": "Item Level 28",
+            "es_ES": "Nivel de objeto 28",
+            "fr_FR": "Niveau d'objet 28",
+            "it_IT": "Livello oggetto: 28",
+            "ru_RU": "Уровень предмета: 28",
+            "ko_KR": "아이템 레벨: 28",
+            "zh_TW": "物品等級28",
+            "zh_CN": "物品等级28"
+          }
+        },
+        "durability": {
+          "value": 95,
+          "display_string": {
+            "en_US": "Durability 95 / 95",
+            "es_MX": "Durabilidad 95 / 95",
+            "pt_BR": "Durabilidade 95 / 95",
+            "de_DE": "Haltbarkeit 95 / 95",
+            "en_GB": "Durability 95 / 95",
+            "es_ES": "Durabilidad 95 / 95",
+            "fr_FR": "Durabilité : 95 / 95",
+            "it_IT": "Integrità 95/95",
+            "ru_RU": "Прочность: 95 / 95",
+            "ko_KR": "내구도 95 / 95",
+            "zh_TW": "耐久度 95 / 95",
+            "zh_CN": "耐久度 95 / 95"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/16000?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Thorium Tube",
+              "es_MX": "Tubo de torio",
+              "pt_BR": "Tubo de Tório",
+              "de_DE": "Thoriumröhre",
+              "en_GB": "Thorium Tube",
+              "es_ES": "Tubo de torio",
+              "fr_FR": "Tube en thorium",
+              "it_IT": "Tubo di Torio",
+              "ru_RU": "Ториевая труба",
+              "ko_KR": "토륨관",
+              "zh_TW": "瑟銀管",
+              "zh_CN": "瑟银管"
+            },
+            "id": 16000
+          },
+          "quantity": 2
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/11371?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Dark Iron Bar",
+              "es_MX": "Barra de hierro negro",
+              "pt_BR": "Barra de Ferro Negro",
+              "de_DE": "Dunkeleisenbarren",
+              "en_GB": "Dark Iron Bar",
+              "es_ES": "Barra de hierro negro",
+              "fr_FR": "Barre de sombrefer",
+              "it_IT": "Lingotto di Ferroscuro",
+              "ru_RU": "Слиток черного железа",
+              "ko_KR": "검은무쇠 주괴",
+              "zh_TW": "黑鐵錠",
+              "zh_CN": "黑铁锭"
+            },
+            "id": 11371
+          },
+          "quantity": 6
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/10546?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Deadly Scope",
+              "es_MX": "Mira mortal",
+              "pt_BR": "Mira Letal",
+              "de_DE": "Tödliches Zielfernrohr",
+              "en_GB": "Deadly Scope",
+              "es_ES": "Mira mortal",
+              "fr_FR": "Lunette mortelle",
+              "it_IT": "Mirino Mortale",
+              "ru_RU": "Смертоносный прицел",
+              "ko_KR": "초정밀 조준경",
+              "zh_TW": "致命瞄準鏡",
+              "zh_CN": "致命瞄准镜"
+            },
+            "id": 10546
+          },
+          "quantity": 2
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/12361?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Blue Sapphire",
+              "es_MX": "Zafiro azul",
+              "pt_BR": "Safira Azul",
+              "de_DE": "Blauer Saphir",
+              "en_GB": "Blue Sapphire",
+              "es_ES": "Zafiro azul",
+              "fr_FR": "Saphir bleu",
+              "it_IT": "Zaffiro Blu",
+              "ru_RU": "Синий сапфир",
+              "ko_KR": "푸른 사파이어",
+              "zh_TW": "藍寶石",
+              "zh_CN": "蓝宝石"
+            },
+            "id": 12361
+          },
+          "quantity": 2
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/12799?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Large Opal",
+              "es_MX": "Ópalo grande",
+              "pt_BR": "Opala Grande",
+              "de_DE": "Großer Opal",
+              "en_GB": "Large Opal",
+              "es_ES": "Ópalo grande",
+              "fr_FR": "Grande opale",
+              "it_IT": "Opale Gigante",
+              "ru_RU": "Большой опал",
+              "ko_KR": "큰 오팔",
+              "zh_TW": "大蛋白石",
+              "zh_CN": "大猫眼石"
+            },
+            "id": 12799
+          },
+          "quantity": 2
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/8170?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Rugged Leather",
+              "es_MX": "Cuero basto",
+              "pt_BR": "Couro Rústico",
+              "de_DE": "Unverwüstliches Leder",
+              "en_GB": "Rugged Leather",
+              "es_ES": "Cuero basto",
+              "fr_FR": "Cuir robuste",
+              "it_IT": "Cuoio Duro",
+              "ru_RU": "Грубая кожа",
+              "ko_KR": "튼튼한 가죽",
+              "zh_TW": "硬甲皮",
+              "zh_CN": "硬甲皮"
+            },
+            "id": 8170
+          },
+          "quantity": 4
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Thorium Tube (2), Dark Iron Bar (6), Deadly Scope (2), Blue Sapphire (2), Large Opal (2), Rugged Leather (4)",
+        "es_MX": "Tubo de torio (2), Barra de hierro negro (6), Mira mortal (2), Zafiro azul (2), Ópalo grande (2), Cuero basto (4)",
+        "pt_BR": "Tubo de Tório (2), Barra de Ferro Negro (6), Mira Letal (2), Safira Azul (2), Opala Grande (2), Couro Rústico (4)",
+        "de_DE": "Thoriumröhre (2), Dunkeleisenbarren (6), Tödliches Zielfernrohr (2), Blauer Saphir (2), Großer Opal (2), Unverwüstliches Leder (4)",
+        "en_GB": "Thorium Tube (2), Dark Iron Bar (6), Deadly Scope (2), Blue Sapphire (2), Large Opal (2), Rugged Leather (4)",
+        "es_ES": "Tubo de torio (2), Barra de hierro negro (6), Mira mortal (2), Zafiro azul (2), Ópalo grande (2), Cuero basto (4)",
+        "fr_FR": "Tube en thorium (2), Barre de sombrefer (6), Lunette mortelle (2), Saphir bleu (2), Grande opale (2), Cuir robuste (4)",
+        "it_IT": "Tubo di Torio (2), Lingotto di Ferroscuro (6), Mirino Mortale (2), Zaffiro Blu (2), Opale Gigante (2), Cuoio Duro (4)",
+        "ru_RU": "Ториевая труба (2), Слиток черного железа (6), Смертоносный прицел (2), Синий сапфир (2), Большой опал (2), Грубая кожа (4)",
+        "ko_KR": "토륨관 (2), 검은무쇠 주괴 (6), 초정밀 조준경 (2), 푸른 사파이어 (2), 큰 오팔 (2), 튼튼한 가죽 (4)",
+        "zh_TW": "瑟銀管 (2), 黑鐵錠 (6), 致命瞄準鏡 (2), 藍寶石 (2), 大蛋白石 (2), 硬甲皮 (4)",
+        "zh_CN": "瑟银管 (2), 黑铁锭 (6), 致命瞄准镜 (2), 蓝宝石 (2), 大猫眼石 (2), 硬甲皮 (4)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

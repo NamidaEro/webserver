@@ -1,0 +1,608 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/14499?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 14499,
+  "name": {
+    "en_US": "Pattern: Mooncloth Bag",
+    "es_MX": "Patrón: bolsa de tela lunar",
+    "pt_BR": "Molde: Bolsa de Lunatrama",
+    "de_DE": "Muster: Mondstofftasche",
+    "en_GB": "Pattern: Mooncloth Bag",
+    "es_ES": "Patrón: bolsa de tela lunar",
+    "fr_FR": "Patron : Sac en étoffe lunaire",
+    "it_IT": "Modello: Sacca di Telaluna",
+    "ru_RU": "Выкройка: сумка из луноткани",
+    "ko_KR": "도안: 달빛매듭 가방",
+    "zh_TW": "圖樣：月布包",
+    "zh_CN": "图样：月布包"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 25,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/14499?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 14499
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Tailoring",
+      "es_MX": "Sastrería",
+      "pt_BR": "Alfaiataria",
+      "de_DE": "Schneiderei",
+      "en_GB": "Tailoring",
+      "es_ES": "Sastrería",
+      "fr_FR": "Couture",
+      "it_IT": "Sartoria",
+      "ru_RU": "Портняжное дело",
+      "ko_KR": "재봉술",
+      "zh_TW": "裁縫",
+      "zh_CN": "裁缝"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 30000,
+  "sell_price": 7500,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to sew a Mooncloth Bag.",
+    "es_MX": "Te enseña a confeccionar una bolsa de tela lunar.",
+    "pt_BR": "Ensina a confeccionar Bolsa de Lunatrama.",
+    "de_DE": "Lehrt Euch, wie man eine Mondstofftasche näht.",
+    "en_GB": "Teaches you how to sew a Mooncloth Bag.",
+    "es_ES": "Te enseña a confeccionar una bolsa de tela lunar.",
+    "fr_FR": "Vous apprend à coudre un Sac en étoffe lunaire.",
+    "it_IT": "Ti insegna a creare una Sacca di Telaluna.",
+    "ru_RU": "Обучает пошиву сумки из луноткани.",
+    "ko_KR": "달빛매듭 가방 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何縫製月布包。",
+    "zh_CN": "教你学会制作月布包。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/14499?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 14499
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Mooncloth Bag",
+      "es_MX": "Patrón: bolsa de tela lunar",
+      "pt_BR": "Molde: Bolsa de Lunatrama",
+      "de_DE": "Muster: Mondstofftasche",
+      "en_GB": "Pattern: Mooncloth Bag",
+      "es_ES": "Patrón: bolsa de tela lunar",
+      "fr_FR": "Patron : Sac en étoffe lunaire",
+      "it_IT": "Modello: Sacca di Telaluna",
+      "ru_RU": "Выкройка: сумка из луноткани",
+      "ko_KR": "도안: 달빛매듭 가방",
+      "zh_TW": "圖樣：月布包",
+      "zh_CN": "图样：月布包"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/14499?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 14499
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Tailoring",
+        "es_MX": "Sastrería",
+        "pt_BR": "Alfaiataria",
+        "de_DE": "Schneiderei",
+        "en_GB": "Tailoring",
+        "es_ES": "Sastrería",
+        "fr_FR": "Couture",
+        "it_IT": "Sartoria",
+        "ru_RU": "Портняжное дело",
+        "ko_KR": "재봉술",
+        "zh_TW": "裁縫",
+        "zh_CN": "裁缝"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 7500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "75",
+          "es_MX": "75",
+          "pt_BR": "75",
+          "de_DE": "75",
+          "en_GB": "75",
+          "es_ES": "75",
+          "fr_FR": "75",
+          "it_IT": "75",
+          "ru_RU": "75",
+          "ko_KR": "75",
+          "zh_TW": "75",
+          "zh_CN": "75"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Tailoring",
+            "es_MX": "Sastrería clásica",
+            "pt_BR": "Alfaiataria do Classic",
+            "de_DE": "Klassische Schneiderei",
+            "en_GB": "Classic Tailoring",
+            "es_ES": "Sastrería clásica",
+            "fr_FR": "Couture classique",
+            "it_IT": "Sartoria Classica",
+            "ru_RU": "Классическое портняжное дело",
+            "ko_KR": "옛 재봉술",
+            "zh_TW": "艾澤拉斯裁縫",
+            "zh_CN": "经典旧世裁缝"
+          },
+          "id": 2540
+        },
+        "level": 300,
+        "display_string": {
+          "en_US": "Requires Classic Tailoring (300)",
+          "es_MX": "Requiere Sastrería clásica (300)",
+          "pt_BR": "Requer Alfaiataria do Classic (300)",
+          "de_DE": "Benötigt Klassische Schneiderei (300)",
+          "en_GB": "Requires Classic Tailoring (300)",
+          "es_ES": "Requiere Sastrería clásica (300)",
+          "fr_FR": "Couture classique (300) requis",
+          "it_IT": "Richiede: Sartoria Classica (300)",
+          "ru_RU": "Требуется: Классическое портняжное дело (300)",
+          "ko_KR": "요구 사항: 옛 재봉술 (300)",
+          "zh_TW": "需要艾澤拉斯裁縫(300)",
+          "zh_CN": "需要经典旧世裁缝（300）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to sew a Mooncloth Bag.",
+      "es_MX": "Te enseña a confeccionar una bolsa de tela lunar.",
+      "pt_BR": "Ensina a confeccionar Bolsa de Lunatrama.",
+      "de_DE": "Lehrt Euch, wie man eine Mondstofftasche näht.",
+      "en_GB": "Teaches you how to sew a Mooncloth Bag.",
+      "es_ES": "Te enseña a confeccionar una bolsa de tela lunar.",
+      "fr_FR": "Vous apprend à coudre un Sac en étoffe lunaire.",
+      "it_IT": "Ti insegna a creare una Sacca di Telaluna.",
+      "ru_RU": "Обучает пошиву сумки из луноткани.",
+      "ko_KR": "달빛매듭 가방 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何縫製月布包。",
+      "zh_CN": "教你学会制作月布包。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/14155?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 14155
+        },
+        "quality": {
+          "type": "UNCOMMON",
+          "name": {
+            "en_US": "Uncommon",
+            "es_MX": "Inusual",
+            "pt_BR": "Incomum",
+            "de_DE": "Ungewöhnlich",
+            "en_GB": "Uncommon",
+            "es_ES": "Inusual",
+            "fr_FR": "Inhabituel",
+            "it_IT": "Pregiato",
+            "ru_RU": "Необычное",
+            "ko_KR": "고급",
+            "zh_TW": "優秀",
+            "zh_CN": "优秀"
+          }
+        },
+        "name": {
+          "en_US": "Mooncloth Bag",
+          "es_MX": "Bolsa de tela lunar",
+          "pt_BR": "Bolsa de Lunatrama",
+          "de_DE": "Mondstofftasche",
+          "en_GB": "Mooncloth Bag",
+          "es_ES": "Bolsa de tela lunar",
+          "fr_FR": "Sac en étoffe lunaire",
+          "it_IT": "Sacca di Telaluna",
+          "ru_RU": "Сумка из луноткани",
+          "ko_KR": "달빛매듭 가방",
+          "zh_TW": "月布包",
+          "zh_CN": "月布包"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/14155?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 14155
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/1?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Container",
+            "es_MX": "Contenedor",
+            "pt_BR": "Recipiente",
+            "de_DE": "Behälter",
+            "en_GB": "Container",
+            "es_ES": "Recipiente",
+            "fr_FR": "Conteneur",
+            "it_IT": "Contenitori",
+            "ru_RU": "Контейнер",
+            "ko_KR": "가방",
+            "zh_TW": "容器",
+            "zh_CN": "容器"
+          },
+          "id": 1
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/1/item-subclass/0?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Bag",
+            "es_MX": "Bolsa",
+            "pt_BR": "Bolsa",
+            "de_DE": "Tasche",
+            "en_GB": "Bag",
+            "es_ES": "Bolsa",
+            "fr_FR": "Sac",
+            "it_IT": "Sacca",
+            "ru_RU": "Сумка",
+            "ko_KR": "가방",
+            "zh_TW": "背包",
+            "zh_CN": "容器"
+          },
+          "id": 0
+        },
+        "inventory_type": {
+          "type": "BAG",
+          "name": {
+            "en_US": "Bag",
+            "es_MX": "Bolsa",
+            "pt_BR": "Bolsa",
+            "de_DE": "Tasche",
+            "en_GB": "Bag",
+            "es_ES": "Bolsa",
+            "fr_FR": "Sac",
+            "it_IT": "Sacca",
+            "ru_RU": "Сумка",
+            "ko_KR": "가방",
+            "zh_TW": "背包",
+            "zh_CN": "背包"
+          }
+        },
+        "sell_price": {
+          "value": 20000,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "2",
+              "es_MX": "2",
+              "pt_BR": "2",
+              "de_DE": "2",
+              "en_GB": "2",
+              "es_ES": "2",
+              "fr_FR": "2",
+              "it_IT": "2",
+              "ru_RU": "2",
+              "ko_KR": "2",
+              "zh_TW": "2",
+              "zh_CN": "2"
+            },
+            "silver": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "copper": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            }
+          }
+        },
+        "container_slots": {
+          "value": 16,
+          "display_string": {
+            "en_US": "16 Slot Bag",
+            "es_MX": "Bolsa de 16 |4casilla:casillas;",
+            "pt_BR": "Bolsa de 16 compartimentos",
+            "de_DE": "16 Platz Tasche",
+            "en_GB": "16 Slot Bag",
+            "es_ES": "Bolsa de 16 ranuras",
+            "fr_FR": "Sac 16 |4emplacement:emplacements;",
+            "it_IT": "Sacca da 16 |4scomparto:scomparti;",
+            "ru_RU": "Сумка (16 |4ячейка:ячейки:ячеек;)",
+            "ko_KR": "16칸 가방",
+            "zh_TW": "16格背包",
+            "zh_CN": "16格容器"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/14048?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Bolt of Runecloth",
+              "es_MX": "Madeja de paño rúnico",
+              "pt_BR": "Peça de Runatrama",
+              "de_DE": "Runenstoffballen",
+              "en_GB": "Bolt of Runecloth",
+              "es_ES": "Madeja de paño rúnico",
+              "fr_FR": "Rouleau d'étoffe runique",
+              "it_IT": "Rotolo di Telarunica",
+              "ru_RU": "Рулон рунической ткани",
+              "ko_KR": "룬무늬 두루마리",
+              "zh_TW": "符文布卷",
+              "zh_CN": "符文布卷"
+            },
+            "id": 14048
+          },
+          "quantity": 4
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/14342?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Mooncloth",
+              "es_MX": "Tela lunar",
+              "pt_BR": "Lunatrama",
+              "de_DE": "Mondstoff",
+              "en_GB": "Mooncloth",
+              "es_ES": "Tela lunar",
+              "fr_FR": "Étoffe lunaire",
+              "it_IT": "Telaluna",
+              "ru_RU": "Луноткань",
+              "ko_KR": "달빛 옷감",
+              "zh_TW": "月布",
+              "zh_CN": "月布"
+            },
+            "id": 14342
+          },
+          "quantity": 1
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/14341?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Rune Thread",
+              "es_MX": "Hilo rúnico",
+              "pt_BR": "Fio Rúnico",
+              "de_DE": "Runenfaden",
+              "en_GB": "Rune Thread",
+              "es_ES": "Hilo rúnico",
+              "fr_FR": "Fil runique",
+              "it_IT": "Filo Runico",
+              "ru_RU": "Руническая нить",
+              "ko_KR": "룬 실타래",
+              "zh_TW": "符文線",
+              "zh_CN": "符文线"
+            },
+            "id": 14341
+          },
+          "quantity": 1
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Bolt of Runecloth (4), Mooncloth, Rune Thread",
+        "es_MX": "Madeja de paño rúnico (4), Tela lunar, Hilo rúnico",
+        "pt_BR": "Peça de Runatrama (4), Lunatrama, Fio Rúnico",
+        "de_DE": "Runenstoffballen (4), Mondstoff, Runenfaden",
+        "en_GB": "Bolt of Runecloth (4), Mooncloth, Rune Thread",
+        "es_ES": "Madeja de paño rúnico (4), Tela lunar, Hilo rúnico",
+        "fr_FR": "Rouleau d'étoffe runique (4), Étoffe lunaire, Fil runique",
+        "it_IT": "Rotolo di Telarunica (4), Telaluna, Filo Runico",
+        "ru_RU": "Рулон рунической ткани (4), Луноткань, Руническая нить",
+        "ko_KR": "룬무늬 두루마리 (4), 달빛 옷감, 룬 실타래",
+        "zh_TW": "符文布卷 (4), 月布, 符文線",
+        "zh_CN": "符文布卷 (4), 月布, 符文线"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

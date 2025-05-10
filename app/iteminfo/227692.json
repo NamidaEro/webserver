@@ -1,0 +1,513 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/227692?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 227692,
+  "name": {
+    "en_US": "Arathi Sword",
+    "es_MX": "Espada arathi",
+    "pt_BR": "Espada Arathi",
+    "de_DE": "Arathischwert",
+    "en_GB": "Arathi Sword",
+    "es_ES": "Espada arathi",
+    "fr_FR": "Épée arathie",
+    "it_IT": "Spada degli Arathi",
+    "ru_RU": "Аратийский меч",
+    "ko_KR": "아라시 검",
+    "zh_TW": "阿拉希劍",
+    "zh_CN": "阿拉希之剑"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 545,
+  "required_level": 70,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/227692?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 227692
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Sword",
+      "es_MX": "Espada",
+      "pt_BR": "Espada",
+      "de_DE": "Schwert",
+      "en_GB": "Sword",
+      "es_ES": "Espada",
+      "fr_FR": "Epée",
+      "it_IT": "Spada",
+      "ru_RU": "Меч",
+      "ko_KR": "도검",
+      "zh_TW": "劍",
+      "zh_CN": "剑"
+    },
+    "id": 7
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": {
+      "en_US": "One-Hand",
+      "es_MX": "Una mano",
+      "pt_BR": "Uma Mão",
+      "de_DE": "Einhändig",
+      "en_GB": "One-Hand",
+      "es_ES": "Una mano",
+      "fr_FR": "À une main",
+      "it_IT": "Una mano",
+      "ru_RU": "Одноручное",
+      "ko_KR": "한손 장비",
+      "zh_TW": "單手",
+      "zh_CN": "单手"
+    }
+  },
+  "purchase_price": 3937071,
+  "sell_price": 787414,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/227692?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 227692
+    },
+    "context": 0,
+    "bonus_list": [
+      10844
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Arathi Sword",
+      "es_MX": "Espada arathi",
+      "pt_BR": "Espada Arathi",
+      "de_DE": "Arathischwert",
+      "en_GB": "Arathi Sword",
+      "es_ES": "Espada arathi",
+      "fr_FR": "Épée arathie",
+      "it_IT": "Spada degli Arathi",
+      "ru_RU": "Аратийский меч",
+      "ko_KR": "아라시 검",
+      "zh_TW": "阿拉希劍",
+      "zh_CN": "阿拉希之剑"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/227692?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 227692
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Sword",
+        "es_MX": "Espada",
+        "pt_BR": "Espada",
+        "de_DE": "Schwert",
+        "en_GB": "Sword",
+        "es_ES": "Espada",
+        "fr_FR": "Epée",
+        "it_IT": "Spada",
+        "ru_RU": "Меч",
+        "ko_KR": "도검",
+        "zh_TW": "劍",
+        "zh_CN": "剑"
+      },
+      "id": 7
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": {
+        "en_US": "One-Hand",
+        "es_MX": "Una mano",
+        "pt_BR": "Uma Mão",
+        "de_DE": "Einhändig",
+        "en_GB": "One-Hand",
+        "es_ES": "Una mano",
+        "fr_FR": "À une main",
+        "it_IT": "Una mano",
+        "ru_RU": "Одноручное",
+        "ko_KR": "한손 장비",
+        "zh_TW": "單手",
+        "zh_CN": "单手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 1751,
+        "max_value": 2920,
+        "display_string": {
+          "en_US": "1,751 - 2,920 Damage",
+          "es_MX": "1,751 - 2,920 p. de daño",
+          "pt_BR": "1.751 - 2.920 de Dano",
+          "de_DE": "1.751 - 2.920 Schaden",
+          "en_GB": "1,751 - 2,920 Damage",
+          "es_ES": "1751 - 2920 p. de daño",
+          "fr_FR": "Dégâts : 1751 - 2920",
+          "it_IT": "1.751 - 2.920 Danni",
+          "ru_RU": "Урон: 1751 - 2920",
+          "ko_KR": "공격력 1,751 ~ 2,920",
+          "zh_TW": "1,751-2,920點傷害",
+          "zh_CN": "1,751 - 2,920点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": {
+          "en_US": "Speed 2.60",
+          "es_MX": "Velocidad 2.60",
+          "pt_BR": "Velocidade 2,60",
+          "de_DE": "Geschwindigkeit 2,60",
+          "en_GB": "Speed 2.60",
+          "es_ES": "Velocidad 2,60",
+          "fr_FR": "Vitesse 2,60",
+          "it_IT": "Velocità 2,60",
+          "ru_RU": "Скорость 2,60",
+          "ko_KR": "속도 2.60",
+          "zh_TW": "速度 2.60",
+          "zh_CN": "速度 2.60"
+        }
+      },
+      "dps": {
+        "value": 898.07684,
+        "display_string": {
+          "en_US": "(898.1 damage per second)",
+          "es_MX": "(898.1 p. de daño por segundo)",
+          "pt_BR": "(898,1 de dano por segundo)",
+          "de_DE": "(898,1 Schaden pro Sekunde)",
+          "en_GB": "(898.1 damage per second)",
+          "es_ES": "(898,1 p. de daño por segundo)",
+          "fr_FR": "(898,1 dégâts par seconde)",
+          "it_IT": "(898,1 danni per secondo)",
+          "ru_RU": "(898,1 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 898.1)",
+          "zh_TW": "(每秒898.1點傷害)",
+          "zh_CN": "（每秒伤害898.1）"
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": {
+            "en_US": "Strength",
+            "es_MX": "fuerza",
+            "pt_BR": "Força",
+            "de_DE": "Stärke",
+            "en_GB": "Strength",
+            "es_ES": "fuerza",
+            "fr_FR": "Force",
+            "it_IT": "Forza",
+            "ru_RU": "к силе",
+            "ko_KR": "힘",
+            "zh_TW": "力量",
+            "zh_CN": "力量"
+          }
+        },
+        "value": 790,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+790 Strength",
+            "es_MX": "+790 fuerza",
+            "pt_BR": "+790 Força",
+            "de_DE": "+790 Stärke",
+            "en_GB": "+790 Strength",
+            "es_ES": "+790 fuerza",
+            "fr_FR": "+790 Force",
+            "it_IT": "+790 Forza",
+            "ru_RU": "+790 к силе",
+            "ko_KR": "힘 +790",
+            "zh_TW": "+790力量",
+            "zh_CN": "+790 力量"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 3942,
+        "display": {
+          "display_string": {
+            "en_US": "+3,942 Stamina",
+            "es_MX": "+3,942 aguante",
+            "pt_BR": "+3.942 Vigor",
+            "de_DE": "+3.942 Ausdauer",
+            "en_GB": "+3,942 Stamina",
+            "es_ES": "+3942 aguante",
+            "fr_FR": "+3942 Endurance",
+            "it_IT": "+3.942 Tempra",
+            "ru_RU": "+3942 к выносливости",
+            "ko_KR": "체력 +3,942",
+            "zh_TW": "+3,942耐力",
+            "zh_CN": "+3,942 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 806962,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "80",
+          "es_MX": "80",
+          "pt_BR": "80",
+          "de_DE": "80",
+          "en_GB": "80",
+          "es_ES": "80",
+          "fr_FR": "80",
+          "it_IT": "80",
+          "ru_RU": "80",
+          "ko_KR": "80",
+          "zh_TW": "80",
+          "zh_CN": "80"
+        },
+        "silver": {
+          "en_US": "69",
+          "es_MX": "69",
+          "pt_BR": "69",
+          "de_DE": "69",
+          "en_GB": "69",
+          "es_ES": "69",
+          "fr_FR": "69",
+          "it_IT": "69",
+          "ru_RU": "69",
+          "ko_KR": "69",
+          "zh_TW": "69",
+          "zh_CN": "69"
+        },
+        "copper": {
+          "en_US": "62",
+          "es_MX": "62",
+          "pt_BR": "62",
+          "de_DE": "62",
+          "en_GB": "62",
+          "es_ES": "62",
+          "fr_FR": "62",
+          "it_IT": "62",
+          "ru_RU": "62",
+          "ko_KR": "62",
+          "zh_TW": "62",
+          "zh_CN": "62"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 70,
+        "display_string": {
+          "en_US": "Requires Level 70",
+          "es_MX": "Necesitas ser de nivel 70",
+          "pt_BR": "Requer o Nível 70",
+          "de_DE": "Benötigt Stufe 70",
+          "en_GB": "Requires Level 70",
+          "es_ES": "Necesitas ser de nivel 70",
+          "fr_FR": "Niveau 70 requis",
+          "it_IT": "Richiede il livello 70",
+          "ru_RU": "Требуется 70-й уровень",
+          "ko_KR": "최소 요구 레벨: 70",
+          "zh_TW": "需要等級70",
+          "zh_CN": "需要等级 70"
+        }
+      }
+    },
+    "level": {
+      "value": 545,
+      "display_string": {
+        "en_US": "Item Level 545",
+        "es_MX": "Nivel de objeto 545",
+        "pt_BR": "Nível do Item: 545",
+        "de_DE": "Gegenstandsstufe 545",
+        "en_GB": "Item Level 545",
+        "es_ES": "Nivel de objeto 545",
+        "fr_FR": "Niveau d'objet 545",
+        "it_IT": "Livello oggetto: 545",
+        "ru_RU": "Уровень предмета: 545",
+        "ko_KR": "아이템 레벨: 545",
+        "zh_TW": "物品等級545",
+        "zh_CN": "物品等级545"
+      }
+    },
+    "durability": {
+      "value": 75,
+      "display_string": {
+        "en_US": "Durability 75 / 75",
+        "es_MX": "Durabilidad 75 / 75",
+        "pt_BR": "Durabilidade 75 / 75",
+        "de_DE": "Haltbarkeit 75 / 75",
+        "en_GB": "Durability 75 / 75",
+        "es_ES": "Durabilidad 75 / 75",
+        "fr_FR": "Durabilité : 75 / 75",
+        "it_IT": "Integrità 75/75",
+        "ru_RU": "Прочность: 75 / 75",
+        "ko_KR": "내구도 75 / 75",
+        "zh_TW": "耐久度 75 / 75",
+        "zh_CN": "耐久度 75 / 75"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/91012?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 91012
+    }
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/45853?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 45853,
+  "name": {
+    "en_US": "Rituals of the New Moon",
+    "es_MX": "Rituales de la Luna nueva",
+    "pt_BR": "Rituais da Lua Nova",
+    "de_DE": "Rituale des Neumonds",
+    "en_GB": "Rituals of the New Moon",
+    "es_ES": "Rituales de la Luna nueva",
+    "fr_FR": "Rituels de la nouvelle lune",
+    "it_IT": "Rituali della Luna Nuova",
+    "ru_RU": "Книга ритуалов новолуния",
+    "ko_KR": "초승달 의식",
+    "zh_TW": "新月儀式",
+    "zh_CN": "新月仪式之书"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 34,
+  "required_level": 27,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/45853?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 45853
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "HOLDABLE",
+    "name": {
+      "en_US": "Held In Off-hand",
+      "es_MX": "Mano izquierda",
+      "pt_BR": "Empunhado na mão secundária",
+      "de_DE": "In Schildhand geführt",
+      "en_GB": "Held In Off-hand",
+      "es_ES": "Mano izquierda",
+      "fr_FR": "Tenu(e) en main gauche",
+      "it_IT": "Accessorio",
+      "ru_RU": "Левая рука",
+      "ko_KR": "보조장비",
+      "zh_TW": "副手物品",
+      "zh_CN": "副手物品"
+    }
+  },
+  "purchase_price": 7500,
+  "sell_price": 1500,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/45853?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 45853
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Rituals of the New Moon",
+      "es_MX": "Rituales de la Luna nueva",
+      "pt_BR": "Rituais da Lua Nova",
+      "de_DE": "Rituale des Neumonds",
+      "en_GB": "Rituals of the New Moon",
+      "es_ES": "Rituales de la Luna nueva",
+      "fr_FR": "Rituels de la nouvelle lune",
+      "it_IT": "Rituali della Luna Nuova",
+      "ru_RU": "Книга ритуалов новолуния",
+      "ko_KR": "초승달 의식",
+      "zh_TW": "新月儀式",
+      "zh_CN": "新月仪式之书"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/45853?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 45853
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "HOLDABLE",
+      "name": {
+        "en_US": "Held In Off-hand",
+        "es_MX": "Mano izquierda",
+        "pt_BR": "Empunhado na mão secundária",
+        "de_DE": "In Schildhand geführt",
+        "en_GB": "Held In Off-hand",
+        "es_ES": "Mano izquierda",
+        "fr_FR": "Tenu(e) en main gauche",
+        "it_IT": "Accessorio",
+        "ru_RU": "Левая рука",
+        "ko_KR": "보조장비",
+        "zh_TW": "副手物品",
+        "zh_CN": "副手物品"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 6,
+        "display": {
+          "display_string": {
+            "en_US": "+6 Intellect",
+            "es_MX": "+6 intelecto",
+            "pt_BR": "+6 Intelecto",
+            "de_DE": "+6 Intelligenz",
+            "en_GB": "+6 Intellect",
+            "es_ES": "+6 intelecto",
+            "fr_FR": "+6 Intelligence",
+            "it_IT": "+6 Intelletto",
+            "ru_RU": "+6 к интеллекту",
+            "ko_KR": "지능 +6",
+            "zh_TW": "+6智力",
+            "zh_CN": "+6 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 3,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Stamina",
+            "es_MX": "+3 aguante",
+            "pt_BR": "+3 Vigor",
+            "de_DE": "+3 Ausdauer",
+            "en_GB": "+3 Stamina",
+            "es_ES": "+3 aguante",
+            "fr_FR": "+3 Endurance",
+            "it_IT": "+3 Tempra",
+            "ru_RU": "+3 к выносливости",
+            "ko_KR": "체력 +3",
+            "zh_TW": "+3耐力",
+            "zh_CN": "+3 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 2,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+2 Critical Strike",
+            "es_MX": "+2 golpe crítico",
+            "pt_BR": "+2 Acerto Crítico",
+            "de_DE": "+2 Kritischer Trefferwert",
+            "en_GB": "+2 Critical Strike",
+            "es_ES": "+2 golpe crítico",
+            "fr_FR": "+2 Score de crit.",
+            "it_IT": "+2 Indice di critico",
+            "ru_RU": "+2 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +2",
+            "zh_TW": "+2致命一擊",
+            "zh_CN": "+2 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/64046?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "New Moon",
+            "es_MX": "Luna nueva",
+            "pt_BR": "Lua Nova",
+            "de_DE": "Neumond",
+            "en_GB": "New Moon",
+            "es_ES": "Luna nueva",
+            "fr_FR": "Nouvelle lune",
+            "it_IT": "Luna Nuova",
+            "ru_RU": "Новолуние",
+            "ko_KR": "초승달",
+            "zh_TW": "新月",
+            "zh_CN": "新月"
+          },
+          "id": 64046
+        },
+        "description": {
+          "en_US": "Use: Transform into a giant black wolf. (10 Min Cooldown)",
+          "es_MX": "Usar: Te transforma en un lobo negro gigante. (10 min de tiempo de reutilización)",
+          "pt_BR": "Usar: Transforma você em um lobo preto gigante. (10 min de recarga)",
+          "de_DE": "Benutzen: In einen riesigen schwarzen Wolf verwandelt. (10 Min. Abklingzeit)",
+          "en_GB": "Use: Transform into a giant black wolf. (10 Min Cooldown)",
+          "es_ES": "Uso: Te transforma en un lobo negro gigante. (10 min de tiempo de reutilización).",
+          "fr_FR": "Utiliser : Transformation en loup noir géant. (10 min de recharge)",
+          "it_IT": "Usa: Trasforma in un lupo nero gigante. (10 min di recupero)",
+          "ru_RU": "Использование: Превращение в огромного черного волка. (Восстановление: 10 мин.)",
+          "ko_KR": "사용 효과: 거대한 검은색 늑대로 변신합니다. (10분 후 재사용 가능)",
+          "zh_TW": "使用： 變形為一隻巨型黑狼。 (10分鐘冷卻時間)",
+          "zh_CN": "使用： 变形成为一条巨型黑狼。 （10分钟冷却）"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "15",
+          "es_MX": "15",
+          "pt_BR": "15",
+          "de_DE": "15",
+          "en_GB": "15",
+          "es_ES": "15",
+          "fr_FR": "15",
+          "it_IT": "15",
+          "ru_RU": "15",
+          "ko_KR": "15",
+          "zh_TW": "15",
+          "zh_CN": "15"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 27,
+        "display_string": {
+          "en_US": "Requires Level 27",
+          "es_MX": "Necesitas ser de nivel 27",
+          "pt_BR": "Requer o Nível 27",
+          "de_DE": "Benötigt Stufe 27",
+          "en_GB": "Requires Level 27",
+          "es_ES": "Necesitas ser de nivel 27",
+          "fr_FR": "Niveau 27 requis",
+          "it_IT": "Richiede il livello 27",
+          "ru_RU": "Требуется 27-й уровень",
+          "ko_KR": "최소 요구 레벨: 27",
+          "zh_TW": "需要等級27",
+          "zh_CN": "需要等级 27"
+        }
+      }
+    },
+    "level": {
+      "value": 34,
+      "display_string": {
+        "en_US": "Item Level 34",
+        "es_MX": "Nivel de objeto 34",
+        "pt_BR": "Nível do Item: 34",
+        "de_DE": "Gegenstandsstufe 34",
+        "en_GB": "Item Level 34",
+        "es_ES": "Nivel de objeto 34",
+        "fr_FR": "Niveau d'objet 34",
+        "it_IT": "Livello oggetto: 34",
+        "ru_RU": "Уровень предмета: 34",
+        "ko_KR": "아이템 레벨: 34",
+        "zh_TW": "物品等級34",
+        "zh_CN": "物品等级34"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/93822?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 93822
+    }
+  ]
+}

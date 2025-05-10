@@ -1,0 +1,607 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/2243?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 2243,
+  "name": {
+    "en_US": "Hand of Edward the Odd",
+    "es_MX": "Mano de Edward el Extraño",
+    "pt_BR": "Mão de Edward, o Excêntrico",
+    "de_DE": "Hand von Edward dem Seltsamen",
+    "en_GB": "Hand of Edward the Odd",
+    "es_ES": "Mano de Edward el Extraño",
+    "fr_FR": "Main d'Edward l'étrange",
+    "it_IT": "Mazza di Edoardo Stranamore",
+    "ru_RU": "Рука Эдварда Странного",
+    "ko_KR": "외팔이 에드워드의 손",
+    "zh_TW": "『怪咖』愛德華之手",
+    "zh_CN": "爱德华之手"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 29,
+  "required_level": 24,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/2243?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 2243
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Mace",
+      "es_MX": "Maza",
+      "pt_BR": "Maça",
+      "de_DE": "Streitkolben",
+      "en_GB": "Mace",
+      "es_ES": "Maza",
+      "fr_FR": "Masse",
+      "it_IT": "Mazza",
+      "ru_RU": "Дробящее",
+      "ko_KR": "둔기",
+      "zh_TW": "錘",
+      "zh_CN": "锤"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": {
+      "en_US": "One-Hand",
+      "es_MX": "Una mano",
+      "pt_BR": "Uma Mão",
+      "de_DE": "Einhändig",
+      "en_GB": "One-Hand",
+      "es_ES": "Una mano",
+      "fr_FR": "À une main",
+      "it_IT": "Una mano",
+      "ru_RU": "Одноручное",
+      "ko_KR": "한손 장비",
+      "zh_TW": "單手",
+      "zh_CN": "单手"
+    }
+  },
+  "purchase_price": 107904,
+  "sell_price": 21580,
+  "max_count": 1,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/2243?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 2243
+    },
+    "context": 0,
+    "bonus_list": [
+      6661
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Hand of Edward the Odd",
+      "es_MX": "Mano de Edward el Extraño",
+      "pt_BR": "Mão de Edward, o Excêntrico",
+      "de_DE": "Hand von Edward dem Seltsamen",
+      "en_GB": "Hand of Edward the Odd",
+      "es_ES": "Mano de Edward el Extraño",
+      "fr_FR": "Main d'Edward l'étrange",
+      "it_IT": "Mazza di Edoardo Stranamore",
+      "ru_RU": "Рука Эдварда Странного",
+      "ko_KR": "외팔이 에드워드의 손",
+      "zh_TW": "『怪咖』愛德華之手",
+      "zh_CN": "爱德华之手"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/2243?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 2243
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Mace",
+        "es_MX": "Maza",
+        "pt_BR": "Maça",
+        "de_DE": "Streitkolben",
+        "en_GB": "Mace",
+        "es_ES": "Maza",
+        "fr_FR": "Masse",
+        "it_IT": "Mazza",
+        "ru_RU": "Дробящее",
+        "ko_KR": "둔기",
+        "zh_TW": "錘",
+        "zh_CN": "锤"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": {
+        "en_US": "One-Hand",
+        "es_MX": "Una mano",
+        "pt_BR": "Uma Mão",
+        "de_DE": "Einhändig",
+        "en_GB": "One-Hand",
+        "es_ES": "Una mano",
+        "fr_FR": "À une main",
+        "it_IT": "Una mano",
+        "ru_RU": "Одноручное",
+        "ko_KR": "한손 장비",
+        "zh_TW": "單手",
+        "zh_CN": "单手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "unique_equipped": {
+      "en_US": "Unique",
+      "es_MX": "Único",
+      "pt_BR": "Único",
+      "de_DE": "Einzigartig",
+      "en_GB": "Unique",
+      "es_ES": "Único",
+      "fr_FR": "Unique",
+      "it_IT": "Unico",
+      "ru_RU": "Уникальный",
+      "ko_KR": "고유 아이템",
+      "zh_TW": "唯一",
+      "zh_CN": "唯一"
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 194,
+        "max_value": 250,
+        "display_string": {
+          "en_US": "194 - 250 Damage",
+          "es_MX": "194 - 250 p. de daño",
+          "pt_BR": "194 - 250 de Dano",
+          "de_DE": "194 - 250 Schaden",
+          "en_GB": "194 - 250 Damage",
+          "es_ES": "194 - 250 p. de daño",
+          "fr_FR": "Dégâts : 194 - 250",
+          "it_IT": "194 - 250 Danni",
+          "ru_RU": "Урон: 194 - 250",
+          "ko_KR": "공격력 194 ~ 250",
+          "zh_TW": "194-250點傷害",
+          "zh_CN": "194 - 250点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": {
+          "en_US": "Speed 2.60",
+          "es_MX": "Velocidad 2.60",
+          "pt_BR": "Velocidade 2,60",
+          "de_DE": "Geschwindigkeit 2,60",
+          "en_GB": "Speed 2.60",
+          "es_ES": "Velocidad 2,60",
+          "fr_FR": "Vitesse 2,60",
+          "it_IT": "Velocità 2,60",
+          "ru_RU": "Скорость 2,60",
+          "ko_KR": "속도 2.60",
+          "zh_TW": "速度 2.60",
+          "zh_CN": "速度 2.60"
+        }
+      },
+      "dps": {
+        "value": 85.38461,
+        "display_string": {
+          "en_US": "(85.4 damage per second)",
+          "es_MX": "(85.4 p. de daño por segundo)",
+          "pt_BR": "(85,4 de dano por segundo)",
+          "de_DE": "(85,4 Schaden pro Sekunde)",
+          "en_GB": "(85.4 damage per second)",
+          "es_ES": "(85,4 p. de daño por segundo)",
+          "fr_FR": "(85,4 dégâts par seconde)",
+          "it_IT": "(85,4 danni per secondo)",
+          "ru_RU": "(85,4 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 85.4)",
+          "zh_TW": "(每秒85.4點傷害)",
+          "zh_CN": "（每秒伤害85.4）"
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 876,
+        "display": {
+          "display_string": {
+            "en_US": "+876 Intellect",
+            "es_MX": "+876 intelecto",
+            "pt_BR": "+876 Intelecto",
+            "de_DE": "+876 Intelligenz",
+            "en_GB": "+876 Intellect",
+            "es_ES": "+876 intelecto",
+            "fr_FR": "+876 Intelligence",
+            "it_IT": "+876 Intelletto",
+            "ru_RU": "+876 к интеллекту",
+            "ko_KR": "지능 +876",
+            "zh_TW": "+876智力",
+            "zh_CN": "+876 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 309,
+        "display": {
+          "display_string": {
+            "en_US": "+309 Stamina",
+            "es_MX": "+309 aguante",
+            "pt_BR": "+309 Vigor",
+            "de_DE": "+309 Ausdauer",
+            "en_GB": "+309 Stamina",
+            "es_ES": "+309 aguante",
+            "fr_FR": "+309 Endurance",
+            "it_IT": "+309 Tempra",
+            "ru_RU": "+309 к выносливости",
+            "ko_KR": "체력 +309",
+            "zh_TW": "+309耐力",
+            "zh_CN": "+309 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 207,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+207 Versatility",
+            "es_MX": "+207 versatilidad",
+            "pt_BR": "+207 Versatilidade",
+            "de_DE": "+207 Vielseitigkeit",
+            "en_GB": "+207 Versatility",
+            "es_ES": "+207 versatilidad",
+            "fr_FR": "+207 Polyvalence",
+            "it_IT": "+207 Indice di versatilità",
+            "ru_RU": "+207 к универсальности",
+            "ko_KR": "유연성 +207",
+            "zh_TW": "+207臨機應變",
+            "zh_CN": "+207 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/193841?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Odd Feeling",
+            "es_MX": "Sensación rara",
+            "pt_BR": "Sensação Estranha",
+            "de_DE": "Seltsames Gefühl",
+            "en_GB": "Odd Feeling",
+            "es_ES": "Sensación extraña",
+            "fr_FR": "Sensation étrange",
+            "it_IT": "Strana Sensazione",
+            "ru_RU": "Странное чувство",
+            "ko_KR": "기이한 느낌",
+            "zh_TW": "怪異之感",
+            "zh_CN": "异样感觉"
+          },
+          "id": 193841
+        },
+        "description": {
+          "en_US": "Equip: Your attacks have a chance to increase Haste by 6,984 for 4 sec.",
+          "es_MX": "Equipar: Tus ataques tienen una probabilidad de aumentar 6,984 p. la celeridad durante 4 s.",
+          "pt_BR": "Equipado: Seus ataques têm uma chance de aumentar a aceleração em 6.984 por 4 s.",
+          "de_DE": "Anlegen: Eure Angriffe haben eine Chance, Euer Tempo 4 Sek. lang um 6.984 zu erhöhen.",
+          "en_GB": "Equip: Your attacks have a chance to increase Haste by 6,984 for 4 sec.",
+          "es_ES": "Equipar: Tus ataques tienen una probabilidad de aumentar la celeridad 6984 p. durante 4 s.",
+          "fr_FR": "Équipé : Vos attaques ont une chance de vous donner un bonus de 6984 à la hâte pendant 4 s.",
+          "it_IT": "Equipaggia: Gli attacchi hanno una probabilità di aumentare l'indice di celerità di 6.984 per 4 s.",
+          "ru_RU": "Если на персонаже: Ваши атаки могут повысить вашу скорость на 6984 на 4 сек.",
+          "ko_KR": "착용 효과: 공격 시 일정 확률로 4초 동안 가속이 6,984만큼 증가합니다.",
+          "zh_TW": "裝備： 你的攻擊有一定機率使加速提高6,984點，持續4秒。",
+          "zh_CN": "装备： 你的攻击有几率使急速提高6,984，持续4秒。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 772862,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "77",
+          "es_MX": "77",
+          "pt_BR": "77",
+          "de_DE": "77",
+          "en_GB": "77",
+          "es_ES": "77",
+          "fr_FR": "77",
+          "it_IT": "77",
+          "ru_RU": "77",
+          "ko_KR": "77",
+          "zh_TW": "77",
+          "zh_CN": "77"
+        },
+        "silver": {
+          "en_US": "28",
+          "es_MX": "28",
+          "pt_BR": "28",
+          "de_DE": "28",
+          "en_GB": "28",
+          "es_ES": "28",
+          "fr_FR": "28",
+          "it_IT": "28",
+          "ru_RU": "28",
+          "ko_KR": "28",
+          "zh_TW": "28",
+          "zh_CN": "28"
+        },
+        "copper": {
+          "en_US": "62",
+          "es_MX": "62",
+          "pt_BR": "62",
+          "de_DE": "62",
+          "en_GB": "62",
+          "es_ES": "62",
+          "fr_FR": "62",
+          "it_IT": "62",
+          "ru_RU": "62",
+          "ko_KR": "62",
+          "zh_TW": "62",
+          "zh_CN": "62"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 24,
+        "display_string": {
+          "en_US": "Requires Level 24",
+          "es_MX": "Necesitas ser de nivel 24",
+          "pt_BR": "Requer o Nível 24",
+          "de_DE": "Benötigt Stufe 24",
+          "en_GB": "Requires Level 24",
+          "es_ES": "Necesitas ser de nivel 24",
+          "fr_FR": "Niveau 24 requis",
+          "it_IT": "Richiede il livello 24",
+          "ru_RU": "Требуется 24-й уровень",
+          "ko_KR": "최소 요구 레벨: 24",
+          "zh_TW": "需要等級24",
+          "zh_CN": "需要等级 24"
+        }
+      }
+    },
+    "level": {
+      "value": 367,
+      "display_string": {
+        "en_US": "Item Level 367",
+        "es_MX": "Nivel de objeto 367",
+        "pt_BR": "Nível do Item: 367",
+        "de_DE": "Gegenstandsstufe 367",
+        "en_GB": "Item Level 367",
+        "es_ES": "Nivel de objeto 367",
+        "fr_FR": "Niveau d'objet 367",
+        "it_IT": "Livello oggetto: 367",
+        "ru_RU": "Уровень предмета: 367",
+        "ko_KR": "아이템 레벨: 367",
+        "zh_TW": "物品等級367",
+        "zh_CN": "物品等级367"
+      }
+    },
+    "durability": {
+      "value": 110,
+      "display_string": {
+        "en_US": "Durability 110 / 110",
+        "es_MX": "Durabilidad 110 / 110",
+        "pt_BR": "Durabilidade 110 / 110",
+        "de_DE": "Haltbarkeit 110 / 110",
+        "en_GB": "Durability 110 / 110",
+        "es_ES": "Durabilidad 110 / 110",
+        "fr_FR": "Durabilité : 110 / 110",
+        "it_IT": "Integrità 110/110",
+        "ru_RU": "Прочность: 110 / 110",
+        "ko_KR": "내구도 110 / 110",
+        "zh_TW": "耐久度 110 / 110",
+        "zh_CN": "耐久度 110 / 110"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/766?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 766
+    }
+  ]
+}

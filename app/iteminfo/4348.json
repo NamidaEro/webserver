@@ -1,0 +1,753 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/4348?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 4348,
+  "name": {
+    "en_US": "Pattern: Phoenix Gloves",
+    "es_MX": "Patrón: guantes Fénix",
+    "pt_BR": "Molde: Luvas da Fênix",
+    "de_DE": "Muster: Phönixhandschuhe",
+    "en_GB": "Pattern: Phoenix Gloves",
+    "es_ES": "Patrón: guantes Fénix",
+    "fr_FR": "Patron : Gants du phénix",
+    "it_IT": "Modello: Guanti della Fenice",
+    "ru_RU": "Выкройка: перчатки Феникса",
+    "ko_KR": "도안: 불사조 장갑",
+    "zh_TW": "圖樣：鳳凰手套",
+    "zh_CN": "图样：凤凰手套"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/4348?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 4348
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Tailoring",
+      "es_MX": "Sastrería",
+      "pt_BR": "Alfaiataria",
+      "de_DE": "Schneiderei",
+      "en_GB": "Tailoring",
+      "es_ES": "Sastrería",
+      "fr_FR": "Couture",
+      "it_IT": "Sartoria",
+      "ru_RU": "Портняжное дело",
+      "ko_KR": "재봉술",
+      "zh_TW": "裁縫",
+      "zh_CN": "裁缝"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 700,
+  "sell_price": 175,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to sew Phoenix Gloves.",
+    "es_MX": "Te enseña a confeccionar guantes Fénix.",
+    "pt_BR": "Ensina a confeccionar Luvas da Fênix.",
+    "de_DE": "Lehrt Euch, wie man Phönixhandschuhe näht.",
+    "en_GB": "Teaches you how to sew Phoenix Gloves.",
+    "es_ES": "Te enseña a confeccionar guantes Fénix.",
+    "fr_FR": "Vous apprend à coudre des Gants du phénix.",
+    "it_IT": "Ti insegna a creare dei Guanti della Fenice.",
+    "ru_RU": "Обучает пошиву перчаток Феникса.",
+    "ko_KR": "불사조 장갑 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何縫製鳳凰手套。",
+    "zh_CN": "教你学会制作凤凰手套。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/4348?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 4348
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Phoenix Gloves",
+      "es_MX": "Patrón: guantes Fénix",
+      "pt_BR": "Molde: Luvas da Fênix",
+      "de_DE": "Muster: Phönixhandschuhe",
+      "en_GB": "Pattern: Phoenix Gloves",
+      "es_ES": "Patrón: guantes Fénix",
+      "fr_FR": "Patron : Gants du phénix",
+      "it_IT": "Modello: Guanti della Fenice",
+      "ru_RU": "Выкройка: перчатки Феникса",
+      "ko_KR": "도안: 불사조 장갑",
+      "zh_TW": "圖樣：鳳凰手套",
+      "zh_CN": "图样：凤凰手套"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/4348?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 4348
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Tailoring",
+        "es_MX": "Sastrería",
+        "pt_BR": "Alfaiataria",
+        "de_DE": "Schneiderei",
+        "en_GB": "Tailoring",
+        "es_ES": "Sastrería",
+        "fr_FR": "Couture",
+        "it_IT": "Sartoria",
+        "ru_RU": "Портняжное дело",
+        "ko_KR": "재봉술",
+        "zh_TW": "裁縫",
+        "zh_CN": "裁缝"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 175,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "1",
+          "es_MX": "1",
+          "pt_BR": "1",
+          "de_DE": "1",
+          "en_GB": "1",
+          "es_ES": "1",
+          "fr_FR": "1",
+          "it_IT": "1",
+          "ru_RU": "1",
+          "ko_KR": "1",
+          "zh_TW": "1",
+          "zh_CN": "1"
+        },
+        "copper": {
+          "en_US": "75",
+          "es_MX": "75",
+          "pt_BR": "75",
+          "de_DE": "75",
+          "en_GB": "75",
+          "es_ES": "75",
+          "fr_FR": "75",
+          "it_IT": "75",
+          "ru_RU": "75",
+          "ko_KR": "75",
+          "zh_TW": "75",
+          "zh_CN": "75"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Tailoring",
+            "es_MX": "Sastrería clásica",
+            "pt_BR": "Alfaiataria do Classic",
+            "de_DE": "Klassische Schneiderei",
+            "en_GB": "Classic Tailoring",
+            "es_ES": "Sastrería clásica",
+            "fr_FR": "Couture classique",
+            "it_IT": "Sartoria Classica",
+            "ru_RU": "Классическое портняжное дело",
+            "ko_KR": "옛 재봉술",
+            "zh_TW": "艾澤拉斯裁縫",
+            "zh_CN": "经典旧世裁缝"
+          },
+          "id": 2540
+        },
+        "level": 125,
+        "display_string": {
+          "en_US": "Requires Classic Tailoring (125)",
+          "es_MX": "Requiere Sastrería clásica (125)",
+          "pt_BR": "Requer Alfaiataria do Classic (125)",
+          "de_DE": "Benötigt Klassische Schneiderei (125)",
+          "en_GB": "Requires Classic Tailoring (125)",
+          "es_ES": "Requiere Sastrería clásica (125)",
+          "fr_FR": "Couture classique (125) requis",
+          "it_IT": "Richiede: Sartoria Classica (125)",
+          "ru_RU": "Требуется: Классическое портняжное дело (125)",
+          "ko_KR": "요구 사항: 옛 재봉술 (125)",
+          "zh_TW": "需要艾澤拉斯裁縫(125)",
+          "zh_CN": "需要经典旧世裁缝（125）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to sew Phoenix Gloves.",
+      "es_MX": "Te enseña a confeccionar guantes Fénix.",
+      "pt_BR": "Ensina a confeccionar Luvas da Fênix.",
+      "de_DE": "Lehrt Euch, wie man Phönixhandschuhe näht.",
+      "en_GB": "Teaches you how to sew Phoenix Gloves.",
+      "es_ES": "Te enseña a confeccionar guantes Fénix.",
+      "fr_FR": "Vous apprend à coudre des Gants du phénix.",
+      "it_IT": "Ti insegna a creare dei Guanti della Fenice.",
+      "ru_RU": "Обучает пошиву перчаток Феникса.",
+      "ko_KR": "불사조 장갑 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何縫製鳳凰手套。",
+      "zh_CN": "教你学会制作凤凰手套。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/4331?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 4331
+        },
+        "quality": {
+          "type": "UNCOMMON",
+          "name": {
+            "en_US": "Uncommon",
+            "es_MX": "Inusual",
+            "pt_BR": "Incomum",
+            "de_DE": "Ungewöhnlich",
+            "en_GB": "Uncommon",
+            "es_ES": "Inusual",
+            "fr_FR": "Inhabituel",
+            "it_IT": "Pregiato",
+            "ru_RU": "Необычное",
+            "ko_KR": "고급",
+            "zh_TW": "優秀",
+            "zh_CN": "优秀"
+          }
+        },
+        "name": {
+          "en_US": "Phoenix Gloves",
+          "es_MX": "Guantes Fénix",
+          "pt_BR": "Luvas da Fênix",
+          "de_DE": "Phönixhandschuhe",
+          "en_GB": "Phoenix Gloves",
+          "es_ES": "Guantes Fénix",
+          "fr_FR": "Gants du phénix",
+          "it_IT": "Guanti della Fenice",
+          "ru_RU": "Перчатки Феникса",
+          "ko_KR": "불사조 장갑",
+          "zh_TW": "鳳凰手套",
+          "zh_CN": "凤凰手套"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/4331?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 4331
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Cloth",
+            "es_MX": "Tela",
+            "pt_BR": "Tecido",
+            "de_DE": "Stoff",
+            "en_GB": "Cloth",
+            "es_ES": "Tela",
+            "fr_FR": "Tissu",
+            "it_IT": "Stoffa",
+            "ru_RU": "Ткань",
+            "ko_KR": "천",
+            "zh_TW": "布甲",
+            "zh_CN": "布甲"
+          },
+          "id": 1
+        },
+        "inventory_type": {
+          "type": "HAND",
+          "name": {
+            "en_US": "Hands",
+            "es_MX": "Manos",
+            "pt_BR": "Mãos",
+            "de_DE": "Hände",
+            "en_GB": "Hands",
+            "es_ES": "Manos",
+            "fr_FR": "Mains",
+            "it_IT": "Mani",
+            "ru_RU": "Кисти рук",
+            "ko_KR": "손",
+            "zh_TW": "手",
+            "zh_CN": "手部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "armor": {
+          "value": 2,
+          "display": {
+            "display_string": {
+              "en_US": "2 Armor",
+              "es_MX": "2 p. de armadura",
+              "pt_BR": "2 de Armadura",
+              "de_DE": "2 Rüstung",
+              "en_GB": "2 Armor",
+              "es_ES": "2 p. de armadura",
+              "fr_FR": "Armure : 2",
+              "it_IT": "2 Armatura",
+              "ru_RU": "Броня: 2",
+              "ko_KR": "방어도 2",
+              "zh_TW": "2點護甲",
+              "zh_CN": "2点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "INTELLECT",
+              "name": {
+                "en_US": "Intellect",
+                "es_MX": "intelecto",
+                "pt_BR": "Intelecto",
+                "de_DE": "Intelligenz",
+                "en_GB": "Intellect",
+                "es_ES": "intelecto",
+                "fr_FR": "Intelligence",
+                "it_IT": "Intelletto",
+                "ru_RU": "к интеллекту",
+                "ko_KR": "지능",
+                "zh_TW": "智力",
+                "zh_CN": "智力"
+              }
+            },
+            "value": 4,
+            "display": {
+              "display_string": {
+                "en_US": "+4 Intellect",
+                "es_MX": "+4 intelecto",
+                "pt_BR": "+4 Intelecto",
+                "de_DE": "+4 Intelligenz",
+                "en_GB": "+4 Intellect",
+                "es_ES": "+4 intelecto",
+                "fr_FR": "+4 Intelligence",
+                "it_IT": "+4 Intelletto",
+                "ru_RU": "+4 к интеллекту",
+                "ko_KR": "지능 +4",
+                "zh_TW": "+4智力",
+                "zh_CN": "+4 智力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 1500,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "15",
+              "es_MX": "15",
+              "pt_BR": "15",
+              "de_DE": "15",
+              "en_GB": "15",
+              "es_ES": "15",
+              "fr_FR": "15",
+              "it_IT": "15",
+              "ru_RU": "15",
+              "ko_KR": "15",
+              "zh_TW": "15",
+              "zh_CN": "15"
+            },
+            "copper": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 10,
+            "display_string": {
+              "en_US": "Requires Level 10",
+              "es_MX": "Necesitas ser de nivel 10",
+              "pt_BR": "Requer o Nível 10",
+              "de_DE": "Benötigt Stufe 10",
+              "en_GB": "Requires Level 10",
+              "es_ES": "Necesitas ser de nivel 10",
+              "fr_FR": "Niveau 10 requis",
+              "it_IT": "Richiede il livello 10",
+              "ru_RU": "Требуется 10-й уровень",
+              "ko_KR": "최소 요구 레벨: 10",
+              "zh_TW": "需要等級10",
+              "zh_CN": "需要等级 10"
+            }
+          }
+        },
+        "level": {
+          "value": 16,
+          "display_string": {
+            "en_US": "Item Level 16",
+            "es_MX": "Nivel de objeto 16",
+            "pt_BR": "Nível do Item: 16",
+            "de_DE": "Gegenstandsstufe 16",
+            "en_GB": "Item Level 16",
+            "es_ES": "Nivel de objeto 16",
+            "fr_FR": "Niveau d'objet 16",
+            "it_IT": "Livello oggetto: 16",
+            "ru_RU": "Уровень предмета: 16",
+            "ko_KR": "아이템 레벨: 16",
+            "zh_TW": "物品等級16",
+            "zh_CN": "物品等级16"
+          }
+        },
+        "durability": {
+          "value": 30,
+          "display_string": {
+            "en_US": "Durability 30 / 30",
+            "es_MX": "Durabilidad 30 / 30",
+            "pt_BR": "Durabilidade 30 / 30",
+            "de_DE": "Haltbarkeit 30 / 30",
+            "en_GB": "Durability 30 / 30",
+            "es_ES": "Durabilidad 30 / 30",
+            "fr_FR": "Durabilité : 30 / 30",
+            "it_IT": "Integrità 30/30",
+            "ru_RU": "Прочность: 30 / 30",
+            "ko_KR": "내구도 30 / 30",
+            "zh_TW": "耐久度 30 / 30",
+            "zh_CN": "耐久度 30 / 30"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/2997?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Bolt of Woolen Cloth",
+              "es_MX": "Madeja de paño de lana",
+              "pt_BR": "Peça de Lã",
+              "de_DE": "Wollstoffballen",
+              "en_GB": "Bolt of Woolen Cloth",
+              "es_ES": "Madeja de paño de lana",
+              "fr_FR": "Rouleau d'étoffe de laine",
+              "it_IT": "Rotolo di Lana",
+              "ru_RU": "Рулон шерсти",
+              "ko_KR": "양모 두루마리",
+              "zh_TW": "毛布卷",
+              "zh_CN": "毛布卷"
+            },
+            "id": 2997
+          },
+          "quantity": 4
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/5500?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Iridescent Pearl",
+              "es_MX": "Perla iridiscente",
+              "pt_BR": "Pérola Iridescente",
+              "de_DE": "Schillernde Perle",
+              "en_GB": "Iridescent Pearl",
+              "es_ES": "Perla iridiscente",
+              "fr_FR": "Perle iridescente",
+              "it_IT": "Perla Iridescente",
+              "ru_RU": "Радужная жемчужина",
+              "ko_KR": "오색 진주",
+              "zh_TW": "彩色珍珠",
+              "zh_CN": "彩色珍珠"
+            },
+            "id": 5500
+          },
+          "quantity": 1
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/2321?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Fine Thread",
+              "es_MX": "Hilo refinado",
+              "pt_BR": "Fio Delicado",
+              "de_DE": "Feiner Faden",
+              "en_GB": "Fine Thread",
+              "es_ES": "Hilo refinado",
+              "fr_FR": "Bobine de fil raffiné",
+              "it_IT": "Filo Pregiato",
+              "ru_RU": "Тонкая нить",
+              "ko_KR": "가는 실타래",
+              "zh_TW": "細線",
+              "zh_CN": "细线"
+            },
+            "id": 2321
+          },
+          "quantity": 4
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/2324?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Bleach",
+              "es_MX": "Lejía",
+              "pt_BR": "Alvejante",
+              "de_DE": "Bleiche",
+              "en_GB": "Bleach",
+              "es_ES": "Lejía",
+              "fr_FR": "Décolorant",
+              "it_IT": "Sbiancante",
+              "ru_RU": "Отбеливатель",
+              "ko_KR": "표백제",
+              "zh_TW": "漂白液",
+              "zh_CN": "漂白液"
+            },
+            "id": 2324
+          },
+          "quantity": 2
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Bolt of Woolen Cloth (4), Iridescent Pearl, Fine Thread (4), Bleach (2)",
+        "es_MX": "Madeja de paño de lana (4), Perla iridiscente, Hilo refinado (4), Lejía (2)",
+        "pt_BR": "Peça de Lã (4), Pérola Iridescente, Fio Delicado (4), Alvejante (2)",
+        "de_DE": "Wollstoffballen (4), Schillernde Perle, Feiner Faden (4), Bleiche (2)",
+        "en_GB": "Bolt of Woolen Cloth (4), Iridescent Pearl, Fine Thread (4), Bleach (2)",
+        "es_ES": "Madeja de paño de lana (4), Perla iridiscente, Hilo refinado (4), Lejía (2)",
+        "fr_FR": "Rouleau d'étoffe de laine (4), Perle iridescente, Bobine de fil raffiné (4), Décolorant (2)",
+        "it_IT": "Rotolo di Lana (4), Perla Iridescente, Filo Pregiato (4), Sbiancante (2)",
+        "ru_RU": "Рулон шерсти (4), Радужная жемчужина, Тонкая нить (4), Отбеливатель (2)",
+        "ko_KR": "양모 두루마리 (4), 오색 진주, 가는 실타래 (4), 표백제 (2)",
+        "zh_TW": "毛布卷 (4), 彩色珍珠, 細線 (4), 漂白液 (2)",
+        "zh_CN": "毛布卷 (4), 彩色珍珠, 细线 (4), 漂白液 (2)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,341 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/223102?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 223102,
+  "name": {
+    "en_US": "Pattern: Busy Bee's Buckle",
+    "es_MX": "Patrón: Hebilla de abeja laboriosa",
+    "pt_BR": "Molde: Fivela da Abelha Atarefada",
+    "de_DE": "Muster: Gürtelschnalle der fleißigen Biene",
+    "en_GB": "Pattern: Busy Bee's Buckle",
+    "es_ES": "Patrón: hebilla de laboriosidad",
+    "fr_FR": "Patron : boucle de l’abeille affairée",
+    "it_IT": "Modello: Fibbia dell'Ape Operosa",
+    "ru_RU": "Выкройка: пояс с пряжкой пчелки-трудяги",
+    "ko_KR": "도안: 바쁜 벌의 죔쇠",
+    "zh_TW": "圖樣：忙蜂扣環",
+    "zh_CN": "图样：忙碌蜜蜂腰扣"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/223102?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 223102
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leatherworking",
+      "es_MX": "Peletería",
+      "pt_BR": "Couraria",
+      "de_DE": "Lederverarbeitung",
+      "en_GB": "Leatherworking",
+      "es_ES": "Peletería",
+      "fr_FR": "Travail du cuir",
+      "it_IT": "Conciatura",
+      "ru_RU": "Кожевничество",
+      "ko_KR": "가죽세공",
+      "zh_TW": "製皮",
+      "zh_CN": "制皮"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 2500000,
+  "sell_price": 500000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Busy Bee's Buckle.",
+    "es_MX": "Te enseña a fabricar una hebilla de abeja laboriosa.",
+    "pt_BR": "Ensina a fazer a Fivela da Abelha Atarefada.",
+    "de_DE": "Lehrt Euch, wie man eine Gürtelschnalle der fleißigen Biene herstellt.",
+    "en_GB": "Teaches you how to craft Busy Bee's Buckle.",
+    "es_ES": "Te enseña a fabricar una hebilla de laboriosidad.",
+    "fr_FR": "Vous apprend à confectionner une boucle de l’abeille affairée.",
+    "it_IT": "Ti insegna a creare una Fibbia dell'Ape Operosa.",
+    "ru_RU": "Обучает изготовлению пояса с пряжкой пчелки-трудяги.",
+    "ko_KR": "바쁜 벌의 죔쇠 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作忙蜂扣環。",
+    "zh_CN": "教你学会制作忙碌蜜蜂腰扣。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/223102?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 223102
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Busy Bee's Buckle",
+      "es_MX": "Patrón: Hebilla de abeja laboriosa",
+      "pt_BR": "Molde: Fivela da Abelha Atarefada",
+      "de_DE": "Muster: Gürtelschnalle der fleißigen Biene",
+      "en_GB": "Pattern: Busy Bee's Buckle",
+      "es_ES": "Patrón: hebilla de laboriosidad",
+      "fr_FR": "Patron : boucle de l’abeille affairée",
+      "it_IT": "Modello: Fibbia dell'Ape Operosa",
+      "ru_RU": "Выкройка: пояс с пряжкой пчелки-трудяги",
+      "ko_KR": "도안: 바쁜 벌의 죔쇠",
+      "zh_TW": "圖樣：忙蜂扣環",
+      "zh_CN": "图样：忙碌蜜蜂腰扣"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/223102?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 223102
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leatherworking",
+        "es_MX": "Peletería",
+        "pt_BR": "Couraria",
+        "de_DE": "Lederverarbeitung",
+        "en_GB": "Leatherworking",
+        "es_ES": "Peletería",
+        "fr_FR": "Travail du cuir",
+        "it_IT": "Conciatura",
+        "ru_RU": "Кожевничество",
+        "ko_KR": "가죽세공",
+        "zh_TW": "製皮",
+        "zh_CN": "制皮"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 500000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2880?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Khaz Algar Leatherworking",
+            "es_MX": "Peletería de Khaz Algar",
+            "pt_BR": "Couraria de Khaz Algar",
+            "de_DE": "Lederverarbeitung von Khaz Algar",
+            "en_GB": "Khaz Algar Leatherworking",
+            "es_ES": "Peletería de Khaz Algar",
+            "fr_FR": "Travail du cuir de Khaz Algar",
+            "it_IT": "Conciatura di Khaz Algar",
+            "ru_RU": "Кожевничество Каз Алгара",
+            "ko_KR": "카즈 알가르 가죽세공",
+            "zh_TW": "卡茲阿爾加製皮",
+            "zh_CN": "卡兹阿加制皮"
+          },
+          "id": 2880
+        },
+        "level": 50,
+        "display_string": {
+          "en_US": "Requires Khaz Algar Leatherworking (50)",
+          "es_MX": "Requiere Peletería de Khaz Algar (50)",
+          "pt_BR": "Requer Couraria de Khaz Algar (50)",
+          "de_DE": "Benötigt Lederverarbeitung von Khaz Algar (50)",
+          "en_GB": "Requires Khaz Algar Leatherworking (50)",
+          "es_ES": "Requiere Peletería de Khaz Algar (50)",
+          "fr_FR": "Travail du cuir de Khaz Algar (50) requis",
+          "it_IT": "Richiede: Conciatura di Khaz Algar (50)",
+          "ru_RU": "Требуется: Кожевничество Каз Алгара (50)",
+          "ko_KR": "요구 사항: 카즈 알가르 가죽세공 (50)",
+          "zh_TW": "需要卡茲阿爾加製皮(50)",
+          "zh_CN": "需要卡兹阿加制皮（50）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft Busy Bee's Buckle.",
+      "es_MX": "Te enseña a fabricar una hebilla de abeja laboriosa.",
+      "pt_BR": "Ensina a fazer a Fivela da Abelha Atarefada.",
+      "de_DE": "Lehrt Euch, wie man eine Gürtelschnalle der fleißigen Biene herstellt.",
+      "en_GB": "Teaches you how to craft Busy Bee's Buckle.",
+      "es_ES": "Te enseña a fabricar una hebilla de laboriosidad.",
+      "fr_FR": "Vous apprend à confectionner une boucle de l’abeille affairée.",
+      "it_IT": "Ti insegna a creare una Fibbia dell'Ape Operosa.",
+      "ru_RU": "Обучает изготовлению пояса с пряжкой пчелки-трудяги.",
+      "ko_KR": "바쁜 벌의 죔쇠 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作忙蜂扣環。",
+      "zh_CN": "教你学会制作忙碌蜜蜂腰扣。"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

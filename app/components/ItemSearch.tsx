@@ -20,9 +20,9 @@ const ItemSearch: React.FC = () => {
         throw new Error(errorDetails.error || 'Failed to fetch items');
       }
       const data = await response.json();
-      console.log('Fetched data:', data);
+      // console.log('Fetched data:', data);
       const filteredItems = data.results.filter((item: any) => item.data?.name?.ko_KR?.includes(searchQuery));
-      console.log('Filtered Items:', filteredItems);
+      // console.log('Filtered Items:', filteredItems);
       setItems(filteredItems); // Store all filtered items locally
 
       // Calculate totalPages based on the filteredItems length
@@ -80,7 +80,7 @@ const ItemSearch: React.FC = () => {
         <tbody>
           {getPaginatedItems().map((item, index) => (
             <tr key={item.id || index}>
-              <td style={{ border: '1px solid black', padding: '8px' }}>{item.data?.name?.ko_KR}</td>
+              <td style={{ border: '1px solid black', padding: '8px' }}>{item.data?.name?.[LOCALE]}</td>
               <td style={{ border: '1px solid black', padding: '8px' }}>{item.data?.id}</td>
             </tr>
           ))}

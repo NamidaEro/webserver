@@ -1,0 +1,324 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/118377?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 118377,
+  "name": {
+    "en_US": "Universal Language Module",
+    "es_MX": "Módulo de idioma universal",
+    "pt_BR": "Módulo de Idiomas Universal",
+    "de_DE": "Universelles Sprachmodul",
+    "en_GB": "Universal Language Module",
+    "es_ES": "Módulo de idioma universal",
+    "fr_FR": "Module de langage universel",
+    "it_IT": "Modulo del Linguaggio Universale",
+    "ru_RU": "Универсальный языковой модуль",
+    "ko_KR": "범용 언어 모듈",
+    "zh_TW": "通用語模組",
+    "zh_CN": "通用语言模块"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/118377?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 118377
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "杂项"
+    },
+    "id": 15
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Other",
+      "es_MX": "Otros",
+      "pt_BR": "Outro",
+      "de_DE": "Sonstiges",
+      "en_GB": "Other",
+      "es_ES": "Otros",
+      "fr_FR": "Autres",
+      "it_IT": "Altro",
+      "ru_RU": "Другое",
+      "ko_KR": "기타",
+      "zh_TW": "其他",
+      "zh_CN": "其它"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 742348,
+  "sell_price": 185587,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Parts to construct this module are found in Ashran or sold on the auction house.",
+    "es_MX": "Las partes para construir este módulo se encuentran en Ashran o están a la venta en la casa de subastas.",
+    "pt_BR": "As peças para a construção deste módulo são encontradas em Ashran ou à venda na casa de leilões.",
+    "de_DE": "Die Teile für dieses Modul sind in Ashran zu finden oder im Auktionshaus erhältlich.",
+    "en_GB": "Parts to construct this module are found in Ashran or sold on the auction house.",
+    "es_ES": "Las partes para ensamblar este módulo se encuentran en Ashran o se pueden comprar en la casa de subastas.",
+    "fr_FR": "Les parties nécessaires à l'assemblage de ce module peuvent être trouvées à A'shran ou à l'hôtel des ventes.",
+    "it_IT": "Le parti per costruire questo modulo si trovano ad Ashran o in vendita alla Casa d'Aste.",
+    "ru_RU": "Детали для сборки этого модуля можно найти на Ашране или купить на аукционе.",
+    "ko_KR": "모듈 제작에 필요한 재료는 아쉬란에서 얻거나 경매장에서 살 수 있습니다.",
+    "zh_TW": "這個模組的零件可以在艾斯蘭取得，並可在拍賣場進行買賣。",
+    "zh_CN": "组成这个模块的零件可以在阿什兰找到，或者拍卖行中购买。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/118377?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 118377
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Universal Language Module",
+      "es_MX": "Módulo de idioma universal",
+      "pt_BR": "Módulo de Idiomas Universal",
+      "de_DE": "Universelles Sprachmodul",
+      "en_GB": "Universal Language Module",
+      "es_ES": "Módulo de idioma universal",
+      "fr_FR": "Module de langage universel",
+      "it_IT": "Modulo del Linguaggio Universale",
+      "ru_RU": "Универсальный языковой модуль",
+      "ko_KR": "범용 언어 모듈",
+      "zh_TW": "通用語模組",
+      "zh_CN": "通用语言模块"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/118377?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 118377
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "杂项"
+      },
+      "id": 15
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Other",
+        "es_MX": "Otros",
+        "pt_BR": "Outro",
+        "de_DE": "Sonstiges",
+        "en_GB": "Other",
+        "es_ES": "Otros",
+        "fr_FR": "Autres",
+        "it_IT": "Altro",
+        "ru_RU": "Другое",
+        "ko_KR": "기타",
+        "zh_TW": "其他",
+        "zh_CN": "其它"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 185587,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "18",
+          "es_MX": "18",
+          "pt_BR": "18",
+          "de_DE": "18",
+          "en_GB": "18",
+          "es_ES": "18",
+          "fr_FR": "18",
+          "it_IT": "18",
+          "ru_RU": "18",
+          "ko_KR": "18",
+          "zh_TW": "18",
+          "zh_CN": "18"
+        },
+        "silver": {
+          "en_US": "55",
+          "es_MX": "55",
+          "pt_BR": "55",
+          "de_DE": "55",
+          "en_GB": "55",
+          "es_ES": "55",
+          "fr_FR": "55",
+          "it_IT": "55",
+          "ru_RU": "55",
+          "ko_KR": "55",
+          "zh_TW": "55",
+          "zh_CN": "55"
+        },
+        "copper": {
+          "en_US": "87",
+          "es_MX": "87",
+          "pt_BR": "87",
+          "de_DE": "87",
+          "en_GB": "87",
+          "es_ES": "87",
+          "fr_FR": "87",
+          "it_IT": "87",
+          "ru_RU": "87",
+          "ko_KR": "87",
+          "zh_TW": "87",
+          "zh_CN": "87"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Parts to construct this module are found in Ashran or sold on the auction house.",
+      "es_MX": "Las partes para construir este módulo se encuentran en Ashran o están a la venta en la casa de subastas.",
+      "pt_BR": "As peças para a construção deste módulo são encontradas em Ashran ou à venda na casa de leilões.",
+      "de_DE": "Die Teile für dieses Modul sind in Ashran zu finden oder im Auktionshaus erhältlich.",
+      "en_GB": "Parts to construct this module are found in Ashran or sold on the auction house.",
+      "es_ES": "Las partes para ensamblar este módulo se encuentran en Ashran o se pueden comprar en la casa de subastas.",
+      "fr_FR": "Les parties nécessaires à l'assemblage de ce module peuvent être trouvées à A'shran ou à l'hôtel des ventes.",
+      "it_IT": "Le parti per costruire questo modulo si trovano ad Ashran o in vendita alla Casa d'Aste.",
+      "ru_RU": "Детали для сборки этого модуля можно найти на Ашране или купить на аукционе.",
+      "ko_KR": "모듈 제작에 필요한 재료는 아쉬란에서 얻거나 경매장에서 살 수 있습니다.",
+      "zh_TW": "這個模組的零件可以在艾斯蘭取得，並可在拍賣場進行買賣。",
+      "zh_CN": "组成这个模块的零件可以在阿什兰找到，或者拍卖行中购买。"
+    },
+    "is_subclass_hidden": true,
+    "name_description": {
+      "display_string": {
+        "en_US": "Trading Post Module",
+        "es_MX": "Módulo de puesto de venta",
+        "pt_BR": "Módulo de Posto Comercial",
+        "de_DE": "Handelspostenmodul",
+        "en_GB": "Trading Post Module",
+        "es_ES": "Módulo del puesto comercial",
+        "fr_FR": "Module pour comptoir",
+        "it_IT": "Modulo dell'Emporio",
+        "ru_RU": "Модуль для торговой лавки",
+        "ko_KR": "교역소 모듈",
+        "zh_TW": "貿易站組件",
+        "zh_CN": "货栈模型"
+      },
+      "color": {
+        "r": 0,
+        "g": 204,
+        "b": 255,
+        "a": 1
+      }
+    }
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,316 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/44648?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 44648,
+  "name": {
+    "en_US": "Purple Turban",
+    "es_MX": "Turbante morado",
+    "pt_BR": "Turbante Roxo",
+    "de_DE": "Lila Turban",
+    "en_GB": "Purple Turban",
+    "es_ES": "Turbante morado",
+    "fr_FR": "Turban violet",
+    "it_IT": "Turbante Viola",
+    "ru_RU": "Фиолетовый тюрбан",
+    "ko_KR": "보라색 터번",
+    "zh_TW": "紫色頭巾",
+    "zh_CN": "紫色缠头巾"
+  },
+  "quality": {
+    "type": "COMMON",
+    "name": {
+      "en_US": "Common",
+      "es_MX": "Común",
+      "pt_BR": "Comum",
+      "de_DE": "Gewöhnlich",
+      "en_GB": "Common",
+      "es_ES": "Común",
+      "fr_FR": "Commun",
+      "it_IT": "Comune",
+      "ru_RU": "Обычное",
+      "ko_KR": "일반",
+      "zh_TW": "普通",
+      "zh_CN": "普通"
+    }
+  },
+  "level": 35,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/44648?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 44648
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cosmetic",
+      "es_MX": "Cosmético",
+      "pt_BR": "Cosmético",
+      "de_DE": "Kosmetisch",
+      "en_GB": "Cosmetic",
+      "es_ES": "Cosmético",
+      "fr_FR": "Ornemental",
+      "it_IT": "Cosmetico",
+      "ru_RU": "Декоративный предмет",
+      "ko_KR": "장식",
+      "zh_TW": "造型",
+      "zh_CN": "装饰品"
+    },
+    "id": 5
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": {
+      "en_US": "Head",
+      "es_MX": "Cabeza",
+      "pt_BR": "Cabeça",
+      "de_DE": "Kopf",
+      "en_GB": "Head",
+      "es_ES": "Cabeza",
+      "fr_FR": "Tête",
+      "it_IT": "Testa",
+      "ru_RU": "Голова",
+      "ko_KR": "머리",
+      "zh_TW": "頭部",
+      "zh_CN": "头部"
+    }
+  },
+  "purchase_price": 1068741,
+  "sell_price": 213748,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/44648?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 44648
+    },
+    "quality": {
+      "type": "COMMON",
+      "name": {
+        "en_US": "Common",
+        "es_MX": "Común",
+        "pt_BR": "Comum",
+        "de_DE": "Gewöhnlich",
+        "en_GB": "Common",
+        "es_ES": "Común",
+        "fr_FR": "Commun",
+        "it_IT": "Comune",
+        "ru_RU": "Обычное",
+        "ko_KR": "일반",
+        "zh_TW": "普通",
+        "zh_CN": "普通"
+      }
+    },
+    "name": {
+      "en_US": "Purple Turban",
+      "es_MX": "Turbante morado",
+      "pt_BR": "Turbante Roxo",
+      "de_DE": "Lila Turban",
+      "en_GB": "Purple Turban",
+      "es_ES": "Turbante morado",
+      "fr_FR": "Turban violet",
+      "it_IT": "Turbante Viola",
+      "ru_RU": "Фиолетовый тюрбан",
+      "ko_KR": "보라색 터번",
+      "zh_TW": "紫色頭巾",
+      "zh_CN": "紫色缠头巾"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/44648?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 44648
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cosmetic",
+        "es_MX": "Cosmético",
+        "pt_BR": "Cosmético",
+        "de_DE": "Kosmetisch",
+        "en_GB": "Cosmetic",
+        "es_ES": "Cosmético",
+        "fr_FR": "Ornemental",
+        "it_IT": "Cosmetico",
+        "ru_RU": "Декоративный предмет",
+        "ko_KR": "장식",
+        "zh_TW": "造型",
+        "zh_CN": "装饰品"
+      },
+      "id": 5
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": {
+        "en_US": "Head",
+        "es_MX": "Cabeza",
+        "pt_BR": "Cabeça",
+        "de_DE": "Kopf",
+        "en_GB": "Head",
+        "es_ES": "Cabeza",
+        "fr_FR": "Tête",
+        "it_IT": "Testa",
+        "ru_RU": "Голова",
+        "ko_KR": "머리",
+        "zh_TW": "頭部",
+        "zh_CN": "头部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "sell_price": {
+      "value": 1714,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "17",
+          "es_MX": "17",
+          "pt_BR": "17",
+          "de_DE": "17",
+          "en_GB": "17",
+          "es_ES": "17",
+          "fr_FR": "17",
+          "it_IT": "17",
+          "ru_RU": "17",
+          "ko_KR": "17",
+          "zh_TW": "17",
+          "zh_CN": "17"
+        },
+        "copper": {
+          "en_US": "14",
+          "es_MX": "14",
+          "pt_BR": "14",
+          "de_DE": "14",
+          "en_GB": "14",
+          "es_ES": "14",
+          "fr_FR": "14",
+          "it_IT": "14",
+          "ru_RU": "14",
+          "ko_KR": "14",
+          "zh_TW": "14",
+          "zh_CN": "14"
+        }
+      }
+    },
+    "level": {
+      "value": 35,
+      "display_string": {
+        "en_US": "Item Level 35",
+        "es_MX": "Nivel de objeto 35",
+        "pt_BR": "Nível do Item: 35",
+        "de_DE": "Gegenstandsstufe 35",
+        "en_GB": "Item Level 35",
+        "es_ES": "Nivel de objeto 35",
+        "fr_FR": "Niveau d'objet 35",
+        "it_IT": "Livello oggetto: 35",
+        "ru_RU": "Уровень предмета: 35",
+        "ko_KR": "아이템 레벨: 35",
+        "zh_TW": "物品等級35",
+        "zh_CN": "物品等级35"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/11231?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 11231
+    }
+  ]
+}

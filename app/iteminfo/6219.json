@@ -1,0 +1,320 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/6219?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 6219,
+  "name": {
+    "en_US": "Arclight Spanner",
+    "es_MX": "Llave de tuerca arcoluz",
+    "pt_BR": "Chave de Arco Voltaico",
+    "de_DE": "Bogenlichtschraubenschlüssel",
+    "en_GB": "Arclight Spanner",
+    "es_ES": "Llave de tuerca arcoluz",
+    "fr_FR": "Clé plate",
+    "it_IT": "Chiave ad Arco",
+    "ru_RU": "Тангенциальный вращатель",
+    "ko_KR": "만능 스패너",
+    "zh_TW": "魔光扳手",
+    "zh_CN": "弧光扳手"
+  },
+  "quality": {
+    "type": "COMMON",
+    "name": {
+      "en_US": "Common",
+      "es_MX": "Común",
+      "pt_BR": "Comum",
+      "de_DE": "Gewöhnlich",
+      "en_GB": "Common",
+      "es_ES": "Común",
+      "fr_FR": "Commun",
+      "it_IT": "Comune",
+      "ru_RU": "Обычное",
+      "ko_KR": "일반",
+      "zh_TW": "普通",
+      "zh_CN": "普通"
+    }
+  },
+  "level": 5,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/6219?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 6219
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Profession",
+      "es_MX": "Profesión",
+      "pt_BR": "Profissão",
+      "de_DE": "Beruf",
+      "en_GB": "Profession",
+      "es_ES": "Profesión",
+      "fr_FR": "Métier",
+      "it_IT": "Professione",
+      "ru_RU": "Профессия",
+      "ko_KR": "전문 기술",
+      "zh_TW": "專業技能",
+      "zh_CN": "专业技能"
+    },
+    "id": 19
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/7?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Engineering",
+      "es_MX": "Ingeniería",
+      "pt_BR": "Engenharia",
+      "de_DE": "Ingenieurskunst",
+      "en_GB": "Engineering",
+      "es_ES": "Ingeniería",
+      "fr_FR": "Ingénierie",
+      "it_IT": "Ingegneria",
+      "ru_RU": "Инженерное дело",
+      "ko_KR": "기계공학",
+      "zh_TW": "工程學",
+      "zh_CN": "工程学"
+    },
+    "id": 7
+  },
+  "inventory_type": {
+    "type": "PROFESSION_TOOL",
+    "name": {
+      "en_US": "Profession Tool",
+      "es_MX": "Herramienta de profesión",
+      "pt_BR": "Ferramenta de profissão",
+      "de_DE": "Berufswerkzeug",
+      "en_GB": "Profession Tool",
+      "es_ES": "Herramienta de profesión",
+      "fr_FR": "Outils de métier",
+      "it_IT": "Attrezzo della Professione",
+      "ru_RU": "Инструмент для профессии",
+      "ko_KR": "전문 기술 도구",
+      "zh_TW": "專業技能工具",
+      "zh_CN": "专业工具"
+    }
+  },
+  "purchase_price": 947,
+  "sell_price": 89,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/6219?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 6219
+    },
+    "quality": {
+      "type": "COMMON",
+      "name": {
+        "en_US": "Common",
+        "es_MX": "Común",
+        "pt_BR": "Comum",
+        "de_DE": "Gewöhnlich",
+        "en_GB": "Common",
+        "es_ES": "Común",
+        "fr_FR": "Commun",
+        "it_IT": "Comune",
+        "ru_RU": "Обычное",
+        "ko_KR": "일반",
+        "zh_TW": "普通",
+        "zh_CN": "普通"
+      }
+    },
+    "name": {
+      "en_US": "Arclight Spanner",
+      "es_MX": "Llave de tuerca arcoluz",
+      "pt_BR": "Chave de Arco Voltaico",
+      "de_DE": "Bogenlichtschraubenschlüssel",
+      "en_GB": "Arclight Spanner",
+      "es_ES": "Llave de tuerca arcoluz",
+      "fr_FR": "Clé plate",
+      "it_IT": "Chiave ad Arco",
+      "ru_RU": "Тангенциальный вращатель",
+      "ko_KR": "만능 스패너",
+      "zh_TW": "魔光扳手",
+      "zh_CN": "弧光扳手"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/6219?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 6219
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Profession",
+        "es_MX": "Profesión",
+        "pt_BR": "Profissão",
+        "de_DE": "Beruf",
+        "en_GB": "Profession",
+        "es_ES": "Profesión",
+        "fr_FR": "Métier",
+        "it_IT": "Professione",
+        "ru_RU": "Профессия",
+        "ko_KR": "전문 기술",
+        "zh_TW": "專業技能",
+        "zh_CN": "专业技能"
+      },
+      "id": 19
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/7?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Engineering",
+        "es_MX": "Ingeniería",
+        "pt_BR": "Engenharia",
+        "de_DE": "Ingenieurskunst",
+        "en_GB": "Engineering",
+        "es_ES": "Ingeniería",
+        "fr_FR": "Ingénierie",
+        "it_IT": "Ingegneria",
+        "ru_RU": "Инженерное дело",
+        "ko_KR": "기계공학",
+        "zh_TW": "工程學",
+        "zh_CN": "工程学"
+      },
+      "id": 7
+    },
+    "inventory_type": {
+      "type": "PROFESSION_TOOL",
+      "name": {
+        "en_US": "Profession Tool",
+        "es_MX": "Herramienta de profesión",
+        "pt_BR": "Ferramenta de profissão",
+        "de_DE": "Berufswerkzeug",
+        "en_GB": "Profession Tool",
+        "es_ES": "Herramienta de profesión",
+        "fr_FR": "Outils de métier",
+        "it_IT": "Attrezzo della Professione",
+        "ru_RU": "Инструмент для профессии",
+        "ko_KR": "전문 기술 도구",
+        "zh_TW": "專業技能工具",
+        "zh_CN": "专业工具"
+      }
+    },
+    "sell_price": {
+      "value": 89,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "89",
+          "es_MX": "89",
+          "pt_BR": "89",
+          "de_DE": "89",
+          "en_GB": "89",
+          "es_ES": "89",
+          "fr_FR": "89",
+          "it_IT": "89",
+          "ru_RU": "89",
+          "ko_KR": "89",
+          "zh_TW": "89",
+          "zh_CN": "89"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2506?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Engineering",
+            "es_MX": "Ingeniería clásica",
+            "pt_BR": "Engenharia do Classic",
+            "de_DE": "Klassische Ingenieurskunst",
+            "en_GB": "Classic Engineering",
+            "es_ES": "Ingeniería clásica",
+            "fr_FR": "Ingénierie classique",
+            "it_IT": "Ingegneria Classica",
+            "ru_RU": "Классическое инженерное дело",
+            "ko_KR": "옛 기계공학",
+            "zh_TW": "艾澤拉斯工程學",
+            "zh_CN": "经典旧世工程学"
+          },
+          "id": 2506
+        },
+        "level": 1,
+        "display_string": {
+          "en_US": "Requires Classic Engineering (1)",
+          "es_MX": "Requiere Ingeniería clásica (1)",
+          "pt_BR": "Requer Engenharia do Classic (1)",
+          "de_DE": "Benötigt Klassische Ingenieurskunst (1)",
+          "en_GB": "Requires Classic Engineering (1)",
+          "es_ES": "Requiere Ingeniería clásica (1)",
+          "fr_FR": "Ingénierie classique (1) requis",
+          "it_IT": "Richiede: Ingegneria Classica (1)",
+          "ru_RU": "Требуется: Классическое инженерное дело (1)",
+          "ko_KR": "요구 사항: 옛 기계공학 (1)",
+          "zh_TW": "需要艾澤拉斯工程學(1)",
+          "zh_CN": "需要经典旧世工程学（1）"
+        }
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/577?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 577
+    }
+  ]
+}

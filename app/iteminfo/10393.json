@@ -1,0 +1,326 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/10393?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 10393,
+  "name": {
+    "en_US": "Undercity Cockroach",
+    "es_MX": "Curiana de Entrañas",
+    "pt_BR": "Barata da Cidade Baixa",
+    "de_DE": "Kakerlake von Unterstadt",
+    "en_GB": "Undercity Cockroach",
+    "es_ES": "Curiana de Entrañas",
+    "fr_FR": "Cafard de Fossoyeuse",
+    "it_IT": "Scarafaggio di Sepulcra",
+    "ru_RU": "Подгородский таракан",
+    "ko_KR": "언더시티 바퀴벌레",
+    "zh_TW": "幽暗城蟑螂",
+    "zh_CN": "幽暗城蟑螂"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/10393?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 10393
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "杂项"
+    },
+    "id": 15
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Companion Pets",
+      "es_MX": "Mascotas de compañía",
+      "pt_BR": "Mascotes",
+      "de_DE": "Haustier",
+      "en_GB": "Companion Pets",
+      "es_ES": "Mascotas de compañía",
+      "fr_FR": "Mascottes",
+      "it_IT": "Mascotte",
+      "ru_RU": "Питомцы",
+      "ko_KR": "애완동물 친구",
+      "zh_TW": "寵物夥伴",
+      "zh_CN": "宠物小伙伴"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 5000,
+  "sell_price": 1250,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to summon this companion.",
+    "es_MX": "Te enseña a invocar este compañero.",
+    "pt_BR": "Ensina a evocar esta mascote.",
+    "de_DE": "Lehrt Euch, wie man dieses Haustier beschwört.",
+    "en_GB": "Teaches you how to summon this companion.",
+    "es_ES": "Te enseña a invocar este compañero.",
+    "fr_FR": "Vous apprend à invoquer cette mascotte.",
+    "it_IT": "Ti insegna a evocare questa mascotte.",
+    "ru_RU": "Учит призывать этого спутника.",
+    "ko_KR": "애완동물 친구를 소환하는 법을 배웁니다.",
+    "zh_TW": "教你學會如何召喚這個夥伴。",
+    "zh_CN": "教你学会召唤这种小伙伴。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/10393?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 10393
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Undercity Cockroach",
+      "es_MX": "Curiana de Entrañas",
+      "pt_BR": "Barata da Cidade Baixa",
+      "de_DE": "Kakerlake von Unterstadt",
+      "en_GB": "Undercity Cockroach",
+      "es_ES": "Curiana de Entrañas",
+      "fr_FR": "Cafard de Fossoyeuse",
+      "it_IT": "Scarafaggio di Sepulcra",
+      "ru_RU": "Подгородский таракан",
+      "ko_KR": "언더시티 바퀴벌레",
+      "zh_TW": "幽暗城蟑螂",
+      "zh_CN": "幽暗城蟑螂"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/10393?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 10393
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "杂项"
+      },
+      "id": 15
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Companion Pets",
+        "es_MX": "Mascotas de compañía",
+        "pt_BR": "Mascotes",
+        "de_DE": "Haustier",
+        "en_GB": "Companion Pets",
+        "es_ES": "Mascotas de compañía",
+        "fr_FR": "Mascottes",
+        "it_IT": "Mascotte",
+        "ru_RU": "Питомцы",
+        "ko_KR": "애완동물 친구",
+        "zh_TW": "寵物夥伴",
+        "zh_CN": "宠物小伙伴"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/10688?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Undercity Cockroach",
+            "es_MX": "Curiana de Entrañas",
+            "pt_BR": "Barata da Cidade Baixa",
+            "de_DE": "Kakerlake von Unterstadt",
+            "en_GB": "Undercity Cockroach",
+            "es_ES": "Curiana de Entrañas",
+            "fr_FR": "Cafard de Fossoyeuse",
+            "it_IT": "Scarafaggio di Sepulcra",
+            "ru_RU": "Подгородский таракан",
+            "ko_KR": "언더시티 바퀴벌레",
+            "zh_TW": "幽暗城蟑螂",
+            "zh_CN": "幽暗城蟑螂"
+          },
+          "id": 10688
+        },
+        "description": {
+          "en_US": "Use: Teaches you how to summon this companion.",
+          "es_MX": "Usar: Te enseña a invocar este compañero.",
+          "pt_BR": "Usar: Ensina a evocar esta mascote.",
+          "de_DE": "Benutzen: Lehrt Euch, wie man dieses Haustier beschwört.",
+          "en_GB": "Use: Teaches you how to summon this companion.",
+          "es_ES": "Uso: Te enseña a invocar este compañero.",
+          "fr_FR": "Utiliser : Vous apprend à invoquer cette mascotte.",
+          "it_IT": "Usa: Ti insegna a evocare questa mascotte.",
+          "ru_RU": "Использование: Учит призывать этого спутника.",
+          "ko_KR": "사용 효과: 애완동물 친구를 소환하는 법을 배웁니다.",
+          "zh_TW": "使用： 教你學會如何召喚這個夥伴。",
+          "zh_CN": "使用： 教你学会召唤这种小伙伴。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1250,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "12",
+          "es_MX": "12",
+          "pt_BR": "12",
+          "de_DE": "12",
+          "en_GB": "12",
+          "es_ES": "12",
+          "fr_FR": "12",
+          "it_IT": "12",
+          "ru_RU": "12",
+          "ko_KR": "12",
+          "zh_TW": "12",
+          "zh_CN": "12"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

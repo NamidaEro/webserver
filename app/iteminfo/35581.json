@@ -1,0 +1,495 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/35581?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 35581,
+  "name": {
+    "en_US": "Rocket Boots Xtreme Lite",
+    "es_MX": "Botas cohete Xtremo ligeras",
+    "pt_BR": "Botas-foguete Xtremas Lite",
+    "de_DE": "Raketenstiefel Xtrem-Lite",
+    "en_GB": "Rocket Boots Xtreme Lite",
+    "es_ES": "Botas cohete Xtremo ligeras",
+    "fr_FR": "Bottes-fusées extrêmes légères",
+    "it_IT": "Stivali Razzo Extremi Leggeri",
+    "ru_RU": "Облегченные экстремальные реактивные сапоги",
+    "ko_KR": "가벼운 극한의 로켓 장화",
+    "zh_TW": "輕巧型火箭靴極限版",
+    "zh_CN": "轻便型超级火箭靴"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 32,
+  "required_level": 24,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/35581?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 35581
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "FEET",
+    "name": {
+      "en_US": "Feet",
+      "es_MX": "Pies",
+      "pt_BR": "Pés",
+      "de_DE": "Füße",
+      "en_GB": "Feet",
+      "es_ES": "Pies",
+      "fr_FR": "Pieds",
+      "it_IT": "Piedi",
+      "ru_RU": "Ступни",
+      "ko_KR": "발",
+      "zh_TW": "腳",
+      "zh_CN": "脚部"
+    }
+  },
+  "purchase_price": 7500,
+  "sell_price": 1500,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/35581?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 35581
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Rocket Boots Xtreme Lite",
+      "es_MX": "Botas cohete Xtremo ligeras",
+      "pt_BR": "Botas-foguete Xtremas Lite",
+      "de_DE": "Raketenstiefel Xtrem-Lite",
+      "en_GB": "Rocket Boots Xtreme Lite",
+      "es_ES": "Botas cohete Xtremo ligeras",
+      "fr_FR": "Bottes-fusées extrêmes légères",
+      "it_IT": "Stivali Razzo Extremi Leggeri",
+      "ru_RU": "Облегченные экстремальные реактивные сапоги",
+      "ko_KR": "가벼운 극한의 로켓 장화",
+      "zh_TW": "輕巧型火箭靴極限版",
+      "zh_CN": "轻便型超级火箭靴"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/35581?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 35581
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "FEET",
+      "name": {
+        "en_US": "Feet",
+        "es_MX": "Pies",
+        "pt_BR": "Pés",
+        "de_DE": "Füße",
+        "en_GB": "Feet",
+        "es_ES": "Pies",
+        "fr_FR": "Pieds",
+        "it_IT": "Piedi",
+        "ru_RU": "Ступни",
+        "ko_KR": "발",
+        "zh_TW": "腳",
+        "zh_CN": "脚部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 2,
+      "display": {
+        "display_string": {
+          "en_US": "2 Armor",
+          "es_MX": "2 p. de armadura",
+          "pt_BR": "2 de Armadura",
+          "de_DE": "2 Rüstung",
+          "en_GB": "2 Armor",
+          "es_ES": "2 p. de armadura",
+          "fr_FR": "Armure : 2",
+          "it_IT": "2 Armatura",
+          "ru_RU": "Броня: 2",
+          "ko_KR": "방어도 2",
+          "zh_TW": "2點護甲",
+          "zh_CN": "2点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 4,
+        "display": {
+          "display_string": {
+            "en_US": "+4 Intellect",
+            "es_MX": "+4 intelecto",
+            "pt_BR": "+4 Intelecto",
+            "de_DE": "+4 Intelligenz",
+            "en_GB": "+4 Intellect",
+            "es_ES": "+4 intelecto",
+            "fr_FR": "+4 Intelligence",
+            "it_IT": "+4 Intelletto",
+            "ru_RU": "+4 к интеллекту",
+            "ko_KR": "지능 +4",
+            "zh_TW": "+4智力",
+            "zh_CN": "+4 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/51582?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Rocket Boots Engaged",
+            "es_MX": "Botas cohete calzadas",
+            "pt_BR": "Botas-foguete Equipadas",
+            "de_DE": "Raketenstiefel gestartet",
+            "en_GB": "Rocket Boots Engaged",
+            "es_ES": "Botas cohete calzadas",
+            "fr_FR": "Bottes-fusées activées",
+            "it_IT": "Stivali Razzo Attivati",
+            "ru_RU": "Реактивные сапоги включены",
+            "ko_KR": "로켓 장화 점화!",
+            "zh_TW": "點燃火箭靴",
+            "zh_CN": "火箭靴启动"
+          },
+          "id": 51582
+        },
+        "description": {
+          "en_US": "Use: Engage the rocket boots to greatly increase your speed. (5 Min Cooldown)",
+          "es_MX": "Usar: Cálzate las botas cohete para aumentar tu velocidad. (5 min de tiempo de reutilización)",
+          "pt_BR": "Usar: Acione suas botas-foguete para aumentar incrivelmente sua velocidade. (5 min de recarga)",
+          "de_DE": "Benutzen: Die Raketenstiefel aktivieren, um einen gewaltigen Geschwindigkeitsschub zu erhalten. (5 Min. Abklingzeit)",
+          "en_GB": "Use: Engage the rocket boots to greatly increase your speed. (5 Min Cooldown)",
+          "es_ES": "Uso: Cálzate las botas cohete para aumentar tu velocidad. (5 min de tiempo de reutilización).",
+          "fr_FR": "Utiliser : Active les bottes-fusées pour considérablement augmenter votre vitesse. (5 min de recharge)",
+          "it_IT": "Usa: Attiva gli stivali razzo per un notevole aumento di velocità. (5 min di recupero)",
+          "ru_RU": "Использование: Включение реактивных сапог существенно повышает вашу скорость. (Восстановление: 5 мин.)",
+          "ko_KR": "사용 효과: 로켓 장화를 점화하여 매우 빠른 속도로 이동합니다. (5분 후 재사용 가능)",
+          "zh_TW": "使用： 點燃火箭靴以大幅提升你的速度。 (5分鐘冷卻時間)",
+          "zh_CN": "使用： 发动火箭靴，极大地提高你的速度。 （5分钟冷却）"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "15",
+          "es_MX": "15",
+          "pt_BR": "15",
+          "de_DE": "15",
+          "en_GB": "15",
+          "es_ES": "15",
+          "fr_FR": "15",
+          "it_IT": "15",
+          "ru_RU": "15",
+          "ko_KR": "15",
+          "zh_TW": "15",
+          "zh_CN": "15"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 24,
+        "display_string": {
+          "en_US": "Requires Level 24",
+          "es_MX": "Necesitas ser de nivel 24",
+          "pt_BR": "Requer o Nível 24",
+          "de_DE": "Benötigt Stufe 24",
+          "en_GB": "Requires Level 24",
+          "es_ES": "Necesitas ser de nivel 24",
+          "fr_FR": "Niveau 24 requis",
+          "it_IT": "Richiede il livello 24",
+          "ru_RU": "Требуется 24-й уровень",
+          "ko_KR": "최소 요구 레벨: 24",
+          "zh_TW": "需要等級24",
+          "zh_CN": "需要等级 24"
+        }
+      },
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2505?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Outland Engineering",
+            "es_MX": "Ingeniería de Terrallende",
+            "pt_BR": "Engenharia de Terralém",
+            "de_DE": "Ingenieurskunst der Scherbenwelt",
+            "en_GB": "Outland Engineering",
+            "es_ES": "Ingeniería de Terrallende",
+            "fr_FR": "Ingénierie d’Outreterre",
+            "it_IT": "Ingegneria delle Terre Esterne",
+            "ru_RU": "Инженерное дело Запределья",
+            "ko_KR": "아웃랜드 기계공학",
+            "zh_TW": "外域工程學",
+            "zh_CN": "外域工程学"
+          },
+          "id": 2505
+        },
+        "level": 1,
+        "display_string": {
+          "en_US": "Requires Outland Engineering (1)",
+          "es_MX": "Requiere Ingeniería de Terrallende (1)",
+          "pt_BR": "Requer Engenharia de Terralém (1)",
+          "de_DE": "Benötigt Ingenieurskunst der Scherbenwelt (1)",
+          "en_GB": "Requires Outland Engineering (1)",
+          "es_ES": "Requiere Ingeniería de Terrallende (1)",
+          "fr_FR": "Ingénierie d’Outreterre (1) requis",
+          "it_IT": "Richiede: Ingegneria delle Terre Esterne (1)",
+          "ru_RU": "Требуется: Инженерное дело Запределья (1)",
+          "ko_KR": "요구 사항: 아웃랜드 기계공학 (1)",
+          "zh_TW": "需要外域工程學(1)",
+          "zh_CN": "需要外域工程学（1）"
+        }
+      }
+    },
+    "level": {
+      "value": 32,
+      "display_string": {
+        "en_US": "Item Level 32",
+        "es_MX": "Nivel de objeto 32",
+        "pt_BR": "Nível do Item: 32",
+        "de_DE": "Gegenstandsstufe 32",
+        "en_GB": "Item Level 32",
+        "es_ES": "Nivel de objeto 32",
+        "fr_FR": "Niveau d'objet 32",
+        "it_IT": "Livello oggetto: 32",
+        "ru_RU": "Уровень предмета: 32",
+        "ko_KR": "아이템 레벨: 32",
+        "zh_TW": "物品等級32",
+        "zh_CN": "物品等级32"
+      }
+    },
+    "durability": {
+      "value": 65,
+      "display_string": {
+        "en_US": "Durability 65 / 65",
+        "es_MX": "Durabilidad 65 / 65",
+        "pt_BR": "Durabilidade 65 / 65",
+        "de_DE": "Haltbarkeit 65 / 65",
+        "en_GB": "Durability 65 / 65",
+        "es_ES": "Durabilidad 65 / 65",
+        "fr_FR": "Durabilité : 65 / 65",
+        "it_IT": "Integrità 65/65",
+        "ru_RU": "Прочность: 65 / 65",
+        "ko_KR": "내구도 65 / 65",
+        "zh_TW": "耐久度 65 / 65",
+        "zh_CN": "耐久度 65 / 65"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/757?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 757
+    }
+  ]
+}

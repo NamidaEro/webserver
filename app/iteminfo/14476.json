@@ -1,0 +1,773 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/14476?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 14476,
+  "name": {
+    "en_US": "Pattern: Cindercloth Gloves",
+    "es_MX": "Patrón: guantes de paño cenizo",
+    "pt_BR": "Molde: Luvas de Brasatrama",
+    "de_DE": "Muster: Aschenstoffhandschuhe",
+    "en_GB": "Pattern: Cindercloth Gloves",
+    "es_ES": "Patrón: guantes de paño cenizo",
+    "fr_FR": "Patron : Gants en étoffe cendrée",
+    "it_IT": "Modello: Guanti di Stoffa Carbonizzata",
+    "ru_RU": "Выкройка: перчатки из пепельной ткани",
+    "ko_KR": "도안: 숯매듭 장갑",
+    "zh_TW": "圖樣：灰布手套",
+    "zh_CN": "图样：灰布手套"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/14476?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 14476
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Tailoring",
+      "es_MX": "Sastrería",
+      "pt_BR": "Alfaiataria",
+      "de_DE": "Schneiderei",
+      "en_GB": "Tailoring",
+      "es_ES": "Sastrería",
+      "fr_FR": "Couture",
+      "it_IT": "Sartoria",
+      "ru_RU": "Портняжное дело",
+      "ko_KR": "재봉술",
+      "zh_TW": "裁縫",
+      "zh_CN": "裁缝"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 14000,
+  "sell_price": 3500,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to sew Cindercloth Gloves.",
+    "es_MX": "Te enseña a confeccionar guantes de paño cenizo.",
+    "pt_BR": "Ensina a confeccionar Luvas de Brasatrama.",
+    "de_DE": "Lehrt Euch, wie man Aschenstoffhandschuhe näht.",
+    "en_GB": "Teaches you how to sew Cindercloth Gloves.",
+    "es_ES": "Te enseña a confeccionar guantes de paño cenizo.",
+    "fr_FR": "Vous apprend à coudre des Gants en étoffe cendrée.",
+    "it_IT": "Ti insegna a creare dei Guanti di Stoffa Carbonizzata.",
+    "ru_RU": "Обучает пошиву перчаток из пепельной ткани.",
+    "ko_KR": "숯매듭 장갑 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何縫製灰布手套。",
+    "zh_CN": "教你学会制作灰布手套。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/14476?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 14476
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Cindercloth Gloves",
+      "es_MX": "Patrón: guantes de paño cenizo",
+      "pt_BR": "Molde: Luvas de Brasatrama",
+      "de_DE": "Muster: Aschenstoffhandschuhe",
+      "en_GB": "Pattern: Cindercloth Gloves",
+      "es_ES": "Patrón: guantes de paño cenizo",
+      "fr_FR": "Patron : Gants en étoffe cendrée",
+      "it_IT": "Modello: Guanti di Stoffa Carbonizzata",
+      "ru_RU": "Выкройка: перчатки из пепельной ткани",
+      "ko_KR": "도안: 숯매듭 장갑",
+      "zh_TW": "圖樣：灰布手套",
+      "zh_CN": "图样：灰布手套"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/14476?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 14476
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Tailoring",
+        "es_MX": "Sastrería",
+        "pt_BR": "Alfaiataria",
+        "de_DE": "Schneiderei",
+        "en_GB": "Tailoring",
+        "es_ES": "Sastrería",
+        "fr_FR": "Couture",
+        "it_IT": "Sartoria",
+        "ru_RU": "Портняжное дело",
+        "ko_KR": "재봉술",
+        "zh_TW": "裁縫",
+        "zh_CN": "裁缝"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 3500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "35",
+          "es_MX": "35",
+          "pt_BR": "35",
+          "de_DE": "35",
+          "en_GB": "35",
+          "es_ES": "35",
+          "fr_FR": "35",
+          "it_IT": "35",
+          "ru_RU": "35",
+          "ko_KR": "35",
+          "zh_TW": "35",
+          "zh_CN": "35"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2540?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Tailoring",
+            "es_MX": "Sastrería clásica",
+            "pt_BR": "Alfaiataria do Classic",
+            "de_DE": "Klassische Schneiderei",
+            "en_GB": "Classic Tailoring",
+            "es_ES": "Sastrería clásica",
+            "fr_FR": "Couture classique",
+            "it_IT": "Sartoria Classica",
+            "ru_RU": "Классическое портняжное дело",
+            "ko_KR": "옛 재봉술",
+            "zh_TW": "艾澤拉斯裁縫",
+            "zh_CN": "经典旧世裁缝"
+          },
+          "id": 2540
+        },
+        "level": 270,
+        "display_string": {
+          "en_US": "Requires Classic Tailoring (270)",
+          "es_MX": "Requiere Sastrería clásica (270)",
+          "pt_BR": "Requer Alfaiataria do Classic (270)",
+          "de_DE": "Benötigt Klassische Schneiderei (270)",
+          "en_GB": "Requires Classic Tailoring (270)",
+          "es_ES": "Requiere Sastrería clásica (270)",
+          "fr_FR": "Couture classique (270) requis",
+          "it_IT": "Richiede: Sartoria Classica (270)",
+          "ru_RU": "Требуется: Классическое портняжное дело (270)",
+          "ko_KR": "요구 사항: 옛 재봉술 (270)",
+          "zh_TW": "需要艾澤拉斯裁縫(270)",
+          "zh_CN": "需要经典旧世裁缝（270）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to sew Cindercloth Gloves.",
+      "es_MX": "Te enseña a confeccionar guantes de paño cenizo.",
+      "pt_BR": "Ensina a confeccionar Luvas de Brasatrama.",
+      "de_DE": "Lehrt Euch, wie man Aschenstoffhandschuhe näht.",
+      "en_GB": "Teaches you how to sew Cindercloth Gloves.",
+      "es_ES": "Te enseña a confeccionar guantes de paño cenizo.",
+      "fr_FR": "Vous apprend à coudre des Gants en étoffe cendrée.",
+      "it_IT": "Ti insegna a creare dei Guanti di Stoffa Carbonizzata.",
+      "ru_RU": "Обучает пошиву перчаток из пепельной ткани.",
+      "ko_KR": "숯매듭 장갑 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何縫製灰布手套。",
+      "zh_CN": "教你学会制作灰布手套。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/14043?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 14043
+        },
+        "quality": {
+          "type": "UNCOMMON",
+          "name": {
+            "en_US": "Uncommon",
+            "es_MX": "Inusual",
+            "pt_BR": "Incomum",
+            "de_DE": "Ungewöhnlich",
+            "en_GB": "Uncommon",
+            "es_ES": "Inusual",
+            "fr_FR": "Inhabituel",
+            "it_IT": "Pregiato",
+            "ru_RU": "Необычное",
+            "ko_KR": "고급",
+            "zh_TW": "優秀",
+            "zh_CN": "优秀"
+          }
+        },
+        "name": {
+          "en_US": "Cindercloth Gloves",
+          "es_MX": "Guantes de paño cenizo",
+          "pt_BR": "Luvas de Brasatrama",
+          "de_DE": "Aschenstoffhandschuhe",
+          "en_GB": "Cindercloth Gloves",
+          "es_ES": "Guantes de paño cenizo",
+          "fr_FR": "Gants en étoffe cendrée",
+          "it_IT": "Guanti di Stoffa Carbonizzata",
+          "ru_RU": "Перчатки из пепельной ткани",
+          "ko_KR": "숯매듭 장갑",
+          "zh_TW": "灰布手套",
+          "zh_CN": "灰布手套"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/14043?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 14043
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Cloth",
+            "es_MX": "Tela",
+            "pt_BR": "Tecido",
+            "de_DE": "Stoff",
+            "en_GB": "Cloth",
+            "es_ES": "Tela",
+            "fr_FR": "Tissu",
+            "it_IT": "Stoffa",
+            "ru_RU": "Ткань",
+            "ko_KR": "천",
+            "zh_TW": "布甲",
+            "zh_CN": "布甲"
+          },
+          "id": 1
+        },
+        "inventory_type": {
+          "type": "HAND",
+          "name": {
+            "en_US": "Hands",
+            "es_MX": "Manos",
+            "pt_BR": "Mãos",
+            "de_DE": "Hände",
+            "en_GB": "Hands",
+            "es_ES": "Manos",
+            "fr_FR": "Mains",
+            "it_IT": "Mani",
+            "ru_RU": "Кисти рук",
+            "ko_KR": "손",
+            "zh_TW": "手",
+            "zh_CN": "手部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "armor": {
+          "value": 2,
+          "display": {
+            "display_string": {
+              "en_US": "2 Armor",
+              "es_MX": "2 p. de armadura",
+              "pt_BR": "2 de Armadura",
+              "de_DE": "2 Rüstung",
+              "en_GB": "2 Armor",
+              "es_ES": "2 p. de armadura",
+              "fr_FR": "Armure : 2",
+              "it_IT": "2 Armatura",
+              "ru_RU": "Броня: 2",
+              "ko_KR": "방어도 2",
+              "zh_TW": "2點護甲",
+              "zh_CN": "2点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "INTELLECT",
+              "name": {
+                "en_US": "Intellect",
+                "es_MX": "intelecto",
+                "pt_BR": "Intelecto",
+                "de_DE": "Intelligenz",
+                "en_GB": "Intellect",
+                "es_ES": "intelecto",
+                "fr_FR": "Intelligence",
+                "it_IT": "Intelletto",
+                "ru_RU": "к интеллекту",
+                "ko_KR": "지능",
+                "zh_TW": "智力",
+                "zh_CN": "智力"
+              }
+            },
+            "value": 3,
+            "display": {
+              "display_string": {
+                "en_US": "+3 Intellect",
+                "es_MX": "+3 intelecto",
+                "pt_BR": "+3 Intelecto",
+                "de_DE": "+3 Intelligenz",
+                "en_GB": "+3 Intellect",
+                "es_ES": "+3 intelecto",
+                "fr_FR": "+3 Intelligence",
+                "it_IT": "+3 Intelletto",
+                "ru_RU": "+3 к интеллекту",
+                "ko_KR": "지능 +3",
+                "zh_TW": "+3智力",
+                "zh_CN": "+3 智力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "VERSATILITY",
+              "name": {
+                "en_US": "Versatility",
+                "es_MX": "versatilidad",
+                "pt_BR": "Versatilidade",
+                "de_DE": "Vielseitigkeit",
+                "en_GB": "Versatility",
+                "es_ES": "versatilidad",
+                "fr_FR": "Polyvalence",
+                "it_IT": "Indice di versatilità",
+                "ru_RU": "к универсальности",
+                "ko_KR": "유연성",
+                "zh_TW": "臨機應變",
+                "zh_CN": "全能"
+              }
+            },
+            "value": 5,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+5 Versatility",
+                "es_MX": "+5 versatilidad",
+                "pt_BR": "+5 Versatilidade",
+                "de_DE": "+5 Vielseitigkeit",
+                "en_GB": "+5 Versatility",
+                "es_ES": "+5 versatilidad",
+                "fr_FR": "+5 Polyvalence",
+                "it_IT": "+5 Indice di versatilità",
+                "ru_RU": "+5 к универсальности",
+                "ko_KR": "유연성 +5",
+                "zh_TW": "+5臨機應變",
+                "zh_CN": "+5 全能"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 1500,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "15",
+              "es_MX": "15",
+              "pt_BR": "15",
+              "de_DE": "15",
+              "en_GB": "15",
+              "es_ES": "15",
+              "fr_FR": "15",
+              "it_IT": "15",
+              "ru_RU": "15",
+              "ko_KR": "15",
+              "zh_TW": "15",
+              "zh_CN": "15"
+            },
+            "copper": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 21,
+            "display_string": {
+              "en_US": "Requires Level 21",
+              "es_MX": "Necesitas ser de nivel 21",
+              "pt_BR": "Requer o Nível 21",
+              "de_DE": "Benötigt Stufe 21",
+              "en_GB": "Requires Level 21",
+              "es_ES": "Necesitas ser de nivel 21",
+              "fr_FR": "Niveau 21 requis",
+              "it_IT": "Richiede il livello 21",
+              "ru_RU": "Требуется 21-й уровень",
+              "ko_KR": "최소 요구 레벨: 21",
+              "zh_TW": "需要等級21",
+              "zh_CN": "需要等级 21"
+            }
+          }
+        },
+        "level": {
+          "value": 27,
+          "display_string": {
+            "en_US": "Item Level 27",
+            "es_MX": "Nivel de objeto 27",
+            "pt_BR": "Nível do Item: 27",
+            "de_DE": "Gegenstandsstufe 27",
+            "en_GB": "Item Level 27",
+            "es_ES": "Nivel de objeto 27",
+            "fr_FR": "Niveau d'objet 27",
+            "it_IT": "Livello oggetto: 27",
+            "ru_RU": "Уровень предмета: 27",
+            "ko_KR": "아이템 레벨: 27",
+            "zh_TW": "物品等級27",
+            "zh_CN": "物品等级27"
+          }
+        },
+        "durability": {
+          "value": 40,
+          "display_string": {
+            "en_US": "Durability 40 / 40",
+            "es_MX": "Durabilidad 40 / 40",
+            "pt_BR": "Durabilidade 40 / 40",
+            "de_DE": "Haltbarkeit 40 / 40",
+            "en_GB": "Durability 40 / 40",
+            "es_ES": "Durabilidad 40 / 40",
+            "fr_FR": "Durabilité : 40 / 40",
+            "it_IT": "Integrità 40/40",
+            "ru_RU": "Прочность: 40 / 40",
+            "ko_KR": "내구도 40 / 40",
+            "zh_TW": "耐久度 40 / 40",
+            "zh_CN": "耐久度 40 / 40"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/14048?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Bolt of Runecloth",
+              "es_MX": "Madeja de paño rúnico",
+              "pt_BR": "Peça de Runatrama",
+              "de_DE": "Runenstoffballen",
+              "en_GB": "Bolt of Runecloth",
+              "es_ES": "Madeja de paño rúnico",
+              "fr_FR": "Rouleau d'étoffe runique",
+              "it_IT": "Rotolo di Telarunica",
+              "ru_RU": "Рулон рунической ткани",
+              "ko_KR": "룬무늬 두루마리",
+              "zh_TW": "符文布卷",
+              "zh_CN": "符文布卷"
+            },
+            "id": 14048
+          },
+          "quantity": 4
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/7077?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Heart of Fire",
+              "es_MX": "Corazón de fuego",
+              "pt_BR": "Coração de Fogo",
+              "de_DE": "Herz des Feuers",
+              "en_GB": "Heart of Fire",
+              "es_ES": "Corazón de fuego",
+              "fr_FR": "Cœur de feu",
+              "it_IT": "Cuore di Fuoco",
+              "ru_RU": "Сердце огня",
+              "ko_KR": "불의 심장",
+              "zh_TW": "火焰之心",
+              "zh_CN": "火焰之心"
+            },
+            "id": 7077
+          },
+          "quantity": 2
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/14341?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Rune Thread",
+              "es_MX": "Hilo rúnico",
+              "pt_BR": "Fio Rúnico",
+              "de_DE": "Runenfaden",
+              "en_GB": "Rune Thread",
+              "es_ES": "Hilo rúnico",
+              "fr_FR": "Fil runique",
+              "it_IT": "Filo Runico",
+              "ru_RU": "Руническая нить",
+              "ko_KR": "룬 실타래",
+              "zh_TW": "符文線",
+              "zh_CN": "符文线"
+            },
+            "id": 14341
+          },
+          "quantity": 1
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Bolt of Runecloth (4), Heart of Fire (2), Rune Thread",
+        "es_MX": "Madeja de paño rúnico (4), Corazón de fuego (2), Hilo rúnico",
+        "pt_BR": "Peça de Runatrama (4), Coração de Fogo (2), Fio Rúnico",
+        "de_DE": "Runenstoffballen (4), Herz des Feuers (2), Runenfaden",
+        "en_GB": "Bolt of Runecloth (4), Heart of Fire (2), Rune Thread",
+        "es_ES": "Madeja de paño rúnico (4), Corazón de fuego (2), Hilo rúnico",
+        "fr_FR": "Rouleau d'étoffe runique (4), Cœur de feu (2), Fil runique",
+        "it_IT": "Rotolo di Telarunica (4), Cuore di Fuoco (2), Filo Runico",
+        "ru_RU": "Рулон рунической ткани (4), Сердце огня (2), Руническая нить",
+        "ko_KR": "룬무늬 두루마리 (4), 불의 심장 (2), 룬 실타래",
+        "zh_TW": "符文布卷 (4), 火焰之心 (2), 符文線",
+        "zh_CN": "符文布卷 (4), 火焰之心 (2), 符文线"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

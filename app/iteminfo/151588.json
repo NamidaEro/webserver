@@ -1,0 +1,531 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/151588?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 151588,
+  "name": {
+    "en_US": "Empyrial Deep Crown",
+    "es_MX": "Corona de las profundidades de empírium",
+    "pt_BR": "Coroa Profunda Empirítica",
+    "de_DE": "Empyriumkrone der Tiefen",
+    "en_GB": "Empyrial Deep Crown",
+    "es_ES": "Corona empírea abisal",
+    "fr_FR": "Couronne profonde en empyrium",
+    "it_IT": "Corona d'Empirio delle Profondità",
+    "ru_RU": "Эмпиреитовая корона глубин",
+    "ko_KR": "창천석 심연의 관",
+    "zh_TW": "燦鐵深淵之冠",
+    "zh_CN": "深渊之天界王冠"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 50,
+  "required_level": 45,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/151588?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 151588
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leather",
+      "es_MX": "Cuero",
+      "pt_BR": "Couro",
+      "de_DE": "Leder",
+      "en_GB": "Leather",
+      "es_ES": "Cuero",
+      "fr_FR": "Cuir",
+      "it_IT": "Cuoio",
+      "ru_RU": "Кожа",
+      "ko_KR": "가죽",
+      "zh_TW": "皮甲",
+      "zh_CN": "皮甲"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": {
+      "en_US": "Head",
+      "es_MX": "Cabeza",
+      "pt_BR": "Cabeça",
+      "de_DE": "Kopf",
+      "en_GB": "Head",
+      "es_ES": "Cabeza",
+      "fr_FR": "Tête",
+      "it_IT": "Testa",
+      "ru_RU": "Голова",
+      "ko_KR": "머리",
+      "zh_TW": "頭部",
+      "zh_CN": "头部"
+    }
+  },
+  "purchase_price": 403235,
+  "sell_price": 80647,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/151588?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 151588
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": {
+            "en_US": "Prismatic Socket",
+            "es_MX": "Ranura prismática",
+            "pt_BR": "Engaste Prismático",
+            "de_DE": "Prismatischer Sockel",
+            "en_GB": "Prismatic Socket",
+            "es_ES": "Ranura prismática",
+            "fr_FR": "Châsse prismatique",
+            "it_IT": "Incavo Prismatico",
+            "ru_RU": "бесцветное гнездо",
+            "ko_KR": "다색 보석 홈",
+            "zh_TW": "多色插槽",
+            "zh_CN": "棱彩插槽"
+          }
+        }
+      }
+    ],
+    "context": 0,
+    "bonus_list": [
+      3408
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Empyrial Deep Crown",
+      "es_MX": "Corona de las profundidades de empírium",
+      "pt_BR": "Coroa Profunda Empirítica",
+      "de_DE": "Empyriumkrone der Tiefen",
+      "en_GB": "Empyrial Deep Crown",
+      "es_ES": "Corona empírea abisal",
+      "fr_FR": "Couronne profonde en empyrium",
+      "it_IT": "Corona d'Empirio delle Profondità",
+      "ru_RU": "Эмпиреитовая корона глубин",
+      "ko_KR": "창천석 심연의 관",
+      "zh_TW": "燦鐵深淵之冠",
+      "zh_CN": "深渊之天界王冠"
+    },
+    "modified_appearance_id": 89474,
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/151588?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 151588
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leather",
+        "es_MX": "Cuero",
+        "pt_BR": "Couro",
+        "de_DE": "Leder",
+        "en_GB": "Leather",
+        "es_ES": "Cuero",
+        "fr_FR": "Cuir",
+        "it_IT": "Cuoio",
+        "ru_RU": "Кожа",
+        "ko_KR": "가죽",
+        "zh_TW": "皮甲",
+        "zh_CN": "皮甲"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": {
+        "en_US": "Head",
+        "es_MX": "Cabeza",
+        "pt_BR": "Cabeça",
+        "de_DE": "Kopf",
+        "en_GB": "Head",
+        "es_ES": "Cabeza",
+        "fr_FR": "Tête",
+        "it_IT": "Testa",
+        "ru_RU": "Голова",
+        "ko_KR": "머리",
+        "zh_TW": "頭部",
+        "zh_CN": "头部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 6,
+      "display": {
+        "display_string": {
+          "en_US": "6 Armor",
+          "es_MX": "6 p. de armadura",
+          "pt_BR": "6 de Armadura",
+          "de_DE": "6 Rüstung",
+          "en_GB": "6 Armor",
+          "es_ES": "6 p. de armadura",
+          "fr_FR": "Armure : 6",
+          "it_IT": "6 Armatura",
+          "ru_RU": "Броня: 6",
+          "ko_KR": "방어도 6",
+          "zh_TW": "6點護甲",
+          "zh_CN": "6点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 5,
+        "display": {
+          "display_string": {
+            "en_US": "+5 Intellect",
+            "es_MX": "+5 intelecto",
+            "pt_BR": "+5 Intelecto",
+            "de_DE": "+5 Intelligenz",
+            "en_GB": "+5 Intellect",
+            "es_ES": "+5 intelecto",
+            "fr_FR": "+5 Intelligence",
+            "it_IT": "+5 Intelletto",
+            "ru_RU": "+5 к интеллекту",
+            "ko_KR": "지능 +5",
+            "zh_TW": "+5智力",
+            "zh_CN": "+5 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 5,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+5 Agility",
+            "es_MX": "+5 agilidad",
+            "pt_BR": "+5 Agilidade",
+            "de_DE": "+5 Beweglichkeit",
+            "en_GB": "+5 Agility",
+            "es_ES": "+5 agilidad",
+            "fr_FR": "+5 Agilité",
+            "it_IT": "+5 Agilità",
+            "ru_RU": "+5 к ловкости",
+            "ko_KR": "민첩성 +5",
+            "zh_TW": "+5敏捷",
+            "zh_CN": "+5 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 7,
+        "display": {
+          "display_string": {
+            "en_US": "+7 Stamina",
+            "es_MX": "+7 aguante",
+            "pt_BR": "+7 Vigor",
+            "de_DE": "+7 Ausdauer",
+            "en_GB": "+7 Stamina",
+            "es_ES": "+7 aguante",
+            "fr_FR": "+7 Endurance",
+            "it_IT": "+7 Tempra",
+            "ru_RU": "+7 к выносливости",
+            "ko_KR": "체력 +7",
+            "zh_TW": "+7耐力",
+            "zh_CN": "+7 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1042,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "10",
+          "es_MX": "10",
+          "pt_BR": "10",
+          "de_DE": "10",
+          "en_GB": "10",
+          "es_ES": "10",
+          "fr_FR": "10",
+          "it_IT": "10",
+          "ru_RU": "10",
+          "ko_KR": "10",
+          "zh_TW": "10",
+          "zh_CN": "10"
+        },
+        "copper": {
+          "en_US": "42",
+          "es_MX": "42",
+          "pt_BR": "42",
+          "de_DE": "42",
+          "en_GB": "42",
+          "es_ES": "42",
+          "fr_FR": "42",
+          "it_IT": "42",
+          "ru_RU": "42",
+          "ko_KR": "42",
+          "zh_TW": "42",
+          "zh_CN": "42"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 45,
+        "display_string": {
+          "en_US": "Requires Level 45",
+          "es_MX": "Necesitas ser de nivel 45",
+          "pt_BR": "Requer o Nível 45",
+          "de_DE": "Benötigt Stufe 45",
+          "en_GB": "Requires Level 45",
+          "es_ES": "Necesitas ser de nivel 45",
+          "fr_FR": "Niveau 45 requis",
+          "it_IT": "Richiede il livello 45",
+          "ru_RU": "Требуется 45-й уровень",
+          "ko_KR": "최소 요구 레벨: 45",
+          "zh_TW": "需要等級45",
+          "zh_CN": "需要等级 45"
+        }
+      }
+    },
+    "level": {
+      "value": 50,
+      "display_string": {
+        "en_US": "Item Level 50",
+        "es_MX": "Nivel de objeto 50",
+        "pt_BR": "Nível do Item: 50",
+        "de_DE": "Gegenstandsstufe 50",
+        "en_GB": "Item Level 50",
+        "es_ES": "Nivel de objeto 50",
+        "fr_FR": "Niveau d'objet 50",
+        "it_IT": "Livello oggetto: 50",
+        "ru_RU": "Уровень предмета: 50",
+        "ko_KR": "아이템 레벨: 50",
+        "zh_TW": "物品等級50",
+        "zh_CN": "物品等级50"
+      }
+    },
+    "durability": {
+      "value": 100,
+      "display_string": {
+        "en_US": "Durability 100 / 100",
+        "es_MX": "Durabilidad 100 / 100",
+        "pt_BR": "Durabilidade 100 / 100",
+        "de_DE": "Haltbarkeit 100 / 100",
+        "en_GB": "Durability 100 / 100",
+        "es_ES": "Durabilidad 100 / 100",
+        "fr_FR": "Durabilité : 100 / 100",
+        "it_IT": "Integrità 100/100",
+        "ru_RU": "Прочность: 100 / 100",
+        "ko_KR": "내구도 100 / 100",
+        "zh_TW": "耐久度 100 / 100",
+        "zh_CN": "耐久度 100 / 100"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/35471?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 35471
+    }
+  ]
+}

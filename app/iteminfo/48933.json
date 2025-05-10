@@ -1,0 +1,427 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/48933?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 48933,
+  "name": {
+    "en_US": "Wormhole Generator: Northrend",
+    "es_MX": "Generador de agujeros de gusano: Rasganorte",
+    "pt_BR": "Gerador de Buraco de Minhoca: Nortúndria",
+    "de_DE": "Wurmlochgenerator: Nordend",
+    "en_GB": "Wormhole Generator: Northrend",
+    "es_ES": "Generador de agujeros de gusano: Rasganorte",
+    "fr_FR": "Générateur de tunnel spatiotemporel : Norfendre",
+    "it_IT": "Generatore di Tunnel Spaziotemporali: Nordania",
+    "ru_RU": "Генератор червоточин: Нордскол",
+    "ko_KR": "웜홀 생성기: 노스렌드",
+    "zh_TW": "蟲洞產生器：北裂境",
+    "zh_CN": "虫洞发生器：诺森德"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 30,
+  "required_level": 24,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/48933?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 48933
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Consumable",
+      "es_MX": "Consumible",
+      "pt_BR": "Consumível",
+      "de_DE": "Verbrauchbares",
+      "en_GB": "Consumable",
+      "es_ES": "Consumible",
+      "fr_FR": "Consommable",
+      "it_IT": "Consumabili",
+      "ru_RU": "Расходуемые",
+      "ko_KR": "소비용품",
+      "zh_TW": "消耗品",
+      "zh_CN": "消耗品"
+    },
+    "id": 0
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Explosives and Devices",
+      "es_MX": "Explosivos y dispositivos",
+      "pt_BR": "Explosivos e Dispositivos",
+      "de_DE": "Sprengstoff und Geräte",
+      "en_GB": "Explosives and Devices",
+      "es_ES": "Explosivos y dispositivos",
+      "fr_FR": "Explosifs et appareils",
+      "it_IT": "Esplosivi e congegni",
+      "ru_RU": "Взрывчатка и устройства",
+      "ko_KR": "폭발물 및 장치",
+      "zh_TW": "爆裂物與裝置",
+      "zh_CN": "爆炸物与装置"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 20000,
+  "sell_price": 5000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Dimensional folding is not fully understood in any capacity.  A parachute and medical supplies are best kept on hand!",
+    "es_MX": "La manipulación del espacio dimensional no se puede comprender en su totalidad. ¡Más vale tener a mano un paracaídas y suministros médicos!",
+    "pt_BR": "A dobra dimensional não é muito bem compreendida. É melhor manter um paraquedas e suprimentos médicos à mão!",
+    "de_DE": "Die Dimensionsfaltung ist noch von keinem Forschungsbereich vollständig verstanden worden. Bereithaltung von Fallschirm und medizinischer Notversorgung ist angeraten!",
+    "en_GB": "Dimensional folding is not fully understood in any capacity.  A parachute and medical supplies are best kept on hand!",
+    "es_ES": "La manipulación del espacio dimensional no se puede comprender en su totalidad. ¡Más vale tener a mano un paracaídas y suministros médicos!",
+    "fr_FR": "Les caractéristiques des replis dimensionnels ne sont pas vraiment comprises. Il vaut mieux avoir un parachute et du matériel médical à portée de main !",
+    "it_IT": "I tunnel spaziotemporali non sono ancora stati studiati a fondo. Meglio tenere a portata di mano un paracadute e un kit di primo soccorso!",
+    "ru_RU": "Искривления пространства никогда не удается понять в полном объеме. Держите под рукой парашют и медикаменты!",
+    "ko_KR": "차원 분절은 어떤 능력으로도 완전히 이해할 수 없습니다. 낙하산과 구급함을 항상 휴대하시는 것이 좋습니다!",
+    "zh_TW": "次元折疊是一個尚未完全釐清的領域。降落傘與醫療包最好放在手邊!",
+    "zh_CN": "空间折跃技术还属于实验阶段。传送时建议随身携带降落伞和急救包！"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/48933?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 48933
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Wormhole Generator: Northrend",
+      "es_MX": "Generador de agujeros de gusano: Rasganorte",
+      "pt_BR": "Gerador de Buraco de Minhoca: Nortúndria",
+      "de_DE": "Wurmlochgenerator: Nordend",
+      "en_GB": "Wormhole Generator: Northrend",
+      "es_ES": "Generador de agujeros de gusano: Rasganorte",
+      "fr_FR": "Générateur de tunnel spatiotemporel : Norfendre",
+      "it_IT": "Generatore di Tunnel Spaziotemporali: Nordania",
+      "ru_RU": "Генератор червоточин: Нордскол",
+      "ko_KR": "웜홀 생성기: 노스렌드",
+      "zh_TW": "蟲洞產生器：北裂境",
+      "zh_CN": "虫洞发生器：诺森德"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/48933?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 48933
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Consumable",
+        "es_MX": "Consumible",
+        "pt_BR": "Consumível",
+        "de_DE": "Verbrauchbares",
+        "en_GB": "Consumable",
+        "es_ES": "Consumible",
+        "fr_FR": "Consommable",
+        "it_IT": "Consumabili",
+        "ru_RU": "Расходуемые",
+        "ko_KR": "소비용품",
+        "zh_TW": "消耗品",
+        "zh_CN": "消耗品"
+      },
+      "id": 0
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Explosives and Devices",
+        "es_MX": "Explosivos y dispositivos",
+        "pt_BR": "Explosivos e Dispositivos",
+        "de_DE": "Sprengstoff und Geräte",
+        "en_GB": "Explosives and Devices",
+        "es_ES": "Explosivos y dispositivos",
+        "fr_FR": "Explosifs et appareils",
+        "it_IT": "Esplosivi e congegni",
+        "ru_RU": "Взрывчатка и устройства",
+        "ko_KR": "폭발물 및 장치",
+        "zh_TW": "爆裂物與裝置",
+        "zh_CN": "爆炸物与装置"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "binding": {
+      "type": "ON_USE",
+      "name": {
+        "en_US": "Binds when used",
+        "es_MX": "Se liga al usarlo",
+        "pt_BR": "Vincula-se quando usado",
+        "de_DE": "Wird bei Benutzung gebunden",
+        "en_GB": "Binds when used",
+        "es_ES": "Se liga al usarlo",
+        "fr_FR": "Lié quand utilisé",
+        "it_IT": "Si vincola all'uso",
+        "ru_RU": "Становится персональным при использовании",
+        "ko_KR": "사용 시 귀속",
+        "zh_TW": "使用後綁定",
+        "zh_CN": "使用后绑定"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/67833?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Wormhole",
+            "es_MX": "Agujero de gusano",
+            "pt_BR": "Buraco de Minhoca",
+            "de_DE": "Wurmloch",
+            "en_GB": "Wormhole",
+            "es_ES": "Agujero de gusano",
+            "fr_FR": "Tunnel spatiotemporel",
+            "it_IT": "Tunnel Spaziotemporale",
+            "ru_RU": "Червоточина",
+            "ko_KR": "웜홀",
+            "zh_TW": "蟲洞",
+            "zh_CN": "虫洞"
+          },
+          "id": 67833
+        },
+        "description": {
+          "en_US": "Use: Adds this toy to your Toy Box.\n\nCreates an unstable wormhole the Engineer can use to travel around Northrend.  Lasts 1 min. (4 Hr Cooldown)",
+          "es_MX": "Uso: Añade este juguete a tu caja de juguetes.\n\nCrea un agujero de gusano inestable que el ingeniero puede usar para viajar por Rasganorte. Dura 1 min. (4 h de tiempo de reutilización)",
+          "pt_BR": "Usar: Adiciona este brinquedo à sua Caixa de Brinquedo.\n\nCria um buraco de minhoca instável através do qual o Engenheiro pode viajar para qualquer parte de Nortúndria. Dura 1 min. (4 H de recarga)",
+          "de_DE": "Benutzen: Fügt dieses Spielzeug Eurer Spielzeugkiste hinzu.\n\nErschafft ein instabiles Wurmloch, das der Ingenieur verwenden kann, um Nordend zu bereisen. Hält 1 Min. lang an. (4 Std. Abklingzeit)",
+          "en_GB": "Use: Adds this toy to your Toy Box.\n\nCreates an unstable wormhole the Engineer can use to travel around Northrend.  Lasts 1 min. (4 Hr Cooldown)",
+          "es_ES": "Uso: Añade este juguete a tu caja de juguetes.\n\nCrea un agujero de gusano inestable que el ingeniero puede usar para viajar por Rasganorte. Dura 1 min. (4 h de tiempo de reutilización).",
+          "fr_FR": "Utiliser : ajoute ce jouet à votre collection.\n\nCrée un tunnel spatiotemporel instable que l’ingénieur peut utiliser pour voyager à travers le Norfendre. Dure 1 min. (4 h de recharge)",
+          "it_IT": "Usa: Aggiunge questo giocattolo alla tua collezione.\n\nCrea un tunnel spaziotemporale instabile che l'ingegnere può usare per spostarsi a Nordania. Dura 1 min. (4 ore di recupero)",
+          "ru_RU": "Использование: добавить игрушку в коллекцию.\n\nСоздает нестабильную червоточину, через которую инженер может путешествовать по Нордсколу. Время действия – 1 мин. (Восстановление: 4 ч.)",
+          "ko_KR": "사용 효과: 이 장난감을 장난감 상자에 추가합니다.\n\n기계공학자가 노스렌드를 여행하는 데 사용할 수 있는 불안정한 웜홀을 생성합니다. 1분 동안 지속됩니다. (4시간 후 재사용 가능)",
+          "zh_TW": "使用：將這個玩具加入你的玩具箱。\n\n製造一個不穩定的蟲洞讓工程師可以傳送至北裂境四處，持續1分鐘。 (4小時冷卻時間)",
+          "zh_CN": "使用：将该玩具添加到你的玩具箱。\n\n制造出一个不稳定的虫洞，工程师可以通过它在诺森德各地旅行。持续1分钟。 （4小时冷却）"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 5000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 24,
+        "display_string": {
+          "en_US": "Requires Level 24",
+          "es_MX": "Necesitas ser de nivel 24",
+          "pt_BR": "Requer o Nível 24",
+          "de_DE": "Benötigt Stufe 24",
+          "en_GB": "Requires Level 24",
+          "es_ES": "Necesitas ser de nivel 24",
+          "fr_FR": "Niveau 24 requis",
+          "it_IT": "Richiede il livello 24",
+          "ru_RU": "Требуется 24-й уровень",
+          "ko_KR": "최소 요구 레벨: 24",
+          "zh_TW": "需要等級24",
+          "zh_CN": "需要等级 24"
+        }
+      },
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2504?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Northrend Engineering",
+            "es_MX": "Ingeniería de Rasganorte",
+            "pt_BR": "Engenharia de Nortúndria",
+            "de_DE": "Ingenieurskunst von Nordend",
+            "en_GB": "Northrend Engineering",
+            "es_ES": "Ingeniería de Rasganorte",
+            "fr_FR": "Ingénierie du Norfendre",
+            "it_IT": "Ingegneria di Nordania",
+            "ru_RU": "Инженерное дело Нордскола",
+            "ko_KR": "노스렌드 기계공학",
+            "zh_TW": "北裂境工程學",
+            "zh_CN": "诺森德工程学"
+          },
+          "id": 2504
+        },
+        "level": 40,
+        "display_string": {
+          "en_US": "Requires Northrend Engineering (40)",
+          "es_MX": "Requiere Ingeniería de Rasganorte (40)",
+          "pt_BR": "Requer Engenharia de Nortúndria (40)",
+          "de_DE": "Benötigt Ingenieurskunst von Nordend (40)",
+          "en_GB": "Requires Northrend Engineering (40)",
+          "es_ES": "Requiere Ingeniería de Rasganorte (40)",
+          "fr_FR": "Ingénierie du Norfendre (40) requis",
+          "it_IT": "Richiede: Ingegneria di Nordania (40)",
+          "ru_RU": "Требуется: Инженерное дело Нордскола (40)",
+          "ko_KR": "요구 사항: 노스렌드 기계공학 (40)",
+          "zh_TW": "需要北裂境工程學(40)",
+          "zh_CN": "需要诺森德工程学（40）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Dimensional folding is not fully understood in any capacity.  A parachute and medical supplies are best kept on hand!",
+      "es_MX": "La manipulación del espacio dimensional no se puede comprender en su totalidad. ¡Más vale tener a mano un paracaídas y suministros médicos!",
+      "pt_BR": "A dobra dimensional não é muito bem compreendida. É melhor manter um paraquedas e suprimentos médicos à mão!",
+      "de_DE": "Die Dimensionsfaltung ist noch von keinem Forschungsbereich vollständig verstanden worden. Bereithaltung von Fallschirm und medizinischer Notversorgung ist angeraten!",
+      "en_GB": "Dimensional folding is not fully understood in any capacity.  A parachute and medical supplies are best kept on hand!",
+      "es_ES": "La manipulación del espacio dimensional no se puede comprender en su totalidad. ¡Más vale tener a mano un paracaídas y suministros médicos!",
+      "fr_FR": "Les caractéristiques des replis dimensionnels ne sont pas vraiment comprises. Il vaut mieux avoir un parachute et du matériel médical à portée de main !",
+      "it_IT": "I tunnel spaziotemporali non sono ancora stati studiati a fondo. Meglio tenere a portata di mano un paracadute e un kit di primo soccorso!",
+      "ru_RU": "Искривления пространства никогда не удается понять в полном объеме. Держите под рукой парашют и медикаменты!",
+      "ko_KR": "차원 분절은 어떤 능력으로도 완전히 이해할 수 없습니다. 낙하산과 구급함을 항상 휴대하시는 것이 좋습니다!",
+      "zh_TW": "次元折疊是一個尚未完全釐清的領域。降落傘與醫療包最好放在手邊!",
+      "zh_CN": "空间折跃技术还属于实验阶段。传送时建议随身携带降落伞和急救包！"
+    },
+    "is_subclass_hidden": true,
+    "toy": {
+      "en_US": "Toy",
+      "es_MX": "Juguete",
+      "pt_BR": "Brinquedo",
+      "de_DE": "Spielzeug",
+      "en_GB": "Toy",
+      "es_ES": "Juguete",
+      "fr_FR": "Jouet",
+      "it_IT": "Giocattolo",
+      "ru_RU": "Игрушка",
+      "ko_KR": "장난감",
+      "zh_TW": "玩具",
+      "zh_CN": "玩具"
+    }
+  },
+  "purchase_quantity": 1
+}

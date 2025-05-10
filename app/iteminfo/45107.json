@@ -1,0 +1,645 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/45107?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 45107,
+  "name": {
+    "en_US": "Iron Riveted War Helm",
+    "es_MX": "Yelmo de guerra de hierro remachado",
+    "pt_BR": "Elmo de Guerra com Rebites de Ferro",
+    "de_DE": "Eisennietenkriegshelm",
+    "en_GB": "Iron Riveted War Helm",
+    "es_ES": "Yelmo de guerra de hierro remachado",
+    "fr_FR": "Heaume de guerre riveté en fer",
+    "it_IT": "Elmo da Guerra di Ferro Chiodato",
+    "ru_RU": "Боевой шлем в железных заклепках",
+    "ko_KR": "무쇠 이음못 박힌 전투 투구",
+    "zh_TW": "鐵固戰盔",
+    "zh_CN": "铁铆战盔"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 35,
+  "required_level": 30,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/45107?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 45107
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Plate",
+      "es_MX": "Placas",
+      "pt_BR": "Placas",
+      "de_DE": "Platte",
+      "en_GB": "Plate",
+      "es_ES": "Placas",
+      "fr_FR": "Plaques",
+      "it_IT": "Piastre",
+      "ru_RU": "Латы",
+      "ko_KR": "판금",
+      "zh_TW": "鎧甲",
+      "zh_CN": "板甲"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": {
+      "en_US": "Head",
+      "es_MX": "Cabeza",
+      "pt_BR": "Cabeça",
+      "de_DE": "Kopf",
+      "en_GB": "Head",
+      "es_ES": "Cabeza",
+      "fr_FR": "Tête",
+      "it_IT": "Testa",
+      "ru_RU": "Голова",
+      "ko_KR": "머리",
+      "zh_TW": "頭部",
+      "zh_CN": "头部"
+    }
+  },
+  "purchase_price": 443226,
+  "sell_price": 88645,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/45107?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 45107
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "META",
+          "name": {
+            "en_US": "Meta Socket",
+            "es_MX": "Ranura meta",
+            "pt_BR": "Engaste meta",
+            "de_DE": "Metasockel",
+            "en_GB": "Meta Socket",
+            "es_ES": "Ranura meta",
+            "fr_FR": "Méta-châsse",
+            "it_IT": "Incavo Meta",
+            "ru_RU": "особое гнездо",
+            "ko_KR": "얼개 보석 홈",
+            "zh_TW": "變換插槽",
+            "zh_CN": "多彩插槽"
+          }
+        }
+      },
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": {
+            "en_US": "Prismatic Socket",
+            "es_MX": "Ranura prismática",
+            "pt_BR": "Engaste Prismático",
+            "de_DE": "Prismatischer Sockel",
+            "en_GB": "Prismatic Socket",
+            "es_ES": "Ranura prismática",
+            "fr_FR": "Châsse prismatique",
+            "it_IT": "Incavo Prismatico",
+            "ru_RU": "бесцветное гнездо",
+            "ko_KR": "다색 보석 홈",
+            "zh_TW": "多色插槽",
+            "zh_CN": "棱彩插槽"
+          }
+        }
+      }
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Iron Riveted War Helm",
+      "es_MX": "Yelmo de guerra de hierro remachado",
+      "pt_BR": "Elmo de Guerra com Rebites de Ferro",
+      "de_DE": "Eisennietenkriegshelm",
+      "en_GB": "Iron Riveted War Helm",
+      "es_ES": "Yelmo de guerra de hierro remachado",
+      "fr_FR": "Heaume de guerre riveté en fer",
+      "it_IT": "Elmo da Guerra di Ferro Chiodato",
+      "ru_RU": "Боевой шлем в железных заклепках",
+      "ko_KR": "무쇠 이음못 박힌 전투 투구",
+      "zh_TW": "鐵固戰盔",
+      "zh_CN": "铁铆战盔"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/45107?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 45107
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Plate",
+        "es_MX": "Placas",
+        "pt_BR": "Placas",
+        "de_DE": "Platte",
+        "en_GB": "Plate",
+        "es_ES": "Placas",
+        "fr_FR": "Plaques",
+        "it_IT": "Piastre",
+        "ru_RU": "Латы",
+        "ko_KR": "판금",
+        "zh_TW": "鎧甲",
+        "zh_CN": "板甲"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": {
+        "en_US": "Head",
+        "es_MX": "Cabeza",
+        "pt_BR": "Cabeça",
+        "de_DE": "Kopf",
+        "en_GB": "Head",
+        "es_ES": "Cabeza",
+        "fr_FR": "Tête",
+        "it_IT": "Testa",
+        "ru_RU": "Голова",
+        "ko_KR": "머리",
+        "zh_TW": "頭部",
+        "zh_CN": "头部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 12,
+      "display": {
+        "display_string": {
+          "en_US": "12 Armor",
+          "es_MX": "12 p. de armadura",
+          "pt_BR": "12 de Armadura",
+          "de_DE": "12 Rüstung",
+          "en_GB": "12 Armor",
+          "es_ES": "12 p. de armadura",
+          "fr_FR": "Armure : 12",
+          "it_IT": "12 Armatura",
+          "ru_RU": "Броня: 12",
+          "ko_KR": "방어도 12",
+          "zh_TW": "12點護甲",
+          "zh_CN": "12点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 4,
+        "display": {
+          "display_string": {
+            "en_US": "+4 Intellect",
+            "es_MX": "+4 intelecto",
+            "pt_BR": "+4 Intelecto",
+            "de_DE": "+4 Intelligenz",
+            "en_GB": "+4 Intellect",
+            "es_ES": "+4 intelecto",
+            "fr_FR": "+4 Intelligence",
+            "it_IT": "+4 Intelletto",
+            "ru_RU": "+4 к интеллекту",
+            "ko_KR": "지능 +4",
+            "zh_TW": "+4智力",
+            "zh_CN": "+4 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": {
+            "en_US": "Strength",
+            "es_MX": "fuerza",
+            "pt_BR": "Força",
+            "de_DE": "Stärke",
+            "en_GB": "Strength",
+            "es_ES": "fuerza",
+            "fr_FR": "Force",
+            "it_IT": "Forza",
+            "ru_RU": "к силе",
+            "ko_KR": "힘",
+            "zh_TW": "力量",
+            "zh_CN": "力量"
+          }
+        },
+        "value": 4,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+4 Strength",
+            "es_MX": "+4 fuerza",
+            "pt_BR": "+4 Força",
+            "de_DE": "+4 Stärke",
+            "en_GB": "+4 Strength",
+            "es_ES": "+4 fuerza",
+            "fr_FR": "+4 Force",
+            "it_IT": "+4 Forza",
+            "ru_RU": "+4 к силе",
+            "ko_KR": "힘 +4",
+            "zh_TW": "+4力量",
+            "zh_CN": "+4 力量"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 5,
+        "display": {
+          "display_string": {
+            "en_US": "+5 Stamina",
+            "es_MX": "+5 aguante",
+            "pt_BR": "+5 Vigor",
+            "de_DE": "+5 Ausdauer",
+            "en_GB": "+5 Stamina",
+            "es_ES": "+5 aguante",
+            "fr_FR": "+5 Endurance",
+            "it_IT": "+5 Tempra",
+            "ru_RU": "+5 к выносливости",
+            "ko_KR": "체력 +5",
+            "zh_TW": "+5耐力",
+            "zh_CN": "+5 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 3,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Critical Strike",
+            "es_MX": "+3 golpe crítico",
+            "pt_BR": "+3 Acerto Crítico",
+            "de_DE": "+3 Kritischer Trefferwert",
+            "en_GB": "+3 Critical Strike",
+            "es_ES": "+3 golpe crítico",
+            "fr_FR": "+3 Score de crit.",
+            "it_IT": "+3 Indice di critico",
+            "ru_RU": "+3 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +3",
+            "zh_TW": "+3致命一擊",
+            "zh_CN": "+3 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": {
+            "en_US": "Haste",
+            "es_MX": "celeridad",
+            "pt_BR": "Aceleração",
+            "de_DE": "Tempo",
+            "en_GB": "Haste",
+            "es_ES": "celeridad",
+            "fr_FR": "Hâte",
+            "it_IT": "Indice di celerità",
+            "ru_RU": "к скорости",
+            "ko_KR": "가속",
+            "zh_TW": "加速",
+            "zh_CN": "急速"
+          }
+        },
+        "value": 4,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+4 Haste",
+            "es_MX": "+4 celeridad",
+            "pt_BR": "+4 Aceleração",
+            "de_DE": "+4 Tempo",
+            "en_GB": "+4 Haste",
+            "es_ES": "+4 celeridad",
+            "fr_FR": "+4 Hâte",
+            "it_IT": "+4 Indice di celerità",
+            "ru_RU": "+4 к скорости",
+            "ko_KR": "가속 +4",
+            "zh_TW": "+4加速",
+            "zh_CN": "+4 急速"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "socket_bonus": {
+      "en_US": "Socket Bonus: +2 Critical Strike",
+      "es_MX": "Bonus ranura: +2 golpe crítico",
+      "pt_BR": "Bônus de engaste: +2 de Acerto Crítico",
+      "de_DE": "Sockelbonus: +2 kritischer Trefferwert",
+      "en_GB": "Socket Bonus: +2 Critical Strike",
+      "es_ES": "Bonus ranura: +2 golpe crítico",
+      "fr_FR": "Bonus de sertissage : +2 au score de Coup critique",
+      "it_IT": "Bonus incavo: +2 Indice di Critico",
+      "ru_RU": "При соответствии цвета: +2 к вероятности критического удара",
+      "ko_KR": "보석 장착 보너스: 치명타 및 극대화 +2",
+      "zh_TW": "插槽加成：+2致命一擊",
+      "zh_CN": "镶孔奖励：+2 爆击"
+    },
+    "sell_price": {
+      "value": 285,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "copper": {
+          "en_US": "85",
+          "es_MX": "85",
+          "pt_BR": "85",
+          "de_DE": "85",
+          "en_GB": "85",
+          "es_ES": "85",
+          "fr_FR": "85",
+          "it_IT": "85",
+          "ru_RU": "85",
+          "ko_KR": "85",
+          "zh_TW": "85",
+          "zh_CN": "85"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 30,
+        "display_string": {
+          "en_US": "Requires Level 30",
+          "es_MX": "Necesitas ser de nivel 30",
+          "pt_BR": "Requer o Nível 30",
+          "de_DE": "Benötigt Stufe 30",
+          "en_GB": "Requires Level 30",
+          "es_ES": "Necesitas ser de nivel 30",
+          "fr_FR": "Niveau 30 requis",
+          "it_IT": "Richiede il livello 30",
+          "ru_RU": "Требуется 30-й уровень",
+          "ko_KR": "최소 요구 레벨: 30",
+          "zh_TW": "需要等級30",
+          "zh_CN": "需要等级 30"
+        }
+      }
+    },
+    "level": {
+      "value": 35,
+      "display_string": {
+        "en_US": "Item Level 35",
+        "es_MX": "Nivel de objeto 35",
+        "pt_BR": "Nível do Item: 35",
+        "de_DE": "Gegenstandsstufe 35",
+        "en_GB": "Item Level 35",
+        "es_ES": "Nivel de objeto 35",
+        "fr_FR": "Niveau d'objet 35",
+        "it_IT": "Livello oggetto: 35",
+        "ru_RU": "Уровень предмета: 35",
+        "ko_KR": "아이템 레벨: 35",
+        "zh_TW": "物品等級35",
+        "zh_CN": "物品等级35"
+      }
+    },
+    "durability": {
+      "value": 100,
+      "display_string": {
+        "en_US": "Durability 100 / 100",
+        "es_MX": "Durabilidad 100 / 100",
+        "pt_BR": "Durabilidade 100 / 100",
+        "de_DE": "Haltbarkeit 100 / 100",
+        "en_GB": "Durability 100 / 100",
+        "es_ES": "Durabilidad 100 / 100",
+        "fr_FR": "Durabilité : 100 / 100",
+        "it_IT": "Integrità 100/100",
+        "ru_RU": "Прочность: 100 / 100",
+        "ko_KR": "내구도 100 / 100",
+        "zh_TW": "耐久度 100 / 100",
+        "zh_CN": "耐久度 100 / 100"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/11276?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 11276
+    }
+  ]
+}

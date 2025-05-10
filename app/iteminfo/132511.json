@@ -1,0 +1,348 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/132511?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 132511,
+  "name": {
+    "en_US": "Pump-Action Bandage Gun",
+    "es_MX": "Pistola de venda de bombeo",
+    "pt_BR": "Arma de Curativos de Recarga Ativa",
+    "de_DE": "Repetierbandagenflinte",
+    "en_GB": "Pump-Action Bandage Gun",
+    "es_ES": "Pistola de vendas de pistón",
+    "fr_FR": "Fusil à pompe lance-bandages",
+    "it_IT": "Pistola Curativa a Pompa",
+    "ru_RU": "Помповое перевязочное ружье",
+    "ko_KR": "펌프 연사식 붕대총",
+    "zh_TW": "壓動式繃帶槍",
+    "zh_CN": "泵动式绷带枪"
+  },
+  "quality": {
+    "type": "COMMON",
+    "name": {
+      "en_US": "Common",
+      "es_MX": "Común",
+      "pt_BR": "Comum",
+      "de_DE": "Gewöhnlich",
+      "en_GB": "Common",
+      "es_ES": "Común",
+      "fr_FR": "Commun",
+      "it_IT": "Comune",
+      "ru_RU": "Обычное",
+      "ko_KR": "일반",
+      "zh_TW": "普通",
+      "zh_CN": "普通"
+    }
+  },
+  "level": 45,
+  "required_level": 39,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/132511?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 132511
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Consumable",
+      "es_MX": "Consumible",
+      "pt_BR": "Consumível",
+      "de_DE": "Verbrauchbares",
+      "en_GB": "Consumable",
+      "es_ES": "Consumible",
+      "fr_FR": "Consommable",
+      "it_IT": "Consumabili",
+      "ru_RU": "Расходуемые",
+      "ko_KR": "소비용품",
+      "zh_TW": "消耗品",
+      "zh_CN": "消耗品"
+    },
+    "id": 0
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Explosives and Devices",
+      "es_MX": "Explosivos y dispositivos",
+      "pt_BR": "Explosivos e Dispositivos",
+      "de_DE": "Sprengstoff und Geräte",
+      "en_GB": "Explosives and Devices",
+      "es_ES": "Explosivos y dispositivos",
+      "fr_FR": "Explosifs et appareils",
+      "it_IT": "Esplosivi e congegni",
+      "ru_RU": "Взрывчатка и устройства",
+      "ko_KR": "폭발물 및 장치",
+      "zh_TW": "爆裂物與裝置",
+      "zh_CN": "爆炸物与装置"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 3000,
+  "sell_price": 750,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/132511?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 132511
+    },
+    "quality": {
+      "type": "COMMON",
+      "name": {
+        "en_US": "Common",
+        "es_MX": "Común",
+        "pt_BR": "Comum",
+        "de_DE": "Gewöhnlich",
+        "en_GB": "Common",
+        "es_ES": "Común",
+        "fr_FR": "Commun",
+        "it_IT": "Comune",
+        "ru_RU": "Обычное",
+        "ko_KR": "일반",
+        "zh_TW": "普通",
+        "zh_CN": "普通"
+      }
+    },
+    "name": {
+      "en_US": "Pump-Action Bandage Gun",
+      "es_MX": "Pistola de venda de bombeo",
+      "pt_BR": "Arma de Curativos de Recarga Ativa",
+      "de_DE": "Repetierbandagenflinte",
+      "en_GB": "Pump-Action Bandage Gun",
+      "es_ES": "Pistola de vendas de pistón",
+      "fr_FR": "Fusil à pompe lance-bandages",
+      "it_IT": "Pistola Curativa a Pompa",
+      "ru_RU": "Помповое перевязочное ружье",
+      "ko_KR": "펌프 연사식 붕대총",
+      "zh_TW": "壓動式繃帶槍",
+      "zh_CN": "泵动式绷带枪"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/132511?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 132511
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Consumable",
+        "es_MX": "Consumible",
+        "pt_BR": "Consumível",
+        "de_DE": "Verbrauchbares",
+        "en_GB": "Consumable",
+        "es_ES": "Consumible",
+        "fr_FR": "Consommable",
+        "it_IT": "Consumabili",
+        "ru_RU": "Расходуемые",
+        "ko_KR": "소비용품",
+        "zh_TW": "消耗品",
+        "zh_CN": "消耗品"
+      },
+      "id": 0
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Explosives and Devices",
+        "es_MX": "Explosivos y dispositivos",
+        "pt_BR": "Explosivos e Dispositivos",
+        "de_DE": "Sprengstoff und Geräte",
+        "en_GB": "Explosives and Devices",
+        "es_ES": "Explosivos y dispositivos",
+        "fr_FR": "Explosifs et appareils",
+        "it_IT": "Esplosivi e congegni",
+        "ru_RU": "Взрывчатка и устройства",
+        "ko_KR": "폭발물 및 장치",
+        "zh_TW": "爆裂物與裝置",
+        "zh_CN": "爆炸物与装置"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/200287?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Pump-Action Bandage Gun",
+            "es_MX": "Pistola de venda de bombeo",
+            "pt_BR": "Arma de Curativos de Recarga Ativa",
+            "de_DE": "Repetierbandagenflinte",
+            "en_GB": "Pump-Action Bandage Gun",
+            "es_ES": "Pistola de vendas de pistón",
+            "fr_FR": "Fusil à pompe lance-bandages",
+            "it_IT": "Pistola Curativa a Pompa",
+            "ru_RU": "Помповое перевязочное ружье",
+            "ko_KR": "펌프 연사식 붕대총",
+            "zh_TW": "壓動式繃帶槍",
+            "zh_CN": "泵动式绷带枪"
+          },
+          "id": 200287
+        },
+        "description": {
+          "en_US": "Use: Heals an ally up to 40 yards away by 1,200. (1 Min Cooldown)",
+          "es_MX": "Usar: Sana a un aliado hasta a 40 m de distancia por 1,200. (1 min de tiempo de reutilización)",
+          "pt_BR": "Usar: Cura 1.200 pontos de vida de um aliado a até 40 metros de distância. (1 min de recarga)",
+          "de_DE": "Benutzen: Heilt einen Verbündeten innerhalb von bis zu 40 Metern um 1.200 Gesundheit. (1 Min. Abklingzeit)",
+          "en_GB": "Use: Heals an ally up to 40 yards away by 1,200. (1 Min Cooldown)",
+          "es_ES": "Uso: Sana 1200 p. de salud a un aliado a un máximo de 40 m. (1 min de tiempo de reutilización).",
+          "fr_FR": "Utiliser : Rend 1200 points de vie à un allié se trouvant à moins de 40 mètres. (1 min de recharge)",
+          "it_IT": "Usa: Cura un alleato fino a 40 m di distanza di 1.200. (1 min di recupero)",
+          "ru_RU": "Использование: Восстанавливает 1200 ед. здоровья союзнику на удалении до 40 м. (Восстановление: 1 мин.)",
+          "ko_KR": "사용 효과: 40미터 내의 아군을 1,200만큼 치유합니다. (1분 후 재사용 가능)",
+          "zh_TW": "使用： 為最遠40碼內的一名盟友治療1,200點生命力。 (1分鐘冷卻時間)",
+          "zh_CN": "使用： 为40码内的一名盟友恢复1,200点生命值。 （1分钟冷却）"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 750,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "7",
+          "es_MX": "7",
+          "pt_BR": "7",
+          "de_DE": "7",
+          "en_GB": "7",
+          "es_ES": "7",
+          "fr_FR": "7",
+          "it_IT": "7",
+          "ru_RU": "7",
+          "ko_KR": "7",
+          "zh_TW": "7",
+          "zh_CN": "7"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 39,
+        "display_string": {
+          "en_US": "Requires Level 39",
+          "es_MX": "Necesitas ser de nivel 39",
+          "pt_BR": "Requer o Nível 39",
+          "de_DE": "Benötigt Stufe 39",
+          "en_GB": "Requires Level 39",
+          "es_ES": "Necesitas ser de nivel 39",
+          "fr_FR": "Niveau 39 requis",
+          "it_IT": "Richiede il livello 39",
+          "ru_RU": "Требуется 39-й уровень",
+          "ko_KR": "최소 요구 레벨: 39",
+          "zh_TW": "需要等級39",
+          "zh_CN": "需要等级 39"
+        }
+      }
+    },
+    "charges": {
+      "value": 20,
+      "display_string": {
+        "en_US": "20 Charges",
+        "es_MX": "20 cargas",
+        "pt_BR": "20 cargas",
+        "de_DE": "20 Aufladungen",
+        "en_GB": "20 Charges",
+        "es_ES": "20 cargas",
+        "fr_FR": "20 charges",
+        "it_IT": "20 cariche",
+        "ru_RU": "20 зарядов",
+        "ko_KR": "20회 사용 가능",
+        "zh_TW": "20次",
+        "zh_CN": "20次"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

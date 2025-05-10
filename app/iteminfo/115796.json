@@ -1,0 +1,428 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/115796?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 115796,
+  "name": {
+    "en_US": "Shifting Taladite Ring",
+    "es_MX": "Anillo de taladita cambiante",
+    "pt_BR": "Anel de Taladita Cambiante",
+    "de_DE": "Beweglicher Taladitring",
+    "en_GB": "Shifting Taladite Ring",
+    "es_ES": "Anillo de taladita cambiante",
+    "fr_FR": "Anneau changeant en taladite",
+    "it_IT": "Anello di Taladite Mutevole",
+    "ru_RU": "Изменчивое таладитовое кольцо",
+    "ko_KR": "아른거리는 탈라다이트 반지",
+    "zh_TW": "移形塔岩戒指",
+    "zh_CN": "塔拉迪特狡诈水晶指环"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 44,
+  "required_level": 35,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/115796?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 115796
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "FINGER",
+    "name": {
+      "en_US": "Finger",
+      "es_MX": "Dedo",
+      "pt_BR": "Dedo",
+      "de_DE": "Finger",
+      "en_GB": "Finger",
+      "es_ES": "Dedo",
+      "fr_FR": "Doigt",
+      "it_IT": "Dito",
+      "ru_RU": "Палец",
+      "ko_KR": "손가락",
+      "zh_TW": "手指",
+      "zh_CN": "手指"
+    }
+  },
+  "purchase_price": 439062,
+  "sell_price": 87812,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/115796?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 115796
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Shifting Taladite Ring",
+      "es_MX": "Anillo de taladita cambiante",
+      "pt_BR": "Anel de Taladita Cambiante",
+      "de_DE": "Beweglicher Taladitring",
+      "en_GB": "Shifting Taladite Ring",
+      "es_ES": "Anillo de taladita cambiante",
+      "fr_FR": "Anneau changeant en taladite",
+      "it_IT": "Anello di Taladite Mutevole",
+      "ru_RU": "Изменчивое таладитовое кольцо",
+      "ko_KR": "아른거리는 탈라다이트 반지",
+      "zh_TW": "移形塔岩戒指",
+      "zh_CN": "塔拉迪特狡诈水晶指环"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/115796?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 115796
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "FINGER",
+      "name": {
+        "en_US": "Finger",
+        "es_MX": "Dedo",
+        "pt_BR": "Dedo",
+        "de_DE": "Finger",
+        "en_GB": "Finger",
+        "es_ES": "Dedo",
+        "fr_FR": "Doigt",
+        "it_IT": "Dito",
+        "ru_RU": "Палец",
+        "ko_KR": "손가락",
+        "zh_TW": "手指",
+        "zh_CN": "手指"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "limit_category": {
+      "en_US": "Unique-Equipped: Warlords Crafted (3)",
+      "es_MX": "Único-Equipado: Fabricado - Warlords (3)",
+      "pt_BR": "Máximo equipado: Senhores da Guerra Criados (3)",
+      "de_DE": "Einzigartig angelegt: Warlords - hergestellt (3)",
+      "en_GB": "Unique-Equipped: Warlords Crafted (3)",
+      "es_ES": "Único-Equipado: Objetos creados de Warlords (3)",
+      "fr_FR": "Unique - Équipé : Artisanat de Warlords (3)",
+      "it_IT": "Unico equipaggiabile: Artigianato dei Signori della Guerra (3)",
+      "ru_RU": "Уникальный использующийся предмет: Созданные в Warlords of Draenor предметы (3)",
+      "ko_KR": "고유 장착 아이템: 전쟁군주 제작 (3)",
+      "zh_TW": "僅可裝備一件：德拉諾之霸製造(3)",
+      "zh_CN": "装备唯一：督军监制 （3）"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 3,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Agility",
+            "es_MX": "+3 agilidad",
+            "pt_BR": "+3 Agilidade",
+            "de_DE": "+3 Beweglichkeit",
+            "en_GB": "+3 Agility",
+            "es_ES": "+3 agilidad",
+            "fr_FR": "+3 Agilité",
+            "it_IT": "+3 Agilità",
+            "ru_RU": "+3 к ловкости",
+            "ko_KR": "민첩성 +3",
+            "zh_TW": "+3敏捷",
+            "zh_CN": "+3 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 4,
+        "display": {
+          "display_string": {
+            "en_US": "+4 Stamina",
+            "es_MX": "+4 aguante",
+            "pt_BR": "+4 Vigor",
+            "de_DE": "+4 Ausdauer",
+            "en_GB": "+4 Stamina",
+            "es_ES": "+4 aguante",
+            "fr_FR": "+4 Endurance",
+            "it_IT": "+4 Tempra",
+            "ru_RU": "+4 к выносливости",
+            "ko_KR": "체력 +4",
+            "zh_TW": "+4耐力",
+            "zh_CN": "+4 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 544,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "5",
+          "es_MX": "5",
+          "pt_BR": "5",
+          "de_DE": "5",
+          "en_GB": "5",
+          "es_ES": "5",
+          "fr_FR": "5",
+          "it_IT": "5",
+          "ru_RU": "5",
+          "ko_KR": "5",
+          "zh_TW": "5",
+          "zh_CN": "5"
+        },
+        "copper": {
+          "en_US": "44",
+          "es_MX": "44",
+          "pt_BR": "44",
+          "de_DE": "44",
+          "en_GB": "44",
+          "es_ES": "44",
+          "fr_FR": "44",
+          "it_IT": "44",
+          "ru_RU": "44",
+          "ko_KR": "44",
+          "zh_TW": "44",
+          "zh_CN": "44"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 35,
+        "display_string": {
+          "en_US": "Requires Level 35",
+          "es_MX": "Necesitas ser de nivel 35",
+          "pt_BR": "Requer o Nível 35",
+          "de_DE": "Benötigt Stufe 35",
+          "en_GB": "Requires Level 35",
+          "es_ES": "Necesitas ser de nivel 35",
+          "fr_FR": "Niveau 35 requis",
+          "it_IT": "Richiede il livello 35",
+          "ru_RU": "Требуется 35-й уровень",
+          "ko_KR": "최소 요구 레벨: 35",
+          "zh_TW": "需要等級35",
+          "zh_CN": "需要等级 35"
+        }
+      }
+    },
+    "level": {
+      "value": 44,
+      "display_string": {
+        "en_US": "Item Level 44",
+        "es_MX": "Nivel de objeto 44",
+        "pt_BR": "Nível do Item: 44",
+        "de_DE": "Gegenstandsstufe 44",
+        "en_GB": "Item Level 44",
+        "es_ES": "Nivel de objeto 44",
+        "fr_FR": "Niveau d'objet 44",
+        "it_IT": "Livello oggetto: 44",
+        "ru_RU": "Уровень предмета: 44",
+        "ko_KR": "아이템 레벨: 44",
+        "zh_TW": "物品等級44",
+        "zh_CN": "物品等级44"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

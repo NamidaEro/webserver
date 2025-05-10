@@ -1,0 +1,793 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/8389?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 8389,
+  "name": {
+    "en_US": "Pattern: Big Voodoo Pants",
+    "es_MX": "Patrón: pantalones de gran vudú",
+    "pt_BR": "Molde: Calças do Grande Vodu",
+    "de_DE": "Muster: Große Voodoohose",
+    "en_GB": "Pattern: Big Voodoo Pants",
+    "es_ES": "Patrón: pantalones de gran vudú",
+    "fr_FR": "Patron : Pantalon du grand vaudou",
+    "it_IT": "Modello: Pantaloni del Grande Vudù",
+    "ru_RU": "Выкройка: большие вудуистские штаны",
+    "ko_KR": "도안: 부두교 바지",
+    "zh_TW": "圖樣:巫毒束褲",
+    "zh_CN": "图样：巫毒短裤"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/8389?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 8389
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leatherworking",
+      "es_MX": "Peletería",
+      "pt_BR": "Couraria",
+      "de_DE": "Lederverarbeitung",
+      "en_GB": "Leatherworking",
+      "es_ES": "Peletería",
+      "fr_FR": "Travail du cuir",
+      "it_IT": "Conciatura",
+      "ru_RU": "Кожевничество",
+      "ko_KR": "가죽세공",
+      "zh_TW": "製皮",
+      "zh_CN": "制皮"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 5000,
+  "sell_price": 1250,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Big Voodoo Pants.",
+    "es_MX": "Te enseña a fabricar unos pantalones de gran vudú.",
+    "pt_BR": "Ensina a fazer Calças do Grande Vodu.",
+    "de_DE": "Lehrt Euch die Herstellung einer großen Voodoohose.",
+    "en_GB": "Teaches you how to craft Big Voodoo Pants.",
+    "es_ES": "Te enseña a fabricar unos pantalones de gran vudú.",
+    "fr_FR": "Vous apprend à confectionner un Pantalon du grand vaudou.",
+    "it_IT": "Ti insegna a creare dei Pantaloni del Grande Vudù.",
+    "ru_RU": "Обучает изготовлению больших вудуистских штанов.",
+    "ko_KR": "부두교 바지 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作巫毒束褲。",
+    "zh_CN": "教你学会制作巫毒短裤。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/8389?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 8389
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Big Voodoo Pants",
+      "es_MX": "Patrón: pantalones de gran vudú",
+      "pt_BR": "Molde: Calças do Grande Vodu",
+      "de_DE": "Muster: Große Voodoohose",
+      "en_GB": "Pattern: Big Voodoo Pants",
+      "es_ES": "Patrón: pantalones de gran vudú",
+      "fr_FR": "Patron : Pantalon du grand vaudou",
+      "it_IT": "Modello: Pantaloni del Grande Vudù",
+      "ru_RU": "Выкройка: большие вудуистские штаны",
+      "ko_KR": "도안: 부두교 바지",
+      "zh_TW": "圖樣:巫毒束褲",
+      "zh_CN": "图样：巫毒短裤"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/8389?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 8389
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leatherworking",
+        "es_MX": "Peletería",
+        "pt_BR": "Couraria",
+        "de_DE": "Lederverarbeitung",
+        "en_GB": "Leatherworking",
+        "es_ES": "Peletería",
+        "fr_FR": "Travail du cuir",
+        "it_IT": "Conciatura",
+        "ru_RU": "Кожевничество",
+        "ko_KR": "가죽세공",
+        "zh_TW": "製皮",
+        "zh_CN": "制皮"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 1250,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "12",
+          "es_MX": "12",
+          "pt_BR": "12",
+          "de_DE": "12",
+          "en_GB": "12",
+          "es_ES": "12",
+          "fr_FR": "12",
+          "it_IT": "12",
+          "ru_RU": "12",
+          "ko_KR": "12",
+          "zh_TW": "12",
+          "zh_CN": "12"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2532?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Leatherworking",
+            "es_MX": "Peletería clásica",
+            "pt_BR": "Couraria do Classic",
+            "de_DE": "Klassische Lederverarbeitung",
+            "en_GB": "Classic Leatherworking",
+            "es_ES": "Peletería clásica",
+            "fr_FR": "Travail du cuir classique",
+            "it_IT": "Conciatura Classica",
+            "ru_RU": "Классическое кожевничество",
+            "ko_KR": "옛 가죽세공",
+            "zh_TW": "艾澤拉斯製皮",
+            "zh_CN": "经典旧世制皮"
+          },
+          "id": 2532
+        },
+        "level": 240,
+        "display_string": {
+          "en_US": "Requires Classic Leatherworking (240)",
+          "es_MX": "Requiere Peletería clásica (240)",
+          "pt_BR": "Requer Couraria do Classic (240)",
+          "de_DE": "Benötigt Klassische Lederverarbeitung (240)",
+          "en_GB": "Requires Classic Leatherworking (240)",
+          "es_ES": "Requiere Peletería clásica (240)",
+          "fr_FR": "Travail du cuir classique (240) requis",
+          "it_IT": "Richiede: Conciatura Classica (240)",
+          "ru_RU": "Требуется: Классическое кожевничество (240)",
+          "ko_KR": "요구 사항: 옛 가죽세공 (240)",
+          "zh_TW": "需要艾澤拉斯製皮(240)",
+          "zh_CN": "需要经典旧世制皮（240）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft Big Voodoo Pants.",
+      "es_MX": "Te enseña a fabricar unos pantalones de gran vudú.",
+      "pt_BR": "Ensina a fazer Calças do Grande Vodu.",
+      "de_DE": "Lehrt Euch die Herstellung einer großen Voodoohose.",
+      "en_GB": "Teaches you how to craft Big Voodoo Pants.",
+      "es_ES": "Te enseña a fabricar unos pantalones de gran vudú.",
+      "fr_FR": "Vous apprend à confectionner un Pantalon du grand vaudou.",
+      "it_IT": "Ti insegna a creare dei Pantaloni del Grande Vudù.",
+      "ru_RU": "Обучает изготовлению больших вудуистских штанов.",
+      "ko_KR": "부두교 바지 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作巫毒束褲。",
+      "zh_CN": "教你学会制作巫毒短裤。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/8202?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 8202
+        },
+        "quality": {
+          "type": "UNCOMMON",
+          "name": {
+            "en_US": "Uncommon",
+            "es_MX": "Inusual",
+            "pt_BR": "Incomum",
+            "de_DE": "Ungewöhnlich",
+            "en_GB": "Uncommon",
+            "es_ES": "Inusual",
+            "fr_FR": "Inhabituel",
+            "it_IT": "Pregiato",
+            "ru_RU": "Необычное",
+            "ko_KR": "고급",
+            "zh_TW": "優秀",
+            "zh_CN": "优秀"
+          }
+        },
+        "name": {
+          "en_US": "Big Voodoo Pants",
+          "es_MX": "Pantalones de gran vudú",
+          "pt_BR": "Calças do Grande Vodu",
+          "de_DE": "Große Voodoohose",
+          "en_GB": "Big Voodoo Pants",
+          "es_ES": "Pantalones de gran vudú",
+          "fr_FR": "Pantalon du grand vaudou",
+          "it_IT": "Pantaloni del Grande Vudù",
+          "ru_RU": "Большие вудуистские штаны",
+          "ko_KR": "부두교 바지",
+          "zh_TW": "巫毒束褲",
+          "zh_CN": "巫毒短裤"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/8202?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 8202
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Leather",
+            "es_MX": "Cuero",
+            "pt_BR": "Couro",
+            "de_DE": "Leder",
+            "en_GB": "Leather",
+            "es_ES": "Cuero",
+            "fr_FR": "Cuir",
+            "it_IT": "Cuoio",
+            "ru_RU": "Кожа",
+            "ko_KR": "가죽",
+            "zh_TW": "皮甲",
+            "zh_CN": "皮甲"
+          },
+          "id": 2
+        },
+        "inventory_type": {
+          "type": "LEGS",
+          "name": {
+            "en_US": "Legs",
+            "es_MX": "Piernas",
+            "pt_BR": "Pernas",
+            "de_DE": "Beine",
+            "en_GB": "Legs",
+            "es_ES": "Piernas",
+            "fr_FR": "Jambes",
+            "it_IT": "Gambe",
+            "ru_RU": "Ноги",
+            "ko_KR": "다리",
+            "zh_TW": "腿部",
+            "zh_CN": "腿部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "armor": {
+          "value": 5,
+          "display": {
+            "display_string": {
+              "en_US": "5 Armor",
+              "es_MX": "5 p. de armadura",
+              "pt_BR": "5 de Armadura",
+              "de_DE": "5 Rüstung",
+              "en_GB": "5 Armor",
+              "es_ES": "5 p. de armadura",
+              "fr_FR": "Armure : 5",
+              "it_IT": "5 Armatura",
+              "ru_RU": "Броня: 5",
+              "ko_KR": "방어도 5",
+              "zh_TW": "5點護甲",
+              "zh_CN": "5点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "INTELLECT",
+              "name": {
+                "en_US": "Intellect",
+                "es_MX": "intelecto",
+                "pt_BR": "Intelecto",
+                "de_DE": "Intelligenz",
+                "en_GB": "Intellect",
+                "es_ES": "intelecto",
+                "fr_FR": "Intelligence",
+                "it_IT": "Intelletto",
+                "ru_RU": "к интеллекту",
+                "ko_KR": "지능",
+                "zh_TW": "智力",
+                "zh_CN": "智力"
+              }
+            },
+            "value": 3,
+            "display": {
+              "display_string": {
+                "en_US": "+3 Intellect",
+                "es_MX": "+3 intelecto",
+                "pt_BR": "+3 Intelecto",
+                "de_DE": "+3 Intelligenz",
+                "en_GB": "+3 Intellect",
+                "es_ES": "+3 intelecto",
+                "fr_FR": "+3 Intelligence",
+                "it_IT": "+3 Intelletto",
+                "ru_RU": "+3 к интеллекту",
+                "ko_KR": "지능 +3",
+                "zh_TW": "+3智力",
+                "zh_CN": "+3 智力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "AGILITY",
+              "name": {
+                "en_US": "Agility",
+                "es_MX": "agilidad",
+                "pt_BR": "Agilidade",
+                "de_DE": "Beweglichkeit",
+                "en_GB": "Agility",
+                "es_ES": "agilidad",
+                "fr_FR": "Agilité",
+                "it_IT": "Agilità",
+                "ru_RU": "к ловкости",
+                "ko_KR": "민첩성",
+                "zh_TW": "敏捷",
+                "zh_CN": "敏捷"
+              }
+            },
+            "value": 3,
+            "is_negated": true,
+            "display": {
+              "display_string": {
+                "en_US": "+3 Agility",
+                "es_MX": "+3 agilidad",
+                "pt_BR": "+3 Agilidade",
+                "de_DE": "+3 Beweglichkeit",
+                "en_GB": "+3 Agility",
+                "es_ES": "+3 agilidad",
+                "fr_FR": "+3 Agilité",
+                "it_IT": "+3 Agilità",
+                "ru_RU": "+3 к ловкости",
+                "ko_KR": "민첩성 +3",
+                "zh_TW": "+3敏捷",
+                "zh_CN": "+3 敏捷"
+              },
+              "color": {
+                "r": 128,
+                "g": 128,
+                "b": 128,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "VERSATILITY",
+              "name": {
+                "en_US": "Versatility",
+                "es_MX": "versatilidad",
+                "pt_BR": "Versatilidade",
+                "de_DE": "Vielseitigkeit",
+                "en_GB": "Versatility",
+                "es_ES": "versatilidad",
+                "fr_FR": "Polyvalence",
+                "it_IT": "Indice di versatilità",
+                "ru_RU": "к универсальности",
+                "ko_KR": "유연성",
+                "zh_TW": "臨機應變",
+                "zh_CN": "全能"
+              }
+            },
+            "value": 7,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+7 Versatility",
+                "es_MX": "+7 versatilidad",
+                "pt_BR": "+7 Versatilidade",
+                "de_DE": "+7 Vielseitigkeit",
+                "en_GB": "+7 Versatility",
+                "es_ES": "+7 versatilidad",
+                "fr_FR": "+7 Polyvalence",
+                "it_IT": "+7 Indice di versatilità",
+                "ru_RU": "+7 к универсальности",
+                "ko_KR": "유연성 +7",
+                "zh_TW": "+7臨機應變",
+                "zh_CN": "+7 全能"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 1500,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "15",
+              "es_MX": "15",
+              "pt_BR": "15",
+              "de_DE": "15",
+              "en_GB": "15",
+              "es_ES": "15",
+              "fr_FR": "15",
+              "it_IT": "15",
+              "ru_RU": "15",
+              "ko_KR": "15",
+              "zh_TW": "15",
+              "zh_CN": "15"
+            },
+            "copper": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 18,
+            "display_string": {
+              "en_US": "Requires Level 18",
+              "es_MX": "Necesitas ser de nivel 18",
+              "pt_BR": "Requer o Nível 18",
+              "de_DE": "Benötigt Stufe 18",
+              "en_GB": "Requires Level 18",
+              "es_ES": "Necesitas ser de nivel 18",
+              "fr_FR": "Niveau 18 requis",
+              "it_IT": "Richiede il livello 18",
+              "ru_RU": "Требуется 18-й уровень",
+              "ko_KR": "최소 요구 레벨: 18",
+              "zh_TW": "需要等級18",
+              "zh_CN": "需要等级 18"
+            }
+          }
+        },
+        "level": {
+          "value": 25,
+          "display_string": {
+            "en_US": "Item Level 25",
+            "es_MX": "Nivel de objeto 25",
+            "pt_BR": "Nível do Item: 25",
+            "de_DE": "Gegenstandsstufe 25",
+            "en_GB": "Item Level 25",
+            "es_ES": "Nivel de objeto 25",
+            "fr_FR": "Niveau d'objet 25",
+            "it_IT": "Livello oggetto: 25",
+            "ru_RU": "Уровень предмета: 25",
+            "ko_KR": "아이템 레벨: 25",
+            "zh_TW": "物品等級25",
+            "zh_CN": "物品等级25"
+          }
+        },
+        "durability": {
+          "value": 80,
+          "display_string": {
+            "en_US": "Durability 80 / 80",
+            "es_MX": "Durabilidad 80 / 80",
+            "pt_BR": "Durabilidade 80 / 80",
+            "de_DE": "Haltbarkeit 80 / 80",
+            "en_GB": "Durability 80 / 80",
+            "es_ES": "Durabilidad 80 / 80",
+            "fr_FR": "Durabilité : 80 / 80",
+            "it_IT": "Integrità 80/80",
+            "ru_RU": "Прочность: 80 / 80",
+            "ko_KR": "내구도 80 / 80",
+            "zh_TW": "耐久度 80 / 80",
+            "zh_CN": "耐久度 80 / 80"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/4304?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Thick Leather",
+              "es_MX": "Cuero grueso",
+              "pt_BR": "Couro Grosso",
+              "de_DE": "Dickes Leder",
+              "en_GB": "Thick Leather",
+              "es_ES": "Cuero grueso",
+              "fr_FR": "Cuir épais",
+              "it_IT": "Cuoio Spesso",
+              "ru_RU": "Плотная кожа",
+              "ko_KR": "두꺼운 가죽",
+              "zh_TW": "厚皮",
+              "zh_CN": "厚皮"
+            },
+            "id": 4304
+          },
+          "quantity": 14
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/8343?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Heavy Silken Thread",
+              "es_MX": "Hilo de seda grueso",
+              "pt_BR": "Fio Grosso de Seda",
+              "de_DE": "Schwerer Seidenfaden",
+              "en_GB": "Heavy Silken Thread",
+              "es_ES": "Hilo de seda grueso",
+              "fr_FR": "Bobine de soie lourde",
+              "it_IT": "Filo Pesante di Seta",
+              "ru_RU": "Толстая шелковая нить",
+              "ko_KR": "큰 비단 실타래",
+              "zh_TW": "粗絲線",
+              "zh_CN": "粗丝线"
+            },
+            "id": 8343
+          },
+          "quantity": 2
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Thick Leather (14), Heavy Silken Thread (2)",
+        "es_MX": "Cuero grueso (14), Hilo de seda grueso (2)",
+        "pt_BR": "Couro Grosso (14), Fio Grosso de Seda (2)",
+        "de_DE": "Dickes Leder (14), Schwerer Seidenfaden (2)",
+        "en_GB": "Thick Leather (14), Heavy Silken Thread (2)",
+        "es_ES": "Cuero grueso (14), Hilo de seda grueso (2)",
+        "fr_FR": "Cuir épais (14), Bobine de soie lourde (2)",
+        "it_IT": "Cuoio Spesso (14), Filo Pesante di Seta (2)",
+        "ru_RU": "Плотная кожа (14), Толстая шелковая нить (2)",
+        "ko_KR": "두꺼운 가죽 (14), 큰 비단 실타래 (2)",
+        "zh_TW": "厚皮 (14), 粗絲線 (2)",
+        "zh_CN": "厚皮 (14), 粗丝线 (2)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

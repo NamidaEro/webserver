@@ -1,0 +1,380 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/220325?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 220325,
+  "name": {
+    "en_US": "Pierced Gloves",
+    "es_MX": "Guantes perforados",
+    "pt_BR": "Luvas Perfuradas",
+    "de_DE": "Durchbohrte Handschuhe",
+    "en_GB": "Pierced Gloves",
+    "es_ES": "Guantes perforados",
+    "fr_FR": "Gants transpercés",
+    "it_IT": "Guanti Perforati",
+    "ru_RU": "Пробитые перчатки",
+    "ko_KR": "꿰뚫린 장갑",
+    "zh_TW": "穿刺手套",
+    "zh_CN": "穿孔的手套"
+  },
+  "quality": {
+    "type": "POOR",
+    "name": {
+      "en_US": "Poor",
+      "es_MX": "Pobre",
+      "pt_BR": "Inferior",
+      "de_DE": "Schlecht",
+      "en_GB": "Poor",
+      "es_ES": "Pobre",
+      "fr_FR": "Mauvais",
+      "it_IT": "Scarso",
+      "ru_RU": "Низкое",
+      "ko_KR": "하급",
+      "zh_TW": "粗糙",
+      "zh_CN": "粗糙"
+    }
+  },
+  "level": 400,
+  "required_level": 68,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/220325?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 220325
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Mail",
+      "es_MX": "Malla",
+      "pt_BR": "Malha",
+      "de_DE": "Kette",
+      "en_GB": "Mail",
+      "es_ES": "Malla",
+      "fr_FR": "Mailles",
+      "it_IT": "Maglia",
+      "ru_RU": "Кольчуга",
+      "ko_KR": "사슬",
+      "zh_TW": "鎖甲",
+      "zh_CN": "锁甲"
+    },
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "HAND",
+    "name": {
+      "en_US": "Hands",
+      "es_MX": "Manos",
+      "pt_BR": "Mãos",
+      "de_DE": "Hände",
+      "en_GB": "Hands",
+      "es_ES": "Manos",
+      "fr_FR": "Mains",
+      "it_IT": "Mani",
+      "ru_RU": "Кисти рук",
+      "ko_KR": "손",
+      "zh_TW": "手",
+      "zh_CN": "手部"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/220325?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 220325
+    },
+    "context": 0,
+    "bonus_list": [
+      10350
+    ],
+    "quality": {
+      "type": "POOR",
+      "name": {
+        "en_US": "Poor",
+        "es_MX": "Pobre",
+        "pt_BR": "Inferior",
+        "de_DE": "Schlecht",
+        "en_GB": "Poor",
+        "es_ES": "Pobre",
+        "fr_FR": "Mauvais",
+        "it_IT": "Scarso",
+        "ru_RU": "Низкое",
+        "ko_KR": "하급",
+        "zh_TW": "粗糙",
+        "zh_CN": "粗糙"
+      }
+    },
+    "name": {
+      "en_US": "Pierced Gloves",
+      "es_MX": "Guantes perforados",
+      "pt_BR": "Luvas Perfuradas",
+      "de_DE": "Durchbohrte Handschuhe",
+      "en_GB": "Pierced Gloves",
+      "es_ES": "Guantes perforados",
+      "fr_FR": "Gants transpercés",
+      "it_IT": "Guanti Perforati",
+      "ru_RU": "Пробитые перчатки",
+      "ko_KR": "꿰뚫린 장갑",
+      "zh_TW": "穿刺手套",
+      "zh_CN": "穿孔的手套"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/220325?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 220325
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Mail",
+        "es_MX": "Malla",
+        "pt_BR": "Malha",
+        "de_DE": "Kette",
+        "en_GB": "Mail",
+        "es_ES": "Malla",
+        "fr_FR": "Mailles",
+        "it_IT": "Maglia",
+        "ru_RU": "Кольчуга",
+        "ko_KR": "사슬",
+        "zh_TW": "鎖甲",
+        "zh_CN": "锁甲"
+      },
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "HAND",
+      "name": {
+        "en_US": "Hands",
+        "es_MX": "Manos",
+        "pt_BR": "Mãos",
+        "de_DE": "Hände",
+        "en_GB": "Hands",
+        "es_ES": "Manos",
+        "fr_FR": "Mains",
+        "it_IT": "Mani",
+        "ru_RU": "Кисти рук",
+        "ko_KR": "손",
+        "zh_TW": "手",
+        "zh_CN": "手部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 305,
+      "display": {
+        "display_string": {
+          "en_US": "305 Armor",
+          "es_MX": "305 p. de armadura",
+          "pt_BR": "305 de Armadura",
+          "de_DE": "305 Rüstung",
+          "en_GB": "305 Armor",
+          "es_ES": "305 p. de armadura",
+          "fr_FR": "Armure : 305",
+          "it_IT": "305 Armatura",
+          "ru_RU": "Броня: 305",
+          "ko_KR": "방어도 305",
+          "zh_TW": "305點護甲",
+          "zh_CN": "305点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "sell_price": {
+      "value": 69022,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "6",
+          "es_MX": "6",
+          "pt_BR": "6",
+          "de_DE": "6",
+          "en_GB": "6",
+          "es_ES": "6",
+          "fr_FR": "6",
+          "it_IT": "6",
+          "ru_RU": "6",
+          "ko_KR": "6",
+          "zh_TW": "6",
+          "zh_CN": "6"
+        },
+        "silver": {
+          "en_US": "90",
+          "es_MX": "90",
+          "pt_BR": "90",
+          "de_DE": "90",
+          "en_GB": "90",
+          "es_ES": "90",
+          "fr_FR": "90",
+          "it_IT": "90",
+          "ru_RU": "90",
+          "ko_KR": "90",
+          "zh_TW": "90",
+          "zh_CN": "90"
+        },
+        "copper": {
+          "en_US": "22",
+          "es_MX": "22",
+          "pt_BR": "22",
+          "de_DE": "22",
+          "en_GB": "22",
+          "es_ES": "22",
+          "fr_FR": "22",
+          "it_IT": "22",
+          "ru_RU": "22",
+          "ko_KR": "22",
+          "zh_TW": "22",
+          "zh_CN": "22"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 68,
+        "display_string": {
+          "en_US": "Requires Level 68",
+          "es_MX": "Necesitas ser de nivel 68",
+          "pt_BR": "Requer o Nível 68",
+          "de_DE": "Benötigt Stufe 68",
+          "en_GB": "Requires Level 68",
+          "es_ES": "Necesitas ser de nivel 68",
+          "fr_FR": "Niveau 68 requis",
+          "it_IT": "Richiede il livello 68",
+          "ru_RU": "Требуется 68-й уровень",
+          "ko_KR": "최소 요구 레벨: 68",
+          "zh_TW": "需要等級68",
+          "zh_CN": "需要等级 68"
+        }
+      }
+    },
+    "level": {
+      "value": 362,
+      "display_string": {
+        "en_US": "Item Level 362",
+        "es_MX": "Nivel de objeto 362",
+        "pt_BR": "Nível do Item: 362",
+        "de_DE": "Gegenstandsstufe 362",
+        "en_GB": "Item Level 362",
+        "es_ES": "Nivel de objeto 362",
+        "fr_FR": "Niveau d'objet 362",
+        "it_IT": "Livello oggetto: 362",
+        "ru_RU": "Уровень предмета: 362",
+        "ko_KR": "아이템 레벨: 362",
+        "zh_TW": "物品等級362",
+        "zh_CN": "物品等级362"
+      }
+    },
+    "durability": {
+      "value": 40,
+      "display_string": {
+        "en_US": "Durability 40 / 40",
+        "es_MX": "Durabilidad 40 / 40",
+        "pt_BR": "Durabilidade 40 / 40",
+        "de_DE": "Haltbarkeit 40 / 40",
+        "en_GB": "Durability 40 / 40",
+        "es_ES": "Durabilidad 40 / 40",
+        "fr_FR": "Durabilité : 40 / 40",
+        "it_IT": "Integrità 40/40",
+        "ru_RU": "Прочность: 40 / 40",
+        "ko_KR": "내구도 40 / 40",
+        "zh_TW": "耐久度 40 / 40",
+        "zh_CN": "耐久度 40 / 40"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/91219?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 91219
+    }
+  ]
+}

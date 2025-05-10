@@ -1,0 +1,513 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/25197?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 25197,
+  "name": {
+    "en_US": "Razor Scythes",
+    "es_MX": "Hoces de cuchilla",
+    "pt_BR": "Foices Perfurantes",
+    "de_DE": "Klingensense",
+    "en_GB": "Razor Scythes",
+    "es_ES": "Hoces de cuchilla",
+    "fr_FR": "Faux rasoir",
+    "it_IT": "Falcetti Taglienti",
+    "ru_RU": "Бритвенные косы",
+    "ko_KR": "예리한 칼날발톱",
+    "zh_TW": "尖銳鐮刀爪",
+    "zh_CN": "锋利手镰"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 32,
+  "required_level": 27,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/25197?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 25197
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/13?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Fist Weapon",
+      "es_MX": "Arma de puño",
+      "pt_BR": "Arma de Punho",
+      "de_DE": "Faustwaffe",
+      "en_GB": "Fist Weapon",
+      "es_ES": "Arma de puño",
+      "fr_FR": "Arme de pugilat",
+      "it_IT": "Tirapugni",
+      "ru_RU": "Кистевое",
+      "ko_KR": "장착 무기",
+      "zh_TW": "拳套",
+      "zh_CN": "拳套"
+    },
+    "id": 13
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": {
+      "en_US": "One-Hand",
+      "es_MX": "Una mano",
+      "pt_BR": "Uma Mão",
+      "de_DE": "Einhändig",
+      "en_GB": "One-Hand",
+      "es_ES": "Una mano",
+      "fr_FR": "À une main",
+      "it_IT": "Una mano",
+      "ru_RU": "Одноручное",
+      "ko_KR": "한손 장비",
+      "zh_TW": "單手",
+      "zh_CN": "单手"
+    }
+  },
+  "purchase_price": 3418542,
+  "sell_price": 683708,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/25197?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 25197
+    },
+    "context": 0,
+    "bonus_list": [
+      6655
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Razor Scythes",
+      "es_MX": "Hoces de cuchilla",
+      "pt_BR": "Foices Perfurantes",
+      "de_DE": "Klingensense",
+      "en_GB": "Razor Scythes",
+      "es_ES": "Hoces de cuchilla",
+      "fr_FR": "Faux rasoir",
+      "it_IT": "Falcetti Taglienti",
+      "ru_RU": "Бритвенные косы",
+      "ko_KR": "예리한 칼날발톱",
+      "zh_TW": "尖銳鐮刀爪",
+      "zh_CN": "锋利手镰"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/25197?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 25197
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/13?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Fist Weapon",
+        "es_MX": "Arma de puño",
+        "pt_BR": "Arma de Punho",
+        "de_DE": "Faustwaffe",
+        "en_GB": "Fist Weapon",
+        "es_ES": "Arma de puño",
+        "fr_FR": "Arme de pugilat",
+        "it_IT": "Tirapugni",
+        "ru_RU": "Кистевое",
+        "ko_KR": "장착 무기",
+        "zh_TW": "拳套",
+        "zh_CN": "拳套"
+      },
+      "id": 13
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": {
+        "en_US": "One-Hand",
+        "es_MX": "Una mano",
+        "pt_BR": "Uma Mão",
+        "de_DE": "Einhändig",
+        "en_GB": "One-Hand",
+        "es_ES": "Una mano",
+        "fr_FR": "À une main",
+        "it_IT": "Una mano",
+        "ru_RU": "Одноручное",
+        "ko_KR": "한손 장비",
+        "zh_TW": "單手",
+        "zh_CN": "单手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 334,
+        "max_value": 476,
+        "display_string": {
+          "en_US": "334 - 476 Damage",
+          "es_MX": "334 - 476 p. de daño",
+          "pt_BR": "334 - 476 de Dano",
+          "de_DE": "334 - 476 Schaden",
+          "en_GB": "334 - 476 Damage",
+          "es_ES": "334 - 476 p. de daño",
+          "fr_FR": "Dégâts : 334 - 476",
+          "it_IT": "334 - 476 Danni",
+          "ru_RU": "Урон: 334 - 476",
+          "ko_KR": "공격력 334 ~ 476",
+          "zh_TW": "334-476點傷害",
+          "zh_CN": "334 - 476点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": {
+          "en_US": "Speed 2.60",
+          "es_MX": "Velocidad 2.60",
+          "pt_BR": "Velocidade 2,60",
+          "de_DE": "Geschwindigkeit 2,60",
+          "en_GB": "Speed 2.60",
+          "es_ES": "Velocidad 2,60",
+          "fr_FR": "Vitesse 2,60",
+          "it_IT": "Velocità 2,60",
+          "ru_RU": "Скорость 2,60",
+          "ko_KR": "속도 2.60",
+          "zh_TW": "速度 2.60",
+          "zh_CN": "速度 2.60"
+        }
+      },
+      "dps": {
+        "value": 155.76923,
+        "display_string": {
+          "en_US": "(155.8 damage per second)",
+          "es_MX": "(155.8 p. de daño por segundo)",
+          "pt_BR": "(155,8 de dano por segundo)",
+          "de_DE": "(155,8 Schaden pro Sekunde)",
+          "en_GB": "(155.8 damage per second)",
+          "es_ES": "(155,8 p. de daño por segundo)",
+          "fr_FR": "(155,8 dégâts par seconde)",
+          "it_IT": "(155,8 danni per secondo)",
+          "ru_RU": "(155,8 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 155.8)",
+          "zh_TW": "(每秒155.8點傷害)",
+          "zh_CN": "（每秒伤害155.8）"
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 137,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+137 Agility",
+            "es_MX": "+137 agilidad",
+            "pt_BR": "+137 Agilidade",
+            "de_DE": "+137 Beweglichkeit",
+            "en_GB": "+137 Agility",
+            "es_ES": "+137 agilidad",
+            "fr_FR": "+137 Agilité",
+            "it_IT": "+137 Agilità",
+            "ru_RU": "+137 к ловкости",
+            "ko_KR": "민첩성 +137",
+            "zh_TW": "+137敏捷",
+            "zh_CN": "+137 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 248,
+        "display": {
+          "display_string": {
+            "en_US": "+248 Stamina",
+            "es_MX": "+248 aguante",
+            "pt_BR": "+248 Vigor",
+            "de_DE": "+248 Ausdauer",
+            "en_GB": "+248 Stamina",
+            "es_ES": "+248 aguante",
+            "fr_FR": "+248 Endurance",
+            "it_IT": "+248 Tempra",
+            "ru_RU": "+248 к выносливости",
+            "ko_KR": "체력 +248",
+            "zh_TW": "+248耐力",
+            "zh_CN": "+248 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 486856,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "48",
+          "es_MX": "48",
+          "pt_BR": "48",
+          "de_DE": "48",
+          "en_GB": "48",
+          "es_ES": "48",
+          "fr_FR": "48",
+          "it_IT": "48",
+          "ru_RU": "48",
+          "ko_KR": "48",
+          "zh_TW": "48",
+          "zh_CN": "48"
+        },
+        "silver": {
+          "en_US": "68",
+          "es_MX": "68",
+          "pt_BR": "68",
+          "de_DE": "68",
+          "en_GB": "68",
+          "es_ES": "68",
+          "fr_FR": "68",
+          "it_IT": "68",
+          "ru_RU": "68",
+          "ko_KR": "68",
+          "zh_TW": "68",
+          "zh_CN": "68"
+        },
+        "copper": {
+          "en_US": "56",
+          "es_MX": "56",
+          "pt_BR": "56",
+          "de_DE": "56",
+          "en_GB": "56",
+          "es_ES": "56",
+          "fr_FR": "56",
+          "it_IT": "56",
+          "ru_RU": "56",
+          "ko_KR": "56",
+          "zh_TW": "56",
+          "zh_CN": "56"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 27,
+        "display_string": {
+          "en_US": "Requires Level 27",
+          "es_MX": "Necesitas ser de nivel 27",
+          "pt_BR": "Requer o Nível 27",
+          "de_DE": "Benötigt Stufe 27",
+          "en_GB": "Requires Level 27",
+          "es_ES": "Necesitas ser de nivel 27",
+          "fr_FR": "Niveau 27 requis",
+          "it_IT": "Richiede il livello 27",
+          "ru_RU": "Требуется 27-й уровень",
+          "ko_KR": "최소 요구 레벨: 27",
+          "zh_TW": "需要等級27",
+          "zh_CN": "需要等级 27"
+        }
+      }
+    },
+    "level": {
+      "value": 357,
+      "display_string": {
+        "en_US": "Item Level 357",
+        "es_MX": "Nivel de objeto 357",
+        "pt_BR": "Nível do Item: 357",
+        "de_DE": "Gegenstandsstufe 357",
+        "en_GB": "Item Level 357",
+        "es_ES": "Nivel de objeto 357",
+        "fr_FR": "Niveau d'objet 357",
+        "it_IT": "Livello oggetto: 357",
+        "ru_RU": "Уровень предмета: 357",
+        "ko_KR": "아이템 레벨: 357",
+        "zh_TW": "物品等級357",
+        "zh_CN": "物品等级357"
+      }
+    },
+    "durability": {
+      "value": 55,
+      "display_string": {
+        "en_US": "Durability 55 / 55",
+        "es_MX": "Durabilidad 55 / 55",
+        "pt_BR": "Durabilidade 55 / 55",
+        "de_DE": "Haltbarkeit 55 / 55",
+        "en_GB": "Durability 55 / 55",
+        "es_ES": "Durabilidad 55 / 55",
+        "fr_FR": "Durabilité : 55 / 55",
+        "it_IT": "Integrità 55/55",
+        "ru_RU": "Прочность: 55 / 55",
+        "ko_KR": "내구도 55 / 55",
+        "zh_TW": "耐久度 55 / 55",
+        "zh_CN": "耐久度 55 / 55"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/3421?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3421
+    }
+  ]
+}

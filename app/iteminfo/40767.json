@@ -1,0 +1,446 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/40767?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 40767,
+  "name": {
+    "en_US": "Sonic Booster",
+    "es_MX": "Propulsor sónico",
+    "pt_BR": "Foguete Sônico",
+    "de_DE": "Überschallbooster",
+    "en_GB": "Sonic Booster",
+    "es_ES": "Propulsor sónico",
+    "fr_FR": "Survolteur sonique",
+    "it_IT": "Amplificatore Sonico",
+    "ru_RU": "Усилитель звука",
+    "ko_KR": "음속 부스터",
+    "zh_TW": "音感強化器",
+    "zh_CN": "音波增压器"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 34,
+  "required_level": 24,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/40767?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 40767
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": {
+      "en_US": "Trinket",
+      "es_MX": "Abalorio",
+      "pt_BR": "Berloque",
+      "de_DE": "Schmuck",
+      "en_GB": "Trinket",
+      "es_ES": "Abalorio",
+      "fr_FR": "Bijou",
+      "it_IT": "Monile",
+      "ru_RU": "Аксессуар",
+      "ko_KR": "장신구",
+      "zh_TW": "飾品",
+      "zh_CN": "饰品"
+    }
+  },
+  "purchase_price": 271798,
+  "sell_price": 67949,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/40767?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 40767
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Sonic Booster",
+      "es_MX": "Propulsor sónico",
+      "pt_BR": "Foguete Sônico",
+      "de_DE": "Überschallbooster",
+      "en_GB": "Sonic Booster",
+      "es_ES": "Propulsor sónico",
+      "fr_FR": "Survolteur sonique",
+      "it_IT": "Amplificatore Sonico",
+      "ru_RU": "Усилитель звука",
+      "ko_KR": "음속 부스터",
+      "zh_TW": "音感強化器",
+      "zh_CN": "音波增压器"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/40767?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 40767
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": {
+        "en_US": "Trinket",
+        "es_MX": "Abalorio",
+        "pt_BR": "Berloque",
+        "de_DE": "Schmuck",
+        "en_GB": "Trinket",
+        "es_ES": "Abalorio",
+        "fr_FR": "Bijou",
+        "it_IT": "Monile",
+        "ru_RU": "Аксессуар",
+        "ko_KR": "장신구",
+        "zh_TW": "飾品",
+        "zh_CN": "饰品"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 5,
+        "display": {
+          "display_string": {
+            "en_US": "+5 Stamina",
+            "es_MX": "+5 aguante",
+            "pt_BR": "+5 Vigor",
+            "de_DE": "+5 Ausdauer",
+            "en_GB": "+5 Stamina",
+            "es_ES": "+5 aguante",
+            "fr_FR": "+5 Endurance",
+            "it_IT": "+5 Tempra",
+            "ru_RU": "+5 к выносливости",
+            "ko_KR": "체력 +5",
+            "zh_TW": "+5耐力",
+            "zh_CN": "+5 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/54707?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Sonic Awareness (DND)",
+            "es_MX": "Sonic Awareness (DND)",
+            "pt_BR": "Sonic Awareness (DND)",
+            "de_DE": "Sonic Awareness (DND)",
+            "en_GB": "Sonic Awareness (DND)",
+            "es_ES": "Sonic Awareness (DND)",
+            "fr_FR": "Vigilance sonore",
+            "it_IT": "Coscienza Sonica (DND)",
+            "ru_RU": "Настороженность (DND)",
+            "ko_KR": "음파 자각",
+            "zh_TW": "辨音覺察(DND)",
+            "zh_CN": "Sonic Awareness (DND)"
+          },
+          "id": 54707
+        },
+        "description": {
+          "en_US": "Equip: The noise made from melee combat sometimes causes Sonic Awareness, increasing your attack power by 14 for 10 sec.  This effect can only occur once every minute.",
+          "es_MX": "Equipar: El ruido que produce el combate cuerpo a cuerpo a veces provoca Conciencia sónica, que aumenta tu poder de ataque 14 p. durante 10 s. Este efecto solo puede darse una vez cada minuto.",
+          "pt_BR": "Equipado: O barulho feito no combate corpo a corpo às vezes provoca Percepção Sônica, aumentando seu poder de ataque em 14 por 10 s. O efeito só pode ocorrer uma vez por minuto.",
+          "de_DE": "Anlegen: In manchen Fällen schärft der Lärm von Nahkämpfen Euer Schallbewusstsein und erhöht 10 Sek. lang Eure Angriffskraft um 14. Dieser Effekt kann pro Minute nur einmal auftreten.",
+          "en_GB": "Equip: The noise made from melee combat sometimes causes Sonic Awareness, increasing your attack power by 14 for 10 sec.  This effect can only occur once every minute.",
+          "es_ES": "Equipar: El ruido que produce el combate cuerpo a cuerpo a veces provoca Conciencia sónica, que aumenta tu poder de ataque 14 p. durante 10 s. Este efecto solo puede darse una vez cada minuto.",
+          "fr_FR": "Équipé : Le bruit des combats en mêlée entraîne parfois Conscience sonore, qui augmente votre puissance d'attaque de 14 pendant 10 s. Cet effet ne peut se produire qu'une fois toutes les minutes.",
+          "it_IT": "Equipaggia: Il rumore causato dal combattimento in mischia causa Coscienza Sonica, aumentando la potenza d'attacco di 14 per 10 s. L'effetto può avere luogo solo una volta ogni min.",
+          "ru_RU": "Если на персонаже: Звуки ближнего боя порою заставляют вас испытывать особую настороженность. Ваша сила атаки при этом повышается на 14 на 10 сек. Эффект может накладываться не чаще раза в минуту.",
+          "ko_KR": "착용 효과: 근접 전투 시 일정 확률로 음파를 인식하여 10초 동안 전투력이 14만큼 증가합니다. 이 효과는 1분마다 최대 1번씩만 발동됩니다.",
+          "zh_TW": "裝備： 近戰攻擊造成的聲響有時會引發辨音覺察的效果，使你的攻擊強度提高14點，持續10秒。此效果每分鐘只能發動一次。",
+          "zh_CN": "装备： 近战攻击产生的噪音有时会让你获得音速警觉效果，攻击强度提高14点，持续10秒。这个效果每分钟只能触发一次。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 67949,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "6",
+          "es_MX": "6",
+          "pt_BR": "6",
+          "de_DE": "6",
+          "en_GB": "6",
+          "es_ES": "6",
+          "fr_FR": "6",
+          "it_IT": "6",
+          "ru_RU": "6",
+          "ko_KR": "6",
+          "zh_TW": "6",
+          "zh_CN": "6"
+        },
+        "silver": {
+          "en_US": "79",
+          "es_MX": "79",
+          "pt_BR": "79",
+          "de_DE": "79",
+          "en_GB": "79",
+          "es_ES": "79",
+          "fr_FR": "79",
+          "it_IT": "79",
+          "ru_RU": "79",
+          "ko_KR": "79",
+          "zh_TW": "79",
+          "zh_CN": "79"
+        },
+        "copper": {
+          "en_US": "49",
+          "es_MX": "49",
+          "pt_BR": "49",
+          "de_DE": "49",
+          "en_GB": "49",
+          "es_ES": "49",
+          "fr_FR": "49",
+          "it_IT": "49",
+          "ru_RU": "49",
+          "ko_KR": "49",
+          "zh_TW": "49",
+          "zh_CN": "49"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 24,
+        "display_string": {
+          "en_US": "Requires Level 24",
+          "es_MX": "Necesitas ser de nivel 24",
+          "pt_BR": "Requer o Nível 24",
+          "de_DE": "Benötigt Stufe 24",
+          "en_GB": "Requires Level 24",
+          "es_ES": "Necesitas ser de nivel 24",
+          "fr_FR": "Niveau 24 requis",
+          "it_IT": "Richiede il livello 24",
+          "ru_RU": "Требуется 24-й уровень",
+          "ko_KR": "최소 요구 레벨: 24",
+          "zh_TW": "需要等級24",
+          "zh_CN": "需要等级 24"
+        }
+      },
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2504?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Northrend Engineering",
+            "es_MX": "Ingeniería de Rasganorte",
+            "pt_BR": "Engenharia de Nortúndria",
+            "de_DE": "Ingenieurskunst von Nordend",
+            "en_GB": "Northrend Engineering",
+            "es_ES": "Ingeniería de Rasganorte",
+            "fr_FR": "Ingénierie du Norfendre",
+            "it_IT": "Ingegneria di Nordania",
+            "ru_RU": "Инженерное дело Нордскола",
+            "ko_KR": "노스렌드 기계공학",
+            "zh_TW": "北裂境工程學",
+            "zh_CN": "诺森德工程学"
+          },
+          "id": 2504
+        },
+        "level": 15,
+        "display_string": {
+          "en_US": "Requires Northrend Engineering (15)",
+          "es_MX": "Requiere Ingeniería de Rasganorte (15)",
+          "pt_BR": "Requer Engenharia de Nortúndria (15)",
+          "de_DE": "Benötigt Ingenieurskunst von Nordend (15)",
+          "en_GB": "Requires Northrend Engineering (15)",
+          "es_ES": "Requiere Ingeniería de Rasganorte (15)",
+          "fr_FR": "Ingénierie du Norfendre (15) requis",
+          "it_IT": "Richiede: Ingegneria di Nordania (15)",
+          "ru_RU": "Требуется: Инженерное дело Нордскола (15)",
+          "ko_KR": "요구 사항: 노스렌드 기계공학 (15)",
+          "zh_TW": "需要北裂境工程學(15)",
+          "zh_CN": "需要诺森德工程学（15）"
+        }
+      }
+    },
+    "level": {
+      "value": 34,
+      "display_string": {
+        "en_US": "Item Level 34",
+        "es_MX": "Nivel de objeto 34",
+        "pt_BR": "Nível do Item: 34",
+        "de_DE": "Gegenstandsstufe 34",
+        "en_GB": "Item Level 34",
+        "es_ES": "Nivel de objeto 34",
+        "fr_FR": "Niveau d'objet 34",
+        "it_IT": "Livello oggetto: 34",
+        "ru_RU": "Уровень предмета: 34",
+        "ko_KR": "아이템 레벨: 34",
+        "zh_TW": "物品等級34",
+        "zh_CN": "物品等级34"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

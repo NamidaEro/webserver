@@ -1,0 +1,364 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/3995?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 3995,
+  "name": {
+    "en_US": "Laminated Scale Cloak",
+    "es_MX": "Capa de escamas laminadas",
+    "pt_BR": "Manto Laminado de Escama",
+    "de_DE": "Laminierter Schuppenumhang",
+    "en_GB": "Laminated Scale Cloak",
+    "es_ES": "Capa de escamas laminadas",
+    "fr_FR": "Cape en écailles laminées",
+    "it_IT": "Mantello di Scaglie Laminate",
+    "ru_RU": "Плащ из многослойной чешуи",
+    "ko_KR": "박편 미늘 망토",
+    "zh_TW": "薄鱗披風",
+    "zh_CN": "薄鳞披风"
+  },
+  "quality": {
+    "type": "POOR",
+    "name": {
+      "en_US": "Poor",
+      "es_MX": "Pobre",
+      "pt_BR": "Inferior",
+      "de_DE": "Schlecht",
+      "en_GB": "Poor",
+      "es_ES": "Pobre",
+      "fr_FR": "Mauvais",
+      "it_IT": "Scarso",
+      "ru_RU": "Низкое",
+      "ko_KR": "하급",
+      "zh_TW": "粗糙",
+      "zh_CN": "粗糙"
+    }
+  },
+  "level": 28,
+  "required_level": 22,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/3995?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 3995
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "CLOAK",
+    "name": {
+      "en_US": "Back",
+      "es_MX": "Espalda",
+      "pt_BR": "Costas",
+      "de_DE": "Rücken",
+      "en_GB": "Back",
+      "es_ES": "Espalda",
+      "fr_FR": "Dos",
+      "it_IT": "Schiena",
+      "ru_RU": "Спина",
+      "ko_KR": "등",
+      "zh_TW": "背部",
+      "zh_CN": "背部"
+    }
+  },
+  "purchase_price": 612119,
+  "sell_price": 122423,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/3995?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3995
+    },
+    "context": 0,
+    "bonus_list": [
+      6656
+    ],
+    "quality": {
+      "type": "POOR",
+      "name": {
+        "en_US": "Poor",
+        "es_MX": "Pobre",
+        "pt_BR": "Inferior",
+        "de_DE": "Schlecht",
+        "en_GB": "Poor",
+        "es_ES": "Pobre",
+        "fr_FR": "Mauvais",
+        "it_IT": "Scarso",
+        "ru_RU": "Низкое",
+        "ko_KR": "하급",
+        "zh_TW": "粗糙",
+        "zh_CN": "粗糙"
+      }
+    },
+    "name": {
+      "en_US": "Laminated Scale Cloak",
+      "es_MX": "Capa de escamas laminadas",
+      "pt_BR": "Manto Laminado de Escama",
+      "de_DE": "Laminierter Schuppenumhang",
+      "en_GB": "Laminated Scale Cloak",
+      "es_ES": "Capa de escamas laminadas",
+      "fr_FR": "Cape en écailles laminées",
+      "it_IT": "Mantello di Scaglie Laminate",
+      "ru_RU": "Плащ из многослойной чешуи",
+      "ko_KR": "박편 미늘 망토",
+      "zh_TW": "薄鱗披風",
+      "zh_CN": "薄鳞披风"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/3995?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3995
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "CLOAK",
+      "name": {
+        "en_US": "Back",
+        "es_MX": "Espalda",
+        "pt_BR": "Costas",
+        "de_DE": "Rücken",
+        "en_GB": "Back",
+        "es_ES": "Espalda",
+        "fr_FR": "Dos",
+        "it_IT": "Schiena",
+        "ru_RU": "Спина",
+        "ko_KR": "등",
+        "zh_TW": "背部",
+        "zh_CN": "背部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 107,
+      "display": {
+        "display_string": {
+          "en_US": "107 Armor",
+          "es_MX": "107 p. de armadura",
+          "pt_BR": "107 de Armadura",
+          "de_DE": "107 Rüstung",
+          "en_GB": "107 Armor",
+          "es_ES": "107 p. de armadura",
+          "fr_FR": "Armure : 107",
+          "it_IT": "107 Armatura",
+          "ru_RU": "Броня: 107",
+          "ko_KR": "방어도 107",
+          "zh_TW": "107點護甲",
+          "zh_CN": "107点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "sell_price": {
+      "value": 83045,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "8",
+          "es_MX": "8",
+          "pt_BR": "8",
+          "de_DE": "8",
+          "en_GB": "8",
+          "es_ES": "8",
+          "fr_FR": "8",
+          "it_IT": "8",
+          "ru_RU": "8",
+          "ko_KR": "8",
+          "zh_TW": "8",
+          "zh_CN": "8"
+        },
+        "silver": {
+          "en_US": "30",
+          "es_MX": "30",
+          "pt_BR": "30",
+          "de_DE": "30",
+          "en_GB": "30",
+          "es_ES": "30",
+          "fr_FR": "30",
+          "it_IT": "30",
+          "ru_RU": "30",
+          "ko_KR": "30",
+          "zh_TW": "30",
+          "zh_CN": "30"
+        },
+        "copper": {
+          "en_US": "45",
+          "es_MX": "45",
+          "pt_BR": "45",
+          "de_DE": "45",
+          "en_GB": "45",
+          "es_ES": "45",
+          "fr_FR": "45",
+          "it_IT": "45",
+          "ru_RU": "45",
+          "ko_KR": "45",
+          "zh_TW": "45",
+          "zh_CN": "45"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 22,
+        "display_string": {
+          "en_US": "Requires Level 22",
+          "es_MX": "Necesitas ser de nivel 22",
+          "pt_BR": "Requer o Nível 22",
+          "de_DE": "Benötigt Stufe 22",
+          "en_GB": "Requires Level 22",
+          "es_ES": "Necesitas ser de nivel 22",
+          "fr_FR": "Niveau 22 requis",
+          "it_IT": "Richiede il livello 22",
+          "ru_RU": "Требуется 22-й уровень",
+          "ko_KR": "최소 요구 레벨: 22",
+          "zh_TW": "需要等級22",
+          "zh_CN": "需要等级 22"
+        }
+      }
+    },
+    "level": {
+      "value": 322,
+      "display_string": {
+        "en_US": "Item Level 322",
+        "es_MX": "Nivel de objeto 322",
+        "pt_BR": "Nível do Item: 322",
+        "de_DE": "Gegenstandsstufe 322",
+        "en_GB": "Item Level 322",
+        "es_ES": "Nivel de objeto 322",
+        "fr_FR": "Niveau d'objet 322",
+        "it_IT": "Livello oggetto: 322",
+        "ru_RU": "Уровень предмета: 322",
+        "ko_KR": "아이템 레벨: 322",
+        "zh_TW": "物品等級322",
+        "zh_CN": "物品等级322"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/1078?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 1078
+    }
+  ]
+}

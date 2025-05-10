@@ -1,0 +1,923 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/203835?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 203835,
+  "name": {
+    "en_US": "Ancient Plans: Fiery Vengeance",
+    "es_MX": "Diseño antiguo: Venganza ígnea",
+    "pt_BR": "Instruções Ancestrais: Vingança Abrasadora",
+    "de_DE": "Uralte Pläne: Feurige Rache",
+    "en_GB": "Ancient Plans: Fiery Vengeance",
+    "es_ES": "Diseño antiguo: venganza ígnea",
+    "fr_FR": "Plans anciens : vengeance embrasée",
+    "it_IT": "Progetto Antico: Vendetta Ardente",
+    "ru_RU": "Древний чертеж: огненное отмщение",
+    "ko_KR": "고대 도면: 불타는 복수",
+    "zh_TW": "遠古設計圖：熾熱復仇",
+    "zh_CN": "古老的设计图：烈焰复仇"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/203835?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 203835
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Blacksmithing",
+      "es_MX": "Herrería",
+      "pt_BR": "Ferraria",
+      "de_DE": "Schmiedekunst",
+      "en_GB": "Blacksmithing",
+      "es_ES": "Herrería",
+      "fr_FR": "Forge",
+      "it_IT": "Forgiatura",
+      "ru_RU": "Кузнечное дело",
+      "ko_KR": "대장기술",
+      "zh_TW": "鍛造",
+      "zh_CN": "锻造"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Fiery Vengeance.",
+    "es_MX": "Te enseña a fabricar una venganza ígnea.",
+    "pt_BR": "Ensina a fazer Vingança Abrasadora.",
+    "de_DE": "Lehrt Euch, wie man eine feurige Rache herstellt.",
+    "en_GB": "Teaches you how to craft Fiery Vengeance.",
+    "es_ES": "Te enseña a fabricar una venganza ígnea.",
+    "fr_FR": "Vous apprend à fabriquer une vengeance embrasée.",
+    "it_IT": "Ti insegna a creare una Vendetta Ardente.",
+    "ru_RU": "Обучает изготовлению огненного отмщения.",
+    "ko_KR": "불타는 복수 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作熾熱復仇。",
+    "zh_CN": "教你学会制作烈焰复仇。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/203835?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 203835
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Ancient Plans: Fiery Vengeance",
+      "es_MX": "Diseño antiguo: Venganza ígnea",
+      "pt_BR": "Instruções Ancestrais: Vingança Abrasadora",
+      "de_DE": "Uralte Pläne: Feurige Rache",
+      "en_GB": "Ancient Plans: Fiery Vengeance",
+      "es_ES": "Diseño antiguo: venganza ígnea",
+      "fr_FR": "Plans anciens : vengeance embrasée",
+      "it_IT": "Progetto Antico: Vendetta Ardente",
+      "ru_RU": "Древний чертеж: огненное отмщение",
+      "ko_KR": "고대 도면: 불타는 복수",
+      "zh_TW": "遠古設計圖：熾熱復仇",
+      "zh_CN": "古老的设计图：烈焰复仇"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/203835?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 203835
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Blacksmithing",
+        "es_MX": "Herrería",
+        "pt_BR": "Ferraria",
+        "de_DE": "Schmiedekunst",
+        "en_GB": "Blacksmithing",
+        "es_ES": "Herrería",
+        "fr_FR": "Forge",
+        "it_IT": "Forgiatura",
+        "ru_RU": "Кузнечное дело",
+        "ko_KR": "대장기술",
+        "zh_TW": "鍛造",
+        "zh_CN": "锻造"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Blacksmithing",
+            "es_MX": "Herrería clásica",
+            "pt_BR": "Ferraria do Classic",
+            "de_DE": "Klassische Schmiedekunst",
+            "en_GB": "Classic Blacksmithing",
+            "es_ES": "Herrería clásica",
+            "fr_FR": "Forge classique",
+            "it_IT": "Forgiatura Classica",
+            "ru_RU": "Классическое кузнечное дело",
+            "ko_KR": "옛 대장기술",
+            "zh_TW": "艾澤拉斯鍛造",
+            "zh_CN": "经典旧世锻造"
+          },
+          "id": 2477
+        },
+        "level": 300,
+        "display_string": {
+          "en_US": "Requires Classic Blacksmithing (300)",
+          "es_MX": "Requiere Herrería clásica (300)",
+          "pt_BR": "Requer Ferraria do Classic (300)",
+          "de_DE": "Benötigt Klassische Schmiedekunst (300)",
+          "en_GB": "Requires Classic Blacksmithing (300)",
+          "es_ES": "Requiere Herrería clásica (300)",
+          "fr_FR": "Forge classique (300) requis",
+          "it_IT": "Richiede: Forgiatura Classica (300)",
+          "ru_RU": "Требуется: Классическое кузнечное дело (300)",
+          "ko_KR": "요구 사항: 옛 대장기술 (300)",
+          "zh_TW": "需要艾澤拉斯鍛造(300)",
+          "zh_CN": "需要经典旧世锻造（300）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft Fiery Vengeance.",
+      "es_MX": "Te enseña a fabricar una venganza ígnea.",
+      "pt_BR": "Ensina a fazer Vingança Abrasadora.",
+      "de_DE": "Lehrt Euch, wie man eine feurige Rache herstellt.",
+      "en_GB": "Teaches you how to craft Fiery Vengeance.",
+      "es_ES": "Te enseña a fabricar una venganza ígnea.",
+      "fr_FR": "Vous apprend à fabriquer une vengeance embrasée.",
+      "it_IT": "Ti insegna a creare una Vendetta Ardente.",
+      "ru_RU": "Обучает изготовлению огненного отмщения.",
+      "ko_KR": "불타는 복수 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作熾熱復仇。",
+      "zh_CN": "教你学会制作烈焰复仇。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/203813?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 203813
+        },
+        "quality": {
+          "type": "RARE",
+          "name": {
+            "en_US": "Rare",
+            "es_MX": "Raro",
+            "pt_BR": "Raro",
+            "de_DE": "Selten",
+            "en_GB": "Rare",
+            "es_ES": "Raro",
+            "fr_FR": "Rare",
+            "it_IT": "Raro",
+            "ru_RU": "Редкое",
+            "ko_KR": "희귀",
+            "zh_TW": "精良",
+            "zh_CN": "精良"
+          }
+        },
+        "name": {
+          "en_US": "Fiery Vengeance",
+          "es_MX": "Venganza ígnea",
+          "pt_BR": "Vingança Abrasadora",
+          "de_DE": "Feurige Rache",
+          "en_GB": "Fiery Vengeance",
+          "es_ES": "Venganza ígnea",
+          "fr_FR": "Vengeance embrasée",
+          "it_IT": "Vendetta Ardente",
+          "ru_RU": "Огненное отмщение",
+          "ko_KR": "불타는 복수",
+          "zh_TW": "熾熱復仇",
+          "zh_CN": "烈焰复仇"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/203813?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 203813
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Weapon",
+            "es_MX": "Arma",
+            "pt_BR": "Arma",
+            "de_DE": "Waffe",
+            "en_GB": "Weapon",
+            "es_ES": "Arma",
+            "fr_FR": "Arme",
+            "it_IT": "Arma",
+            "ru_RU": "Оружие",
+            "ko_KR": "무기",
+            "zh_TW": "武器",
+            "zh_CN": "武器"
+          },
+          "id": 2
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/7?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Sword",
+            "es_MX": "Espada",
+            "pt_BR": "Espada",
+            "de_DE": "Schwert",
+            "en_GB": "Sword",
+            "es_ES": "Espada",
+            "fr_FR": "Epée",
+            "it_IT": "Spada",
+            "ru_RU": "Меч",
+            "ko_KR": "도검",
+            "zh_TW": "劍",
+            "zh_CN": "剑"
+          },
+          "id": 7
+        },
+        "inventory_type": {
+          "type": "WEAPON",
+          "name": {
+            "en_US": "One-Hand",
+            "es_MX": "Una mano",
+            "pt_BR": "Uma Mão",
+            "de_DE": "Einhändig",
+            "en_GB": "One-Hand",
+            "es_ES": "Una mano",
+            "fr_FR": "À une main",
+            "it_IT": "Una mano",
+            "ru_RU": "Одноручное",
+            "ko_KR": "한손 장비",
+            "zh_TW": "單手",
+            "zh_CN": "单手"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "unique_equipped": {
+          "en_US": "Unique-Equipped",
+          "es_MX": "Único-Equipado",
+          "pt_BR": "Único-equipado",
+          "de_DE": "Einzigartig anlegbar",
+          "en_GB": "Unique-Equipped",
+          "es_ES": "Único-Equipado",
+          "fr_FR": "Unique - Équipé",
+          "it_IT": "Unico equipaggiabile",
+          "ru_RU": "Уникальный использующийся",
+          "ko_KR": "고유 장착 아이템",
+          "zh_TW": "僅可裝備一件",
+          "zh_CN": "装备唯一"
+        },
+        "weapon": {
+          "damage": {
+            "min_value": 3,
+            "max_value": 7,
+            "display_string": {
+              "en_US": "3 - 7 Damage",
+              "es_MX": "3 - 7 p. de daño",
+              "pt_BR": "3 - 7 de Dano",
+              "de_DE": "3 - 7 Schaden",
+              "en_GB": "3 - 7 Damage",
+              "es_ES": "3 - 7 p. de daño",
+              "fr_FR": "Dégâts : 3 - 7",
+              "it_IT": "3 - 7 Danni",
+              "ru_RU": "Урон: 3 - 7",
+              "ko_KR": "공격력 3 ~ 7",
+              "zh_TW": "3-7點傷害",
+              "zh_CN": "3 - 7点伤害"
+            },
+            "damage_class": {
+              "type": "PHYSICAL",
+              "name": {
+                "en_US": "Physical",
+                "es_MX": "Físico",
+                "pt_BR": "Físico",
+                "de_DE": "Körperlich",
+                "en_GB": "Physical",
+                "es_ES": "Físico",
+                "fr_FR": "Physique",
+                "it_IT": "Fisico",
+                "ru_RU": "физический",
+                "ko_KR": "물리",
+                "zh_TW": "物理",
+                "zh_CN": "物理"
+              }
+            }
+          },
+          "attack_speed": {
+            "value": 2600,
+            "display_string": {
+              "en_US": "Speed 2.60",
+              "es_MX": "Velocidad 2.60",
+              "pt_BR": "Velocidade 2,60",
+              "de_DE": "Geschwindigkeit 2,60",
+              "en_GB": "Speed 2.60",
+              "es_ES": "Velocidad 2,60",
+              "fr_FR": "Vitesse 2,60",
+              "it_IT": "Velocità 2,60",
+              "ru_RU": "Скорость 2,60",
+              "ko_KR": "속도 2.60",
+              "zh_TW": "速度 2.60",
+              "zh_CN": "速度 2.60"
+            }
+          },
+          "dps": {
+            "value": 1.9230769,
+            "display_string": {
+              "en_US": "(1.9 damage per second)",
+              "es_MX": "(1.9 p. de daño por segundo)",
+              "pt_BR": "(1,9 de dano por segundo)",
+              "de_DE": "(1,9 Schaden pro Sekunde)",
+              "en_GB": "(1.9 damage per second)",
+              "es_ES": "(1,9 p. de daño por segundo)",
+              "fr_FR": "(1,9 dégâts par seconde)",
+              "it_IT": "(1,9 danni per secondo)",
+              "ru_RU": "(1,9 ед. урона в секунду)",
+              "ko_KR": "(초당 공격력 1.9)",
+              "zh_TW": "(每秒1.9點傷害)",
+              "zh_CN": "（每秒伤害1.9）"
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "STRENGTH",
+              "name": {
+                "en_US": "Strength",
+                "es_MX": "fuerza",
+                "pt_BR": "Força",
+                "de_DE": "Stärke",
+                "en_GB": "Strength",
+                "es_ES": "fuerza",
+                "fr_FR": "Force",
+                "it_IT": "Forza",
+                "ru_RU": "к силе",
+                "ko_KR": "힘",
+                "zh_TW": "力量",
+                "zh_CN": "力量"
+              }
+            },
+            "value": 1,
+            "is_negated": true,
+            "display": {
+              "display_string": {
+                "en_US": "+1 Strength",
+                "es_MX": "+1 fuerza",
+                "pt_BR": "+1 Força",
+                "de_DE": "+1 Stärke",
+                "en_GB": "+1 Strength",
+                "es_ES": "+1 fuerza",
+                "fr_FR": "+1 Force",
+                "it_IT": "+1 Forza",
+                "ru_RU": "+1 к силе",
+                "ko_KR": "힘 +1",
+                "zh_TW": "+1力量",
+                "zh_CN": "+1 力量"
+              },
+              "color": {
+                "r": 128,
+                "g": 128,
+                "b": 128,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "DODGE_RATING",
+              "name": {
+                "en_US": "Dodge",
+                "es_MX": "esquivar",
+                "pt_BR": "Esquiva",
+                "de_DE": "Ausweichen",
+                "en_GB": "Dodge",
+                "es_ES": "esquivar",
+                "fr_FR": "Esquive",
+                "it_IT": "Indice di schivata",
+                "ru_RU": "к уклонению",
+                "ko_KR": "회피",
+                "zh_TW": "閃躲",
+                "zh_CN": "躲闪"
+              }
+            },
+            "value": 2,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Dodge",
+                "es_MX": "+2 esquivar",
+                "pt_BR": "+2 Esquiva",
+                "de_DE": "+2 Ausweichen",
+                "en_GB": "+2 Dodge",
+                "es_ES": "+2 esquivar",
+                "fr_FR": "+2 Esquive",
+                "it_IT": "+2 Indice di schivata",
+                "ru_RU": "+2 к уклонению",
+                "ko_KR": "회피 +2",
+                "zh_TW": "+2閃躲",
+                "zh_CN": "+2 躲闪"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "VERSATILITY",
+              "name": {
+                "en_US": "Versatility",
+                "es_MX": "versatilidad",
+                "pt_BR": "Versatilidade",
+                "de_DE": "Vielseitigkeit",
+                "en_GB": "Versatility",
+                "es_ES": "versatilidad",
+                "fr_FR": "Polyvalence",
+                "it_IT": "Indice di versatilità",
+                "ru_RU": "к универсальности",
+                "ko_KR": "유연성",
+                "zh_TW": "臨機應變",
+                "zh_CN": "全能"
+              }
+            },
+            "value": 1,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+1 Versatility",
+                "es_MX": "+1 versatilidad",
+                "pt_BR": "+1 Versatilidade",
+                "de_DE": "+1 Vielseitigkeit",
+                "en_GB": "+1 Versatility",
+                "es_ES": "+1 versatilidad",
+                "fr_FR": "+1 Polyvalence",
+                "it_IT": "+1 Indice di versatilità",
+                "ru_RU": "+1 к универсальности",
+                "ko_KR": "유연성 +1",
+                "zh_TW": "+1臨機應變",
+                "zh_CN": "+1 全能"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "spells": [
+          {
+            "spell": {
+              "key": {
+                "href": "https://kr.api.blizzard.com/data/wow/spell/7711?namespace=static-11.1.5_60179-kr"
+              },
+              "name": {
+                "en_US": "Add Fire Dam - Weap 02",
+                "es_MX": "Añadir daño por Fuego: arma 02",
+                "pt_BR": "Adicionar Dano de Fogo: Arma 02",
+                "de_DE": "Feuerschaden hinzufügen - Waffe 02",
+                "en_GB": "Add Fire Dam - Weap 02",
+                "es_ES": "Añadir daño por Fuego: arma 02",
+                "fr_FR": "Ajoute des dégâts de Feu – Arme 02",
+                "it_IT": "Add Fire Dam - Weap 02",
+                "ru_RU": "Дополнительный урон от огня - оруж. 2",
+                "ko_KR": "화염 피해 추가 - 무기 02",
+                "zh_TW": "增加火焰傷害 - 武器 02",
+                "zh_CN": "Add Fire Dam - Weap 02"
+              },
+              "id": 7711
+            },
+            "description": {
+              "en_US": "Equip: Adds 2 fire damage to your melee attacks.",
+              "es_MX": "Equipar: Añade 2 p. de daño de Fuego a tus ataques cuerpo a cuerpo.",
+              "pt_BR": "Equipado: Adiciona 2 de dano de Fogo aos seus ataques corpo a corpo.",
+              "de_DE": "Anlegen: Fügt Eurem Nahkampfangriff 2 Punkte Feuerschaden hinzu.",
+              "en_GB": "Equip: Adds 2 fire damage to your melee attacks.",
+              "es_ES": "Equipar: Añade 2 p. de daño de Fuego a tus ataques cuerpo a cuerpo.",
+              "fr_FR": "Équipé : Ajoute 2 points de dégâts de Feu à vos attaques de mêlée.",
+              "it_IT": "Equipaggia: Aggiunge 2 danni da fuoco agli attacchi in mischia.",
+              "ru_RU": "Если на персонаже: Повышение наносимого в ближнем бою урона от огня на 2 ед.",
+              "ko_KR": "착용 효과: 근접 공격 시 2의 추가 화염 피해를 입힙니다.",
+              "zh_TW": "裝備： 為你的近戰武器攻擊附加2點火焰傷害。",
+              "zh_CN": "装备： 为你的武器攻击附加2点火焰伤害。"
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 1500,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "15",
+              "es_MX": "15",
+              "pt_BR": "15",
+              "de_DE": "15",
+              "en_GB": "15",
+              "es_ES": "15",
+              "fr_FR": "15",
+              "it_IT": "15",
+              "ru_RU": "15",
+              "ko_KR": "15",
+              "zh_TW": "15",
+              "zh_CN": "15"
+            },
+            "copper": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 25,
+            "display_string": {
+              "en_US": "Requires Level 25",
+              "es_MX": "Necesitas ser de nivel 25",
+              "pt_BR": "Requer o Nível 25",
+              "de_DE": "Benötigt Stufe 25",
+              "en_GB": "Requires Level 25",
+              "es_ES": "Necesitas ser de nivel 25",
+              "fr_FR": "Niveau 25 requis",
+              "it_IT": "Richiede il livello 25",
+              "ru_RU": "Требуется 25-й уровень",
+              "ko_KR": "최소 요구 레벨: 25",
+              "zh_TW": "需要等級25",
+              "zh_CN": "需要等级 25"
+            }
+          }
+        },
+        "level": {
+          "value": 29,
+          "display_string": {
+            "en_US": "Item Level 29",
+            "es_MX": "Nivel de objeto 29",
+            "pt_BR": "Nível do Item: 29",
+            "de_DE": "Gegenstandsstufe 29",
+            "en_GB": "Item Level 29",
+            "es_ES": "Nivel de objeto 29",
+            "fr_FR": "Niveau d'objet 29",
+            "it_IT": "Livello oggetto: 29",
+            "ru_RU": "Уровень предмета: 29",
+            "ko_KR": "아이템 레벨: 29",
+            "zh_TW": "物品等級29",
+            "zh_CN": "物品等级29"
+          }
+        },
+        "durability": {
+          "value": 90,
+          "display_string": {
+            "en_US": "Durability 90 / 90",
+            "es_MX": "Durabilidad 90 / 90",
+            "pt_BR": "Durabilidade 90 / 90",
+            "de_DE": "Haltbarkeit 90 / 90",
+            "en_GB": "Durability 90 / 90",
+            "es_ES": "Durabilidad 90 / 90",
+            "fr_FR": "Durabilité : 90 / 90",
+            "it_IT": "Integrità 90/90",
+            "ru_RU": "Прочность: 90 / 90",
+            "ko_KR": "내구도 90 / 90",
+            "zh_TW": "耐久度 90 / 90",
+            "zh_CN": "耐久度 90 / 90"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/12655?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Enchanted Thorium Bar",
+              "es_MX": "Barra de torio encantado",
+              "pt_BR": "Barra de Tório Encantado",
+              "de_DE": "Verzauberter Thoriumbarren",
+              "en_GB": "Enchanted Thorium Bar",
+              "es_ES": "Barra de torio encantado",
+              "fr_FR": "Barre de thorium enchanté",
+              "it_IT": "Lingotto di Torio Incantato",
+              "ru_RU": "Зачарованный ториевый слиток",
+              "ko_KR": "마력 깃든 토륨 주괴",
+              "zh_TW": "附魔瑟銀錠",
+              "zh_CN": "魔化瑟银锭"
+            },
+            "id": 12655
+          },
+          "quantity": 32
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/7078?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Essence of Fire",
+              "es_MX": "Esencia de Fuego",
+              "pt_BR": "Essência do Fogo",
+              "de_DE": "Essenz des Feuers",
+              "en_GB": "Essence of Fire",
+              "es_ES": "Esencia de Fuego",
+              "fr_FR": "Essence de feu",
+              "it_IT": "Essenza di Fuoco",
+              "ru_RU": "Субстанция Огня",
+              "ko_KR": "불의 정수",
+              "zh_TW": "火焰精華",
+              "zh_CN": "火焰精华"
+            },
+            "id": 7078
+          },
+          "quantity": 30
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/203865?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Brilliant Wizard Oil",
+              "es_MX": "Aceite de zahorí luminoso",
+              "pt_BR": "Óleo Brilhante de Teurgo",
+              "de_DE": "Hervorragendes Zauberöl",
+              "en_GB": "Brilliant Wizard Oil",
+              "es_ES": "Aceite de zahorí luminoso",
+              "fr_FR": "Huile de sorcier brillante",
+              "it_IT": "Olio Magico Brillante",
+              "ru_RU": "Сверкающее волшебное масло",
+              "ko_KR": "반짝이는 마술사 오일",
+              "zh_TW": "卓越巫師之油",
+              "zh_CN": "卓越巫师之油"
+            },
+            "id": 203865
+          },
+          "quantity": 1
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/7077?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Heart of Fire",
+              "es_MX": "Corazón de fuego",
+              "pt_BR": "Coração de Fogo",
+              "de_DE": "Herz des Feuers",
+              "en_GB": "Heart of Fire",
+              "es_ES": "Corazón de fuego",
+              "fr_FR": "Cœur de feu",
+              "it_IT": "Cuore di Fuoco",
+              "ru_RU": "Сердце огня",
+              "ko_KR": "불의 심장",
+              "zh_TW": "火焰之心",
+              "zh_CN": "火焰之心"
+            },
+            "id": 7077
+          },
+          "quantity": 20
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/18335?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Pristine Black Diamond",
+              "es_MX": "Diamante negro prístino",
+              "pt_BR": "Diamante Preto Límpido",
+              "de_DE": "Makelloser schwarzer Diamant",
+              "en_GB": "Pristine Black Diamond",
+              "es_ES": "Diamante negro prístino",
+              "fr_FR": "Diamant noir parfait",
+              "it_IT": "Diamante Nero Intatto",
+              "ru_RU": "Безупречный черный алмаз",
+              "ko_KR": "온전한 검은 다이아몬드",
+              "zh_TW": "原始黑鑽石",
+              "zh_CN": "原始黑钻石"
+            },
+            "id": 18335
+          },
+          "quantity": 2
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/12809?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Guardian Stone",
+              "es_MX": "Piedra guardián",
+              "pt_BR": "Pedra Guardiã",
+              "de_DE": "Wächterstein",
+              "en_GB": "Guardian Stone",
+              "es_ES": "Piedra guardiana",
+              "fr_FR": "Pierre du gardien",
+              "it_IT": "Pietra Guardiana",
+              "ru_RU": "Охранный камень",
+              "ko_KR": "수호자의 돌",
+              "zh_TW": "守護者之石",
+              "zh_CN": "守护之石"
+            },
+            "id": 12809
+          },
+          "quantity": 4
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Enchanted Thorium Bar (32), Essence of Fire (30), Brilliant Wizard Oil, Heart of Fire (20), Pristine Black Diamond (2), Guardian Stone (4)",
+        "es_MX": "Barra de torio encantado (32), Esencia de Fuego (30), Aceite de zahorí luminoso, Corazón de fuego (20), Diamante negro prístino (2), Piedra guardián (4)",
+        "pt_BR": "Barra de Tório Encantado (32), Essência do Fogo (30), Óleo Brilhante de Teurgo, Coração de Fogo (20), Diamante Preto Límpido (2), Pedra Guardiã (4)",
+        "de_DE": "Verzauberter Thoriumbarren (32), Essenz des Feuers (30), Hervorragendes Zauberöl, Herz des Feuers (20), Makelloser schwarzer Diamant (2), Wächterstein (4)",
+        "en_GB": "Enchanted Thorium Bar (32), Essence of Fire (30), Brilliant Wizard Oil, Heart of Fire (20), Pristine Black Diamond (2), Guardian Stone (4)",
+        "es_ES": "Barra de torio encantado (32), Esencia de Fuego (30), Aceite de zahorí luminoso, Corazón de fuego (20), Diamante negro prístino (2), Piedra guardiana (4)",
+        "fr_FR": "Barre de thorium enchanté (32), Essence de feu (30), Huile de sorcier brillante, Cœur de feu (20), Diamant noir parfait (2), Pierre du gardien (4)",
+        "it_IT": "Lingotto di Torio Incantato (32), Essenza di Fuoco (30), Olio Magico Brillante, Cuore di Fuoco (20), Diamante Nero Intatto (2), Pietra Guardiana (4)",
+        "ru_RU": "Зачарованный ториевый слиток (32), Субстанция Огня (30), Сверкающее волшебное масло, Сердце огня (20), Безупречный черный алмаз (2), Охранный камень (4)",
+        "ko_KR": "마력 깃든 토륨 주괴 (32), 불의 정수 (30), 반짝이는 마술사 오일, 불의 심장 (20), 온전한 검은 다이아몬드 (2), 수호자의 돌 (4)",
+        "zh_TW": "附魔瑟銀錠 (32), 火焰精華 (30), 卓越巫師之油, 火焰之心 (20), 原始黑鑽石 (2), 守護者之石 (4)",
+        "zh_CN": "魔化瑟银锭 (32), 火焰精华 (30), 卓越巫师之油, 火焰之心 (20), 原始黑钻石 (2), 守护之石 (4)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

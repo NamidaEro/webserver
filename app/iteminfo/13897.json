@@ -1,0 +1,316 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/13897?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 13897,
+  "name": {
+    "en_US": "White Traditional Hanbok",
+    "es_MX": "Hanbok tradicional blanco",
+    "pt_BR": "Hanbok Tradicional Branco",
+    "de_DE": "Weißer traditioneller Hanbok",
+    "en_GB": "White Traditional Hanbok",
+    "es_ES": "Hanbok tradicional blanco",
+    "fr_FR": "Hanbok traditionnel blanc",
+    "it_IT": "Hanbok Tradizionale Bianco",
+    "ru_RU": "Белый традиционный ханбок",
+    "ko_KR": "흰색 전통 한복",
+    "zh_TW": "白色傳統韓服",
+    "zh_CN": "白色传统韩服"
+  },
+  "quality": {
+    "type": "COMMON",
+    "name": {
+      "en_US": "Common",
+      "es_MX": "Común",
+      "pt_BR": "Comum",
+      "de_DE": "Gewöhnlich",
+      "en_GB": "Common",
+      "es_ES": "Común",
+      "fr_FR": "Commun",
+      "it_IT": "Comune",
+      "ru_RU": "Обычное",
+      "ko_KR": "일반",
+      "zh_TW": "普通",
+      "zh_CN": "普通"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/13897?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 13897
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cosmetic",
+      "es_MX": "Cosmético",
+      "pt_BR": "Cosmético",
+      "de_DE": "Kosmetisch",
+      "en_GB": "Cosmetic",
+      "es_ES": "Cosmético",
+      "fr_FR": "Ornemental",
+      "it_IT": "Cosmetico",
+      "ru_RU": "Декоративный предмет",
+      "ko_KR": "장식",
+      "zh_TW": "造型",
+      "zh_CN": "装饰品"
+    },
+    "id": 5
+  },
+  "inventory_type": {
+    "type": "ROBE",
+    "name": {
+      "en_US": "Chest",
+      "es_MX": "Pecho",
+      "pt_BR": "Torso",
+      "de_DE": "Brust",
+      "en_GB": "Chest",
+      "es_ES": "Torso",
+      "fr_FR": "Torse",
+      "it_IT": "Torso",
+      "ru_RU": "Грудь",
+      "ko_KR": "가슴",
+      "zh_TW": "胸部",
+      "zh_CN": "胸部"
+    }
+  },
+  "purchase_price": 15000,
+  "sell_price": 375,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/13897?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 13897
+    },
+    "quality": {
+      "type": "COMMON",
+      "name": {
+        "en_US": "Common",
+        "es_MX": "Común",
+        "pt_BR": "Comum",
+        "de_DE": "Gewöhnlich",
+        "en_GB": "Common",
+        "es_ES": "Común",
+        "fr_FR": "Commun",
+        "it_IT": "Comune",
+        "ru_RU": "Обычное",
+        "ko_KR": "일반",
+        "zh_TW": "普通",
+        "zh_CN": "普通"
+      }
+    },
+    "name": {
+      "en_US": "White Traditional Hanbok",
+      "es_MX": "Hanbok tradicional blanco",
+      "pt_BR": "Hanbok Tradicional Branco",
+      "de_DE": "Weißer traditioneller Hanbok",
+      "en_GB": "White Traditional Hanbok",
+      "es_ES": "Hanbok tradicional blanco",
+      "fr_FR": "Hanbok traditionnel blanc",
+      "it_IT": "Hanbok Tradizionale Bianco",
+      "ru_RU": "Белый традиционный ханбок",
+      "ko_KR": "흰색 전통 한복",
+      "zh_TW": "白色傳統韓服",
+      "zh_CN": "白色传统韩服"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/13897?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 13897
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cosmetic",
+        "es_MX": "Cosmético",
+        "pt_BR": "Cosmético",
+        "de_DE": "Kosmetisch",
+        "en_GB": "Cosmetic",
+        "es_ES": "Cosmético",
+        "fr_FR": "Ornemental",
+        "it_IT": "Cosmetico",
+        "ru_RU": "Декоративный предмет",
+        "ko_KR": "장식",
+        "zh_TW": "造型",
+        "zh_CN": "装饰品"
+      },
+      "id": 5
+    },
+    "inventory_type": {
+      "type": "ROBE",
+      "name": {
+        "en_US": "Chest",
+        "es_MX": "Pecho",
+        "pt_BR": "Torso",
+        "de_DE": "Brust",
+        "en_GB": "Chest",
+        "es_ES": "Torso",
+        "fr_FR": "Torse",
+        "it_IT": "Torso",
+        "ru_RU": "Грудь",
+        "ko_KR": "가슴",
+        "zh_TW": "胸部",
+        "zh_CN": "胸部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "sell_price": {
+      "value": 375,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "3",
+          "es_MX": "3",
+          "pt_BR": "3",
+          "de_DE": "3",
+          "en_GB": "3",
+          "es_ES": "3",
+          "fr_FR": "3",
+          "it_IT": "3",
+          "ru_RU": "3",
+          "ko_KR": "3",
+          "zh_TW": "3",
+          "zh_CN": "3"
+        },
+        "copper": {
+          "en_US": "75",
+          "es_MX": "75",
+          "pt_BR": "75",
+          "de_DE": "75",
+          "en_GB": "75",
+          "es_ES": "75",
+          "fr_FR": "75",
+          "it_IT": "75",
+          "ru_RU": "75",
+          "ko_KR": "75",
+          "zh_TW": "75",
+          "zh_CN": "75"
+        }
+      }
+    },
+    "level": {
+      "value": 1,
+      "display_string": {
+        "en_US": "Item Level 1",
+        "es_MX": "Nivel de objeto 1",
+        "pt_BR": "Nível do Item: 1",
+        "de_DE": "Gegenstandsstufe 1",
+        "en_GB": "Item Level 1",
+        "es_ES": "Nivel de objeto 1",
+        "fr_FR": "Niveau d'objet 1",
+        "it_IT": "Livello oggetto: 1",
+        "ru_RU": "Уровень предмета: 1",
+        "ko_KR": "아이템 레벨: 1",
+        "zh_TW": "物品等級1",
+        "zh_CN": "物品等级1"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/3916?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3916
+    }
+  ]
+}

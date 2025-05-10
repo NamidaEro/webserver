@@ -1,0 +1,677 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/42550?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 42550,
+  "name": {
+    "en_US": "Weakness Spectralizers",
+    "es_MX": "Espectralizadores de debilidad",
+    "pt_BR": "Espectralizadores de Fraqueza",
+    "de_DE": "Schwachstellenspektralisierer",
+    "en_GB": "Weakness Spectralizers",
+    "es_ES": "Espectralizadores de debilidad",
+    "fr_FR": "Spectraliseuses de faiblesse",
+    "it_IT": "Visori Spettrometrici",
+    "ru_RU": "Спектральный выявитель слабости",
+    "ko_KR": "약점 분석 고글",
+    "zh_TW": "弱點透析鏡",
+    "zh_CN": "弱点分析眼镜"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 35,
+  "required_level": 28,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/42550?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 42550
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leather",
+      "es_MX": "Cuero",
+      "pt_BR": "Couro",
+      "de_DE": "Leder",
+      "en_GB": "Leather",
+      "es_ES": "Cuero",
+      "fr_FR": "Cuir",
+      "it_IT": "Cuoio",
+      "ru_RU": "Кожа",
+      "ko_KR": "가죽",
+      "zh_TW": "皮甲",
+      "zh_CN": "皮甲"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "HEAD",
+    "name": {
+      "en_US": "Head",
+      "es_MX": "Cabeza",
+      "pt_BR": "Cabeça",
+      "de_DE": "Kopf",
+      "en_GB": "Head",
+      "es_ES": "Cabeza",
+      "fr_FR": "Tête",
+      "it_IT": "Testa",
+      "ru_RU": "Голова",
+      "ko_KR": "머리",
+      "zh_TW": "頭部",
+      "zh_CN": "头部"
+    }
+  },
+  "purchase_price": 7500,
+  "sell_price": 1500,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/42550?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 42550
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "META",
+          "name": {
+            "en_US": "Meta Socket",
+            "es_MX": "Ranura meta",
+            "pt_BR": "Engaste meta",
+            "de_DE": "Metasockel",
+            "en_GB": "Meta Socket",
+            "es_ES": "Ranura meta",
+            "fr_FR": "Méta-châsse",
+            "it_IT": "Incavo Meta",
+            "ru_RU": "особое гнездо",
+            "ko_KR": "얼개 보석 홈",
+            "zh_TW": "變換插槽",
+            "zh_CN": "多彩插槽"
+          }
+        }
+      },
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": {
+            "en_US": "Prismatic Socket",
+            "es_MX": "Ranura prismática",
+            "pt_BR": "Engaste Prismático",
+            "de_DE": "Prismatischer Sockel",
+            "en_GB": "Prismatic Socket",
+            "es_ES": "Ranura prismática",
+            "fr_FR": "Châsse prismatique",
+            "it_IT": "Incavo Prismatico",
+            "ru_RU": "бесцветное гнездо",
+            "ko_KR": "다색 보석 홈",
+            "zh_TW": "多色插槽",
+            "zh_CN": "棱彩插槽"
+          }
+        }
+      }
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Weakness Spectralizers",
+      "es_MX": "Espectralizadores de debilidad",
+      "pt_BR": "Espectralizadores de Fraqueza",
+      "de_DE": "Schwachstellenspektralisierer",
+      "en_GB": "Weakness Spectralizers",
+      "es_ES": "Espectralizadores de debilidad",
+      "fr_FR": "Spectraliseuses de faiblesse",
+      "it_IT": "Visori Spettrometrici",
+      "ru_RU": "Спектральный выявитель слабости",
+      "ko_KR": "약점 분석 고글",
+      "zh_TW": "弱點透析鏡",
+      "zh_CN": "弱点分析眼镜"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/42550?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 42550
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leather",
+        "es_MX": "Cuero",
+        "pt_BR": "Couro",
+        "de_DE": "Leder",
+        "en_GB": "Leather",
+        "es_ES": "Cuero",
+        "fr_FR": "Cuir",
+        "it_IT": "Cuoio",
+        "ru_RU": "Кожа",
+        "ko_KR": "가죽",
+        "zh_TW": "皮甲",
+        "zh_CN": "皮甲"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "HEAD",
+      "name": {
+        "en_US": "Head",
+        "es_MX": "Cabeza",
+        "pt_BR": "Cabeça",
+        "de_DE": "Kopf",
+        "en_GB": "Head",
+        "es_ES": "Cabeza",
+        "fr_FR": "Tête",
+        "it_IT": "Testa",
+        "ru_RU": "Голова",
+        "ko_KR": "머리",
+        "zh_TW": "頭部",
+        "zh_CN": "头部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 5,
+      "display": {
+        "display_string": {
+          "en_US": "5 Armor",
+          "es_MX": "5 p. de armadura",
+          "pt_BR": "5 de Armadura",
+          "de_DE": "5 Rüstung",
+          "en_GB": "5 Armor",
+          "es_ES": "5 p. de armadura",
+          "fr_FR": "Armure : 5",
+          "it_IT": "5 Armatura",
+          "ru_RU": "Броня: 5",
+          "ko_KR": "방어도 5",
+          "zh_TW": "5點護甲",
+          "zh_CN": "5点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 3,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Intellect",
+            "es_MX": "+3 intelecto",
+            "pt_BR": "+3 Intelecto",
+            "de_DE": "+3 Intelligenz",
+            "en_GB": "+3 Intellect",
+            "es_ES": "+3 intelecto",
+            "fr_FR": "+3 Intelligence",
+            "it_IT": "+3 Intelletto",
+            "ru_RU": "+3 к интеллекту",
+            "ko_KR": "지능 +3",
+            "zh_TW": "+3智力",
+            "zh_CN": "+3 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 3,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Agility",
+            "es_MX": "+3 agilidad",
+            "pt_BR": "+3 Agilidade",
+            "de_DE": "+3 Beweglichkeit",
+            "en_GB": "+3 Agility",
+            "es_ES": "+3 agilidad",
+            "fr_FR": "+3 Agilité",
+            "it_IT": "+3 Agilità",
+            "ru_RU": "+3 к ловкости",
+            "ko_KR": "민첩성 +3",
+            "zh_TW": "+3敏捷",
+            "zh_CN": "+3 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 7,
+        "display": {
+          "display_string": {
+            "en_US": "+7 Stamina",
+            "es_MX": "+7 aguante",
+            "pt_BR": "+7 Vigor",
+            "de_DE": "+7 Ausdauer",
+            "en_GB": "+7 Stamina",
+            "es_ES": "+7 aguante",
+            "fr_FR": "+7 Endurance",
+            "it_IT": "+7 Tempra",
+            "ru_RU": "+7 к выносливости",
+            "ko_KR": "체력 +7",
+            "zh_TW": "+7耐力",
+            "zh_CN": "+7 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 3,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Critical Strike",
+            "es_MX": "+3 golpe crítico",
+            "pt_BR": "+3 Acerto Crítico",
+            "de_DE": "+3 Kritischer Trefferwert",
+            "en_GB": "+3 Critical Strike",
+            "es_ES": "+3 golpe crítico",
+            "fr_FR": "+3 Score de crit.",
+            "it_IT": "+3 Indice di critico",
+            "ru_RU": "+3 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +3",
+            "zh_TW": "+3致命一擊",
+            "zh_CN": "+3 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "socket_bonus": {
+      "en_US": "Socket Bonus: +2 Critical Strike",
+      "es_MX": "Bonus ranura: +2 golpe crítico",
+      "pt_BR": "Bônus de engaste: +2 de Acerto Crítico",
+      "de_DE": "Sockelbonus: +2 kritischer Trefferwert",
+      "en_GB": "Socket Bonus: +2 Critical Strike",
+      "es_ES": "Bonus ranura: +2 golpe crítico",
+      "fr_FR": "Bonus de sertissage : +2 au score de Coup critique",
+      "it_IT": "Bonus incavo: +2 Indice di Critico",
+      "ru_RU": "При соответствии цвета: +2 к вероятности критического удара",
+      "ko_KR": "보석 장착 보너스: 치명타 및 극대화 +2",
+      "zh_TW": "插槽加成：+2致命一擊",
+      "zh_CN": "镶孔奖励：+2 爆击"
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/12883?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Longsight",
+            "es_MX": "Visión a distancia",
+            "pt_BR": "Visão ao Longe",
+            "de_DE": "Weitsicht",
+            "en_GB": "Longsight",
+            "es_ES": "Visión a distancia",
+            "fr_FR": "Longue-vue",
+            "it_IT": "Vistalunga",
+            "ru_RU": "Орлиный взор",
+            "ko_KR": "멀리보기",
+            "zh_TW": "望遠",
+            "zh_CN": "长视术"
+          },
+          "id": 12883
+        },
+        "description": {
+          "en_US": "Use: Allows you to look far into the distance. (3 Sec Cooldown)",
+          "es_MX": "Usar: Permite ver a lo lejos. (3 s de tiempo de reutilización)",
+          "pt_BR": "Usar: Permite a você ver ao longe. (3 s de recarga)",
+          "de_DE": "Benutzen: Ermöglicht Euch, in weite Entfernungen zu sehen. (3 Sek. Abklingzeit)",
+          "en_GB": "Use: Allows you to look far into the distance. (3 Sec Cooldown)",
+          "es_ES": "Uso: Permite ver a lo lejos. (3 s de tiempo de reutilización).",
+          "fr_FR": "Utiliser : Vous permet de voir au loin. (3 s de recharge)",
+          "it_IT": "Usa: Permette di vedere molto lontano. (3 s di recupero)",
+          "ru_RU": "Использование: Возможность смотреть далеко. (Восстановление: 3 с.)",
+          "ko_KR": "사용 효과: 더 먼 곳까지 볼 수 있습니다. (3초 후 재사용 가능)",
+          "zh_TW": "使用： 使你看得更遠。 (3秒冷卻時間)",
+          "zh_CN": "使用： 使你可以看得更远。 （3秒冷却）"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "15",
+          "es_MX": "15",
+          "pt_BR": "15",
+          "de_DE": "15",
+          "en_GB": "15",
+          "es_ES": "15",
+          "fr_FR": "15",
+          "it_IT": "15",
+          "ru_RU": "15",
+          "ko_KR": "15",
+          "zh_TW": "15",
+          "zh_CN": "15"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 28,
+        "display_string": {
+          "en_US": "Requires Level 28",
+          "es_MX": "Necesitas ser de nivel 28",
+          "pt_BR": "Requer o Nível 28",
+          "de_DE": "Benötigt Stufe 28",
+          "en_GB": "Requires Level 28",
+          "es_ES": "Necesitas ser de nivel 28",
+          "fr_FR": "Niveau 28 requis",
+          "it_IT": "Richiede il livello 28",
+          "ru_RU": "Требуется 28-й уровень",
+          "ko_KR": "최소 요구 레벨: 28",
+          "zh_TW": "需要等級28",
+          "zh_CN": "需要等级 28"
+        }
+      },
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2504?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Northrend Engineering",
+            "es_MX": "Ingeniería de Rasganorte",
+            "pt_BR": "Engenharia de Nortúndria",
+            "de_DE": "Ingenieurskunst von Nordend",
+            "en_GB": "Northrend Engineering",
+            "es_ES": "Ingeniería de Rasganorte",
+            "fr_FR": "Ingénierie du Norfendre",
+            "it_IT": "Ingegneria di Nordania",
+            "ru_RU": "Инженерное дело Нордскола",
+            "ko_KR": "노스렌드 기계공학",
+            "zh_TW": "北裂境工程學",
+            "zh_CN": "诺森德工程学"
+          },
+          "id": 2504
+        },
+        "level": 1,
+        "display_string": {
+          "en_US": "Requires Northrend Engineering (1)",
+          "es_MX": "Requiere Ingeniería de Rasganorte (1)",
+          "pt_BR": "Requer Engenharia de Nortúndria (1)",
+          "de_DE": "Benötigt Ingenieurskunst von Nordend (1)",
+          "en_GB": "Requires Northrend Engineering (1)",
+          "es_ES": "Requiere Ingeniería de Rasganorte (1)",
+          "fr_FR": "Ingénierie du Norfendre (1) requis",
+          "it_IT": "Richiede: Ingegneria di Nordania (1)",
+          "ru_RU": "Требуется: Инженерное дело Нордскола (1)",
+          "ko_KR": "요구 사항: 노스렌드 기계공학 (1)",
+          "zh_TW": "需要北裂境工程學(1)",
+          "zh_CN": "需要诺森德工程学（1）"
+        }
+      }
+    },
+    "level": {
+      "value": 35,
+      "display_string": {
+        "en_US": "Item Level 35",
+        "es_MX": "Nivel de objeto 35",
+        "pt_BR": "Nível do Item: 35",
+        "de_DE": "Gegenstandsstufe 35",
+        "en_GB": "Item Level 35",
+        "es_ES": "Nivel de objeto 35",
+        "fr_FR": "Niveau d'objet 35",
+        "it_IT": "Livello oggetto: 35",
+        "ru_RU": "Уровень предмета: 35",
+        "ko_KR": "아이템 레벨: 35",
+        "zh_TW": "物品等級35",
+        "zh_CN": "物品等级35"
+      }
+    },
+    "durability": {
+      "value": 100,
+      "display_string": {
+        "en_US": "Durability 100 / 100",
+        "es_MX": "Durabilidad 100 / 100",
+        "pt_BR": "Durabilidade 100 / 100",
+        "de_DE": "Haltbarkeit 100 / 100",
+        "en_GB": "Durability 100 / 100",
+        "es_ES": "Durabilidad 100 / 100",
+        "fr_FR": "Durabilité : 100 / 100",
+        "it_IT": "Integrità 100/100",
+        "ru_RU": "Прочность: 100 / 100",
+        "ko_KR": "내구도 100 / 100",
+        "zh_TW": "耐久度 100 / 100",
+        "zh_CN": "耐久度 100 / 100"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/8410?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 8410
+    }
+  ]
+}

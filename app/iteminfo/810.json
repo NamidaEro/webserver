@@ -1,0 +1,464 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/810?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 810,
+  "name": {
+    "en_US": "Hammer of the Northern Wind",
+    "es_MX": "Martillo del Viento del Norte",
+    "pt_BR": "Martelo do Vento do Norte",
+    "de_DE": "Hammer des Nordwindes",
+    "en_GB": "Hammer of the Northern Wind",
+    "es_ES": "Martillo del Viento del Norte",
+    "fr_FR": "Marteau du vent du nord",
+    "it_IT": "Martello del Vento del Nord",
+    "ru_RU": "Молот Северного ветра",
+    "ko_KR": "혹한의 망치",
+    "zh_TW": "北風之錘",
+    "zh_CN": "北风"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 27,
+  "required_level": 21,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/810?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 810
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Mace",
+      "es_MX": "Maza",
+      "pt_BR": "Maça",
+      "de_DE": "Streitkolben",
+      "en_GB": "Mace",
+      "es_ES": "Maza",
+      "fr_FR": "Masse",
+      "it_IT": "Mazza",
+      "ru_RU": "Дробящее",
+      "ko_KR": "둔기",
+      "zh_TW": "錘",
+      "zh_CN": "锤"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": {
+      "en_US": "One-Hand",
+      "es_MX": "Una mano",
+      "pt_BR": "Uma Mão",
+      "de_DE": "Einhändig",
+      "en_GB": "One-Hand",
+      "es_ES": "Una mano",
+      "fr_FR": "À une main",
+      "it_IT": "Una mano",
+      "ru_RU": "Одноручное",
+      "ko_KR": "한손 장비",
+      "zh_TW": "單手",
+      "zh_CN": "单手"
+    }
+  },
+  "purchase_price": 79496,
+  "sell_price": 15899,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/810?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 810
+    },
+    "context": 0,
+    "bonus_list": [
+      6661
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Hammer of the Northern Wind",
+      "es_MX": "Martillo del Viento del Norte",
+      "pt_BR": "Martelo do Vento do Norte",
+      "de_DE": "Hammer des Nordwindes",
+      "en_GB": "Hammer of the Northern Wind",
+      "es_ES": "Martillo del Viento del Norte",
+      "fr_FR": "Marteau du vent du nord",
+      "it_IT": "Martello del Vento del Nord",
+      "ru_RU": "Молот Северного ветра",
+      "ko_KR": "혹한의 망치",
+      "zh_TW": "北風之錘",
+      "zh_CN": "北风"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/810?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 810
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Mace",
+        "es_MX": "Maza",
+        "pt_BR": "Maça",
+        "de_DE": "Streitkolben",
+        "en_GB": "Mace",
+        "es_ES": "Maza",
+        "fr_FR": "Masse",
+        "it_IT": "Mazza",
+        "ru_RU": "Дробящее",
+        "ko_KR": "둔기",
+        "zh_TW": "錘",
+        "zh_CN": "锤"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": {
+        "en_US": "One-Hand",
+        "es_MX": "Una mano",
+        "pt_BR": "Uma Mão",
+        "de_DE": "Einhändig",
+        "en_GB": "One-Hand",
+        "es_ES": "Una mano",
+        "fr_FR": "À une main",
+        "it_IT": "Una mano",
+        "ru_RU": "Одноручное",
+        "ko_KR": "한손 장비",
+        "zh_TW": "單手",
+        "zh_CN": "单手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 389,
+        "max_value": 500,
+        "display_string": {
+          "en_US": "389 - 500 Damage",
+          "es_MX": "389 - 500 p. de daño",
+          "pt_BR": "389 - 500 de Dano",
+          "de_DE": "389 - 500 Schaden",
+          "en_GB": "389 - 500 Damage",
+          "es_ES": "389 - 500 p. de daño",
+          "fr_FR": "Dégâts : 389 - 500",
+          "it_IT": "389 - 500 Danni",
+          "ru_RU": "Урон: 389 - 500",
+          "ko_KR": "공격력 389 ~ 500",
+          "zh_TW": "389-500點傷害",
+          "zh_CN": "389 - 500点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": {
+          "en_US": "Speed 2.60",
+          "es_MX": "Velocidad 2.60",
+          "pt_BR": "Velocidade 2,60",
+          "de_DE": "Geschwindigkeit 2,60",
+          "en_GB": "Speed 2.60",
+          "es_ES": "Velocidad 2,60",
+          "fr_FR": "Vitesse 2,60",
+          "it_IT": "Velocità 2,60",
+          "ru_RU": "Скорость 2,60",
+          "ko_KR": "속도 2.60",
+          "zh_TW": "速度 2.60",
+          "zh_CN": "速度 2.60"
+        }
+      },
+      "dps": {
+        "value": 170.96153,
+        "display_string": {
+          "en_US": "(171.0 damage per second)",
+          "es_MX": "(171.0 p. de daño por segundo)",
+          "pt_BR": "(171,0 de dano por segundo)",
+          "de_DE": "(171,0 Schaden pro Sekunde)",
+          "en_GB": "(171.0 damage per second)",
+          "es_ES": "(171,0 p. de daño por segundo)",
+          "fr_FR": "(171,0 dégâts par seconde)",
+          "it_IT": "(171,0 danni per secondo)",
+          "ru_RU": "(171,0 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 171.0)",
+          "zh_TW": "(每秒171.0點傷害)",
+          "zh_CN": "（每秒伤害171.0）"
+        }
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/13439?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Frostbolt",
+            "es_MX": "Descarga de Escarcha",
+            "pt_BR": "Seta de Gelo",
+            "de_DE": "Frostblitz",
+            "en_GB": "Frostbolt",
+            "es_ES": "Descarga de Escarcha",
+            "fr_FR": "Éclair de givre",
+            "it_IT": "Dardo di Gelo",
+            "ru_RU": "Ледяная стрела",
+            "ko_KR": "얼음 화살",
+            "zh_TW": "寒冰箭",
+            "zh_CN": "寒冰箭"
+          },
+          "id": 13439
+        },
+        "description": {
+          "en_US": "Chance on hit: Launches a bolt of frost at the enemy causing 178 Frost damage and slowing movement speed by 50% for 5 sec. (Requires level 49 or below)",
+          "es_MX": "Probabilidad al golpear: Lanza una descarga de Escarcha al enemigo que inflige 178 p. de daño de Escarcha y reduce su velocidad de movimiento un 50% durante 5 s. (Requiere el nivel 49 o inferior)",
+          "pt_BR": "Chance ao acertar: Lança uma seta de gelo contra um inimigo, causando 178 de dano de Gelo e reduzindo em 50% a velocidade de movimento por 5 s. (Requer nível 49 ou inferior)",
+          "de_DE": "Chance bei Treffer: Schleudert einen Frostblitz auf den Gegner, der 178 Frostschaden verursacht und 5 Sek. lang die Bewegungsgeschwindigkeit um 50% verringert.(Nur bis Stufe 49 aktiv)",
+          "en_GB": "Chance on hit: Launches a bolt of frost at the enemy causing 178 Frost damage and slowing movement speed by 50% for 5 sec. (Requires level 49 or below)",
+          "es_ES": "Probabilidad al acertar: Lanza una descarga de Escarcha al enemigo que inflige 178 p. de daño de Escarcha y reduce su velocidad de movimiento un 50% durante 5 s. (Se requiere un nivel 49 o inferior)",
+          "fr_FR": "Chances quand vous touchez : Lance un éclair de givre sur l'ennemi, inflige 178 points de dégâts de Givre et réduit sa vitesse de déplacement de 50% pendant 5 s. (Niveau 49 maximum requis.)",
+          "it_IT": "Probabilità all'impatto: Lancia un dardo gelido contro il nemico, infliggendo 178 danni da gelo e riducendo la velocità di movimento del nemico del 50% per 5 s. (Richiede il livello 49 o inferiore)",
+          "ru_RU": "Возможный эффект при попадании: В противника летит ледяная стрела, нанося 178 ед. урона от магии льда и снижая скорость передвижения на 50% на 5 сек. (требуется 49-й уровень или ниже)",
+          "ko_KR": "발동 효과: 적에게 얼음 화살을 날려 178의 냉기 피해를 입히고 5초 동안 이동 속도를 50%만큼 감소시킵니다. (49 레벨 이하에서만 유효함)",
+          "zh_TW": "擊中時可能： 向目標射出一支寒冰箭，對其造成178點冰霜傷害，並降低50%的移動速度，持續5秒。 (僅限49級以下)",
+          "zh_CN": "击中时可能： 向目标射出一支寒冰箭，对其造成178点冰霜伤害并使其移动速度降低50%，持续5秒。（要求等级不高于49）"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 760927,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "76",
+          "es_MX": "76",
+          "pt_BR": "76",
+          "de_DE": "76",
+          "en_GB": "76",
+          "es_ES": "76",
+          "fr_FR": "76",
+          "it_IT": "76",
+          "ru_RU": "76",
+          "ko_KR": "76",
+          "zh_TW": "76",
+          "zh_CN": "76"
+        },
+        "silver": {
+          "en_US": "9",
+          "es_MX": "9",
+          "pt_BR": "9",
+          "de_DE": "9",
+          "en_GB": "9",
+          "es_ES": "9",
+          "fr_FR": "9",
+          "it_IT": "9",
+          "ru_RU": "9",
+          "ko_KR": "9",
+          "zh_TW": "9",
+          "zh_CN": "9"
+        },
+        "copper": {
+          "en_US": "27",
+          "es_MX": "27",
+          "pt_BR": "27",
+          "de_DE": "27",
+          "en_GB": "27",
+          "es_ES": "27",
+          "fr_FR": "27",
+          "it_IT": "27",
+          "ru_RU": "27",
+          "ko_KR": "27",
+          "zh_TW": "27",
+          "zh_CN": "27"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 21,
+        "display_string": {
+          "en_US": "Requires Level 21",
+          "es_MX": "Necesitas ser de nivel 21",
+          "pt_BR": "Requer o Nível 21",
+          "de_DE": "Benötigt Stufe 21",
+          "en_GB": "Requires Level 21",
+          "es_ES": "Necesitas ser de nivel 21",
+          "fr_FR": "Niveau 21 requis",
+          "it_IT": "Richiede il livello 21",
+          "ru_RU": "Требуется 21-й уровень",
+          "ko_KR": "최소 요구 레벨: 21",
+          "zh_TW": "需要等級21",
+          "zh_CN": "需要等级 21"
+        }
+      }
+    },
+    "level": {
+      "value": 367,
+      "display_string": {
+        "en_US": "Item Level 367",
+        "es_MX": "Nivel de objeto 367",
+        "pt_BR": "Nível do Item: 367",
+        "de_DE": "Gegenstandsstufe 367",
+        "en_GB": "Item Level 367",
+        "es_ES": "Nivel de objeto 367",
+        "fr_FR": "Niveau d'objet 367",
+        "it_IT": "Livello oggetto: 367",
+        "ru_RU": "Уровень предмета: 367",
+        "ko_KR": "아이템 레벨: 367",
+        "zh_TW": "物品等級367",
+        "zh_CN": "物品等级367"
+      }
+    },
+    "durability": {
+      "value": 100,
+      "display_string": {
+        "en_US": "Durability 100 / 100",
+        "es_MX": "Durabilidad 100 / 100",
+        "pt_BR": "Durabilidade 100 / 100",
+        "de_DE": "Haltbarkeit 100 / 100",
+        "en_GB": "Durability 100 / 100",
+        "es_ES": "Durabilidad 100 / 100",
+        "fr_FR": "Durabilité : 100 / 100",
+        "it_IT": "Integrità 100/100",
+        "ru_RU": "Прочность: 100 / 100",
+        "ko_KR": "내구도 100 / 100",
+        "zh_TW": "耐久度 100 / 100",
+        "zh_CN": "耐久度 100 / 100"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/239?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 239
+    }
+  ]
+}

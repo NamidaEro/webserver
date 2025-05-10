@@ -1,0 +1,365 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/16218?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 16218,
+  "name": {
+    "en_US": "Formula: Enchant Bracer - Superior Versatility",
+    "es_MX": "Fórmula: encantar brazales: versatilidad superior",
+    "pt_BR": "Fórmula: Encantamento Superior de Versatilidade - Braçadeiras",
+    "de_DE": "Formel: Armschiene - Überlegene Vielseitigkeit",
+    "en_GB": "Formula: Enchant Bracer - Superior Versatility",
+    "es_ES": "Fórmula: Encantar brazales: versatilidad excelente",
+    "fr_FR": "Formule : Enchantement de brassards (Polyvalence excellente)",
+    "it_IT": "Formula: Incantamento Bracciali - Versatilità Pregevole",
+    "ru_RU": "Формула: чары для наручей - универсальность V",
+    "ko_KR": "주문식: 손목보호구 마법부여 - 최상급 유연성",
+    "zh_TW": "公式：附魔護腕 - 超強臨機應變",
+    "zh_CN": "公式：附魔护腕 - 超强全能"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/16218?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 16218
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Enchanting",
+      "es_MX": "Encantamiento",
+      "pt_BR": "Encantamento",
+      "de_DE": "Verzauberkunst",
+      "en_GB": "Enchanting",
+      "es_ES": "Encantamiento",
+      "fr_FR": "Enchantement",
+      "it_IT": "Incantamento",
+      "ru_RU": "Наложение чар",
+      "ko_KR": "마법부여",
+      "zh_TW": "附魔",
+      "zh_CN": "附魔"
+    },
+    "id": 8
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 14000,
+  "sell_price": 3500,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to perform the Superior Versatility enchantment on bracers.",
+    "es_MX": "Te enseña a aplicar el encantamiento Versatilidad superior en brazales.",
+    "pt_BR": "Ensina a realizar o encantamento Superior de Versatilidade em braçadeiras.",
+    "de_DE": "Lehrt Euch, wie man die Verzauberung 'Überlegene Vielseitigkeit' bei Armschienen durchführt.",
+    "en_GB": "Teaches you how to perform the Superior Versatility enchantment on bracers.",
+    "es_ES": "Te enseña a realizar el encantamiento Versatilidad excelente en brazales.",
+    "fr_FR": "Vous apprend à appliquer l’enchantement Polyvalence excellente sur les brassards.",
+    "it_IT": "Ti insegna a creare l'incantamento Versatilità Pregevole su un equipaggiamento per polsi.",
+    "ru_RU": "Обучает наложению на наручи чар \"Высшая универсальность\".",
+    "ko_KR": "손목보호구에 최상급 유연성 마법을 부여하는 법을 배웁니다.",
+    "zh_TW": "教你學會如何為護腕進行超強臨機應變附魔。",
+    "zh_CN": "教你学会在护腕上施加超强全能的附魔效果。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/16218?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 16218
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Formula: Enchant Bracer - Superior Versatility",
+      "es_MX": "Fórmula: encantar brazales: versatilidad superior",
+      "pt_BR": "Fórmula: Encantamento Superior de Versatilidade - Braçadeiras",
+      "de_DE": "Formel: Armschiene - Überlegene Vielseitigkeit",
+      "en_GB": "Formula: Enchant Bracer - Superior Versatility",
+      "es_ES": "Fórmula: Encantar brazales: versatilidad excelente",
+      "fr_FR": "Formule : Enchantement de brassards (Polyvalence excellente)",
+      "it_IT": "Formula: Incantamento Bracciali - Versatilità Pregevole",
+      "ru_RU": "Формула: чары для наручей - универсальность V",
+      "ko_KR": "주문식: 손목보호구 마법부여 - 최상급 유연성",
+      "zh_TW": "公式：附魔護腕 - 超強臨機應變",
+      "zh_CN": "公式：附魔护腕 - 超强全能"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/16218?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 16218
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Enchanting",
+        "es_MX": "Encantamiento",
+        "pt_BR": "Encantamento",
+        "de_DE": "Verzauberkunst",
+        "en_GB": "Enchanting",
+        "es_ES": "Encantamiento",
+        "fr_FR": "Enchantement",
+        "it_IT": "Incantamento",
+        "ru_RU": "Наложение чар",
+        "ko_KR": "마법부여",
+        "zh_TW": "附魔",
+        "zh_CN": "附魔"
+      },
+      "id": 8
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/20009?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Superior Versatility",
+            "es_MX": "Versatilidad superior",
+            "pt_BR": "Superior de Versatilidade",
+            "de_DE": "Überlegene Vielseitigkeit",
+            "en_GB": "Superior Versatility",
+            "es_ES": "Versatilidad excelente",
+            "fr_FR": "Polyvalence excellente",
+            "it_IT": "Versatilità Pregevole",
+            "ru_RU": "Универсальность V",
+            "ko_KR": "최상급 유연성",
+            "zh_TW": "超強臨機應變",
+            "zh_CN": "超强全能"
+          },
+          "id": 20009
+        },
+        "description": {
+          "en_US": "Use: Teaches you how to perform the Superior Versatility enchantment on bracers.",
+          "es_MX": "Usar: Te enseña a aplicar el encantamiento Versatilidad superior en brazales.",
+          "pt_BR": "Usar: Ensina a realizar o encantamento Superior de Versatilidade em braçadeiras.",
+          "de_DE": "Benutzen: Lehrt Euch, wie man die Verzauberung 'Überlegene Vielseitigkeit' bei Armschienen durchführt.",
+          "en_GB": "Use: Teaches you how to perform the Superior Versatility enchantment on bracers.",
+          "es_ES": "Uso: Te enseña a realizar el encantamiento Versatilidad excelente en brazales.",
+          "fr_FR": "Utiliser : Vous apprend à appliquer l’enchantement Polyvalence excellente sur les brassards.",
+          "it_IT": "Usa: Ti insegna a creare l'incantamento Versatilità Pregevole su un equipaggiamento per polsi.",
+          "ru_RU": "Использование: Обучает наложению на наручи чар \"Высшая универсальность\".",
+          "ko_KR": "사용 효과: 손목보호구에 최상급 유연성 마법을 부여하는 법을 배웁니다.",
+          "zh_TW": "使用： 教你學會如何為護腕進行超強臨機應變附魔。",
+          "zh_CN": "使用： 教你学会在护腕上施加超强全能的附魔效果。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 3500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "35",
+          "es_MX": "35",
+          "pt_BR": "35",
+          "de_DE": "35",
+          "en_GB": "35",
+          "es_ES": "35",
+          "fr_FR": "35",
+          "it_IT": "35",
+          "ru_RU": "35",
+          "ko_KR": "35",
+          "zh_TW": "35",
+          "zh_CN": "35"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Enchanting",
+            "es_MX": "Encantamiento clásico",
+            "pt_BR": "Encantamento do Classic",
+            "de_DE": "Klassische Verzauberkunst",
+            "en_GB": "Classic Enchanting",
+            "es_ES": "Encantamiento clásico",
+            "fr_FR": "Enchantement classique",
+            "it_IT": "Incantamento Classico",
+            "ru_RU": "Классическое наложение чар",
+            "ko_KR": "옛 마법부여",
+            "zh_TW": "艾澤拉斯附魔",
+            "zh_CN": "经典旧世附魔"
+          },
+          "id": 2494
+        },
+        "level": 270,
+        "display_string": {
+          "en_US": "Requires Classic Enchanting (270)",
+          "es_MX": "Requiere Encantamiento clásico (270)",
+          "pt_BR": "Requer Encantamento do Classic (270)",
+          "de_DE": "Benötigt Klassische Verzauberkunst (270)",
+          "en_GB": "Requires Classic Enchanting (270)",
+          "es_ES": "Requiere Encantamiento clásico (270)",
+          "fr_FR": "Enchantement classique (270) requis",
+          "it_IT": "Richiede: Incantamento Classico (270)",
+          "ru_RU": "Требуется: Классическое наложение чар (270)",
+          "ko_KR": "요구 사항: 옛 마법부여 (270)",
+          "zh_TW": "需要艾澤拉斯附魔(270)",
+          "zh_CN": "需要经典旧世附魔（270）"
+        }
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

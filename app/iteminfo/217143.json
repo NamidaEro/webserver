@@ -1,0 +1,633 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/217143?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 217143,
+  "name": {
+    "en_US": "Algari Competitor's Plate Breastplate",
+    "es_MX": "Coraza de placas de Competidor algari",
+    "pt_BR": "Peitoral de Placa do Competidor Algari",
+    "de_DE": "Plattenbrustpanzer des Algariwettkämpfers",
+    "en_GB": "Algari Competitor's Plate Breastplate",
+    "es_ES": "Coraza de placas de competidor algariano",
+    "fr_FR": "Cuirasse de compétition algarie en plaques",
+    "it_IT": "Pettorale Corazzato a Piastre del Concorrente Algari",
+    "ru_RU": "Латная кираса алгарийского бойца",
+    "ko_KR": "알가르 경쟁자의 판금 가슴보호갑",
+    "zh_TW": "阿爾加競技者鎧甲胸甲",
+    "zh_CN": "阿加竞争者的板甲护胸"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 577,
+  "required_level": 80,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/217143?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 217143
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Plate",
+      "es_MX": "Placas",
+      "pt_BR": "Placas",
+      "de_DE": "Platte",
+      "en_GB": "Plate",
+      "es_ES": "Placas",
+      "fr_FR": "Plaques",
+      "it_IT": "Piastre",
+      "ru_RU": "Латы",
+      "ko_KR": "판금",
+      "zh_TW": "鎧甲",
+      "zh_CN": "板甲"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "CHEST",
+    "name": {
+      "en_US": "Chest",
+      "es_MX": "Pecho",
+      "pt_BR": "Torso",
+      "de_DE": "Brust",
+      "en_GB": "Chest",
+      "es_ES": "Torso",
+      "fr_FR": "Torse",
+      "it_IT": "Torso",
+      "ru_RU": "Грудь",
+      "ko_KR": "가슴",
+      "zh_TW": "胸部",
+      "zh_CN": "胸部"
+    }
+  },
+  "purchase_price": 2345533,
+  "sell_price": 469106,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/217143?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 217143
+    },
+    "context": 0,
+    "bonus_list": [
+      11318
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Algari Competitor's Plate Breastplate",
+      "es_MX": "Coraza de placas de Competidor algari",
+      "pt_BR": "Peitoral de Placa do Competidor Algari",
+      "de_DE": "Plattenbrustpanzer des Algariwettkämpfers",
+      "en_GB": "Algari Competitor's Plate Breastplate",
+      "es_ES": "Coraza de placas de competidor algariano",
+      "fr_FR": "Cuirasse de compétition algarie en plaques",
+      "it_IT": "Pettorale Corazzato a Piastre del Concorrente Algari",
+      "ru_RU": "Латная кираса алгарийского бойца",
+      "ko_KR": "알가르 경쟁자의 판금 가슴보호갑",
+      "zh_TW": "阿爾加競技者鎧甲胸甲",
+      "zh_CN": "阿加竞争者的板甲护胸"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/217143?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 217143
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Plate",
+        "es_MX": "Placas",
+        "pt_BR": "Placas",
+        "de_DE": "Platte",
+        "en_GB": "Plate",
+        "es_ES": "Placas",
+        "fr_FR": "Plaques",
+        "it_IT": "Piastre",
+        "ru_RU": "Латы",
+        "ko_KR": "판금",
+        "zh_TW": "鎧甲",
+        "zh_CN": "板甲"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "CHEST",
+      "name": {
+        "en_US": "Chest",
+        "es_MX": "Pecho",
+        "pt_BR": "Torso",
+        "de_DE": "Brust",
+        "en_GB": "Chest",
+        "es_ES": "Torso",
+        "fr_FR": "Torse",
+        "it_IT": "Torso",
+        "ru_RU": "Грудь",
+        "ko_KR": "가슴",
+        "zh_TW": "胸部",
+        "zh_CN": "胸部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 4891,
+      "display": {
+        "display_string": {
+          "en_US": "4,891 Armor",
+          "es_MX": "4,891 p. de armadura",
+          "pt_BR": "4.891 de Armadura",
+          "de_DE": "4.891 Rüstung",
+          "en_GB": "4,891 Armor",
+          "es_ES": "4891 p. de armadura",
+          "fr_FR": "Armure : 4891",
+          "it_IT": "4.891 Armatura",
+          "ru_RU": "Броня: 4891",
+          "ko_KR": "방어도 4,891",
+          "zh_TW": "4,891點護甲",
+          "zh_CN": "4,891点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 1580,
+        "display": {
+          "display_string": {
+            "en_US": "+1,580 Intellect",
+            "es_MX": "+1,580 intelecto",
+            "pt_BR": "+1.580 Intelecto",
+            "de_DE": "+1.580 Intelligenz",
+            "en_GB": "+1,580 Intellect",
+            "es_ES": "+1580 intelecto",
+            "fr_FR": "+1580 Intelligence",
+            "it_IT": "+1.580 Intelletto",
+            "ru_RU": "+1580 к интеллекту",
+            "ko_KR": "지능 +1,580",
+            "zh_TW": "+1,580智力",
+            "zh_CN": "+1,580 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": {
+            "en_US": "Strength",
+            "es_MX": "fuerza",
+            "pt_BR": "Força",
+            "de_DE": "Stärke",
+            "en_GB": "Strength",
+            "es_ES": "fuerza",
+            "fr_FR": "Force",
+            "it_IT": "Forza",
+            "ru_RU": "к силе",
+            "ko_KR": "힘",
+            "zh_TW": "力量",
+            "zh_CN": "力量"
+          }
+        },
+        "value": 1580,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+1,580 Strength",
+            "es_MX": "+1,580 fuerza",
+            "pt_BR": "+1.580 Força",
+            "de_DE": "+1.580 Stärke",
+            "en_GB": "+1,580 Strength",
+            "es_ES": "+1580 fuerza",
+            "fr_FR": "+1580 Force",
+            "it_IT": "+1.580 Forza",
+            "ru_RU": "+1580 к силе",
+            "ko_KR": "힘 +1,580",
+            "zh_TW": "+1,580力量",
+            "zh_CN": "+1,580 力量"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 7884,
+        "display": {
+          "display_string": {
+            "en_US": "+7,884 Stamina",
+            "es_MX": "+7,884 aguante",
+            "pt_BR": "+7.884 Vigor",
+            "de_DE": "+7.884 Ausdauer",
+            "en_GB": "+7,884 Stamina",
+            "es_ES": "+7884 aguante",
+            "fr_FR": "+7884 Endurance",
+            "it_IT": "+7.884 Tempra",
+            "ru_RU": "+7884 к выносливости",
+            "ko_KR": "체력 +7,884",
+            "zh_TW": "+7,884耐力",
+            "zh_CN": "+7,884 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 649,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+649 Versatility",
+            "es_MX": "+649 versatilidad",
+            "pt_BR": "+649 Versatilidade",
+            "de_DE": "+649 Vielseitigkeit",
+            "en_GB": "+649 Versatility",
+            "es_ES": "+649 versatilidad",
+            "fr_FR": "+649 Polyvalence",
+            "it_IT": "+649 Indice di versatilità",
+            "ru_RU": "+649 к универсальности",
+            "ko_KR": "유연성 +649",
+            "zh_TW": "+649臨機應變",
+            "zh_CN": "+649 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": {
+            "en_US": "Mastery",
+            "es_MX": "maestría",
+            "pt_BR": "Maestria",
+            "de_DE": "Meisterschaft",
+            "en_GB": "Mastery",
+            "es_ES": "maestría",
+            "fr_FR": "Maîtrise",
+            "it_IT": "Indice di maestria",
+            "ru_RU": "к искусности",
+            "ko_KR": "특화",
+            "zh_TW": "精通",
+            "zh_CN": "精通"
+          }
+        },
+        "value": 649,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+649 Mastery",
+            "es_MX": "+649 maestría",
+            "pt_BR": "+649 Maestria",
+            "de_DE": "+649 Meisterschaft",
+            "en_GB": "+649 Mastery",
+            "es_ES": "+649 maestría",
+            "fr_FR": "+649 Maîtrise",
+            "it_IT": "+649 Indice di maestria",
+            "ru_RU": "+649 к искусности",
+            "ko_KR": "특화 +649",
+            "zh_TW": "+649精通",
+            "zh_CN": "+649 精通"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 469106,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "46",
+          "es_MX": "46",
+          "pt_BR": "46",
+          "de_DE": "46",
+          "en_GB": "46",
+          "es_ES": "46",
+          "fr_FR": "46",
+          "it_IT": "46",
+          "ru_RU": "46",
+          "ko_KR": "46",
+          "zh_TW": "46",
+          "zh_CN": "46"
+        },
+        "silver": {
+          "en_US": "91",
+          "es_MX": "91",
+          "pt_BR": "91",
+          "de_DE": "91",
+          "en_GB": "91",
+          "es_ES": "91",
+          "fr_FR": "91",
+          "it_IT": "91",
+          "ru_RU": "91",
+          "ko_KR": "91",
+          "zh_TW": "91",
+          "zh_CN": "91"
+        },
+        "copper": {
+          "en_US": "6",
+          "es_MX": "6",
+          "pt_BR": "6",
+          "de_DE": "6",
+          "en_GB": "6",
+          "es_ES": "6",
+          "fr_FR": "6",
+          "it_IT": "6",
+          "ru_RU": "6",
+          "ko_KR": "6",
+          "zh_TW": "6",
+          "zh_CN": "6"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 80,
+        "display_string": {
+          "en_US": "Requires Level 80",
+          "es_MX": "Necesitas ser de nivel 80",
+          "pt_BR": "Requer o Nível 80",
+          "de_DE": "Benötigt Stufe 80",
+          "en_GB": "Requires Level 80",
+          "es_ES": "Necesitas ser de nivel 80",
+          "fr_FR": "Niveau 80 requis",
+          "it_IT": "Richiede il livello 80",
+          "ru_RU": "Требуется 80-й уровень",
+          "ko_KR": "최소 요구 레벨: 80",
+          "zh_TW": "需要等級80",
+          "zh_CN": "需要等级 80"
+        }
+      }
+    },
+    "level": {
+      "value": 545,
+      "display_string": {
+        "en_US": "Item Level 545",
+        "es_MX": "Nivel de objeto 545",
+        "pt_BR": "Nível do Item: 545",
+        "de_DE": "Gegenstandsstufe 545",
+        "en_GB": "Item Level 545",
+        "es_ES": "Nivel de objeto 545",
+        "fr_FR": "Niveau d'objet 545",
+        "it_IT": "Livello oggetto: 545",
+        "ru_RU": "Уровень предмета: 545",
+        "ko_KR": "아이템 레벨: 545",
+        "zh_TW": "物品等級545",
+        "zh_CN": "物品等级545"
+      }
+    },
+    "durability": {
+      "value": 115,
+      "display_string": {
+        "en_US": "Durability 115 / 115",
+        "es_MX": "Durabilidad 115 / 115",
+        "pt_BR": "Durabilidade 115 / 115",
+        "de_DE": "Haltbarkeit 115 / 115",
+        "en_GB": "Durability 115 / 115",
+        "es_ES": "Durabilidad 115 / 115",
+        "fr_FR": "Durabilité : 115 / 115",
+        "it_IT": "Integrità 115/115",
+        "ru_RU": "Прочность: 115 / 115",
+        "ko_KR": "내구도 115 / 115",
+        "zh_TW": "耐久度 115 / 115",
+        "zh_CN": "耐久度 115 / 115"
+      }
+    },
+    "modified_crafting_stat": [
+      {
+        "id": 40,
+        "type": "VERSATILITY",
+        "name": {
+          "en_US": "Versatility",
+          "es_MX": "versatilidad",
+          "pt_BR": "Versatilidade",
+          "de_DE": "Vielseitigkeit",
+          "en_GB": "Versatility",
+          "es_ES": "versatilidad",
+          "fr_FR": "Polyvalence",
+          "it_IT": "Indice di versatilità",
+          "ru_RU": "к универсальности",
+          "ko_KR": "유연성",
+          "zh_TW": "臨機應變",
+          "zh_CN": "全能"
+        }
+      },
+      {
+        "id": 49,
+        "type": "MASTERY_RATING",
+        "name": {
+          "en_US": "Mastery",
+          "es_MX": "maestría",
+          "pt_BR": "Maestria",
+          "de_DE": "Meisterschaft",
+          "en_GB": "Mastery",
+          "es_ES": "maestría",
+          "fr_FR": "Maîtrise",
+          "it_IT": "Indice di maestria",
+          "ru_RU": "к искусности",
+          "ko_KR": "특화",
+          "zh_TW": "精通",
+          "zh_CN": "精通"
+        }
+      }
+    ]
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/91258?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 91258
+    }
+  ]
+}

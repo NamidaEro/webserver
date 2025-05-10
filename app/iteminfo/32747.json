@@ -1,0 +1,858 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/32747?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 32747,
+  "name": {
+    "en_US": "Pattern: Swiftstrike Shoulders",
+    "es_MX": "Patrón: sobrehombros Golpepresto",
+    "pt_BR": "Molde: Omoplatas do Golpepresto",
+    "de_DE": "Muster: Flinkschlagschultern",
+    "en_GB": "Pattern: Swiftstrike Shoulders",
+    "es_ES": "Patrón: sobrehombros Golpepresto",
+    "fr_FR": "Patron : Epaulières de frappe rapide",
+    "it_IT": "Modello: Spallacci dell'Assalto Rapido",
+    "ru_RU": "Выкройка: наплечники молниеносного удара",
+    "ko_KR": "도안: 재빠른 일격의 어깨보호구",
+    "zh_TW": "圖樣:迅擊護肩",
+    "zh_CN": "图样：迅捷打击护肩"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 27,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/32747?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 32747
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leatherworking",
+      "es_MX": "Peletería",
+      "pt_BR": "Couraria",
+      "de_DE": "Lederverarbeitung",
+      "en_GB": "Leatherworking",
+      "es_ES": "Peletería",
+      "fr_FR": "Travail du cuir",
+      "it_IT": "Conciatura",
+      "ru_RU": "Кожевничество",
+      "ko_KR": "가죽세공",
+      "zh_TW": "製皮",
+      "zh_CN": "制皮"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 50000,
+  "sell_price": 12500,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Swiftstrike Shoulders.",
+    "es_MX": "Te enseña a fabricar unos sobrehombros Golpepresto.",
+    "pt_BR": "Ensina a fazer Omoplatas do Golpepresto.",
+    "de_DE": "Lehrt Euch die Herstellung von Flinkschlagschultern.",
+    "en_GB": "Teaches you how to craft Swiftstrike Shoulders.",
+    "es_ES": "Te enseña a fabricar unos sobrehombros Golpepresto.",
+    "fr_FR": "Vous apprend à confectionner des Epaulières de frappe rapide.",
+    "it_IT": "Ti insegna a creare degli Spallacci dell'Assalto Rapido.",
+    "ru_RU": "Обучает изготовлению наплечников молниеносного удара.",
+    "ko_KR": "재빠른 일격의 어깨보호구 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作迅擊護肩。",
+    "zh_CN": "教你学会制作迅捷打击护肩。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/32747?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 32747
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Swiftstrike Shoulders",
+      "es_MX": "Patrón: sobrehombros Golpepresto",
+      "pt_BR": "Molde: Omoplatas do Golpepresto",
+      "de_DE": "Muster: Flinkschlagschultern",
+      "en_GB": "Pattern: Swiftstrike Shoulders",
+      "es_ES": "Patrón: sobrehombros Golpepresto",
+      "fr_FR": "Patron : Epaulières de frappe rapide",
+      "it_IT": "Modello: Spallacci dell'Assalto Rapido",
+      "ru_RU": "Выкройка: наплечники молниеносного удара",
+      "ko_KR": "도안: 재빠른 일격의 어깨보호구",
+      "zh_TW": "圖樣:迅擊護肩",
+      "zh_CN": "图样：迅捷打击护肩"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/32747?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 32747
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leatherworking",
+        "es_MX": "Peletería",
+        "pt_BR": "Couraria",
+        "de_DE": "Lederverarbeitung",
+        "en_GB": "Leatherworking",
+        "es_ES": "Peletería",
+        "fr_FR": "Travail du cuir",
+        "it_IT": "Conciatura",
+        "ru_RU": "Кожевничество",
+        "ko_KR": "가죽세공",
+        "zh_TW": "製皮",
+        "zh_CN": "制皮"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 12500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "1",
+          "es_MX": "1",
+          "pt_BR": "1",
+          "de_DE": "1",
+          "en_GB": "1",
+          "es_ES": "1",
+          "fr_FR": "1",
+          "it_IT": "1",
+          "ru_RU": "1",
+          "ko_KR": "1",
+          "zh_TW": "1",
+          "zh_CN": "1"
+        },
+        "silver": {
+          "en_US": "25",
+          "es_MX": "25",
+          "pt_BR": "25",
+          "de_DE": "25",
+          "en_GB": "25",
+          "es_ES": "25",
+          "fr_FR": "25",
+          "it_IT": "25",
+          "ru_RU": "25",
+          "ko_KR": "25",
+          "zh_TW": "25",
+          "zh_CN": "25"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2531?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Outland Leatherworking",
+            "es_MX": "Peletería de Terrallende",
+            "pt_BR": "Couraria de Terralém",
+            "de_DE": "Lederverarbeitung der Scherbenwelt",
+            "en_GB": "Outland Leatherworking",
+            "es_ES": "Peletería de Terrallende",
+            "fr_FR": "Travail du cuir d’Outreterre",
+            "it_IT": "Conciatura delle Terre Esterne",
+            "ru_RU": "Кожевничество Запределья",
+            "ko_KR": "아웃랜드 가죽세공",
+            "zh_TW": "外域製皮",
+            "zh_CN": "外域制皮"
+          },
+          "id": 2531
+        },
+        "level": 75,
+        "display_string": {
+          "en_US": "Requires Outland Leatherworking (75)",
+          "es_MX": "Requiere Peletería de Terrallende (75)",
+          "pt_BR": "Requer Couraria de Terralém (75)",
+          "de_DE": "Benötigt Lederverarbeitung der Scherbenwelt (75)",
+          "en_GB": "Requires Outland Leatherworking (75)",
+          "es_ES": "Requiere Peletería de Terrallende (75)",
+          "fr_FR": "Travail du cuir d’Outreterre (75) requis",
+          "it_IT": "Richiede: Conciatura delle Terre Esterne (75)",
+          "ru_RU": "Требуется: Кожевничество Запределья (75)",
+          "ko_KR": "요구 사항: 아웃랜드 가죽세공 (75)",
+          "zh_TW": "需要外域製皮(75)",
+          "zh_CN": "需要外域制皮（75）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft Swiftstrike Shoulders.",
+      "es_MX": "Te enseña a fabricar unos sobrehombros Golpepresto.",
+      "pt_BR": "Ensina a fazer Omoplatas do Golpepresto.",
+      "de_DE": "Lehrt Euch die Herstellung von Flinkschlagschultern.",
+      "en_GB": "Teaches you how to craft Swiftstrike Shoulders.",
+      "es_ES": "Te enseña a fabricar unos sobrehombros Golpepresto.",
+      "fr_FR": "Vous apprend à confectionner des Epaulières de frappe rapide.",
+      "it_IT": "Ti insegna a creare degli Spallacci dell'Assalto Rapido.",
+      "ru_RU": "Обучает изготовлению наплечников молниеносного удара.",
+      "ko_KR": "재빠른 일격의 어깨보호구 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作迅擊護肩。",
+      "zh_CN": "教你学会制作迅捷打击护肩。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/32581?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 32581
+        },
+        "quality": {
+          "type": "EPIC",
+          "name": {
+            "en_US": "Epic",
+            "es_MX": "Épico",
+            "pt_BR": "Épico",
+            "de_DE": "Episch",
+            "en_GB": "Epic",
+            "es_ES": "Épico",
+            "fr_FR": "Épique",
+            "it_IT": "Epico",
+            "ru_RU": "Эпическое",
+            "ko_KR": "영웅",
+            "zh_TW": "史詩",
+            "zh_CN": "史诗"
+          }
+        },
+        "name": {
+          "en_US": "Swiftstrike Shoulders",
+          "es_MX": "Sobrehombros Golpepresto",
+          "pt_BR": "Omoplatas do Golpepresto",
+          "de_DE": "Flinkschlagschultern",
+          "en_GB": "Swiftstrike Shoulders",
+          "es_ES": "Sobrehombros Golpepresto",
+          "fr_FR": "Epaulières de frappe rapide",
+          "it_IT": "Spallacci dell'Assalto Rapido",
+          "ru_RU": "Наплечники молниеносного удара",
+          "ko_KR": "재빠른 일격의 어깨보호구",
+          "zh_TW": "迅擊護肩",
+          "zh_CN": "迅捷打击护肩"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/32581?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 32581
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Leather",
+            "es_MX": "Cuero",
+            "pt_BR": "Couro",
+            "de_DE": "Leder",
+            "en_GB": "Leather",
+            "es_ES": "Cuero",
+            "fr_FR": "Cuir",
+            "it_IT": "Cuoio",
+            "ru_RU": "Кожа",
+            "ko_KR": "가죽",
+            "zh_TW": "皮甲",
+            "zh_CN": "皮甲"
+          },
+          "id": 2
+        },
+        "inventory_type": {
+          "type": "SHOULDER",
+          "name": {
+            "en_US": "Shoulder",
+            "es_MX": "Hombro",
+            "pt_BR": "Ombros",
+            "de_DE": "Schulter",
+            "en_GB": "Shoulder",
+            "es_ES": "Hombro",
+            "fr_FR": "Épaule",
+            "it_IT": "Spalle",
+            "ru_RU": "Плечи",
+            "ko_KR": "어깨",
+            "zh_TW": "肩部",
+            "zh_CN": "肩部"
+          }
+        },
+        "binding": {
+          "type": "ON_ACQUIRE",
+          "name": {
+            "en_US": "Binds when picked up",
+            "es_MX": "Se liga al recogerlo",
+            "pt_BR": "Vincula-se ao ser recolhido",
+            "de_DE": "Wird beim Aufheben gebunden",
+            "en_GB": "Binds when picked up",
+            "es_ES": "Se liga al recogerlo",
+            "fr_FR": "Lié quand ramassé",
+            "it_IT": "Si vincola alla raccolta",
+            "ru_RU": "Становится персональным при получении",
+            "ko_KR": "획득 시 귀속",
+            "zh_TW": "拾取後綁定",
+            "zh_CN": "拾取后绑定"
+          }
+        },
+        "armor": {
+          "value": 5,
+          "display": {
+            "display_string": {
+              "en_US": "5 Armor",
+              "es_MX": "5 p. de armadura",
+              "pt_BR": "5 de Armadura",
+              "de_DE": "5 Rüstung",
+              "en_GB": "5 Armor",
+              "es_ES": "5 p. de armadura",
+              "fr_FR": "Armure : 5",
+              "it_IT": "5 Armatura",
+              "ru_RU": "Броня: 5",
+              "ko_KR": "방어도 5",
+              "zh_TW": "5點護甲",
+              "zh_CN": "5点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "INTELLECT",
+              "name": {
+                "en_US": "Intellect",
+                "es_MX": "intelecto",
+                "pt_BR": "Intelecto",
+                "de_DE": "Intelligenz",
+                "en_GB": "Intellect",
+                "es_ES": "intelecto",
+                "fr_FR": "Intelligence",
+                "it_IT": "Intelletto",
+                "ru_RU": "к интеллекту",
+                "ko_KR": "지능",
+                "zh_TW": "智力",
+                "zh_CN": "智力"
+              }
+            },
+            "value": 3,
+            "display": {
+              "display_string": {
+                "en_US": "+3 Intellect",
+                "es_MX": "+3 intelecto",
+                "pt_BR": "+3 Intelecto",
+                "de_DE": "+3 Intelligenz",
+                "en_GB": "+3 Intellect",
+                "es_ES": "+3 intelecto",
+                "fr_FR": "+3 Intelligence",
+                "it_IT": "+3 Intelletto",
+                "ru_RU": "+3 к интеллекту",
+                "ko_KR": "지능 +3",
+                "zh_TW": "+3智力",
+                "zh_CN": "+3 智力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "AGILITY",
+              "name": {
+                "en_US": "Agility",
+                "es_MX": "agilidad",
+                "pt_BR": "Agilidade",
+                "de_DE": "Beweglichkeit",
+                "en_GB": "Agility",
+                "es_ES": "agilidad",
+                "fr_FR": "Agilité",
+                "it_IT": "Agilità",
+                "ru_RU": "к ловкости",
+                "ko_KR": "민첩성",
+                "zh_TW": "敏捷",
+                "zh_CN": "敏捷"
+              }
+            },
+            "value": 3,
+            "is_negated": true,
+            "display": {
+              "display_string": {
+                "en_US": "+3 Agility",
+                "es_MX": "+3 agilidad",
+                "pt_BR": "+3 Agilidade",
+                "de_DE": "+3 Beweglichkeit",
+                "en_GB": "+3 Agility",
+                "es_ES": "+3 agilidad",
+                "fr_FR": "+3 Agilité",
+                "it_IT": "+3 Agilità",
+                "ru_RU": "+3 к ловкости",
+                "ko_KR": "민첩성 +3",
+                "zh_TW": "+3敏捷",
+                "zh_CN": "+3 敏捷"
+              },
+              "color": {
+                "r": 128,
+                "g": 128,
+                "b": 128,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "STAMINA",
+              "name": {
+                "en_US": "Stamina",
+                "es_MX": "aguante",
+                "pt_BR": "Vigor",
+                "de_DE": "Ausdauer",
+                "en_GB": "Stamina",
+                "es_ES": "aguante",
+                "fr_FR": "Endurance",
+                "it_IT": "Tempra",
+                "ru_RU": "к выносливости",
+                "ko_KR": "체력",
+                "zh_TW": "耐力",
+                "zh_CN": "耐力"
+              }
+            },
+            "value": 4,
+            "display": {
+              "display_string": {
+                "en_US": "+4 Stamina",
+                "es_MX": "+4 aguante",
+                "pt_BR": "+4 Vigor",
+                "de_DE": "+4 Ausdauer",
+                "en_GB": "+4 Stamina",
+                "es_ES": "+4 aguante",
+                "fr_FR": "+4 Endurance",
+                "it_IT": "+4 Tempra",
+                "ru_RU": "+4 к выносливости",
+                "ko_KR": "체력 +4",
+                "zh_TW": "+4耐力",
+                "zh_CN": "+4 耐力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "HASTE_RATING",
+              "name": {
+                "en_US": "Haste",
+                "es_MX": "celeridad",
+                "pt_BR": "Aceleração",
+                "de_DE": "Tempo",
+                "en_GB": "Haste",
+                "es_ES": "celeridad",
+                "fr_FR": "Hâte",
+                "it_IT": "Indice di celerità",
+                "ru_RU": "к скорости",
+                "ko_KR": "가속",
+                "zh_TW": "加速",
+                "zh_CN": "急速"
+              }
+            },
+            "value": 4,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+4 Haste",
+                "es_MX": "+4 celeridad",
+                "pt_BR": "+4 Aceleração",
+                "de_DE": "+4 Tempo",
+                "en_GB": "+4 Haste",
+                "es_ES": "+4 celeridad",
+                "fr_FR": "+4 Hâte",
+                "it_IT": "+4 Indice di celerità",
+                "ru_RU": "+4 к скорости",
+                "ko_KR": "가속 +4",
+                "zh_TW": "+4加速",
+                "zh_CN": "+4 急速"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 222,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "2",
+              "es_MX": "2",
+              "pt_BR": "2",
+              "de_DE": "2",
+              "en_GB": "2",
+              "es_ES": "2",
+              "fr_FR": "2",
+              "it_IT": "2",
+              "ru_RU": "2",
+              "ko_KR": "2",
+              "zh_TW": "2",
+              "zh_CN": "2"
+            },
+            "copper": {
+              "en_US": "22",
+              "es_MX": "22",
+              "pt_BR": "22",
+              "de_DE": "22",
+              "en_GB": "22",
+              "es_ES": "22",
+              "fr_FR": "22",
+              "it_IT": "22",
+              "ru_RU": "22",
+              "ko_KR": "22",
+              "zh_TW": "22",
+              "zh_CN": "22"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 27,
+            "display_string": {
+              "en_US": "Requires Level 27",
+              "es_MX": "Necesitas ser de nivel 27",
+              "pt_BR": "Requer o Nível 27",
+              "de_DE": "Benötigt Stufe 27",
+              "en_GB": "Requires Level 27",
+              "es_ES": "Necesitas ser de nivel 27",
+              "fr_FR": "Niveau 27 requis",
+              "it_IT": "Richiede il livello 27",
+              "ru_RU": "Требуется 27-й уровень",
+              "ko_KR": "최소 요구 레벨: 27",
+              "zh_TW": "需要等級27",
+              "zh_CN": "需要等级 27"
+            }
+          }
+        },
+        "level": {
+          "value": 32,
+          "display_string": {
+            "en_US": "Item Level 32",
+            "es_MX": "Nivel de objeto 32",
+            "pt_BR": "Nível do Item: 32",
+            "de_DE": "Gegenstandsstufe 32",
+            "en_GB": "Item Level 32",
+            "es_ES": "Nivel de objeto 32",
+            "fr_FR": "Niveau d'objet 32",
+            "it_IT": "Livello oggetto: 32",
+            "ru_RU": "Уровень предмета: 32",
+            "ko_KR": "아이템 레벨: 32",
+            "zh_TW": "物品等級32",
+            "zh_CN": "物品等级32"
+          }
+        },
+        "durability": {
+          "value": 100,
+          "display_string": {
+            "en_US": "Durability 100 / 100",
+            "es_MX": "Durabilidad 100 / 100",
+            "pt_BR": "Durabilidade 100 / 100",
+            "de_DE": "Haltbarkeit 100 / 100",
+            "en_GB": "Durability 100 / 100",
+            "es_ES": "Durabilidad 100 / 100",
+            "fr_FR": "Durabilité : 100 / 100",
+            "it_IT": "Integrità 100/100",
+            "ru_RU": "Прочность: 100 / 100",
+            "ko_KR": "내구도 100 / 100",
+            "zh_TW": "耐久度 100 / 100",
+            "zh_CN": "耐久度 100 / 100"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/23793?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Heavy Knothide Leather",
+              "es_MX": "Cuero de pellejo nudoso grueso",
+              "pt_BR": "Couro Nodoso Pesado",
+              "de_DE": "Schweres Knotenhautleder",
+              "en_GB": "Heavy Knothide Leather",
+              "es_ES": "Cuero de pellejo nudoso grueso",
+              "fr_FR": "Cuir granuleux lourd",
+              "it_IT": "Cuoio Nodoso Pesante",
+              "ru_RU": "Толстая узловатая кожа",
+              "ko_KR": "질긴 톱니매듭 가죽",
+              "zh_TW": "厚重境外皮革",
+              "zh_CN": "重结缔皮"
+            },
+            "id": 23793
+          },
+          "quantity": 6
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/22451?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Primal Air",
+              "es_MX": "Aire primigenio",
+              "pt_BR": "Ar Primevo",
+              "de_DE": "Urluft",
+              "en_GB": "Primal Air",
+              "es_ES": "Aire primigenio",
+              "fr_FR": "Air primordial",
+              "it_IT": "Aria Primordiale",
+              "ru_RU": "Изначальный воздух",
+              "ko_KR": "바람의 근원",
+              "zh_TW": "原始空氣",
+              "zh_CN": "源生空气"
+            },
+            "id": 22451
+          },
+          "quantity": 12
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/32428?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Heart of Darkness",
+              "es_MX": "Corazón de oscuridad",
+              "pt_BR": "Coração das Trevas",
+              "de_DE": "Herz der Dunkelheit",
+              "en_GB": "Heart of Darkness",
+              "es_ES": "Corazón de oscuridad",
+              "fr_FR": "Cœur des ténèbres",
+              "it_IT": "Cuore di Tenebra",
+              "ru_RU": "Сердце тьмы",
+              "ko_KR": "암흑의 심장",
+              "zh_TW": "黑暗之心",
+              "zh_CN": "黑暗之心"
+            },
+            "id": 32428
+          },
+          "quantity": 2
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Heavy Knothide Leather (6), Primal Air (12), Heart of Darkness (2)",
+        "es_MX": "Cuero de pellejo nudoso grueso (6), Aire primigenio (12), Corazón de oscuridad (2)",
+        "pt_BR": "Couro Nodoso Pesado (6), Ar Primevo (12), Coração das Trevas (2)",
+        "de_DE": "Schweres Knotenhautleder (6), Urluft (12), Herz der Dunkelheit (2)",
+        "en_GB": "Heavy Knothide Leather (6), Primal Air (12), Heart of Darkness (2)",
+        "es_ES": "Cuero de pellejo nudoso grueso (6), Aire primigenio (12), Corazón de oscuridad (2)",
+        "fr_FR": "Cuir granuleux lourd (6), Air primordial (12), Cœur des ténèbres (2)",
+        "it_IT": "Cuoio Nodoso Pesante (6), Aria Primordiale (12), Cuore di Tenebra (2)",
+        "ru_RU": "Толстая узловатая кожа (6), Изначальный воздух (12), Сердце тьмы (2)",
+        "ko_KR": "질긴 톱니매듭 가죽 (6), 바람의 근원 (12), 암흑의 심장 (2)",
+        "zh_TW": "厚重境外皮革 (6), 原始空氣 (12), 黑暗之心 (2)",
+        "zh_CN": "重结缔皮 (6), 源生空气 (12), 黑暗之心 (2)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

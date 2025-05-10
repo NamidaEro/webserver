@@ -1,0 +1,422 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/2029?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 2029,
+  "name": {
+    "en_US": "Cleaver",
+    "es_MX": "Cuchilla",
+    "pt_BR": "Cutelo",
+    "de_DE": "Spaltbeil",
+    "en_GB": "Cleaver",
+    "es_ES": "Cuchilla",
+    "fr_FR": "Fendoir",
+    "it_IT": "Mannaia",
+    "ru_RU": "Колун",
+    "ko_KR": "가로날도끼",
+    "zh_TW": "鋒利的斬斧",
+    "zh_CN": "锋利的切肉刀"
+  },
+  "quality": {
+    "type": "COMMON",
+    "name": {
+      "en_US": "Common",
+      "es_MX": "Común",
+      "pt_BR": "Comum",
+      "de_DE": "Gewöhnlich",
+      "en_GB": "Common",
+      "es_ES": "Común",
+      "fr_FR": "Commun",
+      "it_IT": "Comune",
+      "ru_RU": "Обычное",
+      "ko_KR": "일반",
+      "zh_TW": "普通",
+      "zh_CN": "普通"
+    }
+  },
+  "level": 12,
+  "required_level": 7,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/2029?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 2029
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Axe",
+      "es_MX": "Hacha",
+      "pt_BR": "Machado",
+      "de_DE": "Axt",
+      "en_GB": "Axe",
+      "es_ES": "Hacha",
+      "fr_FR": "Hache",
+      "it_IT": "Ascia",
+      "ru_RU": "Топор",
+      "ko_KR": "도끼",
+      "zh_TW": "斧",
+      "zh_CN": "斧"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "WEAPON",
+    "name": {
+      "en_US": "One-Hand",
+      "es_MX": "Una mano",
+      "pt_BR": "Uma Mão",
+      "de_DE": "Einhändig",
+      "en_GB": "One-Hand",
+      "es_ES": "Una mano",
+      "fr_FR": "À une main",
+      "it_IT": "Una mano",
+      "ru_RU": "Одноручное",
+      "ko_KR": "한손 장비",
+      "zh_TW": "單手",
+      "zh_CN": "单手"
+    }
+  },
+  "purchase_price": 5083,
+  "sell_price": 1016,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/2029?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 2029
+    },
+    "quality": {
+      "type": "COMMON",
+      "name": {
+        "en_US": "Common",
+        "es_MX": "Común",
+        "pt_BR": "Comum",
+        "de_DE": "Gewöhnlich",
+        "en_GB": "Common",
+        "es_ES": "Común",
+        "fr_FR": "Commun",
+        "it_IT": "Comune",
+        "ru_RU": "Обычное",
+        "ko_KR": "일반",
+        "zh_TW": "普通",
+        "zh_CN": "普通"
+      }
+    },
+    "name": {
+      "en_US": "Cleaver",
+      "es_MX": "Cuchilla",
+      "pt_BR": "Cutelo",
+      "de_DE": "Spaltbeil",
+      "en_GB": "Cleaver",
+      "es_ES": "Cuchilla",
+      "fr_FR": "Fendoir",
+      "it_IT": "Mannaia",
+      "ru_RU": "Колун",
+      "ko_KR": "가로날도끼",
+      "zh_TW": "鋒利的斬斧",
+      "zh_CN": "锋利的切肉刀"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/2029?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 2029
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Axe",
+        "es_MX": "Hacha",
+        "pt_BR": "Machado",
+        "de_DE": "Axt",
+        "en_GB": "Axe",
+        "es_ES": "Hacha",
+        "fr_FR": "Hache",
+        "it_IT": "Ascia",
+        "ru_RU": "Топор",
+        "ko_KR": "도끼",
+        "zh_TW": "斧",
+        "zh_CN": "斧"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "WEAPON",
+      "name": {
+        "en_US": "One-Hand",
+        "es_MX": "Una mano",
+        "pt_BR": "Uma Mão",
+        "de_DE": "Einhändig",
+        "en_GB": "One-Hand",
+        "es_ES": "Una mano",
+        "fr_FR": "À une main",
+        "it_IT": "Una mano",
+        "ru_RU": "Одноручное",
+        "ko_KR": "한손 장비",
+        "zh_TW": "單手",
+        "zh_CN": "单手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 2,
+        "max_value": 4,
+        "display_string": {
+          "en_US": "2 - 4 Damage",
+          "es_MX": "2 - 4 p. de daño",
+          "pt_BR": "2 - 4 de Dano",
+          "de_DE": "2 - 4 Schaden",
+          "en_GB": "2 - 4 Damage",
+          "es_ES": "2 - 4 p. de daño",
+          "fr_FR": "Dégâts : 2 - 4",
+          "it_IT": "2 - 4 Danni",
+          "ru_RU": "Урон: 2 - 4",
+          "ko_KR": "공격력 2 ~ 4",
+          "zh_TW": "2-4點傷害",
+          "zh_CN": "2 - 4点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 2600,
+        "display_string": {
+          "en_US": "Speed 2.60",
+          "es_MX": "Velocidad 2.60",
+          "pt_BR": "Velocidade 2,60",
+          "de_DE": "Geschwindigkeit 2,60",
+          "en_GB": "Speed 2.60",
+          "es_ES": "Velocidad 2,60",
+          "fr_FR": "Vitesse 2,60",
+          "it_IT": "Velocità 2,60",
+          "ru_RU": "Скорость 2,60",
+          "ko_KR": "속도 2.60",
+          "zh_TW": "速度 2.60",
+          "zh_CN": "速度 2.60"
+        }
+      },
+      "dps": {
+        "value": 1.1538461,
+        "display_string": {
+          "en_US": "(1.2 damage per second)",
+          "es_MX": "(1.2 p. de daño por segundo)",
+          "pt_BR": "(1,2 de dano por segundo)",
+          "de_DE": "(1,2 Schaden pro Sekunde)",
+          "en_GB": "(1.2 damage per second)",
+          "es_ES": "(1,2 p. de daño por segundo)",
+          "fr_FR": "(1,2 dégâts par seconde)",
+          "it_IT": "(1,2 danni per secondo)",
+          "ru_RU": "(1,2 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 1.2)",
+          "zh_TW": "(每秒1.2點傷害)",
+          "zh_CN": "（每秒伤害1.2）"
+        }
+      }
+    },
+    "sell_price": {
+      "value": 29,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "29",
+          "es_MX": "29",
+          "pt_BR": "29",
+          "de_DE": "29",
+          "en_GB": "29",
+          "es_ES": "29",
+          "fr_FR": "29",
+          "it_IT": "29",
+          "ru_RU": "29",
+          "ko_KR": "29",
+          "zh_TW": "29",
+          "zh_CN": "29"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 7,
+        "display_string": {
+          "en_US": "Requires Level 7",
+          "es_MX": "Necesitas ser de nivel 7",
+          "pt_BR": "Requer o Nível 7",
+          "de_DE": "Benötigt Stufe 7",
+          "en_GB": "Requires Level 7",
+          "es_ES": "Necesitas ser de nivel 7",
+          "fr_FR": "Niveau 7 requis",
+          "it_IT": "Richiede il livello 7",
+          "ru_RU": "Требуется 7-й уровень",
+          "ko_KR": "최소 요구 레벨: 7",
+          "zh_TW": "需要等級7",
+          "zh_CN": "需要等级 7"
+        }
+      }
+    },
+    "level": {
+      "value": 12,
+      "display_string": {
+        "en_US": "Item Level 12",
+        "es_MX": "Nivel de objeto 12",
+        "pt_BR": "Nível do Item: 12",
+        "de_DE": "Gegenstandsstufe 12",
+        "en_GB": "Item Level 12",
+        "es_ES": "Nivel de objeto 12",
+        "fr_FR": "Niveau d'objet 12",
+        "it_IT": "Livello oggetto: 12",
+        "ru_RU": "Уровень предмета: 12",
+        "ko_KR": "아이템 레벨: 12",
+        "zh_TW": "物品等級12",
+        "zh_CN": "物品等级12"
+      }
+    },
+    "durability": {
+      "value": 40,
+      "display_string": {
+        "en_US": "Durability 40 / 40",
+        "es_MX": "Durabilidad 40 / 40",
+        "pt_BR": "Durabilidade 40 / 40",
+        "de_DE": "Haltbarkeit 40 / 40",
+        "en_GB": "Durability 40 / 40",
+        "es_ES": "Durabilidad 40 / 40",
+        "fr_FR": "Durabilité : 40 / 40",
+        "it_IT": "Integrità 40/40",
+        "ru_RU": "Прочность: 40 / 40",
+        "ko_KR": "내구도 40 / 40",
+        "zh_TW": "耐久度 40 / 40",
+        "zh_CN": "耐久度 40 / 40"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/629?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 629
+    }
+  ]
+}

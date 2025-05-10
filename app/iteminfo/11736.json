@@ -1,0 +1,274 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/11736?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 11736,
+  "name": {
+    "en_US": "Libram of Resilience",
+    "es_MX": "Tratado sobre Resistencia",
+    "pt_BR": "Incunábulo da Resiliência",
+    "de_DE": "Buchband der Abhärtung",
+    "en_GB": "Libram of Resilience",
+    "es_ES": "Tratado sobre Resistencia",
+    "fr_FR": "Libram de résilience",
+    "it_IT": "Compendio sulla Resilienza",
+    "ru_RU": "Манускрипт устойчивости",
+    "ko_KR": "탄력의 고서",
+    "zh_TW": "韌性聖契",
+    "zh_CN": "恢复圣契"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 21,
+  "required_level": 21,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/11736?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 11736
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Book",
+      "es_MX": "Libro",
+      "pt_BR": "Livro",
+      "de_DE": "Buch",
+      "en_GB": "Book",
+      "es_ES": "Libro",
+      "fr_FR": "Livre",
+      "it_IT": "Libro",
+      "ru_RU": "Книга",
+      "ko_KR": "책",
+      "zh_TW": "書籍",
+      "zh_CN": "书籍"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 1,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Dark runes skitter across the surface.",
+    "es_MX": "Runas oscuras danzan sobre la superficie.",
+    "pt_BR": "Runas sombrias movem-se rapidamente pela superfície.",
+    "de_DE": "Dunkle Runen huschen über die Oberfläche.",
+    "en_GB": "Dark runes skitter across the surface.",
+    "es_ES": "Runas oscuras danzan sobre la superficie.",
+    "fr_FR": "Des runes ténébreuses grouillent à sa surface.",
+    "it_IT": "La superficie è ricoperta da rune oscure.",
+    "ru_RU": "Переливается темными рунами.",
+    "ko_KR": "암흑의 룬 문자가 표지 전체에 가득 써져 있습니다.",
+    "zh_TW": "黑暗的符文在表面上不斷閃動。",
+    "zh_CN": "黑暗的符文在表面上不断闪动。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/11736?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 11736
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Libram of Resilience",
+      "es_MX": "Tratado sobre Resistencia",
+      "pt_BR": "Incunábulo da Resiliência",
+      "de_DE": "Buchband der Abhärtung",
+      "en_GB": "Libram of Resilience",
+      "es_ES": "Tratado sobre Resistencia",
+      "fr_FR": "Libram de résilience",
+      "it_IT": "Compendio sulla Resilienza",
+      "ru_RU": "Манускрипт устойчивости",
+      "ko_KR": "탄력의 고서",
+      "zh_TW": "韌性聖契",
+      "zh_CN": "恢复圣契"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/11736?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 11736
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Book",
+        "es_MX": "Libro",
+        "pt_BR": "Livro",
+        "de_DE": "Buch",
+        "en_GB": "Book",
+        "es_ES": "Libro",
+        "fr_FR": "Livre",
+        "it_IT": "Libro",
+        "ru_RU": "Книга",
+        "ko_KR": "책",
+        "zh_TW": "書籍",
+        "zh_CN": "书籍"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "unique_equipped": {
+      "en_US": "Unique",
+      "es_MX": "Único",
+      "pt_BR": "Único",
+      "de_DE": "Einzigartig",
+      "en_GB": "Unique",
+      "es_ES": "Único",
+      "fr_FR": "Unique",
+      "it_IT": "Unico",
+      "ru_RU": "Уникальный",
+      "ko_KR": "고유 아이템",
+      "zh_TW": "唯一",
+      "zh_CN": "唯一"
+    },
+    "requirements": {
+      "level": {
+        "value": 21,
+        "display_string": {
+          "en_US": "Requires Level 21",
+          "es_MX": "Necesitas ser de nivel 21",
+          "pt_BR": "Requer o Nível 21",
+          "de_DE": "Benötigt Stufe 21",
+          "en_GB": "Requires Level 21",
+          "es_ES": "Necesitas ser de nivel 21",
+          "fr_FR": "Niveau 21 requis",
+          "it_IT": "Richiede il livello 21",
+          "ru_RU": "Требуется 21-й уровень",
+          "ko_KR": "최소 요구 레벨: 21",
+          "zh_TW": "需要等級21",
+          "zh_CN": "需要等级 21"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Dark runes skitter across the surface.",
+      "es_MX": "Runas oscuras danzan sobre la superficie.",
+      "pt_BR": "Runas sombrias movem-se rapidamente pela superfície.",
+      "de_DE": "Dunkle Runen huschen über die Oberfläche.",
+      "en_GB": "Dark runes skitter across the surface.",
+      "es_ES": "Runas oscuras danzan sobre la superficie.",
+      "fr_FR": "Des runes ténébreuses grouillent à sa surface.",
+      "it_IT": "La superficie è ricoperta da rune oscure.",
+      "ru_RU": "Переливается темными рунами.",
+      "ko_KR": "암흑의 룬 문자가 표지 전체에 가득 써져 있습니다.",
+      "zh_TW": "黑暗的符文在表面上不斷閃動。",
+      "zh_CN": "黑暗的符文在表面上不断闪动。"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,365 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/11225?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 11225,
+  "name": {
+    "en_US": "Formula: Enchant Bracer - Greater Stamina",
+    "es_MX": "Fórmula: encantar brazales: aguante superior",
+    "pt_BR": "Fórmula: Encantamento Maior de Vigor - Braçadeiras",
+    "de_DE": "Formel: Armschiene - Große Ausdauer",
+    "en_GB": "Formula: Enchant Bracer - Greater Stamina",
+    "es_ES": "Fórmula: Encantar brazales: aguante superior",
+    "fr_FR": "Formule : Enchantement de brassards (Endurance supérieure)",
+    "it_IT": "Formula: Incanta Bracciali - Tempra Superiore",
+    "ru_RU": "Формула чар для наручей - выносливость IV",
+    "ko_KR": "주문식: 손목보호구 마법부여 - 상급 체력",
+    "zh_TW": "公式：附魔護腕 - 強效耐力",
+    "zh_CN": "公式：附魔护腕 - 强效耐力"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/11225?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 11225
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Enchanting",
+      "es_MX": "Encantamiento",
+      "pt_BR": "Encantamento",
+      "de_DE": "Verzauberkunst",
+      "en_GB": "Enchanting",
+      "es_ES": "Encantamiento",
+      "fr_FR": "Enchantement",
+      "it_IT": "Incantamento",
+      "ru_RU": "Наложение чар",
+      "ko_KR": "마법부여",
+      "zh_TW": "附魔",
+      "zh_CN": "附魔"
+    },
+    "id": 8
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 6200,
+  "sell_price": 1550,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to perform the Greater Stamina enchantment on bracers.",
+    "es_MX": "Te enseña a aplicar el encantamiento Aguante superior en brazales.",
+    "pt_BR": "Ensina a realizar o encantamento Maior de Vigor em braçadeiras.",
+    "de_DE": "Lehrt Euch, wie man die Verzauberung 'Große Ausdauer' bei Armschienen durchführt.",
+    "en_GB": "Teaches you how to perform the Greater Stamina enchantment on bracers.",
+    "es_ES": "Te enseña a realizar el encantamiento Aguante superior en brazales.",
+    "fr_FR": "Vous apprend à appliquer l’enchantement Endurance supérieure sur les brassards.",
+    "it_IT": "Ti insegna a creare l'incantamento Tempra Superiore su un equipaggiamento per polsi.",
+    "ru_RU": "Обучает наложению на наручи чар \"Высокая выносливость\".",
+    "ko_KR": "손목보호구에 상급 체력 마법을 부여하는 법을 배웁니다.",
+    "zh_TW": "教你學會如何為護腕進行強效耐力附魔。",
+    "zh_CN": "教你学会在护腕上施加强效耐力的附魔效果。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/11225?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 11225
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Formula: Enchant Bracer - Greater Stamina",
+      "es_MX": "Fórmula: encantar brazales: aguante superior",
+      "pt_BR": "Fórmula: Encantamento Maior de Vigor - Braçadeiras",
+      "de_DE": "Formel: Armschiene - Große Ausdauer",
+      "en_GB": "Formula: Enchant Bracer - Greater Stamina",
+      "es_ES": "Fórmula: Encantar brazales: aguante superior",
+      "fr_FR": "Formule : Enchantement de brassards (Endurance supérieure)",
+      "it_IT": "Formula: Incanta Bracciali - Tempra Superiore",
+      "ru_RU": "Формула чар для наручей - выносливость IV",
+      "ko_KR": "주문식: 손목보호구 마법부여 - 상급 체력",
+      "zh_TW": "公式：附魔護腕 - 強效耐力",
+      "zh_CN": "公式：附魔护腕 - 强效耐力"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/11225?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 11225
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/8?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Enchanting",
+        "es_MX": "Encantamiento",
+        "pt_BR": "Encantamento",
+        "de_DE": "Verzauberkunst",
+        "en_GB": "Enchanting",
+        "es_ES": "Encantamiento",
+        "fr_FR": "Enchantement",
+        "it_IT": "Incantamento",
+        "ru_RU": "Наложение чар",
+        "ko_KR": "마법부여",
+        "zh_TW": "附魔",
+        "zh_CN": "附魔"
+      },
+      "id": 8
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/13945?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Greater Stamina",
+            "es_MX": "Aguante superior",
+            "pt_BR": "Maior de Vigor",
+            "de_DE": "Große Ausdauer",
+            "en_GB": "Greater Stamina",
+            "es_ES": "Aguante superior",
+            "fr_FR": "Endurance supérieure",
+            "it_IT": "Tempra Superiore",
+            "ru_RU": "Выносливость IV",
+            "ko_KR": "상급 체력",
+            "zh_TW": "強效耐力",
+            "zh_CN": "强效耐力"
+          },
+          "id": 13945
+        },
+        "description": {
+          "en_US": "Use: Teaches you how to perform the Greater Stamina enchantment on bracers.",
+          "es_MX": "Usar: Te enseña a aplicar el encantamiento Aguante superior en brazales.",
+          "pt_BR": "Usar: Ensina a realizar o encantamento Maior de Vigor em braçadeiras.",
+          "de_DE": "Benutzen: Lehrt Euch, wie man die Verzauberung 'Große Ausdauer' bei Armschienen durchführt.",
+          "en_GB": "Use: Teaches you how to perform the Greater Stamina enchantment on bracers.",
+          "es_ES": "Uso: Te enseña a realizar el encantamiento Aguante superior en brazales.",
+          "fr_FR": "Utiliser : Vous apprend à appliquer l’enchantement Endurance supérieure sur les brassards.",
+          "it_IT": "Usa: Ti insegna a creare l'incantamento Tempra Superiore su un equipaggiamento per polsi.",
+          "ru_RU": "Использование: Обучает наложению на наручи чар \"Высокая выносливость\".",
+          "ko_KR": "사용 효과: 손목보호구에 상급 체력 마법을 부여하는 법을 배웁니다.",
+          "zh_TW": "使用： 教你學會如何為護腕進行強效耐力附魔。",
+          "zh_CN": "使用： 教你学会在护腕上施加强效耐力的附魔效果。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 1550,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "15",
+          "es_MX": "15",
+          "pt_BR": "15",
+          "de_DE": "15",
+          "en_GB": "15",
+          "es_ES": "15",
+          "fr_FR": "15",
+          "it_IT": "15",
+          "ru_RU": "15",
+          "ko_KR": "15",
+          "zh_TW": "15",
+          "zh_CN": "15"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2494?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Enchanting",
+            "es_MX": "Encantamiento clásico",
+            "pt_BR": "Encantamento do Classic",
+            "de_DE": "Klassische Verzauberkunst",
+            "en_GB": "Classic Enchanting",
+            "es_ES": "Encantamiento clásico",
+            "fr_FR": "Enchantement classique",
+            "it_IT": "Incantamento Classico",
+            "ru_RU": "Классическое наложение чар",
+            "ko_KR": "옛 마법부여",
+            "zh_TW": "艾澤拉斯附魔",
+            "zh_CN": "经典旧世附魔"
+          },
+          "id": 2494
+        },
+        "level": 245,
+        "display_string": {
+          "en_US": "Requires Classic Enchanting (245)",
+          "es_MX": "Requiere Encantamiento clásico (245)",
+          "pt_BR": "Requer Encantamento do Classic (245)",
+          "de_DE": "Benötigt Klassische Verzauberkunst (245)",
+          "en_GB": "Requires Classic Enchanting (245)",
+          "es_ES": "Requiere Encantamiento clásico (245)",
+          "fr_FR": "Enchantement classique (245) requis",
+          "it_IT": "Richiede: Incantamento Classico (245)",
+          "ru_RU": "Требуется: Классическое наложение чар (245)",
+          "ko_KR": "요구 사항: 옛 마법부여 (245)",
+          "zh_TW": "需要艾澤拉斯附魔(245)",
+          "zh_CN": "需要经典旧世附魔（245）"
+        }
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

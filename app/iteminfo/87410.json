@@ -1,0 +1,955 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/87410?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 87410,
+  "name": {
+    "en_US": "Plans: Ornate Battleplate of the Master",
+    "es_MX": "Diseño: placa de batalla del maestro ornamentada",
+    "pt_BR": "Instruções: Loriga Ornamentada do Mestre",
+    "de_DE": "Pläne: Verschnörkelte Kampfplatte des Meisters",
+    "en_GB": "Plans: Ornate Battleplate of the Master",
+    "es_ES": "Diseño: placa de batalla del maestro ornamentada",
+    "fr_FR": "Plans : Harnois de bataille du maître orné",
+    "it_IT": "Progetto: Corazza Feroce Ornata del Maestro",
+    "ru_RU": "Чертеж: изысканный боевой доспех мастера",
+    "ko_KR": "도면: 사부의 화려한 전투판금 흉갑",
+    "zh_TW": "設計圖：大師華麗戰甲",
+    "zh_CN": "设计图：大师的雕饰胸甲"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 35,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/87410?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 87410
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Blacksmithing",
+      "es_MX": "Herrería",
+      "pt_BR": "Ferraria",
+      "de_DE": "Schmiedekunst",
+      "en_GB": "Blacksmithing",
+      "es_ES": "Herrería",
+      "fr_FR": "Forge",
+      "it_IT": "Forgiatura",
+      "ru_RU": "Кузнечное дело",
+      "ko_KR": "대장기술",
+      "zh_TW": "鍛造",
+      "zh_CN": "锻造"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 300000,
+  "sell_price": 75000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to forge an Ornate Battleplate of the Master.",
+    "es_MX": "Te enseña a forjar una placa de batalla del maestro ornamentada.",
+    "pt_BR": "Ensina a forjar uma Loriga Ornamentada do Mestre.",
+    "de_DE": "Lehrt Euch die Herstellung einer verschnörkelten Kampfplatte des Meisters.",
+    "en_GB": "Teaches you how to forge an Ornate Battleplate of the Master.",
+    "es_ES": "Te enseña a forjar una placa de batalla del maestro ornamentada.",
+    "fr_FR": "Vous apprend à forger un Harnois de bataille du maître orné.",
+    "it_IT": "Ti insegna a creare una Corazza Feroce Ornata del Maestro.",
+    "ru_RU": "Обучает ковке изысканного боевого доспеха мастера.",
+    "ko_KR": "사부의 화려한 전투판금 흉갑 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作大師華麗戰甲。",
+    "zh_CN": "教你学会制作大师的雕饰胸甲。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/87410?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 87410
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Plans: Ornate Battleplate of the Master",
+      "es_MX": "Diseño: placa de batalla del maestro ornamentada",
+      "pt_BR": "Instruções: Loriga Ornamentada do Mestre",
+      "de_DE": "Pläne: Verschnörkelte Kampfplatte des Meisters",
+      "en_GB": "Plans: Ornate Battleplate of the Master",
+      "es_ES": "Diseño: placa de batalla del maestro ornamentada",
+      "fr_FR": "Plans : Harnois de bataille du maître orné",
+      "it_IT": "Progetto: Corazza Feroce Ornata del Maestro",
+      "ru_RU": "Чертеж: изысканный боевой доспех мастера",
+      "ko_KR": "도면: 사부의 화려한 전투판금 흉갑",
+      "zh_TW": "設計圖：大師華麗戰甲",
+      "zh_CN": "设计图：大师的雕饰胸甲"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/87410?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 87410
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Blacksmithing",
+        "es_MX": "Herrería",
+        "pt_BR": "Ferraria",
+        "de_DE": "Schmiedekunst",
+        "en_GB": "Blacksmithing",
+        "es_ES": "Herrería",
+        "fr_FR": "Forge",
+        "it_IT": "Forgiatura",
+        "ru_RU": "Кузнечное дело",
+        "ko_KR": "대장기술",
+        "zh_TW": "鍛造",
+        "zh_CN": "锻造"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 75000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "7",
+          "es_MX": "7",
+          "pt_BR": "7",
+          "de_DE": "7",
+          "en_GB": "7",
+          "es_ES": "7",
+          "fr_FR": "7",
+          "it_IT": "7",
+          "ru_RU": "7",
+          "ko_KR": "7",
+          "zh_TW": "7",
+          "zh_CN": "7"
+        },
+        "silver": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2473?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Pandaria Blacksmithing",
+            "es_MX": "Herrería de Pandaria",
+            "pt_BR": "Ferraria de Pandária",
+            "de_DE": "Schmiedekunst von Pandaria",
+            "en_GB": "Pandaria Blacksmithing",
+            "es_ES": "Herrería de Pandaria",
+            "fr_FR": "Forge de Pandarie",
+            "it_IT": "Forgiatura di Pandaria",
+            "ru_RU": "Кузнечное дело Пандарии",
+            "ko_KR": "판다리아 대장기술",
+            "zh_TW": "潘達利亞鍛造",
+            "zh_CN": "潘达利亚锻造"
+          },
+          "id": 2473
+        },
+        "level": 75,
+        "display_string": {
+          "en_US": "Requires Pandaria Blacksmithing (75)",
+          "es_MX": "Requiere Herrería de Pandaria (75)",
+          "pt_BR": "Requer Ferraria de Pandária (75)",
+          "de_DE": "Benötigt Schmiedekunst von Pandaria (75)",
+          "en_GB": "Requires Pandaria Blacksmithing (75)",
+          "es_ES": "Requiere Herrería de Pandaria (75)",
+          "fr_FR": "Forge de Pandarie (75) requis",
+          "it_IT": "Richiede: Forgiatura di Pandaria (75)",
+          "ru_RU": "Требуется: Кузнечное дело Пандарии (75)",
+          "ko_KR": "요구 사항: 판다리아 대장기술 (75)",
+          "zh_TW": "需要潘達利亞鍛造(75)",
+          "zh_CN": "需要潘达利亚锻造（75）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to forge an Ornate Battleplate of the Master.",
+      "es_MX": "Te enseña a forjar una placa de batalla del maestro ornamentada.",
+      "pt_BR": "Ensina a forjar uma Loriga Ornamentada do Mestre.",
+      "de_DE": "Lehrt Euch die Herstellung einer verschnörkelten Kampfplatte des Meisters.",
+      "en_GB": "Teaches you how to forge an Ornate Battleplate of the Master.",
+      "es_ES": "Te enseña a forjar una placa de batalla del maestro ornamentada.",
+      "fr_FR": "Vous apprend à forger un Harnois de bataille du maître orné.",
+      "it_IT": "Ti insegna a creare una Corazza Feroce Ornata del Maestro.",
+      "ru_RU": "Обучает ковке изысканного боевого доспеха мастера.",
+      "ko_KR": "사부의 화려한 전투판금 흉갑 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作大師華麗戰甲。",
+      "zh_CN": "教你学会制作大师的雕饰胸甲。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/87402?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 87402
+        },
+        "sockets": [
+          {
+            "socket_type": {
+              "type": "PRISMATIC",
+              "name": {
+                "en_US": "Prismatic Socket",
+                "es_MX": "Ranura prismática",
+                "pt_BR": "Engaste Prismático",
+                "de_DE": "Prismatischer Sockel",
+                "en_GB": "Prismatic Socket",
+                "es_ES": "Ranura prismática",
+                "fr_FR": "Châsse prismatique",
+                "it_IT": "Incavo Prismatico",
+                "ru_RU": "бесцветное гнездо",
+                "ko_KR": "다색 보석 홈",
+                "zh_TW": "多色插槽",
+                "zh_CN": "棱彩插槽"
+              }
+            }
+          },
+          {
+            "socket_type": {
+              "type": "PRISMATIC",
+              "name": {
+                "en_US": "Prismatic Socket",
+                "es_MX": "Ranura prismática",
+                "pt_BR": "Engaste Prismático",
+                "de_DE": "Prismatischer Sockel",
+                "en_GB": "Prismatic Socket",
+                "es_ES": "Ranura prismática",
+                "fr_FR": "Châsse prismatique",
+                "it_IT": "Incavo Prismatico",
+                "ru_RU": "бесцветное гнездо",
+                "ko_KR": "다색 보석 홈",
+                "zh_TW": "多色插槽",
+                "zh_CN": "棱彩插槽"
+              }
+            }
+          }
+        ],
+        "quality": {
+          "type": "EPIC",
+          "name": {
+            "en_US": "Epic",
+            "es_MX": "Épico",
+            "pt_BR": "Épico",
+            "de_DE": "Episch",
+            "en_GB": "Epic",
+            "es_ES": "Épico",
+            "fr_FR": "Épique",
+            "it_IT": "Epico",
+            "ru_RU": "Эпическое",
+            "ko_KR": "영웅",
+            "zh_TW": "史詩",
+            "zh_CN": "史诗"
+          }
+        },
+        "name": {
+          "en_US": "Ornate Battleplate of the Master",
+          "es_MX": "Placa de batalla del maestro ornamentada",
+          "pt_BR": "Loriga Ornamentada do Mestre",
+          "de_DE": "Verschnörkelte Kampfplatte des Meisters",
+          "en_GB": "Ornate Battleplate of the Master",
+          "es_ES": "Placa de batalla del maestro ornamentada",
+          "fr_FR": "Harnois de bataille du maître ornée",
+          "it_IT": "Corazza Feroce Ornata del Maestro",
+          "ru_RU": "Изысканный боевой доспех мастера",
+          "ko_KR": "사부의 화려한 전투판금 흉갑",
+          "zh_TW": "大師華麗戰甲",
+          "zh_CN": "大师的雕饰胸甲"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/87402?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 87402
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Plate",
+            "es_MX": "Placas",
+            "pt_BR": "Placas",
+            "de_DE": "Platte",
+            "en_GB": "Plate",
+            "es_ES": "Placas",
+            "fr_FR": "Plaques",
+            "it_IT": "Piastre",
+            "ru_RU": "Латы",
+            "ko_KR": "판금",
+            "zh_TW": "鎧甲",
+            "zh_CN": "板甲"
+          },
+          "id": 4
+        },
+        "inventory_type": {
+          "type": "CHEST",
+          "name": {
+            "en_US": "Chest",
+            "es_MX": "Pecho",
+            "pt_BR": "Torso",
+            "de_DE": "Brust",
+            "en_GB": "Chest",
+            "es_ES": "Torso",
+            "fr_FR": "Torse",
+            "it_IT": "Torso",
+            "ru_RU": "Грудь",
+            "ko_KR": "가슴",
+            "zh_TW": "胸部",
+            "zh_CN": "胸部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "armor": {
+          "value": 16,
+          "display": {
+            "display_string": {
+              "en_US": "16 Armor",
+              "es_MX": "16 p. de armadura",
+              "pt_BR": "16 de Armadura",
+              "de_DE": "16 Rüstung",
+              "en_GB": "16 Armor",
+              "es_ES": "16 p. de armadura",
+              "fr_FR": "Armure : 16",
+              "it_IT": "16 Armatura",
+              "ru_RU": "Броня: 16",
+              "ko_KR": "방어도 16",
+              "zh_TW": "16點護甲",
+              "zh_CN": "16点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "INTELLECT",
+              "name": {
+                "en_US": "Intellect",
+                "es_MX": "intelecto",
+                "pt_BR": "Intelecto",
+                "de_DE": "Intelligenz",
+                "en_GB": "Intellect",
+                "es_ES": "intelecto",
+                "fr_FR": "Intelligence",
+                "it_IT": "Intelletto",
+                "ru_RU": "к интеллекту",
+                "ko_KR": "지능",
+                "zh_TW": "智力",
+                "zh_CN": "智力"
+              }
+            },
+            "value": 2,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Intellect",
+                "es_MX": "+2 intelecto",
+                "pt_BR": "+2 Intelecto",
+                "de_DE": "+2 Intelligenz",
+                "en_GB": "+2 Intellect",
+                "es_ES": "+2 intelecto",
+                "fr_FR": "+2 Intelligence",
+                "it_IT": "+2 Intelletto",
+                "ru_RU": "+2 к интеллекту",
+                "ko_KR": "지능 +2",
+                "zh_TW": "+2智力",
+                "zh_CN": "+2 智力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "STRENGTH",
+              "name": {
+                "en_US": "Strength",
+                "es_MX": "fuerza",
+                "pt_BR": "Força",
+                "de_DE": "Stärke",
+                "en_GB": "Strength",
+                "es_ES": "fuerza",
+                "fr_FR": "Force",
+                "it_IT": "Forza",
+                "ru_RU": "к силе",
+                "ko_KR": "힘",
+                "zh_TW": "力量",
+                "zh_CN": "力量"
+              }
+            },
+            "value": 2,
+            "is_negated": true,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Strength",
+                "es_MX": "+2 fuerza",
+                "pt_BR": "+2 Força",
+                "de_DE": "+2 Stärke",
+                "en_GB": "+2 Strength",
+                "es_ES": "+2 fuerza",
+                "fr_FR": "+2 Force",
+                "it_IT": "+2 Forza",
+                "ru_RU": "+2 к силе",
+                "ko_KR": "힘 +2",
+                "zh_TW": "+2力量",
+                "zh_CN": "+2 力量"
+              },
+              "color": {
+                "r": 128,
+                "g": 128,
+                "b": 128,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "STAMINA",
+              "name": {
+                "en_US": "Stamina",
+                "es_MX": "aguante",
+                "pt_BR": "Vigor",
+                "de_DE": "Ausdauer",
+                "en_GB": "Stamina",
+                "es_ES": "aguante",
+                "fr_FR": "Endurance",
+                "it_IT": "Tempra",
+                "ru_RU": "к выносливости",
+                "ko_KR": "체력",
+                "zh_TW": "耐力",
+                "zh_CN": "耐力"
+              }
+            },
+            "value": 6,
+            "display": {
+              "display_string": {
+                "en_US": "+6 Stamina",
+                "es_MX": "+6 aguante",
+                "pt_BR": "+6 Vigor",
+                "de_DE": "+6 Ausdauer",
+                "en_GB": "+6 Stamina",
+                "es_ES": "+6 aguante",
+                "fr_FR": "+6 Endurance",
+                "it_IT": "+6 Tempra",
+                "ru_RU": "+6 к выносливости",
+                "ko_KR": "체력 +6",
+                "zh_TW": "+6耐力",
+                "zh_CN": "+6 耐力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "CRIT_RATING",
+              "name": {
+                "en_US": "Critical Strike",
+                "es_MX": "golpe crítico",
+                "pt_BR": "Acerto Crítico",
+                "de_DE": "Kritischer Trefferwert",
+                "en_GB": "Critical Strike",
+                "es_ES": "golpe crítico",
+                "fr_FR": "Score de crit.",
+                "it_IT": "Indice di critico",
+                "ru_RU": "к критическому удару",
+                "ko_KR": "치명타 및 극대화",
+                "zh_TW": "致命一擊",
+                "zh_CN": "爆击"
+              }
+            },
+            "value": 1,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+1 Critical Strike",
+                "es_MX": "+1 golpe crítico",
+                "pt_BR": "+1 Acerto Crítico",
+                "de_DE": "+1 Kritischer Trefferwert",
+                "en_GB": "+1 Critical Strike",
+                "es_ES": "+1 golpe crítico",
+                "fr_FR": "+1 Score de crit.",
+                "it_IT": "+1 Indice di critico",
+                "ru_RU": "+1 к критическому удару",
+                "ko_KR": "치명타 및 극대화 +1",
+                "zh_TW": "+1致命一擊",
+                "zh_CN": "+1 爆击"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "MASTERY_RATING",
+              "name": {
+                "en_US": "Mastery",
+                "es_MX": "maestría",
+                "pt_BR": "Maestria",
+                "de_DE": "Meisterschaft",
+                "en_GB": "Mastery",
+                "es_ES": "maestría",
+                "fr_FR": "Maîtrise",
+                "it_IT": "Indice di maestria",
+                "ru_RU": "к искусности",
+                "ko_KR": "특화",
+                "zh_TW": "精通",
+                "zh_CN": "精通"
+              }
+            },
+            "value": 4,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+4 Mastery",
+                "es_MX": "+4 maestría",
+                "pt_BR": "+4 Maestria",
+                "de_DE": "+4 Meisterschaft",
+                "en_GB": "+4 Mastery",
+                "es_ES": "+4 maestría",
+                "fr_FR": "+4 Maîtrise",
+                "it_IT": "+4 Indice di maestria",
+                "ru_RU": "+4 к искусности",
+                "ko_KR": "특화 +4",
+                "zh_TW": "+4精通",
+                "zh_CN": "+4 精通"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "socket_bonus": {
+          "en_US": "Socket Bonus: +4 Strength",
+          "es_MX": "Bonus ranura: +4 fuerza",
+          "pt_BR": "Bônus de engaste: +4 de Força",
+          "de_DE": "Sockelbonus: +4 Stärke",
+          "en_GB": "Socket Bonus: +4 Strength",
+          "es_ES": "Bonus ranura: +4 fuerza",
+          "fr_FR": "Bonus de sertissage : +4 à la Force",
+          "it_IT": "Bonus incavo: +4 Forza",
+          "ru_RU": "При соответствии цвета: +4 к силе",
+          "ko_KR": "보석 장착 보너스: 힘 +4",
+          "zh_TW": "插槽加成：+4力量",
+          "zh_CN": "镶孔奖励：+4 力量"
+        },
+        "sell_price": {
+          "value": 1500,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "15",
+              "es_MX": "15",
+              "pt_BR": "15",
+              "de_DE": "15",
+              "en_GB": "15",
+              "es_ES": "15",
+              "fr_FR": "15",
+              "it_IT": "15",
+              "ru_RU": "15",
+              "ko_KR": "15",
+              "zh_TW": "15",
+              "zh_CN": "15"
+            },
+            "copper": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 35,
+            "display_string": {
+              "en_US": "Requires Level 35",
+              "es_MX": "Necesitas ser de nivel 35",
+              "pt_BR": "Requer o Nível 35",
+              "de_DE": "Benötigt Stufe 35",
+              "en_GB": "Requires Level 35",
+              "es_ES": "Necesitas ser de nivel 35",
+              "fr_FR": "Niveau 35 requis",
+              "it_IT": "Richiede il livello 35",
+              "ru_RU": "Требуется 35-й уровень",
+              "ko_KR": "최소 요구 레벨: 35",
+              "zh_TW": "需要等級35",
+              "zh_CN": "需要等级 35"
+            }
+          }
+        },
+        "level": {
+          "value": 39,
+          "display_string": {
+            "en_US": "Item Level 39",
+            "es_MX": "Nivel de objeto 39",
+            "pt_BR": "Nível do Item: 39",
+            "de_DE": "Gegenstandsstufe 39",
+            "en_GB": "Item Level 39",
+            "es_ES": "Nivel de objeto 39",
+            "fr_FR": "Niveau d'objet 39",
+            "it_IT": "Livello oggetto: 39",
+            "ru_RU": "Уровень предмета: 39",
+            "ko_KR": "아이템 레벨: 39",
+            "zh_TW": "物品等級39",
+            "zh_CN": "物品等级39"
+          }
+        },
+        "durability": {
+          "value": 165,
+          "display_string": {
+            "en_US": "Durability 165 / 165",
+            "es_MX": "Durabilidad 165 / 165",
+            "pt_BR": "Durabilidade 165 / 165",
+            "de_DE": "Haltbarkeit 165 / 165",
+            "en_GB": "Durability 165 / 165",
+            "es_ES": "Durabilidad 165 / 165",
+            "fr_FR": "Durabilité : 165 / 165",
+            "it_IT": "Integrità 165/165",
+            "ru_RU": "Прочность: 165 / 165",
+            "ko_KR": "내구도 165 / 165",
+            "zh_TW": "耐久度 165 / 165",
+            "zh_CN": "耐久度 165 / 165"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/72104?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Living Steel",
+              "es_MX": "Acero vivo",
+              "pt_BR": "Aço Vivo",
+              "de_DE": "Lebendiger Stahl",
+              "en_GB": "Living Steel",
+              "es_ES": "Acero vivo",
+              "fr_FR": "Acier vivant",
+              "it_IT": "Acciaio Vivente",
+              "ru_RU": "Живая сталь",
+              "ko_KR": "살아있는 강철",
+              "zh_TW": "活化鋼",
+              "zh_CN": "活化钢"
+            },
+            "id": 72104
+          },
+          "quantity": 8
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/80433?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Blood Spirit",
+              "es_MX": "Espíritu de sangre",
+              "pt_BR": "Espírito de Sangue",
+              "de_DE": "Blutgeist",
+              "en_GB": "Blood Spirit",
+              "es_ES": "Espíritu de sangre",
+              "fr_FR": "Esprit du sang",
+              "it_IT": "Spirito del Sangue",
+              "ru_RU": "Дух крови",
+              "ko_KR": "피의 영혼",
+              "zh_TW": "血魂",
+              "zh_CN": "血魂"
+            },
+            "id": 80433
+          },
+          "quantity": 8
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/76061?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Spirit of Harmony",
+              "es_MX": "Espíritu de armonía",
+              "pt_BR": "Espírito da Harmonia",
+              "de_DE": "Geist der Harmonie",
+              "en_GB": "Spirit of Harmony",
+              "es_ES": "Espíritu de armonía",
+              "fr_FR": "Esprit de l'harmonie",
+              "it_IT": "Spirito dell'Armonia",
+              "ru_RU": "Дух гармонии",
+              "ko_KR": "조화의 기운",
+              "zh_TW": "和諧之魂",
+              "zh_CN": "祥和之灵"
+            },
+            "id": 76061
+          },
+          "quantity": 3
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Living Steel (8), Blood Spirit (8), Spirit of Harmony (3)",
+        "es_MX": "Acero vivo (8), Espíritu de sangre (8), Espíritu de armonía (3)",
+        "pt_BR": "Aço Vivo (8), Espírito de Sangue (8), Espírito da Harmonia (3)",
+        "de_DE": "Lebendiger Stahl (8), Blutgeist (8), Geist der Harmonie (3)",
+        "en_GB": "Living Steel (8), Blood Spirit (8), Spirit of Harmony (3)",
+        "es_ES": "Acero vivo (8), Espíritu de sangre (8), Espíritu de armonía (3)",
+        "fr_FR": "Acier vivant (8), Esprit du sang (8), Esprit de l'harmonie (3)",
+        "it_IT": "Acciaio Vivente (8), Spirito del Sangue (8), Spirito dell'Armonia (3)",
+        "ru_RU": "Живая сталь (8), Дух крови (8), Дух гармонии (3)",
+        "ko_KR": "살아있는 강철 (8), 피의 영혼 (8), 조화의 기운 (3)",
+        "zh_TW": "活化鋼 (8), 血魂 (8), 和諧之魂 (3)",
+        "zh_CN": "活化钢 (8), 血魂 (8), 祥和之灵 (3)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

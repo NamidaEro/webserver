@@ -1,0 +1,407 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/222480?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 222480,
+  "name": {
+    "en_US": "Proficient Sickle",
+    "es_MX": "Hoz experta",
+    "pt_BR": "Gadanha do Competente",
+    "de_DE": "Sichel des Gesellen",
+    "en_GB": "Proficient Sickle",
+    "es_ES": "Hoz competente",
+    "fr_FR": "Faucille excellente",
+    "it_IT": "Falcetto Efficace",
+    "ru_RU": "Серп умельца",
+    "ko_KR": "능률적인 꺾인 낫",
+    "zh_TW": "精熟鐮刀",
+    "zh_CN": "熟稔镰刀"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 486,
+  "required_level": 68,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/222480?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 222480
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Profession",
+      "es_MX": "Profesión",
+      "pt_BR": "Profissão",
+      "de_DE": "Beruf",
+      "en_GB": "Profession",
+      "es_ES": "Profesión",
+      "fr_FR": "Métier",
+      "it_IT": "Professione",
+      "ru_RU": "Профессия",
+      "ko_KR": "전문 기술",
+      "zh_TW": "專業技能",
+      "zh_CN": "专业技能"
+    },
+    "id": 19
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/3?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Herbalism",
+      "es_MX": "Herboristería",
+      "pt_BR": "Herborismo",
+      "de_DE": "Kräuterkunde",
+      "en_GB": "Herbalism",
+      "es_ES": "Herboristería",
+      "fr_FR": "Herboristerie",
+      "it_IT": "Erbalismo",
+      "ru_RU": "Травничество",
+      "ko_KR": "약초채집",
+      "zh_TW": "草藥學",
+      "zh_CN": "草药学"
+    },
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "PROFESSION_TOOL",
+    "name": {
+      "en_US": "Profession Tool",
+      "es_MX": "Herramienta de profesión",
+      "pt_BR": "Ferramenta de profissão",
+      "de_DE": "Berufswerkzeug",
+      "en_GB": "Profession Tool",
+      "es_ES": "Herramienta de profesión",
+      "fr_FR": "Outils de métier",
+      "it_IT": "Attrezzo della Professione",
+      "ru_RU": "Инструмент для профессии",
+      "ko_KR": "전문 기술 도구",
+      "zh_TW": "專業技能工具",
+      "zh_CN": "专业工具"
+    }
+  },
+  "purchase_price": 254750,
+  "sell_price": 50950,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/222480?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 222480
+    },
+    "context": 0,
+    "bonus_list": [
+      10827,
+      10830
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Proficient Sickle",
+      "es_MX": "Hoz experta",
+      "pt_BR": "Gadanha do Competente",
+      "de_DE": "Sichel des Gesellen",
+      "en_GB": "Proficient Sickle",
+      "es_ES": "Hoz competente",
+      "fr_FR": "Faucille excellente",
+      "it_IT": "Falcetto Efficace",
+      "ru_RU": "Серп умельца",
+      "ko_KR": "능률적인 꺾인 낫",
+      "zh_TW": "精熟鐮刀",
+      "zh_CN": "熟稔镰刀"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/222480?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 222480
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Profession",
+        "es_MX": "Profesión",
+        "pt_BR": "Profissão",
+        "de_DE": "Beruf",
+        "en_GB": "Profession",
+        "es_ES": "Profesión",
+        "fr_FR": "Métier",
+        "it_IT": "Professione",
+        "ru_RU": "Профессия",
+        "ko_KR": "전문 기술",
+        "zh_TW": "專業技能",
+        "zh_CN": "专业技能"
+      },
+      "id": 19
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/3?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Herbalism",
+        "es_MX": "Herboristería",
+        "pt_BR": "Herborismo",
+        "de_DE": "Kräuterkunde",
+        "en_GB": "Herbalism",
+        "es_ES": "Herboristería",
+        "fr_FR": "Herboristerie",
+        "it_IT": "Erbalismo",
+        "ru_RU": "Травничество",
+        "ko_KR": "약초채집",
+        "zh_TW": "草藥學",
+        "zh_CN": "草药学"
+      },
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "PROFESSION_TOOL",
+      "name": {
+        "en_US": "Profession Tool",
+        "es_MX": "Herramienta de profesión",
+        "pt_BR": "Ferramenta de profissão",
+        "de_DE": "Berufswerkzeug",
+        "en_GB": "Profession Tool",
+        "es_ES": "Herramienta de profesión",
+        "fr_FR": "Outils de métier",
+        "it_IT": "Attrezzo della Professione",
+        "ru_RU": "Инструмент для профессии",
+        "ko_KR": "전문 기술 도구",
+        "zh_TW": "專業技能工具",
+        "zh_CN": "专业工具"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "BONUS_STAT_PROFESSION_PERCEPTION",
+          "name": {
+            "en_US": "Perception",
+            "es_MX": "Percepción",
+            "pt_BR": "Percepção",
+            "de_DE": "Wahrnehmung",
+            "en_GB": "Perception",
+            "es_ES": "Percepción",
+            "fr_FR": "Perception",
+            "it_IT": "Percezione",
+            "ru_RU": "Внимательность",
+            "ko_KR": "인지력",
+            "zh_TW": "感知",
+            "zh_CN": "感知"
+          }
+        },
+        "value": 173,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+173 Perception",
+            "es_MX": "+173 Percepción",
+            "pt_BR": "+173 Percepção",
+            "de_DE": "+173 Wahrnehmung",
+            "en_GB": "+173 Perception",
+            "es_ES": "+173 Percepción",
+            "fr_FR": "+173 Perception",
+            "it_IT": "+173 Percezione",
+            "ru_RU": "+173 Внимательность",
+            "ko_KR": "인지력 +173",
+            "zh_TW": "+173感知",
+            "zh_CN": "+173 感知"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/455757?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Prof Gear Skill Bonus (DNT)",
+            "en_GB": "Prof Gear Skill Bonus (DNT)"
+          },
+          "id": 455757
+        },
+        "description": {
+          "en_US": "Equip: +8 Khaz Algar Herbalism Skill",
+          "es_MX": "Equipar: +8 p. de habilidad en herboristería de Khaz Algar",
+          "pt_BR": "Equipado: +8 de Perícia em Herborismo de Khaz Algar",
+          "de_DE": "Anlegen: +8 Fertigkeit in Kräuterkunde von Khaz Algar",
+          "en_GB": "Equip: +8 Khaz Algar Herbalism Skill",
+          "es_ES": "Equipar: +8 p. de habilidad en herboristería de Khaz Algar.",
+          "fr_FR": "Équipé : +8 à la compétence en herboristerie de Khaz Algar",
+          "it_IT": "Equipaggia: Aumenta la Competenza in Erbalismo di Khaz Algar di 8.",
+          "ru_RU": "Если на персонаже: +8 к навыку травничества Каз Алгара",
+          "ko_KR": "착용 효과: 카즈 알가르 약초채집 숙련도가 8만큼 증가합니다.",
+          "zh_TW": "裝備： +8點卡茲阿爾加草藥學技能",
+          "zh_CN": "装备： +8卡兹阿加草药学技能"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 50950,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "5",
+          "es_MX": "5",
+          "pt_BR": "5",
+          "de_DE": "5",
+          "en_GB": "5",
+          "es_ES": "5",
+          "fr_FR": "5",
+          "it_IT": "5",
+          "ru_RU": "5",
+          "ko_KR": "5",
+          "zh_TW": "5",
+          "zh_CN": "5"
+        },
+        "silver": {
+          "en_US": "9",
+          "es_MX": "9",
+          "pt_BR": "9",
+          "de_DE": "9",
+          "en_GB": "9",
+          "es_ES": "9",
+          "fr_FR": "9",
+          "it_IT": "9",
+          "ru_RU": "9",
+          "ko_KR": "9",
+          "zh_TW": "9",
+          "zh_CN": "9"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 68,
+        "display_string": {
+          "en_US": "Requires Level 68",
+          "es_MX": "Necesitas ser de nivel 68",
+          "pt_BR": "Requer o Nível 68",
+          "de_DE": "Benötigt Stufe 68",
+          "en_GB": "Requires Level 68",
+          "es_ES": "Necesitas ser de nivel 68",
+          "fr_FR": "Niveau 68 requis",
+          "it_IT": "Richiede il livello 68",
+          "ru_RU": "Требуется 68-й уровень",
+          "ko_KR": "최소 요구 레벨: 68",
+          "zh_TW": "需要等級68",
+          "zh_CN": "需要等级 68"
+        }
+      }
+    },
+    "modified_crafting_stat": [
+      {
+        "id": 79,
+        "type": "BONUS_STAT_PROFESSION_PERCEPTION",
+        "name": {
+          "en_US": "Perception",
+          "es_MX": "Percepción",
+          "pt_BR": "Percepção",
+          "de_DE": "Wahrnehmung",
+          "en_GB": "Perception",
+          "es_ES": "Percepción",
+          "fr_FR": "Perception",
+          "it_IT": "Percezione",
+          "ru_RU": "Внимательность",
+          "ko_KR": "인지력",
+          "zh_TW": "感知",
+          "zh_CN": "感知"
+        }
+      }
+    ]
+  },
+  "purchase_quantity": 1
+}

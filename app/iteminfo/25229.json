@@ -1,0 +1,513 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/25229?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 25229,
+  "name": {
+    "en_US": "Partisan Polearm",
+    "es_MX": "Partesana",
+    "pt_BR": "Arma de Haste do Partidário",
+    "de_DE": "Partisanenlanze",
+    "en_GB": "Partisan Polearm",
+    "es_ES": "Partesana",
+    "fr_FR": "Pertuisane",
+    "it_IT": "Partigiana",
+    "ru_RU": "Длинный протазан",
+    "ko_KR": "매복병 장창",
+    "zh_TW": "游擊矛戟",
+    "zh_CN": "游猎长矛"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 30,
+  "required_level": 25,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/25229?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 25229
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Polearm",
+      "es_MX": "Arma de asta",
+      "pt_BR": "Arma de Haste",
+      "de_DE": "Stangenwaffe",
+      "en_GB": "Polearm",
+      "es_ES": "Arma de asta",
+      "fr_FR": "Arme d’hast",
+      "it_IT": "Arma ad asta",
+      "ru_RU": "Древковое",
+      "ko_KR": "장창",
+      "zh_TW": "長柄武器",
+      "zh_CN": "长柄武器"
+    },
+    "id": 6
+  },
+  "inventory_type": {
+    "type": "TWOHWEAPON",
+    "name": {
+      "en_US": "Two-Hand",
+      "es_MX": "Dos manos",
+      "pt_BR": "Duas mãos",
+      "de_DE": "Zweihändig",
+      "en_GB": "Two-Hand",
+      "es_ES": "Dos manos",
+      "fr_FR": "Deux mains",
+      "it_IT": "Due mani",
+      "ru_RU": "Двуручное",
+      "ko_KR": "양손 장비",
+      "zh_TW": "雙手",
+      "zh_CN": "双手"
+    }
+  },
+  "purchase_price": 3992901,
+  "sell_price": 798580,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/25229?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 25229
+    },
+    "context": 0,
+    "bonus_list": [
+      6655
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Partisan Polearm",
+      "es_MX": "Partesana",
+      "pt_BR": "Arma de Haste do Partidário",
+      "de_DE": "Partisanenlanze",
+      "en_GB": "Partisan Polearm",
+      "es_ES": "Partesana",
+      "fr_FR": "Pertuisane",
+      "it_IT": "Partigiana",
+      "ru_RU": "Длинный протазан",
+      "ko_KR": "매복병 장창",
+      "zh_TW": "游擊矛戟",
+      "zh_CN": "游猎长矛"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/25229?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 25229
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/6?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Polearm",
+        "es_MX": "Arma de asta",
+        "pt_BR": "Arma de Haste",
+        "de_DE": "Stangenwaffe",
+        "en_GB": "Polearm",
+        "es_ES": "Arma de asta",
+        "fr_FR": "Arme d’hast",
+        "it_IT": "Arma ad asta",
+        "ru_RU": "Древковое",
+        "ko_KR": "장창",
+        "zh_TW": "長柄武器",
+        "zh_CN": "长柄武器"
+      },
+      "id": 6
+    },
+    "inventory_type": {
+      "type": "TWOHWEAPON",
+      "name": {
+        "en_US": "Two-Hand",
+        "es_MX": "Dos manos",
+        "pt_BR": "Duas mãos",
+        "de_DE": "Zweihändig",
+        "en_GB": "Two-Hand",
+        "es_ES": "Dos manos",
+        "fr_FR": "Deux mains",
+        "it_IT": "Due mani",
+        "ru_RU": "Двуручное",
+        "ko_KR": "양손 장비",
+        "zh_TW": "雙手",
+        "zh_CN": "双手"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 520,
+        "max_value": 966,
+        "display_string": {
+          "en_US": "520 - 966 Damage",
+          "es_MX": "520 - 966 p. de daño",
+          "pt_BR": "520 - 966 de Dano",
+          "de_DE": "520 - 966 Schaden",
+          "en_GB": "520 - 966 Damage",
+          "es_ES": "520 - 966 p. de daño",
+          "fr_FR": "Dégâts : 520 - 966",
+          "it_IT": "520 - 966 Danni",
+          "ru_RU": "Урон: 520 - 966",
+          "ko_KR": "공격력 520 ~ 966",
+          "zh_TW": "520-966點傷害",
+          "zh_CN": "520 - 966点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 3600,
+        "display_string": {
+          "en_US": "Speed 3.60",
+          "es_MX": "Velocidad 3.60",
+          "pt_BR": "Velocidade 3,60",
+          "de_DE": "Geschwindigkeit 3,60",
+          "en_GB": "Speed 3.60",
+          "es_ES": "Velocidad 3,60",
+          "fr_FR": "Vitesse 3,60",
+          "it_IT": "Velocità 3,60",
+          "ru_RU": "Скорость 3,60",
+          "ko_KR": "속도 3.60",
+          "zh_TW": "速度 3.60",
+          "zh_CN": "速度 3.60"
+        }
+      },
+      "dps": {
+        "value": 206.38889,
+        "display_string": {
+          "en_US": "(206.4 damage per second)",
+          "es_MX": "(206.4 p. de daño por segundo)",
+          "pt_BR": "(206,4 de dano por segundo)",
+          "de_DE": "(206,4 Schaden pro Sekunde)",
+          "en_GB": "(206.4 damage per second)",
+          "es_ES": "(206,4 p. de daño por segundo)",
+          "fr_FR": "(206,4 dégâts par seconde)",
+          "it_IT": "(206,4 danni per secondo)",
+          "ru_RU": "(206,4 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 206.4)",
+          "zh_TW": "(每秒206.4點傷害)",
+          "zh_CN": "（每秒伤害206.4）"
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STRENGTH",
+          "name": {
+            "en_US": "Strength",
+            "es_MX": "fuerza",
+            "pt_BR": "Força",
+            "de_DE": "Stärke",
+            "en_GB": "Strength",
+            "es_ES": "fuerza",
+            "fr_FR": "Force",
+            "it_IT": "Forza",
+            "ru_RU": "к силе",
+            "ko_KR": "힘",
+            "zh_TW": "力量",
+            "zh_CN": "力量"
+          }
+        },
+        "value": 274,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+274 Strength",
+            "es_MX": "+274 fuerza",
+            "pt_BR": "+274 Força",
+            "de_DE": "+274 Stärke",
+            "en_GB": "+274 Strength",
+            "es_ES": "+274 fuerza",
+            "fr_FR": "+274 Force",
+            "it_IT": "+274 Forza",
+            "ru_RU": "+274 к силе",
+            "ko_KR": "힘 +274",
+            "zh_TW": "+274力量",
+            "zh_CN": "+274 力量"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 496,
+        "display": {
+          "display_string": {
+            "en_US": "+496 Stamina",
+            "es_MX": "+496 aguante",
+            "pt_BR": "+496 Vigor",
+            "de_DE": "+496 Ausdauer",
+            "en_GB": "+496 Stamina",
+            "es_ES": "+496 aguante",
+            "fr_FR": "+496 Endurance",
+            "it_IT": "+496 Tempra",
+            "ru_RU": "+496 к выносливости",
+            "ko_KR": "체력 +496",
+            "zh_TW": "+496耐力",
+            "zh_CN": "+496 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 590648,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "59",
+          "es_MX": "59",
+          "pt_BR": "59",
+          "de_DE": "59",
+          "en_GB": "59",
+          "es_ES": "59",
+          "fr_FR": "59",
+          "it_IT": "59",
+          "ru_RU": "59",
+          "ko_KR": "59",
+          "zh_TW": "59",
+          "zh_CN": "59"
+        },
+        "silver": {
+          "en_US": "6",
+          "es_MX": "6",
+          "pt_BR": "6",
+          "de_DE": "6",
+          "en_GB": "6",
+          "es_ES": "6",
+          "fr_FR": "6",
+          "it_IT": "6",
+          "ru_RU": "6",
+          "ko_KR": "6",
+          "zh_TW": "6",
+          "zh_CN": "6"
+        },
+        "copper": {
+          "en_US": "48",
+          "es_MX": "48",
+          "pt_BR": "48",
+          "de_DE": "48",
+          "en_GB": "48",
+          "es_ES": "48",
+          "fr_FR": "48",
+          "it_IT": "48",
+          "ru_RU": "48",
+          "ko_KR": "48",
+          "zh_TW": "48",
+          "zh_CN": "48"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 25,
+        "display_string": {
+          "en_US": "Requires Level 25",
+          "es_MX": "Necesitas ser de nivel 25",
+          "pt_BR": "Requer o Nível 25",
+          "de_DE": "Benötigt Stufe 25",
+          "en_GB": "Requires Level 25",
+          "es_ES": "Necesitas ser de nivel 25",
+          "fr_FR": "Niveau 25 requis",
+          "it_IT": "Richiede il livello 25",
+          "ru_RU": "Требуется 25-й уровень",
+          "ko_KR": "최소 요구 레벨: 25",
+          "zh_TW": "需要等級25",
+          "zh_CN": "需要等级 25"
+        }
+      }
+    },
+    "level": {
+      "value": 357,
+      "display_string": {
+        "en_US": "Item Level 357",
+        "es_MX": "Nivel de objeto 357",
+        "pt_BR": "Nível do Item: 357",
+        "de_DE": "Gegenstandsstufe 357",
+        "en_GB": "Item Level 357",
+        "es_ES": "Nivel de objeto 357",
+        "fr_FR": "Niveau d'objet 357",
+        "it_IT": "Livello oggetto: 357",
+        "ru_RU": "Уровень предмета: 357",
+        "ko_KR": "아이템 레벨: 357",
+        "zh_TW": "物品等級357",
+        "zh_CN": "物品等级357"
+      }
+    },
+    "durability": {
+      "value": 85,
+      "display_string": {
+        "en_US": "Durability 85 / 85",
+        "es_MX": "Durabilidad 85 / 85",
+        "pt_BR": "Durabilidade 85 / 85",
+        "de_DE": "Haltbarkeit 85 / 85",
+        "en_GB": "Durability 85 / 85",
+        "es_ES": "Durabilidad 85 / 85",
+        "fr_FR": "Durabilité : 85 / 85",
+        "it_IT": "Integrità 85/85",
+        "ru_RU": "Прочность: 85 / 85",
+        "ko_KR": "내구도 85 / 85",
+        "zh_TW": "耐久度 85 / 85",
+        "zh_CN": "耐久度 85 / 85"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/1213?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 1213
+    }
+  ]
+}

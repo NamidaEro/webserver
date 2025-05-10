@@ -1,0 +1,595 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/163969?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 163969,
+  "name": {
+    "en_US": "Ameelton's Shot-Thrower",
+    "es_MX": "Lanzadisparos de Ameelton",
+    "pt_BR": "Dispara-tiro de Amyelton",
+    "de_DE": "Ameeltons Schießeisen",
+    "en_GB": "Ameelton's Shot-Thrower",
+    "es_ES": "Lanzabalas de Ameelton",
+    "fr_FR": "Fusil mi-tireur d’Ameelton",
+    "it_IT": "Archibugio di Ameelton",
+    "ru_RU": "Стрелялка Амилтона",
+    "ko_KR": "아밀튼의 총알투척기",
+    "zh_TW": "安密頓的射擊器",
+    "zh_CN": "阿弥尔顿的子弹发射器"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 60,
+  "required_level": 50,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/163969?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 163969
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Weapon",
+      "es_MX": "Arma",
+      "pt_BR": "Arma",
+      "de_DE": "Waffe",
+      "en_GB": "Weapon",
+      "es_ES": "Arma",
+      "fr_FR": "Arme",
+      "it_IT": "Arma",
+      "ru_RU": "Оружие",
+      "ko_KR": "무기",
+      "zh_TW": "武器",
+      "zh_CN": "武器"
+    },
+    "id": 2
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Gun",
+      "es_MX": "Arma de fuego",
+      "pt_BR": "Arma de fogo",
+      "de_DE": "Schusswaffe",
+      "en_GB": "Gun",
+      "es_ES": "Arma de fuego",
+      "fr_FR": "Arme à feu",
+      "it_IT": "Arma da fuoco",
+      "ru_RU": "Огнестрельное",
+      "ko_KR": "총",
+      "zh_TW": "槍械",
+      "zh_CN": "枪械"
+    },
+    "id": 3
+  },
+  "inventory_type": {
+    "type": "RANGEDRIGHT",
+    "name": {
+      "en_US": "Ranged",
+      "es_MX": "A distancia",
+      "pt_BR": "Longo alcance",
+      "de_DE": "Distanz",
+      "en_GB": "Ranged",
+      "es_ES": "A distancia",
+      "fr_FR": "À distance",
+      "it_IT": "A distanza",
+      "ru_RU": "Оружие дальнего боя",
+      "ko_KR": "원거리 장비",
+      "zh_TW": "遠程",
+      "zh_CN": "远程"
+    }
+  },
+  "purchase_price": 6640537,
+  "sell_price": 1328107,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/163969?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 163969
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Ameelton's Shot-Thrower",
+      "es_MX": "Lanzadisparos de Ameelton",
+      "pt_BR": "Dispara-tiro de Amyelton",
+      "de_DE": "Ameeltons Schießeisen",
+      "en_GB": "Ameelton's Shot-Thrower",
+      "es_ES": "Lanzabalas de Ameelton",
+      "fr_FR": "Fusil mi-tireur d’Ameelton",
+      "it_IT": "Archibugio di Ameelton",
+      "ru_RU": "Стрелялка Амилтона",
+      "ko_KR": "아밀튼의 총알투척기",
+      "zh_TW": "安密頓的射擊器",
+      "zh_CN": "阿弥尔顿的子弹发射器"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/163969?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 163969
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Weapon",
+        "es_MX": "Arma",
+        "pt_BR": "Arma",
+        "de_DE": "Waffe",
+        "en_GB": "Weapon",
+        "es_ES": "Arma",
+        "fr_FR": "Arme",
+        "it_IT": "Arma",
+        "ru_RU": "Оружие",
+        "ko_KR": "무기",
+        "zh_TW": "武器",
+        "zh_CN": "武器"
+      },
+      "id": 2
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/3?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Gun",
+        "es_MX": "Arma de fuego",
+        "pt_BR": "Arma de fogo",
+        "de_DE": "Schusswaffe",
+        "en_GB": "Gun",
+        "es_ES": "Arma de fuego",
+        "fr_FR": "Arme à feu",
+        "it_IT": "Arma da fuoco",
+        "ru_RU": "Огнестрельное",
+        "ko_KR": "총",
+        "zh_TW": "槍械",
+        "zh_CN": "枪械"
+      },
+      "id": 3
+    },
+    "inventory_type": {
+      "type": "RANGEDRIGHT",
+      "name": {
+        "en_US": "Ranged",
+        "es_MX": "A distancia",
+        "pt_BR": "Longo alcance",
+        "de_DE": "Distanz",
+        "en_GB": "Ranged",
+        "es_ES": "A distancia",
+        "fr_FR": "À distance",
+        "it_IT": "A distanza",
+        "ru_RU": "Оружие дальнего боя",
+        "ko_KR": "원거리 장비",
+        "zh_TW": "遠程",
+        "zh_CN": "远程"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "weapon": {
+      "damage": {
+        "min_value": 14,
+        "max_value": 14,
+        "display_string": {
+          "en_US": "14 Damage",
+          "es_MX": "14 p. de daño",
+          "pt_BR": "14 de Dano",
+          "de_DE": "14 Schaden",
+          "en_GB": "14 Damage",
+          "es_ES": "14 p. de daño",
+          "fr_FR": "14 Dégâts",
+          "it_IT": "14 Danni",
+          "ru_RU": "Урон: 14",
+          "ko_KR": "공격력 14",
+          "zh_TW": "14點傷害",
+          "zh_CN": "14点伤害"
+        },
+        "damage_class": {
+          "type": "PHYSICAL",
+          "name": {
+            "en_US": "Physical",
+            "es_MX": "Físico",
+            "pt_BR": "Físico",
+            "de_DE": "Körperlich",
+            "en_GB": "Physical",
+            "es_ES": "Físico",
+            "fr_FR": "Physique",
+            "it_IT": "Fisico",
+            "ru_RU": "физический",
+            "ko_KR": "물리",
+            "zh_TW": "物理",
+            "zh_CN": "物理"
+          }
+        }
+      },
+      "attack_speed": {
+        "value": 3000,
+        "display_string": {
+          "en_US": "Speed 3.00",
+          "es_MX": "Velocidad 3.00",
+          "pt_BR": "Velocidade 3,00",
+          "de_DE": "Geschwindigkeit 3,00",
+          "en_GB": "Speed 3.00",
+          "es_ES": "Velocidad 3,00",
+          "fr_FR": "Vitesse 3,00",
+          "it_IT": "Velocità 3,00",
+          "ru_RU": "Скорость 3,00",
+          "ko_KR": "속도 3.00",
+          "zh_TW": "速度 3.00",
+          "zh_CN": "速度 3.00"
+        }
+      },
+      "dps": {
+        "value": 4.6666665,
+        "display_string": {
+          "en_US": "(4.7 damage per second)",
+          "es_MX": "(4.7 p. de daño por segundo)",
+          "pt_BR": "(4,7 de dano por segundo)",
+          "de_DE": "(4,7 Schaden pro Sekunde)",
+          "en_GB": "(4.7 damage per second)",
+          "es_ES": "(4,7 p. de daño por segundo)",
+          "fr_FR": "(4,7 dégâts par seconde)",
+          "it_IT": "(4,7 danni per secondo)",
+          "ru_RU": "(4,7 ед. урона в секунду)",
+          "ko_KR": "(초당 공격력 4.7)",
+          "zh_TW": "(每秒4.7點傷害)",
+          "zh_CN": "（每秒伤害4.7）"
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "AGILITY",
+          "name": {
+            "en_US": "Agility",
+            "es_MX": "agilidad",
+            "pt_BR": "Agilidade",
+            "de_DE": "Beweglichkeit",
+            "en_GB": "Agility",
+            "es_ES": "agilidad",
+            "fr_FR": "Agilité",
+            "it_IT": "Agilità",
+            "ru_RU": "к ловкости",
+            "ko_KR": "민첩성",
+            "zh_TW": "敏捷",
+            "zh_CN": "敏捷"
+          }
+        },
+        "value": 6,
+        "is_negated": true,
+        "display": {
+          "display_string": {
+            "en_US": "+6 Agility",
+            "es_MX": "+6 agilidad",
+            "pt_BR": "+6 Agilidade",
+            "de_DE": "+6 Beweglichkeit",
+            "en_GB": "+6 Agility",
+            "es_ES": "+6 agilidad",
+            "fr_FR": "+6 Agilité",
+            "it_IT": "+6 Agilità",
+            "ru_RU": "+6 к ловкости",
+            "ko_KR": "민첩성 +6",
+            "zh_TW": "+6敏捷",
+            "zh_CN": "+6 敏捷"
+          },
+          "color": {
+            "r": 128,
+            "g": 128,
+            "b": 128,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 9,
+        "display": {
+          "display_string": {
+            "en_US": "+9 Stamina",
+            "es_MX": "+9 aguante",
+            "pt_BR": "+9 Vigor",
+            "de_DE": "+9 Ausdauer",
+            "en_GB": "+9 Stamina",
+            "es_ES": "+9 aguante",
+            "fr_FR": "+9 Endurance",
+            "it_IT": "+9 Tempra",
+            "ru_RU": "+9 к выносливости",
+            "ko_KR": "체력 +9",
+            "zh_TW": "+9耐力",
+            "zh_CN": "+9 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 6,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+6 Critical Strike",
+            "es_MX": "+6 golpe crítico",
+            "pt_BR": "+6 Acerto Crítico",
+            "de_DE": "+6 Kritischer Trefferwert",
+            "en_GB": "+6 Critical Strike",
+            "es_ES": "+6 golpe crítico",
+            "fr_FR": "+6 Score de crit.",
+            "it_IT": "+6 Indice di critico",
+            "ru_RU": "+6 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +6",
+            "zh_TW": "+6致命一擊",
+            "zh_CN": "+6 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": {
+            "en_US": "Haste",
+            "es_MX": "celeridad",
+            "pt_BR": "Aceleração",
+            "de_DE": "Tempo",
+            "en_GB": "Haste",
+            "es_ES": "celeridad",
+            "fr_FR": "Hâte",
+            "it_IT": "Indice di celerità",
+            "ru_RU": "к скорости",
+            "ko_KR": "가속",
+            "zh_TW": "加速",
+            "zh_CN": "急速"
+          }
+        },
+        "value": 7,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+7 Haste",
+            "es_MX": "+7 celeridad",
+            "pt_BR": "+7 Aceleração",
+            "de_DE": "+7 Tempo",
+            "en_GB": "+7 Haste",
+            "es_ES": "+7 celeridad",
+            "fr_FR": "+7 Hâte",
+            "it_IT": "+7 Indice di celerità",
+            "ru_RU": "+7 к скорости",
+            "ko_KR": "가속 +7",
+            "zh_TW": "+7加速",
+            "zh_CN": "+7 急速"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 3754,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "37",
+          "es_MX": "37",
+          "pt_BR": "37",
+          "de_DE": "37",
+          "en_GB": "37",
+          "es_ES": "37",
+          "fr_FR": "37",
+          "it_IT": "37",
+          "ru_RU": "37",
+          "ko_KR": "37",
+          "zh_TW": "37",
+          "zh_CN": "37"
+        },
+        "copper": {
+          "en_US": "54",
+          "es_MX": "54",
+          "pt_BR": "54",
+          "de_DE": "54",
+          "en_GB": "54",
+          "es_ES": "54",
+          "fr_FR": "54",
+          "it_IT": "54",
+          "ru_RU": "54",
+          "ko_KR": "54",
+          "zh_TW": "54",
+          "zh_CN": "54"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 50,
+        "display_string": {
+          "en_US": "Requires Level 50",
+          "es_MX": "Necesitas ser de nivel 50",
+          "pt_BR": "Requer o Nível 50",
+          "de_DE": "Benötigt Stufe 50",
+          "en_GB": "Requires Level 50",
+          "es_ES": "Necesitas ser de nivel 50",
+          "fr_FR": "Niveau 50 requis",
+          "it_IT": "Richiede il livello 50",
+          "ru_RU": "Требуется 50-й уровень",
+          "ko_KR": "최소 요구 레벨: 50",
+          "zh_TW": "需要等級50",
+          "zh_CN": "需要等级 50"
+        }
+      }
+    },
+    "level": {
+      "value": 60,
+      "display_string": {
+        "en_US": "Item Level 60",
+        "es_MX": "Nivel de objeto 60",
+        "pt_BR": "Nível do Item: 60",
+        "de_DE": "Gegenstandsstufe 60",
+        "en_GB": "Item Level 60",
+        "es_ES": "Nivel de objeto 60",
+        "fr_FR": "Niveau d'objet 60",
+        "it_IT": "Livello oggetto: 60",
+        "ru_RU": "Уровень предмета: 60",
+        "ko_KR": "아이템 레벨: 60",
+        "zh_TW": "物品等級60",
+        "zh_CN": "物品等级60"
+      }
+    },
+    "durability": {
+      "value": 120,
+      "display_string": {
+        "en_US": "Durability 120 / 120",
+        "es_MX": "Durabilidad 120 / 120",
+        "pt_BR": "Durabilidade 120 / 120",
+        "de_DE": "Haltbarkeit 120 / 120",
+        "en_GB": "Durability 120 / 120",
+        "es_ES": "Durabilidad 120 / 120",
+        "fr_FR": "Durabilité : 120 / 120",
+        "it_IT": "Integrità 120/120",
+        "ru_RU": "Прочность: 120 / 120",
+        "ko_KR": "내구도 120 / 120",
+        "zh_TW": "耐久度 120 / 120",
+        "zh_CN": "耐久度 120 / 120"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/23175?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 23175
+    }
+  ]
+}

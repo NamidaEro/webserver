@@ -1,0 +1,466 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/13144?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 13144,
+  "name": {
+    "en_US": "Serenity Belt",
+    "es_MX": "Cinturón de serenidad",
+    "pt_BR": "Cinto da Serenidade",
+    "de_DE": "Gürtel der Beschaulichkeit",
+    "en_GB": "Serenity Belt",
+    "es_ES": "Cinturón de serenidad",
+    "fr_FR": "Ceinture de sérénité",
+    "it_IT": "Cintura della Serenità",
+    "ru_RU": "Пояс безмятежности",
+    "ko_KR": "평온의 허리띠",
+    "zh_TW": "平靜腰帶",
+    "zh_CN": "平静腰带"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 27,
+  "required_level": 21,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/13144?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 13144
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "WAIST",
+    "name": {
+      "en_US": "Waist",
+      "es_MX": "Cintura",
+      "pt_BR": "Cintura",
+      "de_DE": "Taille",
+      "en_GB": "Waist",
+      "es_ES": "Cintura",
+      "fr_FR": "Taille",
+      "it_IT": "Fianchi",
+      "ru_RU": "Пояс",
+      "ko_KR": "허리",
+      "zh_TW": "腰部",
+      "zh_CN": "腰部"
+    }
+  },
+  "purchase_price": 1238598,
+  "sell_price": 247719,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/13144?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 13144
+    },
+    "context": 0,
+    "bonus_list": [
+      6658
+    ],
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Serenity Belt",
+      "es_MX": "Cinturón de serenidad",
+      "pt_BR": "Cinto da Serenidade",
+      "de_DE": "Gürtel der Beschaulichkeit",
+      "en_GB": "Serenity Belt",
+      "es_ES": "Cinturón de serenidad",
+      "fr_FR": "Ceinture de sérénité",
+      "it_IT": "Cintura della Serenità",
+      "ru_RU": "Пояс безмятежности",
+      "ko_KR": "평온의 허리띠",
+      "zh_TW": "平靜腰帶",
+      "zh_CN": "平静腰带"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/13144?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 13144
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "WAIST",
+      "name": {
+        "en_US": "Waist",
+        "es_MX": "Cintura",
+        "pt_BR": "Cintura",
+        "de_DE": "Taille",
+        "en_GB": "Waist",
+        "es_ES": "Cintura",
+        "fr_FR": "Taille",
+        "it_IT": "Fianchi",
+        "ru_RU": "Пояс",
+        "ko_KR": "허리",
+        "zh_TW": "腰部",
+        "zh_CN": "腰部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 134,
+      "display": {
+        "display_string": {
+          "en_US": "134 Armor",
+          "es_MX": "134 p. de armadura",
+          "pt_BR": "134 de Armadura",
+          "de_DE": "134 Rüstung",
+          "en_GB": "134 Armor",
+          "es_ES": "134 p. de armadura",
+          "fr_FR": "Armure : 134",
+          "it_IT": "134 Armatura",
+          "ru_RU": "Броня: 134",
+          "ko_KR": "방어도 134",
+          "zh_TW": "134點護甲",
+          "zh_CN": "134点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 303,
+        "display": {
+          "display_string": {
+            "en_US": "+303 Intellect",
+            "es_MX": "+303 intelecto",
+            "pt_BR": "+303 Intelecto",
+            "de_DE": "+303 Intelligenz",
+            "en_GB": "+303 Intellect",
+            "es_ES": "+303 intelecto",
+            "fr_FR": "+303 Intelligence",
+            "it_IT": "+303 Intelletto",
+            "ru_RU": "+303 к интеллекту",
+            "ko_KR": "지능 +303",
+            "zh_TW": "+303智力",
+            "zh_CN": "+303 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 420,
+        "display": {
+          "display_string": {
+            "en_US": "+420 Stamina",
+            "es_MX": "+420 aguante",
+            "pt_BR": "+420 Vigor",
+            "de_DE": "+420 Ausdauer",
+            "en_GB": "+420 Stamina",
+            "es_ES": "+420 aguante",
+            "fr_FR": "+420 Endurance",
+            "it_IT": "+420 Tempra",
+            "ru_RU": "+420 к выносливости",
+            "ko_KR": "체력 +420",
+            "zh_TW": "+420耐力",
+            "zh_CN": "+420 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 211788,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "21",
+          "es_MX": "21",
+          "pt_BR": "21",
+          "de_DE": "21",
+          "en_GB": "21",
+          "es_ES": "21",
+          "fr_FR": "21",
+          "it_IT": "21",
+          "ru_RU": "21",
+          "ko_KR": "21",
+          "zh_TW": "21",
+          "zh_CN": "21"
+        },
+        "silver": {
+          "en_US": "17",
+          "es_MX": "17",
+          "pt_BR": "17",
+          "de_DE": "17",
+          "en_GB": "17",
+          "es_ES": "17",
+          "fr_FR": "17",
+          "it_IT": "17",
+          "ru_RU": "17",
+          "ko_KR": "17",
+          "zh_TW": "17",
+          "zh_CN": "17"
+        },
+        "copper": {
+          "en_US": "88",
+          "es_MX": "88",
+          "pt_BR": "88",
+          "de_DE": "88",
+          "en_GB": "88",
+          "es_ES": "88",
+          "fr_FR": "88",
+          "it_IT": "88",
+          "ru_RU": "88",
+          "ko_KR": "88",
+          "zh_TW": "88",
+          "zh_CN": "88"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 21,
+        "display_string": {
+          "en_US": "Requires Level 21",
+          "es_MX": "Necesitas ser de nivel 21",
+          "pt_BR": "Requer o Nível 21",
+          "de_DE": "Benötigt Stufe 21",
+          "en_GB": "Requires Level 21",
+          "es_ES": "Necesitas ser de nivel 21",
+          "fr_FR": "Niveau 21 requis",
+          "it_IT": "Richiede il livello 21",
+          "ru_RU": "Требуется 21-й уровень",
+          "ko_KR": "최소 요구 레벨: 21",
+          "zh_TW": "需要等級21",
+          "zh_CN": "需要等级 21"
+        }
+      }
+    },
+    "level": {
+      "value": 362,
+      "display_string": {
+        "en_US": "Item Level 362",
+        "es_MX": "Nivel de objeto 362",
+        "pt_BR": "Nível do Item: 362",
+        "de_DE": "Gegenstandsstufe 362",
+        "en_GB": "Item Level 362",
+        "es_ES": "Nivel de objeto 362",
+        "fr_FR": "Niveau d'objet 362",
+        "it_IT": "Livello oggetto: 362",
+        "ru_RU": "Уровень предмета: 362",
+        "ko_KR": "아이템 레벨: 362",
+        "zh_TW": "物品等級362",
+        "zh_CN": "物品等级362"
+      }
+    },
+    "durability": {
+      "value": 50,
+      "display_string": {
+        "en_US": "Durability 50 / 50",
+        "es_MX": "Durabilidad 50 / 50",
+        "pt_BR": "Durabilidade 50 / 50",
+        "de_DE": "Haltbarkeit 50 / 50",
+        "en_GB": "Durability 50 / 50",
+        "es_ES": "Durabilidad 50 / 50",
+        "fr_FR": "Durabilité : 50 / 50",
+        "it_IT": "Integrità 50/50",
+        "ru_RU": "Прочность: 50 / 50",
+        "ko_KR": "내구도 50 / 50",
+        "zh_TW": "耐久度 50 / 50",
+        "zh_CN": "耐久度 50 / 50"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/3788?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 3788
+    }
+  ]
+}

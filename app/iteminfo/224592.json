@@ -1,0 +1,390 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/224592?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 224592,
+  "name": {
+    "en_US": "Spinner's Hoop",
+    "es_MX": "Aro de tejedor",
+    "pt_BR": "Argola da Tecelã",
+    "de_DE": "Spinnerband",
+    "en_GB": "Spinner's Hoop",
+    "es_ES": "Aro de hilador",
+    "fr_FR": "Cerceau de tisseuse",
+    "it_IT": "Cerchio della Filatrice",
+    "ru_RU": "Колечко прядильщика",
+    "ko_KR": "타래꾼의 고리",
+    "zh_TW": "紡織者之環",
+    "zh_CN": "纺织者之环"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 545,
+  "required_level": 70,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/224592?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 224592
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "FINGER",
+    "name": {
+      "en_US": "Finger",
+      "es_MX": "Dedo",
+      "pt_BR": "Dedo",
+      "de_DE": "Finger",
+      "en_GB": "Finger",
+      "es_ES": "Dedo",
+      "fr_FR": "Doigt",
+      "it_IT": "Dito",
+      "ru_RU": "Палец",
+      "ko_KR": "손가락",
+      "zh_TW": "手指",
+      "zh_CN": "手指"
+    }
+  },
+  "purchase_price": 2175059,
+  "sell_price": 435011,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/224592?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 224592
+    },
+    "context": 0,
+    "bonus_list": [
+      10844,
+      10382
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Spinner's Hoop",
+      "es_MX": "Aro de tejedor",
+      "pt_BR": "Argola da Tecelã",
+      "de_DE": "Spinnerband",
+      "en_GB": "Spinner's Hoop",
+      "es_ES": "Aro de hilador",
+      "fr_FR": "Cerceau de tisseuse",
+      "it_IT": "Cerchio della Filatrice",
+      "ru_RU": "Колечко прядильщика",
+      "ko_KR": "타래꾼의 고리",
+      "zh_TW": "紡織者之環",
+      "zh_CN": "纺织者之环"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/224592?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 224592
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "FINGER",
+      "name": {
+        "en_US": "Finger",
+        "es_MX": "Dedo",
+        "pt_BR": "Dedo",
+        "de_DE": "Finger",
+        "en_GB": "Finger",
+        "es_ES": "Dedo",
+        "fr_FR": "Doigt",
+        "it_IT": "Dito",
+        "ru_RU": "Палец",
+        "ko_KR": "손가락",
+        "zh_TW": "手指",
+        "zh_CN": "手指"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "unique_equipped": {
+      "en_US": "Unique-Equipped",
+      "es_MX": "Único-Equipado",
+      "pt_BR": "Único-equipado",
+      "de_DE": "Einzigartig anlegbar",
+      "en_GB": "Unique-Equipped",
+      "es_ES": "Único-Equipado",
+      "fr_FR": "Unique - Équipé",
+      "it_IT": "Unico equipaggiabile",
+      "ru_RU": "Уникальный использующийся",
+      "ko_KR": "고유 장착 아이템",
+      "zh_TW": "僅可裝備一件",
+      "zh_CN": "装备唯一"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 728,
+        "display": {
+          "display_string": {
+            "en_US": "+728 Stamina",
+            "es_MX": "+728 aguante",
+            "pt_BR": "+728 Vigor",
+            "de_DE": "+728 Ausdauer",
+            "en_GB": "+728 Stamina",
+            "es_ES": "+728 aguante",
+            "fr_FR": "+728 Endurance",
+            "it_IT": "+728 Tempra",
+            "ru_RU": "+728 к выносливости",
+            "ko_KR": "체력 +728",
+            "zh_TW": "+728耐力",
+            "zh_CN": "+728 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 244536,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "24",
+          "es_MX": "24",
+          "pt_BR": "24",
+          "de_DE": "24",
+          "en_GB": "24",
+          "es_ES": "24",
+          "fr_FR": "24",
+          "it_IT": "24",
+          "ru_RU": "24",
+          "ko_KR": "24",
+          "zh_TW": "24",
+          "zh_CN": "24"
+        },
+        "silver": {
+          "en_US": "45",
+          "es_MX": "45",
+          "pt_BR": "45",
+          "de_DE": "45",
+          "en_GB": "45",
+          "es_ES": "45",
+          "fr_FR": "45",
+          "it_IT": "45",
+          "ru_RU": "45",
+          "ko_KR": "45",
+          "zh_TW": "45",
+          "zh_CN": "45"
+        },
+        "copper": {
+          "en_US": "36",
+          "es_MX": "36",
+          "pt_BR": "36",
+          "de_DE": "36",
+          "en_GB": "36",
+          "es_ES": "36",
+          "fr_FR": "36",
+          "it_IT": "36",
+          "ru_RU": "36",
+          "ko_KR": "36",
+          "zh_TW": "36",
+          "zh_CN": "36"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 70,
+        "display_string": {
+          "en_US": "Requires Level 70",
+          "es_MX": "Necesitas ser de nivel 70",
+          "pt_BR": "Requer o Nível 70",
+          "de_DE": "Benötigt Stufe 70",
+          "en_GB": "Requires Level 70",
+          "es_ES": "Necesitas ser de nivel 70",
+          "fr_FR": "Niveau 70 requis",
+          "it_IT": "Richiede il livello 70",
+          "ru_RU": "Требуется 70-й уровень",
+          "ko_KR": "최소 요구 레벨: 70",
+          "zh_TW": "需要等級70",
+          "zh_CN": "需要等级 70"
+        }
+      }
+    },
+    "level": {
+      "value": 408,
+      "display_string": {
+        "en_US": "Item Level 408",
+        "es_MX": "Nivel de objeto 408",
+        "pt_BR": "Nível do Item: 408",
+        "de_DE": "Gegenstandsstufe 408",
+        "en_GB": "Item Level 408",
+        "es_ES": "Nivel de objeto 408",
+        "fr_FR": "Niveau d'objet 408",
+        "it_IT": "Livello oggetto: 408",
+        "ru_RU": "Уровень предмета: 408",
+        "ko_KR": "아이템 레벨: 408",
+        "zh_TW": "物品等級408",
+        "zh_CN": "物品等级408"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

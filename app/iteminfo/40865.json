@@ -1,0 +1,446 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/40865?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 40865,
+  "name": {
+    "en_US": "Noise Machine",
+    "es_MX": "Máquina de ruido",
+    "pt_BR": "Máquina de Ruídos",
+    "de_DE": "Lärmmaschine",
+    "en_GB": "Noise Machine",
+    "es_ES": "Máquina de ruido",
+    "fr_FR": "Machine à bruit",
+    "it_IT": "Generatore Frastuonico",
+    "ru_RU": "Генератор шума",
+    "ko_KR": "소음기",
+    "zh_TW": "噪音裝置",
+    "zh_CN": "噪声机"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 34,
+  "required_level": 24,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/40865?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 40865
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "TRINKET",
+    "name": {
+      "en_US": "Trinket",
+      "es_MX": "Abalorio",
+      "pt_BR": "Berloque",
+      "de_DE": "Schmuck",
+      "en_GB": "Trinket",
+      "es_ES": "Abalorio",
+      "fr_FR": "Bijou",
+      "it_IT": "Monile",
+      "ru_RU": "Аксессуар",
+      "ko_KR": "장신구",
+      "zh_TW": "飾品",
+      "zh_CN": "饰品"
+    }
+  },
+  "purchase_price": 271798,
+  "sell_price": 67949,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/40865?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 40865
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Noise Machine",
+      "es_MX": "Máquina de ruido",
+      "pt_BR": "Máquina de Ruídos",
+      "de_DE": "Lärmmaschine",
+      "en_GB": "Noise Machine",
+      "es_ES": "Máquina de ruido",
+      "fr_FR": "Machine à bruit",
+      "it_IT": "Generatore Frastuonico",
+      "ru_RU": "Генератор шума",
+      "ko_KR": "소음기",
+      "zh_TW": "噪音裝置",
+      "zh_CN": "噪声机"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/40865?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 40865
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "TRINKET",
+      "name": {
+        "en_US": "Trinket",
+        "es_MX": "Abalorio",
+        "pt_BR": "Berloque",
+        "de_DE": "Schmuck",
+        "en_GB": "Trinket",
+        "es_ES": "Abalorio",
+        "fr_FR": "Bijou",
+        "it_IT": "Monile",
+        "ru_RU": "Аксессуар",
+        "ko_KR": "장신구",
+        "zh_TW": "飾品",
+        "zh_CN": "饰品"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 4,
+        "display": {
+          "display_string": {
+            "en_US": "+4 Intellect",
+            "es_MX": "+4 intelecto",
+            "pt_BR": "+4 Intelecto",
+            "de_DE": "+4 Intelligenz",
+            "en_GB": "+4 Intellect",
+            "es_ES": "+4 intelecto",
+            "fr_FR": "+4 Intelligence",
+            "it_IT": "+4 Intelletto",
+            "ru_RU": "+4 к интеллекту",
+            "ko_KR": "지능 +4",
+            "zh_TW": "+4智力",
+            "zh_CN": "+4 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/54808?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Sonic Shield",
+            "es_MX": "Escudo sónico",
+            "pt_BR": "Escudo Sônico",
+            "de_DE": "Schallschild",
+            "en_GB": "Sonic Shield",
+            "es_ES": "Escudo sónico",
+            "fr_FR": "Bouclier sonore",
+            "it_IT": "Scudo Sonico",
+            "ru_RU": "Звуковой щит",
+            "ko_KR": "음파 보호막",
+            "zh_TW": "音之盾",
+            "zh_CN": "声波护盾"
+          },
+          "id": 54808
+        },
+        "description": {
+          "en_US": "Equip: Melee attacks against you have a chance to invoke a Sonic Shield, absorbing 6 damage.  This effect can only occur once a minute.",
+          "es_MX": "Equipar: Los ataques cuerpo a cuerpo contra ti tienen la posibilidad de invocar un Escudo sónico que absorbe 6 p. de daño. Este efecto solo puede tener lugar una vez por minuto.",
+          "pt_BR": "Equipado: Ataques corpo a corpo contra você podem invocar um Escudo Sônico, absorvendo 6 de dano. Este efeito só pode ocorrer uma vez por minuto.",
+          "de_DE": "Anlegen: Nahkampfangriffe auf Euch haben eine Chance, einen Schallschild zu beschwören, der 6 Schaden absorbiert. Dieser Effekt kann nur einmal pro Minute auftreten.",
+          "en_GB": "Equip: Melee attacks against you have a chance to invoke a Sonic Shield, absorbing 6 damage.  This effect can only occur once a minute.",
+          "es_ES": "Equipar: Los ataques cuerpo a cuerpo contra ti tienen la posibilidad de invocar un Escudo sónico que absorbe 6 p. de daño. Este efecto solo puede tener lugar una vez por minuto.",
+          "fr_FR": "Équipé : Les attaques de mêlée contre vous ont une chance d'invoquer un Bouclier sonore qui absorbe 6 points de dégâts. Cet effet ne peut se produire plus d'une fois par minute.",
+          "it_IT": "Equipaggia: Gli attacchi in mischia subiti hanno una probabilità di generare uno Scudo Sonico, assorbendo 6 danni. L'effetto può avere luogo solo una volta ogni min.",
+          "ru_RU": "Если на персонаже: Атаки ближнего боя, направленные против вас, могут спровоцировать наложение звукового щита, поглощающего 6 ед. урона. Эффект может накладываться только раз в минуту.",
+          "ko_KR": "착용 효과: 근접 공격을 받으면 일정 확률로 6의 피해를 흡수하는 음파 보호막이 활성화됩니다. 이 효과는 1분마다 1번씩만 발동됩니다.",
+          "zh_TW": "裝備： 當你受到近戰攻擊時有機會觸發音之盾，吸收6點傷害。這個效果一分鐘內只能觸發一次。",
+          "zh_CN": "装备： 对你进行的近战攻击有一定几率触发声波护盾，吸收6点伤害。这个效果每分钟只能触发一次。"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 67949,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "6",
+          "es_MX": "6",
+          "pt_BR": "6",
+          "de_DE": "6",
+          "en_GB": "6",
+          "es_ES": "6",
+          "fr_FR": "6",
+          "it_IT": "6",
+          "ru_RU": "6",
+          "ko_KR": "6",
+          "zh_TW": "6",
+          "zh_CN": "6"
+        },
+        "silver": {
+          "en_US": "79",
+          "es_MX": "79",
+          "pt_BR": "79",
+          "de_DE": "79",
+          "en_GB": "79",
+          "es_ES": "79",
+          "fr_FR": "79",
+          "it_IT": "79",
+          "ru_RU": "79",
+          "ko_KR": "79",
+          "zh_TW": "79",
+          "zh_CN": "79"
+        },
+        "copper": {
+          "en_US": "49",
+          "es_MX": "49",
+          "pt_BR": "49",
+          "de_DE": "49",
+          "en_GB": "49",
+          "es_ES": "49",
+          "fr_FR": "49",
+          "it_IT": "49",
+          "ru_RU": "49",
+          "ko_KR": "49",
+          "zh_TW": "49",
+          "zh_CN": "49"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 24,
+        "display_string": {
+          "en_US": "Requires Level 24",
+          "es_MX": "Necesitas ser de nivel 24",
+          "pt_BR": "Requer o Nível 24",
+          "de_DE": "Benötigt Stufe 24",
+          "en_GB": "Requires Level 24",
+          "es_ES": "Necesitas ser de nivel 24",
+          "fr_FR": "Niveau 24 requis",
+          "it_IT": "Richiede il livello 24",
+          "ru_RU": "Требуется 24-й уровень",
+          "ko_KR": "최소 요구 레벨: 24",
+          "zh_TW": "需要等級24",
+          "zh_CN": "需要等级 24"
+        }
+      },
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2504?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Northrend Engineering",
+            "es_MX": "Ingeniería de Rasganorte",
+            "pt_BR": "Engenharia de Nortúndria",
+            "de_DE": "Ingenieurskunst von Nordend",
+            "en_GB": "Northrend Engineering",
+            "es_ES": "Ingeniería de Rasganorte",
+            "fr_FR": "Ingénierie du Norfendre",
+            "it_IT": "Ingegneria di Nordania",
+            "ru_RU": "Инженерное дело Нордскола",
+            "ko_KR": "노스렌드 기계공학",
+            "zh_TW": "北裂境工程學",
+            "zh_CN": "诺森德工程学"
+          },
+          "id": 2504
+        },
+        "level": 15,
+        "display_string": {
+          "en_US": "Requires Northrend Engineering (15)",
+          "es_MX": "Requiere Ingeniería de Rasganorte (15)",
+          "pt_BR": "Requer Engenharia de Nortúndria (15)",
+          "de_DE": "Benötigt Ingenieurskunst von Nordend (15)",
+          "en_GB": "Requires Northrend Engineering (15)",
+          "es_ES": "Requiere Ingeniería de Rasganorte (15)",
+          "fr_FR": "Ingénierie du Norfendre (15) requis",
+          "it_IT": "Richiede: Ingegneria di Nordania (15)",
+          "ru_RU": "Требуется: Инженерное дело Нордскола (15)",
+          "ko_KR": "요구 사항: 노스렌드 기계공학 (15)",
+          "zh_TW": "需要北裂境工程學(15)",
+          "zh_CN": "需要诺森德工程学（15）"
+        }
+      }
+    },
+    "level": {
+      "value": 34,
+      "display_string": {
+        "en_US": "Item Level 34",
+        "es_MX": "Nivel de objeto 34",
+        "pt_BR": "Nível do Item: 34",
+        "de_DE": "Gegenstandsstufe 34",
+        "en_GB": "Item Level 34",
+        "es_ES": "Nivel de objeto 34",
+        "fr_FR": "Niveau d'objet 34",
+        "it_IT": "Livello oggetto: 34",
+        "ru_RU": "Уровень предмета: 34",
+        "ko_KR": "아이템 레벨: 34",
+        "zh_TW": "物品等級34",
+        "zh_CN": "物品等级34"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

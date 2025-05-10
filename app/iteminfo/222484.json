@@ -1,0 +1,407 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/222484?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 222484,
+  "name": {
+    "en_US": "Proficient Leatherworker's Knife",
+    "es_MX": "Cuchillo de peletero experto",
+    "pt_BR": "Faca do Coureiro Competente",
+    "de_DE": "Ledermesser des Gesellen",
+    "en_GB": "Proficient Leatherworker's Knife",
+    "es_ES": "Cuchillo de peletería competente",
+    "fr_FR": "Couteau de travail du cuir excellent",
+    "it_IT": "Coltello da Conciatore Efficace",
+    "ru_RU": "Нож кожевника-умельца",
+    "ko_KR": "능률적인 가죽세공 칼",
+    "zh_TW": "精熟製皮師小刀",
+    "zh_CN": "熟稔制皮刀"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 486,
+  "required_level": 68,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/222484?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 222484
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Profession",
+      "es_MX": "Profesión",
+      "pt_BR": "Profissão",
+      "de_DE": "Beruf",
+      "en_GB": "Profession",
+      "es_ES": "Profesión",
+      "fr_FR": "Métier",
+      "it_IT": "Professione",
+      "ru_RU": "Профессия",
+      "ko_KR": "전문 기술",
+      "zh_TW": "專業技能",
+      "zh_CN": "专业技能"
+    },
+    "id": 19
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leatherworking",
+      "es_MX": "Peletería",
+      "pt_BR": "Couraria",
+      "de_DE": "Lederverarbeitung",
+      "en_GB": "Leatherworking",
+      "es_ES": "Peletería",
+      "fr_FR": "Travail du cuir",
+      "it_IT": "Conciatura",
+      "ru_RU": "Кожевничество",
+      "ko_KR": "가죽세공",
+      "zh_TW": "製皮",
+      "zh_CN": "制皮"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "PROFESSION_TOOL",
+    "name": {
+      "en_US": "Profession Tool",
+      "es_MX": "Herramienta de profesión",
+      "pt_BR": "Ferramenta de profissão",
+      "de_DE": "Berufswerkzeug",
+      "en_GB": "Profession Tool",
+      "es_ES": "Herramienta de profesión",
+      "fr_FR": "Outils de métier",
+      "it_IT": "Attrezzo della Professione",
+      "ru_RU": "Инструмент для профессии",
+      "ko_KR": "전문 기술 도구",
+      "zh_TW": "專業技能工具",
+      "zh_CN": "专业工具"
+    }
+  },
+  "purchase_price": 160750,
+  "sell_price": 32150,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/222484?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 222484
+    },
+    "context": 0,
+    "bonus_list": [
+      10827,
+      10830
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Proficient Leatherworker's Knife",
+      "es_MX": "Cuchillo de peletero experto",
+      "pt_BR": "Faca do Coureiro Competente",
+      "de_DE": "Ledermesser des Gesellen",
+      "en_GB": "Proficient Leatherworker's Knife",
+      "es_ES": "Cuchillo de peletería competente",
+      "fr_FR": "Couteau de travail du cuir excellent",
+      "it_IT": "Coltello da Conciatore Efficace",
+      "ru_RU": "Нож кожевника-умельца",
+      "ko_KR": "능률적인 가죽세공 칼",
+      "zh_TW": "精熟製皮師小刀",
+      "zh_CN": "熟稔制皮刀"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/222484?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 222484
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Profession",
+        "es_MX": "Profesión",
+        "pt_BR": "Profissão",
+        "de_DE": "Beruf",
+        "en_GB": "Profession",
+        "es_ES": "Profesión",
+        "fr_FR": "Métier",
+        "it_IT": "Professione",
+        "ru_RU": "Профессия",
+        "ko_KR": "전문 기술",
+        "zh_TW": "專業技能",
+        "zh_CN": "专业技能"
+      },
+      "id": 19
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leatherworking",
+        "es_MX": "Peletería",
+        "pt_BR": "Couraria",
+        "de_DE": "Lederverarbeitung",
+        "en_GB": "Leatherworking",
+        "es_ES": "Peletería",
+        "fr_FR": "Travail du cuir",
+        "it_IT": "Conciatura",
+        "ru_RU": "Кожевничество",
+        "ko_KR": "가죽세공",
+        "zh_TW": "製皮",
+        "zh_CN": "制皮"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "PROFESSION_TOOL",
+      "name": {
+        "en_US": "Profession Tool",
+        "es_MX": "Herramienta de profesión",
+        "pt_BR": "Ferramenta de profissão",
+        "de_DE": "Berufswerkzeug",
+        "en_GB": "Profession Tool",
+        "es_ES": "Herramienta de profesión",
+        "fr_FR": "Outils de métier",
+        "it_IT": "Attrezzo della Professione",
+        "ru_RU": "Инструмент для профессии",
+        "ko_KR": "전문 기술 도구",
+        "zh_TW": "專業技能工具",
+        "zh_CN": "专业工具"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "BONUS_STAT_PROFESSION_INGENUITY",
+          "name": {
+            "en_US": "Ingenuity",
+            "es_MX": "Ingenio",
+            "pt_BR": "Engenhosidade",
+            "de_DE": "Genialität",
+            "en_GB": "Ingenuity",
+            "es_ES": "Inventiva",
+            "fr_FR": "Inventivité",
+            "it_IT": "Ingegno",
+            "ru_RU": "Изобретательность",
+            "ko_KR": "독창성",
+            "zh_TW": "精妙",
+            "zh_CN": "奇思"
+          }
+        },
+        "value": 173,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+173 Ingenuity",
+            "es_MX": "+173 Ingenio",
+            "pt_BR": "+173 Engenhosidade",
+            "de_DE": "+173 Genialität",
+            "en_GB": "+173 Ingenuity",
+            "es_ES": "+173 Inventiva",
+            "fr_FR": "+173 Inventivité",
+            "it_IT": "+173 Ingegno",
+            "ru_RU": "+173 Изобретательность",
+            "ko_KR": "독창성 +173",
+            "zh_TW": "+173精妙",
+            "zh_CN": "+173 奇思"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/455692?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Prof Gear Skill Bonus (DNT)",
+            "en_GB": "Prof Gear Skill Bonus (DNT)"
+          },
+          "id": 455692
+        },
+        "description": {
+          "en_US": "Equip: +8 Khaz Algar Leatherworking Skill",
+          "es_MX": "Equipar: +8 p. de habilidad en peletería de Khaz Algar",
+          "pt_BR": "Equipado: +8 de Perícia em Couraria de Khaz Algar",
+          "de_DE": "Anlegen: +8 Fertigkeit in Lederverarbeitung von Khaz Algar",
+          "en_GB": "Equip: +8 Khaz Algar Leatherworking Skill",
+          "es_ES": "Equipar: +8 p. de habilidad en peletería de Khaz Algar.",
+          "fr_FR": "Équipé : +8 à la compétence en travail du cuir de Khaz Algar",
+          "it_IT": "Equipaggia: Aumenta la Competenza in Conciatura di Khaz Algar di 8.",
+          "ru_RU": "Если на персонаже: +8 к навыку кожевничества Каз Алгара",
+          "ko_KR": "착용 효과: 카즈 알가르 가죽세공 숙련도가 8만큼 증가합니다.",
+          "zh_TW": "裝備： +8點卡茲阿爾加製皮技能",
+          "zh_CN": "装备： +8卡兹阿加制皮技能"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 32150,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "3",
+          "es_MX": "3",
+          "pt_BR": "3",
+          "de_DE": "3",
+          "en_GB": "3",
+          "es_ES": "3",
+          "fr_FR": "3",
+          "it_IT": "3",
+          "ru_RU": "3",
+          "ko_KR": "3",
+          "zh_TW": "3",
+          "zh_CN": "3"
+        },
+        "silver": {
+          "en_US": "21",
+          "es_MX": "21",
+          "pt_BR": "21",
+          "de_DE": "21",
+          "en_GB": "21",
+          "es_ES": "21",
+          "fr_FR": "21",
+          "it_IT": "21",
+          "ru_RU": "21",
+          "ko_KR": "21",
+          "zh_TW": "21",
+          "zh_CN": "21"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 68,
+        "display_string": {
+          "en_US": "Requires Level 68",
+          "es_MX": "Necesitas ser de nivel 68",
+          "pt_BR": "Requer o Nível 68",
+          "de_DE": "Benötigt Stufe 68",
+          "en_GB": "Requires Level 68",
+          "es_ES": "Necesitas ser de nivel 68",
+          "fr_FR": "Niveau 68 requis",
+          "it_IT": "Richiede il livello 68",
+          "ru_RU": "Требуется 68-й уровень",
+          "ko_KR": "최소 요구 레벨: 68",
+          "zh_TW": "需要等級68",
+          "zh_CN": "需要等级 68"
+        }
+      }
+    },
+    "modified_crafting_stat": [
+      {
+        "id": 82,
+        "type": "BONUS_STAT_PROFESSION_INGENUITY",
+        "name": {
+          "en_US": "Ingenuity",
+          "es_MX": "Ingenio",
+          "pt_BR": "Engenhosidade",
+          "de_DE": "Genialität",
+          "en_GB": "Ingenuity",
+          "es_ES": "Inventiva",
+          "fr_FR": "Inventivité",
+          "it_IT": "Ingegno",
+          "ru_RU": "Изобретательность",
+          "ko_KR": "독창성",
+          "zh_TW": "精妙",
+          "zh_CN": "奇思"
+        }
+      }
+    ]
+  },
+  "purchase_quantity": 1
+}

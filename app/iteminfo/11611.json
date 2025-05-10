@@ -1,0 +1,747 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/11611?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 11611,
+  "name": {
+    "en_US": "Plans: Dark Iron Sunderer",
+    "es_MX": "Diseño: Taladora Hierro Negro",
+    "pt_BR": "Instruções: Talhador Ferro Negro",
+    "de_DE": "Pläne: Dunkeleisenzerreißer",
+    "en_GB": "Plans: Dark Iron Sunderer",
+    "es_ES": "Diseño: Taladora Hierro Negro",
+    "fr_FR": "Plans : Fendeuse en sombrefer",
+    "it_IT": "Progetto: Fenditore di Ferroscuro",
+    "ru_RU": "Чертеж: рассекатель из черного железа",
+    "ko_KR": "도면: 검은무쇠 분리자",
+    "zh_TW": "設計圖：黑鐵斬碎者",
+    "zh_CN": "设计图：黑铁斩碎者"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/11611?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 11611
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Blacksmithing",
+      "es_MX": "Herrería",
+      "pt_BR": "Ferraria",
+      "de_DE": "Schmiedekunst",
+      "en_GB": "Blacksmithing",
+      "es_ES": "Herrería",
+      "fr_FR": "Forge",
+      "it_IT": "Forgiatura",
+      "ru_RU": "Кузнечное дело",
+      "ko_KR": "대장기술",
+      "zh_TW": "鍛造",
+      "zh_CN": "锻造"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 12000,
+  "sell_price": 3000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to make a Dark Iron Sunderer.",
+    "es_MX": "Te enseña a hacer una Taladora Hierro Negro.",
+    "pt_BR": "Ensina a fazer Talhador Ferro Negro.",
+    "de_DE": "Lehrt Euch die Herstellung eines Dunkeleisenzerreißers.",
+    "en_GB": "Teaches you how to make a Dark Iron Sunderer.",
+    "es_ES": "Te enseña a hacer una Taladora Hierro Negro.",
+    "fr_FR": "Vous apprend à forger une Fendeuse en sombrefer.",
+    "it_IT": "Ti insegna a creare un Fenditore di Ferroscuro.",
+    "ru_RU": "Обучает изготовлению рассекателя из черного железа.",
+    "ko_KR": "검은무쇠 분리자 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作黑鐵斬碎者。",
+    "zh_CN": "教你学会制作黑铁斩碎者。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/11611?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 11611
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Plans: Dark Iron Sunderer",
+      "es_MX": "Diseño: Taladora Hierro Negro",
+      "pt_BR": "Instruções: Talhador Ferro Negro",
+      "de_DE": "Pläne: Dunkeleisenzerreißer",
+      "en_GB": "Plans: Dark Iron Sunderer",
+      "es_ES": "Diseño: Taladora Hierro Negro",
+      "fr_FR": "Plans : Fendeuse en sombrefer",
+      "it_IT": "Progetto: Fenditore di Ferroscuro",
+      "ru_RU": "Чертеж: рассекатель из черного железа",
+      "ko_KR": "도면: 검은무쇠 분리자",
+      "zh_TW": "設計圖：黑鐵斬碎者",
+      "zh_CN": "设计图：黑铁斩碎者"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/11611?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 11611
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Blacksmithing",
+        "es_MX": "Herrería",
+        "pt_BR": "Ferraria",
+        "de_DE": "Schmiedekunst",
+        "en_GB": "Blacksmithing",
+        "es_ES": "Herrería",
+        "fr_FR": "Forge",
+        "it_IT": "Forgiatura",
+        "ru_RU": "Кузнечное дело",
+        "ko_KR": "대장기술",
+        "zh_TW": "鍛造",
+        "zh_CN": "锻造"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 3000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "30",
+          "es_MX": "30",
+          "pt_BR": "30",
+          "de_DE": "30",
+          "en_GB": "30",
+          "es_ES": "30",
+          "fr_FR": "30",
+          "it_IT": "30",
+          "ru_RU": "30",
+          "ko_KR": "30",
+          "zh_TW": "30",
+          "zh_CN": "30"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2477?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Blacksmithing",
+            "es_MX": "Herrería clásica",
+            "pt_BR": "Ferraria do Classic",
+            "de_DE": "Klassische Schmiedekunst",
+            "en_GB": "Classic Blacksmithing",
+            "es_ES": "Herrería clásica",
+            "fr_FR": "Forge classique",
+            "it_IT": "Forgiatura Classica",
+            "ru_RU": "Классическое кузнечное дело",
+            "ko_KR": "옛 대장기술",
+            "zh_TW": "艾澤拉斯鍛造",
+            "zh_CN": "经典旧世锻造"
+          },
+          "id": 2477
+        },
+        "level": 275,
+        "display_string": {
+          "en_US": "Requires Classic Blacksmithing (275)",
+          "es_MX": "Requiere Herrería clásica (275)",
+          "pt_BR": "Requer Ferraria do Classic (275)",
+          "de_DE": "Benötigt Klassische Schmiedekunst (275)",
+          "en_GB": "Requires Classic Blacksmithing (275)",
+          "es_ES": "Requiere Herrería clásica (275)",
+          "fr_FR": "Forge classique (275) requis",
+          "it_IT": "Richiede: Forgiatura Classica (275)",
+          "ru_RU": "Требуется: Классическое кузнечное дело (275)",
+          "ko_KR": "요구 사항: 옛 대장기술 (275)",
+          "zh_TW": "需要艾澤拉斯鍛造(275)",
+          "zh_CN": "需要经典旧世锻造（275）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to make a Dark Iron Sunderer.",
+      "es_MX": "Te enseña a hacer una Taladora Hierro Negro.",
+      "pt_BR": "Ensina a fazer Talhador Ferro Negro.",
+      "de_DE": "Lehrt Euch die Herstellung eines Dunkeleisenzerreißers.",
+      "en_GB": "Teaches you how to make a Dark Iron Sunderer.",
+      "es_ES": "Te enseña a hacer una Taladora Hierro Negro.",
+      "fr_FR": "Vous apprend à forger une Fendeuse en sombrefer.",
+      "it_IT": "Ti insegna a creare un Fenditore di Ferroscuro.",
+      "ru_RU": "Обучает изготовлению рассекателя из черного железа.",
+      "ko_KR": "검은무쇠 분리자 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作黑鐵斬碎者。",
+      "zh_CN": "教你学会制作黑铁斩碎者。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/11607?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 11607
+        },
+        "quality": {
+          "type": "RARE",
+          "name": {
+            "en_US": "Rare",
+            "es_MX": "Raro",
+            "pt_BR": "Raro",
+            "de_DE": "Selten",
+            "en_GB": "Rare",
+            "es_ES": "Raro",
+            "fr_FR": "Rare",
+            "it_IT": "Raro",
+            "ru_RU": "Редкое",
+            "ko_KR": "희귀",
+            "zh_TW": "精良",
+            "zh_CN": "精良"
+          }
+        },
+        "name": {
+          "en_US": "Dark Iron Sunderer",
+          "es_MX": "Taladora Hierro Negro",
+          "pt_BR": "Talhador Ferro Negro",
+          "de_DE": "Dunkeleisenzerreißer",
+          "en_GB": "Dark Iron Sunderer",
+          "es_ES": "Taladora Hierro Negro",
+          "fr_FR": "Fendeuse en sombrefer",
+          "it_IT": "Fenditore di Ferroscuro",
+          "ru_RU": "Рассекатель из черного железа",
+          "ko_KR": "검은무쇠 분리자",
+          "zh_TW": "黑鐵斬碎者",
+          "zh_CN": "黑铁斩碎者"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/11607?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 11607
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/2?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Weapon",
+            "es_MX": "Arma",
+            "pt_BR": "Arma",
+            "de_DE": "Waffe",
+            "en_GB": "Weapon",
+            "es_ES": "Arma",
+            "fr_FR": "Arme",
+            "it_IT": "Arma",
+            "ru_RU": "Оружие",
+            "ko_KR": "무기",
+            "zh_TW": "武器",
+            "zh_CN": "武器"
+          },
+          "id": 2
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/2/item-subclass/1?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Axe",
+            "es_MX": "Hacha",
+            "pt_BR": "Machado",
+            "de_DE": "Axt",
+            "en_GB": "Axe",
+            "es_ES": "Hacha",
+            "fr_FR": "Hache",
+            "it_IT": "Ascia",
+            "ru_RU": "Топор",
+            "ko_KR": "도끼",
+            "zh_TW": "斧",
+            "zh_CN": "斧"
+          },
+          "id": 1
+        },
+        "inventory_type": {
+          "type": "TWOHWEAPON",
+          "name": {
+            "en_US": "Two-Hand",
+            "es_MX": "Dos manos",
+            "pt_BR": "Duas mãos",
+            "de_DE": "Zweihändig",
+            "en_GB": "Two-Hand",
+            "es_ES": "Dos manos",
+            "fr_FR": "Deux mains",
+            "it_IT": "Due mani",
+            "ru_RU": "Двуручное",
+            "ko_KR": "양손 장비",
+            "zh_TW": "雙手",
+            "zh_CN": "双手"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "weapon": {
+          "damage": {
+            "min_value": 5,
+            "max_value": 12,
+            "display_string": {
+              "en_US": "5 - 12 Damage",
+              "es_MX": "5 - 12 p. de daño",
+              "pt_BR": "5 - 12 de Dano",
+              "de_DE": "5 - 12 Schaden",
+              "en_GB": "5 - 12 Damage",
+              "es_ES": "5 - 12 p. de daño",
+              "fr_FR": "Dégâts : 5 - 12",
+              "it_IT": "5 - 12 Danni",
+              "ru_RU": "Урон: 5 - 12",
+              "ko_KR": "공격력 5 ~ 12",
+              "zh_TW": "5-12點傷害",
+              "zh_CN": "5 - 12点伤害"
+            },
+            "damage_class": {
+              "type": "PHYSICAL",
+              "name": {
+                "en_US": "Physical",
+                "es_MX": "Físico",
+                "pt_BR": "Físico",
+                "de_DE": "Körperlich",
+                "en_GB": "Physical",
+                "es_ES": "Físico",
+                "fr_FR": "Physique",
+                "it_IT": "Fisico",
+                "ru_RU": "физический",
+                "ko_KR": "물리",
+                "zh_TW": "物理",
+                "zh_CN": "物理"
+              }
+            }
+          },
+          "attack_speed": {
+            "value": 3600,
+            "display_string": {
+              "en_US": "Speed 3.60",
+              "es_MX": "Velocidad 3.60",
+              "pt_BR": "Velocidade 3,60",
+              "de_DE": "Geschwindigkeit 3,60",
+              "en_GB": "Speed 3.60",
+              "es_ES": "Velocidad 3,60",
+              "fr_FR": "Vitesse 3,60",
+              "it_IT": "Velocità 3,60",
+              "ru_RU": "Скорость 3,60",
+              "ko_KR": "속도 3.60",
+              "zh_TW": "速度 3.60",
+              "zh_CN": "速度 3.60"
+            }
+          },
+          "dps": {
+            "value": 2.361111,
+            "display_string": {
+              "en_US": "(2.4 damage per second)",
+              "es_MX": "(2.4 p. de daño por segundo)",
+              "pt_BR": "(2,4 de dano por segundo)",
+              "de_DE": "(2,4 Schaden pro Sekunde)",
+              "en_GB": "(2.4 damage per second)",
+              "es_ES": "(2,4 p. de daño por segundo)",
+              "fr_FR": "(2,4 dégâts par seconde)",
+              "it_IT": "(2,4 danni per secondo)",
+              "ru_RU": "(2,4 ед. урона в секунду)",
+              "ko_KR": "(초당 공격력 2.4)",
+              "zh_TW": "(每秒2.4點傷害)",
+              "zh_CN": "（每秒伤害2.4）"
+            }
+          }
+        },
+        "spells": [
+          {
+            "spell": {
+              "key": {
+                "href": "https://kr.api.blizzard.com/data/wow/spell/15280?namespace=static-11.1.5_60179-kr"
+              },
+              "name": {
+                "en_US": "Cleave Armor",
+                "es_MX": "Rajar armadura",
+                "pt_BR": "Cutilar Armadura",
+                "de_DE": "Rüstung spalten",
+                "en_GB": "Cleave Armor",
+                "es_ES": "Rajar armadura",
+                "fr_FR": "Fendre armure",
+                "it_IT": "Falcia Armatura",
+                "ru_RU": "Прорубание брони",
+                "ko_KR": "갑옷 쪼개기",
+                "zh_TW": "破甲斬",
+                "zh_CN": "破甲斩"
+              },
+              "id": 15280
+            },
+            "description": {
+              "en_US": "Chance on hit: Reduces targets armor by 58 for 20 sec. (Requires level 49 or below)",
+              "es_MX": "Probabilidad al golpear: Reduce la armadura de un objetivo 58 p. durante 20 s. (Requiere el nivel 49 o inferior)",
+              "pt_BR": "Chance ao acertar: Reduz em 58 a armadura do alvo por 20 s. (Requer nível 49 ou inferior)",
+              "de_DE": "Chance bei Treffer: Verringert die Rüstung des Ziels 20 Sek. lang um 58.(Nur bis Stufe 49 aktiv)",
+              "en_GB": "Chance on hit: Reduces targets armor by 58 for 20 sec. (Requires level 49 or below)",
+              "es_ES": "Probabilidad al acertar: Reduce la armadura de un objetivo 58 p. durante 20 s. (Se requiere un nivel 49 o inferior)",
+              "fr_FR": "Chances quand vous touchez : Réduit l’armure de la cible de 58 pendant 20 s. (Niveau 49 maximum requis.)",
+              "it_IT": "Probabilità all'impatto: Riduce l'armatura del bersaglio di 58 per 20 s. (Richiede il livello 49 o inferiore)",
+              "ru_RU": "Возможный эффект при попадании: Ослабление брони целей на 58 ед. на 20 сек. (требуется 49-й уровень или ниже)",
+              "ko_KR": "발동 효과: 20초 동안 대상의 방어도를 58만큼 감소시킵니다. (49 레벨 이하에서만 유효함)",
+              "zh_TW": "擊中時可能： 使目標的護甲值降低58點，持續20秒。 (僅限49級以下)",
+              "zh_CN": "击中时可能： 使目标的护甲降低58点，持续20秒。（要求等级不高于49）"
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 277,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "2",
+              "es_MX": "2",
+              "pt_BR": "2",
+              "de_DE": "2",
+              "en_GB": "2",
+              "es_ES": "2",
+              "fr_FR": "2",
+              "it_IT": "2",
+              "ru_RU": "2",
+              "ko_KR": "2",
+              "zh_TW": "2",
+              "zh_CN": "2"
+            },
+            "copper": {
+              "en_US": "77",
+              "es_MX": "77",
+              "pt_BR": "77",
+              "de_DE": "77",
+              "en_GB": "77",
+              "es_ES": "77",
+              "fr_FR": "77",
+              "it_IT": "77",
+              "ru_RU": "77",
+              "ko_KR": "77",
+              "zh_TW": "77",
+              "zh_CN": "77"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 22,
+            "display_string": {
+              "en_US": "Requires Level 22",
+              "es_MX": "Necesitas ser de nivel 22",
+              "pt_BR": "Requer o Nível 22",
+              "de_DE": "Benötigt Stufe 22",
+              "en_GB": "Requires Level 22",
+              "es_ES": "Necesitas ser de nivel 22",
+              "fr_FR": "Niveau 22 requis",
+              "it_IT": "Richiede il livello 22",
+              "ru_RU": "Требуется 22-й уровень",
+              "ko_KR": "최소 요구 레벨: 22",
+              "zh_TW": "需要等級22",
+              "zh_CN": "需要等级 22"
+            }
+          }
+        },
+        "level": {
+          "value": 28,
+          "display_string": {
+            "en_US": "Item Level 28",
+            "es_MX": "Nivel de objeto 28",
+            "pt_BR": "Nível do Item: 28",
+            "de_DE": "Gegenstandsstufe 28",
+            "en_GB": "Item Level 28",
+            "es_ES": "Nivel de objeto 28",
+            "fr_FR": "Niveau d'objet 28",
+            "it_IT": "Livello oggetto: 28",
+            "ru_RU": "Уровень предмета: 28",
+            "ko_KR": "아이템 레벨: 28",
+            "zh_TW": "物品等級28",
+            "zh_CN": "物品等级28"
+          }
+        },
+        "durability": {
+          "value": 95,
+          "display_string": {
+            "en_US": "Durability 95 / 95",
+            "es_MX": "Durabilidad 95 / 95",
+            "pt_BR": "Durabilidade 95 / 95",
+            "de_DE": "Haltbarkeit 95 / 95",
+            "en_GB": "Durability 95 / 95",
+            "es_ES": "Durabilidad 95 / 95",
+            "fr_FR": "Durabilité : 95 / 95",
+            "it_IT": "Integrità 95/95",
+            "ru_RU": "Прочность: 95 / 95",
+            "ko_KR": "내구도 95 / 95",
+            "zh_TW": "耐久度 95 / 95",
+            "zh_CN": "耐久度 95 / 95"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/11371?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Dark Iron Bar",
+              "es_MX": "Barra de hierro negro",
+              "pt_BR": "Barra de Ferro Negro",
+              "de_DE": "Dunkeleisenbarren",
+              "en_GB": "Dark Iron Bar",
+              "es_ES": "Barra de hierro negro",
+              "fr_FR": "Barre de sombrefer",
+              "it_IT": "Lingotto di Ferroscuro",
+              "ru_RU": "Слиток черного железа",
+              "ko_KR": "검은무쇠 주괴",
+              "zh_TW": "黑鐵錠",
+              "zh_CN": "黑铁锭"
+            },
+            "id": 11371
+          },
+          "quantity": 26
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/7077?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Heart of Fire",
+              "es_MX": "Corazón de fuego",
+              "pt_BR": "Coração de Fogo",
+              "de_DE": "Herz des Feuers",
+              "en_GB": "Heart of Fire",
+              "es_ES": "Corazón de fuego",
+              "fr_FR": "Cœur de feu",
+              "it_IT": "Cuore di Fuoco",
+              "ru_RU": "Сердце огня",
+              "ko_KR": "불의 심장",
+              "zh_TW": "火焰之心",
+              "zh_CN": "火焰之心"
+            },
+            "id": 7077
+          },
+          "quantity": 4
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Dark Iron Bar (26), Heart of Fire (4)",
+        "es_MX": "Barra de hierro negro (26), Corazón de fuego (4)",
+        "pt_BR": "Barra de Ferro Negro (26), Coração de Fogo (4)",
+        "de_DE": "Dunkeleisenbarren (26), Herz des Feuers (4)",
+        "en_GB": "Dark Iron Bar (26), Heart of Fire (4)",
+        "es_ES": "Barra de hierro negro (26), Corazón de fuego (4)",
+        "fr_FR": "Barre de sombrefer (26), Cœur de feu (4)",
+        "it_IT": "Lingotto di Ferroscuro (26), Cuore di Fuoco (4)",
+        "ru_RU": "Слиток черного железа (26), Сердце огня (4)",
+        "ko_KR": "검은무쇠 주괴 (26), 불의 심장 (4)",
+        "zh_TW": "黑鐵錠 (26), 火焰之心 (4)",
+        "zh_CN": "黑铁锭 (26), 火焰之心 (4)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

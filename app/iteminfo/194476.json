@@ -1,0 +1,341 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/194476?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 194476,
+  "name": {
+    "en_US": "Plans: Obsidian Seared Hexsword",
+    "es_MX": "Diseño: Espada maléfica abrasada obsidiana",
+    "pt_BR": "Instruções: Bagateira Calcinada de Obsidiana",
+    "de_DE": "Pläne: Obsidianversengtes Hexerschwert",
+    "en_GB": "Plans: Obsidian Seared Hexsword",
+    "es_ES": "Diseño: espada embrujada abrasada de obsidiana",
+    "fr_FR": "Plans : maléfilame calcinée d’obsidienne",
+    "it_IT": "Progetto: Spada Malefica d'Ossidiana Ardente",
+    "ru_RU": "Чертеж: колдовской обожженный обсидиановый меч",
+    "ko_KR": "도면: 흑요석 작열 사술검",
+    "zh_TW": "設計圖：黑曜灼燒妖劍",
+    "zh_CN": "设计图：黑曜焦灼妖术剑"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/194476?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 194476
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Blacksmithing",
+      "es_MX": "Herrería",
+      "pt_BR": "Ferraria",
+      "de_DE": "Schmiedekunst",
+      "en_GB": "Blacksmithing",
+      "es_ES": "Herrería",
+      "fr_FR": "Forge",
+      "it_IT": "Forgiatura",
+      "ru_RU": "Кузнечное дело",
+      "ko_KR": "대장기술",
+      "zh_TW": "鍛造",
+      "zh_CN": "锻造"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 2000000,
+  "sell_price": 500000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Obsidian Seared Hexsword.",
+    "es_MX": "Te enseña a fabricar una espada maléfica abrasada obsidiana.",
+    "pt_BR": "Ensina a fazer Bagateira Calcinada de Obsidiana.",
+    "de_DE": "Lehrt Euch, wie man ein obsidianversengtes Hexerschwert herstellt.",
+    "en_GB": "Teaches you how to craft Obsidian Seared Hexsword.",
+    "es_ES": "Te enseña a fabricar una espada embrujada abrasada de obsidiana.",
+    "fr_FR": "Vous apprend à fabriquer une maléfilame calcinée d’obsidienne.",
+    "it_IT": "Ti insegna a creare una Spada Malefica d'Ossidiana Ardente.",
+    "ru_RU": "Обучает изготовлению колдовского обожженного обсидианового меча.",
+    "ko_KR": "흑요석 작열 사술검 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作黑曜灼燒妖劍。",
+    "zh_CN": "教你学会制作黑曜焦灼妖术剑。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/194476?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 194476
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Plans: Obsidian Seared Hexsword",
+      "es_MX": "Diseño: Espada maléfica abrasada obsidiana",
+      "pt_BR": "Instruções: Bagateira Calcinada de Obsidiana",
+      "de_DE": "Pläne: Obsidianversengtes Hexerschwert",
+      "en_GB": "Plans: Obsidian Seared Hexsword",
+      "es_ES": "Diseño: espada embrujada abrasada de obsidiana",
+      "fr_FR": "Plans : maléfilame calcinée d’obsidienne",
+      "it_IT": "Progetto: Spada Malefica d'Ossidiana Ardente",
+      "ru_RU": "Чертеж: колдовской обожженный обсидиановый меч",
+      "ko_KR": "도면: 흑요석 작열 사술검",
+      "zh_TW": "設計圖：黑曜灼燒妖劍",
+      "zh_CN": "设计图：黑曜焦灼妖术剑"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/194476?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 194476
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Blacksmithing",
+        "es_MX": "Herrería",
+        "pt_BR": "Ferraria",
+        "de_DE": "Schmiedekunst",
+        "en_GB": "Blacksmithing",
+        "es_ES": "Herrería",
+        "fr_FR": "Forge",
+        "it_IT": "Forgiatura",
+        "ru_RU": "Кузнечное дело",
+        "ko_KR": "대장기술",
+        "zh_TW": "鍛造",
+        "zh_CN": "锻造"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 500000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2822?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Dragon Isles Blacksmithing",
+            "es_MX": "Herrería de las Islas Dragón",
+            "pt_BR": "Ferraria das Ilhas do Dragão",
+            "de_DE": "Schmiedekunst der Dracheninseln",
+            "en_GB": "Dragon Isles Blacksmithing",
+            "es_ES": "Herrería de las Islas Dragón",
+            "fr_FR": "Forge des îles aux Dragons",
+            "it_IT": "Forgiatura delle Isole dei Draghi",
+            "ru_RU": "Кузнечное дело Драконьих островов",
+            "ko_KR": "용의 섬 대장기술",
+            "zh_TW": "巨龍群島鍛造",
+            "zh_CN": "巨龙群岛锻造"
+          },
+          "id": 2822
+        },
+        "level": 50,
+        "display_string": {
+          "en_US": "Requires Dragon Isles Blacksmithing (50)",
+          "es_MX": "Requiere Herrería de las Islas Dragón (50)",
+          "pt_BR": "Requer Ferraria das Ilhas do Dragão (50)",
+          "de_DE": "Benötigt Schmiedekunst der Dracheninseln (50)",
+          "en_GB": "Requires Dragon Isles Blacksmithing (50)",
+          "es_ES": "Requiere Herrería de las Islas Dragón (50)",
+          "fr_FR": "Forge des îles aux Dragons (50) requis",
+          "it_IT": "Richiede: Forgiatura delle Isole dei Draghi (50)",
+          "ru_RU": "Требуется: Кузнечное дело Драконьих островов (50)",
+          "ko_KR": "요구 사항: 용의 섬 대장기술 (50)",
+          "zh_TW": "需要巨龍群島鍛造(50)",
+          "zh_CN": "需要巨龙群岛锻造（50）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft Obsidian Seared Hexsword.",
+      "es_MX": "Te enseña a fabricar una espada maléfica abrasada obsidiana.",
+      "pt_BR": "Ensina a fazer Bagateira Calcinada de Obsidiana.",
+      "de_DE": "Lehrt Euch, wie man ein obsidianversengtes Hexerschwert herstellt.",
+      "en_GB": "Teaches you how to craft Obsidian Seared Hexsword.",
+      "es_ES": "Te enseña a fabricar una espada embrujada abrasada de obsidiana.",
+      "fr_FR": "Vous apprend à fabriquer une maléfilame calcinée d’obsidienne.",
+      "it_IT": "Ti insegna a creare una Spada Malefica d'Ossidiana Ardente.",
+      "ru_RU": "Обучает изготовлению колдовского обожженного обсидианового меча.",
+      "ko_KR": "흑요석 작열 사술검 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作黑曜灼燒妖劍。",
+      "zh_CN": "教你学会制作黑曜焦灼妖术剑。"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

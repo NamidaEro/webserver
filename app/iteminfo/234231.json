@@ -1,0 +1,355 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/234231?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 234231,
+  "name": {
+    "en_US": "Technique: Glyph of the Admiral's Pistol Shot",
+    "es_MX": "Técnica: Glifo de disparo de pistola de almirante",
+    "pt_BR": "Técnica: Glifo do Tiro de Pistola do Almirante",
+    "de_DE": "Technik: Glyphe 'Admiralpistolenschuss'",
+    "en_GB": "Technique: Glyph of the Admiral's Pistol Shot",
+    "es_ES": "Técnica: Glifo de Disparo de pistola de almirante",
+    "fr_FR": "Technique : glyphe de Coup de pistolet d’amiral",
+    "it_IT": "Tecnica: Glifo - Colpo di Pistola dell'Ammiraglio",
+    "ru_RU": "Техника: символ выстрела из пистоли адмирала",
+    "ko_KR": "각인 기법: 문양: 제독의 권총 사격",
+    "zh_TW": "技藝：上將手槍射擊雕紋",
+    "zh_CN": "工艺图：海军上将手枪射击雕文"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 80,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/234231?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 234231
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Inscription",
+      "es_MX": "Inscripción",
+      "pt_BR": "Escrivania",
+      "de_DE": "Inschriftenkunde",
+      "en_GB": "Inscription",
+      "es_ES": "Inscripción",
+      "fr_FR": "Calligraphie",
+      "it_IT": "Runografia",
+      "ru_RU": "Начертание",
+      "ko_KR": "주문각인",
+      "zh_TW": "銘文",
+      "zh_CN": "铭文"
+    },
+    "id": 11
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 90000,
+  "sell_price": 22500,
+  "max_count": 1,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft a Glyph of the Admiral's Pistol Shot.",
+    "es_MX": "Te enseña a fabricar un glifo de disparo de pistola de almirante.",
+    "pt_BR": "Ensina a fazer um Glifo do Tiro de Pistola do Almirante.",
+    "de_DE": "Lehrt Euch, wie man eine Glyphe 'Admiralpistolenschuss' herstellt.",
+    "en_GB": "Teaches you how to craft a Glyph of the Admiral's Pistol Shot.",
+    "es_ES": "Te enseña a fabricar un glifo de Disparo de pistola de almirante.",
+    "fr_FR": "Vous apprend à graver un glyphe de Coup de pistolet d’amiral.",
+    "it_IT": "Ti insegna a creare il Glifo - Colpo di Pistola dell'Ammiraglio.",
+    "ru_RU": "Обучает начертанию символа выстрела из пистоли адмирала.",
+    "ko_KR": "문양: 제독의 권총 사격 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作上將手槍射擊雕紋。",
+    "zh_CN": "教你学会制作海军上将手枪射击雕文。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/234231?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 234231
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Technique: Glyph of the Admiral's Pistol Shot",
+      "es_MX": "Técnica: Glifo de disparo de pistola de almirante",
+      "pt_BR": "Técnica: Glifo do Tiro de Pistola do Almirante",
+      "de_DE": "Technik: Glyphe 'Admiralpistolenschuss'",
+      "en_GB": "Technique: Glyph of the Admiral's Pistol Shot",
+      "es_ES": "Técnica: Glifo de Disparo de pistola de almirante",
+      "fr_FR": "Technique : glyphe de Coup de pistolet d’amiral",
+      "it_IT": "Tecnica: Glifo - Colpo di Pistola dell'Ammiraglio",
+      "ru_RU": "Техника: символ выстрела из пистоли адмирала",
+      "ko_KR": "각인 기법: 문양: 제독의 권총 사격",
+      "zh_TW": "技藝：上將手槍射擊雕紋",
+      "zh_CN": "工艺图：海军上将手枪射击雕文"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/234231?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 234231
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Inscription",
+        "es_MX": "Inscripción",
+        "pt_BR": "Escrivania",
+        "de_DE": "Inschriftenkunde",
+        "en_GB": "Inscription",
+        "es_ES": "Inscripción",
+        "fr_FR": "Calligraphie",
+        "it_IT": "Runografia",
+        "ru_RU": "Начертание",
+        "ko_KR": "주문각인",
+        "zh_TW": "銘文",
+        "zh_CN": "铭文"
+      },
+      "id": 11
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "unique_equipped": {
+      "en_US": "Unique",
+      "es_MX": "Único",
+      "pt_BR": "Único",
+      "de_DE": "Einzigartig",
+      "en_GB": "Unique",
+      "es_ES": "Único",
+      "fr_FR": "Unique",
+      "it_IT": "Unico",
+      "ru_RU": "Уникальный",
+      "ko_KR": "고유 아이템",
+      "zh_TW": "唯一",
+      "zh_CN": "唯一"
+    },
+    "sell_price": {
+      "value": 22500,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "2",
+          "es_MX": "2",
+          "pt_BR": "2",
+          "de_DE": "2",
+          "en_GB": "2",
+          "es_ES": "2",
+          "fr_FR": "2",
+          "it_IT": "2",
+          "ru_RU": "2",
+          "ko_KR": "2",
+          "zh_TW": "2",
+          "zh_CN": "2"
+        },
+        "silver": {
+          "en_US": "25",
+          "es_MX": "25",
+          "pt_BR": "25",
+          "de_DE": "25",
+          "en_GB": "25",
+          "es_ES": "25",
+          "fr_FR": "25",
+          "it_IT": "25",
+          "ru_RU": "25",
+          "ko_KR": "25",
+          "zh_TW": "25",
+          "zh_CN": "25"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2878?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Khaz Algar Inscription",
+            "es_MX": "Inscripción de Khaz Algar",
+            "pt_BR": "Escrivania de Khaz Algar",
+            "de_DE": "Inschriftenkunde von Khaz Algar",
+            "en_GB": "Khaz Algar Inscription",
+            "es_ES": "Inscripción de Khaz Algar",
+            "fr_FR": "Calligraphie de Khaz Algar",
+            "it_IT": "Runografia di Khaz Algar",
+            "ru_RU": "Начертание Каз Алгара",
+            "ko_KR": "카즈 알가르 주문각인",
+            "zh_TW": "卡茲阿爾加銘文學",
+            "zh_CN": "卡兹阿加铭文"
+          },
+          "id": 2878
+        },
+        "level": 50,
+        "display_string": {
+          "en_US": "Requires Khaz Algar Inscription (50)",
+          "es_MX": "Requiere Inscripción de Khaz Algar (50)",
+          "pt_BR": "Requer Escrivania de Khaz Algar (50)",
+          "de_DE": "Benötigt Inschriftenkunde von Khaz Algar (50)",
+          "en_GB": "Requires Khaz Algar Inscription (50)",
+          "es_ES": "Requiere Inscripción de Khaz Algar (50)",
+          "fr_FR": "Calligraphie de Khaz Algar (50) requis",
+          "it_IT": "Richiede: Runografia di Khaz Algar (50)",
+          "ru_RU": "Требуется: Начертание Каз Алгара (50)",
+          "ko_KR": "요구 사항: 카즈 알가르 주문각인 (50)",
+          "zh_TW": "需要卡茲阿爾加銘文學(50)",
+          "zh_CN": "需要卡兹阿加铭文（50）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft a Glyph of the Admiral's Pistol Shot.",
+      "es_MX": "Te enseña a fabricar un glifo de disparo de pistola de almirante.",
+      "pt_BR": "Ensina a fazer um Glifo do Tiro de Pistola do Almirante.",
+      "de_DE": "Lehrt Euch, wie man eine Glyphe 'Admiralpistolenschuss' herstellt.",
+      "en_GB": "Teaches you how to craft a Glyph of the Admiral's Pistol Shot.",
+      "es_ES": "Te enseña a fabricar un glifo de Disparo de pistola de almirante.",
+      "fr_FR": "Vous apprend à graver un glyphe de Coup de pistolet d’amiral.",
+      "it_IT": "Ti insegna a creare il Glifo - Colpo di Pistola dell'Ammiraglio.",
+      "ru_RU": "Обучает начертанию символа выстрела из пистоли адмирала.",
+      "ko_KR": "문양: 제독의 권총 사격 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作上將手槍射擊雕紋。",
+      "zh_CN": "教你学会制作海军上将手枪射击雕文。"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

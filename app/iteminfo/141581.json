@@ -1,0 +1,428 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/141581?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 141581,
+  "name": {
+    "en_US": "Demar's Band of Amore",
+    "es_MX": "Banda de Amore de Demar",
+    "pt_BR": "Elo do Amore de Demar",
+    "de_DE": "Demars Band der Liebe",
+    "en_GB": "Demar's Band of Amore",
+    "es_ES": "Sortija de amor de Demar",
+    "fr_FR": "Bague d'amour de Demar",
+    "it_IT": "Fede dell'Amore di Demar",
+    "ru_RU": "Кольцо любви Демара",
+    "ko_KR": "데마르의 사랑 고리",
+    "zh_TW": "德瑪的慈愛指環",
+    "zh_CN": "德玛的爱慕指环"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 50,
+  "required_level": 40,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/141581?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 141581
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "其它"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "FINGER",
+    "name": {
+      "en_US": "Finger",
+      "es_MX": "Dedo",
+      "pt_BR": "Dedo",
+      "de_DE": "Finger",
+      "en_GB": "Finger",
+      "es_ES": "Dedo",
+      "fr_FR": "Doigt",
+      "it_IT": "Dito",
+      "ru_RU": "Палец",
+      "ko_KR": "손가락",
+      "zh_TW": "手指",
+      "zh_CN": "手指"
+    }
+  },
+  "purchase_price": 1036017,
+  "sell_price": 207203,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/141581?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 141581
+    },
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Demar's Band of Amore",
+      "es_MX": "Banda de Amore de Demar",
+      "pt_BR": "Elo do Amore de Demar",
+      "de_DE": "Demars Band der Liebe",
+      "en_GB": "Demar's Band of Amore",
+      "es_ES": "Sortija de amor de Demar",
+      "fr_FR": "Bague d'amour de Demar",
+      "it_IT": "Fede dell'Amore di Demar",
+      "ru_RU": "Кольцо любви Демара",
+      "ko_KR": "데마르의 사랑 고리",
+      "zh_TW": "德瑪的慈愛指環",
+      "zh_CN": "德玛的爱慕指环"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/141581?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 141581
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "其它"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "FINGER",
+      "name": {
+        "en_US": "Finger",
+        "es_MX": "Dedo",
+        "pt_BR": "Dedo",
+        "de_DE": "Finger",
+        "en_GB": "Finger",
+        "es_ES": "Dedo",
+        "fr_FR": "Doigt",
+        "it_IT": "Dito",
+        "ru_RU": "Палец",
+        "ko_KR": "손가락",
+        "zh_TW": "手指",
+        "zh_CN": "手指"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "unique_equipped": {
+      "en_US": "Unique-Equipped",
+      "es_MX": "Único-Equipado",
+      "pt_BR": "Único-equipado",
+      "de_DE": "Einzigartig anlegbar",
+      "en_GB": "Unique-Equipped",
+      "es_ES": "Único-Equipado",
+      "fr_FR": "Unique - Équipé",
+      "it_IT": "Unico equipaggiabile",
+      "ru_RU": "Уникальный использующийся",
+      "ko_KR": "고유 장착 아이템",
+      "zh_TW": "僅可裝備一件",
+      "zh_CN": "装备唯一"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 4,
+        "display": {
+          "display_string": {
+            "en_US": "+4 Stamina",
+            "es_MX": "+4 aguante",
+            "pt_BR": "+4 Vigor",
+            "de_DE": "+4 Ausdauer",
+            "en_GB": "+4 Stamina",
+            "es_ES": "+4 aguante",
+            "fr_FR": "+4 Endurance",
+            "it_IT": "+4 Tempra",
+            "ru_RU": "+4 к выносливости",
+            "ko_KR": "체력 +4",
+            "zh_TW": "+4耐力",
+            "zh_CN": "+4 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": {
+            "en_US": "Mastery",
+            "es_MX": "maestría",
+            "pt_BR": "Maestria",
+            "de_DE": "Meisterschaft",
+            "en_GB": "Mastery",
+            "es_ES": "maestría",
+            "fr_FR": "Maîtrise",
+            "it_IT": "Indice di maestria",
+            "ru_RU": "к искусности",
+            "ko_KR": "특화",
+            "zh_TW": "精通",
+            "zh_CN": "精通"
+          }
+        },
+        "value": 14,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+14 Mastery",
+            "es_MX": "+14 maestría",
+            "pt_BR": "+14 Maestria",
+            "de_DE": "+14 Meisterschaft",
+            "en_GB": "+14 Mastery",
+            "es_ES": "+14 maestría",
+            "fr_FR": "+14 Maîtrise",
+            "it_IT": "+14 Indice di maestria",
+            "ru_RU": "+14 к искусности",
+            "ko_KR": "특화 +14",
+            "zh_TW": "+14精通",
+            "zh_CN": "+14 精通"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 861,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "8",
+          "es_MX": "8",
+          "pt_BR": "8",
+          "de_DE": "8",
+          "en_GB": "8",
+          "es_ES": "8",
+          "fr_FR": "8",
+          "it_IT": "8",
+          "ru_RU": "8",
+          "ko_KR": "8",
+          "zh_TW": "8",
+          "zh_CN": "8"
+        },
+        "copper": {
+          "en_US": "61",
+          "es_MX": "61",
+          "pt_BR": "61",
+          "de_DE": "61",
+          "en_GB": "61",
+          "es_ES": "61",
+          "fr_FR": "61",
+          "it_IT": "61",
+          "ru_RU": "61",
+          "ko_KR": "61",
+          "zh_TW": "61",
+          "zh_CN": "61"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 40,
+        "display_string": {
+          "en_US": "Requires Level 40",
+          "es_MX": "Necesitas ser de nivel 40",
+          "pt_BR": "Requer o Nível 40",
+          "de_DE": "Benötigt Stufe 40",
+          "en_GB": "Requires Level 40",
+          "es_ES": "Necesitas ser de nivel 40",
+          "fr_FR": "Niveau 40 requis",
+          "it_IT": "Richiede il livello 40",
+          "ru_RU": "Требуется 40-й уровень",
+          "ko_KR": "최소 요구 레벨: 40",
+          "zh_TW": "需要等級40",
+          "zh_CN": "需要等级 40"
+        }
+      }
+    },
+    "level": {
+      "value": 50,
+      "display_string": {
+        "en_US": "Item Level 50",
+        "es_MX": "Nivel de objeto 50",
+        "pt_BR": "Nível do Item: 50",
+        "de_DE": "Gegenstandsstufe 50",
+        "en_GB": "Item Level 50",
+        "es_ES": "Nivel de objeto 50",
+        "fr_FR": "Niveau d'objet 50",
+        "it_IT": "Livello oggetto: 50",
+        "ru_RU": "Уровень предмета: 50",
+        "ko_KR": "아이템 레벨: 50",
+        "zh_TW": "物品等級50",
+        "zh_CN": "物品等级50"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

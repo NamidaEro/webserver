@@ -1,0 +1,815 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/8385?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 8385,
+  "name": {
+    "en_US": "Pattern: Turtle Scale Gloves",
+    "es_MX": "Patrón: guantes de escamas de tortuga",
+    "pt_BR": "Molde: Luvas de Escama de Tartaruga",
+    "de_DE": "Muster: Schildkrötenschuppenhandschuhe",
+    "en_GB": "Pattern: Turtle Scale Gloves",
+    "es_ES": "Patrón: guantes de escamas de tortuga",
+    "fr_FR": "Patron : Gants en écailles de tortue",
+    "it_IT": "Modello: Guanti di Scaglie di Tartaruga",
+    "ru_RU": "Выкройка: перчатки из черепашьего панциря",
+    "ko_KR": "도안: 거북 껍질 장갑",
+    "zh_TW": "圖樣:龜殼手套",
+    "zh_CN": "图样：龟壳手套"
+  },
+  "quality": {
+    "type": "COMMON",
+    "name": {
+      "en_US": "Common",
+      "es_MX": "Común",
+      "pt_BR": "Comum",
+      "de_DE": "Gewöhnlich",
+      "en_GB": "Common",
+      "es_ES": "Común",
+      "fr_FR": "Commun",
+      "it_IT": "Comune",
+      "ru_RU": "Обычное",
+      "ko_KR": "일반",
+      "zh_TW": "普通",
+      "zh_CN": "普通"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/8385?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 8385
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leatherworking",
+      "es_MX": "Peletería",
+      "pt_BR": "Couraria",
+      "de_DE": "Lederverarbeitung",
+      "en_GB": "Leatherworking",
+      "es_ES": "Peletería",
+      "fr_FR": "Travail du cuir",
+      "it_IT": "Conciatura",
+      "ru_RU": "Кожевничество",
+      "ko_KR": "가죽세공",
+      "zh_TW": "製皮",
+      "zh_CN": "制皮"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 3500,
+  "sell_price": 875,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Turtle Scale Gloves.",
+    "es_MX": "Te enseña a fabricar unos guantes de escamas de tortuga.",
+    "pt_BR": "Ensina a fazer Luvas de Escama de Tartaruga.",
+    "de_DE": "Lehrt Euch die Herstellung von Schildkrötenschuppenhandschuhen.",
+    "en_GB": "Teaches you how to craft Turtle Scale Gloves.",
+    "es_ES": "Te enseña a fabricar unos guantes de escamas de tortuga.",
+    "fr_FR": "Vous apprend à confectionner des Gants en écailles de tortue.",
+    "it_IT": "Ti insegna a creare dei Guanti di Scaglie di Tartaruga.",
+    "ru_RU": "Обучает изготовлению перчаток из черепашьего панциря.",
+    "ko_KR": "거북 껍질 장갑 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作龜殼手套。",
+    "zh_CN": "教你学会制作龟壳手套。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/8385?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 8385
+    },
+    "quality": {
+      "type": "COMMON",
+      "name": {
+        "en_US": "Common",
+        "es_MX": "Común",
+        "pt_BR": "Comum",
+        "de_DE": "Gewöhnlich",
+        "en_GB": "Common",
+        "es_ES": "Común",
+        "fr_FR": "Commun",
+        "it_IT": "Comune",
+        "ru_RU": "Обычное",
+        "ko_KR": "일반",
+        "zh_TW": "普通",
+        "zh_CN": "普通"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Turtle Scale Gloves",
+      "es_MX": "Patrón: guantes de escamas de tortuga",
+      "pt_BR": "Molde: Luvas de Escama de Tartaruga",
+      "de_DE": "Muster: Schildkrötenschuppenhandschuhe",
+      "en_GB": "Pattern: Turtle Scale Gloves",
+      "es_ES": "Patrón: guantes de escamas de tortuga",
+      "fr_FR": "Patron : Gants en écailles de tortue",
+      "it_IT": "Modello: Guanti di Scaglie di Tartaruga",
+      "ru_RU": "Выкройка: перчатки из черепашьего панциря",
+      "ko_KR": "도안: 거북 껍질 장갑",
+      "zh_TW": "圖樣:龜殼手套",
+      "zh_CN": "图样：龟壳手套"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/8385?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 8385
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leatherworking",
+        "es_MX": "Peletería",
+        "pt_BR": "Couraria",
+        "de_DE": "Lederverarbeitung",
+        "en_GB": "Leatherworking",
+        "es_ES": "Peletería",
+        "fr_FR": "Travail du cuir",
+        "it_IT": "Conciatura",
+        "ru_RU": "Кожевничество",
+        "ko_KR": "가죽세공",
+        "zh_TW": "製皮",
+        "zh_CN": "制皮"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 875,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "8",
+          "es_MX": "8",
+          "pt_BR": "8",
+          "de_DE": "8",
+          "en_GB": "8",
+          "es_ES": "8",
+          "fr_FR": "8",
+          "it_IT": "8",
+          "ru_RU": "8",
+          "ko_KR": "8",
+          "zh_TW": "8",
+          "zh_CN": "8"
+        },
+        "copper": {
+          "en_US": "75",
+          "es_MX": "75",
+          "pt_BR": "75",
+          "de_DE": "75",
+          "en_GB": "75",
+          "es_ES": "75",
+          "fr_FR": "75",
+          "it_IT": "75",
+          "ru_RU": "75",
+          "ko_KR": "75",
+          "zh_TW": "75",
+          "zh_CN": "75"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2532?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Leatherworking",
+            "es_MX": "Peletería clásica",
+            "pt_BR": "Couraria do Classic",
+            "de_DE": "Klassische Lederverarbeitung",
+            "en_GB": "Classic Leatherworking",
+            "es_ES": "Peletería clásica",
+            "fr_FR": "Travail du cuir classique",
+            "it_IT": "Conciatura Classica",
+            "ru_RU": "Классическое кожевничество",
+            "ko_KR": "옛 가죽세공",
+            "zh_TW": "艾澤拉斯製皮",
+            "zh_CN": "经典旧世制皮"
+          },
+          "id": 2532
+        },
+        "level": 205,
+        "display_string": {
+          "en_US": "Requires Classic Leatherworking (205)",
+          "es_MX": "Requiere Peletería clásica (205)",
+          "pt_BR": "Requer Couraria do Classic (205)",
+          "de_DE": "Benötigt Klassische Lederverarbeitung (205)",
+          "en_GB": "Requires Classic Leatherworking (205)",
+          "es_ES": "Requiere Peletería clásica (205)",
+          "fr_FR": "Travail du cuir classique (205) requis",
+          "it_IT": "Richiede: Conciatura Classica (205)",
+          "ru_RU": "Требуется: Классическое кожевничество (205)",
+          "ko_KR": "요구 사항: 옛 가죽세공 (205)",
+          "zh_TW": "需要艾澤拉斯製皮(205)",
+          "zh_CN": "需要经典旧世制皮（205）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft Turtle Scale Gloves.",
+      "es_MX": "Te enseña a fabricar unos guantes de escamas de tortuga.",
+      "pt_BR": "Ensina a fazer Luvas de Escama de Tartaruga.",
+      "de_DE": "Lehrt Euch die Herstellung von Schildkrötenschuppenhandschuhen.",
+      "en_GB": "Teaches you how to craft Turtle Scale Gloves.",
+      "es_ES": "Te enseña a fabricar unos guantes de escamas de tortuga.",
+      "fr_FR": "Vous apprend à confectionner des Gants en écailles de tortue.",
+      "it_IT": "Ti insegna a creare dei Guanti di Scaglie di Tartaruga.",
+      "ru_RU": "Обучает изготовлению перчаток из черепашьего панциря.",
+      "ko_KR": "거북 껍질 장갑 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作龜殼手套。",
+      "zh_CN": "教你学会制作龟壳手套。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/8187?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 8187
+        },
+        "quality": {
+          "type": "UNCOMMON",
+          "name": {
+            "en_US": "Uncommon",
+            "es_MX": "Inusual",
+            "pt_BR": "Incomum",
+            "de_DE": "Ungewöhnlich",
+            "en_GB": "Uncommon",
+            "es_ES": "Inusual",
+            "fr_FR": "Inhabituel",
+            "it_IT": "Pregiato",
+            "ru_RU": "Необычное",
+            "ko_KR": "고급",
+            "zh_TW": "優秀",
+            "zh_CN": "优秀"
+          }
+        },
+        "name": {
+          "en_US": "Turtle Scale Gloves",
+          "es_MX": "Guantes de escamas de tortuga",
+          "pt_BR": "Luvas de Escama de Tartaruga",
+          "de_DE": "Schildkrötenschuppenhandschuhe",
+          "en_GB": "Turtle Scale Gloves",
+          "es_ES": "Guantes de escamas de tortuga",
+          "fr_FR": "Gants en écailles de tortue",
+          "it_IT": "Guanti di Scaglie di Tartaruga",
+          "ru_RU": "Перчатки из черепашьего панциря",
+          "ko_KR": "거북 껍질 장갑",
+          "zh_TW": "龜殼手套",
+          "zh_CN": "龟壳手套"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/8187?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 8187
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Mail",
+            "es_MX": "Malla",
+            "pt_BR": "Malha",
+            "de_DE": "Kette",
+            "en_GB": "Mail",
+            "es_ES": "Malla",
+            "fr_FR": "Mailles",
+            "it_IT": "Maglia",
+            "ru_RU": "Кольчуга",
+            "ko_KR": "사슬",
+            "zh_TW": "鎖甲",
+            "zh_CN": "锁甲"
+          },
+          "id": 3
+        },
+        "inventory_type": {
+          "type": "HAND",
+          "name": {
+            "en_US": "Hands",
+            "es_MX": "Manos",
+            "pt_BR": "Mãos",
+            "de_DE": "Hände",
+            "en_GB": "Hands",
+            "es_ES": "Manos",
+            "fr_FR": "Mains",
+            "it_IT": "Mani",
+            "ru_RU": "Кисти рук",
+            "ko_KR": "손",
+            "zh_TW": "手",
+            "zh_CN": "手部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "armor": {
+          "value": 5,
+          "display": {
+            "display_string": {
+              "en_US": "5 Armor",
+              "es_MX": "5 p. de armadura",
+              "pt_BR": "5 de Armadura",
+              "de_DE": "5 Rüstung",
+              "en_GB": "5 Armor",
+              "es_ES": "5 p. de armadura",
+              "fr_FR": "Armure : 5",
+              "it_IT": "5 Armatura",
+              "ru_RU": "Броня: 5",
+              "ko_KR": "방어도 5",
+              "zh_TW": "5點護甲",
+              "zh_CN": "5点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "INTELLECT",
+              "name": {
+                "en_US": "Intellect",
+                "es_MX": "intelecto",
+                "pt_BR": "Intelecto",
+                "de_DE": "Intelligenz",
+                "en_GB": "Intellect",
+                "es_ES": "intelecto",
+                "fr_FR": "Intelligence",
+                "it_IT": "Intelletto",
+                "ru_RU": "к интеллекту",
+                "ko_KR": "지능",
+                "zh_TW": "智力",
+                "zh_CN": "智力"
+              }
+            },
+            "value": 2,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Intellect",
+                "es_MX": "+2 intelecto",
+                "pt_BR": "+2 Intelecto",
+                "de_DE": "+2 Intelligenz",
+                "en_GB": "+2 Intellect",
+                "es_ES": "+2 intelecto",
+                "fr_FR": "+2 Intelligence",
+                "it_IT": "+2 Intelletto",
+                "ru_RU": "+2 к интеллекту",
+                "ko_KR": "지능 +2",
+                "zh_TW": "+2智力",
+                "zh_CN": "+2 智力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "AGILITY",
+              "name": {
+                "en_US": "Agility",
+                "es_MX": "agilidad",
+                "pt_BR": "Agilidade",
+                "de_DE": "Beweglichkeit",
+                "en_GB": "Agility",
+                "es_ES": "agilidad",
+                "fr_FR": "Agilité",
+                "it_IT": "Agilità",
+                "ru_RU": "к ловкости",
+                "ko_KR": "민첩성",
+                "zh_TW": "敏捷",
+                "zh_CN": "敏捷"
+              }
+            },
+            "value": 2,
+            "is_negated": true,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Agility",
+                "es_MX": "+2 agilidad",
+                "pt_BR": "+2 Agilidade",
+                "de_DE": "+2 Beweglichkeit",
+                "en_GB": "+2 Agility",
+                "es_ES": "+2 agilidad",
+                "fr_FR": "+2 Agilité",
+                "it_IT": "+2 Agilità",
+                "ru_RU": "+2 к ловкости",
+                "ko_KR": "민첩성 +2",
+                "zh_TW": "+2敏捷",
+                "zh_CN": "+2 敏捷"
+              },
+              "color": {
+                "r": 128,
+                "g": 128,
+                "b": 128,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "STAMINA",
+              "name": {
+                "en_US": "Stamina",
+                "es_MX": "aguante",
+                "pt_BR": "Vigor",
+                "de_DE": "Ausdauer",
+                "en_GB": "Stamina",
+                "es_ES": "aguante",
+                "fr_FR": "Endurance",
+                "it_IT": "Tempra",
+                "ru_RU": "к выносливости",
+                "ko_KR": "체력",
+                "zh_TW": "耐力",
+                "zh_CN": "耐力"
+              }
+            },
+            "value": 3,
+            "display": {
+              "display_string": {
+                "en_US": "+3 Stamina",
+                "es_MX": "+3 aguante",
+                "pt_BR": "+3 Vigor",
+                "de_DE": "+3 Ausdauer",
+                "en_GB": "+3 Stamina",
+                "es_ES": "+3 aguante",
+                "fr_FR": "+3 Endurance",
+                "it_IT": "+3 Tempra",
+                "ru_RU": "+3 к выносливости",
+                "ko_KR": "체력 +3",
+                "zh_TW": "+3耐力",
+                "zh_CN": "+3 耐力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 1500,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "15",
+              "es_MX": "15",
+              "pt_BR": "15",
+              "de_DE": "15",
+              "en_GB": "15",
+              "es_ES": "15",
+              "fr_FR": "15",
+              "it_IT": "15",
+              "ru_RU": "15",
+              "ko_KR": "15",
+              "zh_TW": "15",
+              "zh_CN": "15"
+            },
+            "copper": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 15,
+            "display_string": {
+              "en_US": "Requires Level 15",
+              "es_MX": "Necesitas ser de nivel 15",
+              "pt_BR": "Requer o Nível 15",
+              "de_DE": "Benötigt Stufe 15",
+              "en_GB": "Requires Level 15",
+              "es_ES": "Necesitas ser de nivel 15",
+              "fr_FR": "Niveau 15 requis",
+              "it_IT": "Richiede il livello 15",
+              "ru_RU": "Требуется 15-й уровень",
+              "ko_KR": "최소 요구 레벨: 15",
+              "zh_TW": "需要等級15",
+              "zh_CN": "需要等级 15"
+            }
+          }
+        },
+        "level": {
+          "value": 22,
+          "display_string": {
+            "en_US": "Item Level 22",
+            "es_MX": "Nivel de objeto 22",
+            "pt_BR": "Nível do Item: 22",
+            "de_DE": "Gegenstandsstufe 22",
+            "en_GB": "Item Level 22",
+            "es_ES": "Nivel de objeto 22",
+            "fr_FR": "Niveau d'objet 22",
+            "it_IT": "Livello oggetto: 22",
+            "ru_RU": "Уровень предмета: 22",
+            "ko_KR": "아이템 레벨: 22",
+            "zh_TW": "物品等級22",
+            "zh_CN": "物品等级22"
+          }
+        },
+        "durability": {
+          "value": 35,
+          "display_string": {
+            "en_US": "Durability 35 / 35",
+            "es_MX": "Durabilidad 35 / 35",
+            "pt_BR": "Durabilidade 35 / 35",
+            "de_DE": "Haltbarkeit 35 / 35",
+            "en_GB": "Durability 35 / 35",
+            "es_ES": "Durabilidad 35 / 35",
+            "fr_FR": "Durabilité : 35 / 35",
+            "it_IT": "Integrità 35/35",
+            "ru_RU": "Прочность: 35 / 35",
+            "ko_KR": "내구도 35 / 35",
+            "zh_TW": "耐久度 35 / 35",
+            "zh_CN": "耐久度 35 / 35"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/4304?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Thick Leather",
+              "es_MX": "Cuero grueso",
+              "pt_BR": "Couro Grosso",
+              "de_DE": "Dickes Leder",
+              "en_GB": "Thick Leather",
+              "es_ES": "Cuero grueso",
+              "fr_FR": "Cuir épais",
+              "it_IT": "Cuoio Spesso",
+              "ru_RU": "Плотная кожа",
+              "ko_KR": "두꺼운 가죽",
+              "zh_TW": "厚皮",
+              "zh_CN": "厚皮"
+            },
+            "id": 4304
+          },
+          "quantity": 6
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/8167?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Turtle Scale",
+              "es_MX": "Escama de tortuga",
+              "pt_BR": "Escama de Tartaruga",
+              "de_DE": "Schildkrötenschuppe",
+              "en_GB": "Turtle Scale",
+              "es_ES": "Escama de tortuga",
+              "fr_FR": "Ecaille de tortue",
+              "it_IT": "Scaglie di Tartaruga",
+              "ru_RU": "Черепаший панцирь",
+              "ko_KR": "거북 등딱지",
+              "zh_TW": "龜殼",
+              "zh_CN": "龟壳"
+            },
+            "id": 8167
+          },
+          "quantity": 8
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/8343?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Heavy Silken Thread",
+              "es_MX": "Hilo de seda grueso",
+              "pt_BR": "Fio Grosso de Seda",
+              "de_DE": "Schwerer Seidenfaden",
+              "en_GB": "Heavy Silken Thread",
+              "es_ES": "Hilo de seda grueso",
+              "fr_FR": "Bobine de soie lourde",
+              "it_IT": "Filo Pesante di Seta",
+              "ru_RU": "Толстая шелковая нить",
+              "ko_KR": "큰 비단 실타래",
+              "zh_TW": "粗絲線",
+              "zh_CN": "粗丝线"
+            },
+            "id": 8343
+          },
+          "quantity": 1
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Thick Leather (6), Turtle Scale (8), Heavy Silken Thread",
+        "es_MX": "Cuero grueso (6), Escama de tortuga (8), Hilo de seda grueso",
+        "pt_BR": "Couro Grosso (6), Escama de Tartaruga (8), Fio Grosso de Seda",
+        "de_DE": "Dickes Leder (6), Schildkrötenschuppe (8), Schwerer Seidenfaden",
+        "en_GB": "Thick Leather (6), Turtle Scale (8), Heavy Silken Thread",
+        "es_ES": "Cuero grueso (6), Escama de tortuga (8), Hilo de seda grueso",
+        "fr_FR": "Cuir épais (6), Ecaille de tortue (8), Bobine de soie lourde",
+        "it_IT": "Cuoio Spesso (6), Scaglie di Tartaruga (8), Filo Pesante di Seta",
+        "ru_RU": "Плотная кожа (6), Черепаший панцирь (8), Толстая шелковая нить",
+        "ko_KR": "두꺼운 가죽 (6), 거북 등딱지 (8), 큰 비단 실타래",
+        "zh_TW": "厚皮 (6), 龜殼 (8), 粗絲線",
+        "zh_CN": "厚皮 (6), 龟壳 (8), 粗丝线"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

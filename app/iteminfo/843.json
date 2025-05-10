@@ -1,0 +1,376 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/843?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 843,
+  "name": {
+    "en_US": "Tanned Leather Boots",
+    "es_MX": "Botas de cuero curtido",
+    "pt_BR": "Botas de Couro Curtido",
+    "de_DE": "Gegerbte Lederstiefel",
+    "en_GB": "Tanned Leather Boots",
+    "es_ES": "Botas de cuero curtido",
+    "fr_FR": "Bottes en cuir tanné",
+    "it_IT": "Stivali di Cuoio Conciato",
+    "ru_RU": "Сапоги из дубленой кожи",
+    "ko_KR": "무두질한 가죽 장화",
+    "zh_TW": "棕色皮靴",
+    "zh_CN": "棕色皮靴"
+  },
+  "quality": {
+    "type": "COMMON",
+    "name": {
+      "en_US": "Common",
+      "es_MX": "Común",
+      "pt_BR": "Comum",
+      "de_DE": "Gewöhnlich",
+      "en_GB": "Common",
+      "es_ES": "Común",
+      "fr_FR": "Commun",
+      "it_IT": "Comune",
+      "ru_RU": "Обычное",
+      "ko_KR": "일반",
+      "zh_TW": "普通",
+      "zh_CN": "普通"
+    }
+  },
+  "level": 10,
+  "required_level": 6,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/843?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 843
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leather",
+      "es_MX": "Cuero",
+      "pt_BR": "Couro",
+      "de_DE": "Leder",
+      "en_GB": "Leather",
+      "es_ES": "Cuero",
+      "fr_FR": "Cuir",
+      "it_IT": "Cuoio",
+      "ru_RU": "Кожа",
+      "ko_KR": "가죽",
+      "zh_TW": "皮甲",
+      "zh_CN": "皮甲"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "FEET",
+    "name": {
+      "en_US": "Feet",
+      "es_MX": "Pies",
+      "pt_BR": "Pés",
+      "de_DE": "Füße",
+      "en_GB": "Feet",
+      "es_ES": "Pies",
+      "fr_FR": "Pieds",
+      "it_IT": "Piedi",
+      "ru_RU": "Ступни",
+      "ko_KR": "발",
+      "zh_TW": "腳",
+      "zh_CN": "脚部"
+    }
+  },
+  "purchase_price": 1506,
+  "sell_price": 301,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/843?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 843
+    },
+    "quality": {
+      "type": "COMMON",
+      "name": {
+        "en_US": "Common",
+        "es_MX": "Común",
+        "pt_BR": "Comum",
+        "de_DE": "Gewöhnlich",
+        "en_GB": "Common",
+        "es_ES": "Común",
+        "fr_FR": "Commun",
+        "it_IT": "Comune",
+        "ru_RU": "Обычное",
+        "ko_KR": "일반",
+        "zh_TW": "普通",
+        "zh_CN": "普通"
+      }
+    },
+    "name": {
+      "en_US": "Tanned Leather Boots",
+      "es_MX": "Botas de cuero curtido",
+      "pt_BR": "Botas de Couro Curtido",
+      "de_DE": "Gegerbte Lederstiefel",
+      "en_GB": "Tanned Leather Boots",
+      "es_ES": "Botas de cuero curtido",
+      "fr_FR": "Bottes en cuir tanné",
+      "it_IT": "Stivali di Cuoio Conciato",
+      "ru_RU": "Сапоги из дубленой кожи",
+      "ko_KR": "무두질한 가죽 장화",
+      "zh_TW": "棕色皮靴",
+      "zh_CN": "棕色皮靴"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/843?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 843
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leather",
+        "es_MX": "Cuero",
+        "pt_BR": "Couro",
+        "de_DE": "Leder",
+        "en_GB": "Leather",
+        "es_ES": "Cuero",
+        "fr_FR": "Cuir",
+        "it_IT": "Cuoio",
+        "ru_RU": "Кожа",
+        "ko_KR": "가죽",
+        "zh_TW": "皮甲",
+        "zh_CN": "皮甲"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "FEET",
+      "name": {
+        "en_US": "Feet",
+        "es_MX": "Pies",
+        "pt_BR": "Pés",
+        "de_DE": "Füße",
+        "en_GB": "Feet",
+        "es_ES": "Pies",
+        "fr_FR": "Pieds",
+        "it_IT": "Piedi",
+        "ru_RU": "Ступни",
+        "ko_KR": "발",
+        "zh_TW": "腳",
+        "zh_CN": "脚部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 2,
+      "display": {
+        "display_string": {
+          "en_US": "2 Armor",
+          "es_MX": "2 p. de armadura",
+          "pt_BR": "2 de Armadura",
+          "de_DE": "2 Rüstung",
+          "en_GB": "2 Armor",
+          "es_ES": "2 p. de armadura",
+          "fr_FR": "Armure : 2",
+          "it_IT": "2 Armatura",
+          "ru_RU": "Броня: 2",
+          "ko_KR": "방어도 2",
+          "zh_TW": "2點護甲",
+          "zh_CN": "2点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "sell_price": {
+      "value": 13,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "13",
+          "es_MX": "13",
+          "pt_BR": "13",
+          "de_DE": "13",
+          "en_GB": "13",
+          "es_ES": "13",
+          "fr_FR": "13",
+          "it_IT": "13",
+          "ru_RU": "13",
+          "ko_KR": "13",
+          "zh_TW": "13",
+          "zh_CN": "13"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 6,
+        "display_string": {
+          "en_US": "Requires Level 6",
+          "es_MX": "Necesitas ser de nivel 6",
+          "pt_BR": "Requer o Nível 6",
+          "de_DE": "Benötigt Stufe 6",
+          "en_GB": "Requires Level 6",
+          "es_ES": "Necesitas ser de nivel 6",
+          "fr_FR": "Niveau 6 requis",
+          "it_IT": "Richiede il livello 6",
+          "ru_RU": "Требуется 6-й уровень",
+          "ko_KR": "최소 요구 레벨: 6",
+          "zh_TW": "需要等級6",
+          "zh_CN": "需要等级 6"
+        }
+      }
+    },
+    "level": {
+      "value": 10,
+      "display_string": {
+        "en_US": "Item Level 10",
+        "es_MX": "Nivel de objeto 10",
+        "pt_BR": "Nível do Item: 10",
+        "de_DE": "Gegenstandsstufe 10",
+        "en_GB": "Item Level 10",
+        "es_ES": "Nivel de objeto 10",
+        "fr_FR": "Niveau d'objet 10",
+        "it_IT": "Livello oggetto: 10",
+        "ru_RU": "Уровень предмета: 10",
+        "ko_KR": "아이템 레벨: 10",
+        "zh_TW": "物品等級10",
+        "zh_CN": "物品等级10"
+      }
+    },
+    "durability": {
+      "value": 35,
+      "display_string": {
+        "en_US": "Durability 35 / 35",
+        "es_MX": "Durabilidad 35 / 35",
+        "pt_BR": "Durabilidade 35 / 35",
+        "de_DE": "Haltbarkeit 35 / 35",
+        "en_GB": "Durability 35 / 35",
+        "es_ES": "Durabilidad 35 / 35",
+        "fr_FR": "Durabilité : 35 / 35",
+        "it_IT": "Integrità 35/35",
+        "ru_RU": "Прочность: 35 / 35",
+        "ko_KR": "내구도 35 / 35",
+        "zh_TW": "耐久度 35 / 35",
+        "zh_CN": "耐久度 35 / 35"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/252?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 252
+    }
+  ]
+}

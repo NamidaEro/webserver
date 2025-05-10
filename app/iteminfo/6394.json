@@ -1,0 +1,466 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/6394?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 6394,
+  "name": {
+    "en_US": "Silver-Thread Boots",
+    "es_MX": "Botas de hilo de plata",
+    "pt_BR": "Botas de Fio de Prata",
+    "de_DE": "Silberfadenstiefel",
+    "en_GB": "Silver-Thread Boots",
+    "es_ES": "Botas de hilo de plata",
+    "fr_FR": "Bottes brochées d'argent",
+    "it_IT": "Stivali di Filo d'Argento",
+    "ru_RU": "Сребротканые сапоги",
+    "ko_KR": "은빛매듭 장화",
+    "zh_TW": "銀絲長靴",
+    "zh_CN": "银丝战靴"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 17,
+  "required_level": 10,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/6394?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 6394
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "FEET",
+    "name": {
+      "en_US": "Feet",
+      "es_MX": "Pies",
+      "pt_BR": "Pés",
+      "de_DE": "Füße",
+      "en_GB": "Feet",
+      "es_ES": "Pies",
+      "fr_FR": "Pieds",
+      "it_IT": "Piedi",
+      "ru_RU": "Ступни",
+      "ko_KR": "발",
+      "zh_TW": "腳",
+      "zh_CN": "脚部"
+    }
+  },
+  "purchase_price": 19494,
+  "sell_price": 3898,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/6394?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 6394
+    },
+    "context": 0,
+    "bonus_list": [
+      6654
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Silver-Thread Boots",
+      "es_MX": "Botas de hilo de plata",
+      "pt_BR": "Botas de Fio de Prata",
+      "de_DE": "Silberfadenstiefel",
+      "en_GB": "Silver-Thread Boots",
+      "es_ES": "Botas de hilo de plata",
+      "fr_FR": "Bottes brochées d'argent",
+      "it_IT": "Stivali di Filo d'Argento",
+      "ru_RU": "Сребротканые сапоги",
+      "ko_KR": "은빛매듭 장화",
+      "zh_TW": "銀絲長靴",
+      "zh_CN": "银丝战靴"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/6394?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 6394
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "FEET",
+      "name": {
+        "en_US": "Feet",
+        "es_MX": "Pies",
+        "pt_BR": "Pés",
+        "de_DE": "Füße",
+        "en_GB": "Feet",
+        "es_ES": "Pies",
+        "fr_FR": "Pieds",
+        "it_IT": "Piedi",
+        "ru_RU": "Ступни",
+        "ko_KR": "발",
+        "zh_TW": "腳",
+        "zh_CN": "脚部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 142,
+      "display": {
+        "display_string": {
+          "en_US": "142 Armor",
+          "es_MX": "142 p. de armadura",
+          "pt_BR": "142 de Armadura",
+          "de_DE": "142 Rüstung",
+          "en_GB": "142 Armor",
+          "es_ES": "142 p. de armadura",
+          "fr_FR": "Armure : 142",
+          "it_IT": "142 Armatura",
+          "ru_RU": "Броня: 142",
+          "ko_KR": "방어도 142",
+          "zh_TW": "142點護甲",
+          "zh_CN": "142点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 279,
+        "display": {
+          "display_string": {
+            "en_US": "+279 Intellect",
+            "es_MX": "+279 intelecto",
+            "pt_BR": "+279 Intelecto",
+            "de_DE": "+279 Intelligenz",
+            "en_GB": "+279 Intellect",
+            "es_ES": "+279 intelecto",
+            "fr_FR": "+279 Intelligence",
+            "it_IT": "+279 Intelletto",
+            "ru_RU": "+279 к интеллекту",
+            "ko_KR": "지능 +279",
+            "zh_TW": "+279智力",
+            "zh_CN": "+279 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 372,
+        "display": {
+          "display_string": {
+            "en_US": "+372 Stamina",
+            "es_MX": "+372 aguante",
+            "pt_BR": "+372 Vigor",
+            "de_DE": "+372 Ausdauer",
+            "en_GB": "+372 Stamina",
+            "es_ES": "+372 aguante",
+            "fr_FR": "+372 Endurance",
+            "it_IT": "+372 Tempra",
+            "ru_RU": "+372 к выносливости",
+            "ko_KR": "체력 +372",
+            "zh_TW": "+372耐力",
+            "zh_CN": "+372 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 261026,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "26",
+          "es_MX": "26",
+          "pt_BR": "26",
+          "de_DE": "26",
+          "en_GB": "26",
+          "es_ES": "26",
+          "fr_FR": "26",
+          "it_IT": "26",
+          "ru_RU": "26",
+          "ko_KR": "26",
+          "zh_TW": "26",
+          "zh_CN": "26"
+        },
+        "silver": {
+          "en_US": "10",
+          "es_MX": "10",
+          "pt_BR": "10",
+          "de_DE": "10",
+          "en_GB": "10",
+          "es_ES": "10",
+          "fr_FR": "10",
+          "it_IT": "10",
+          "ru_RU": "10",
+          "ko_KR": "10",
+          "zh_TW": "10",
+          "zh_CN": "10"
+        },
+        "copper": {
+          "en_US": "26",
+          "es_MX": "26",
+          "pt_BR": "26",
+          "de_DE": "26",
+          "en_GB": "26",
+          "es_ES": "26",
+          "fr_FR": "26",
+          "it_IT": "26",
+          "ru_RU": "26",
+          "ko_KR": "26",
+          "zh_TW": "26",
+          "zh_CN": "26"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 10,
+        "display_string": {
+          "en_US": "Requires Level 10",
+          "es_MX": "Necesitas ser de nivel 10",
+          "pt_BR": "Requer o Nível 10",
+          "de_DE": "Benötigt Stufe 10",
+          "en_GB": "Requires Level 10",
+          "es_ES": "Necesitas ser de nivel 10",
+          "fr_FR": "Niveau 10 requis",
+          "it_IT": "Richiede il livello 10",
+          "ru_RU": "Требуется 10-й уровень",
+          "ko_KR": "최소 요구 레벨: 10",
+          "zh_TW": "需要等級10",
+          "zh_CN": "需要等级 10"
+        }
+      }
+    },
+    "level": {
+      "value": 357,
+      "display_string": {
+        "en_US": "Item Level 357",
+        "es_MX": "Nivel de objeto 357",
+        "pt_BR": "Nível do Item: 357",
+        "de_DE": "Gegenstandsstufe 357",
+        "en_GB": "Item Level 357",
+        "es_ES": "Nivel de objeto 357",
+        "fr_FR": "Niveau d'objet 357",
+        "it_IT": "Livello oggetto: 357",
+        "ru_RU": "Уровень предмета: 357",
+        "ko_KR": "아이템 레벨: 357",
+        "zh_TW": "物品等級357",
+        "zh_CN": "物品等级357"
+      }
+    },
+    "durability": {
+      "value": 45,
+      "display_string": {
+        "en_US": "Durability 45 / 45",
+        "es_MX": "Durabilidad 45 / 45",
+        "pt_BR": "Durabilidade 45 / 45",
+        "de_DE": "Haltbarkeit 45 / 45",
+        "en_GB": "Durability 45 / 45",
+        "es_ES": "Durabilidad 45 / 45",
+        "fr_FR": "Durabilité : 45 / 45",
+        "it_IT": "Integrità 45/45",
+        "ru_RU": "Прочность: 45 / 45",
+        "ko_KR": "내구도 45 / 45",
+        "zh_TW": "耐久度 45 / 45",
+        "zh_CN": "耐久度 45 / 45"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/2061?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 2061
+    }
+  ]
+}

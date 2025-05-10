@@ -1,0 +1,565 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/52496?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 52496,
+  "name": {
+    "en_US": "Design: Jeweler's Amber Monocle",
+    "es_MX": "Boceto: monóculo de ámbar de joyero",
+    "pt_BR": "Desenho: Monóculo de Âmbar do Joalheiro",
+    "de_DE": "Vorlage: Bernsteinmonokel des Juweliers",
+    "en_GB": "Design: Jeweler's Amber Monocle",
+    "es_ES": "Boceto: monóculo de ámbar de joyero",
+    "fr_FR": "Dessin : Monocle de joaillier en ambre",
+    "it_IT": "Modello: Monocolo d'Ambra dell'Orefice",
+    "ru_RU": "Эскиз: янтарный монокль ювелира",
+    "ko_KR": "디자인: 보석세공인의 호박석 외눈안경",
+    "zh_TW": "設計圖：珠寶匠的琥珀單邊鏡片",
+    "zh_CN": "图鉴：珠宝师的琥珀眼镜"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/52496?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 52496
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Jewelcrafting",
+      "es_MX": "Joyería",
+      "pt_BR": "Joalheria",
+      "de_DE": "Juwelierskunst",
+      "en_GB": "Jewelcrafting",
+      "es_ES": "Joyería",
+      "fr_FR": "Joaillerie",
+      "it_IT": "Oreficeria",
+      "ru_RU": "Ювелирное дело",
+      "ko_KR": "보석세공",
+      "zh_TW": "珠寶設計",
+      "zh_CN": "珠宝加工"
+    },
+    "id": 10
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to create a Jeweler's Amber Monocle.",
+    "es_MX": "Te enseña a crear un monóculo de ámbar de joyero.",
+    "pt_BR": "Ensina a fabricar Monóculo de Âmbar do Joalheiro.",
+    "de_DE": "Lehrt Euch die Herstellung eines Bernsteinmonokels des Juweliers.",
+    "en_GB": "Teaches you how to create a Jeweler's Amber Monocle.",
+    "es_ES": "Te enseña a crear un monóculo de ámbar de joyero.",
+    "fr_FR": "Vous apprend à créer un Monocle de joaillier en ambre.",
+    "it_IT": "Ti insegna a creare un Monocolo d'Ambra dell'Orefice.",
+    "ru_RU": "Обучает изготовлению янтарного монокля ювелира.",
+    "ko_KR": "보석세공인의 호박석 외눈안경 세공법을 배웁니다.",
+    "zh_TW": "教你學會如何製作珠寶匠的琥珀單邊鏡片。",
+    "zh_CN": "教你学会制作珠宝师的琥珀眼镜。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/52496?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 52496
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Design: Jeweler's Amber Monocle",
+      "es_MX": "Boceto: monóculo de ámbar de joyero",
+      "pt_BR": "Desenho: Monóculo de Âmbar do Joalheiro",
+      "de_DE": "Vorlage: Bernsteinmonokel des Juweliers",
+      "en_GB": "Design: Jeweler's Amber Monocle",
+      "es_ES": "Boceto: monóculo de ámbar de joyero",
+      "fr_FR": "Dessin : Monocle de joaillier en ambre",
+      "it_IT": "Modello: Monocolo d'Ambra dell'Orefice",
+      "ru_RU": "Эскиз: янтарный монокль ювелира",
+      "ko_KR": "디자인: 보석세공인의 호박석 외눈안경",
+      "zh_TW": "設計圖：珠寶匠的琥珀單邊鏡片",
+      "zh_CN": "图鉴：珠宝师的琥珀眼镜"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/52496?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 52496
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Jewelcrafting",
+        "es_MX": "Joyería",
+        "pt_BR": "Joalheria",
+        "de_DE": "Juwelierskunst",
+        "en_GB": "Jewelcrafting",
+        "es_ES": "Joyería",
+        "fr_FR": "Joaillerie",
+        "it_IT": "Oreficeria",
+        "ru_RU": "Ювелирное дело",
+        "ko_KR": "보석세공",
+        "zh_TW": "珠寶設計",
+        "zh_CN": "珠宝加工"
+      },
+      "id": 10
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2521?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Cataclysm Jewelcrafting",
+            "es_MX": "Joyería de Cataclysm",
+            "pt_BR": "Joalheria de Cataclysm",
+            "de_DE": "Juwelierskunst des Kataklysmus",
+            "en_GB": "Cataclysm Jewelcrafting",
+            "es_ES": "Joyería de Cataclysm",
+            "fr_FR": "Joaillerie de Cataclysm",
+            "it_IT": "Oreficeria di Cataclysm",
+            "ru_RU": "Ювелирное дело времен Катаклизма",
+            "ko_KR": "대격변 보석세공",
+            "zh_TW": "大災變珠寶設計",
+            "zh_CN": "大地的裂变珠宝加工"
+          },
+          "id": 2521
+        },
+        "level": 10,
+        "display_string": {
+          "en_US": "Requires Cataclysm Jewelcrafting (10)",
+          "es_MX": "Requiere Joyería de Cataclysm (10)",
+          "pt_BR": "Requer Joalheria de Cataclysm (10)",
+          "de_DE": "Benötigt Juwelierskunst des Kataklysmus (10)",
+          "en_GB": "Requires Cataclysm Jewelcrafting (10)",
+          "es_ES": "Requiere Joyería de Cataclysm (10)",
+          "fr_FR": "Joaillerie de Cataclysm (10) requis",
+          "it_IT": "Richiede: Oreficeria di Cataclysm (10)",
+          "ru_RU": "Требуется: Ювелирное дело времен Катаклизма (10)",
+          "ko_KR": "요구 사항: 대격변 보석세공 (10)",
+          "zh_TW": "需要大災變珠寶設計(10)",
+          "zh_CN": "需要大地的裂变珠宝加工（10）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to create a Jeweler's Amber Monocle.",
+      "es_MX": "Te enseña a crear un monóculo de ámbar de joyero.",
+      "pt_BR": "Ensina a fabricar Monóculo de Âmbar do Joalheiro.",
+      "de_DE": "Lehrt Euch die Herstellung eines Bernsteinmonokels des Juweliers.",
+      "en_GB": "Teaches you how to create a Jeweler's Amber Monocle.",
+      "es_ES": "Te enseña a crear un monóculo de ámbar de joyero.",
+      "fr_FR": "Vous apprend à créer un Monocle de joaillier en ambre.",
+      "it_IT": "Ti insegna a creare un Monocolo d'Ambra dell'Orefice.",
+      "ru_RU": "Обучает изготовлению янтарного монокля ювелира.",
+      "ko_KR": "보석세공인의 호박석 외눈안경 세공법을 배웁니다.",
+      "zh_TW": "教你學會如何製作珠寶匠的琥珀單邊鏡片。",
+      "zh_CN": "教你学会制作珠宝师的琥珀眼镜。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/52487?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 52487
+        },
+        "quality": {
+          "type": "RARE",
+          "name": {
+            "en_US": "Rare",
+            "es_MX": "Raro",
+            "pt_BR": "Raro",
+            "de_DE": "Selten",
+            "en_GB": "Rare",
+            "es_ES": "Raro",
+            "fr_FR": "Rare",
+            "it_IT": "Raro",
+            "ru_RU": "Редкое",
+            "ko_KR": "희귀",
+            "zh_TW": "精良",
+            "zh_CN": "精良"
+          }
+        },
+        "name": {
+          "en_US": "Jeweler's Amber Monocle",
+          "es_MX": "Monóculo de ámbar de joyero",
+          "pt_BR": "Monóculo de Âmbar do Joalheiro",
+          "de_DE": "Bernsteinmonokel des Juweliers",
+          "en_GB": "Jeweler's Amber Monocle",
+          "es_ES": "Monóculo de ámbar de joyero",
+          "fr_FR": "Monocle de joaillier en ambre",
+          "it_IT": "Monocolo d'Ambra dell'Orefice",
+          "ru_RU": "Янтарный монокль ювелира",
+          "ko_KR": "보석세공인의 호박석 외눈안경",
+          "zh_TW": "珠寶匠的琥珀單邊鏡片",
+          "zh_CN": "珠宝师的琥珀眼镜"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/52487?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 52487
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/5?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Cosmetic",
+            "es_MX": "Cosmético",
+            "pt_BR": "Cosmético",
+            "de_DE": "Kosmetisch",
+            "en_GB": "Cosmetic",
+            "es_ES": "Cosmético",
+            "fr_FR": "Ornemental",
+            "it_IT": "Cosmetico",
+            "ru_RU": "Декоративный предмет",
+            "ko_KR": "장식",
+            "zh_TW": "造型",
+            "zh_CN": "装饰品"
+          },
+          "id": 5
+        },
+        "inventory_type": {
+          "type": "HEAD",
+          "name": {
+            "en_US": "Head",
+            "es_MX": "Cabeza",
+            "pt_BR": "Cabeça",
+            "de_DE": "Kopf",
+            "en_GB": "Head",
+            "es_ES": "Cabeza",
+            "fr_FR": "Tête",
+            "it_IT": "Testa",
+            "ru_RU": "Голова",
+            "ko_KR": "머리",
+            "zh_TW": "頭部",
+            "zh_CN": "头部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "sell_price": {
+          "value": 9,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "copper": {
+              "en_US": "9",
+              "es_MX": "9",
+              "pt_BR": "9",
+              "de_DE": "9",
+              "en_GB": "9",
+              "es_ES": "9",
+              "fr_FR": "9",
+              "it_IT": "9",
+              "ru_RU": "9",
+              "ko_KR": "9",
+              "zh_TW": "9",
+              "zh_CN": "9"
+            }
+          }
+        },
+        "level": {
+          "value": 1,
+          "display_string": {
+            "en_US": "Item Level 1",
+            "es_MX": "Nivel de objeto 1",
+            "pt_BR": "Nível do Item: 1",
+            "de_DE": "Gegenstandsstufe 1",
+            "en_GB": "Item Level 1",
+            "es_ES": "Nivel de objeto 1",
+            "fr_FR": "Niveau d'objet 1",
+            "it_IT": "Livello oggetto: 1",
+            "ru_RU": "Уровень предмета: 1",
+            "ko_KR": "아이템 레벨: 1",
+            "zh_TW": "物品等級1",
+            "zh_CN": "物品等级1"
+          }
+        },
+        "is_subclass_hidden": true
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/52195?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Amberjewel",
+              "es_MX": "Ambarina",
+              "pt_BR": "Âmbar Raro",
+              "de_DE": "Heliodor",
+              "en_GB": "Amberjewel",
+              "es_ES": "Ambarina",
+              "fr_FR": "Ambréine",
+              "it_IT": "Ambra Pregiata",
+              "ru_RU": "Янтарный самоцвет",
+              "ko_KR": "호박보석",
+              "zh_TW": "琥珀石",
+              "zh_CN": "琥珀晶石"
+            },
+            "id": 52195
+          },
+          "quantity": 3
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/52186?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Elementium Bar",
+              "es_MX": "Barra de elementium",
+              "pt_BR": "Barra de Elemêntio",
+              "de_DE": "Elementiumbarren",
+              "en_GB": "Elementium Bar",
+              "es_ES": "Barra de elementium",
+              "fr_FR": "Barre d'élémentium",
+              "it_IT": "Lingotto d'Elementio",
+              "ru_RU": "Элементиевый слиток",
+              "ko_KR": "엘레멘티움 주괴",
+              "zh_TW": "源質錠",
+              "zh_CN": "源质锭"
+            },
+            "id": 52186
+          },
+          "quantity": 2
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/52329?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Volatile Life",
+              "es_MX": "Vida volátil",
+              "pt_BR": "Vida Volátil",
+              "de_DE": "Flüchtiges Leben",
+              "en_GB": "Volatile Life",
+              "es_ES": "Vida volátil",
+              "fr_FR": "Vie volatile",
+              "it_IT": "Vita Instabile",
+              "ru_RU": "Неустойчивая жизнь",
+              "ko_KR": "생명의 휘발물",
+              "zh_TW": "烈性生命",
+              "zh_CN": "动燃生命"
+            },
+            "id": 52329
+          },
+          "quantity": 50
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Amberjewel (3), Elementium Bar (2), Volatile Life (50)",
+        "es_MX": "Ambarina (3), Barra de elementium (2), Vida volátil (50)",
+        "pt_BR": "Âmbar Raro (3), Barra de Elemêntio (2), Vida Volátil (50)",
+        "de_DE": "Heliodor (3), Elementiumbarren (2), Flüchtiges Leben (50)",
+        "en_GB": "Amberjewel (3), Elementium Bar (2), Volatile Life (50)",
+        "es_ES": "Ambarina (3), Barra de elementium (2), Vida volátil (50)",
+        "fr_FR": "Ambréine (3), Barre d'élémentium (2), Vie volatile (50)",
+        "it_IT": "Ambra Pregiata (3), Lingotto d'Elementio (2), Vita Instabile (50)",
+        "ru_RU": "Янтарный самоцвет (3), Элементиевый слиток (2), Неустойчивая жизнь (50)",
+        "ko_KR": "호박보석 (3), 엘레멘티움 주괴 (2), 생명의 휘발물 (50)",
+        "zh_TW": "琥珀石 (3), 源質錠 (2), 烈性生命 (50)",
+        "zh_CN": "琥珀晶石 (3), 源质锭 (2), 动燃生命 (50)"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

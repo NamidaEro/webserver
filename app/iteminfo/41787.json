@@ -1,0 +1,576 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/41787?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 41787,
+  "name": {
+    "en_US": "Design: Thundering Skyflare Diamond",
+    "es_MX": "Boceto: diamante de llama celeste del trueno",
+    "pt_BR": "Desenho: Diamante Farpacéu Trovejante",
+    "de_DE": "Vorlage: Donnernder Polarlichtdiamant",
+    "en_GB": "Design: Thundering Skyflare Diamond",
+    "es_ES": "Boceto: diamante de llama celeste del trueno",
+    "fr_FR": "Dessin : Diamant flambeciel foudroyant",
+    "it_IT": "Modello: Diamante Aria Fulgida Tonante",
+    "ru_RU": "Эскиз: громовой алмаз небесного сияния",
+    "ko_KR": "디자인: 천둥치는 하늘섬광 다이아몬드",
+    "zh_TW": "設計圖：雷霆的天焰鑽石",
+    "zh_CN": "图鉴：雷鸣之天焰钻石"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 30,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/41787?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 41787
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Jewelcrafting",
+      "es_MX": "Joyería",
+      "pt_BR": "Joalheria",
+      "de_DE": "Juwelierskunst",
+      "en_GB": "Jewelcrafting",
+      "es_ES": "Joyería",
+      "fr_FR": "Joaillerie",
+      "it_IT": "Oreficeria",
+      "ru_RU": "Ювелирное дело",
+      "ko_KR": "보석세공",
+      "zh_TW": "珠寶設計",
+      "zh_CN": "珠宝加工"
+    },
+    "id": 10
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 320000,
+  "sell_price": 80000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to cut a Thundering Skyflare Diamond",
+    "es_MX": "Te enseña a tallar un diamante de llama celeste del trueno.",
+    "pt_BR": "Ensina a lapidar Diamante Farpacéu Trovejante.",
+    "de_DE": "Lehrt Euch das Schleifen eines donnernden Polarlichtdiamanten.",
+    "en_GB": "Teaches you how to cut a Thundering Skyflare Diamond",
+    "es_ES": "Te enseña a tallar un diamante de llama celeste del trueno.",
+    "fr_FR": "Vous apprend à tailler un Diamant flambeciel foudroyant.",
+    "it_IT": "Ti insegna a intagliare un Diamante Aria Fulgida Tonante.",
+    "ru_RU": "Обучает огранке громового алмаза небесного сияния.",
+    "ko_KR": "천둥치는 하늘섬광 다이아몬드 세공법을 배웁니다.",
+    "zh_TW": "教你學會如何切割一個雷霆的天焰鑽石",
+    "zh_CN": "教你学会切割雷鸣之天焰钻石。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/41787?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 41787
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Design: Thundering Skyflare Diamond",
+      "es_MX": "Boceto: diamante de llama celeste del trueno",
+      "pt_BR": "Desenho: Diamante Farpacéu Trovejante",
+      "de_DE": "Vorlage: Donnernder Polarlichtdiamant",
+      "en_GB": "Design: Thundering Skyflare Diamond",
+      "es_ES": "Boceto: diamante de llama celeste del trueno",
+      "fr_FR": "Dessin : Diamant flambeciel foudroyant",
+      "it_IT": "Modello: Diamante Aria Fulgida Tonante",
+      "ru_RU": "Эскиз: громовой алмаз небесного сияния",
+      "ko_KR": "디자인: 천둥치는 하늘섬광 다이아몬드",
+      "zh_TW": "設計圖：雷霆的天焰鑽石",
+      "zh_CN": "图鉴：雷鸣之天焰钻石"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/41787?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 41787
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/10?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Jewelcrafting",
+        "es_MX": "Joyería",
+        "pt_BR": "Joalheria",
+        "de_DE": "Juwelierskunst",
+        "en_GB": "Jewelcrafting",
+        "es_ES": "Joyería",
+        "fr_FR": "Joaillerie",
+        "it_IT": "Oreficeria",
+        "ru_RU": "Ювелирное дело",
+        "ko_KR": "보석세공",
+        "zh_TW": "珠寶設計",
+        "zh_CN": "珠宝加工"
+      },
+      "id": 10
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 80000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "8",
+          "es_MX": "8",
+          "pt_BR": "8",
+          "de_DE": "8",
+          "en_GB": "8",
+          "es_ES": "8",
+          "fr_FR": "8",
+          "it_IT": "8",
+          "ru_RU": "8",
+          "ko_KR": "8",
+          "zh_TW": "8",
+          "zh_CN": "8"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2522?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Northrend Jewelcrafting",
+            "es_MX": "Joyería de Rasganorte",
+            "pt_BR": "Joalheria de Nortúndria",
+            "de_DE": "Juwelierskunst von Nordend",
+            "en_GB": "Northrend Jewelcrafting",
+            "es_ES": "Joyería de Rasganorte",
+            "fr_FR": "Joaillerie du Norfendre",
+            "it_IT": "Oreficeria di Nordania",
+            "ru_RU": "Ювелирное дело Нордскола",
+            "ko_KR": "노스렌드 보석세공",
+            "zh_TW": "北裂境珠寶設計",
+            "zh_CN": "诺森德珠宝加工"
+          },
+          "id": 2522
+        },
+        "level": 45,
+        "display_string": {
+          "en_US": "Requires Northrend Jewelcrafting (45)",
+          "es_MX": "Requiere Joyería de Rasganorte (45)",
+          "pt_BR": "Requer Joalheria de Nortúndria (45)",
+          "de_DE": "Benötigt Juwelierskunst von Nordend (45)",
+          "en_GB": "Requires Northrend Jewelcrafting (45)",
+          "es_ES": "Requiere Joyería de Rasganorte (45)",
+          "fr_FR": "Joaillerie du Norfendre (45) requis",
+          "it_IT": "Richiede: Oreficeria di Nordania (45)",
+          "ru_RU": "Требуется: Ювелирное дело Нордскола (45)",
+          "ko_KR": "요구 사항: 노스렌드 보석세공 (45)",
+          "zh_TW": "需要北裂境珠寶設計(45)",
+          "zh_CN": "需要诺森德珠宝加工（45）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to cut a Thundering Skyflare Diamond",
+      "es_MX": "Te enseña a tallar un diamante de llama celeste del trueno.",
+      "pt_BR": "Ensina a lapidar Diamante Farpacéu Trovejante.",
+      "de_DE": "Lehrt Euch das Schleifen eines donnernden Polarlichtdiamanten.",
+      "en_GB": "Teaches you how to cut a Thundering Skyflare Diamond",
+      "es_ES": "Te enseña a tallar un diamante de llama celeste del trueno.",
+      "fr_FR": "Vous apprend à tailler un Diamant flambeciel foudroyant.",
+      "it_IT": "Ti insegna a intagliare un Diamante Aria Fulgida Tonante.",
+      "ru_RU": "Обучает огранке громового алмаза небесного сияния.",
+      "ko_KR": "천둥치는 하늘섬광 다이아몬드 세공법을 배웁니다.",
+      "zh_TW": "教你學會如何切割一個雷霆的天焰鑽石",
+      "zh_CN": "教你学会切割雷鸣之天焰钻石。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/41400?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 41400
+        },
+        "quality": {
+          "type": "RARE",
+          "name": {
+            "en_US": "Rare",
+            "es_MX": "Raro",
+            "pt_BR": "Raro",
+            "de_DE": "Selten",
+            "en_GB": "Rare",
+            "es_ES": "Raro",
+            "fr_FR": "Rare",
+            "it_IT": "Raro",
+            "ru_RU": "Редкое",
+            "ko_KR": "희귀",
+            "zh_TW": "精良",
+            "zh_CN": "精良"
+          }
+        },
+        "name": {
+          "en_US": "Thundering Skyflare Diamond",
+          "es_MX": "Diamante de llama celeste del trueno",
+          "pt_BR": "Diamante Farpacéu Trovejante",
+          "de_DE": "Donnernder Polarlichtdiamant",
+          "en_GB": "Thundering Skyflare Diamond",
+          "es_ES": "Diamante de llama celeste del trueno",
+          "fr_FR": "Diamant flambeciel foudroyant",
+          "it_IT": "Diamante Aria Fulgida Tonante",
+          "ru_RU": "Громовой алмаз небесного сияния",
+          "ko_KR": "천둥치는 하늘섬광 다이아몬드",
+          "zh_TW": "雷霆的天焰鑽石",
+          "zh_CN": "雷鸣之天焰钻石"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/41400?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 41400
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/3?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Gem",
+            "es_MX": "Gema",
+            "pt_BR": "Gema",
+            "de_DE": "Edelstein",
+            "en_GB": "Gem",
+            "es_ES": "Gema",
+            "fr_FR": "Gemme",
+            "it_IT": "Gemme",
+            "ru_RU": "Самоцвет",
+            "ko_KR": "보석",
+            "zh_TW": "寶石",
+            "zh_CN": "宝石"
+          },
+          "id": 3
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/3/item-subclass/9?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Other",
+            "es_MX": "Otros",
+            "pt_BR": "Outro",
+            "de_DE": "Sonstiges",
+            "en_GB": "Other",
+            "es_ES": "Otros",
+            "fr_FR": "Autres",
+            "it_IT": "Altro",
+            "ru_RU": "Другое",
+            "ko_KR": "기타",
+            "zh_TW": "其他",
+            "zh_CN": "其他"
+          },
+          "id": 9
+        },
+        "inventory_type": {
+          "type": "NON_EQUIP",
+          "name": {
+            "en_US": "Non-equippable",
+            "es_MX": "No equipable",
+            "pt_BR": "Não equipável",
+            "de_DE": "Nicht anlegbar",
+            "en_GB": "Non-equippable",
+            "es_ES": "No se puede equipar",
+            "fr_FR": "Objet hors équipement",
+            "it_IT": "Non equipaggiabile",
+            "ru_RU": "Неэкипируемое",
+            "ko_KR": "착용 불가",
+            "zh_TW": "無法裝備",
+            "zh_CN": "无法装备"
+          }
+        },
+        "sell_price": {
+          "value": 7850,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "78",
+              "es_MX": "78",
+              "pt_BR": "78",
+              "de_DE": "78",
+              "en_GB": "78",
+              "es_ES": "78",
+              "fr_FR": "78",
+              "it_IT": "78",
+              "ru_RU": "78",
+              "ko_KR": "78",
+              "zh_TW": "78",
+              "zh_CN": "78"
+            },
+            "copper": {
+              "en_US": "50",
+              "es_MX": "50",
+              "pt_BR": "50",
+              "de_DE": "50",
+              "en_GB": "50",
+              "es_ES": "50",
+              "fr_FR": "50",
+              "it_IT": "50",
+              "ru_RU": "50",
+              "ko_KR": "50",
+              "zh_TW": "50",
+              "zh_CN": "50"
+            }
+          }
+        },
+        "description": {
+          "en_US": "Only fits in a meta gem slot.",
+          "es_MX": "Solo encaja en una ranura de gema meta.",
+          "pt_BR": "Encaixa-se somente num engaste de metagema.",
+          "de_DE": "Passt nur in einen Sockel der Kategorie Meta.",
+          "en_GB": "Only fits in a meta gem slot.",
+          "es_ES": "Solo encaja en una ranura de gema meta.",
+          "fr_FR": "Ne peut être serti que dans une châsse de méta-gemme.",
+          "it_IT": "Compatibile solo con un incavo Meta.",
+          "ru_RU": "Подходит только в гнездо для особого самоцвета.",
+          "ko_KR": "얼개 보석 홈에만 장착할 수 있습니다.",
+          "zh_TW": "只適用於變換寶石插槽。",
+          "zh_CN": "只能镶嵌在多彩宝石插槽中。"
+        },
+        "is_subclass_hidden": true,
+        "gem_properties": {
+          "effect": {
+            "en_US": "Chance to Increase Melee/Ranged Attack Speed",
+            "es_MX": "Probabilidad de aumentar la velocidad de ataque a distancia/cuerpo a cuerpo",
+            "pt_BR": "Chance de aumentar as Velocidades de Ataque Corpo a Corpo/de Longo Alcance",
+            "de_DE": "Chance, Nahkampf- und Distanzangriffstempo zu erhöhen",
+            "en_GB": "Chance to Increase Melee/Ranged Attack Speed",
+            "es_ES": "Probabilidad de aumentar la velocidad de ataque a distancia/cuerpo a cuerpo",
+            "fr_FR": "Chance d’augmenter la vitesse d’attaque en mêlée/à distance",
+            "it_IT": "Possibilità di Aumento della Celerità in Mischia/a Distanza",
+            "ru_RU": "Шанс увеличить скорость атаки в ближнем и дальнем бою",
+            "ko_KR": "일정 확률로 근접 및 원거리 공격 속도 증가",
+            "zh_TW": "有機會提高近戰/遠程攻擊速度",
+            "zh_CN": "有一定几率提高近战/远程攻击速度"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/41266?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Skyflare Diamond",
+              "es_MX": "Diamante de llama celeste",
+              "pt_BR": "Diamante Farpacéu",
+              "de_DE": "Polarlichtdiamant",
+              "en_GB": "Skyflare Diamond",
+              "es_ES": "Diamante de llama celeste",
+              "fr_FR": "Diamant flambeciel",
+              "it_IT": "Diamante Aria Fulgida",
+              "ru_RU": "Алмаз небесного сияния",
+              "ko_KR": "하늘섬광 다이아몬드",
+              "zh_TW": "天焰鑽石",
+              "zh_CN": "天焰钻石"
+            },
+            "id": 41266
+          },
+          "quantity": 1
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Skyflare Diamond",
+        "es_MX": "Diamante de llama celeste",
+        "pt_BR": "Diamante Farpacéu",
+        "de_DE": "Polarlichtdiamant",
+        "en_GB": "Skyflare Diamond",
+        "es_ES": "Diamante de llama celeste",
+        "fr_FR": "Diamant flambeciel",
+        "it_IT": "Diamante Aria Fulgida",
+        "ru_RU": "Алмаз небесного сияния",
+        "ko_KR": "하늘섬광 다이아몬드",
+        "zh_TW": "天焰鑽石",
+        "zh_CN": "天焰钻石"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

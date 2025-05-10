@@ -1,0 +1,505 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/42093?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 42093,
+  "name": {
+    "en_US": "Frostmoon Pants",
+    "es_MX": "Pantalones Luna Helada",
+    "pt_BR": "Calças de Lunálgida",
+    "de_DE": "Frostmondhosen",
+    "en_GB": "Frostmoon Pants",
+    "es_ES": "Pantalones Luna Helada",
+    "fr_FR": "Pantalon Givrelune",
+    "it_IT": "Pantaloni di Lunafredda",
+    "ru_RU": "Штаны холодной луны",
+    "ko_KR": "서릿달 바지",
+    "zh_TW": "霜月束褲",
+    "zh_CN": "霜月短裤"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 35,
+  "required_level": 30,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/42093?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 42093
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "LEGS",
+    "name": {
+      "en_US": "Legs",
+      "es_MX": "Piernas",
+      "pt_BR": "Pernas",
+      "de_DE": "Beine",
+      "en_GB": "Legs",
+      "es_ES": "Piernas",
+      "fr_FR": "Jambes",
+      "it_IT": "Gambe",
+      "ru_RU": "Ноги",
+      "ko_KR": "다리",
+      "zh_TW": "腿部",
+      "zh_CN": "腿部"
+    }
+  },
+  "purchase_price": 72394,
+  "sell_price": 14478,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/42093?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 42093
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Frostmoon Pants",
+      "es_MX": "Pantalones Luna Helada",
+      "pt_BR": "Calças de Lunálgida",
+      "de_DE": "Frostmondhosen",
+      "en_GB": "Frostmoon Pants",
+      "es_ES": "Pantalones Luna Helada",
+      "fr_FR": "Pantalon Givrelune",
+      "it_IT": "Pantaloni di Lunafredda",
+      "ru_RU": "Штаны холодной луны",
+      "ko_KR": "서릿달 바지",
+      "zh_TW": "霜月束褲",
+      "zh_CN": "霜月短裤"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/42093?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 42093
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "LEGS",
+      "name": {
+        "en_US": "Legs",
+        "es_MX": "Piernas",
+        "pt_BR": "Pernas",
+        "de_DE": "Beine",
+        "en_GB": "Legs",
+        "es_ES": "Piernas",
+        "fr_FR": "Jambes",
+        "it_IT": "Gambe",
+        "ru_RU": "Ноги",
+        "ko_KR": "다리",
+        "zh_TW": "腿部",
+        "zh_CN": "腿部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 4,
+      "display": {
+        "display_string": {
+          "en_US": "4 Armor",
+          "es_MX": "4 p. de armadura",
+          "pt_BR": "4 de Armadura",
+          "de_DE": "4 Rüstung",
+          "en_GB": "4 Armor",
+          "es_ES": "4 p. de armadura",
+          "fr_FR": "Armure : 4",
+          "it_IT": "4 Armatura",
+          "ru_RU": "Броня: 4",
+          "ko_KR": "방어도 4",
+          "zh_TW": "4點護甲",
+          "zh_CN": "4点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 3,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Intellect",
+            "es_MX": "+3 intelecto",
+            "pt_BR": "+3 Intelecto",
+            "de_DE": "+3 Intelligenz",
+            "en_GB": "+3 Intellect",
+            "es_ES": "+3 intelecto",
+            "fr_FR": "+3 Intelligence",
+            "it_IT": "+3 Intelletto",
+            "ru_RU": "+3 к интеллекту",
+            "ko_KR": "지능 +3",
+            "zh_TW": "+3智力",
+            "zh_CN": "+3 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 6,
+        "display": {
+          "display_string": {
+            "en_US": "+6 Stamina",
+            "es_MX": "+6 aguante",
+            "pt_BR": "+6 Vigor",
+            "de_DE": "+6 Ausdauer",
+            "en_GB": "+6 Stamina",
+            "es_ES": "+6 aguante",
+            "fr_FR": "+6 Endurance",
+            "it_IT": "+6 Tempra",
+            "ru_RU": "+6 к выносливости",
+            "ko_KR": "체력 +6",
+            "zh_TW": "+6耐力",
+            "zh_CN": "+6 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 6,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+6 Versatility",
+            "es_MX": "+6 versatilidad",
+            "pt_BR": "+6 Versatilidade",
+            "de_DE": "+6 Vielseitigkeit",
+            "en_GB": "+6 Versatility",
+            "es_ES": "+6 versatilidad",
+            "fr_FR": "+6 Polyvalence",
+            "it_IT": "+6 Indice di versatilità",
+            "ru_RU": "+6 к универсальности",
+            "ko_KR": "유연성 +6",
+            "zh_TW": "+6臨機應變",
+            "zh_CN": "+6 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 152,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "1",
+          "es_MX": "1",
+          "pt_BR": "1",
+          "de_DE": "1",
+          "en_GB": "1",
+          "es_ES": "1",
+          "fr_FR": "1",
+          "it_IT": "1",
+          "ru_RU": "1",
+          "ko_KR": "1",
+          "zh_TW": "1",
+          "zh_CN": "1"
+        },
+        "copper": {
+          "en_US": "52",
+          "es_MX": "52",
+          "pt_BR": "52",
+          "de_DE": "52",
+          "en_GB": "52",
+          "es_ES": "52",
+          "fr_FR": "52",
+          "it_IT": "52",
+          "ru_RU": "52",
+          "ko_KR": "52",
+          "zh_TW": "52",
+          "zh_CN": "52"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 30,
+        "display_string": {
+          "en_US": "Requires Level 30",
+          "es_MX": "Necesitas ser de nivel 30",
+          "pt_BR": "Requer o Nível 30",
+          "de_DE": "Benötigt Stufe 30",
+          "en_GB": "Requires Level 30",
+          "es_ES": "Necesitas ser de nivel 30",
+          "fr_FR": "Niveau 30 requis",
+          "it_IT": "Richiede il livello 30",
+          "ru_RU": "Требуется 30-й уровень",
+          "ko_KR": "최소 요구 레벨: 30",
+          "zh_TW": "需要等級30",
+          "zh_CN": "需要等级 30"
+        }
+      }
+    },
+    "level": {
+      "value": 35,
+      "display_string": {
+        "en_US": "Item Level 35",
+        "es_MX": "Nivel de objeto 35",
+        "pt_BR": "Nível do Item: 35",
+        "de_DE": "Gegenstandsstufe 35",
+        "en_GB": "Item Level 35",
+        "es_ES": "Nivel de objeto 35",
+        "fr_FR": "Niveau d'objet 35",
+        "it_IT": "Livello oggetto: 35",
+        "ru_RU": "Уровень предмета: 35",
+        "ko_KR": "아이템 레벨: 35",
+        "zh_TW": "物品等級35",
+        "zh_CN": "物品等级35"
+      }
+    },
+    "durability": {
+      "value": 100,
+      "display_string": {
+        "en_US": "Durability 100 / 100",
+        "es_MX": "Durabilidad 100 / 100",
+        "pt_BR": "Durabilidade 100 / 100",
+        "de_DE": "Haltbarkeit 100 / 100",
+        "en_GB": "Durability 100 / 100",
+        "es_ES": "Durabilidad 100 / 100",
+        "fr_FR": "Durabilité : 100 / 100",
+        "it_IT": "Integrità 100/100",
+        "ru_RU": "Прочность: 100 / 100",
+        "ko_KR": "내구도 100 / 100",
+        "zh_TW": "耐久度 100 / 100",
+        "zh_CN": "耐久度 100 / 100"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/9760?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 9760
+    }
+  ]
+}

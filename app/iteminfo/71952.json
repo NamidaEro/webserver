@@ -1,0 +1,277 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/71952?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 71952,
+  "name": {
+    "en_US": "Captured Insignia",
+    "es_MX": "Insignia recogida",
+    "pt_BR": "Insígnia Capturada",
+    "de_DE": "Erobertes Insigne",
+    "en_GB": "Captured Insignia",
+    "es_ES": "Insignia recogida",
+    "fr_FR": "Insigne capturé",
+    "it_IT": "Piastrina Depredata",
+    "ru_RU": "Захваченный знак различия",
+    "ko_KR": "빼앗은 휘장",
+    "zh_TW": "奪來的徽記",
+    "zh_CN": "收缴的徽记"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/71952?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 71952
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Quest",
+      "es_MX": "Misión",
+      "pt_BR": "Missão",
+      "de_DE": "Quest",
+      "en_GB": "Quest",
+      "es_ES": "Misión",
+      "fr_FR": "Quête",
+      "it_IT": "Oggetti di missione",
+      "ru_RU": "Задание",
+      "ko_KR": "퀘스트",
+      "zh_TW": "任務",
+      "zh_CN": "任务"
+    },
+    "id": 12
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Quest",
+      "es_MX": "Misión",
+      "pt_BR": "Missão",
+      "de_DE": "Quest",
+      "en_GB": "Quest",
+      "es_ES": "Misión",
+      "fr_FR": "Quête",
+      "it_IT": "Missione",
+      "ru_RU": "Задания",
+      "ko_KR": "퀘스트",
+      "zh_TW": "任務",
+      "zh_CN": "任务"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Claimed from a defeated opponent. Someone at the Darkmoon Faire would be interested in this item.",
+    "es_MX": "Reclamada por un oponente derrotado. Alguien de la Feria de la Luna Negra podría estar interesado en este objeto.",
+    "pt_BR": "Tomada de um inimigo derrotado. Alguém da Feira de Negraluna deve se interessar por isto.",
+    "de_DE": "Von einem bezwungenen Feind errungen. Jemand vom Dunkelmond-Jahrmarkt würde es sicherlich gern erwerben.",
+    "en_GB": "Claimed from a defeated opponent. Someone at the Darkmoon Faire would be interested in this item.",
+    "es_ES": "Reclamada por un oponente derrotado. Alguien de la Feria de la Luna Negra podría estar interesado en este objeto.",
+    "fr_FR": "Récupéré sur un adversaire vaincu. Il pourrait intéresser quelqu'un à la foire de Sombrelune.",
+    "it_IT": "Preso a un avversario sconfitto. Potrebbe interessare a qualcuno della Fiera di Lunacupa.",
+    "ru_RU": "Взят у побежденного противника. На ярмарке Новолуния наверняка найдется кто-то, кого заинтересует этот трофей.",
+    "ko_KR": "쓰러뜨린 적에게서 획득한 휘장입니다. 다크문 유랑단의 누군가가 관심을 보일지도 모릅니다.",
+    "zh_TW": "從手下敗將那裡奪來的東西。暗月馬戲團裡也許有人會想要擁有它。",
+    "zh_CN": "从被击败的对手身上收缴来的徽记。暗月马戏团里可能有人对它感兴趣。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/71952?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 71952
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Captured Insignia",
+      "es_MX": "Insignia recogida",
+      "pt_BR": "Insígnia Capturada",
+      "de_DE": "Erobertes Insigne",
+      "en_GB": "Captured Insignia",
+      "es_ES": "Insignia recogida",
+      "fr_FR": "Insigne capturé",
+      "it_IT": "Piastrina Depredata",
+      "ru_RU": "Захваченный знак различия",
+      "ko_KR": "빼앗은 휘장",
+      "zh_TW": "奪來的徽記",
+      "zh_CN": "收缴的徽记"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/71952?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 71952
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Quest",
+        "es_MX": "Misión",
+        "pt_BR": "Missão",
+        "de_DE": "Quest",
+        "en_GB": "Quest",
+        "es_ES": "Misión",
+        "fr_FR": "Quête",
+        "it_IT": "Oggetti di missione",
+        "ru_RU": "Задание",
+        "ko_KR": "퀘스트",
+        "zh_TW": "任務",
+        "zh_CN": "任务"
+      },
+      "id": 12
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Quest",
+        "es_MX": "Misión",
+        "pt_BR": "Missão",
+        "de_DE": "Quest",
+        "en_GB": "Quest",
+        "es_ES": "Misión",
+        "fr_FR": "Quête",
+        "it_IT": "Missione",
+        "ru_RU": "Задания",
+        "ko_KR": "퀘스트",
+        "zh_TW": "任務",
+        "zh_CN": "任务"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "description": {
+      "en_US": "Claimed from a defeated opponent. Someone at the Darkmoon Faire would be interested in this item.",
+      "es_MX": "Reclamada por un oponente derrotado. Alguien de la Feria de la Luna Negra podría estar interesado en este objeto.",
+      "pt_BR": "Tomada de um inimigo derrotado. Alguém da Feira de Negraluna deve se interessar por isto.",
+      "de_DE": "Von einem bezwungenen Feind errungen. Jemand vom Dunkelmond-Jahrmarkt würde es sicherlich gern erwerben.",
+      "en_GB": "Claimed from a defeated opponent. Someone at the Darkmoon Faire would be interested in this item.",
+      "es_ES": "Reclamada por un oponente derrotado. Alguien de la Feria de la Luna Negra podría estar interesado en este objeto.",
+      "fr_FR": "Récupéré sur un adversaire vaincu. Il pourrait intéresser quelqu'un à la foire de Sombrelune.",
+      "it_IT": "Preso a un avversario sconfitto. Potrebbe interessare a qualcuno della Fiera di Lunacupa.",
+      "ru_RU": "Взят у побежденного противника. На ярмарке Новолуния наверняка найдется кто-то, кого заинтересует этот трофей.",
+      "ko_KR": "쓰러뜨린 적에게서 획득한 휘장입니다. 다크문 유랑단의 누군가가 관심을 보일지도 모릅니다.",
+      "zh_TW": "從手下敗將那裡奪來的東西。暗月馬戲團裡也許有人會想要擁有它。",
+      "zh_CN": "从被击败的对手身上收缴来的徽记。暗月马戏团里可能有人对它感兴趣。"
+    },
+    "item_starts_quest": {
+      "quest": {
+        "key": {
+          "href": "https://kr.api.blizzard.com/data/wow/quest/29457?namespace=static-11.1.5_60179-kr"
+        },
+        "name": {
+          "en_US": "The Enemy's Insignia",
+          "es_MX": "La insignia del enemigo",
+          "pt_BR": "A insígnia do inimigo",
+          "de_DE": "Das Insigne des Feindes",
+          "en_GB": "The Enemy's Insignia",
+          "es_ES": "La insignia del enemigo",
+          "fr_FR": "L’insigne de l’ennemi",
+          "it_IT": "Il fregio del nemico",
+          "ru_RU": "Вражеский знак различия",
+          "ko_KR": "적의 휘장",
+          "zh_TW": "敵人的徽記",
+          "zh_CN": "敌人的徽记"
+        },
+        "id": 29457
+      },
+      "display_string": {
+        "en_US": "This Item Begins a Quest",
+        "es_MX": "Este objeto inicia una misión",
+        "pt_BR": "Este item inicia uma missão",
+        "de_DE": "Dieser Gegenstand startet eine Quest.",
+        "en_GB": "This Item Begins a Quest",
+        "es_ES": "Este objeto inicia una misión",
+        "fr_FR": "Cet objet permet de lancer une quête",
+        "it_IT": "Questo oggetto avvia una missione",
+        "ru_RU": "Этот предмет позволяет получить задание.",
+        "ko_KR": "퀘스트 시작 아이템",
+        "zh_TW": "該物品將觸發一個任務",
+        "zh_CN": "该物品将触发一个任务"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,343 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/199554?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 199554,
+  "name": {
+    "en_US": "S.E.A.T.",
+    "es_MX": "S.I.L.L.A.",
+    "pt_BR": "A.S.S.E.N.T.O.",
+    "de_DE": "S.I.T.Z.",
+    "en_GB": "S.E.A.T.",
+    "es_ES": "S.I.L.L.A.",
+    "fr_FR": "C.H.A.I.S.E.",
+    "it_IT": "S.I.E.D.I.T.I.",
+    "ru_RU": "СИДИ",
+    "ko_KR": "으.I.Z.I-.",
+    "zh_TW": "S.E.A.T.",
+    "zh_CN": "S.E.A.T.玩椅"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/199554?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 199554
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "杂项"
+    },
+    "id": 15
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Other",
+      "es_MX": "Otros",
+      "pt_BR": "Outro",
+      "de_DE": "Sonstiges",
+      "en_GB": "Other",
+      "es_ES": "Otros",
+      "fr_FR": "Autres",
+      "it_IT": "Altro",
+      "ru_RU": "Другое",
+      "ko_KR": "기타",
+      "zh_TW": "其他",
+      "zh_CN": "其它"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 20000,
+  "sell_price": 5000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/199554?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 199554
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "S.E.A.T.",
+      "es_MX": "S.I.L.L.A.",
+      "pt_BR": "A.S.S.E.N.T.O.",
+      "de_DE": "S.I.T.Z.",
+      "en_GB": "S.E.A.T.",
+      "es_ES": "S.I.L.L.A.",
+      "fr_FR": "C.H.A.I.S.E.",
+      "it_IT": "S.I.E.D.I.T.I.",
+      "ru_RU": "СИДИ",
+      "ko_KR": "으.I.Z.I-.",
+      "zh_TW": "S.E.A.T.",
+      "zh_CN": "S.E.A.T.玩椅"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/199554?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 199554
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "杂项"
+      },
+      "id": 15
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Other",
+        "es_MX": "Otros",
+        "pt_BR": "Outro",
+        "de_DE": "Sonstiges",
+        "en_GB": "Other",
+        "es_ES": "Otros",
+        "fr_FR": "Autres",
+        "it_IT": "Altro",
+        "ru_RU": "Другое",
+        "ko_KR": "기타",
+        "zh_TW": "其他",
+        "zh_CN": "其它"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "binding": {
+      "type": "ON_USE",
+      "name": {
+        "en_US": "Binds when used",
+        "es_MX": "Se liga al usarlo",
+        "pt_BR": "Vincula-se quando usado",
+        "de_DE": "Wird bei Benutzung gebunden",
+        "en_GB": "Binds when used",
+        "es_ES": "Se liga al usarlo",
+        "fr_FR": "Lié quand utilisé",
+        "it_IT": "Si vincola all'uso",
+        "ru_RU": "Становится персональным при использовании",
+        "ko_KR": "사용 시 귀속",
+        "zh_TW": "使用後綁定",
+        "zh_CN": "使用后绑定"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/387447?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "S.E.A.T.",
+            "es_MX": "S.I.L.L.A.",
+            "pt_BR": "A.S.S.E.N.T.O.",
+            "de_DE": "S.I.T.Z.",
+            "en_GB": "S.E.A.T.",
+            "es_ES": "S.I.L.L.A.",
+            "fr_FR": "C.H.A.I.S.E.",
+            "it_IT": "S.I.E.D.I.T.I.",
+            "ru_RU": "С.Т.У.Л.",
+            "ko_KR": "으.I.Z.I-.",
+            "zh_TW": "S.E.A.T.",
+            "zh_CN": "S.E.A.T.玩椅"
+          },
+          "id": 387447
+        },
+        "description": {
+          "en_US": "Use: Adds this toy to your Toy Box.\n\nSet up a vaguely comfortable mechanical seat. Better than sitting on the floor! (5 Min Cooldown)",
+          "es_MX": "Uso: Añade este juguete a tu caja de juguetes.\n\nColoca un asiento mecánico ligeramente cómodo. ¡Es mejor que sentarse sobre el suelo! (5 min de tiempo de reutilización)",
+          "pt_BR": "Usar: Adiciona este brinquedo à sua Caixa de Brinquedo.\n\nPrepara um assento mecânico vagamente confortável. Melhor do que ficar sentado no chão! (5 min de recarga)",
+          "de_DE": "Benutzen: Fügt dieses Spielzeug Eurer Spielzeugkiste hinzu.\n\nBaut einen halbwegs bequemen mechanischen Sitz auf. Auf jeden Fall besser, als auf dem Boden zu sitzen! (5 Min. Abklingzeit)",
+          "en_GB": "Use: Adds this toy to your Toy Box.\n\nSet up a vaguely comfortable mechanical seat. Better than sitting on the floor! (5 Min Cooldown)",
+          "es_ES": "Uso: Añade este juguete a tu caja de juguetes.\n\nColoca un asiento mecánico que no parece muy cómodo. ¡Aunque es mejor que sentarse en el suelo! (5 min de tiempo de reutilización).",
+          "fr_FR": "Utiliser : ajoute ce jouet à votre collection.\n\nVous déployez une chaise mécanique. Son confort est discutable, mais c’est toujours mieux que s’asseoir par terre ! (5 min de recharge)",
+          "it_IT": "Usa: Aggiunge questo giocattolo alla tua collezione.\n\nPrepari un sedile meccanico vagamente comodo. Meglio che stare sul pavimento! (5 min di recupero)",
+          "ru_RU": "Использование: добавить игрушку в коллекцию.\n\nСтавит более-менее удобное механическое сиденье. Ну хотя бы не на полу! (Восстановление: 5 мин.)",
+          "ko_KR": "사용 효과: 이 장난감을 장난감 상자에 추가합니다.\n\n편안한 듯 만 듯한 기계 의자를 놓습니다. 맨바닥에 앉는 것보단 낫죠! (5분 후 재사용 가능)",
+          "zh_TW": "使用：將這個玩具加入你的玩具箱。\n\n設置還算舒適的機械座椅。比直接坐在地上好！ (5分鐘冷卻時間)",
+          "zh_CN": "使用：将该玩具添加到你的玩具箱。\n\n设置一把勉强舒服的机械椅子。总比坐在地上强！ （5分钟冷却）"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 5000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "is_subclass_hidden": true,
+    "toy": {
+      "en_US": "Toy",
+      "es_MX": "Juguete",
+      "pt_BR": "Brinquedo",
+      "de_DE": "Spielzeug",
+      "en_GB": "Toy",
+      "es_ES": "Juguete",
+      "fr_FR": "Jouet",
+      "it_IT": "Giocattolo",
+      "ru_RU": "Игрушка",
+      "ko_KR": "장난감",
+      "zh_TW": "玩具",
+      "zh_CN": "玩具"
+    }
+  },
+  "purchase_quantity": 1
+}

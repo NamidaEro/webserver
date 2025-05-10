@@ -1,0 +1,554 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/188007?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 188007,
+  "name": {
+    "en_US": "Choral Slippers",
+    "es_MX": "Zapatillas corales",
+    "pt_BR": "Sapatilhas do Coral",
+    "de_DE": "Chorale Pantoffeln",
+    "en_GB": "Choral Slippers",
+    "es_ES": "Zapatillas corales",
+    "fr_FR": "Mules chorales",
+    "it_IT": "Pianelle Corali",
+    "ru_RU": "Туфли хора",
+    "ko_KR": "합창의 끌신",
+    "zh_TW": "聖歌軟靴",
+    "zh_CN": "吟歌便鞋"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 226,
+  "required_level": 60,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/188007?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 188007
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "FEET",
+    "name": {
+      "en_US": "Feet",
+      "es_MX": "Pies",
+      "pt_BR": "Pés",
+      "de_DE": "Füße",
+      "en_GB": "Feet",
+      "es_ES": "Pies",
+      "fr_FR": "Pieds",
+      "it_IT": "Piedi",
+      "ru_RU": "Ступни",
+      "ko_KR": "발",
+      "zh_TW": "腳",
+      "zh_CN": "脚部"
+    }
+  },
+  "purchase_price": 1924009,
+  "sell_price": 384801,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/188007?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 188007
+    },
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Choral Slippers",
+      "es_MX": "Zapatillas corales",
+      "pt_BR": "Sapatilhas do Coral",
+      "de_DE": "Chorale Pantoffeln",
+      "en_GB": "Choral Slippers",
+      "es_ES": "Zapatillas corales",
+      "fr_FR": "Mules chorales",
+      "it_IT": "Pianelle Corali",
+      "ru_RU": "Туфли хора",
+      "ko_KR": "합창의 끌신",
+      "zh_TW": "聖歌軟靴",
+      "zh_CN": "吟歌便鞋"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/188007?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 188007
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "FEET",
+      "name": {
+        "en_US": "Feet",
+        "es_MX": "Pies",
+        "pt_BR": "Pés",
+        "de_DE": "Füße",
+        "en_GB": "Feet",
+        "es_ES": "Pies",
+        "fr_FR": "Pieds",
+        "it_IT": "Piedi",
+        "ru_RU": "Ступни",
+        "ko_KR": "발",
+        "zh_TW": "腳",
+        "zh_CN": "脚部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 24,
+      "display": {
+        "display_string": {
+          "en_US": "24 Armor",
+          "es_MX": "24 p. de armadura",
+          "pt_BR": "24 de Armadura",
+          "de_DE": "24 Rüstung",
+          "en_GB": "24 Armor",
+          "es_ES": "24 p. de armadura",
+          "fr_FR": "Armure : 24",
+          "it_IT": "24 Armatura",
+          "ru_RU": "Броня: 24",
+          "ko_KR": "방어도 24",
+          "zh_TW": "24點護甲",
+          "zh_CN": "24点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 33,
+        "display": {
+          "display_string": {
+            "en_US": "+33 Intellect",
+            "es_MX": "+33 intelecto",
+            "pt_BR": "+33 Intelecto",
+            "de_DE": "+33 Intelligenz",
+            "en_GB": "+33 Intellect",
+            "es_ES": "+33 intelecto",
+            "fr_FR": "+33 Intelligence",
+            "it_IT": "+33 Intelletto",
+            "ru_RU": "+33 к интеллекту",
+            "ko_KR": "지능 +33",
+            "zh_TW": "+33智力",
+            "zh_CN": "+33 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 50,
+        "display": {
+          "display_string": {
+            "en_US": "+50 Stamina",
+            "es_MX": "+50 aguante",
+            "pt_BR": "+50 Vigor",
+            "de_DE": "+50 Ausdauer",
+            "en_GB": "+50 Stamina",
+            "es_ES": "+50 aguante",
+            "fr_FR": "+50 Endurance",
+            "it_IT": "+50 Tempra",
+            "ru_RU": "+50 к выносливости",
+            "ko_KR": "체력 +50",
+            "zh_TW": "+50耐力",
+            "zh_CN": "+50 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 37,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+37 Critical Strike",
+            "es_MX": "+37 golpe crítico",
+            "pt_BR": "+37 Acerto Crítico",
+            "de_DE": "+37 Kritischer Trefferwert",
+            "en_GB": "+37 Critical Strike",
+            "es_ES": "+37 golpe crítico",
+            "fr_FR": "+37 Score de crit.",
+            "it_IT": "+37 Indice di critico",
+            "ru_RU": "+37 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +37",
+            "zh_TW": "+37致命一擊",
+            "zh_CN": "+37 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "MASTERY_RATING",
+          "name": {
+            "en_US": "Mastery",
+            "es_MX": "maestría",
+            "pt_BR": "Maestria",
+            "de_DE": "Meisterschaft",
+            "en_GB": "Mastery",
+            "es_ES": "maestría",
+            "fr_FR": "Maîtrise",
+            "it_IT": "Indice di maestria",
+            "ru_RU": "к искусности",
+            "ko_KR": "특화",
+            "zh_TW": "精通",
+            "zh_CN": "精通"
+          }
+        },
+        "value": 29,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+29 Mastery",
+            "es_MX": "+29 maestría",
+            "pt_BR": "+29 Maestria",
+            "de_DE": "+29 Meisterschaft",
+            "en_GB": "+29 Mastery",
+            "es_ES": "+29 maestría",
+            "fr_FR": "+29 Maîtrise",
+            "it_IT": "+29 Indice di maestria",
+            "ru_RU": "+29 к искусности",
+            "ko_KR": "특화 +29",
+            "zh_TW": "+29精通",
+            "zh_CN": "+29 精通"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 44625,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "4",
+          "es_MX": "4",
+          "pt_BR": "4",
+          "de_DE": "4",
+          "en_GB": "4",
+          "es_ES": "4",
+          "fr_FR": "4",
+          "it_IT": "4",
+          "ru_RU": "4",
+          "ko_KR": "4",
+          "zh_TW": "4",
+          "zh_CN": "4"
+        },
+        "silver": {
+          "en_US": "46",
+          "es_MX": "46",
+          "pt_BR": "46",
+          "de_DE": "46",
+          "en_GB": "46",
+          "es_ES": "46",
+          "fr_FR": "46",
+          "it_IT": "46",
+          "ru_RU": "46",
+          "ko_KR": "46",
+          "zh_TW": "46",
+          "zh_CN": "46"
+        },
+        "copper": {
+          "en_US": "25",
+          "es_MX": "25",
+          "pt_BR": "25",
+          "de_DE": "25",
+          "en_GB": "25",
+          "es_ES": "25",
+          "fr_FR": "25",
+          "it_IT": "25",
+          "ru_RU": "25",
+          "ko_KR": "25",
+          "zh_TW": "25",
+          "zh_CN": "25"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 60,
+        "display_string": {
+          "en_US": "Requires Level 60",
+          "es_MX": "Necesitas ser de nivel 60",
+          "pt_BR": "Requer o Nível 60",
+          "de_DE": "Benötigt Stufe 60",
+          "en_GB": "Requires Level 60",
+          "es_ES": "Necesitas ser de nivel 60",
+          "fr_FR": "Niveau 60 requis",
+          "it_IT": "Richiede il livello 60",
+          "ru_RU": "Требуется 60-й уровень",
+          "ko_KR": "최소 요구 레벨: 60",
+          "zh_TW": "需要等級60",
+          "zh_CN": "需要等级 60"
+        }
+      }
+    },
+    "level": {
+      "value": 226,
+      "display_string": {
+        "en_US": "Item Level 226",
+        "es_MX": "Nivel de objeto 226",
+        "pt_BR": "Nível do Item: 226",
+        "de_DE": "Gegenstandsstufe 226",
+        "en_GB": "Item Level 226",
+        "es_ES": "Nivel de objeto 226",
+        "fr_FR": "Niveau d'objet 226",
+        "it_IT": "Livello oggetto: 226",
+        "ru_RU": "Уровень предмета: 226",
+        "ko_KR": "아이템 레벨: 226",
+        "zh_TW": "物品等級226",
+        "zh_CN": "物品等级226"
+      }
+    },
+    "durability": {
+      "value": 55,
+      "display_string": {
+        "en_US": "Durability 55 / 55",
+        "es_MX": "Durabilidad 55 / 55",
+        "pt_BR": "Durabilidade 55 / 55",
+        "de_DE": "Haltbarkeit 55 / 55",
+        "en_GB": "Durability 55 / 55",
+        "es_ES": "Durabilidad 55 / 55",
+        "fr_FR": "Durabilité : 55 / 55",
+        "it_IT": "Integrità 55/55",
+        "ru_RU": "Прочность: 55 / 55",
+        "ko_KR": "내구도 55 / 55",
+        "zh_TW": "耐久度 55 / 55",
+        "zh_CN": "耐久度 55 / 55"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/56688?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 56688
+    },
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/56706?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 56706
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/225459?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 225459,
+  "name": {
+    "en_US": "Plans: Algari Competitor's Plate Breastplate",
+    "es_MX": "Diseño: Coraza de placas de Competidor algari",
+    "pt_BR": "Instruções: Peitoral de Placa do Competidor Algari",
+    "de_DE": "Pläne: Plattenbrustpanzer des Algariwettkämpfers",
+    "en_GB": "Plans: Algari Competitor's Plate Breastplate",
+    "es_ES": "Diseño: coraza de placas de competidor algariano",
+    "fr_FR": "Plans : cuirasse de compétition algarie en plaques",
+    "it_IT": "Progetto: Pettorale Corazzato a Piastre del Concorrente Algari",
+    "ru_RU": "Чертеж: латная кираса алгарийского бойца",
+    "ko_KR": "도면: 알가르 경쟁자의 판금 가슴보호갑",
+    "zh_TW": "設計圖：阿爾加競技者鎧甲胸甲",
+    "zh_CN": "设计图：阿加竞争者的板甲护胸"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/225459?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 225459
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Blacksmithing",
+      "es_MX": "Herrería",
+      "pt_BR": "Ferraria",
+      "de_DE": "Schmiedekunst",
+      "en_GB": "Blacksmithing",
+      "es_ES": "Herrería",
+      "fr_FR": "Forge",
+      "it_IT": "Forgiatura",
+      "ru_RU": "Кузнечное дело",
+      "ko_KR": "대장기술",
+      "zh_TW": "鍛造",
+      "zh_CN": "锻造"
+    },
+    "id": 4
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 250000,
+  "sell_price": 50000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Algari Competitor's Plate Breastplate.",
+    "es_MX": "Te enseña a fabricar una coraza de placas de Competidor algari.",
+    "pt_BR": "Ensina a fazer Peitoral de Placa do Competidor Algari.",
+    "de_DE": "Lehrt Euch, wie man einen Plattenbrustpanzer des Algariwettkämpfers herstellt.",
+    "en_GB": "Teaches you how to craft Algari Competitor's Plate Breastplate.",
+    "es_ES": "Te enseña a fabricar una coraza de placas de competidor algariano.",
+    "fr_FR": "Vous apprend à forger une cuirasse de compétition algarie en plaques.",
+    "it_IT": "Ti insegna a creare un Pettorale Corazzato a Piastre del Concorrente Algari.",
+    "ru_RU": "Обучает изготовлению латной кирасы алгарийского бойца.",
+    "ko_KR": "알가르 경쟁자의 판금 가슴보호갑 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作阿爾加競技者鎧甲胸甲。",
+    "zh_CN": "教你学会制作阿加竞争者的板甲护胸。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/225459?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 225459
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Plans: Algari Competitor's Plate Breastplate",
+      "es_MX": "Diseño: Coraza de placas de Competidor algari",
+      "pt_BR": "Instruções: Peitoral de Placa do Competidor Algari",
+      "de_DE": "Pläne: Plattenbrustpanzer des Algariwettkämpfers",
+      "en_GB": "Plans: Algari Competitor's Plate Breastplate",
+      "es_ES": "Diseño: coraza de placas de competidor algariano",
+      "fr_FR": "Plans : cuirasse de compétition algarie en plaques",
+      "it_IT": "Progetto: Pettorale Corazzato a Piastre del Concorrente Algari",
+      "ru_RU": "Чертеж: латная кираса алгарийского бойца",
+      "ko_KR": "도면: 알가르 경쟁자의 판금 가슴보호갑",
+      "zh_TW": "設計圖：阿爾加競技者鎧甲胸甲",
+      "zh_CN": "设计图：阿加竞争者的板甲护胸"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/225459?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 225459
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Blacksmithing",
+        "es_MX": "Herrería",
+        "pt_BR": "Ferraria",
+        "de_DE": "Schmiedekunst",
+        "en_GB": "Blacksmithing",
+        "es_ES": "Herrería",
+        "fr_FR": "Forge",
+        "it_IT": "Forgiatura",
+        "ru_RU": "Кузнечное дело",
+        "ko_KR": "대장기술",
+        "zh_TW": "鍛造",
+        "zh_CN": "锻造"
+      },
+      "id": 4
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 50000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "5",
+          "es_MX": "5",
+          "pt_BR": "5",
+          "de_DE": "5",
+          "en_GB": "5",
+          "es_ES": "5",
+          "fr_FR": "5",
+          "it_IT": "5",
+          "ru_RU": "5",
+          "ko_KR": "5",
+          "zh_TW": "5",
+          "zh_CN": "5"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2872?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Khaz Algar Blacksmithing",
+            "es_MX": "Herrería de Khaz Algar",
+            "pt_BR": "Ferraria de Khaz Algar",
+            "de_DE": "Schmiedekunst von Khaz Algar",
+            "en_GB": "Khaz Algar Blacksmithing",
+            "es_ES": "Herrería de Khaz Algar",
+            "fr_FR": "Forge de Khaz Algar",
+            "it_IT": "Forgiatura di Khaz Algar",
+            "ru_RU": "Кузнечное дело Каз Алгара",
+            "ko_KR": "카즈 알가르 대장기술",
+            "zh_TW": "卡茲阿爾加鍛造",
+            "zh_CN": "卡兹阿加锻造"
+          },
+          "id": 2872
+        },
+        "level": 50,
+        "display_string": {
+          "en_US": "Requires Khaz Algar Blacksmithing (50)",
+          "es_MX": "Requiere Herrería de Khaz Algar (50)",
+          "pt_BR": "Requer Ferraria de Khaz Algar (50)",
+          "de_DE": "Benötigt Schmiedekunst von Khaz Algar (50)",
+          "en_GB": "Requires Khaz Algar Blacksmithing (50)",
+          "es_ES": "Requiere Herrería de Khaz Algar (50)",
+          "fr_FR": "Forge de Khaz Algar (50) requis",
+          "it_IT": "Richiede: Forgiatura di Khaz Algar (50)",
+          "ru_RU": "Требуется: Кузнечное дело Каз Алгара (50)",
+          "ko_KR": "요구 사항: 카즈 알가르 대장기술 (50)",
+          "zh_TW": "需要卡茲阿爾加鍛造(50)",
+          "zh_CN": "需要卡兹阿加锻造（50）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft Algari Competitor's Plate Breastplate.",
+      "es_MX": "Te enseña a fabricar una coraza de placas de Competidor algari.",
+      "pt_BR": "Ensina a fazer Peitoral de Placa do Competidor Algari.",
+      "de_DE": "Lehrt Euch, wie man einen Plattenbrustpanzer des Algariwettkämpfers herstellt.",
+      "en_GB": "Teaches you how to craft Algari Competitor's Plate Breastplate.",
+      "es_ES": "Te enseña a fabricar una coraza de placas de competidor algariano.",
+      "fr_FR": "Vous apprend à forger une cuirasse de compétition algarie en plaques.",
+      "it_IT": "Ti insegna a creare un Pettorale Corazzato a Piastre del Concorrente Algari.",
+      "ru_RU": "Обучает изготовлению латной кирасы алгарийского бойца.",
+      "ko_KR": "알가르 경쟁자의 판금 가슴보호갑 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作阿爾加競技者鎧甲胸甲。",
+      "zh_CN": "教你学会制作阿加竞争者的板甲护胸。"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

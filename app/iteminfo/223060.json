@@ -1,0 +1,341 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/223060?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 223060,
+  "name": {
+    "en_US": "Technique: Patient Alchemist's Mixing Rod",
+    "es_MX": "Técnica: Vara mezcladora de alquimista paciente",
+    "pt_BR": "Técnica: Bastão de Mistura do Alquimista Paciente",
+    "de_DE": "Technik: Mischrute des geduldigen Alchemisten",
+    "en_GB": "Technique: Patient Alchemist's Mixing Rod",
+    "es_ES": "Técnica: Vara de mezclado de alquimista paciente",
+    "fr_FR": "Technique : spatule d’alchimiste patient",
+    "it_IT": "Tecnica: Verga da Mescolatura dell'Alchimista Paziente",
+    "ru_RU": "Техника: стержень терпеливого алхимика",
+    "ko_KR": "각인 기법: 차분한 연금술사의 혼합봉",
+    "zh_TW": "技藝：沉著鍊金師的混合節杖",
+    "zh_CN": "工艺图：耐心炼金师的混金棒"
+  },
+  "quality": {
+    "type": "COMMON",
+    "name": {
+      "en_US": "Common",
+      "es_MX": "Común",
+      "pt_BR": "Comum",
+      "de_DE": "Gewöhnlich",
+      "en_GB": "Common",
+      "es_ES": "Común",
+      "fr_FR": "Commun",
+      "it_IT": "Comune",
+      "ru_RU": "Обычное",
+      "ko_KR": "일반",
+      "zh_TW": "普通",
+      "zh_CN": "普通"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/223060?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 223060
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Inscription",
+      "es_MX": "Inscripción",
+      "pt_BR": "Escrivania",
+      "de_DE": "Inschriftenkunde",
+      "en_GB": "Inscription",
+      "es_ES": "Inscripción",
+      "fr_FR": "Calligraphie",
+      "it_IT": "Runografia",
+      "ru_RU": "Начертание",
+      "ko_KR": "주문각인",
+      "zh_TW": "銘文",
+      "zh_CN": "铭文"
+    },
+    "id": 11
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 250000,
+  "sell_price": 50000,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Patient Alchemist's Mixing Rod.",
+    "es_MX": "Te enseña a fabricar una vara mezcladora el alquimista paciente.",
+    "pt_BR": "Ensina a fazer Bastão de Mistura do Alquimista Paciente.",
+    "de_DE": "Lehrt Euch, wie man eine Mischrute des geduldigen Alchemisten herstellt.",
+    "en_GB": "Teaches you how to craft Patient Alchemist's Mixing Rod.",
+    "es_ES": "Te enseña a fabricar una vara de mezclado de alquimista paciente.",
+    "fr_FR": "Vous apprend à créer une spatule d’alchimiste patient.",
+    "it_IT": "Ti insegna a creare una Verga da Mescolatura dell'Alchimista Paziente.",
+    "ru_RU": "Обучает изготовлению стержня терпеливого алхимика.",
+    "ko_KR": "차분한 연금술사의 혼합봉 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作沉著鍊金師的混合節杖。",
+    "zh_CN": "教你学会制作耐心炼金师的混金棒。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/223060?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 223060
+    },
+    "quality": {
+      "type": "COMMON",
+      "name": {
+        "en_US": "Common",
+        "es_MX": "Común",
+        "pt_BR": "Comum",
+        "de_DE": "Gewöhnlich",
+        "en_GB": "Common",
+        "es_ES": "Común",
+        "fr_FR": "Commun",
+        "it_IT": "Comune",
+        "ru_RU": "Обычное",
+        "ko_KR": "일반",
+        "zh_TW": "普通",
+        "zh_CN": "普通"
+      }
+    },
+    "name": {
+      "en_US": "Technique: Patient Alchemist's Mixing Rod",
+      "es_MX": "Técnica: Vara mezcladora de alquimista paciente",
+      "pt_BR": "Técnica: Bastão de Mistura do Alquimista Paciente",
+      "de_DE": "Technik: Mischrute des geduldigen Alchemisten",
+      "en_GB": "Technique: Patient Alchemist's Mixing Rod",
+      "es_ES": "Técnica: Vara de mezclado de alquimista paciente",
+      "fr_FR": "Technique : spatule d’alchimiste patient",
+      "it_IT": "Tecnica: Verga da Mescolatura dell'Alchimista Paziente",
+      "ru_RU": "Техника: стержень терпеливого алхимика",
+      "ko_KR": "각인 기법: 차분한 연금술사의 혼합봉",
+      "zh_TW": "技藝：沉著鍊金師的混合節杖",
+      "zh_CN": "工艺图：耐心炼金师的混金棒"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/223060?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 223060
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/11?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Inscription",
+        "es_MX": "Inscripción",
+        "pt_BR": "Escrivania",
+        "de_DE": "Inschriftenkunde",
+        "en_GB": "Inscription",
+        "es_ES": "Inscripción",
+        "fr_FR": "Calligraphie",
+        "it_IT": "Runografia",
+        "ru_RU": "Начертание",
+        "ko_KR": "주문각인",
+        "zh_TW": "銘文",
+        "zh_CN": "铭文"
+      },
+      "id": 11
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 50000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "5",
+          "es_MX": "5",
+          "pt_BR": "5",
+          "de_DE": "5",
+          "en_GB": "5",
+          "es_ES": "5",
+          "fr_FR": "5",
+          "it_IT": "5",
+          "ru_RU": "5",
+          "ko_KR": "5",
+          "zh_TW": "5",
+          "zh_CN": "5"
+        },
+        "silver": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2878?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Khaz Algar Inscription",
+            "es_MX": "Inscripción de Khaz Algar",
+            "pt_BR": "Escrivania de Khaz Algar",
+            "de_DE": "Inschriftenkunde von Khaz Algar",
+            "en_GB": "Khaz Algar Inscription",
+            "es_ES": "Inscripción de Khaz Algar",
+            "fr_FR": "Calligraphie de Khaz Algar",
+            "it_IT": "Runografia di Khaz Algar",
+            "ru_RU": "Начертание Каз Алгара",
+            "ko_KR": "카즈 알가르 주문각인",
+            "zh_TW": "卡茲阿爾加銘文學",
+            "zh_CN": "卡兹阿加铭文"
+          },
+          "id": 2878
+        },
+        "level": 35,
+        "display_string": {
+          "en_US": "Requires Khaz Algar Inscription (35)",
+          "es_MX": "Requiere Inscripción de Khaz Algar (35)",
+          "pt_BR": "Requer Escrivania de Khaz Algar (35)",
+          "de_DE": "Benötigt Inschriftenkunde von Khaz Algar (35)",
+          "en_GB": "Requires Khaz Algar Inscription (35)",
+          "es_ES": "Requiere Inscripción de Khaz Algar (35)",
+          "fr_FR": "Calligraphie de Khaz Algar (35) requis",
+          "it_IT": "Richiede: Runografia di Khaz Algar (35)",
+          "ru_RU": "Требуется: Начертание Каз Алгара (35)",
+          "ko_KR": "요구 사항: 카즈 알가르 주문각인 (35)",
+          "zh_TW": "需要卡茲阿爾加銘文學(35)",
+          "zh_CN": "需要卡兹阿加铭文（35）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft Patient Alchemist's Mixing Rod.",
+      "es_MX": "Te enseña a fabricar una vara mezcladora el alquimista paciente.",
+      "pt_BR": "Ensina a fazer Bastão de Mistura do Alquimista Paciente.",
+      "de_DE": "Lehrt Euch, wie man eine Mischrute des geduldigen Alchemisten herstellt.",
+      "en_GB": "Teaches you how to craft Patient Alchemist's Mixing Rod.",
+      "es_ES": "Te enseña a fabricar una vara de mezclado de alquimista paciente.",
+      "fr_FR": "Vous apprend à créer une spatule d’alchimiste patient.",
+      "it_IT": "Ti insegna a creare una Verga da Mescolatura dell'Alchimista Paziente.",
+      "ru_RU": "Обучает изготовлению стержня терпеливого алхимика.",
+      "ko_KR": "차분한 연금술사의 혼합봉 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作沉著鍊金師的混合節杖。",
+      "zh_CN": "教你学会制作耐心炼金师的混金棒。"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,277 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/71716?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 71716,
+  "name": {
+    "en_US": "Soothsayer's Runes",
+    "es_MX": "Runas de veritas",
+    "pt_BR": "Runas do Adivinho",
+    "de_DE": "Wahrsagerrunen",
+    "en_GB": "Soothsayer's Runes",
+    "es_ES": "Runas de veritas",
+    "fr_FR": "Runes de devin",
+    "it_IT": "Rune dell'Indovino",
+    "ru_RU": "Руны ворожея",
+    "ko_KR": "예언자의 룬",
+    "zh_TW": "預卜者的符文",
+    "zh_CN": "占卜者符文"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 25,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/71716?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 71716
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Quest",
+      "es_MX": "Misión",
+      "pt_BR": "Missão",
+      "de_DE": "Quest",
+      "en_GB": "Quest",
+      "es_ES": "Misión",
+      "fr_FR": "Quête",
+      "it_IT": "Oggetti di missione",
+      "ru_RU": "Задание",
+      "ko_KR": "퀘스트",
+      "zh_TW": "任務",
+      "zh_CN": "任务"
+    },
+    "id": 12
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Quest",
+      "es_MX": "Misión",
+      "pt_BR": "Missão",
+      "de_DE": "Quest",
+      "en_GB": "Quest",
+      "es_ES": "Misión",
+      "fr_FR": "Quête",
+      "it_IT": "Missione",
+      "ru_RU": "Задания",
+      "ko_KR": "퀘스트",
+      "zh_TW": "任務",
+      "zh_CN": "任务"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "An old set of carved fortune-telling runes. Professor Thaddeus Paleo, of the Darkmoon Faire, would be most interested in these.",
+    "es_MX": "Un antiguo juego de runas de la fortuna grabadas. El profesor Thaddeus Paleo, de la Feria de la Luna Negra, sería el más interesado en este objeto.",
+    "pt_BR": "Conjunto antigo de runas divinatórias. O Professor Tadeu Jones, da Feira de Negraluna, deve se interessar por isto.",
+    "de_DE": "Ein altes Sortiment geschnitzter Wahrsagerrunen. Professor Thaddeus Paleo vom Dunkelmond-Jahrmarkt wäre bestimmt daran interessiert.",
+    "en_GB": "An old set of carved fortune-telling runes. Professor Thaddeus Paleo, of the Darkmoon Faire, would be most interested in these.",
+    "es_ES": "Un antiguo juego de runas de la fortuna grabadas. El profesor Thaddeus Paleo, de la Feria de la Luna Negra, sería el más interesado en este objeto.",
+    "fr_FR": "Un ancien jeu de runes de bonne aventure gravées. Il pourrait intéresser le professeur Thaddeus Paleo de la foire de Sombrelune.",
+    "it_IT": "Un vecchio set di rune da indovino. Potrebbero interessare molto al Professor Thaddeus Paleo della Fiera di Lunacupa.",
+    "ru_RU": "Видавший виды набор резных рун для предсказаний. Профессор Таддеус Палео с ярмарки Новолуния с интересом бы на них взглянул.",
+    "ko_KR": "운명을 보여주는 오래된 룬들입니다. 다크문 유랑단의 학자 타데우스 팔레오가 관심을 보일지도 모릅니다.",
+    "zh_TW": "一套古老的雕刻算命符文。暗月馬戲團裡的薩杜斯‧帕里歐教授最可能想要擁有它。",
+    "zh_CN": "一套古旧的石刻算命符文。暗月马戏团的萨杜斯·帕雷教授对这种东西最感兴趣了。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/71716?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 71716
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Soothsayer's Runes",
+      "es_MX": "Runas de veritas",
+      "pt_BR": "Runas do Adivinho",
+      "de_DE": "Wahrsagerrunen",
+      "en_GB": "Soothsayer's Runes",
+      "es_ES": "Runas de veritas",
+      "fr_FR": "Runes de devin",
+      "it_IT": "Rune dell'Indovino",
+      "ru_RU": "Руны ворожея",
+      "ko_KR": "예언자의 룬",
+      "zh_TW": "預卜者的符文",
+      "zh_CN": "占卜者符文"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/71716?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 71716
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Quest",
+        "es_MX": "Misión",
+        "pt_BR": "Missão",
+        "de_DE": "Quest",
+        "en_GB": "Quest",
+        "es_ES": "Misión",
+        "fr_FR": "Quête",
+        "it_IT": "Oggetti di missione",
+        "ru_RU": "Задание",
+        "ko_KR": "퀘스트",
+        "zh_TW": "任務",
+        "zh_CN": "任务"
+      },
+      "id": 12
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Quest",
+        "es_MX": "Misión",
+        "pt_BR": "Missão",
+        "de_DE": "Quest",
+        "en_GB": "Quest",
+        "es_ES": "Misión",
+        "fr_FR": "Quête",
+        "it_IT": "Missione",
+        "ru_RU": "Задания",
+        "ko_KR": "퀘스트",
+        "zh_TW": "任務",
+        "zh_CN": "任务"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "description": {
+      "en_US": "An old set of carved fortune-telling runes. Professor Thaddeus Paleo, of the Darkmoon Faire, would be most interested in these.",
+      "es_MX": "Un antiguo juego de runas de la fortuna grabadas. El profesor Thaddeus Paleo, de la Feria de la Luna Negra, sería el más interesado en este objeto.",
+      "pt_BR": "Conjunto antigo de runas divinatórias. O Professor Tadeu Jones, da Feira de Negraluna, deve se interessar por isto.",
+      "de_DE": "Ein altes Sortiment geschnitzter Wahrsagerrunen. Professor Thaddeus Paleo vom Dunkelmond-Jahrmarkt wäre bestimmt daran interessiert.",
+      "en_GB": "An old set of carved fortune-telling runes. Professor Thaddeus Paleo, of the Darkmoon Faire, would be most interested in these.",
+      "es_ES": "Un antiguo juego de runas de la fortuna grabadas. El profesor Thaddeus Paleo, de la Feria de la Luna Negra, sería el más interesado en este objeto.",
+      "fr_FR": "Un ancien jeu de runes de bonne aventure gravées. Il pourrait intéresser le professeur Thaddeus Paleo de la foire de Sombrelune.",
+      "it_IT": "Un vecchio set di rune da indovino. Potrebbero interessare molto al Professor Thaddeus Paleo della Fiera di Lunacupa.",
+      "ru_RU": "Видавший виды набор резных рун для предсказаний. Профессор Таддеус Палео с ярмарки Новолуния с интересом бы на них взглянул.",
+      "ko_KR": "운명을 보여주는 오래된 룬들입니다. 다크문 유랑단의 학자 타데우스 팔레오가 관심을 보일지도 모릅니다.",
+      "zh_TW": "一套古老的雕刻算命符文。暗月馬戲團裡的薩杜斯‧帕里歐教授最可能想要擁有它。",
+      "zh_CN": "一套古旧的石刻算命符文。暗月马戏团的萨杜斯·帕雷教授对这种东西最感兴趣了。"
+    },
+    "item_starts_quest": {
+      "quest": {
+        "key": {
+          "href": "https://kr.api.blizzard.com/data/wow/quest/29464?namespace=static-11.1.5_60179-kr"
+        },
+        "name": {
+          "en_US": "Tools of Divination",
+          "es_MX": "Herramientas de adivinación",
+          "pt_BR": "Instrumentos de adivinhação",
+          "de_DE": "Werkzeuge der Weissagung",
+          "en_GB": "Tools of Divination",
+          "es_ES": "Herramientas de adivinación",
+          "fr_FR": "Outils de divination",
+          "it_IT": "Strumenti di divinazione",
+          "ru_RU": "Инструменты ворожбы",
+          "ko_KR": "점술 도구",
+          "zh_TW": "預言用的工具",
+          "zh_CN": "占卜道具"
+        },
+        "id": 29464
+      },
+      "display_string": {
+        "en_US": "This Item Begins a Quest",
+        "es_MX": "Este objeto inicia una misión",
+        "pt_BR": "Este item inicia uma missão",
+        "de_DE": "Dieser Gegenstand startet eine Quest.",
+        "en_GB": "This Item Begins a Quest",
+        "es_ES": "Este objeto inicia una misión",
+        "fr_FR": "Cet objet permet de lancer une quête",
+        "it_IT": "Questo oggetto avvia una missione",
+        "ru_RU": "Этот предмет позволяет получить задание.",
+        "ko_KR": "퀘스트 시작 아이템",
+        "zh_TW": "該物品將觸發一個任務",
+        "zh_CN": "该物品将触发一个任务"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

@@ -1,0 +1,444 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/222844?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 222844,
+  "name": {
+    "en_US": "Weavercloth Tailor's Coat",
+    "es_MX": "Abrigo de sastre de urditela",
+    "pt_BR": "Casaca de Alfaiate de Trama da Tecelã",
+    "de_DE": "Weberstoffschneiderumhang",
+    "en_GB": "Weavercloth Tailor's Coat",
+    "es_ES": "Abrigo de sastre de tejetela",
+    "fr_FR": "Blouse de couture en tissétoffe",
+    "it_IT": "Camice da Sarto di Tessistoffa",
+    "ru_RU": "Куртка портного из паутинной ткани",
+    "ko_KR": "방직천 재봉사의 외투",
+    "zh_TW": "織者布裁縫師外套",
+    "zh_CN": "梭绸布裁缝大衣"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 486,
+  "required_level": 68,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/222844?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 222844
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Profession",
+      "es_MX": "Profesión",
+      "pt_BR": "Profissão",
+      "de_DE": "Beruf",
+      "en_GB": "Profession",
+      "es_ES": "Profesión",
+      "fr_FR": "Métier",
+      "it_IT": "Professione",
+      "ru_RU": "Профессия",
+      "ko_KR": "전문 기술",
+      "zh_TW": "專業技能",
+      "zh_CN": "专业技能"
+    },
+    "id": 19
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/6?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Tailoring",
+      "es_MX": "Sastrería",
+      "pt_BR": "Alfaiataria",
+      "de_DE": "Schneiderei",
+      "en_GB": "Tailoring",
+      "es_ES": "Sastrería",
+      "fr_FR": "Couture",
+      "it_IT": "Sartoria",
+      "ru_RU": "Портняжное дело",
+      "ko_KR": "재봉술",
+      "zh_TW": "裁縫",
+      "zh_CN": "裁缝"
+    },
+    "id": 6
+  },
+  "inventory_type": {
+    "type": "PROFESSION_GEAR",
+    "name": {
+      "en_US": "Profession Equipment",
+      "es_MX": "Equipamiento de profesión",
+      "pt_BR": "Equipamento de Profissão",
+      "de_DE": "Berufsausrüstung",
+      "en_GB": "Profession Equipment",
+      "es_ES": "Equipamiento de profesión",
+      "fr_FR": "Équipements de métier",
+      "it_IT": "Equipaggiamento delle Professioni",
+      "ru_RU": "Экипировка профессии",
+      "ko_KR": "전문 기술 장비",
+      "zh_TW": "專業技能裝備",
+      "zh_CN": "专业装备"
+    }
+  },
+  "purchase_price": 195000,
+  "sell_price": 39000,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/222844?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 222844
+    },
+    "context": 0,
+    "bonus_list": [
+      10827,
+      10830
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Weavercloth Tailor's Coat",
+      "es_MX": "Abrigo de sastre de urditela",
+      "pt_BR": "Casaca de Alfaiate de Trama da Tecelã",
+      "de_DE": "Weberstoffschneiderumhang",
+      "en_GB": "Weavercloth Tailor's Coat",
+      "es_ES": "Abrigo de sastre de tejetela",
+      "fr_FR": "Blouse de couture en tissétoffe",
+      "it_IT": "Camice da Sarto di Tessistoffa",
+      "ru_RU": "Куртка портного из паутинной ткани",
+      "ko_KR": "방직천 재봉사의 외투",
+      "zh_TW": "織者布裁縫師外套",
+      "zh_CN": "梭绸布裁缝大衣"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/222844?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 222844
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Profession",
+        "es_MX": "Profesión",
+        "pt_BR": "Profissão",
+        "de_DE": "Beruf",
+        "en_GB": "Profession",
+        "es_ES": "Profesión",
+        "fr_FR": "Métier",
+        "it_IT": "Professione",
+        "ru_RU": "Профессия",
+        "ko_KR": "전문 기술",
+        "zh_TW": "專業技能",
+        "zh_CN": "专业技能"
+      },
+      "id": 19
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/19/item-subclass/6?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Tailoring",
+        "es_MX": "Sastrería",
+        "pt_BR": "Alfaiataria",
+        "de_DE": "Schneiderei",
+        "en_GB": "Tailoring",
+        "es_ES": "Sastrería",
+        "fr_FR": "Couture",
+        "it_IT": "Sartoria",
+        "ru_RU": "Портняжное дело",
+        "ko_KR": "재봉술",
+        "zh_TW": "裁縫",
+        "zh_CN": "裁缝"
+      },
+      "id": 6
+    },
+    "inventory_type": {
+      "type": "PROFESSION_GEAR",
+      "name": {
+        "en_US": "Profession Equipment",
+        "es_MX": "Equipamiento de profesión",
+        "pt_BR": "Equipamento de Profissão",
+        "de_DE": "Berufsausrüstung",
+        "en_GB": "Profession Equipment",
+        "es_ES": "Equipamiento de profesión",
+        "fr_FR": "Équipements de métier",
+        "it_IT": "Equipaggiamento delle Professioni",
+        "ru_RU": "Экипировка профессии",
+        "ko_KR": "전문 기술 장비",
+        "zh_TW": "專業技能裝備",
+        "zh_CN": "专业装备"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "limit_category": {
+      "en_US": "Unique-Equipped: Chest (1)",
+      "es_MX": "Único-Equipado: Pecho (1)",
+      "pt_BR": "Máximo equipado: Torso (1)",
+      "de_DE": "Einzigartig angelegt: Brust (1)",
+      "en_GB": "Unique-Equipped: Chest (1)",
+      "es_ES": "Único-Equipado: Torso (1)",
+      "fr_FR": "Unique - Équipé : Torse (1)",
+      "it_IT": "Unico equipaggiabile: Torso (1)",
+      "ru_RU": "Уникальный использующийся предмет: Грудь (1)",
+      "ko_KR": "고유 장착 아이템: 몸통 (1)",
+      "zh_TW": "僅可裝備一件：胸部(1)",
+      "zh_CN": "装备唯一：胸部 （1）"
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "BONUS_STAT_PROFESSION_MULTICRAFT",
+          "name": {
+            "en_US": "Multicraft",
+            "es_MX": "Fabricación múltiple",
+            "pt_BR": "Multicriação",
+            "de_DE": "Mehrfachherstellung",
+            "en_GB": "Multicraft",
+            "es_ES": "Multifabricación",
+            "fr_FR": "Fabrication multiple",
+            "it_IT": "Creazione multipla",
+            "ru_RU": "Перепроизводство",
+            "ko_KR": "복수 제작",
+            "zh_TW": "複數製造",
+            "zh_CN": "产能"
+          }
+        },
+        "value": 55,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+55 Multicraft",
+            "es_MX": "+55 Fabricación múltiple",
+            "pt_BR": "+55 Multicriação",
+            "de_DE": "+55 Mehrfachherstellung",
+            "en_GB": "+55 Multicraft",
+            "es_ES": "+55 Multifabricación",
+            "fr_FR": "+55 Fabrication multiple",
+            "it_IT": "+55 Creazione multipla",
+            "ru_RU": "+55 Перепроизводство",
+            "ko_KR": "복수 제작 +55",
+            "zh_TW": "+55複數製造",
+            "zh_CN": "+55 产能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "BONUS_STAT_PROFESSION_INGENUITY",
+          "name": {
+            "en_US": "Ingenuity",
+            "es_MX": "Ingenio",
+            "pt_BR": "Engenhosidade",
+            "de_DE": "Genialität",
+            "en_GB": "Ingenuity",
+            "es_ES": "Inventiva",
+            "fr_FR": "Inventivité",
+            "it_IT": "Ingegno",
+            "ru_RU": "Изобретательность",
+            "ko_KR": "독창성",
+            "zh_TW": "精妙",
+            "zh_CN": "奇思"
+          }
+        },
+        "value": 83,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+83 Ingenuity",
+            "es_MX": "+83 Ingenio",
+            "pt_BR": "+83 Engenhosidade",
+            "de_DE": "+83 Genialität",
+            "en_GB": "+83 Ingenuity",
+            "es_ES": "+83 Inventiva",
+            "fr_FR": "+83 Inventivité",
+            "it_IT": "+83 Ingegno",
+            "ru_RU": "+83 Изобретательность",
+            "ko_KR": "독창성 +83",
+            "zh_TW": "+83精妙",
+            "zh_CN": "+83 奇思"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/455720?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Prof Gear Skill Bonus (DNT)",
+            "en_GB": "Prof Gear Skill Bonus (DNT)"
+          },
+          "id": 455720
+        },
+        "description": {
+          "en_US": "Equip: +5 Khaz Algar Tailoring Skill",
+          "es_MX": "Equipar: +5 p. de habilidad en sastrería de Khaz Algar",
+          "pt_BR": "Equipado: +5 de Perícia em Alfaiataria de Khaz Algar",
+          "de_DE": "Anlegen: +5 Fertigkeit in Schneiderei von Khaz Algar",
+          "en_GB": "Equip: +5 Khaz Algar Tailoring Skill",
+          "es_ES": "Equipar: +5 p. de habilidad en sastrería de Khaz Algar.",
+          "fr_FR": "Équipé : +5 à la compétence en couture de Khaz Algar",
+          "it_IT": "Equipaggia: Aumenta la Competenza in Sartoria di Khaz Algar di 5.",
+          "ru_RU": "Если на персонаже: +5 к навыку портняжного дела Каз Алгара",
+          "ko_KR": "착용 효과: 카즈 알가르 재봉술 숙련도가 5만큼 증가합니다.",
+          "zh_TW": "裝備： +5點卡茲阿爾加裁縫技能",
+          "zh_CN": "装备： +5卡兹阿加裁缝技能"
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 39000,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "3",
+          "es_MX": "3",
+          "pt_BR": "3",
+          "de_DE": "3",
+          "en_GB": "3",
+          "es_ES": "3",
+          "fr_FR": "3",
+          "it_IT": "3",
+          "ru_RU": "3",
+          "ko_KR": "3",
+          "zh_TW": "3",
+          "zh_CN": "3"
+        },
+        "silver": {
+          "en_US": "90",
+          "es_MX": "90",
+          "pt_BR": "90",
+          "de_DE": "90",
+          "en_GB": "90",
+          "es_ES": "90",
+          "fr_FR": "90",
+          "it_IT": "90",
+          "ru_RU": "90",
+          "ko_KR": "90",
+          "zh_TW": "90",
+          "zh_CN": "90"
+        },
+        "copper": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 68,
+        "display_string": {
+          "en_US": "Requires Level 68",
+          "es_MX": "Necesitas ser de nivel 68",
+          "pt_BR": "Requer o Nível 68",
+          "de_DE": "Benötigt Stufe 68",
+          "en_GB": "Requires Level 68",
+          "es_ES": "Necesitas ser de nivel 68",
+          "fr_FR": "Niveau 68 requis",
+          "it_IT": "Richiede il livello 68",
+          "ru_RU": "Требуется 68-й уровень",
+          "ko_KR": "최소 요구 레벨: 68",
+          "zh_TW": "需要等級68",
+          "zh_CN": "需要等级 68"
+        }
+      }
+    }
+  },
+  "purchase_quantity": 1
+}

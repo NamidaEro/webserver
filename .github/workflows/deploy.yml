@@ -32,14 +32,24 @@ jobs:
         docker push rkseksgksl/nodeweb:latest
 
     # 5. Azure VM에 SSH로 접속하여 컨테이너 업데이트
+    - name: Copy .env to Azure VM
+      uses: appleboy/scp-action@v0.1.0
+      with:
+        host: "20.168.3.131"
+        username: "azureuser"
+        key: ${{ secrets.AZURE_VM_SSH_KEY }}
+        source: .env
+        target: /home/azureuser/webserver/.env
+
+    # 6. Update Docker run command to use the correct .env path
     - name: Deploy to Azure VM
       uses: appleboy/ssh-action@v0.1.6
       with:
-        host: ${{ secrets.AZURE_VM_IP }}
-        username: ${{ secrets.AZURE_VM_USERNAME }}
+        host: "20.168.3.131"
+        username: "azureuser"
         key: ${{ secrets.AZURE_VM_SSH_KEY }}
         script: |
           sudo docker pull rkseksgksl/nodeweb:latest
           sudo docker stop nodeweb || true
           sudo docker rm nodeweb || true
-          sudo docker run -d -p 80:3000 --name nodeweb --env-file /path/to/.env rkseksgksl/nodeweb:latest
+          sudo docker run -d -p 80:3000 --name nodeweb --env-file /home/azureuser/webserver/.env rkseksgksl/nodeweb:latest

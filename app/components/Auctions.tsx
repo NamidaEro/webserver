@@ -20,24 +20,10 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemClasses, setItemClasses] = useState<any[]>([]);
   const [selectedItemClasses, setSelectedItemClasses] = useState<number[]>([]);
+  const [filteredAuctions, setFilteredAuctions] = useState<Auction[]>([]);
   const itemsPerPage = 10;
 
   const itemDetailsCache = useMemo(() => new Map<number, { itemClassId: number | null; itemName: string }>(), []);
-
-  const filteredAuctions = useMemo(() => {
-    if (auctions.length === 0) {
-      console.log('Auctions data is empty, skipping filtering.');
-      return [];
-    }
-    // console.log('Auctions state:', auctions);
-    return auctions.filter((auction) => {
-      const itemClassId = auction.itemClassId;
-      return (
-        selectedItemClasses.length === 0 ||
-        (itemClassId != null && selectedItemClasses.includes(itemClassId))
-      );
-    });
-  }, [auctions, selectedItemClasses]);
 
   const paginatedAuctions = filteredAuctions.slice(
     (currentPage - 1) * itemsPerPage,
@@ -58,12 +44,66 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
     }
   };
 
-  const handleItemClassSelection = (id: number) => {
-    setSelectedItemClasses((prevSelected) =>
-      prevSelected.includes(id)
+  const handleItemClassSelection = async (id: number) => {
+    setSelectedItemClasses((prevSelected) => {
+      const updatedSelection = prevSelected.includes(id)
         ? prevSelected.filter((classId) => classId !== id)
-        : [...prevSelected, id]
-    );
+        : [...prevSelected, id];
+
+      // Update filtered auctions based on the new selection
+      const updatedFilteredAuctions = auctions.filter((auction) => {
+        const itemClassId = auction.itemClassId;
+        return (
+          updatedSelection.length === 0 ||
+          (itemClassId != null && updatedSelection.includes(itemClassId))
+        );
+      });
+
+      setFilteredAuctions(updatedFilteredAuctions);
+      return updatedSelection;
+    });
+
+    // Fetch item names for filtered auctions
+    const filteredAuctionIds = auctions
+      .filter((auction) => selectedItemClasses.includes(auction.itemClassId || -1))
+      .map((auction) => auction.item.id);
+
+    const uncachedIds = filteredAuctionIds.filter((id) => !itemDetailsCache.has(id));
+
+    if (uncachedIds.length > 0) {
+      try {
+        const itemResponse = await fetch('/api/items', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ auctions: uncachedIds.map((id) => ({ item: { id } })) }),
+        });
+
+        if (!itemResponse.ok) {
+          console.error('Failed to fetch item details for filtered auctions');
+          return;
+        }
+
+        const itemsData = await itemResponse.json();
+        itemsData.forEach((item: { id: number; name: string; classid: number | null }) => {
+          itemDetailsCache.set(item.id, {
+            itemClassId: item.classid || null,
+            itemName: item.name,
+          });
+        });
+
+        setFilteredAuctions((prevFiltered) =>
+          prevFiltered.map((auction) => {
+            const itemDetails = itemDetailsCache.get(auction.item.id);
+            return {
+              ...auction,
+              itemName: itemDetails?.itemName || auction.itemName || 'Unknown',
+            };
+          })
+        );
+      } catch (err) {
+        console.error('Error fetching item details for filtered auctions:', err);
+      }
+    }
   };
 
   useEffect(() => {
@@ -81,6 +121,7 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
         const data = await response.json();
         console.log('Fetched auctions data:', data);
         setAuctions(data.auctions || []);
+        setFilteredAuctions(data.auctions || []);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An unknown error occurred');
       } finally {
@@ -93,9 +134,6 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
 
   useEffect(() => {
     const fetchItemDetailsForPage = async () => {
-    //   console.log('Filtered auctions:', filteredAuctions);
-    //   console.log('Selected item classes:', selectedItemClasses);
-    //   console.log('Fetching item details for page:', currentPage);
       const startIndex = (currentPage - 1) * itemsPerPage;
       const endIndex = currentPage * itemsPerPage;
       const currentPageAuctions: Auction[] = filteredAuctions.slice(startIndex, endIndex);
@@ -172,6 +210,17 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
     fetchItemClasses();
   }, []);
 
+  useEffect(() => {
+    const updatedFilteredAuctions = auctions.filter((auction) => {
+      const itemClassId = auction.itemClassId;
+      return (
+        selectedItemClasses.length === 0 ||
+        (itemClassId != null && selectedItemClasses.includes(itemClassId))
+      );
+    });
+    setFilteredAuctions(updatedFilteredAuctions);
+  }, [auctions, selectedItemClasses]);
+
   return (
     <div style={{ display: 'flex' }}>
       <div style={{ width: '30%', marginRight: '20px' }}>
@@ -220,7 +269,9 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
                 <td>{auction.id}</td>
                 <td>{auction.item?.id}</td>
                 <td>{auction.itemName || 'Unknown'}</td>
-                <td>{auction.buyout || 'N/A'}</td>
+                <td>
+                  <CurrencyConverter copper={auction.buyout} />
+                </td>
               </tr>
             ))}
           </tbody>

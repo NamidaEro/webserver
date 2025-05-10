@@ -17,7 +17,7 @@ jobs:
     # 2. Docker 이미지 빌드
     - name: Build Docker image
       run: |
-        docker build -t horonomail/nodeweb:latest .
+        docker build -t rkseksgksl/nodeweb:latest .
 
     # 3. Docker Hub 로그인
     - name: Log in to Docker Hub
@@ -29,7 +29,7 @@ jobs:
     # 4. Docker 이미지 푸시
     - name: Push Docker image to Docker Hub
       run: |
-        docker push horonomail/nodeweb:latest
+        docker push rkseksgksl/nodeweb:latest
 
     # 5. Azure VM에 SSH로 접속하여 컨테이너 업데이트
     - name: Deploy to Azure VM
@@ -39,7 +39,7 @@ jobs:
         username: ${{ secrets.AZURE_VM_USERNAME }}
         key: ${{ secrets.AZURE_VM_SSH_KEY }}
         script: |
-          docker pull horonomail/nodeweb:latest
+          docker pull rkseksgksl/nodeweb:latest
           docker stop nodeweb || true
           docker rm nodeweb || true
-          docker run -d -p 80:3000 --name nodeweb horonomail/nodeweb:latest
+          docker run -d -p 80:3000 --name nodeweb rkseksgksl/nodeweb:latest

@@ -237,7 +237,7 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
             {itemClasses.map((itemClass) => (
               <tr key={itemClass.id}>
                 <td style={{ border: '1px solid black', padding: '8px' }}>{itemClass.id}</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>{itemClass.name?.ko_KR || 'Unknown'}</td>
+                <td style={{ border: '1px solid black', padding: '8px' }}>{itemClass.name || 'Unknown'}</td>
                 <td style={{ border: '1px solid black', padding: '8px' }}>
                   <input
                     type="checkbox"

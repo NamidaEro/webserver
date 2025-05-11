@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import OAuthClient from '../../oauth/client';
 
 const REGION = process.env.REGION || 'kr';
-const LOCALE = process.env.LOCALE?.replace('-', '_') || 'ko_KR';
+const LOCALE = 'ko_KR';
 const API_BASE_URL = `https://${REGION}.api.blizzard.com/data/wow`;
 
 const oauthClient = new OAuthClient({
@@ -44,10 +44,23 @@ export async function GET() {
       const errorDetails = await response.text();
       console.error('API error response body:', errorDetails);
       throw new Error(`Failed to fetch item classes: ${response.statusText}, Details: ${errorDetails}`);
-    }
-
-    const data = await response.json();
+    }    const data = await response.json();
     console.log('API response data received successfully');
+    
+    // Process item class names for Korean locale
+    if (data && data.item_classes && Array.isArray(data.item_classes)) {
+      data.item_classes = data.item_classes.map((itemClass: any) => {
+        if (itemClass.name && typeof itemClass.name === 'object' && itemClass.name.ko_KR) {
+          // Convert the name object to just use the Korean string value directly
+          return {
+            ...itemClass,
+            name: itemClass.name.ko_KR
+          };
+        }
+        return itemClass;
+      });
+    }
+    
     return NextResponse.json(data);
   } catch (error) {
     const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred';

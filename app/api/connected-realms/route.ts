@@ -1,9 +1,9 @@
 import { NextResponse } from 'next/server';
 import OAuthClient from '../../oauth/client';
 
-const REGION = process.env.REGION || '';
+const REGION = process.env.REGION || 'kr';
 const API_BASE_URL = `https://${REGION}.api.blizzard.com/data/wow`;
-const LOCALE = process.env.LOCALE || 'ko_KR';
+const LOCALE = process.env.LOCALE?.replace('-', '_') || 'ko_KR';
 
 const oauthClient = new OAuthClient({
   client: {

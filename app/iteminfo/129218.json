@@ -1,0 +1,241 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/129218?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 129218,
+  "name": {
+    "en_US": "Glittering Arcane Crystal",
+    "es_MX": "Cristal Arcano brillante",
+    "pt_BR": "Cristal Arcano Lampejante",
+    "de_DE": "Glitzernder arkaner Kristall",
+    "en_GB": "Glittering Arcane Crystal",
+    "es_ES": "Cristal Arcano relumbrante",
+    "fr_FR": "Cristal arcanique lumineux",
+    "it_IT": "Cristallo Arcano Splendente",
+    "ru_RU": "Мерцающий магический кристалл",
+    "ko_KR": "빛나는 신비한 수정",
+    "zh_TW": "閃耀的秘法水晶",
+    "zh_CN": "发光的魔力水晶"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/129218?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 129218
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Miscellaneous",
+      "es_MX": "Miscelánea",
+      "pt_BR": "Diversos",
+      "de_DE": "Verschiedenes",
+      "en_GB": "Miscellaneous",
+      "es_ES": "Miscelánea",
+      "fr_FR": "Divers",
+      "it_IT": "Varie",
+      "ru_RU": "Разное",
+      "ko_KR": "기타",
+      "zh_TW": "雜項",
+      "zh_CN": "杂项"
+    },
+    "id": 15
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Companion Pets",
+      "es_MX": "Mascotas de compañía",
+      "pt_BR": "Mascotes",
+      "de_DE": "Haustier",
+      "en_GB": "Companion Pets",
+      "es_ES": "Mascotas de compañía",
+      "fr_FR": "Mascottes",
+      "it_IT": "Mascotte",
+      "ru_RU": "Питомцы",
+      "ko_KR": "애완동물 친구",
+      "zh_TW": "寵物夥伴",
+      "zh_CN": "宠物小伙伴"
+    },
+    "id": 2
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to summon an Empyreal Manafiend.",
+    "es_MX": "Te enseña a invocar a un maligno de maná empíreo.",
+    "pt_BR": "Ensina a evocar um Manamaníaco Empíreo.",
+    "de_DE": "Lehrt Euch, wie man einen saphirblauen Manafresser beschwört.",
+    "en_GB": "Teaches you how to summon an Empyreal Manafiend.",
+    "es_ES": "Te enseña a invocar a un maligno de maná empíreo.",
+    "fr_FR": "Vous apprend à invoquer un manafiel empyréen.",
+    "it_IT": "Ti insegna a evocare un Demone del Mana Empireo.",
+    "ru_RU": "Учит призывать неземного манадемона.",
+    "ko_KR": "하늘빛 마나마귀 소환하는 법을 배웁니다.",
+    "zh_TW": "教你學會如何召喚高能法力惡魔。",
+    "zh_CN": "教你学会召唤以太嗜魔者。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/129218?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 129218
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Glittering Arcane Crystal",
+      "es_MX": "Cristal Arcano brillante",
+      "pt_BR": "Cristal Arcano Lampejante",
+      "de_DE": "Glitzernder arkaner Kristall",
+      "en_GB": "Glittering Arcane Crystal",
+      "es_ES": "Cristal Arcano relumbrante",
+      "fr_FR": "Cristal arcanique lumineux",
+      "it_IT": "Cristallo Arcano Splendente",
+      "ru_RU": "Мерцающий магический кристалл",
+      "ko_KR": "빛나는 신비한 수정",
+      "zh_TW": "閃耀的秘法水晶",
+      "zh_CN": "发光的魔力水晶"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/129218?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 129218
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Miscellaneous",
+        "es_MX": "Miscelánea",
+        "pt_BR": "Diversos",
+        "de_DE": "Verschiedenes",
+        "en_GB": "Miscellaneous",
+        "es_ES": "Miscelánea",
+        "fr_FR": "Divers",
+        "it_IT": "Varie",
+        "ru_RU": "Разное",
+        "ko_KR": "기타",
+        "zh_TW": "雜項",
+        "zh_CN": "杂项"
+      },
+      "id": 15
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/15/item-subclass/2?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Companion Pets",
+        "es_MX": "Mascotas de compañía",
+        "pt_BR": "Mascotes",
+        "de_DE": "Haustier",
+        "en_GB": "Companion Pets",
+        "es_ES": "Mascotas de compañía",
+        "fr_FR": "Mascottes",
+        "it_IT": "Mascotte",
+        "ru_RU": "Питомцы",
+        "ko_KR": "애완동물 친구",
+        "zh_TW": "寵物夥伴",
+        "zh_CN": "宠物小伙伴"
+      },
+      "id": 2
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to summon an Empyreal Manafiend.",
+      "es_MX": "Te enseña a invocar a un maligno de maná empíreo.",
+      "pt_BR": "Ensina a evocar um Manamaníaco Empíreo.",
+      "de_DE": "Lehrt Euch, wie man einen saphirblauen Manafresser beschwört.",
+      "en_GB": "Teaches you how to summon an Empyreal Manafiend.",
+      "es_ES": "Te enseña a invocar a un maligno de maná empíreo.",
+      "fr_FR": "Vous apprend à invoquer un manafiel empyréen.",
+      "it_IT": "Ti insegna a evocare un Demone del Mana Empireo.",
+      "ru_RU": "Учит призывать неземного манадемона.",
+      "ko_KR": "하늘빛 마나마귀 소환하는 법을 배웁니다.",
+      "zh_TW": "教你學會如何召喚高能法力惡魔。",
+      "zh_CN": "教你学会召唤以太嗜魔者。"
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

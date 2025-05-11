@@ -8,7 +8,7 @@ export default function ItemSearchPage() {
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif', textAlign: 'center' }}>
       <ConnectedRealms />
-      <ItemSearch />
+      {/* <ItemSearch /> */}
     </div>
   );
 }

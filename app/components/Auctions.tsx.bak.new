@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import CurrencyConverter from './CurrencyConverter';
-import AuctionsClassesTab from './AuctionsClassesTab';
 
 interface AuctionsProps {
   realmId: string | null;
@@ -11,7 +10,6 @@ interface Auction {
   item: { id: number };
   buyout: number;
   itemClassId?: number | null;
-  itemSubclassId?: number | null;
   itemName?: string;
 }
 
@@ -27,15 +25,13 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemClasses, setItemClasses] = useState<any[]>([]);
   const [selectedItemClasses, setSelectedItemClasses] = useState<number[]>([]);
-  const [selectedSubclasses, setSelectedSubclasses] = useState<number[]>([]);
   const [filteredAuctions, setFilteredAuctions] = useState<Auction[]>([]);
-  const [selectedClassId, setSelectedClassId] = useState<number | null>(null);  const itemsPerPage = 10;
+  const [selectedClassId, setSelectedClassId] = useState<number | null>(null);
+  const [subclasses, setSubclasses] = useState<ItemSubclass[]>([]);
+  const [loadingSubclasses, setLoadingSubclasses] = useState<boolean>(false);
+  const itemsPerPage = 10;
 
-  const itemDetailsCache = useMemo(() => new Map<number, { 
-    itemClassId: number | null; 
-    itemSubclassId: number | null;
-    itemName: string 
-  }>(), []);
+  const itemDetailsCache = useMemo(() => new Map<number, { itemClassId: number | null; itemName: string }>(), []);
 
   const paginatedAuctions = filteredAuctions.slice(
     (currentPage - 1) * itemsPerPage,
@@ -55,9 +51,42 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
       setCurrentPage(currentPage - 1);
     }
   };
-  const handleItemClassClick = (classId: number) => {
-    // Toggle the selected class ID
-    setSelectedClassId(prevClassId => prevClassId === classId ? null : classId);
+
+  const handleItemClassClick = async (classId: number) => {
+    if (selectedClassId === classId) {
+      // 이미 선택된 클래스 ID를 다시 클릭한 경우 접기
+      setSelectedClassId(null);
+      setSubclasses([]);
+      return;
+    }
+
+    setSelectedClassId(classId);
+    setLoadingSubclasses(true);
+    
+    try {
+      const response = await fetch(`/api/item-subclasses?itemClassId=${classId}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch item subclasses');
+      }
+      const data = await response.json();
+      
+      if (data && data.item_subclasses && Array.isArray(data.item_subclasses)) {
+        const formattedSubclasses = data.item_subclasses.map((subclass: any) => ({
+          id: subclass.id,
+          name: typeof subclass.name === 'string' ? subclass.name : 
+               (subclass.name && subclass.name.ko_KR ? subclass.name.ko_KR : 'Unknown')
+        }));
+        
+        setSubclasses(formattedSubclasses);
+      } else {
+        setSubclasses([]);
+      }
+    } catch (error) {
+      console.error('Error fetching item subclasses:', error);
+      setSubclasses([]);
+    } finally {
+      setLoadingSubclasses(false);
+    }
   };
 
   const handleItemClassSelection = async (id: number) => {
@@ -103,7 +132,6 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
         itemsData.forEach((item: { id: number; name: string; classid: number | null }) => {
           itemDetailsCache.set(item.id, {
             itemClassId: item.classid || null,
-            itemSubclassId: null,
             itemName: item.name,
           });
         });
@@ -122,28 +150,6 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
       }
     }
   };
-  const handleSubclassSelection = (subclassId: number) => {
-    setSelectedSubclasses((prevSelected) => {
-      const updatedSelection = prevSelected.includes(subclassId)
-        ? prevSelected.filter((id) => id !== subclassId)
-        : [...prevSelected, subclassId];
-
-      const updatedFilteredAuctions = auctions.filter((auction) => {
-        const itemSubclassId = auction.itemSubclassId;
-        return (
-          updatedSelection.length === 0 ||
-          (itemSubclassId != null && updatedSelection.includes(itemSubclassId))
-        );
-      });
-
-      setFilteredAuctions(updatedFilteredAuctions);
-      return updatedSelection;
-    });
-
-    // Reset to first page when changing filters
-    setCurrentPage(1);
-  };
-
 
   useEffect(() => {
     if (!realmId) return;
@@ -209,7 +215,6 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
         itemsData.forEach((item: { id: number; name: string; classid: number | null }) => {
           itemDetailsCache.set(item.id, {
             itemClassId: item.classid || null,
-            itemSubclassId: null,
             itemName: item.name,
           });
         });
@@ -220,7 +225,6 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
             return {
               ...auction,
               itemClassId: itemDetails?.itemClassId || auction.itemClassId || null,
-              itemSubclassId: itemDetails?.itemSubclassId || auction.itemSubclassId || null,
               itemName: itemDetails?.itemName || auction.itemName || 'Unknown',
             };
           });
@@ -254,52 +258,72 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
   useEffect(() => {
     const updatedFilteredAuctions = auctions.filter((auction) => {
       const itemClassId = auction.itemClassId;
-      const itemSubclassId = auction.itemSubclassId;
       return (
-        (selectedItemClasses.length === 0 || (itemClassId != null && selectedItemClasses.includes(itemClassId))) &&
-        (selectedSubclasses.length === 0 || (itemSubclassId != null && selectedSubclasses.includes(itemSubclassId)))
+        selectedItemClasses.length === 0 ||
+        (itemClassId != null && selectedItemClasses.includes(itemClassId))
       );
     });
     setFilteredAuctions(updatedFilteredAuctions);
-  }, [auctions, selectedItemClasses, selectedSubclasses]);
+  }, [auctions, selectedItemClasses]);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>
-      {/* AuctionsClassesTab 컴포넌트 사용 */}
-      <AuctionsClassesTab
-        itemClasses={itemClasses}
-        selectedClassId={selectedClassId}
-        selectedItemClasses={selectedItemClasses}
-        selectedSubclasses={selectedSubclasses}
-        onItemClassClick={handleItemClassClick}
-        onSubclassSelection={handleSubclassSelection}
-      />
+      {/* 상단 탭 메뉴 - 아이템 클래스 */}
+      <div style={{ width: '100%', overflowX: 'auto' }}>
+        <div style={{ 
+          display: 'flex', 
+          borderBottom: '1px solid #ddd',
+          overflowX: 'auto',
+          whiteSpace: 'nowrap',
+          width: '100%'
+        }}>
+          {itemClasses.map((itemClass) => (
+            <div 
+              key={itemClass.id}
+              style={{
+                padding: '10px 15px',
+                cursor: 'pointer',
+                backgroundColor: selectedClassId === itemClass.id ? '#f0f0f0' : 'transparent',
+                borderBottom: selectedClassId === itemClass.id ? '2px solid #0070f3' : 'none',
+                fontWeight: selectedClassId === itemClass.id ? 'bold' : 'normal',
+                whiteSpace: 'nowrap'
+              }}
+              onClick={() => handleItemClassClick(itemClass.id)}
+            >
+              {itemClass.name || 'Unknown'}
+            </div>
+          ))}
+        </div>
+      </div>
 
-      {/* 경매 목록 표시 */}
-      <table style={{ borderCollapse: 'collapse', width: '100%', margin: '0 auto' }}>
-          <thead>
-            <tr>
-              <th style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }} align="center">Auction ID</th>
-              <th style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }} align="center">Item ID</th>
-              <th style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }} align="center">Item Name</th>
-              <th style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }} align="center">Buyout</th>
-            </tr>
-          </thead>
-          <tbody>
-            {paginatedAuctions.map((auction) => (
-              <tr key={auction.id}>
-                <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }} align="center">{auction.id}</td>
-                <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }} align="center">{auction.item?.id}</td>
-                <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }} align="center">{auction.itemName || 'Unknown'}</td>
-                <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }} align="center">
-                  <CurrencyConverter copper={auction.buyout} />
-                </td>
+      {/* 서브클래스 표시 영역 */}
+      <div style={{ padding: '20px 0' }}>
+        {loadingSubclasses ? (
+          <div style={{ padding: '20px', textAlign: 'center' }}>로딩 중...</div>
+        ) : selectedClassId !== null && subclasses.length > 0 ? (
+          <table style={{ borderCollapse: 'collapse', width: '100%' }}>
+            <thead>
+              <tr>
+                <th style={{ border: '1px solid #ccc', padding: '8px', textAlign: 'center', backgroundColor: '#f8f8f8' }}>Subclass ID</th>
+                <th style={{ border: '1px solid #ccc', padding: '8px', textAlign: 'center', backgroundColor: '#f8f8f8' }}>Name</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
-      <div style={{ width: '100%', textAlign: 'center' }}>
-        {/* <h2 style={{ textAlign: 'center' }}>Auctions</h2> */}
+            </thead>
+            <tbody>
+              {subclasses.map((subclass) => (
+                <tr key={subclass.id}>
+                  <td style={{ border: '1px solid #ccc', padding: '8px', textAlign: 'center' }}>{subclass.id}</td>
+                  <td style={{ border: '1px solid #ccc', padding: '8px', textAlign: 'center' }}>{subclass.name}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        ) : selectedClassId !== null ? (
+          <div style={{ padding: '20px', textAlign: 'center' }}>서브클래스가 없습니다</div>
+        ) : null}
+      </div>
+
+      {/* 경매 목록 표시 */}      <div style={{ width: '100%', textAlign: 'center' }}>
+        <h2 style={{ textAlign: 'center' }}>Auctions</h2>
         {loading && <p style={{ textAlign: 'center' }}>Loading...</p>}
         {error && <p style={{ color: 'red', textAlign: 'center' }}>Error: {error}</p>}
           <div style={{ display: 'flex', justifyContent: 'center', margin: '10px 0', width: '100%' }}>
@@ -321,6 +345,29 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
             </button>
           </div>
         </div>
+        
+        <table style={{ borderCollapse: 'collapse', width: '100%' }}>
+          <thead>
+            <tr>
+              <th style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }}>Auction ID</th>
+              <th style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }}>Item ID</th>
+              <th style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }}>Item Name</th>
+              <th style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }}>Buyout</th>
+            </tr>
+          </thead>
+          <tbody>
+            {paginatedAuctions.map((auction) => (
+              <tr key={auction.id}>
+                <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }}>{auction.id}</td>
+                <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }}>{auction.item?.id}</td>
+                <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }}>{auction.itemName || 'Unknown'}</td>
+                <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'center' }}>
+                  <CurrencyConverter copper={auction.buyout} />
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );

@@ -52,10 +52,10 @@ const ConnectedRealms: React.FC = () => {
 
   return (
     <div>
-      <h1>Connected Realms</h1>
+      {/* <h1>Connected Realms</h1>
       <button onClick={fetchConnectedRealms} style={{ padding: '10px 20px', fontSize: '16px', marginTop: '20px' }}>
         Fetch Connected Realms
-      </button>
+      </button> */}
       {error && <p style={{ color: 'red' }}>Error: {error}</p>}
       <table style={{ marginTop: '20px', borderCollapse: 'collapse', width: '100%' }}>
         <thead>

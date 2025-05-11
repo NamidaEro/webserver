@@ -1,0 +1,277 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/71951?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 71951,
+  "name": {
+    "en_US": "Banner of the Fallen",
+    "es_MX": "Estandarte de los Caídos",
+    "pt_BR": "Estandarte dos Caídos",
+    "de_DE": "Banner der Gefallenen",
+    "en_GB": "Banner of the Fallen",
+    "es_ES": "Estandarte de los Caídos",
+    "fr_FR": "Bannière des trépassés",
+    "it_IT": "Stendardo del Caduto",
+    "ru_RU": "Знамя павших",
+    "ko_KR": "쓰러진 자의 깃발",
+    "zh_TW": "墮落者旌旗",
+    "zh_CN": "阵亡者的旗帜"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/71951?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 71951
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Quest",
+      "es_MX": "Misión",
+      "pt_BR": "Missão",
+      "de_DE": "Quest",
+      "en_GB": "Quest",
+      "es_ES": "Misión",
+      "fr_FR": "Quête",
+      "it_IT": "Oggetti di missione",
+      "ru_RU": "Задание",
+      "ko_KR": "퀘스트",
+      "zh_TW": "任務",
+      "zh_CN": "任务"
+    },
+    "id": 12
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Quest",
+      "es_MX": "Misión",
+      "pt_BR": "Missão",
+      "de_DE": "Quest",
+      "en_GB": "Quest",
+      "es_ES": "Misión",
+      "fr_FR": "Quête",
+      "it_IT": "Missione",
+      "ru_RU": "Задания",
+      "ko_KR": "퀘스트",
+      "zh_TW": "任務",
+      "zh_CN": "任务"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Proof of your valor in combat. Someone at the Darkmoon Faire would be interested in this item.",
+    "es_MX": "Una prueba de valor en combate. Alguien de la Feria de la Luna Negra podría estar interesado en este objeto.",
+    "pt_BR": "Prova do seu valor em combate. Alguém da Feira de Negraluna deve se interessar por isto.",
+    "de_DE": "Beweis Eures Kampfesmuts. Jemand vom Dunkelmond-Jahrmarkt würde es sicherlich gern erwerben.",
+    "en_GB": "Proof of your valor in combat. Someone at the Darkmoon Faire would be interested in this item.",
+    "es_ES": "Una prueba de valor en combate. Alguien de la Feria de la Luna Negra podría estar interesado en este objeto.",
+    "fr_FR": "Preuve de votre valeur au combat. Elle pourrait intéresser quelqu'un à la foire de Sombrelune.",
+    "it_IT": "Prova il tuo valore sul campo. Potrebbe interessare a qualcuno della Fiera di Lunacupa.",
+    "ru_RU": "Доказательство вашей доблести в бою. На ярмарке Новолуния наверняка найдется кто-то, кого заинтересует это знамя.",
+    "ko_KR": "전투에서 당신이 보여준 용맹을 증명합니다. 다크문 유랑단의 누군가가 관심을 보일지도 모릅니다.",
+    "zh_TW": "你在戰鬥中悍勇殺敵的證明。暗月馬戲團裡也許有人會想要擁有它。",
+    "zh_CN": "这是你奋勇杀敌的证据。暗月马戏团里可能有人对它感兴趣。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/71951?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 71951
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Banner of the Fallen",
+      "es_MX": "Estandarte de los Caídos",
+      "pt_BR": "Estandarte dos Caídos",
+      "de_DE": "Banner der Gefallenen",
+      "en_GB": "Banner of the Fallen",
+      "es_ES": "Estandarte de los Caídos",
+      "fr_FR": "Bannière des trépassés",
+      "it_IT": "Stendardo del Caduto",
+      "ru_RU": "Знамя павших",
+      "ko_KR": "쓰러진 자의 깃발",
+      "zh_TW": "墮落者旌旗",
+      "zh_CN": "阵亡者的旗帜"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/71951?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 71951
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Quest",
+        "es_MX": "Misión",
+        "pt_BR": "Missão",
+        "de_DE": "Quest",
+        "en_GB": "Quest",
+        "es_ES": "Misión",
+        "fr_FR": "Quête",
+        "it_IT": "Oggetti di missione",
+        "ru_RU": "Задание",
+        "ko_KR": "퀘스트",
+        "zh_TW": "任務",
+        "zh_CN": "任务"
+      },
+      "id": 12
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Quest",
+        "es_MX": "Misión",
+        "pt_BR": "Missão",
+        "de_DE": "Quest",
+        "en_GB": "Quest",
+        "es_ES": "Misión",
+        "fr_FR": "Quête",
+        "it_IT": "Missione",
+        "ru_RU": "Задания",
+        "ko_KR": "퀘스트",
+        "zh_TW": "任務",
+        "zh_CN": "任务"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "description": {
+      "en_US": "Proof of your valor in combat. Someone at the Darkmoon Faire would be interested in this item.",
+      "es_MX": "Una prueba de valor en combate. Alguien de la Feria de la Luna Negra podría estar interesado en este objeto.",
+      "pt_BR": "Prova do seu valor em combate. Alguém da Feira de Negraluna deve se interessar por isto.",
+      "de_DE": "Beweis Eures Kampfesmuts. Jemand vom Dunkelmond-Jahrmarkt würde es sicherlich gern erwerben.",
+      "en_GB": "Proof of your valor in combat. Someone at the Darkmoon Faire would be interested in this item.",
+      "es_ES": "Una prueba de valor en combate. Alguien de la Feria de la Luna Negra podría estar interesado en este objeto.",
+      "fr_FR": "Preuve de votre valeur au combat. Elle pourrait intéresser quelqu'un à la foire de Sombrelune.",
+      "it_IT": "Prova il tuo valore sul campo. Potrebbe interessare a qualcuno della Fiera di Lunacupa.",
+      "ru_RU": "Доказательство вашей доблести в бою. На ярмарке Новолуния наверняка найдется кто-то, кого заинтересует это знамя.",
+      "ko_KR": "전투에서 당신이 보여준 용맹을 증명합니다. 다크문 유랑단의 누군가가 관심을 보일지도 모릅니다.",
+      "zh_TW": "你在戰鬥中悍勇殺敵的證明。暗月馬戲團裡也許有人會想要擁有它。",
+      "zh_CN": "这是你奋勇杀敌的证据。暗月马戏团里可能有人对它感兴趣。"
+    },
+    "item_starts_quest": {
+      "quest": {
+        "key": {
+          "href": "https://kr.api.blizzard.com/data/wow/quest/29456?namespace=static-11.1.5_60179-kr"
+        },
+        "name": {
+          "en_US": "A Captured Banner",
+          "es_MX": "Un estandarte capturado",
+          "pt_BR": "Um estandarte capturado",
+          "de_DE": "Ein erbeutetes Banner",
+          "en_GB": "A Captured Banner",
+          "es_ES": "Un estandarte capturado",
+          "fr_FR": "Une bannière capturée",
+          "it_IT": "Uno stendardo catturato",
+          "ru_RU": "Захваченное знамя",
+          "ko_KR": "빼앗은 깃발",
+          "zh_TW": "奪來的旌旗",
+          "zh_CN": "缴获的旗帜"
+        },
+        "id": 29456
+      },
+      "display_string": {
+        "en_US": "This Item Begins a Quest",
+        "es_MX": "Este objeto inicia una misión",
+        "pt_BR": "Este item inicia uma missão",
+        "de_DE": "Dieser Gegenstand startet eine Quest.",
+        "en_GB": "This Item Begins a Quest",
+        "es_ES": "Este objeto inicia una misión",
+        "fr_FR": "Cet objet permet de lancer une quête",
+        "it_IT": "Questo oggetto avvia una missione",
+        "ru_RU": "Этот предмет позволяет получить задание.",
+        "ko_KR": "퀘스트 시작 아이템",
+        "zh_TW": "該物品將觸發一個任務",
+        "zh_CN": "该物品将触发一个任务"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

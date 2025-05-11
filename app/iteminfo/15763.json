@@ -1,0 +1,1044 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/15763?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 15763,
+  "name": {
+    "en_US": "Pattern: Blue Dragonscale Shoulders",
+    "es_MX": "Patrón: sobrehombros de dragontina azul",
+    "pt_BR": "Molde: Omoplatas de Escama de Dragão Azul",
+    "de_DE": "Muster: Blaue Drachenschuppenschultern",
+    "en_GB": "Pattern: Blue Dragonscale Shoulders",
+    "es_ES": "Patrón: sobrehombros de dragontina azul",
+    "fr_FR": "Patron : Epaulières en écailles de dragon bleu",
+    "it_IT": "Modello: Spallacci di Scaglie di Drago Blu",
+    "ru_RU": "Выкройка: наплечники из чешуи синего дракона",
+    "ko_KR": "도안: 푸른용비늘 어깨보호구",
+    "zh_TW": "圖樣:藍龍鱗片護肩",
+    "zh_CN": "图样：蓝色龙鳞护肩"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/15763?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 15763
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Recipe",
+      "es_MX": "Receta",
+      "pt_BR": "Receita",
+      "de_DE": "Rezept",
+      "en_GB": "Recipe",
+      "es_ES": "Receta",
+      "fr_FR": "Recette",
+      "it_IT": "Ricette",
+      "ru_RU": "Рецепт",
+      "ko_KR": "제조법",
+      "zh_TW": "配方",
+      "zh_CN": "配方"
+    },
+    "id": 9
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Leatherworking",
+      "es_MX": "Peletería",
+      "pt_BR": "Couraria",
+      "de_DE": "Lederverarbeitung",
+      "en_GB": "Leatherworking",
+      "es_ES": "Peletería",
+      "fr_FR": "Travail du cuir",
+      "it_IT": "Conciatura",
+      "ru_RU": "Кожевничество",
+      "ko_KR": "가죽세공",
+      "zh_TW": "製皮",
+      "zh_CN": "制皮"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 25000,
+  "sell_price": 6250,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "Teaches you how to craft Blue Dragonscale Shoulders.",
+    "es_MX": "Te enseña a fabricar unos sobrehombros de dragontina azul.",
+    "pt_BR": "Ensina a fazer Omoplatas de Escama de Dragão Azul.",
+    "de_DE": "Lehrt Euch die Herstellung von blauen Drachenschuppenschultern.",
+    "en_GB": "Teaches you how to craft Blue Dragonscale Shoulders.",
+    "es_ES": "Te enseña a fabricar unos sobrehombros de dragontina azul.",
+    "fr_FR": "Vous apprend à confectionner des Epaulières en écailles de dragon bleu.",
+    "it_IT": "Ti insegna a creare degli Spallacci di Scaglie di Drago Blu.",
+    "ru_RU": "Обучает изготовлению наплечников из чешуи синего дракона.",
+    "ko_KR": "푸른용비늘 어깨보호구 만드는 법을 배웁니다.",
+    "zh_TW": "教你學會如何製作藍龍鱗片護肩。",
+    "zh_CN": "教你学会制作蓝色龙鳞护肩。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/15763?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 15763
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Pattern: Blue Dragonscale Shoulders",
+      "es_MX": "Patrón: sobrehombros de dragontina azul",
+      "pt_BR": "Molde: Omoplatas de Escama de Dragão Azul",
+      "de_DE": "Muster: Blaue Drachenschuppenschultern",
+      "en_GB": "Pattern: Blue Dragonscale Shoulders",
+      "es_ES": "Patrón: sobrehombros de dragontina azul",
+      "fr_FR": "Patron : Epaulières en écailles de dragon bleu",
+      "it_IT": "Modello: Spallacci di Scaglie di Drago Blu",
+      "ru_RU": "Выкройка: наплечники из чешуи синего дракона",
+      "ko_KR": "도안: 푸른용비늘 어깨보호구",
+      "zh_TW": "圖樣:藍龍鱗片護肩",
+      "zh_CN": "图样：蓝色龙鳞护肩"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/15763?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 15763
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Recipe",
+        "es_MX": "Receta",
+        "pt_BR": "Receita",
+        "de_DE": "Rezept",
+        "en_GB": "Recipe",
+        "es_ES": "Receta",
+        "fr_FR": "Recette",
+        "it_IT": "Ricette",
+        "ru_RU": "Рецепт",
+        "ko_KR": "제조법",
+        "zh_TW": "配方",
+        "zh_CN": "配方"
+      },
+      "id": 9
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/9/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Leatherworking",
+        "es_MX": "Peletería",
+        "pt_BR": "Couraria",
+        "de_DE": "Lederverarbeitung",
+        "en_GB": "Leatherworking",
+        "es_ES": "Peletería",
+        "fr_FR": "Travail du cuir",
+        "it_IT": "Conciatura",
+        "ru_RU": "Кожевничество",
+        "ko_KR": "가죽세공",
+        "zh_TW": "製皮",
+        "zh_CN": "制皮"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "sell_price": {
+      "value": 6250,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "62",
+          "es_MX": "62",
+          "pt_BR": "62",
+          "de_DE": "62",
+          "en_GB": "62",
+          "es_ES": "62",
+          "fr_FR": "62",
+          "it_IT": "62",
+          "ru_RU": "62",
+          "ko_KR": "62",
+          "zh_TW": "62",
+          "zh_CN": "62"
+        },
+        "copper": {
+          "en_US": "50",
+          "es_MX": "50",
+          "pt_BR": "50",
+          "de_DE": "50",
+          "en_GB": "50",
+          "es_ES": "50",
+          "fr_FR": "50",
+          "it_IT": "50",
+          "ru_RU": "50",
+          "ko_KR": "50",
+          "zh_TW": "50",
+          "zh_CN": "50"
+        }
+      }
+    },
+    "requirements": {
+      "skill": {
+        "profession": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/profession/2532?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Classic Leatherworking",
+            "es_MX": "Peletería clásica",
+            "pt_BR": "Couraria do Classic",
+            "de_DE": "Klassische Lederverarbeitung",
+            "en_GB": "Classic Leatherworking",
+            "es_ES": "Peletería clásica",
+            "fr_FR": "Travail du cuir classique",
+            "it_IT": "Conciatura Classica",
+            "ru_RU": "Классическое кожевничество",
+            "ko_KR": "옛 가죽세공",
+            "zh_TW": "艾澤拉斯製皮",
+            "zh_CN": "经典旧世制皮"
+          },
+          "id": 2532
+        },
+        "level": 295,
+        "display_string": {
+          "en_US": "Requires Classic Leatherworking (295)",
+          "es_MX": "Requiere Peletería clásica (295)",
+          "pt_BR": "Requer Couraria do Classic (295)",
+          "de_DE": "Benötigt Klassische Lederverarbeitung (295)",
+          "en_GB": "Requires Classic Leatherworking (295)",
+          "es_ES": "Requiere Peletería clásica (295)",
+          "fr_FR": "Travail du cuir classique (295) requis",
+          "it_IT": "Richiede: Conciatura Classica (295)",
+          "ru_RU": "Требуется: Классическое кожевничество (295)",
+          "ko_KR": "요구 사항: 옛 가죽세공 (295)",
+          "zh_TW": "需要艾澤拉斯製皮(295)",
+          "zh_CN": "需要经典旧世制皮（295）"
+        }
+      }
+    },
+    "description": {
+      "en_US": "Teaches you how to craft Blue Dragonscale Shoulders.",
+      "es_MX": "Te enseña a fabricar unos sobrehombros de dragontina azul.",
+      "pt_BR": "Ensina a fazer Omoplatas de Escama de Dragão Azul.",
+      "de_DE": "Lehrt Euch die Herstellung von blauen Drachenschuppenschultern.",
+      "en_GB": "Teaches you how to craft Blue Dragonscale Shoulders.",
+      "es_ES": "Te enseña a fabricar unos sobrehombros de dragontina azul.",
+      "fr_FR": "Vous apprend à confectionner des Epaulières en écailles de dragon bleu.",
+      "it_IT": "Ti insegna a creare degli Spallacci di Scaglie di Drago Blu.",
+      "ru_RU": "Обучает изготовлению наплечников из чешуи синего дракона.",
+      "ko_KR": "푸른용비늘 어깨보호구 만드는 법을 배웁니다.",
+      "zh_TW": "教你學會如何製作藍龍鱗片護肩。",
+      "zh_CN": "教你学会制作蓝色龙鳞护肩。"
+    },
+    "recipe": {
+      "item": {
+        "item": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item/15049?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 15049
+        },
+        "quality": {
+          "type": "RARE",
+          "name": {
+            "en_US": "Rare",
+            "es_MX": "Raro",
+            "pt_BR": "Raro",
+            "de_DE": "Selten",
+            "en_GB": "Rare",
+            "es_ES": "Raro",
+            "fr_FR": "Rare",
+            "it_IT": "Raro",
+            "ru_RU": "Редкое",
+            "ko_KR": "희귀",
+            "zh_TW": "精良",
+            "zh_CN": "精良"
+          }
+        },
+        "name": {
+          "en_US": "Blue Dragonscale Shoulders",
+          "es_MX": "Sobrehombros de dragontina azul",
+          "pt_BR": "Omoplatas de Escama de Dragão Azul",
+          "de_DE": "Blaue Drachenschuppenschultern",
+          "en_GB": "Blue Dragonscale Shoulders",
+          "es_ES": "Sobrehombros de dragontina azul",
+          "fr_FR": "Epaulières en écailles de dragon bleu",
+          "it_IT": "Spallacci di Scaglie di Drago Blu",
+          "ru_RU": "Наплечники из чешуи синего дракона",
+          "ko_KR": "푸른용비늘 어깨보호구",
+          "zh_TW": "藍龍鱗片護肩",
+          "zh_CN": "蓝龙鳞片护肩"
+        },
+        "media": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/media/item/15049?namespace=static-11.1.5_60179-kr"
+          },
+          "id": 15049
+        },
+        "item_class": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Armor",
+            "es_MX": "Armadura",
+            "pt_BR": "Armadura",
+            "de_DE": "Rüstung",
+            "en_GB": "Armor",
+            "es_ES": "Armadura",
+            "fr_FR": "Armure",
+            "it_IT": "Armature",
+            "ru_RU": "Доспехи",
+            "ko_KR": "방어구",
+            "zh_TW": "護甲",
+            "zh_CN": "护甲"
+          },
+          "id": 4
+        },
+        "item_subclass": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/3?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Mail",
+            "es_MX": "Malla",
+            "pt_BR": "Malha",
+            "de_DE": "Kette",
+            "en_GB": "Mail",
+            "es_ES": "Malla",
+            "fr_FR": "Mailles",
+            "it_IT": "Maglia",
+            "ru_RU": "Кольчуга",
+            "ko_KR": "사슬",
+            "zh_TW": "鎖甲",
+            "zh_CN": "锁甲"
+          },
+          "id": 3
+        },
+        "inventory_type": {
+          "type": "SHOULDER",
+          "name": {
+            "en_US": "Shoulder",
+            "es_MX": "Hombro",
+            "pt_BR": "Ombros",
+            "de_DE": "Schulter",
+            "en_GB": "Shoulder",
+            "es_ES": "Hombro",
+            "fr_FR": "Épaule",
+            "it_IT": "Spalle",
+            "ru_RU": "Плечи",
+            "ko_KR": "어깨",
+            "zh_TW": "肩部",
+            "zh_CN": "肩部"
+          }
+        },
+        "binding": {
+          "type": "ON_EQUIP",
+          "name": {
+            "en_US": "Binds when equipped",
+            "es_MX": "Se liga al equiparlo",
+            "pt_BR": "Vincula-se quando equipado",
+            "de_DE": "Wird beim Anlegen gebunden",
+            "en_GB": "Binds when equipped",
+            "es_ES": "Se liga al equiparlo",
+            "fr_FR": "Lié quand équipé",
+            "it_IT": "Si vincola all'equipaggiamento",
+            "ru_RU": "Становится персональным при надевании",
+            "ko_KR": "착용 시 귀속",
+            "zh_TW": "裝備後綁定",
+            "zh_CN": "装备后绑定"
+          }
+        },
+        "armor": {
+          "value": 7,
+          "display": {
+            "display_string": {
+              "en_US": "7 Armor",
+              "es_MX": "7 p. de armadura",
+              "pt_BR": "7 de Armadura",
+              "de_DE": "7 Rüstung",
+              "en_GB": "7 Armor",
+              "es_ES": "7 p. de armadura",
+              "fr_FR": "Armure : 7",
+              "it_IT": "7 Armatura",
+              "ru_RU": "Броня: 7",
+              "ko_KR": "방어도 7",
+              "zh_TW": "7點護甲",
+              "zh_CN": "7点护甲"
+            },
+            "color": {
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 1
+            }
+          }
+        },
+        "stats": [
+          {
+            "type": {
+              "type": "INTELLECT",
+              "name": {
+                "en_US": "Intellect",
+                "es_MX": "intelecto",
+                "pt_BR": "Intelecto",
+                "de_DE": "Intelligenz",
+                "en_GB": "Intellect",
+                "es_ES": "intelecto",
+                "fr_FR": "Intelligence",
+                "it_IT": "Intelletto",
+                "ru_RU": "к интеллекту",
+                "ko_KR": "지능",
+                "zh_TW": "智力",
+                "zh_CN": "智力"
+              }
+            },
+            "value": 2,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Intellect",
+                "es_MX": "+2 intelecto",
+                "pt_BR": "+2 Intelecto",
+                "de_DE": "+2 Intelligenz",
+                "en_GB": "+2 Intellect",
+                "es_ES": "+2 intelecto",
+                "fr_FR": "+2 Intelligence",
+                "it_IT": "+2 Intelletto",
+                "ru_RU": "+2 к интеллекту",
+                "ko_KR": "지능 +2",
+                "zh_TW": "+2智力",
+                "zh_CN": "+2 智力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "AGILITY",
+              "name": {
+                "en_US": "Agility",
+                "es_MX": "agilidad",
+                "pt_BR": "Agilidade",
+                "de_DE": "Beweglichkeit",
+                "en_GB": "Agility",
+                "es_ES": "agilidad",
+                "fr_FR": "Agilité",
+                "it_IT": "Agilità",
+                "ru_RU": "к ловкости",
+                "ko_KR": "민첩성",
+                "zh_TW": "敏捷",
+                "zh_CN": "敏捷"
+              }
+            },
+            "value": 2,
+            "is_negated": true,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Agility",
+                "es_MX": "+2 agilidad",
+                "pt_BR": "+2 Agilidade",
+                "de_DE": "+2 Beweglichkeit",
+                "en_GB": "+2 Agility",
+                "es_ES": "+2 agilidad",
+                "fr_FR": "+2 Agilité",
+                "it_IT": "+2 Agilità",
+                "ru_RU": "+2 к ловкости",
+                "ko_KR": "민첩성 +2",
+                "zh_TW": "+2敏捷",
+                "zh_CN": "+2 敏捷"
+              },
+              "color": {
+                "r": 128,
+                "g": 128,
+                "b": 128,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "STAMINA",
+              "name": {
+                "en_US": "Stamina",
+                "es_MX": "aguante",
+                "pt_BR": "Vigor",
+                "de_DE": "Ausdauer",
+                "en_GB": "Stamina",
+                "es_ES": "aguante",
+                "fr_FR": "Endurance",
+                "it_IT": "Tempra",
+                "ru_RU": "к выносливости",
+                "ko_KR": "체력",
+                "zh_TW": "耐力",
+                "zh_CN": "耐力"
+              }
+            },
+            "value": 4,
+            "display": {
+              "display_string": {
+                "en_US": "+4 Stamina",
+                "es_MX": "+4 aguante",
+                "pt_BR": "+4 Vigor",
+                "de_DE": "+4 Ausdauer",
+                "en_GB": "+4 Stamina",
+                "es_ES": "+4 aguante",
+                "fr_FR": "+4 Endurance",
+                "it_IT": "+4 Tempra",
+                "ru_RU": "+4 к выносливости",
+                "ko_KR": "체력 +4",
+                "zh_TW": "+4耐力",
+                "zh_CN": "+4 耐力"
+              },
+              "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+              }
+            }
+          },
+          {
+            "type": {
+              "type": "VERSATILITY",
+              "name": {
+                "en_US": "Versatility",
+                "es_MX": "versatilidad",
+                "pt_BR": "Versatilidade",
+                "de_DE": "Vielseitigkeit",
+                "en_GB": "Versatility",
+                "es_ES": "versatilidad",
+                "fr_FR": "Polyvalence",
+                "it_IT": "Indice di versatilità",
+                "ru_RU": "к универсальности",
+                "ko_KR": "유연성",
+                "zh_TW": "臨機應變",
+                "zh_CN": "全能"
+              }
+            },
+            "value": 2,
+            "is_equip_bonus": true,
+            "display": {
+              "display_string": {
+                "en_US": "+2 Versatility",
+                "es_MX": "+2 versatilidad",
+                "pt_BR": "+2 Versatilidade",
+                "de_DE": "+2 Vielseitigkeit",
+                "en_GB": "+2 Versatility",
+                "es_ES": "+2 versatilidad",
+                "fr_FR": "+2 Polyvalence",
+                "it_IT": "+2 Indice di versatilità",
+                "ru_RU": "+2 к универсальности",
+                "ko_KR": "유연성 +2",
+                "zh_TW": "+2臨機應變",
+                "zh_CN": "+2 全能"
+              },
+              "color": {
+                "r": 0,
+                "g": 255,
+                "b": 0,
+                "a": 1
+              }
+            }
+          }
+        ],
+        "sell_price": {
+          "value": 126,
+          "display_strings": {
+            "header": {
+              "en_US": "Sell Price:",
+              "es_MX": "Precio de venta:",
+              "pt_BR": "Preço de Venda:",
+              "de_DE": "Verkaufspreis:",
+              "en_GB": "Sell Price:",
+              "es_ES": "Precio de venta:",
+              "fr_FR": "Prix de vente :",
+              "it_IT": "Prezzo di vendita:",
+              "ru_RU": "Цена продажи:",
+              "ko_KR": "판매 가격:",
+              "zh_TW": "售價:",
+              "zh_CN": "卖价:"
+            },
+            "gold": {
+              "en_US": "0",
+              "es_MX": "0",
+              "pt_BR": "0",
+              "de_DE": "0",
+              "en_GB": "0",
+              "es_ES": "0",
+              "fr_FR": "0",
+              "it_IT": "0",
+              "ru_RU": "0",
+              "ko_KR": "0",
+              "zh_TW": "0",
+              "zh_CN": "0"
+            },
+            "silver": {
+              "en_US": "1",
+              "es_MX": "1",
+              "pt_BR": "1",
+              "de_DE": "1",
+              "en_GB": "1",
+              "es_ES": "1",
+              "fr_FR": "1",
+              "it_IT": "1",
+              "ru_RU": "1",
+              "ko_KR": "1",
+              "zh_TW": "1",
+              "zh_CN": "1"
+            },
+            "copper": {
+              "en_US": "26",
+              "es_MX": "26",
+              "pt_BR": "26",
+              "de_DE": "26",
+              "en_GB": "26",
+              "es_ES": "26",
+              "fr_FR": "26",
+              "it_IT": "26",
+              "ru_RU": "26",
+              "ko_KR": "26",
+              "zh_TW": "26",
+              "zh_CN": "26"
+            }
+          }
+        },
+        "requirements": {
+          "level": {
+            "value": 23,
+            "display_string": {
+              "en_US": "Requires Level 23",
+              "es_MX": "Necesitas ser de nivel 23",
+              "pt_BR": "Requer o Nível 23",
+              "de_DE": "Benötigt Stufe 23",
+              "en_GB": "Requires Level 23",
+              "es_ES": "Necesitas ser de nivel 23",
+              "fr_FR": "Niveau 23 requis",
+              "it_IT": "Richiede il livello 23",
+              "ru_RU": "Требуется 23-й уровень",
+              "ko_KR": "최소 요구 레벨: 23",
+              "zh_TW": "需要等級23",
+              "zh_CN": "需要等级 23"
+            }
+          }
+        },
+        "set": {
+          "item_set": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item-set/491?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Blue Dragon Mail",
+              "es_MX": "Malla de dragón Azul",
+              "pt_BR": "Malha do Dragão Azul",
+              "de_DE": "Blauer Drachenschuppenpanzer",
+              "en_GB": "Blue Dragon Mail",
+              "es_ES": "Malla de dragón Azul",
+              "fr_FR": "Mailles de dragon bleu",
+              "it_IT": "Armatura del Drago Blu",
+              "ru_RU": "Кольчужный доспех из чешуи синего дракона",
+              "ko_KR": "푸른용 쇠사슬 갑옷",
+              "zh_TW": "藍龍鎖甲",
+              "zh_CN": "蓝龙锁甲"
+            },
+            "id": 491
+          },
+          "items": [
+            {
+              "item": {
+                "key": {
+                  "href": "https://kr.api.blizzard.com/data/wow/item/15048?namespace=static-11.1.5_60179-kr"
+                },
+                "name": {
+                  "en_US": "Blue Dragonscale Breastplate",
+                  "es_MX": "Coraza de dragontina azul",
+                  "pt_BR": "Peitoral de Escama de Dragão Azul",
+                  "de_DE": "Blaue Drachenschuppenbrustplatte",
+                  "en_GB": "Blue Dragonscale Breastplate",
+                  "es_ES": "Coraza de dragontina azul",
+                  "fr_FR": "Cuirasse en écailles de dragon bleu",
+                  "it_IT": "Pettorale Corazzato di Scaglie di Drago Blu",
+                  "ru_RU": "Кираса из чешуи синего дракона",
+                  "ko_KR": "푸른용비늘 가슴보호갑",
+                  "zh_TW": "藍龍鱗片胸甲",
+                  "zh_CN": "蓝龙鳞片胸甲"
+                },
+                "id": 15048
+              }
+            },
+            {
+              "item": {
+                "key": {
+                  "href": "https://kr.api.blizzard.com/data/wow/item/20295?namespace=static-11.1.5_60179-kr"
+                },
+                "name": {
+                  "en_US": "Blue Dragonscale Leggings",
+                  "es_MX": "Leotardos de dragontina azul",
+                  "pt_BR": "Perneiras de Escama de Dragão Azul",
+                  "de_DE": "Blaue Drachenschuppengamaschen",
+                  "en_GB": "Blue Dragonscale Leggings",
+                  "es_ES": "Leotardos de dragontina azul",
+                  "fr_FR": "Jambières en écailles de dragon bleu",
+                  "it_IT": "Gambiere di Scaglie di Drago Blu",
+                  "ru_RU": "Поножи из чешуи синего дракона",
+                  "ko_KR": "푸른용비늘 다리보호구",
+                  "zh_TW": "藍龍鱗片護腿",
+                  "zh_CN": "蓝龙鳞片护腿"
+                },
+                "id": 20295
+              }
+            },
+            {
+              "item": {
+                "key": {
+                  "href": "https://kr.api.blizzard.com/data/wow/item/15049?namespace=static-11.1.5_60179-kr"
+                },
+                "name": {
+                  "en_US": "Blue Dragonscale Shoulders",
+                  "es_MX": "Sobrehombros de dragontina azul",
+                  "pt_BR": "Omoplatas de Escama de Dragão Azul",
+                  "de_DE": "Blaue Drachenschuppenschultern",
+                  "en_GB": "Blue Dragonscale Shoulders",
+                  "es_ES": "Sobrehombros de dragontina azul",
+                  "fr_FR": "Epaulières en écailles de dragon bleu",
+                  "it_IT": "Spallacci di Scaglie di Drago Blu",
+                  "ru_RU": "Наплечники из чешуи синего дракона",
+                  "ko_KR": "푸른용비늘 어깨보호구",
+                  "zh_TW": "藍龍鱗片護肩",
+                  "zh_CN": "蓝龙鳞片护肩"
+                },
+                "id": 15049
+              }
+            }
+          ],
+          "effects": [
+            {
+              "display_string": {
+                "en_US": "(2) Set: +10 Arcane resistance.",
+                "es_MX": "(2) Bonif.: +10 p. resistencia a lo Arcano.",
+                "pt_BR": "(2) Conjunto: +10 Resistência ao Arcano.",
+                "de_DE": "(2) Set: +10 Arkanwiderstand.",
+                "en_GB": "(2) Set: +10 Arcane resistance.",
+                "es_ES": "(2) Bonif.: +10 p. resistencia a lo Arcano.",
+                "fr_FR": "(2) Ensemble : +10 à la résistance aux Arcanes.",
+                "it_IT": "Set (2): +10 Resistenza all'Arcano.",
+                "ru_RU": "Комплект (2 предмета): +10 к сопротивлению тайной магии.",
+                "ko_KR": "(2) 세트 효과: 비전 저항력 +10",
+                "zh_TW": "(2)套裝：+10點秘法抗性。",
+                "zh_CN": "(2) 套装：奥术抗性提高10点。"
+              },
+              "required_count": 2
+            },
+            {
+              "display_string": {
+                "en_US": "(3) Set: Increases Intellect by 12.",
+                "es_MX": "(3) Bonif.: Aumenta el intelecto 12 p.",
+                "pt_BR": "(3) Conjunto: Aumenta em 12 o Intelecto.",
+                "de_DE": "(3) Set: Erhöht die Intelligenz um 12.",
+                "en_GB": "(3) Set: Increases Intellect by 12.",
+                "es_ES": "(3) Bonif.: Aumenta el intelecto 12 p.",
+                "fr_FR": "(3) Ensemble : Augmente l'Intelligence de 12.",
+                "it_IT": "Set (3): Aumenta l'Intelletto di 12.",
+                "ru_RU": "Комплект (3 предмета): Повышает интеллект на 12.",
+                "ko_KR": "(3) 세트 효과: 지능이 12만큼 증가합니다.",
+                "zh_TW": "(3)套裝：智力提高12點。",
+                "zh_CN": "(3) 套装：智力提高12点。"
+              },
+              "required_count": 3
+            }
+          ],
+          "display_string": {
+            "en_US": "Blue Dragon Mail (0/3)",
+            "es_MX": "Malla de dragón Azul (0/3)",
+            "pt_BR": "Malha do Dragão Azul (0/3)",
+            "de_DE": "Blauer Drachenschuppenpanzer (0/3)",
+            "en_GB": "Blue Dragon Mail (0/3)",
+            "es_ES": "Malla de dragón Azul (0/3)",
+            "fr_FR": "Mailles de dragon bleu (0/3)",
+            "it_IT": "Armatura del Drago Blu (0/3)",
+            "ru_RU": "Кольчужный доспех из чешуи синего дракона (0/3)",
+            "ko_KR": "푸른용 쇠사슬 갑옷 (0/3)",
+            "zh_TW": "藍龍鎖甲(0/3)",
+            "zh_CN": "蓝龙锁甲（0/3）"
+          }
+        },
+        "level": {
+          "value": 29,
+          "display_string": {
+            "en_US": "Item Level 29",
+            "es_MX": "Nivel de objeto 29",
+            "pt_BR": "Nível do Item: 29",
+            "de_DE": "Gegenstandsstufe 29",
+            "en_GB": "Item Level 29",
+            "es_ES": "Nivel de objeto 29",
+            "fr_FR": "Niveau d'objet 29",
+            "it_IT": "Livello oggetto: 29",
+            "ru_RU": "Уровень предмета: 29",
+            "ko_KR": "아이템 레벨: 29",
+            "zh_TW": "物品等級29",
+            "zh_CN": "物品等级29"
+          }
+        },
+        "durability": {
+          "value": 85,
+          "display_string": {
+            "en_US": "Durability 85 / 85",
+            "es_MX": "Durabilidad 85 / 85",
+            "pt_BR": "Durabilidade 85 / 85",
+            "de_DE": "Haltbarkeit 85 / 85",
+            "en_GB": "Durability 85 / 85",
+            "es_ES": "Durabilidad 85 / 85",
+            "fr_FR": "Durabilité : 85 / 85",
+            "it_IT": "Integrità 85/85",
+            "ru_RU": "Прочность: 85 / 85",
+            "ko_KR": "내구도 85 / 85",
+            "zh_TW": "耐久度 85 / 85",
+            "zh_CN": "耐久度 85 / 85"
+          }
+        }
+      },
+      "reagents": [
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/8170?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Rugged Leather",
+              "es_MX": "Cuero basto",
+              "pt_BR": "Couro Rústico",
+              "de_DE": "Unverwüstliches Leder",
+              "en_GB": "Rugged Leather",
+              "es_ES": "Cuero basto",
+              "fr_FR": "Cuir robuste",
+              "it_IT": "Cuoio Duro",
+              "ru_RU": "Грубая кожа",
+              "ko_KR": "튼튼한 가죽",
+              "zh_TW": "硬甲皮",
+              "zh_CN": "硬甲皮"
+            },
+            "id": 8170
+          },
+          "quantity": 28
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/15415?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Blue Dragonscale",
+              "es_MX": "Dragontina azul",
+              "pt_BR": "Escama de Dragão Azul",
+              "de_DE": "Blaue Drachenschuppe",
+              "en_GB": "Blue Dragonscale",
+              "es_ES": "Dragontina azul",
+              "fr_FR": "Ecaille de dragon bleu",
+              "it_IT": "Scaglie di Drago Blu",
+              "ru_RU": "Чешуя синего дракона",
+              "ko_KR": "푸른용 비늘",
+              "zh_TW": "藍龍鱗片",
+              "zh_CN": "蓝龙鳞片"
+            },
+            "id": 15415
+          },
+          "quantity": 30
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/12810?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Enchanted Leather",
+              "es_MX": "Cuero encantado",
+              "pt_BR": "Couro Encantado",
+              "de_DE": "Verzaubertes Leder",
+              "en_GB": "Enchanted Leather",
+              "es_ES": "Cuero encantado",
+              "fr_FR": "Cuir enchanté",
+              "it_IT": "Cuoio Incantato",
+              "ru_RU": "Зачарованная кожа",
+              "ko_KR": "마력 깃든 가죽",
+              "zh_TW": "附魔皮",
+              "zh_CN": "魔化皮"
+            },
+            "id": 12810
+          },
+          "quantity": 2
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/15407?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Cured Rugged Hide",
+              "es_MX": "Pellejo basto curtido",
+              "pt_BR": "Pelego Rústico Curado",
+              "de_DE": "Geschmeidiger unverwüstlicher Balg",
+              "en_GB": "Cured Rugged Hide",
+              "es_ES": "Pellejo basto curtido",
+              "fr_FR": "Peau robuste traitée",
+              "it_IT": "Pelle Dura Trattata",
+              "ru_RU": "Обработанная грубая шкура",
+              "ko_KR": "거친 경화 가죽",
+              "zh_TW": "熟化毛皮",
+              "zh_CN": "熟化毛皮"
+            },
+            "id": 15407
+          },
+          "quantity": 1
+        },
+        {
+          "reagent": {
+            "key": {
+              "href": "https://kr.api.blizzard.com/data/wow/item/14341?namespace=static-11.1.5_60179-kr"
+            },
+            "name": {
+              "en_US": "Rune Thread",
+              "es_MX": "Hilo rúnico",
+              "pt_BR": "Fio Rúnico",
+              "de_DE": "Runenfaden",
+              "en_GB": "Rune Thread",
+              "es_ES": "Hilo rúnico",
+              "fr_FR": "Fil runique",
+              "it_IT": "Filo Runico",
+              "ru_RU": "Руническая нить",
+              "ko_KR": "룬 실타래",
+              "zh_TW": "符文線",
+              "zh_CN": "符文线"
+            },
+            "id": 14341
+          },
+          "quantity": 1
+        }
+      ],
+      "reagents_display_string": {
+        "en_US": "Rugged Leather (28), Blue Dragonscale (30), Enchanted Leather (2), Cured Rugged Hide, Rune Thread",
+        "es_MX": "Cuero basto (28), Dragontina azul (30), Cuero encantado (2), Pellejo basto curtido, Hilo rúnico",
+        "pt_BR": "Couro Rústico (28), Escama de Dragão Azul (30), Couro Encantado (2), Pelego Rústico Curado, Fio Rúnico",
+        "de_DE": "Unverwüstliches Leder (28), Blaue Drachenschuppe (30), Verzaubertes Leder (2), Geschmeidiger unverwüstlicher Balg, Runenfaden",
+        "en_GB": "Rugged Leather (28), Blue Dragonscale (30), Enchanted Leather (2), Cured Rugged Hide, Rune Thread",
+        "es_ES": "Cuero basto (28), Dragontina azul (30), Cuero encantado (2), Pellejo basto curtido, Hilo rúnico",
+        "fr_FR": "Cuir robuste (28), Ecaille de dragon bleu (30), Cuir enchanté (2), Peau robuste traitée, Fil runique",
+        "it_IT": "Cuoio Duro (28), Scaglie di Drago Blu (30), Cuoio Incantato (2), Pelle Dura Trattata, Filo Runico",
+        "ru_RU": "Грубая кожа (28), Чешуя синего дракона (30), Зачарованная кожа (2), Обработанная грубая шкура, Руническая нить",
+        "ko_KR": "튼튼한 가죽 (28), 푸른용 비늘 (30), 마력 깃든 가죽 (2), 거친 경화 가죽, 룬 실타래",
+        "zh_TW": "硬甲皮 (28), 藍龍鱗片 (30), 附魔皮 (2), 熟化毛皮, 符文線",
+        "zh_CN": "硬甲皮 (28), 蓝龙鳞片 (30), 魔化皮 (2), 熟化毛皮, 符文线"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

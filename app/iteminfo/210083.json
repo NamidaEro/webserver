@@ -1,0 +1,552 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/210083?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 210083,
+  "name": {
+    "en_US": "Maple Tender Robe",
+    "es_MX": "Toga de cuidador de arces",
+    "pt_BR": "Veste do Conservador de Bordo",
+    "de_DE": "Robe des Ahornpflegers",
+    "en_GB": "Maple Tender Robe",
+    "es_ES": "Toga de cuidador de arce",
+    "fr_FR": "Robe tendre d’érable",
+    "it_IT": "Tonaca del Curatore dell'Acero",
+    "ru_RU": "Одеяние хранителя кленов",
+    "ko_KR": "단풍지기 로브",
+    "zh_TW": "楓樹看管者長袍",
+    "zh_CN": "枫树看护者的长袍"
+  },
+  "quality": {
+    "type": "UNCOMMON",
+    "name": {
+      "en_US": "Uncommon",
+      "es_MX": "Inusual",
+      "pt_BR": "Incomum",
+      "de_DE": "Ungewöhnlich",
+      "en_GB": "Uncommon",
+      "es_ES": "Inusual",
+      "fr_FR": "Inhabituel",
+      "it_IT": "Pregiato",
+      "ru_RU": "Необычное",
+      "ko_KR": "고급",
+      "zh_TW": "優秀",
+      "zh_CN": "优秀"
+    }
+  },
+  "level": 415,
+  "required_level": 70,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/210083?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 210083
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "ROBE",
+    "name": {
+      "en_US": "Chest",
+      "es_MX": "Pecho",
+      "pt_BR": "Torso",
+      "de_DE": "Brust",
+      "en_GB": "Chest",
+      "es_ES": "Torso",
+      "fr_FR": "Torse",
+      "it_IT": "Torso",
+      "ru_RU": "Грудь",
+      "ko_KR": "가슴",
+      "zh_TW": "胸部",
+      "zh_CN": "胸部"
+    }
+  },
+  "purchase_price": 2790330,
+  "sell_price": 558066,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/210083?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 210083
+    },
+    "context": 0,
+    "bonus_list": [
+      8902
+    ],
+    "quality": {
+      "type": "UNCOMMON",
+      "name": {
+        "en_US": "Uncommon",
+        "es_MX": "Inusual",
+        "pt_BR": "Incomum",
+        "de_DE": "Ungewöhnlich",
+        "en_GB": "Uncommon",
+        "es_ES": "Inusual",
+        "fr_FR": "Inhabituel",
+        "it_IT": "Pregiato",
+        "ru_RU": "Необычное",
+        "ko_KR": "고급",
+        "zh_TW": "優秀",
+        "zh_CN": "优秀"
+      }
+    },
+    "name": {
+      "en_US": "Maple Tender Robe",
+      "es_MX": "Toga de cuidador de arces",
+      "pt_BR": "Veste do Conservador de Bordo",
+      "de_DE": "Robe des Ahornpflegers",
+      "en_GB": "Maple Tender Robe",
+      "es_ES": "Toga de cuidador de arce",
+      "fr_FR": "Robe tendre d’érable",
+      "it_IT": "Tonaca del Curatore dell'Acero",
+      "ru_RU": "Одеяние хранителя кленов",
+      "ko_KR": "단풍지기 로브",
+      "zh_TW": "楓樹看管者長袍",
+      "zh_CN": "枫树看护者的长袍"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/210083?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 210083
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "ROBE",
+      "name": {
+        "en_US": "Chest",
+        "es_MX": "Pecho",
+        "pt_BR": "Torso",
+        "de_DE": "Brust",
+        "en_GB": "Chest",
+        "es_ES": "Torso",
+        "fr_FR": "Torse",
+        "it_IT": "Torso",
+        "ru_RU": "Грудь",
+        "ko_KR": "가슴",
+        "zh_TW": "胸部",
+        "zh_CN": "胸部"
+      }
+    },
+    "binding": {
+      "type": "ON_ACQUIRE",
+      "name": {
+        "en_US": "Binds when picked up",
+        "es_MX": "Se liga al recogerlo",
+        "pt_BR": "Vincula-se ao ser recolhido",
+        "de_DE": "Wird beim Aufheben gebunden",
+        "en_GB": "Binds when picked up",
+        "es_ES": "Se liga al recogerlo",
+        "fr_FR": "Lié quand ramassé",
+        "it_IT": "Si vincola alla raccolta",
+        "ru_RU": "Становится персональным при получении",
+        "ko_KR": "획득 시 귀속",
+        "zh_TW": "拾取後綁定",
+        "zh_CN": "拾取后绑定"
+      }
+    },
+    "armor": {
+      "value": 408,
+      "display": {
+        "display_string": {
+          "en_US": "408 Armor",
+          "es_MX": "408 p. de armadura",
+          "pt_BR": "408 de Armadura",
+          "de_DE": "408 Rüstung",
+          "en_GB": "408 Armor",
+          "es_ES": "408 p. de armadura",
+          "fr_FR": "Armure : 408",
+          "it_IT": "408 Armatura",
+          "ru_RU": "Броня: 408",
+          "ko_KR": "방어도 408",
+          "zh_TW": "408點護甲",
+          "zh_CN": "408点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 471,
+        "display": {
+          "display_string": {
+            "en_US": "+471 Intellect",
+            "es_MX": "+471 intelecto",
+            "pt_BR": "+471 Intelecto",
+            "de_DE": "+471 Intelligenz",
+            "en_GB": "+471 Intellect",
+            "es_ES": "+471 intelecto",
+            "fr_FR": "+471 Intelligence",
+            "it_IT": "+471 Intelletto",
+            "ru_RU": "+471 к интеллекту",
+            "ko_KR": "지능 +471",
+            "zh_TW": "+471智力",
+            "zh_CN": "+471 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 1442,
+        "display": {
+          "display_string": {
+            "en_US": "+1,442 Stamina",
+            "es_MX": "+1,442 aguante",
+            "pt_BR": "+1.442 Vigor",
+            "de_DE": "+1.442 Ausdauer",
+            "en_GB": "+1,442 Stamina",
+            "es_ES": "+1442 aguante",
+            "fr_FR": "+1442 Endurance",
+            "it_IT": "+1.442 Tempra",
+            "ru_RU": "+1442 к выносливости",
+            "ko_KR": "체력 +1,442",
+            "zh_TW": "+1,442耐力",
+            "zh_CN": "+1,442 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "CRIT_RATING",
+          "name": {
+            "en_US": "Critical Strike",
+            "es_MX": "golpe crítico",
+            "pt_BR": "Acerto Crítico",
+            "de_DE": "Kritischer Trefferwert",
+            "en_GB": "Critical Strike",
+            "es_ES": "golpe crítico",
+            "fr_FR": "Score de crit.",
+            "it_IT": "Indice di critico",
+            "ru_RU": "к критическому удару",
+            "ko_KR": "치명타 및 극대화",
+            "zh_TW": "致命一擊",
+            "zh_CN": "爆击"
+          }
+        },
+        "value": 264,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+264 Critical Strike",
+            "es_MX": "+264 golpe crítico",
+            "pt_BR": "+264 Acerto Crítico",
+            "de_DE": "+264 Kritischer Trefferwert",
+            "en_GB": "+264 Critical Strike",
+            "es_ES": "+264 golpe crítico",
+            "fr_FR": "+264 Score de crit.",
+            "it_IT": "+264 Indice di critico",
+            "ru_RU": "+264 к критическому удару",
+            "ko_KR": "치명타 및 극대화 +264",
+            "zh_TW": "+264致命一擊",
+            "zh_CN": "+264 爆击"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "HASTE_RATING",
+          "name": {
+            "en_US": "Haste",
+            "es_MX": "celeridad",
+            "pt_BR": "Aceleração",
+            "de_DE": "Tempo",
+            "en_GB": "Haste",
+            "es_ES": "celeridad",
+            "fr_FR": "Hâte",
+            "it_IT": "Indice di celerità",
+            "ru_RU": "к скорости",
+            "ko_KR": "가속",
+            "zh_TW": "加速",
+            "zh_CN": "急速"
+          }
+        },
+        "value": 489,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+489 Haste",
+            "es_MX": "+489 celeridad",
+            "pt_BR": "+489 Aceleração",
+            "de_DE": "+489 Tempo",
+            "en_GB": "+489 Haste",
+            "es_ES": "+489 celeridad",
+            "fr_FR": "+489 Hâte",
+            "it_IT": "+489 Indice di celerità",
+            "ru_RU": "+489 к скорости",
+            "ko_KR": "가속 +489",
+            "zh_TW": "+489加速",
+            "zh_CN": "+489 急速"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "sell_price": {
+      "value": 418510,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "41",
+          "es_MX": "41",
+          "pt_BR": "41",
+          "de_DE": "41",
+          "en_GB": "41",
+          "es_ES": "41",
+          "fr_FR": "41",
+          "it_IT": "41",
+          "ru_RU": "41",
+          "ko_KR": "41",
+          "zh_TW": "41",
+          "zh_CN": "41"
+        },
+        "silver": {
+          "en_US": "85",
+          "es_MX": "85",
+          "pt_BR": "85",
+          "de_DE": "85",
+          "en_GB": "85",
+          "es_ES": "85",
+          "fr_FR": "85",
+          "it_IT": "85",
+          "ru_RU": "85",
+          "ko_KR": "85",
+          "zh_TW": "85",
+          "zh_CN": "85"
+        },
+        "copper": {
+          "en_US": "10",
+          "es_MX": "10",
+          "pt_BR": "10",
+          "de_DE": "10",
+          "en_GB": "10",
+          "es_ES": "10",
+          "fr_FR": "10",
+          "it_IT": "10",
+          "ru_RU": "10",
+          "ko_KR": "10",
+          "zh_TW": "10",
+          "zh_CN": "10"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 70,
+        "display_string": {
+          "en_US": "Requires Level 70",
+          "es_MX": "Necesitas ser de nivel 70",
+          "pt_BR": "Requer o Nível 70",
+          "de_DE": "Benötigt Stufe 70",
+          "en_GB": "Requires Level 70",
+          "es_ES": "Necesitas ser de nivel 70",
+          "fr_FR": "Niveau 70 requis",
+          "it_IT": "Richiede il livello 70",
+          "ru_RU": "Требуется 70-й уровень",
+          "ko_KR": "최소 요구 레벨: 70",
+          "zh_TW": "需要等級70",
+          "zh_CN": "需要等级 70"
+        }
+      }
+    },
+    "level": {
+      "value": 415,
+      "display_string": {
+        "en_US": "Item Level 415",
+        "es_MX": "Nivel de objeto 415",
+        "pt_BR": "Nível do Item: 415",
+        "de_DE": "Gegenstandsstufe 415",
+        "en_GB": "Item Level 415",
+        "es_ES": "Nivel de objeto 415",
+        "fr_FR": "Niveau d'objet 415",
+        "it_IT": "Livello oggetto: 415",
+        "ru_RU": "Уровень предмета: 415",
+        "ko_KR": "아이템 레벨: 415",
+        "zh_TW": "物品等級415",
+        "zh_CN": "物品等级415"
+      }
+    },
+    "durability": {
+      "value": 115,
+      "display_string": {
+        "en_US": "Durability 115 / 115",
+        "es_MX": "Durabilidad 115 / 115",
+        "pt_BR": "Durabilidade 115 / 115",
+        "de_DE": "Haltbarkeit 115 / 115",
+        "en_GB": "Durability 115 / 115",
+        "es_ES": "Durabilidad 115 / 115",
+        "fr_FR": "Durabilité : 115 / 115",
+        "it_IT": "Integrità 115/115",
+        "ru_RU": "Прочность: 115 / 115",
+        "ko_KR": "내구도 115 / 115",
+        "zh_TW": "耐久度 115 / 115",
+        "zh_CN": "耐久度 115 / 115"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/81474?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 81474
+    }
+  ]
+}

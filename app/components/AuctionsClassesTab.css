@@ -1,0 +1,28 @@
+.auctions-classes-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.auctions-classes-tab-menu {
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.auctions-class-tab {
+  padding: 10px 15px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--muted-text);
+}
+
+.auctions-class-tab.selected {
+  background-color: var(--selected-bg);
+  border-bottom: 2px solid var(--accent-color);
+  font-weight: bold;
+  color: var(--light-text);
+}

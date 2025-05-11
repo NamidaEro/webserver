@@ -1,0 +1,578 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/30727?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 30727,
+  "name": {
+    "en_US": "Gilded Trousers of Benediction",
+    "es_MX": "Calzas doradas de oración",
+    "pt_BR": "Calçotes Dourados Benditos",
+    "de_DE": "Güldene Beinkleider der Segnung",
+    "en_GB": "Gilded Trousers of Benediction",
+    "es_ES": "Calzas doradas de oración",
+    "fr_FR": "Chausses dorées de bénédiction",
+    "it_IT": "Calzoni della Benedizione Dorati",
+    "ru_RU": "Позолоченные брюки благословения",
+    "ko_KR": "축복의 황금빛 바지",
+    "zh_TW": "祝福鍍金長褲",
+    "zh_CN": "镶金祈福长裤"
+  },
+  "quality": {
+    "type": "EPIC",
+    "name": {
+      "en_US": "Epic",
+      "es_MX": "Épico",
+      "pt_BR": "Épico",
+      "de_DE": "Episch",
+      "en_GB": "Epic",
+      "es_ES": "Épico",
+      "fr_FR": "Épique",
+      "it_IT": "Epico",
+      "ru_RU": "Эпическое",
+      "ko_KR": "영웅",
+      "zh_TW": "史詩",
+      "zh_CN": "史诗"
+    }
+  },
+  "level": 32,
+  "required_level": 27,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/30727?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 30727
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Armor",
+      "es_MX": "Armadura",
+      "pt_BR": "Armadura",
+      "de_DE": "Rüstung",
+      "en_GB": "Armor",
+      "es_ES": "Armadura",
+      "fr_FR": "Armure",
+      "it_IT": "Armature",
+      "ru_RU": "Доспехи",
+      "ko_KR": "방어구",
+      "zh_TW": "護甲",
+      "zh_CN": "护甲"
+    },
+    "id": 4
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Cloth",
+      "es_MX": "Tela",
+      "pt_BR": "Tecido",
+      "de_DE": "Stoff",
+      "en_GB": "Cloth",
+      "es_ES": "Tela",
+      "fr_FR": "Tissu",
+      "it_IT": "Stoffa",
+      "ru_RU": "Ткань",
+      "ko_KR": "천",
+      "zh_TW": "布甲",
+      "zh_CN": "布甲"
+    },
+    "id": 1
+  },
+  "inventory_type": {
+    "type": "LEGS",
+    "name": {
+      "en_US": "Legs",
+      "es_MX": "Piernas",
+      "pt_BR": "Pernas",
+      "de_DE": "Beine",
+      "en_GB": "Legs",
+      "es_ES": "Piernas",
+      "fr_FR": "Jambes",
+      "it_IT": "Gambe",
+      "ru_RU": "Ноги",
+      "ko_KR": "다리",
+      "zh_TW": "腿部",
+      "zh_CN": "腿部"
+    }
+  },
+  "purchase_price": 370805,
+  "sell_price": 74161,
+  "max_count": 0,
+  "is_equippable": true,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/30727?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 30727
+    },
+    "sockets": [
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": {
+            "en_US": "Prismatic Socket",
+            "es_MX": "Ranura prismática",
+            "pt_BR": "Engaste Prismático",
+            "de_DE": "Prismatischer Sockel",
+            "en_GB": "Prismatic Socket",
+            "es_ES": "Ranura prismática",
+            "fr_FR": "Châsse prismatique",
+            "it_IT": "Incavo Prismatico",
+            "ru_RU": "бесцветное гнездо",
+            "ko_KR": "다색 보석 홈",
+            "zh_TW": "多色插槽",
+            "zh_CN": "棱彩插槽"
+          }
+        }
+      },
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": {
+            "en_US": "Prismatic Socket",
+            "es_MX": "Ranura prismática",
+            "pt_BR": "Engaste Prismático",
+            "de_DE": "Prismatischer Sockel",
+            "en_GB": "Prismatic Socket",
+            "es_ES": "Ranura prismática",
+            "fr_FR": "Châsse prismatique",
+            "it_IT": "Incavo Prismatico",
+            "ru_RU": "бесцветное гнездо",
+            "ko_KR": "다색 보석 홈",
+            "zh_TW": "多色插槽",
+            "zh_CN": "棱彩插槽"
+          }
+        }
+      },
+      {
+        "socket_type": {
+          "type": "PRISMATIC",
+          "name": {
+            "en_US": "Prismatic Socket",
+            "es_MX": "Ranura prismática",
+            "pt_BR": "Engaste Prismático",
+            "de_DE": "Prismatischer Sockel",
+            "en_GB": "Prismatic Socket",
+            "es_ES": "Ranura prismática",
+            "fr_FR": "Châsse prismatique",
+            "it_IT": "Incavo Prismatico",
+            "ru_RU": "бесцветное гнездо",
+            "ko_KR": "다색 보석 홈",
+            "zh_TW": "多色插槽",
+            "zh_CN": "棱彩插槽"
+          }
+        }
+      }
+    ],
+    "quality": {
+      "type": "EPIC",
+      "name": {
+        "en_US": "Epic",
+        "es_MX": "Épico",
+        "pt_BR": "Épico",
+        "de_DE": "Episch",
+        "en_GB": "Epic",
+        "es_ES": "Épico",
+        "fr_FR": "Épique",
+        "it_IT": "Epico",
+        "ru_RU": "Эпическое",
+        "ko_KR": "영웅",
+        "zh_TW": "史詩",
+        "zh_CN": "史诗"
+      }
+    },
+    "name": {
+      "en_US": "Gilded Trousers of Benediction",
+      "es_MX": "Calzas doradas de oración",
+      "pt_BR": "Calçotes Dourados Benditos",
+      "de_DE": "Güldene Beinkleider der Segnung",
+      "en_GB": "Gilded Trousers of Benediction",
+      "es_ES": "Calzas doradas de oración",
+      "fr_FR": "Chausses dorées de bénédiction",
+      "it_IT": "Calzoni della Benedizione Dorati",
+      "ru_RU": "Позолоченные брюки благословения",
+      "ko_KR": "축복의 황금빛 바지",
+      "zh_TW": "祝福鍍金長褲",
+      "zh_CN": "镶金祈福长裤"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/30727?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 30727
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Armor",
+        "es_MX": "Armadura",
+        "pt_BR": "Armadura",
+        "de_DE": "Rüstung",
+        "en_GB": "Armor",
+        "es_ES": "Armadura",
+        "fr_FR": "Armure",
+        "it_IT": "Armature",
+        "ru_RU": "Доспехи",
+        "ko_KR": "방어구",
+        "zh_TW": "護甲",
+        "zh_CN": "护甲"
+      },
+      "id": 4
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/4/item-subclass/1?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Cloth",
+        "es_MX": "Tela",
+        "pt_BR": "Tecido",
+        "de_DE": "Stoff",
+        "en_GB": "Cloth",
+        "es_ES": "Tela",
+        "fr_FR": "Tissu",
+        "it_IT": "Stoffa",
+        "ru_RU": "Ткань",
+        "ko_KR": "천",
+        "zh_TW": "布甲",
+        "zh_CN": "布甲"
+      },
+      "id": 1
+    },
+    "inventory_type": {
+      "type": "LEGS",
+      "name": {
+        "en_US": "Legs",
+        "es_MX": "Piernas",
+        "pt_BR": "Pernas",
+        "de_DE": "Beine",
+        "en_GB": "Legs",
+        "es_ES": "Piernas",
+        "fr_FR": "Jambes",
+        "it_IT": "Gambe",
+        "ru_RU": "Ноги",
+        "ko_KR": "다리",
+        "zh_TW": "腿部",
+        "zh_CN": "腿部"
+      }
+    },
+    "binding": {
+      "type": "ON_EQUIP",
+      "name": {
+        "en_US": "Binds when equipped",
+        "es_MX": "Se liga al equiparlo",
+        "pt_BR": "Vincula-se quando equipado",
+        "de_DE": "Wird beim Anlegen gebunden",
+        "en_GB": "Binds when equipped",
+        "es_ES": "Se liga al equiparlo",
+        "fr_FR": "Lié quand équipé",
+        "it_IT": "Si vincola all'equipaggiamento",
+        "ru_RU": "Становится персональным при надевании",
+        "ko_KR": "착용 시 귀속",
+        "zh_TW": "裝備後綁定",
+        "zh_CN": "装备后绑定"
+      }
+    },
+    "armor": {
+      "value": 3,
+      "display": {
+        "display_string": {
+          "en_US": "3 Armor",
+          "es_MX": "3 p. de armadura",
+          "pt_BR": "3 de Armadura",
+          "de_DE": "3 Rüstung",
+          "en_GB": "3 Armor",
+          "es_ES": "3 p. de armadura",
+          "fr_FR": "Armure : 3",
+          "it_IT": "3 Armatura",
+          "ru_RU": "Броня: 3",
+          "ko_KR": "방어도 3",
+          "zh_TW": "3點護甲",
+          "zh_CN": "3点护甲"
+        },
+        "color": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 1
+        }
+      }
+    },
+    "stats": [
+      {
+        "type": {
+          "type": "INTELLECT",
+          "name": {
+            "en_US": "Intellect",
+            "es_MX": "intelecto",
+            "pt_BR": "Intelecto",
+            "de_DE": "Intelligenz",
+            "en_GB": "Intellect",
+            "es_ES": "intelecto",
+            "fr_FR": "Intelligence",
+            "it_IT": "Intelletto",
+            "ru_RU": "к интеллекту",
+            "ko_KR": "지능",
+            "zh_TW": "智力",
+            "zh_CN": "智力"
+          }
+        },
+        "value": 5,
+        "display": {
+          "display_string": {
+            "en_US": "+5 Intellect",
+            "es_MX": "+5 intelecto",
+            "pt_BR": "+5 Intelecto",
+            "de_DE": "+5 Intelligenz",
+            "en_GB": "+5 Intellect",
+            "es_ES": "+5 intelecto",
+            "fr_FR": "+5 Intelligence",
+            "it_IT": "+5 Intelletto",
+            "ru_RU": "+5 к интеллекту",
+            "ko_KR": "지능 +5",
+            "zh_TW": "+5智力",
+            "zh_CN": "+5 智力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "STAMINA",
+          "name": {
+            "en_US": "Stamina",
+            "es_MX": "aguante",
+            "pt_BR": "Vigor",
+            "de_DE": "Ausdauer",
+            "en_GB": "Stamina",
+            "es_ES": "aguante",
+            "fr_FR": "Endurance",
+            "it_IT": "Tempra",
+            "ru_RU": "к выносливости",
+            "ko_KR": "체력",
+            "zh_TW": "耐力",
+            "zh_CN": "耐力"
+          }
+        },
+        "value": 3,
+        "display": {
+          "display_string": {
+            "en_US": "+3 Stamina",
+            "es_MX": "+3 aguante",
+            "pt_BR": "+3 Vigor",
+            "de_DE": "+3 Ausdauer",
+            "en_GB": "+3 Stamina",
+            "es_ES": "+3 aguante",
+            "fr_FR": "+3 Endurance",
+            "it_IT": "+3 Tempra",
+            "ru_RU": "+3 к выносливости",
+            "ko_KR": "체력 +3",
+            "zh_TW": "+3耐力",
+            "zh_CN": "+3 耐力"
+          },
+          "color": {
+            "r": 255,
+            "g": 255,
+            "b": 255,
+            "a": 1
+          }
+        }
+      },
+      {
+        "type": {
+          "type": "VERSATILITY",
+          "name": {
+            "en_US": "Versatility",
+            "es_MX": "versatilidad",
+            "pt_BR": "Versatilidade",
+            "de_DE": "Vielseitigkeit",
+            "en_GB": "Versatility",
+            "es_ES": "versatilidad",
+            "fr_FR": "Polyvalence",
+            "it_IT": "Indice di versatilità",
+            "ru_RU": "к универсальности",
+            "ko_KR": "유연성",
+            "zh_TW": "臨機應變",
+            "zh_CN": "全能"
+          }
+        },
+        "value": 4,
+        "is_equip_bonus": true,
+        "display": {
+          "display_string": {
+            "en_US": "+4 Versatility",
+            "es_MX": "+4 versatilidad",
+            "pt_BR": "+4 Versatilidade",
+            "de_DE": "+4 Vielseitigkeit",
+            "en_GB": "+4 Versatility",
+            "es_ES": "+4 versatilidad",
+            "fr_FR": "+4 Polyvalence",
+            "it_IT": "+4 Indice di versatilità",
+            "ru_RU": "+4 к универсальности",
+            "ko_KR": "유연성 +4",
+            "zh_TW": "+4臨機應變",
+            "zh_CN": "+4 全能"
+          },
+          "color": {
+            "r": 0,
+            "g": 255,
+            "b": 0,
+            "a": 1
+          }
+        }
+      }
+    ],
+    "socket_bonus": {
+      "en_US": "Socket Bonus: +2 Spell Power",
+      "es_MX": "Bonus ranura: +2 poder con hechizos",
+      "pt_BR": "Bônus de engaste: +2 de Poder Mágico",
+      "de_DE": "Sockelbonus: +2 Zaubermacht",
+      "en_GB": "Socket Bonus: +2 Spell Power",
+      "es_ES": "Bonus ranura: +2 poder con hechizos",
+      "fr_FR": "Bonus de sertissage : +2 à la Puissance des sorts",
+      "it_IT": "Bonus incavo: +2 Potenza Magica",
+      "ru_RU": "При соответствии цвета: +2 к силе заклинаний",
+      "ko_KR": "보석 장착 보너스: 주문력 +2",
+      "zh_TW": "插槽加成：+2法術能量",
+      "zh_CN": "镶孔奖励：+2 法术强度"
+    },
+    "sell_price": {
+      "value": 304,
+      "display_strings": {
+        "header": {
+          "en_US": "Sell Price:",
+          "es_MX": "Precio de venta:",
+          "pt_BR": "Preço de Venda:",
+          "de_DE": "Verkaufspreis:",
+          "en_GB": "Sell Price:",
+          "es_ES": "Precio de venta:",
+          "fr_FR": "Prix de vente :",
+          "it_IT": "Prezzo di vendita:",
+          "ru_RU": "Цена продажи:",
+          "ko_KR": "판매 가격:",
+          "zh_TW": "售價:",
+          "zh_CN": "卖价:"
+        },
+        "gold": {
+          "en_US": "0",
+          "es_MX": "0",
+          "pt_BR": "0",
+          "de_DE": "0",
+          "en_GB": "0",
+          "es_ES": "0",
+          "fr_FR": "0",
+          "it_IT": "0",
+          "ru_RU": "0",
+          "ko_KR": "0",
+          "zh_TW": "0",
+          "zh_CN": "0"
+        },
+        "silver": {
+          "en_US": "3",
+          "es_MX": "3",
+          "pt_BR": "3",
+          "de_DE": "3",
+          "en_GB": "3",
+          "es_ES": "3",
+          "fr_FR": "3",
+          "it_IT": "3",
+          "ru_RU": "3",
+          "ko_KR": "3",
+          "zh_TW": "3",
+          "zh_CN": "3"
+        },
+        "copper": {
+          "en_US": "4",
+          "es_MX": "4",
+          "pt_BR": "4",
+          "de_DE": "4",
+          "en_GB": "4",
+          "es_ES": "4",
+          "fr_FR": "4",
+          "it_IT": "4",
+          "ru_RU": "4",
+          "ko_KR": "4",
+          "zh_TW": "4",
+          "zh_CN": "4"
+        }
+      }
+    },
+    "requirements": {
+      "level": {
+        "value": 27,
+        "display_string": {
+          "en_US": "Requires Level 27",
+          "es_MX": "Necesitas ser de nivel 27",
+          "pt_BR": "Requer o Nível 27",
+          "de_DE": "Benötigt Stufe 27",
+          "en_GB": "Requires Level 27",
+          "es_ES": "Necesitas ser de nivel 27",
+          "fr_FR": "Niveau 27 requis",
+          "it_IT": "Richiede il livello 27",
+          "ru_RU": "Требуется 27-й уровень",
+          "ko_KR": "최소 요구 레벨: 27",
+          "zh_TW": "需要等級27",
+          "zh_CN": "需要等级 27"
+        }
+      }
+    },
+    "level": {
+      "value": 32,
+      "display_string": {
+        "en_US": "Item Level 32",
+        "es_MX": "Nivel de objeto 32",
+        "pt_BR": "Nível do Item: 32",
+        "de_DE": "Gegenstandsstufe 32",
+        "en_GB": "Item Level 32",
+        "es_ES": "Nivel de objeto 32",
+        "fr_FR": "Niveau d'objet 32",
+        "it_IT": "Livello oggetto: 32",
+        "ru_RU": "Уровень предмета: 32",
+        "ko_KR": "아이템 레벨: 32",
+        "zh_TW": "物品等級32",
+        "zh_CN": "物品等级32"
+      }
+    },
+    "durability": {
+      "value": 120,
+      "display_string": {
+        "en_US": "Durability 120 / 120",
+        "es_MX": "Durabilidad 120 / 120",
+        "pt_BR": "Durabilidade 120 / 120",
+        "de_DE": "Haltbarkeit 120 / 120",
+        "en_GB": "Durability 120 / 120",
+        "es_ES": "Durabilidad 120 / 120",
+        "fr_FR": "Durabilité : 120 / 120",
+        "it_IT": "Integrità 120/120",
+        "ru_RU": "Прочность: 120 / 120",
+        "ko_KR": "내구도 120 / 120",
+        "zh_TW": "耐久度 120 / 120",
+        "zh_CN": "耐久度 120 / 120"
+      }
+    }
+  },
+  "purchase_quantity": 1,
+  "appearances": [
+    {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-appearance/6321?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 6321
+    }
+  ]
+}

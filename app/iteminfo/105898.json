@@ -1,0 +1,282 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/105898?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 105898,
+  "name": {
+    "en_US": "Moonfang's Paw",
+    "es_MX": "Zarpa de Dienteluna",
+    "pt_BR": "Pata de Presa Lunar",
+    "de_DE": "Mondfangs Pfote",
+    "en_GB": "Moonfang's Paw",
+    "es_ES": "Zarpa de Dienteluna",
+    "fr_FR": "Patte de Croc-de-Lune",
+    "it_IT": "Artiglio di Zannastrale",
+    "ru_RU": "Лапа Лунной волчицы",
+    "ko_KR": "달송곳니의 앞발",
+    "zh_TW": "月牙之爪",
+    "zh_CN": "月牙的爪子"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 0,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/105898?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 105898
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Consumable",
+      "es_MX": "Consumible",
+      "pt_BR": "Consumível",
+      "de_DE": "Verbrauchbares",
+      "en_GB": "Consumable",
+      "es_ES": "Consumible",
+      "fr_FR": "Consommable",
+      "it_IT": "Consumabili",
+      "ru_RU": "Расходуемые",
+      "ko_KR": "소비용품",
+      "zh_TW": "消耗品",
+      "zh_CN": "消耗品"
+    },
+    "id": 0
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Other",
+      "es_MX": "Otros",
+      "pt_BR": "Outro",
+      "de_DE": "Sonstiges",
+      "en_GB": "Other",
+      "es_ES": "Otros",
+      "fr_FR": "Autres",
+      "it_IT": "Altro",
+      "ru_RU": "Другое",
+      "ko_KR": "기타",
+      "zh_TW": "其他",
+      "zh_CN": "其它"
+    },
+    "id": 8
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/105898?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 105898
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Moonfang's Paw",
+      "es_MX": "Zarpa de Dienteluna",
+      "pt_BR": "Pata de Presa Lunar",
+      "de_DE": "Mondfangs Pfote",
+      "en_GB": "Moonfang's Paw",
+      "es_ES": "Zarpa de Dienteluna",
+      "fr_FR": "Patte de Croc-de-Lune",
+      "it_IT": "Artiglio di Zannastrale",
+      "ru_RU": "Лапа Лунной волчицы",
+      "ko_KR": "달송곳니의 앞발",
+      "zh_TW": "月牙之爪",
+      "zh_CN": "月牙的爪子"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/105898?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 105898
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Consumable",
+        "es_MX": "Consumible",
+        "pt_BR": "Consumível",
+        "de_DE": "Verbrauchbares",
+        "en_GB": "Consumable",
+        "es_ES": "Consumible",
+        "fr_FR": "Consommable",
+        "it_IT": "Consumabili",
+        "ru_RU": "Расходуемые",
+        "ko_KR": "소비용품",
+        "zh_TW": "消耗品",
+        "zh_CN": "消耗品"
+      },
+      "id": 0
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/0/item-subclass/8?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Other",
+        "es_MX": "Otros",
+        "pt_BR": "Outro",
+        "de_DE": "Sonstiges",
+        "en_GB": "Other",
+        "es_ES": "Otros",
+        "fr_FR": "Autres",
+        "it_IT": "Altro",
+        "ru_RU": "Другое",
+        "ko_KR": "기타",
+        "zh_TW": "其他",
+        "zh_CN": "其它"
+      },
+      "id": 8
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "binding": {
+      "type": "ON_USE",
+      "name": {
+        "en_US": "Binds when used",
+        "es_MX": "Se liga al usarlo",
+        "pt_BR": "Vincula-se quando usado",
+        "de_DE": "Wird bei Benutzung gebunden",
+        "en_GB": "Binds when used",
+        "es_ES": "Se liga al usarlo",
+        "fr_FR": "Lié quand utilisé",
+        "it_IT": "Si vincola all'uso",
+        "ru_RU": "Становится персональным при использовании",
+        "ko_KR": "사용 시 귀속",
+        "zh_TW": "使用後綁定",
+        "zh_CN": "使用后绑定"
+      }
+    },
+    "spells": [
+      {
+        "spell": {
+          "key": {
+            "href": "https://kr.api.blizzard.com/data/wow/spell/145255?namespace=static-11.1.5_60179-kr"
+          },
+          "name": {
+            "en_US": "Aspect of Moonfang",
+            "es_MX": "Aspecto de Dienteluna",
+            "pt_BR": "Aspecto de Presa Lunar",
+            "de_DE": "Aspekt von Mondfang",
+            "en_GB": "Aspect of Moonfang",
+            "es_ES": "Aspecto de Dienteluna",
+            "fr_FR": "Aspect de Croc-de-Lune",
+            "it_IT": "Aspetto di Zannastrale",
+            "ru_RU": "Облик Лунной волчицы",
+            "ko_KR": "달송곳니의 상",
+            "zh_TW": "月牙守護",
+            "zh_CN": "月牙之影"
+          },
+          "id": 145255
+        },
+        "description": {
+          "en_US": "Use: Adds this toy to your Toy Box.\n\nAssume the aspect of Moonfang for 10 min. (1 Hr Cooldown)",
+          "es_MX": "Uso: Añade este juguete a tu caja de juguetes.\n\nAdoptas el aspecto de Dienteluna durante 10 min. (1 h de tiempo de reutilización)",
+          "pt_BR": "Usar: Adiciona este brinquedo à sua Caixa de Brinquedo.\n\nAssume o Aspecto de Presa Lunar por 10 min. (1 H de recarga)",
+          "de_DE": "Benutzen: Fügt dieses Spielzeug Eurer Spielzeugkiste hinzu.\n\nLässt Euch für 10 Min. den Aspekt von Mondfang annehmen. (1 Std. Abklingzeit)",
+          "en_GB": "Use: Adds this toy to your Toy Box.\n\nAssume the aspect of Moonfang for 10 min. (1 Hr Cooldown)",
+          "es_ES": "Uso: Añade este juguete a tu caja de juguetes.\n\nAdoptas el aspecto de Dienteluna durante 10 min. (1 h de tiempo de reutilización).",
+          "fr_FR": "Utiliser : ajoute ce jouet à votre collection.\n\nPrend l’apparence de Croc-de-Lune pendant 10 min. (1 h de recharge)",
+          "it_IT": "Usa: Aggiunge questo giocattolo alla tua collezione.\n\nAssumi l'aspetto di Zannastrale per 10 min. (1 ora di recupero)",
+          "ru_RU": "Использование: добавить игрушку в коллекцию.\n\nПринять облик Лунной волчицы на 10 мин. (Восстановление: 1 ч.)",
+          "ko_KR": "사용 효과: 이 장난감을 장난감 상자에 추가합니다.\n\n10분 동안 달송곳니의 상을 취합니다. (1시간 후 재사용 가능)",
+          "zh_TW": "使用：將這個玩具加入你的玩具箱。\n\n進入月牙守護狀態，持續10分鐘。 (1小時冷卻時間)",
+          "zh_CN": "使用：将该玩具添加到你的玩具箱。\n\n变成月牙的模样，持续10分钟。 （1小时冷却）"
+        }
+      }
+    ],
+    "is_subclass_hidden": true,
+    "toy": {
+      "en_US": "Toy",
+      "es_MX": "Juguete",
+      "pt_BR": "Brinquedo",
+      "de_DE": "Spielzeug",
+      "en_GB": "Toy",
+      "es_ES": "Juguete",
+      "fr_FR": "Jouet",
+      "it_IT": "Giocattolo",
+      "ru_RU": "Игрушка",
+      "ko_KR": "장난감",
+      "zh_TW": "玩具",
+      "zh_CN": "玩具"
+    }
+  },
+  "purchase_quantity": 1
+}

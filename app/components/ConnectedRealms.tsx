@@ -24,12 +24,11 @@ const ConnectedRealms: React.FC = () => {
             if (!realmResponse.ok) {
               console.error(`Failed to fetch details for realm ID: ${realmId}`, await realmResponse.text());
               throw new Error(`Failed to fetch details for realm ID: ${realmId}`);
-            }
-            const realmData = await realmResponse.json();
-            // console.log('Realm Data:', realmData);
+            }            const realmData = await realmResponse.json();
+            console.log('Realm Data:', realmData);
             return {
               id: realmData.id,
-              name: realmData.realms[0]?.name?.ko_KR || 'Unknown',
+              name: realmData.realms[0]?.name || 'Unknown',
             };
           })
         );

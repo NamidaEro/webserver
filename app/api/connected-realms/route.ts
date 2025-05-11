@@ -3,7 +3,7 @@ import OAuthClient from '../../oauth/client';
 
 const REGION = process.env.REGION || 'kr';
 const API_BASE_URL = `https://${REGION}.api.blizzard.com/data/wow`;
-const LOCALE = process.env.LOCALE?.replace('-', '_') || 'ko_KR';
+const LOCALE = 'ko_KR'; // 명시적으로 ko_KR로 설정
 
 const oauthClient = new OAuthClient({
   client: {

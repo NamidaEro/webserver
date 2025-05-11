@@ -1,0 +1,277 @@
+{
+  "_links": {
+    "self": {
+      "href": "https://kr.api.blizzard.com/data/wow/item/71638?namespace=static-11.1.5_60179-kr"
+    }
+  },
+  "id": 71638,
+  "name": {
+    "en_US": "Ornate Weapon",
+    "es_MX": "Arma ornamentada",
+    "pt_BR": "Arma Ornamentada",
+    "de_DE": "Verzierte Waffe",
+    "en_GB": "Ornate Weapon",
+    "es_ES": "Arma ornamentada",
+    "fr_FR": "Arme ornée",
+    "it_IT": "Arma Decorata",
+    "ru_RU": "Богато украшенный клинок",
+    "ko_KR": "화려한 무기",
+    "zh_TW": "華麗武器",
+    "zh_CN": "精美的武器"
+  },
+  "quality": {
+    "type": "RARE",
+    "name": {
+      "en_US": "Rare",
+      "es_MX": "Raro",
+      "pt_BR": "Raro",
+      "de_DE": "Selten",
+      "en_GB": "Rare",
+      "es_ES": "Raro",
+      "fr_FR": "Rare",
+      "it_IT": "Raro",
+      "ru_RU": "Редкое",
+      "ko_KR": "희귀",
+      "zh_TW": "精良",
+      "zh_CN": "精良"
+    }
+  },
+  "level": 1,
+  "required_level": 1,
+  "media": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/media/item/71638?namespace=static-11.1.5_60179-kr"
+    },
+    "id": 71638
+  },
+  "item_class": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Quest",
+      "es_MX": "Misión",
+      "pt_BR": "Missão",
+      "de_DE": "Quest",
+      "en_GB": "Quest",
+      "es_ES": "Misión",
+      "fr_FR": "Quête",
+      "it_IT": "Oggetti di missione",
+      "ru_RU": "Задание",
+      "ko_KR": "퀘스트",
+      "zh_TW": "任務",
+      "zh_CN": "任务"
+    },
+    "id": 12
+  },
+  "item_subclass": {
+    "key": {
+      "href": "https://kr.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.5_60179-kr"
+    },
+    "name": {
+      "en_US": "Quest",
+      "es_MX": "Misión",
+      "pt_BR": "Missão",
+      "de_DE": "Quest",
+      "en_GB": "Quest",
+      "es_ES": "Misión",
+      "fr_FR": "Quête",
+      "it_IT": "Missione",
+      "ru_RU": "Задания",
+      "ko_KR": "퀘스트",
+      "zh_TW": "任務",
+      "zh_CN": "任务"
+    },
+    "id": 0
+  },
+  "inventory_type": {
+    "type": "NON_EQUIP",
+    "name": {
+      "en_US": "Non-equippable",
+      "es_MX": "No equipable",
+      "pt_BR": "Não equipável",
+      "de_DE": "Nicht anlegbar",
+      "en_GB": "Non-equippable",
+      "es_ES": "No se puede equipar",
+      "fr_FR": "Objet hors équipement",
+      "it_IT": "Non equipaggiabile",
+      "ru_RU": "Неэкипируемое",
+      "ko_KR": "착용 불가",
+      "zh_TW": "無法裝備",
+      "zh_CN": "无法装备"
+    }
+  },
+  "purchase_price": 0,
+  "sell_price": 0,
+  "max_count": 0,
+  "is_equippable": false,
+  "is_stackable": false,
+  "description": {
+    "en_US": "This weapon seems as beautiful as it is deadly. Someone at the Darkmoon Faire would probably be interested in acquiring it.",
+    "es_MX": "Esta arma parece tan bonita como letal. Alguien de la Feria de la Luna Negra podía estar interesado en adquirirla.",
+    "pt_BR": "Esta arma parece tão bonita quanto letal. Alguém da Feira de Negraluna deve se interessar em obtê-la.",
+    "de_DE": "Diese Waffe ist ebenso schön, wie tödlich. Jemand vom Dunkelmond-Jahrmarkt würde sie sicherlich gern erwerben.",
+    "en_GB": "This weapon seems as beautiful as it is deadly. Someone at the Darkmoon Faire would probably be interested in acquiring it.",
+    "es_ES": "Esta arma parece tan bonita como letal. Alguien de la Feria de la Luna Negra podía estar interesado en adquirirla.",
+    "fr_FR": "Cette arme semble aussi belle que mortelle. Elle pourrait intéresser quelqu'un à la foire de Sombrelune.",
+    "it_IT": "Quest'arma appare tanto splendida quanto letale. Potrebbe interessare a qualcuno della Fiera di Lunacupa.",
+    "ru_RU": "Этот клинок столь же красив, сколь и опасен. На ярмарке Новолуния наверняка найдется кто-то, кому захочется приобрести его.",
+    "ko_KR": "화려한 만큼 위력적인 무기입니다. 다크문 유랑단의 누군가가 관심을 보일지도 모릅니다.",
+    "zh_TW": "這把外觀精雕細琢的武器用起來也是銳不可擋。暗月馬戲團裡也許有人會想要擁有它。",
+    "zh_CN": "这把武器不仅精美，而且致命。暗月马戏团里可能有人对它感兴趣。"
+  },
+  "preview_item": {
+    "item": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item/71638?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 71638
+    },
+    "quality": {
+      "type": "RARE",
+      "name": {
+        "en_US": "Rare",
+        "es_MX": "Raro",
+        "pt_BR": "Raro",
+        "de_DE": "Selten",
+        "en_GB": "Rare",
+        "es_ES": "Raro",
+        "fr_FR": "Rare",
+        "it_IT": "Raro",
+        "ru_RU": "Редкое",
+        "ko_KR": "희귀",
+        "zh_TW": "精良",
+        "zh_CN": "精良"
+      }
+    },
+    "name": {
+      "en_US": "Ornate Weapon",
+      "es_MX": "Arma ornamentada",
+      "pt_BR": "Arma Ornamentada",
+      "de_DE": "Verzierte Waffe",
+      "en_GB": "Ornate Weapon",
+      "es_ES": "Arma ornamentada",
+      "fr_FR": "Arme ornée",
+      "it_IT": "Arma Decorata",
+      "ru_RU": "Богато украшенный клинок",
+      "ko_KR": "화려한 무기",
+      "zh_TW": "華麗武器",
+      "zh_CN": "精美的武器"
+    },
+    "media": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/media/item/71638?namespace=static-11.1.5_60179-kr"
+      },
+      "id": 71638
+    },
+    "item_class": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/12?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Quest",
+        "es_MX": "Misión",
+        "pt_BR": "Missão",
+        "de_DE": "Quest",
+        "en_GB": "Quest",
+        "es_ES": "Misión",
+        "fr_FR": "Quête",
+        "it_IT": "Oggetti di missione",
+        "ru_RU": "Задание",
+        "ko_KR": "퀘스트",
+        "zh_TW": "任務",
+        "zh_CN": "任务"
+      },
+      "id": 12
+    },
+    "item_subclass": {
+      "key": {
+        "href": "https://kr.api.blizzard.com/data/wow/item-class/12/item-subclass/0?namespace=static-11.1.5_60179-kr"
+      },
+      "name": {
+        "en_US": "Quest",
+        "es_MX": "Misión",
+        "pt_BR": "Missão",
+        "de_DE": "Quest",
+        "en_GB": "Quest",
+        "es_ES": "Misión",
+        "fr_FR": "Quête",
+        "it_IT": "Missione",
+        "ru_RU": "Задания",
+        "ko_KR": "퀘스트",
+        "zh_TW": "任務",
+        "zh_CN": "任务"
+      },
+      "id": 0
+    },
+    "inventory_type": {
+      "type": "NON_EQUIP",
+      "name": {
+        "en_US": "Non-equippable",
+        "es_MX": "No equipable",
+        "pt_BR": "Não equipável",
+        "de_DE": "Nicht anlegbar",
+        "en_GB": "Non-equippable",
+        "es_ES": "No se puede equipar",
+        "fr_FR": "Objet hors équipement",
+        "it_IT": "Non equipaggiabile",
+        "ru_RU": "Неэкипируемое",
+        "ko_KR": "착용 불가",
+        "zh_TW": "無法裝備",
+        "zh_CN": "无法装备"
+      }
+    },
+    "description": {
+      "en_US": "This weapon seems as beautiful as it is deadly. Someone at the Darkmoon Faire would probably be interested in acquiring it.",
+      "es_MX": "Esta arma parece tan bonita como letal. Alguien de la Feria de la Luna Negra podía estar interesado en adquirirla.",
+      "pt_BR": "Esta arma parece tão bonita quanto letal. Alguém da Feira de Negraluna deve se interessar em obtê-la.",
+      "de_DE": "Diese Waffe ist ebenso schön, wie tödlich. Jemand vom Dunkelmond-Jahrmarkt würde sie sicherlich gern erwerben.",
+      "en_GB": "This weapon seems as beautiful as it is deadly. Someone at the Darkmoon Faire would probably be interested in acquiring it.",
+      "es_ES": "Esta arma parece tan bonita como letal. Alguien de la Feria de la Luna Negra podía estar interesado en adquirirla.",
+      "fr_FR": "Cette arme semble aussi belle que mortelle. Elle pourrait intéresser quelqu'un à la foire de Sombrelune.",
+      "it_IT": "Quest'arma appare tanto splendida quanto letale. Potrebbe interessare a qualcuno della Fiera di Lunacupa.",
+      "ru_RU": "Этот клинок столь же красив, сколь и опасен. На ярмарке Новолуния наверняка найдется кто-то, кому захочется приобрести его.",
+      "ko_KR": "화려한 만큼 위력적인 무기입니다. 다크문 유랑단의 누군가가 관심을 보일지도 모릅니다.",
+      "zh_TW": "這把外觀精雕細琢的武器用起來也是銳不可擋。暗月馬戲團裡也許有人會想要擁有它。",
+      "zh_CN": "这把武器不仅精美，而且致命。暗月马戏团里可能有人对它感兴趣。"
+    },
+    "item_starts_quest": {
+      "quest": {
+        "key": {
+          "href": "https://kr.api.blizzard.com/data/wow/quest/29446?namespace=static-11.1.5_60179-kr"
+        },
+        "name": {
+          "en_US": "A Wondrous Weapon",
+          "es_MX": "Un arma asombrosa",
+          "pt_BR": "Uma arma magnífica",
+          "de_DE": "Eine wundersame Waffe",
+          "en_GB": "A Wondrous Weapon",
+          "es_ES": "Un arma asombrosa",
+          "fr_FR": "Une arme extraordinaire",
+          "it_IT": "Un'arma meravigliosa",
+          "ru_RU": "Изумительное оружие",
+          "ko_KR": "화려한 무기",
+          "zh_TW": "珍稀的武器",
+          "zh_CN": "精美的武器"
+        },
+        "id": 29446
+      },
+      "display_string": {
+        "en_US": "This Item Begins a Quest",
+        "es_MX": "Este objeto inicia una misión",
+        "pt_BR": "Este item inicia uma missão",
+        "de_DE": "Dieser Gegenstand startet eine Quest.",
+        "en_GB": "This Item Begins a Quest",
+        "es_ES": "Este objeto inicia una misión",
+        "fr_FR": "Cet objet permet de lancer une quête",
+        "it_IT": "Questo oggetto avvia una missione",
+        "ru_RU": "Этот предмет позволяет получить задание.",
+        "ko_KR": "퀘스트 시작 아이템",
+        "zh_TW": "該物品將觸發一個任務",
+        "zh_CN": "该物品将触发一个任务"
+      }
+    },
+    "is_subclass_hidden": true
+  },
+  "purchase_quantity": 1
+}

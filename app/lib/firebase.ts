@@ -1,6 +1,7 @@
 // Firebase 설정 및 초기화 파일
 import { initializeApp, getApps } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
+import { getAuth, connectAuthEmulator } from 'firebase/auth';
 
 // Firebase 구성 - 실제 프로젝트에서는 환경 변수를 사용하세요
 const firebaseConfig = {
@@ -18,4 +19,12 @@ const app = !getApps().length ? initializeApp(firebaseConfig) : getApps()[0];
 // Firestore 인스턴스 얻기
 const db = getFirestore(app);
 
-export { app, db };
+// Authentication 인스턴스 얻기
+const auth = getAuth(app);
+
+// 개발 환경에서 에뮬레이터 사용 시 (선택사항)
+// if (process.env.NODE_ENV === 'development') {
+//   connectAuthEmulator(auth, 'http://localhost:9099');
+// }
+
+export { app, db, auth };

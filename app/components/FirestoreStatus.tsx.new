@@ -1,0 +1,17 @@
+'use client';
+
+import React from 'react';
+
+/**
+ * FirestoreStatus 컴포넌트 - 현재 비활성화됨
+ * 
+ * 이 컴포넌트는 현재 비활성화되어 있습니다.
+ * 활성화하려면 FirestoreStatus.tsx.bak 파일에서 전체 구현을 복원하세요.
+ * page.tsx에서도 해당 컴포넌트 주석을 해제해야 합니다.
+ */
+const FirestoreStatus: React.FC = () => {
+  // 빈 컴포넌트를 반환합니다 - Firebase 상태 표시가 숨겨짐
+  return null;
+};
+
+export default FirestoreStatus;

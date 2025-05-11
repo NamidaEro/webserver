@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import CurrencyConverter from './CurrencyConverter';
 import AuctionsClassesTab from './AuctionsClassesTab';
+import { saveAuctionsToFirestore, getAuctionsFromFirestore } from '../lib/firestoreService';
 
 interface AuctionsProps {
   realmId: string | null;
@@ -29,7 +30,9 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
   const [selectedItemClasses, setSelectedItemClasses] = useState<number[]>([]);
   const [selectedSubclasses, setSelectedSubclasses] = useState<number[]>([]);
   const [filteredAuctions, setFilteredAuctions] = useState<Auction[]>([]);
-  const [selectedClassId, setSelectedClassId] = useState<number | null>(null);  const itemsPerPage = 10;
+  const [selectedClassId, setSelectedClassId] = useState<number | null>(null);
+  const [saveStatus, setSaveStatus] = useState<string | null>(null);
+  const itemsPerPage = 10;
 
   const itemDetailsCache = useMemo(() => new Map<number, { 
     itemClassId: number | null; 
@@ -150,17 +153,73 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
 
     const fetchAuctions = async () => {
       setLoading(true);
-      setError(null);
-      try {
+      setError(null);      try {
+        // 먼저 Firestore에서 데이터 확인 시도
+        try {
+          const firestoreAuctions = await getAuctionsFromFirestore(realmId);
+          if (firestoreAuctions.length > 0) {
+            console.log('Using cached auction data from Firestore');
+            // Firestore 데이터를 Auction 타입에 맞게 변환
+            const auctionsData: Auction[] = firestoreAuctions.map(item => ({
+              id: item.id,
+              item: { id: item.itemId || 0 },
+              buyout: item.buyout,
+              itemClassId: item.itemClassId,
+              itemSubclassId: item.itemSubclassId,
+              itemName: item.itemName
+            }));
+            setAuctions(auctionsData);
+            setFilteredAuctions(auctionsData);
+            setLoading(false);
+            setSaveStatus('Firestore 캐시에서 데이터를 불러왔습니다');
+            return;
+          }
+        } catch (firestoreError) {
+          console.error('Error fetching from Firestore, falling back to API:', firestoreError);
+          // 권한 오류인지 확인
+          const errorMessage = String(firestoreError);
+          if (errorMessage.includes('permission') || errorMessage.includes('denied')) {
+            setSaveStatus('Firestore 권한 오류: Firebase 보안 규칙을 확인하세요');
+          }
+        }
+
+        // Firestore에 데이터가 없으면 API에서 가져오기
         const response = await fetch(`/api/auctions?realmId=${realmId}`);
         if (!response.ok) {
           const errorDetails = await response.json();
           throw new Error(errorDetails.error || 'Failed to fetch auctions');
         }
         const data = await response.json();
-        console.log('Fetched auctions data:', data);
-        setAuctions(data.auctions || []);
-        setFilteredAuctions(data.auctions || []);
+        console.log('Fetched auctions data from API:', data);
+        
+        const fetchedAuctions = data.auctions || [];
+        setAuctions(fetchedAuctions);
+        setFilteredAuctions(fetchedAuctions);
+          // Firestore에 데이터 저장 시도
+        if (fetchedAuctions.length > 0) {
+          try {
+            const savedIds = await saveAuctionsToFirestore(fetchedAuctions, realmId);
+            console.log('Successfully saved auctions to Firestore');
+            
+            if (savedIds.length === 0) {
+              // 권한 오류로 인해 저장이 안 된 경우
+              setSaveStatus('Firestore 권한 오류: Firebase 보안 규칙을 확인하세요 (FIREBASE_SECURITY_RULES.md 참조)');
+            } else {
+              setSaveStatus(`${savedIds.length}개 아이템 데이터가 Firestore에 캐시되었습니다`);
+            }
+          } catch (saveError: any) {
+            console.error('Failed to save auctions to Firestore:', saveError);
+            
+            // 에러 메시지 분석하여 사용자 친화적인 메시지 표시
+            const errorMessage = String(saveError);
+            if (errorMessage.includes('permission') || errorMessage.includes('denied') || 
+                (saveError.code && saveError.code.includes('permission'))) {
+              setSaveStatus('Firestore 권한 오류: Firebase 보안 규칙을 확인하세요 (FIREBASE_SECURITY_RULES.md 참조)');
+            } else {
+              setSaveStatus('Firestore 캐시 저장 실패: ' + (saveError.message || '알 수 없는 오류'));
+            }
+          }
+        }
       } catch (err) {
         setError(err instanceof Error ? err.message : 'An unknown error occurred');
       } finally {
@@ -276,6 +335,19 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
       />
 
       {/* 경매 목록 표시 */}
+      <div style={{ display: 'flex', justifyContent: 'center', margin: '10px 0' }}>
+        {saveStatus && (
+          <div style={{ 
+            padding: '5px 10px', 
+            borderRadius: '4px', 
+            backgroundColor: saveStatus.includes('Failed') ? '#ffdddd' : '#ddffdd',
+            color: saveStatus.includes('Failed') ? '#990000' : '#006600'
+          }}>
+            {saveStatus}
+          </div>
+        )}
+      </div>
+      
       <table style={{ borderCollapse: 'collapse', width: '100%', margin: '0 auto' }}>
           <thead>
             <tr>

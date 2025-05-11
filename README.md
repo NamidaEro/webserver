@@ -6,6 +6,21 @@ This is a Next.js-based webserver project designed to be deployed using Docker a
 - Built with Next.js
 - Dockerized for easy deployment
 - CI/CD pipeline using GitHub Actions
+- Firebase Firestore data caching
+- WoW Auction House data API integration
+
+## Firebase Firestore Integration
+This project uses Firebase Firestore for caching data from external APIs:
+
+1. **Data Persistence**: Auction data fetched from WoW API is stored in Firestore
+2. **Performance Optimization**: Reduces API calls by reusing cached data
+3. **Status Monitoring**: UI component displays the current state of cached data
+
+### Firebase Setup
+1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
+2. Set up Firestore database
+3. Configure security rules (see `FIREBASE_SECURITY_RULES.md` and `firestore.rules`)
+4. Add Firebase configuration to your environment variables
 
 ## How to Run Locally
 1. Install dependencies:

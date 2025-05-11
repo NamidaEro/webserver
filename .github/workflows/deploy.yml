@@ -43,29 +43,25 @@ jobs:
           mkdir -p /home/azureuser/webserver
           
           # Create or overwrite the .env file with environment variables from secrets
-          cat > /home/azureuser/webserver/.env << EOL
-          NODE_ENV=production
-          REGION=kr
-          LOCALE=ko_KR
-          CLIENT_ID=${{ secrets.CLIENT_ID }}
-          CLIENT_SECRET=${{ secrets.CLIENT_SECRET }}
-          OAUTH_TOKEN_HOST=https://kr.battle.net
-          NEXT_PUBLIC_LOCALE=ko_KR
-          EOL
+          echo "NODE_ENV=production" > /home/azureuser/webserver/.env
+          echo "REGION=kr" >> /home/azureuser/webserver/.env
+          echo "LOCALE=ko_KR" >> /home/azureuser/webserver/.env
+          echo "CLIENT_ID=${{ secrets.CLIENT_ID }}" >> /home/azureuser/webserver/.env
+          echo "CLIENT_SECRET=${{ secrets.CLIENT_SECRET }}" >> /home/azureuser/webserver/.env
+          echo "OAUTH_TOKEN_HOST=https://kr.battle.net" >> /home/azureuser/webserver/.env
+          echo "NEXT_PUBLIC_LOCALE=ko_KR" >> /home/azureuser/webserver/.env
           
           # Pull latest Docker image and restart container
           sudo docker pull rkseksgksl/nodeweb:latest
           sudo docker stop nodeweb || true
           sudo docker rm nodeweb || true
           
-          # 환경 변수 로그 확인
+          # 환경 변수 로그 확인 (민감한 정보 제외)
           echo "Checking environment variables before container start:"
-          cat /home/azureuser/webserver/.env | grep -v SECRET | grep -v KEY
+          grep -v "SECRET\|KEY" /home/azureuser/webserver/.env
           
           # 컨테이너 실행 (환경 변수 파일 사용)
-          sudo docker run -d -p 80:3000 --name nodeweb \
-            --env-file /home/azureuser/webserver/.env \
-            rkseksgksl/nodeweb:latest
+          sudo docker run -d -p 80:3000 --name nodeweb --env-file /home/azureuser/webserver/.env rkseksgksl/nodeweb:latest
             
           # 로그 확인
           echo "Container started, checking logs:"

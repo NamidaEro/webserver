@@ -13,6 +13,11 @@ interface Auction {
   itemName?: string;
 }
 
+interface ItemSubclass {
+  id: number;
+  name: string;
+}
+
 const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
   const [auctions, setAuctions] = useState<Auction[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
@@ -21,6 +26,9 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
   const [itemClasses, setItemClasses] = useState<any[]>([]);
   const [selectedItemClasses, setSelectedItemClasses] = useState<number[]>([]);
   const [filteredAuctions, setFilteredAuctions] = useState<Auction[]>([]);
+  const [selectedClassId, setSelectedClassId] = useState<number | null>(null);
+  const [subclasses, setSubclasses] = useState<ItemSubclass[]>([]);
+  const [loadingSubclasses, setLoadingSubclasses] = useState<boolean>(false);
   const itemsPerPage = 10;
 
   const itemDetailsCache = useMemo(() => new Map<number, { itemClassId: number | null; itemName: string }>(), []);
@@ -41,6 +49,43 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
   const handlePreviousPage = () => {
     if (currentPage > 1) {
       setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const handleItemClassClick = async (classId: number) => {
+    if (selectedClassId === classId) {
+      // 이미 선택된 클래스 ID를 다시 클릭한 경우 접기
+      setSelectedClassId(null);
+      setSubclasses([]);
+      return;
+    }
+
+    setSelectedClassId(classId);
+    setLoadingSubclasses(true);
+    
+    try {
+      const response = await fetch(`/api/item-subclasses?itemClassId=${classId}`);
+      if (!response.ok) {
+        throw new Error('Failed to fetch item subclasses');
+      }
+      const data = await response.json();
+      
+      if (data && data.item_subclasses && Array.isArray(data.item_subclasses)) {
+        const formattedSubclasses = data.item_subclasses.map((subclass: any) => ({
+          id: subclass.id,
+          name: typeof subclass.name === 'string' ? subclass.name : 
+               (subclass.name && subclass.name.ko_KR ? subclass.name.ko_KR : 'Unknown')
+        }));
+        
+        setSubclasses(formattedSubclasses);
+      } else {
+        setSubclasses([]);
+      }
+    } catch (error) {
+      console.error('Error fetching item subclasses:', error);
+      setSubclasses([]);
+    } finally {
+      setLoadingSubclasses(false);
     }
   };
 
@@ -224,28 +269,60 @@ const Auctions: React.FC<AuctionsProps> = ({ realmId }) => {
   return (
     <div style={{ display: 'flex' }}>
       <div style={{ width: '30%', marginRight: '20px' }}>
-        <h3>Item Classes</h3>
-        <table style={{ borderCollapse: 'collapse', width: '100%' }}>
+        <h3>Item Classes</h3>        <table style={{ borderCollapse: 'collapse', width: '100%' }}>
           <thead>
             <tr>
               <th style={{ border: '1px solid black', padding: '8px', textAlign: 'left' }}>Class ID</th>
               <th style={{ border: '1px solid black', padding: '8px', textAlign: 'left' }}>Name</th>
-              <th style={{ border: '1px solid black', padding: '8px', textAlign: 'left' }}>Select</th>
             </tr>
           </thead>
           <tbody>
             {itemClasses.map((itemClass) => (
-              <tr key={itemClass.id}>
-                <td style={{ border: '1px solid black', padding: '8px' }}>{itemClass.id}</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>{itemClass.name || 'Unknown'}</td>
-                <td style={{ border: '1px solid black', padding: '8px' }}>
-                  <input
-                    type="checkbox"
-                    checked={selectedItemClasses.includes(itemClass.id)}
-                    onChange={() => handleItemClassSelection(itemClass.id)}
-                  />
-                </td>
-              </tr>
+              <React.Fragment key={itemClass.id}>
+                <tr>
+                  <td style={{ border: '1px solid black', padding: '8px' }}>{itemClass.id}</td>
+                  <td 
+                    style={{ 
+                      border: '1px solid black', 
+                      padding: '8px', 
+                      cursor: 'pointer',
+                      backgroundColor: selectedClassId === itemClass.id ? '#f0f0f0' : 'transparent'
+                    }}
+                    onClick={() => handleItemClassClick(itemClass.id)}
+                  >
+                    {itemClass.name || 'Unknown'}
+                  </td>
+                </tr>
+                
+                {selectedClassId === itemClass.id && (
+                  <tr>
+                    <td colSpan={2} style={{ padding: '0' }}>
+                      {loadingSubclasses ? (
+                        <div style={{ padding: '8px', textAlign: 'center' }}>로딩 중...</div>
+                      ) : subclasses.length > 0 ? (
+                        <table style={{ borderCollapse: 'collapse', width: '100%', marginLeft: '20px' }}>
+                          <thead>
+                            <tr>
+                              <th style={{ border: '1px solid #ccc', padding: '4px', textAlign: 'left', backgroundColor: '#f8f8f8' }}>Subclass ID</th>
+                              <th style={{ border: '1px solid #ccc', padding: '4px', textAlign: 'left', backgroundColor: '#f8f8f8' }}>Name</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {subclasses.map((subclass) => (
+                              <tr key={subclass.id}>
+                                <td style={{ border: '1px solid #ccc', padding: '4px' }}>{subclass.id}</td>
+                                <td style={{ border: '1px solid #ccc', padding: '4px' }}>{subclass.name}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      ) : (
+                        <div style={{ padding: '8px', textAlign: 'center' }}>서브클래스가 없습니다</div>
+                      )}
+                    </td>
+                  </tr>
+                )}
+              </React.Fragment>
             ))}
           </tbody>
         </table>

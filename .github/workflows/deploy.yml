@@ -45,7 +45,7 @@ jobs:
           # Create or overwrite the .env file with environment variables from secrets
           echo "NODE_ENV=production" > /home/azureuser/webserver/.env
           echo "REGION=kr" >> /home/azureuser/webserver/.env
-          echo "LOCALE=ko_KR" >> /home/azureuser/webserver/.env
+          echo "LOCALE=ko-KR" >> /home/azureuser/webserver/.env
           echo "CLIENT_ID=${{ secrets.CLIENT_ID }}" >> /home/azureuser/webserver/.env
           echo "CLIENT_SECRET=${{ secrets.CLIENT_SECRET }}" >> /home/azureuser/webserver/.env
           echo "OAUTH_TOKEN_HOST=https://kr.battle.net" >> /home/azureuser/webserver/.env

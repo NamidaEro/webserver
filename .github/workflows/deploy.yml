@@ -1,69 +1,26 @@
-name: CI/CD Pipeline for Azure VM
+name: Deploy to Server
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 
 jobs:
-  deploy-to-azure-vm:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-    # 1. 코드 체크아웃
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    # 2. Docker 이미지 빌드
-    - name: Build Docker image
-      run: |
-        docker build -t rkseksgksl/nodeweb:latest .
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.8.0
+        with:
+          ssh-private-key: ${{ secrets.AZURE_VM_SSH_KEY }}
 
-    # 3. Docker Hub 로그인
-    - name: Log in to Docker Hub
-      uses: docker/login-action@v2
-      with:
-        username: ${{ secrets.DOCKER_USERNAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
-
-    # 4. Docker 이미지 푸시
-    - name: Push Docker image to Docker Hub
-      run: |
-        docker push rkseksgksl/nodeweb:latest
-
-    # 5. Azure VM에 SSH로 접속하여 컨테이너 업데이트 및 환경 변수 설정
-    - name: Deploy to Azure VM
-      uses: appleboy/ssh-action@v0.1.6
-      with:
-        host: "20.168.3.131"
-        username: "azureuser"
-        key: ${{ secrets.AZURE_VM_SSH_KEY }}
-        script: |
-          # Create the directory if it doesn't exist
-          mkdir -p /home/azureuser/webserver
-          
-          # Create or overwrite the .env file with environment variables from secrets
-          echo "NODE_ENV=production" > /home/azureuser/webserver/.env
-          echo "REGION=kr" >> /home/azureuser/webserver/.env
-          echo "LOCALE=ko-KR" >> /home/azureuser/webserver/.env
-          echo "CLIENT_ID=${{ secrets.CLIENT_ID }}" >> /home/azureuser/webserver/.env
-          echo "CLIENT_SECRET=${{ secrets.CLIENT_SECRET }}" >> /home/azureuser/webserver/.env
-          echo "OAUTH_TOKEN_HOST=https://kr.battle.net" >> /home/azureuser/webserver/.env
-          echo "NEXT_PUBLIC_LOCALE=ko_KR" >> /home/azureuser/webserver/.env
-          
-          # Pull latest Docker image and restart container
-          sudo docker pull rkseksgksl/nodeweb:latest
-          sudo docker stop nodeweb || true
-          sudo docker rm nodeweb || true
-          
-          # 환경 변수 로그 확인 (민감한 정보 제외)
-          echo "Checking environment variables before container start:"
-          grep -v "SECRET\|KEY" /home/azureuser/webserver/.env
-          
-          # 컨테이너 실행 (환경 변수 파일 사용)
-          sudo docker run -d -p 80:3000 --name nodeweb --env-file /home/azureuser/webserver/.env rkseksgksl/nodeweb:latest
-            
-          # 로그 확인
-          echo "Container started, checking logs:"
-          sleep 5
-          sudo docker logs nodeweb
+      - name: Deploy and restart services
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{ secrets.AZURE_VM_USERNAME }}@${{ secrets.AZURE_VM_IP }} '
+            cd /path/to/webserver && \
+            git pull && \
+            docker-compose build && \
+            docker-compose up -d
+          '

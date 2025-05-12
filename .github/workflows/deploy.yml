@@ -19,7 +19,7 @@ jobs:
       - name: Deploy and restart services
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.AZURE_VM_USERNAME }}@${{ secrets.AZURE_VM_IP }} '
-            cd /path/to/webserver && \
+            cd /home/azureuser/webserver && \
             git pull && \
             docker-compose build && \
             docker-compose up -d

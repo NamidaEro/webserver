@@ -17,10 +17,16 @@ jobs:
           ssh-private-key: ${{ secrets.AZURE_VM_SSH_KEY }}
 
       - name: Deploy and restart services
+        env:
+          REPO_URL: git@github.com:NamidaEro/webserver.git
         run: |
           ssh -o StrictHostKeyChecking=no ${{ secrets.AZURE_VM_USERNAME }}@${{ secrets.AZURE_VM_IP }} '
-            cd /home/azureuser/webserver && \
-            git pull && \
-            docker-compose build && \
+            if [ ! -d "/home/azureuser/webserver/.git" ]; then
+              git clone $REPO_URL /home/azureuser/webserver;
+            else
+              cd /home/azureuser/webserver && git pull;
+            fi
+            cd /home/azureuser/webserver
+            docker-compose build
             docker-compose up -d
           '

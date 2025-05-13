@@ -28,6 +28,9 @@ RUN mkdir -p /app/logs && chown -R collector:collector /app/logs
 # 애플리케이션 코드 복사
 COPY *.py ./
 
+# Firebase 서비스 계정 파일이 존재하는 경우 복사 (빌드 시 존재하지 않아도 오류 없음)
+COPY wowauction-6229a-firebase-adminsdk-fbsvc-6ded3fa1d5.json* ./
+
 # 권한 설정
 RUN chown -R collector:collector /app
 

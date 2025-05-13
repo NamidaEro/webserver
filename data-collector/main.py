@@ -95,6 +95,39 @@ def collect_auction_data():
     except Exception as e:
         logger.error(f"데이터 수집 중 오류 발생: {str(e)}", exc_info=True)
 
+def collect_realm_auction_data(realm_id):
+    """특정 Realm에 대해 Blizzard API에서 경매장 데이터를 수집하여 Firestore에 저장"""
+    if shutdown_requested:
+        logger.info("종료 요청으로 데이터 수집 작업을 건너뜁니다.")
+        return
+    
+    try:
+        with Timer(f"Realm {realm_id} 데이터 수집"):
+            logger.info(f"Realm ID {realm_id} 데이터 수집 시작")
+            
+            # Blizzard API 토큰 발급
+            token = get_access_token()
+            logger.info(f"API 토큰 발급 완료: {token[:10]}...")
+            
+            # Firestore 초기화
+            db = init_firestore()
+            
+            # 경매 데이터 가져오기
+            auctions_data = get_auctions(token, realm_id)
+            
+            # 현재 timestamp 추가
+            collection_time = datetime.now().isoformat()
+            
+            # Firestore에 저장
+            save_auctions_to_firestore(db, realm_id, auctions_data, collection_time)
+            
+            # 성능 통계 로깅
+            stats.log_stats()
+            logger.info(f"Realm ID {realm_id} 데이터 수집 완료")
+        
+    except Exception as e:
+        logger.error(f"Realm ID {realm_id} 데이터 수집 중 오류 발생: {str(e)}", exc_info=True)
+
 def health_check():
     """애플리케이션 상태 확인 및 보고"""
     try:
@@ -149,6 +182,10 @@ if __name__ == "__main__":
         
         # 헬스체크 서버 시작
         health_server.start()
+        
+        # 데이터 수집 함수 등록
+        health_server.set_collect_function(collect_auction_data)
+        health_server.set_realm_collect_function(collect_realm_auction_data)
         
         # 스케줄러 시작
         schedule_jobs()

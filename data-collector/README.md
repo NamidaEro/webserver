@@ -110,6 +110,20 @@ docker-compose up -d
 
 - `/health`: 애플리케이션 상태 확인 (Docker 헬스체크용)
 - `/metrics`: 성능 지표 및 통계 정보
+- `/collect`: 모든 realm에 대해 데이터 수집을 강제로 실행
+- `/collect?realm_id=<id>`: 특정 realm ID에 대해서만 데이터 수집을 강제로 실행
+
+### 강제 데이터 수집 예시
+
+모든 realm 데이터 강제 수집:
+```
+curl http://<서버주소>:8080/collect
+```
+
+특정 realm 데이터 강제 수집 (예: realm ID가 151인 경우):
+```
+curl http://<서버주소>:8080/collect?realm_id=151
+```
 
 ## 로그 및 모니터링
 

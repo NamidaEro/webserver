@@ -4,6 +4,12 @@ import json
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import logging
 from monitoring import stats
+import urllib.parse
+
+# collect_auction_data 함수 import (main.py에 있는 함수)
+# 순환 import 방지를 위해 함수 참조만 저장
+collect_data_func = None
+collect_realm_data_func = None
 
 # 로거 설정
 logger = logging.getLogger('data-collector.health_server')
@@ -22,10 +28,16 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
     
     def do_GET(self):
         """GET 요청 처리"""
-        if self.path == '/health':
+        parsed_path = urllib.parse.urlparse(self.path)
+        path = parsed_path.path
+        query_params = urllib.parse.parse_qs(parsed_path.query)
+        
+        if path == '/health':
             self._handle_health_check()
-        elif self.path == '/metrics':
+        elif path == '/metrics':
             self._handle_metrics()
+        elif path == '/collect':
+            self._handle_collect(query_params)
         else:
             self._set_headers(404)
             response = {'error': 'Not Found', 'message': 'The requested resource was not found.'}
@@ -46,6 +58,67 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
         # stats 인스턴스에서 현재 지표 가져오기
         metrics = stats.get_stats()
         self.wfile.write(json.dumps(metrics).encode())
+    
+    def _handle_collect(self, query_params):
+        """강제 데이터 수집 처리"""
+        global collect_data_func, collect_realm_data_func
+        
+        # realm_id 파라미터가 있는지 확인
+        realm_id = None
+        if 'realm_id' in query_params and query_params['realm_id']:
+            realm_id = query_params['realm_id'][0]
+        
+        # 함수 초기화 확인
+        if realm_id and collect_realm_data_func is None:
+            self._set_headers(503)
+            response = {
+                'status': 'error',
+                'message': 'Realm-specific data collection function is not initialized yet'
+            }
+            self.wfile.write(json.dumps(response).encode())
+            return
+        elif not realm_id and collect_data_func is None:
+            self._set_headers(503)
+            response = {
+                'status': 'error',
+                'message': 'Data collection function is not initialized yet'
+            }
+            self.wfile.write(json.dumps(response).encode())
+            return
+        
+        # 데이터 수집 스레드 시작
+        if realm_id:
+            thread = threading.Thread(target=self._run_realm_collection, args=(realm_id,))
+        else:
+            thread = threading.Thread(target=self._run_collection)
+        thread.daemon = True
+        thread.start()
+        
+        # 즉시 응답
+        self._set_headers()
+        response = {
+            'status': 'started',
+            'message': f"{'Realm '+realm_id if realm_id else 'All realms'} data collection has been triggered and is running in the background"
+        }
+        self.wfile.write(json.dumps(response).encode())
+    
+    def _run_collection(self):
+        """백그라운드 스레드에서 전체 데이터 수집 실행"""
+        try:
+            logger.info("API 엔드포인트를 통해 수동으로 전체 데이터 수집 시작")
+            collect_data_func()
+            logger.info("수동 전체 데이터 수집 완료")
+        except Exception as e:
+            logger.error(f"수동 전체 데이터 수집 중 오류 발생: {str(e)}")
+    
+    def _run_realm_collection(self, realm_id):
+        """백그라운드 스레드에서 특정 realm 데이터 수집 실행"""
+        try:
+            logger.info(f"API 엔드포인트를 통해 Realm {realm_id}의 데이터 수집 시작")
+            collect_realm_data_func(realm_id)
+            logger.info(f"Realm {realm_id}의 수동 데이터 수집 완료")
+        except Exception as e:
+            logger.error(f"Realm {realm_id}의 수동 데이터 수집 중 오류 발생: {str(e)}")
     
     def log_message(self, format, *args):
         """로깅 처리 오버라이드"""
@@ -73,6 +146,8 @@ class HealthServer:
             self.server_thread.start()
             self.is_running = True
             logger.info(f"헬스체크 서버가 http://0.0.0.0:{self.port}/health 에서 시작되었습니다.")
+            logger.info(f"데이터 수집 엔드포인트: http://0.0.0.0:{self.port}/collect")
+            logger.info(f"특정 realm 데이터 수집: http://0.0.0.0:{self.port}/collect?realm_id=<id>")
         except Exception as e:
             logger.error(f"헬스체크 서버 시작 중 오류 발생: {str(e)}")
     
@@ -94,6 +169,18 @@ class HealthServer:
             self.server.shutdown()
             self.is_running = False
             logger.info("헬스체크 서버가 종료되었습니다.")
+    
+    def set_collect_function(self, func):
+        """전체 데이터 수집 함수 설정"""
+        global collect_data_func
+        collect_data_func = func
+        logger.info("전체 데이터 수집 함수가 설정되었습니다.")
+    
+    def set_realm_collect_function(self, func):
+        """특정 realm 데이터 수집 함수 설정"""
+        global collect_realm_data_func
+        collect_realm_data_func = func
+        logger.info("realm별 데이터 수집 함수가 설정되었습니다.")
 
 # 서버 인스턴스 생성
 health_server = HealthServer() 

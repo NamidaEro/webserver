@@ -15,22 +15,37 @@ def init_firestore():
     try:
         # Firebase 인증 정보
         service_account_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS')
+        service_account_file = 'wowauction-6229a-firebase-adminsdk-fbsvc-6ded3fa1d5.json'
         
         # 이미 초기화되었는지 확인
         if not firebase_admin._apps:
-            # service account 파일 사용
+            # service account 파일 사용 (환경 변수에 지정된 경로)
             if service_account_path and os.path.exists(service_account_path):
-                logger.info(f"서비스 계정 파일 사용: {service_account_path}")
+                logger.info(f"환경 변수에서 지정된 서비스 계정 파일 사용: {service_account_path}")
                 cred = credentials.Certificate(service_account_path)
+                firebase_admin.initialize_app(cred)
+            # 로컬 디렉토리의 서비스 계정 파일 사용
+            elif os.path.exists(service_account_file):
+                logger.info(f"로컬 디렉토리의 서비스 계정 파일 사용: {service_account_file}")
+                cred = credentials.Certificate(service_account_file)
                 firebase_admin.initialize_app(cred)
             # 환경 변수에서 직접 JSON 읽기 (Docker 환경에서 유용)
             elif os.getenv('FIREBASE_SERVICE_ACCOUNT_JSON'):
                 logger.info("환경 변수에서 서비스 계정 JSON 사용")
-                service_account_info = json.loads(os.getenv('FIREBASE_SERVICE_ACCOUNT_JSON'))
-                cred = credentials.Certificate(service_account_info)
-                firebase_admin.initialize_app(cred)
+                service_account_json = os.getenv('FIREBASE_SERVICE_ACCOUNT_JSON')
+                # 따옴표로 감싸져 있는 경우 처리 ('와 "를 제거)
+                if service_account_json.startswith(("'", '"')) and service_account_json.endswith(("'", '"')):
+                    service_account_json = service_account_json[1:-1]
+                
+                try:
+                    service_account_info = json.loads(service_account_json)
+                    cred = credentials.Certificate(service_account_info)
+                    firebase_admin.initialize_app(cred)
+                except json.JSONDecodeError as e:
+                    logger.error(f"환경 변수에서 JSON 파싱 오류: {str(e)}")
+                    raise
             else:
-                raise ValueError("Firebase 인증 정보를 찾을 수 없습니다. GOOGLE_APPLICATION_CREDENTIALS 또는 FIREBASE_SERVICE_ACCOUNT_JSON 환경 변수를 설정하세요.")
+                raise ValueError("Firebase 인증 정보를 찾을 수 없습니다. GOOGLE_APPLICATION_CREDENTIALS 또는 FIREBASE_SERVICE_ACCOUNT_JSON 환경 변수를 설정하거나 서비스 계정 JSON 파일을 디렉토리에 배치하세요.")
             
             logger.info("Firebase 초기화 완료")
         else:

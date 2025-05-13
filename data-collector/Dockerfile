@@ -6,17 +6,21 @@ RUN groupadd -r collector && useradd -r -g collector collector
 # 작업 디렉토리 설정
 WORKDIR /app
 
-# 시스템 패키지 설치
+# 시스템 패키지 설치 (uv 필요 종속성 포함)
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
+    build-essential \
+    rustc \
+    cargo \
     && rm -rf /var/lib/apt/lists/*
 
-# uv 설치
-RUN curl -sSf https://astral.sh/uv/install.sh | sh
+# uv 설치 및 확인
+RUN curl -sSf https://astral.sh/uv/install.sh | sh && \
+    /root/.cargo/bin/uv --version
 
 # 필수 Python 패키지 설치
 COPY requirements.txt .
-RUN /root/.cargo/bin/uv pip install --no-cache -r requirements.txt
+RUN /root/.cargo/bin/uv pip install --system --no-cache -r requirements.txt
 
 # 로그 및 데이터 디렉토리 생성
 RUN mkdir -p /app/logs && chown -R collector:collector /app/logs

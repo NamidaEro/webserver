@@ -97,6 +97,11 @@ jobs:
           # 4. 서비스 빌드 및 실행
           cd /home/azureuser/webserver
           
+          # 로그 디렉토리 생성 및 권한 설정
+          mkdir -p /home/azureuser/webserver/logs
+          sudo chown -R azureuser:azureuser /home/azureuser/webserver/logs
+          sudo chmod -R 777 /home/azureuser/webserver/logs
+          
           # 기존 Docker Compose 명령 형식 먼저 시도
           if command -v docker-compose &> /dev/null; then
             echo "기존 Docker Compose 명령 사용: docker-compose"

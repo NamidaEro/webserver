@@ -5,7 +5,8 @@ services:
     env_file:
       - ./data-collector/.env
     volumes:
-      - ./logs:/app/logs
+      - ./logs:/app/logs:rw
+    user: "1000:1000"
     ports:
       - "8080:8080"
     restart: unless-stopped

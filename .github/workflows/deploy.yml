@@ -21,25 +21,91 @@ jobs:
         key: ${{ secrets.AZURE_VM_SSH_KEY }}
         script: |
           # 1. git 저장소 확인 및 설정
-          if [ ! -d "/home/azureuser/webserver/.git" ]; then
-            echo "저장소가 없습니다. git clone 수행..."
-            git clone https://github.com/NamidaEro/webserver.git /home/azureuser/webserver
-          else
-            echo "저장소가 존재합니다. git pull 수행..."
-            cd /home/azureuser/webserver
-            git pull
+          if [ ! -d "/home/azureuser/webserver" ]; then
+            echo "디렉토리가 없습니다. 새로 생성합니다..."
+            mkdir -p /home/azureuser/webserver
           fi
           
-          # 2. docker-compose 설치 여부 확인 및 설치
+          cd /home/azureuser/webserver
+          
+          if [ ! -d ".git" ]; then
+            echo "Git 저장소가 아닙니다. 저장소를 초기화합니다..."
+            # 기존 내용 백업 (혹시 모를 경우)
+            if [ "$(ls -A)" ]; then
+              echo "기존 파일이 있습니다. 백업 후 진행합니다..."
+              mkdir -p /home/azureuser/webserver_backup
+              cp -r * /home/azureuser/webserver_backup/ 2>/dev/null || true
+              rm -rf * 2>/dev/null || true
+              rm -rf .* 2>/dev/null || true
+            fi
+            
+            git clone https://github.com/NamidaEro/webserver.git /tmp/webserver_temp
+            cp -r /tmp/webserver_temp/. /home/azureuser/webserver/
+            rm -rf /tmp/webserver_temp
+          else
+            echo "Git 저장소가 존재합니다. pull 명령을 실행합니다..."
+            git reset --hard HEAD
+            git clean -fd
+            git pull origin main
+          fi
+          
+          # 2. docker-compose 설치 확인 및 설치
           if ! command -v docker-compose &> /dev/null && ! command -v docker compose &> /dev/null; then
-            echo "docker-compose가 설치되어 있지 않습니다. 설치 중..."
+            echo "docker-compose가 설치되어 있지 않습니다. 설치를 진행합니다..."
             sudo apt-get update
             sudo apt-get install -y docker-compose-plugin
+            
+            # 구 버전 docker-compose가 필요한 경우 추가 설치
+            if ! command -v docker-compose &> /dev/null; then
+              echo "docker compose plugin 대신 독립 실행형 docker-compose를 설치합니다..."
+              sudo curl -L "https://github.com/docker/compose/releases/download/v2.20.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+              sudo chmod +x /usr/local/bin/docker-compose
+            fi
           else
             echo "docker-compose가 이미 설치되어 있습니다."
           fi
           
-          # 3. 서비스 빌드 및 실행
+          # 3. .env 파일 확인 및 생성
+          if [ ! -f "/home/azureuser/webserver/data-collector/.env" ]; then
+            echo "데이터 수집기 .env 파일이 없습니다. 기본 템플릿을 생성합니다..."
+            mkdir -p /home/azureuser/webserver/data-collector
+            cat > /home/azureuser/webserver/data-collector/.env << 'EOL'
+BLIZZARD_CLIENT_ID=${BLIZZARD_CLIENT_ID}
+BLIZZARD_CLIENT_SECRET=${BLIZZARD_CLIENT_SECRET}
+BLIZZARD_REGION=kr
+BLIZZARD_NAMESPACE=dynamic-kr
+BLIZZARD_LOCALE=ko_KR
+FIREBASE_SERVICE_ACCOUNT_JSON=${FIREBASE_SERVICE_ACCOUNT_JSON}
+EOL
+          fi
+          
+          # Next.js 환경 변수 설정
+          if [ ! -f "/home/azureuser/webserver/nextjs-app/.env" ]; then
+            echo "Next.js 앱 .env 파일이 없습니다. 기본 템플릿을 생성합니다..."
+            mkdir -p /home/azureuser/webserver/nextjs-app
+            cat > /home/azureuser/webserver/nextjs-app/.env << 'EOL'
+NEXT_PUBLIC_FIREBASE_API_KEY=${NEXT_PUBLIC_FIREBASE_API_KEY}
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=${NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN}
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=${NEXT_PUBLIC_FIREBASE_PROJECT_ID}
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=${NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET}
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=${NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID}
+NEXT_PUBLIC_FIREBASE_APP_ID=${NEXT_PUBLIC_FIREBASE_APP_ID}
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=${NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID}
+EOL
+          fi
+          
+          # 4. 서비스 빌드 및 실행
           cd /home/azureuser/webserver
-          sudo docker-compose build
-          sudo docker-compose up -d
+          
+          # 새로운 Docker 명령 형식 먼저 시도
+          if command -v docker compose &> /dev/null; then
+            echo "새 Docker Compose 명령 사용: docker compose"
+            sudo docker compose build
+            sudo docker compose up -d
+          else
+            echo "기존 Docker Compose 명령 사용: docker-compose"
+            sudo docker-compose build
+            sudo docker-compose up -d
+          fi
+          
+          echo "배포가 완료되었습니다!"

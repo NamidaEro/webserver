@@ -11,9 +11,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
+# uv 설치
+RUN curl -sSf https://astral.sh/uv/install.sh | sh
+
 # 필수 Python 패키지 설치
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN /root/.cargo/bin/uv pip install --no-cache -r requirements.txt
 
 # 로그 및 데이터 디렉토리 생성
 RUN mkdir -p /app/logs && chown -R collector:collector /app/logs
@@ -23,6 +26,9 @@ COPY *.py ./
 
 # 권한 설정
 RUN chown -R collector:collector /app
+
+# PATH에 uv 추가
+ENV PATH="/root/.cargo/bin:${PATH}"
 
 # 비 루트 사용자로 전환
 USER collector

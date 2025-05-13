@@ -20,7 +20,26 @@ jobs:
         username: ${{ secrets.AZURE_VM_USERNAME }}
         key: ${{ secrets.AZURE_VM_SSH_KEY }}
         script: |
+          # 1. git 저장소 확인 및 설정
+          if [ ! -d "/home/azureuser/webserver/.git" ]; then
+            echo "저장소가 없습니다. git clone 수행..."
+            git clone https://github.com/NamidaEro/webserver.git /home/azureuser/webserver
+          else
+            echo "저장소가 존재합니다. git pull 수행..."
+            cd /home/azureuser/webserver
+            git pull
+          fi
+          
+          # 2. docker-compose 설치 여부 확인 및 설치
+          if ! command -v docker-compose &> /dev/null && ! command -v docker compose &> /dev/null; then
+            echo "docker-compose가 설치되어 있지 않습니다. 설치 중..."
+            sudo apt-get update
+            sudo apt-get install -y docker-compose-plugin
+          else
+            echo "docker-compose가 이미 설치되어 있습니다."
+          fi
+          
+          # 3. 서비스 빌드 및 실행
           cd /home/azureuser/webserver
-          git pull
-          docker-compose build
-          docker-compose up -d
+          sudo docker-compose build
+          sudo docker-compose up -d

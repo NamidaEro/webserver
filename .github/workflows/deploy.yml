@@ -97,15 +97,17 @@ jobs:
           # 4. 서비스 빌드 및 실행
           cd /home/azureuser/webserver
           
-          # 새로운 Docker 명령 형식 먼저 시도
-          if command -v docker compose &> /dev/null; then
-            echo "새 Docker Compose 명령 사용: docker compose"
-            sudo docker compose build
-            sudo docker compose up -d
-          else
+          # 기존 Docker Compose 명령 형식 먼저 시도
+          if command -v docker-compose &> /dev/null; then
             echo "기존 Docker Compose 명령 사용: docker-compose"
+            sudo docker-compose down
             sudo docker-compose build
             sudo docker-compose up -d
+          else
+            echo "새 Docker Compose 명령 사용: docker compose"
+            sudo docker compose down
+            sudo docker compose build
+            sudo docker compose up -d
           fi
           
           echo "배포가 완료되었습니다!"

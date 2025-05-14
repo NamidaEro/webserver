@@ -5,3 +5,49 @@ data-collector/wowauction-6229a-firebase-adminsdk-fbsvc-6ded3fa1d5.json
 # Environment Variables
 .env
 .env.local 
+
+# Next.js
+node_modules/
+.next/
+out/
+build/
+.vercel
+.swc/
+.turbo
+next-env.d.ts
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.ipynb_checkpoints
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db 

@@ -76,26 +76,15 @@ jobs:
             echo "BLIZZARD_REGION=kr" >> /home/azureuser/webserver/data-collector/.env
             echo "BLIZZARD_NAMESPACE=dynamic-kr" >> /home/azureuser/webserver/data-collector/.env
             echo "BLIZZARD_LOCALE=ko_KR" >> /home/azureuser/webserver/data-collector/.env
-            echo "FIREBASE_SERVICE_ACCOUNT_JSON='${FIREBASE_SERVICE_ACCOUNT_JSON}'" >> /home/azureuser/webserver/data-collector/.env
           fi
-          
-          # Firebase 서비스 계정 JSON 파일 생성
-          echo "Firebase 서비스 계정 JSON 파일 생성..."
-          echo ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }} > /home/azureuser/webserver/data-collector/wowauction-6229a-firebase-adminsdk-fbsvc-6ded3fa1d5.json
           
           # Next.js 환경 변수 설정
           if [ ! -f "/home/azureuser/webserver/nextjs-app/.env" ]; then
             echo "Next.js 앱 .env 파일이 없습니다. 기본 템플릿을 생성합니다..."
             mkdir -p /home/azureuser/webserver/nextjs-app
             
-            # 개별 echo 명령어로 환경 변수 파일 생성
-            echo "NEXT_PUBLIC_FIREBASE_API_KEY=${NEXT_PUBLIC_FIREBASE_API_KEY}" > /home/azureuser/webserver/nextjs-app/.env
-            echo "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=${NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN}" >> /home/azureuser/webserver/nextjs-app/.env
-            echo "NEXT_PUBLIC_FIREBASE_PROJECT_ID=${NEXT_PUBLIC_FIREBASE_PROJECT_ID}" >> /home/azureuser/webserver/nextjs-app/.env
-            echo "NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=${NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET}" >> /home/azureuser/webserver/nextjs-app/.env
-            echo "NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=${NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID}" >> /home/azureuser/webserver/nextjs-app/.env
-            echo "NEXT_PUBLIC_FIREBASE_APP_ID=${NEXT_PUBLIC_FIREBASE_APP_ID}" >> /home/azureuser/webserver/nextjs-app/.env
-            echo "NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=${NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID}" >> /home/azureuser/webserver/nextjs-app/.env
+            # MongoDB 관련 환경 변수 설정을 추가합니다
+            echo "MONGODB_URI=${MONGODB_URI}" > /home/azureuser/webserver/nextjs-app/.env
           fi
           
           # 4. 서비스 빌드 및 실행

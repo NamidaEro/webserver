@@ -76,6 +76,7 @@ jobs:
             echo "BLIZZARD_REGION=kr" >> /home/azureuser/webserver/data-collector/.env
             echo "BLIZZARD_NAMESPACE=dynamic-kr" >> /home/azureuser/webserver/data-collector/.env
             echo "BLIZZARD_LOCALE=ko_KR" >> /home/azureuser/webserver/data-collector/.env
+            echo "MONGODB_URI=${MONGODB_URI}" >> /home/azureuser/webserver/data-collector/.env
           fi
           
           # Next.js 환경 변수 설정

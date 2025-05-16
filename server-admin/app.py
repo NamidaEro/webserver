@@ -6,8 +6,14 @@ app = Flask(__name__)
 @app.route('/status')
 def status():
     # 도커 컨테이너 상태 확인
-    result = subprocess.getoutput('docker ps --format "{{.Names}}: {{.Status}}"')
-    return jsonify({'status': 'ok', 'docker_status': result})
+    docker_ps = subprocess.getoutput('docker ps --format "{{.Names}}: {{.Status}}"')
+    # 도커 CLI 버전 확인
+    docker_version = subprocess.getoutput('docker --version')
+    return jsonify({
+        'status': 'ok',
+        'docker_status': docker_ps,
+        'docker_cli_version': docker_version
+    })
 
 @app.route('/restart', methods=['POST'])
 def restart():

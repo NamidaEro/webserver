@@ -9,20 +9,20 @@
 [data-collector (Python)]  # 데이터 수집 백엔드
      │
      ▼
-[Firebase Firestore (DB)]
+[MongoDB (DB)]
      │
      ▼
 [nextjs-app (Next.js)]     # 웹 프론트엔드
 ```
 
-- **data-collector (Python)**: 주기적으로 Blizzard API를 호출해 Firestore에 경매 데이터를 저장
+- **data-collector (Python)**: 주기적으로 Blizzard API를 호출해 MongoDB에 경매 데이터를 저장
   - 설정 가능한 간격으로 데이터 수집 (기본: 60분)
   - 모든 realm의 경매 데이터 수집 및 저장
   - 오래된 데이터 자동 정리 (기본: 7일)
   - 헬스체크 및 모니터링 엔드포인트 제공
   - 로깅 및 성능 통계 수집
   
-- **nextjs-app (Next.js)**: Firestore에서 데이터를 읽어와 사용자에게 웹 UI로 제공
+- **nextjs-app (Next.js)**: MongoDB에서 데이터를 읽어와 사용자에게 웹 UI로 제공
   - 서버 및 아이템별 경매 데이터 조회 기능
   - 필터링 및 정렬 기능
   - 아이템 가격 변동 트렌드 시각화
@@ -36,7 +36,7 @@
 data-collector/
 ├── main.py               # 메인 애플리케이션 및 스케줄러
 ├── blizzard_api.py       # Blizzard API 통신 모듈
-├── firebase_db.py        # Firestore 데이터 저장 모듈
+├── mongodb_client.py     # MongoDB 데이터 저장 모듈
 ├── logger_config.py      # 로깅 설정 관리
 ├── monitoring.py         # 성능 모니터링 및 통계
 ├── health_server.py      # 헬스체크 HTTP 서버
@@ -61,7 +61,7 @@ nextjs-app/
 │   ├── PriceChart.tsx    # 가격 변동 차트 컴포넌트
 │   └── ...
 ├── lib/                  # 유틸리티 및 공통 코드
-│   ├── firebase.ts       # Firebase 연결 설정
+│   ├── mongodb.ts        # MongoDB 연결 설정
 │   ├── auctions.ts       # 경매 데이터 조회 함수
 │   └── ...
 ├── public/               # 정적 파일
@@ -74,7 +74,7 @@ nextjs-app/
 
 1. **데이터 수집 흐름**:
    ```
-   Blizzard API -> data-collector (Python) -> Firebase Firestore
+   Blizzard API -> data-collector (Python) -> MongoDB
    ```
    - 설정된 간격(기본 60분)마다 데이터 수집
    - Realm별 경매장 데이터 저장
@@ -82,7 +82,7 @@ nextjs-app/
 
 2. **데이터 조회 흐름**:
    ```
-   사용자 요청 -> nextjs-app -> Firebase Firestore -> 결과 표시
+   사용자 요청 -> nextjs-app -> MongoDB -> 결과 표시
    ```
    - 실시간 경매 데이터 조회
    - 필터링 및 정렬 기능
@@ -104,7 +104,7 @@ nextjs-app/
 
 - **GitHub Actions**: CI/CD 파이프라인으로 코드 변경시 자동 배포
 - **Azure VM**: 도커 컨테이너로 서비스 호스팅
-- **Docker Compose**: 멀티 컨테이너 관리 및 환경 변수 설정
+- **Docker Compose**: 멀티 컨테이너 관리 및 환경 변수 설정 (MongoDB URI 등)
 
 ## 4. 도커 컨테이너 구성
 
@@ -116,7 +116,7 @@ nextjs-app/
 │  │                       │  │     │  │                 │    │
 │  │ - Scheduler           │  │     │  │ - Web UI        │    │
 │  │ - Blizzard API Client │  │     │  │ - Data Display  │    │
-│  │ - Firestore Client    │  │     │  │ - Interactions  │    │
+│  │ - MongoDB Client      │  │     │  │ - Interactions  │    │
 │  │ - Health Server       │  │     │  │                 │    │
 │  └───────────────────────┘  │     │  └─────────────────┘    │
 │  Port: 8080 (Health Check)  │     │  Port: 3000 (Web UI)    │

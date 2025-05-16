@@ -11,14 +11,18 @@
 - 서버(Realm)별 경매장 데이터 조회
 - 아이템별 경매 현황(가격, 수량, 최근 거래 등) 검색
 - 다양한 필터 및 정렬 기능(아이템명, 등급, 가격 등)
-- 데이터 최신화(Blizzard API → Firestore → 웹 서비스)
+- 데이터 최신화(Blizzard API → MongoDB → 웹 서비스)
 - (선택) 통계, 트렌드, 그래프 등 시각화 기능
 
-## 4. 기술 스택(예정)
-- **프론트엔드**: Next.js(React), TypeScript, Tailwind CSS 등
-- **백엔드/데이터 수집**: Google Cloud Functions(서버리스), Node.js, Firebase Firestore
-- **외부 API**: Blizzard Open API(Auctions)
-- **배포/호스팅**: Vercel, Firebase Hosting, 또는 기타 클라우드
+## 4. 기술 스택
+- **프론트엔드**: Next.js, React, TypeScript, Tailwind CSS
+- **백엔드**: Python
+- **데이터베이스**: MongoDB
+- **데이터 수집**: 서버리스 함수(Cloud Functions)
+- **인증/권한** (미정): Firebase Authentication
+- **외부 API**: Blizzard Battle.net API
+- **배포/호스팅**: azure VM
+- **버전 관리**: Git, GitHub, Docker Hub
 
 ## 5. 기대 효과
 - WoW 유저들에게 편리한 경매장 정보 제공

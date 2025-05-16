@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 
 from logger_config import setup_logger, get_logger
 from blizzard_api import get_access_token, get_connected_realms, get_auctions
-from firebase_db import save_auctions_to_firestore, init_firestore, get_realms_with_data
+# from firebase_db import save_auctions_to_firestore, init_firestore, get_realms_with_data
 from monitoring import Timer, stats
 from health_server import health_server
 
@@ -55,7 +55,7 @@ def collect_auction_data():
                 realms = realms[:MAX_REALMS]
             
             # Firestore 초기화
-            db = init_firestore()
+            # db = init_firestore()
             
             # 모든 realm에 대해 경매 데이터 수집
             for idx, realm in enumerate(realms):
@@ -77,7 +77,7 @@ def collect_auction_data():
                         collection_time = datetime.now().isoformat()
                         
                         # Firestore에 저장
-                        save_auctions_to_firestore(db, connected_realm_id, auctions_data, collection_time)
+                        # save_auctions_to_firestore(db, connected_realm_id, auctions_data, collection_time)
                         
                         logger.info(f"Realm ID {connected_realm_id} 데이터 저장 완료")
                 except Exception as e:
@@ -110,7 +110,7 @@ def collect_realm_auction_data(realm_id):
             logger.info(f"API 토큰 발급 완료: {token[:10]}...")
             
             # Firestore 초기화
-            db = init_firestore()
+            # db = init_firestore()
             
             # 경매 데이터 가져오기
             auctions_data = get_auctions(token, realm_id)
@@ -119,7 +119,7 @@ def collect_realm_auction_data(realm_id):
             collection_time = datetime.now().isoformat()
             
             # Firestore에 저장
-            save_auctions_to_firestore(db, realm_id, auctions_data, collection_time)
+            # save_auctions_to_firestore(db, realm_id, auctions_data, collection_time)
             
             # 성능 통계 로깅
             stats.log_stats()
@@ -134,17 +134,19 @@ def health_check():
         logger.info("상태 확인 시작")
         
         # Firestore 연결 확인
-        db = init_firestore()
+        # db = init_firestore()
         
         # 데이터가 있는 realm 수 확인
-        realms = get_realms_with_data(db)
+        # realms = get_realms_with_data(db)
         
         # 성능 통계 조회
         app_stats = stats.get_stats()
         
-        logger.info(f"상태 확인 결과: 정상 작동 중, {len(realms)}개 realm에 데이터 존재, " +
-                   f"API 호출: {app_stats['api_calls']}회, 오류: {app_stats['api_errors']}회, " +
-                   f"DB 작업: {app_stats['db_operations']}회, 오류: {app_stats['db_errors']}회")
+        # logger.info(f"상태 확인 결과: 정상 작동 중, {len(realms)}개 realm에 데이터 존재, " +
+        #            f"API 호출: {app_stats['api_calls']}회, 오류: {app_stats['api_errors']}회, " +
+        #            f"DB 작업: {app_stats['db_operations']}회, 오류: {app_stats['db_errors']}회")
+        logger.info(f"상태 확인 결과: 정상 작동 중 (MongoDB 확인 로직 추가 예정), " +
+                   f"API 호출: {app_stats['api_calls']}회, 오류: {app_stats['api_errors']}회") # 임시 로그
     except Exception as e:
         logger.error(f"상태 확인 중 오류 발생: {str(e)}")
 

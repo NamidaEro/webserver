@@ -1,6 +1,7 @@
 version: '3.8'
 services:
   data-collector:
+    image: webserver_data-collector:latest
     build: ./data-collector
     env_file:
       - ./data-collector/.env

@@ -19,14 +19,13 @@ logger = logging.getLogger('data-collector.health_server')
 # 기본 포트 설정
 DEFAULT_PORT = int(os.getenv('HEALTH_PORT', '8080'))
 
-# MongoDB 클라이언트 전역 초기화
-MONGODB_URI = os.environ.get("MONGODB_URI")
+# MongoDB 클라이언트 초기화
+MONGODB_URI = os.getenv("MONGODB_URI")
 mongo_client = None
-mongo_db = None
 if MONGODB_URI:
     try:
         mongo_client = pymongo.MongoClient(MONGODB_URI, serverSelectionTimeoutMS=3000)
-        mongo_db = mongo_client.get_default_database() if '/' in MONGODB_URI.split('//')[-1] else None
+        logger.info("MongoDB 연결 성공")
     except Exception as e:
         logger.error(f"MongoDB 연결 실패: {e}")
 
@@ -117,6 +116,45 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
         }
         self.wfile.write(json.dumps(response).encode())
     
+    def _handle_db_status(self):
+        """MongoDB 상태 확인 엔드포인트"""
+        if not mongo_client:
+            self._set_headers(503)
+            response = {
+                'status': 'error',
+                'message': 'MongoDB 연결 정보가 올바르지 않거나 연결할 수 없습니다.'
+            }
+            self.wfile.write(json.dumps(response).encode())
+            return
+
+        try:
+            # MongoDB 연결 및 상태 확인
+            db = mongo_client.get_database()
+            collection = db["auction_data"]
+            
+            # 전체 문서 수
+            total_count = collection.count_documents({})
+            # 최근 문서
+            latest = collection.find_one(sort=[("timestamp", -1)])
+            
+            self._set_headers()
+            response = {
+                'status': 'ok',
+                'total_documents': total_count,
+                'latest_document': str(latest) if latest else None,
+                'database': db.name,
+                'collections': db.list_collection_names()
+            }
+            self.wfile.write(json.dumps(response, default=str).encode())
+        except Exception as e:
+            logger.error(f"MongoDB 상태 확인 중 오류 발생: {str(e)}")
+            self._set_headers(500)
+            response = {
+                'status': 'error',
+                'message': str(e)
+            }
+            self.wfile.write(json.dumps(response).encode())
+    
     def _run_collection(self):
         """백그라운드 스레드에서 전체 데이터 수집 실행"""
         try:
@@ -134,30 +172,6 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             logger.info(f"Realm {realm_id}의 수동 데이터 수집 완료")
         except Exception as e:
             logger.error(f"Realm {realm_id}의 수동 데이터 수집 중 오류 발생: {str(e)}")
-    
-    def _handle_db_status(self):
-        """MongoDB 상태 확인 엔드포인트"""
-        if not mongo_client or not mongo_db:
-            self._set_headers(503)
-            response = {'status': 'error', 'message': 'MongoDB 연결 정보가 올바르지 않거나 연결할 수 없습니다.'}
-            self.wfile.write(json.dumps(response, default=str).encode())
-            return
-        try:
-            # 예시: auction_data 컬렉션 기준
-            collection = mongo_db["auction_data"]
-            count = collection.count_documents({})
-            latest = collection.find_one(sort=[("timestamp", -1)])
-            self._set_headers()
-            response = {
-                'status': 'ok',
-                'total_count': count,
-                'latest': latest if latest else None
-            }
-            self.wfile.write(json.dumps(response, default=str).encode())
-        except Exception as e:
-            self._set_headers(500)
-            response = {'status': 'error', 'message': str(e)}
-            self.wfile.write(json.dumps(response, default=str).encode())
     
     def log_message(self, format, *args):
         """로깅 처리 오버라이드"""
@@ -187,6 +201,7 @@ class HealthServer:
             logger.info(f"헬스체크 서버가 http://0.0.0.0:{self.port}/health 에서 시작되었습니다.")
             logger.info(f"데이터 수집 엔드포인트: http://0.0.0.0:{self.port}/collect")
             logger.info(f"특정 realm 데이터 수집: http://0.0.0.0:{self.port}/collect?realm_id=<id>")
+            logger.info(f"MongoDB 상태 확인: http://0.0.0.0:{self.port}/db-status")
         except Exception as e:
             logger.error(f"헬스체크 서버 시작 중 오류 발생: {str(e)}")
     

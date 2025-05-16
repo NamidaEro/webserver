@@ -99,12 +99,12 @@ jobs:
           if command -v docker-compose &> /dev/null; then
             echo "기존 Docker Compose 명령 사용: docker-compose"
             sudo docker-compose down
-            sudo docker-compose build
+            sudo docker-compose build --no-cache
             sudo docker-compose up -d
           else
             echo "새 Docker Compose 명령 사용: docker compose"
             sudo docker compose down
-            sudo docker compose build
+            sudo docker compose build --no-cache
             sudo docker compose up -d
           fi
           

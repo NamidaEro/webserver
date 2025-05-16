@@ -5,6 +5,8 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 import logging
 from monitoring import stats
 import urllib.parse
+import pymongo
+from datetime import datetime
 
 # collect_auction_data 함수 import (main.py에 있는 함수)
 # 순환 import 방지를 위해 함수 참조만 저장
@@ -16,6 +18,17 @@ logger = logging.getLogger('data-collector.health_server')
 
 # 기본 포트 설정
 DEFAULT_PORT = int(os.getenv('HEALTH_PORT', '8080'))
+
+# MongoDB 클라이언트 전역 초기화
+MONGODB_URI = os.environ.get("MONGODB_URI")
+mongo_client = None
+mongo_db = None
+if MONGODB_URI:
+    try:
+        mongo_client = pymongo.MongoClient(MONGODB_URI, serverSelectionTimeoutMS=3000)
+        mongo_db = mongo_client.get_default_database() if '/' in MONGODB_URI.split('//')[-1] else None
+    except Exception as e:
+        logger.error(f"MongoDB 연결 실패: {e}")
 
 class HealthRequestHandler(BaseHTTPRequestHandler):
     """헬스체크 및 상태 정보 제공을 위한 HTTP 핸들러"""
@@ -38,6 +51,8 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self._handle_metrics()
         elif path == '/collect':
             self._handle_collect(query_params)
+        elif path == '/db-status':
+            self._handle_db_status()
         else:
             self._set_headers(404)
             response = {'error': 'Not Found', 'message': 'The requested resource was not found.'}
@@ -119,6 +134,30 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             logger.info(f"Realm {realm_id}의 수동 데이터 수집 완료")
         except Exception as e:
             logger.error(f"Realm {realm_id}의 수동 데이터 수집 중 오류 발생: {str(e)}")
+    
+    def _handle_db_status(self):
+        """MongoDB 상태 확인 엔드포인트"""
+        if not mongo_client or not mongo_db:
+            self._set_headers(503)
+            response = {'status': 'error', 'message': 'MongoDB 연결 정보가 올바르지 않거나 연결할 수 없습니다.'}
+            self.wfile.write(json.dumps(response, default=str).encode())
+            return
+        try:
+            # 예시: auction_data 컬렉션 기준
+            collection = mongo_db["auction_data"]
+            count = collection.count_documents({})
+            latest = collection.find_one(sort=[("timestamp", -1)])
+            self._set_headers()
+            response = {
+                'status': 'ok',
+                'total_count': count,
+                'latest': latest if latest else None
+            }
+            self.wfile.write(json.dumps(response, default=str).encode())
+        except Exception as e:
+            self._set_headers(500)
+            response = {'status': 'error', 'message': str(e)}
+            self.wfile.write(json.dumps(response, default=str).encode())
     
     def log_message(self, format, *args):
         """로깅 처리 오버라이드"""

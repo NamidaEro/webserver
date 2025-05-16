@@ -95,18 +95,42 @@ jobs:
           mkdir -p /home/azureuser/webserver/logs
           sudo chown -R azureuser:azureuser /home/azureuser/webserver/logs
           sudo chmod -R 777 /home/azureuser/webserver/logs
-          
-          # 기존 Docker Compose 명령 형식 먼저 시도
-          if command -v docker-compose &> /dev/null; then
-            echo "기존 Docker Compose 명령 사용: docker-compose"
-            sudo docker-compose down
-            sudo docker-compose build --no-cache
-            sudo docker-compose up -d
+
+          # Docker Compose 명령어 실행 함수 정의
+          run_docker_compose() {
+            if command -v docker-compose &> /dev/null; then
+              echo "기존 Docker Compose 명령 사용: docker-compose $@"
+              sudo docker-compose "$@"
+            else
+              echo "새 Docker Compose 명령 사용: docker compose $@"
+              sudo docker compose "$@"
+            fi
+          }
+
+          # 1. 기존 data-collector 컨테이너 중지 및 이미지 삭제 (오류 무시)
+          echo "기존 data-collector 서비스 중지 시도..."
+          run_docker_compose down data-collector || true 
+          echo "기존 data-collector 이미지 삭제 시도..."
+          # 현재 data-collector 이미지 ID 가져오기 (오류 발생해도 계속 진행)
+          IMAGE_ID=$(sudo docker images --filter=reference='webserver_data-collector' -q || sudo docker images --filter=reference='webserver-data-collector' -q || sudo docker images --filter=reference='*/webserver-data-collector' -q || echo "")
+          if [ -n "$IMAGE_ID" ]; then
+            sudo docker rmi -f $IMAGE_ID || true
+            echo "data-collector 이미지 ($IMAGE_ID) 삭제 시도 완료."
           else
-            echo "새 Docker Compose 명령 사용: docker compose"
-            sudo docker compose down
-            sudo docker compose build --no-cache
-            sudo docker compose up -d
+            echo "data-collector 이미지를 찾지 못했거나, 가져오는데 실패했습니다."
           fi
+
+          # 2. 모든 서비스 중지 (data-collector 외 다른 서비스 포함)
+          echo "모든 Docker Compose 서비스 중지..."
+          run_docker_compose down || true # 실패하더라도 계속 진행
+
+          # 3. (선택 사항) Docker 시스템 정리 - 주의: 프로덕션 환경에서는 신중히 결정
+          # echo "Docker 시스템 정리 시도 (사용하지 않는 모든 리소스)..."
+          # sudo docker system prune -a -f --volumes || true # --volumes 사용 시 데이터 유실 가능성 있음
+
+          # 4. 모든 서비스 새로 빌드 및 시작
+          echo "모든 서비스 새로 빌드 (--no-cache) 및 시작..."
+          run_docker_compose build --no-cache
+          run_docker_compose up -d
           
           echo "배포가 완료되었습니다!"

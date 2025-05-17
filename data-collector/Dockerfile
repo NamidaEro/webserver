@@ -8,17 +8,13 @@ WORKDIR /app
 
 # 시스템 패키지 설치 (uv 필요 종속성 포함)
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    curl \
     build-essential \
-    rustc \
-    cargo \
     bash \
     && rm -rf /var/lib/apt/lists/*
 
-# uv 설치, 환경 설정 및 확인, requirements 설치
+# requirements.txt 복사 및 pip를 사용하여 패키지 설치
 COPY requirements.txt .
-RUN curl -sSf https://astral.sh/uv/install.sh | sh && \
-    bash -c 'source $HOME/.cargo/env && uv --version && uv pip install --system --no-cache -r requirements.txt'
+RUN pip install --no-cache-dir -r requirements.txt
 
 # 로그 및 데이터 디렉토리 생성
 RUN mkdir -p /app/logs && chown -R collector:collector /app/logs
@@ -26,14 +22,8 @@ RUN mkdir -p /app/logs && chown -R collector:collector /app/logs
 # 애플리케이션 코드 복사
 COPY *.py ./
 
-# Firebase 서비스 계정 파일이 존재하는 경우 복사 (빌드 시 존재하지 않아도 오류 없음)
-COPY wowauction-6229a-firebase-adminsdk-fbsvc-6ded3fa1d5.json* ./
-
 # 권한 설정
 RUN chown -R collector:collector /app
-
-# PATH에 uv 추가
-ENV PATH="/root/.cargo/bin:${PATH}"
 
 # 비 루트 사용자로 전환
 USER collector

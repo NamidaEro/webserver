@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
-import clientPromise from '@/lib/mongodb';
+// import clientPromise from '@/lib/mongodb'; // 경로 별칭 사용 주석 처리
+import clientPromise from '../../lib/mongodb'; // 상대 경로로 변경
 import { AuctionItem } from '@/lib/types/auction'; // AuctionItem 타입을 사용
 
 export async function GET(request: Request) {

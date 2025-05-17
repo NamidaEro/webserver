@@ -183,7 +183,11 @@ jobs:
           echo "===== Docker 환경 정리 완료 (배포 스크립트 내) ====="
 
           echo "모든 서비스 새로 빌드 (--no-cache) 및 시작..."
-          run_docker_compose build --no-cache
+          # MONGODB_URI를 환경 변수로 설정하여 docker-compose build 명령어에 전달
+          MONGODB_URI=${MONGODB_URI} run_docker_compose build --no-cache nextjs-app
+          run_docker_compose build --no-cache data-collector
+          run_docker_compose build --no-cache server-admin
+          
           run_docker_compose up -d
           
           echo "배포가 완료되었습니다!"

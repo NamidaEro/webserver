@@ -14,6 +14,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: Deploy to Azure VM
+      id: deploy # step에 id를 부여하여 결과 접근 가능
       uses: appleboy/ssh-action@v0.1.6
       with:
         host: ${{ secrets.AZURE_VM_IP }}
@@ -93,12 +94,8 @@ jobs:
           
           # 로그 디렉토리 생성 및 권한 설정 (이미 존재하면 무시됨)
           mkdir -p /home/azureuser/webserver/logs
-          # 다음 chown/chmod는 deploy.yml을 실행하는 사용자가 sudo 권한이 있어야 하며, azureuser의 실제 UID/GID를 알아야 더 정확합니다.
-          # 일반적으로 azureuser는 1000:1000 이지만, 환경에 따라 다를 수 있습니다.
-          # sudo chown -R 1000:1000 /home/azureuser/webserver/logs # data-collector의 user 설정과 맞춤
-          # sudo chmod -R u+rwX,g+rX,o+rX /home/azureuser/webserver/logs # 보다 제한적인 권한 예시
-          sudo chown -R azureuser:azureuser /home/azureuser/webserver/logs # 기존 방식 유지 (azureuser가 1000:1000이라고 가정)
-          sudo chmod -R 777 /home/azureuser/webserver/logs # 기존 방식 유지 (최소 권한 원칙에는 어긋남)
+          sudo chown -R azureuser:azureuser /home/azureuser/webserver/logs
+          sudo chmod -R 777 /home/azureuser/webserver/logs
 
           # Docker Compose 명령어 실행 함수 정의
           run_docker_compose() {
@@ -111,30 +108,22 @@ jobs:
             fi
           }
 
-          echo "===== Docker 환경 정리 시작 ====="
+          echo "===== Docker 환경 정리 시작 (배포 스크립트 내) ====="
           
-          # 단계 1: 모든 Docker Compose 서비스 중지 (현재 프로젝트)
           echo "현재 프로젝트의 모든 Docker Compose 서비스 중지 시도..."
           run_docker_compose down || true 
 
-          # 단계 2: 모든 중지된 컨테이너 삭제
           echo "모든 중지된 컨테이너 삭제 시도..."
           sudo docker container prune -f || true
 
-          # 단계 3: 특정 이미지 (data-collector) 명시적 삭제
           echo "기존 data-collector 이미지 삭제 시도..."
-          # docker-compose.yml이 있는 디렉토리 이름(basename)을 프로젝트 이름으로 사용
           PROJECT_NAME=$(basename "$(pwd)")
-          # 가능한 이미지 이름 패턴들 (예: webserver_data-collector, webserver-data-collector)
-          # GitHub Actions의 checkout 경로에 따라 프로젝트 이름이 webserver가 아닐 수 있으므로, 서비스 이름 자체도 패턴에 추가
           IMAGE_PATTERNS=("${PROJECT_NAME}_data-collector" "${PROJECT_NAME}-data-collector" "data-collector")
           IMAGE_ID_FOUND=""
           for pattern in "${IMAGE_PATTERNS[@]}"; do
-            # docker images 결과에서 REPOSITORY가 정확히 일치하는 경우만 찾도록 수정 (예: ubuntu는 되지만 my-ubuntu는 안됨)
-            # 또한, 이미지 이름에 latest 외 다른 태그가 붙는 경우도 고려하여 REPOSITORY만 필터링
             IMAGE_IDS=$(sudo docker images --filter=reference="$pattern" -q)
             if [ -n "$IMAGE_IDS" ]; then
-              for IMAGE_ID in $IMAGE_IDS; do # 여러 ID가 반환될 수 있음 (다른 태그 등)
+              for IMAGE_ID in $IMAGE_IDS; do
                 echo "패턴 '$pattern'으로 이미지 ID ($IMAGE_ID) 찾음. 삭제 시도..."
                 sudo docker rmi -f $IMAGE_ID || true
                 IMAGE_ID_FOUND="true"
@@ -145,19 +134,28 @@ jobs:
              echo "data-collector 관련 이미지를 찾지 못했습니다."
           fi
           
-          # 단계 4: 댕글링 이미지(태그 없는 이미지) 삭제
-          echo "댕글링 이미지 삭제 시도..."
+          echo "댕글링 이미지 삭제 시도 (배포 스크립트 내)..."
           sudo docker image prune -f || true
 
-          # (선택 사항) 단계 5: 사용하지 않는 모든 이미지, 네트워크, 빌드 캐시 정리 - 주의!
-          # echo "사용하지 않는 모든 이미지, 네트워크, 빌드 캐시 정리 시도 (볼륨 제외)..."
-          # sudo docker system prune -a -f || true 
+          echo "===== Docker 환경 정리 완료 (배포 스크립트 내) ====="
 
-          echo "===== Docker 환경 정리 완료 ====="
-
-          # 단계 6: 모든 서비스 새로 빌드 및 시작
           echo "모든 서비스 새로 빌드 (--no-cache) 및 시작..."
           run_docker_compose build --no-cache
           run_docker_compose up -d
           
           echo "배포가 완료되었습니다!"
+
+    - name: Cleanup Docker resources on Azure VM
+      if: always() # 이전 단계의 성공/실패 여부와 관계없이 항상 실행
+      uses: appleboy/ssh-action@v0.1.6
+      with:
+        host: ${{ secrets.AZURE_VM_IP }}
+        username: ${{ secrets.AZURE_VM_USERNAME }}
+        key: ${{ secrets.AZURE_VM_SSH_KEY }}
+        script: |
+          echo "===== Docker 리소스 정리 시작 (항상 실행) ====="
+          echo "댕글링 이미지 삭제 시도 (항상 실행)..."
+          sudo docker image prune -f || true
+          echo "중지된 컨테이너 삭제 시도 (항상 실행)..."
+          sudo docker container prune -f || true
+          echo "===== Docker 리소스 정리 완료 (항상 실행) ====="

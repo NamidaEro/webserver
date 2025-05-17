@@ -12,12 +12,13 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     rustc \
     cargo \
+    bash \
     && rm -rf /var/lib/apt/lists/*
 
 # uv 설치, 환경 설정 및 확인, requirements 설치
 COPY requirements.txt .
 RUN curl -sSf https://astral.sh/uv/install.sh | sh && \
-    sh -c 'source $HOME/.cargo/env && uv --version && uv pip install --system --no-cache -r requirements.txt'
+    bash -c 'source $HOME/.cargo/env && uv --version && uv pip install --system --no-cache -r requirements.txt'
 
 # 로그 및 데이터 디렉토리 생성
 RUN mkdir -p /app/logs && chown -R collector:collector /app/logs

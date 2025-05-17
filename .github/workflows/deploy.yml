@@ -183,6 +183,8 @@ jobs:
           echo "===== Docker 환경 정리 완료 (배포 스크립트 내) ====="
 
           echo "모든 서비스 새로 빌드 (--no-cache) 및 시작..."
+          # MONGODB_URI 값 디버그 출력 추가
+          echo "Debug: MONGODB_URI in script is '${MONGODB_URI}'"
           # nextjs-app 빌드 시 --build-arg를 사용하여 MONGODB_URI 명시적 전달
           run_docker_compose build --no-cache --build-arg MONGODB_URI="${MONGODB_URI}" nextjs-app
           run_docker_compose build --no-cache data-collector 

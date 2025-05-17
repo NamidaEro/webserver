@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 기타 전역 스타일 (선택 사항) */
+body {
+  /* 예시: 기본 배경색 등 */
+  /* background-color: #f3f4f6; */
+} 

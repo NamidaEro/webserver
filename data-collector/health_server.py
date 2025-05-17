@@ -128,22 +128,30 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             return
 
         try:
-            # MongoDB 연결 및 상태 확인
-            db = mongo_client.get_database()
-            collection = db["auction_data"]
+            # MongoDB 연결 및 상태 확인 (main.py의 db, auctions_collection 사용)
+            if not db or not auctions_collection: # main.py에서 초기화된 db, auctions_collection 사용
+                logger.error("health_server: MongoDB DB 또는 컬렉션 객체가 초기화되지 않았습니다.")
+                self._set_headers(503)
+                response = {
+                    'status': 'error',
+                    'message': 'MongoDB DB 또는 컬렉션 객체가 초기화되지 않았습니다.'
+                }
+                self.wfile.write(json.dumps(response).encode())
+                return
             
             # 전체 문서 수
-            total_count = collection.count_documents({})
+            total_count = auctions_collection.count_documents({}) # auctions_collection 사용
             # 최근 문서
-            latest = collection.find_one(sort=[("timestamp", -1)])
+            latest = auctions_collection.find_one(sort=[("collection_time", -1)]) # 정렬 기준 변경 가능성 (예: collection_time)
             
             self._set_headers()
             response = {
                 'status': 'ok',
                 'total_documents': total_count,
-                'latest_document': str(latest) if latest else None,
-                'database': db.name,
-                'collections': db.list_collection_names()
+                'latest_document_collection_time': latest['collection_time'] if latest and 'collection_time' in latest else None,
+                'database': db.name, # main.py의 db 객체 사용
+                'collection': auctions_collection.name, # main.py의 auctions_collection 객체 사용
+                'all_collections_in_db': db.list_collection_names()
             }
             self.wfile.write(json.dumps(response, default=str).encode())
         except Exception as e:

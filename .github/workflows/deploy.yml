@@ -16,6 +16,10 @@ jobs:
     - name: Deploy to Azure VM
       id: deploy # step에 id를 부여하여 결과 접근 가능
       uses: appleboy/ssh-action@v0.1.6
+      env:
+        BLIZZARD_CLIENT_ID: ${{ secrets.BLIZZARD_CLIENT_ID }}
+        BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
+        MONGODB_URI: ${{ secrets.MONGODB_URI }}
       with:
         host: ${{ secrets.AZURE_VM_IP }}
         username: ${{ secrets.AZURE_VM_USERNAME }}

@@ -138,6 +138,45 @@ jobs:
              echo "data-collector 관련 이미지를 찾지 못했습니다."
           fi
           
+          echo "기존 nextjs-app 이미지 삭제 시도..."
+          # nextjs-app 이미지 패턴 (docker-compose.yml 설정에 따라 다를 수 있음)
+          # 일반적으로 프로젝트명_서비스명 또는 프로젝트명-서비스명 형태
+          NEXTJS_IMAGE_PATTERNS=("${PROJECT_NAME}_nextjs-app" "${PROJECT_NAME}-nextjs-app" "nextjs-app")
+          NEXTJS_IMAGE_ID_FOUND=""
+          for pattern in "${NEXTJS_IMAGE_PATTERNS[@]}"; do
+            IMAGE_IDS=$(sudo docker images --filter=reference="$pattern" -q)
+            if [ -n "$IMAGE_IDS" ]; then
+              for IMAGE_ID in $IMAGE_IDS; do
+                echo "패턴 '$pattern'으로 nextjs-app 이미지 ID ($IMAGE_ID) 찾음. 삭제 시도..."
+                sudo docker rmi -f $IMAGE_ID || true
+                NEXTJS_IMAGE_ID_FOUND="true"
+              done
+            fi
+          done
+          if [ -z "$NEXTJS_IMAGE_ID_FOUND" ]; then
+             echo "nextjs-app 관련 이미지를 찾지 못했습니다. (이는 정상일 수 있습니다. docker-compose가 기본 이름으로 빌드합니다)"
+          fi
+          
+          # === 추가된 부분 시작: server-admin 이미지 삭제 로직 ===
+          echo "기존 server-admin 이미지 삭제 시도..."
+          # server-admin 이미지 패턴
+          SERVER_ADMIN_IMAGE_PATTERNS=("${PROJECT_NAME}_server-admin" "${PROJECT_NAME}-server-admin" "server-admin")
+          SERVER_ADMIN_IMAGE_ID_FOUND=""
+          for pattern in "${SERVER_ADMIN_IMAGE_PATTERNS[@]}"; do
+            IMAGE_IDS=$(sudo docker images --filter=reference="$pattern" -q)
+            if [ -n "$IMAGE_IDS" ]; then
+              for IMAGE_ID in $IMAGE_IDS; do
+                echo "패턴 '$pattern'으로 server-admin 이미지 ID ($IMAGE_ID) 찾음. 삭제 시도..."
+                sudo docker rmi -f $IMAGE_ID || true
+                SERVER_ADMIN_IMAGE_ID_FOUND="true"
+              done
+            fi
+          done
+          if [ -z "$SERVER_ADMIN_IMAGE_ID_FOUND" ]; then
+             echo "server-admin 관련 이미지를 찾지 못했습니다. (이는 정상일 수 있습니다. docker-compose가 기본 이름으로 빌드합니다)"
+          fi
+          # === 추가된 부분 끝 ===
+          
           echo "댕글링 이미지 삭제 시도 (배포 스크립트 내)..."
           sudo docker image prune -f || true
 

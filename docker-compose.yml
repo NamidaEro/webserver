@@ -19,7 +19,10 @@ services:
       start_period: 1m
 
   nextjs-app:
-    build: ./nextjs-app
+    build:
+      context: ./nextjs-app
+      args:
+        MONGODB_URI: ${MONGODB_URI}
     env_file:
       - ./nextjs-app/.env
     ports:

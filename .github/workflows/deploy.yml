@@ -81,7 +81,7 @@ jobs:
             echo "BLIZZARD_REGION=kr" >> /home/azureuser/webserver/data-collector/.env
             echo "BLIZZARD_NAMESPACE=dynamic-kr" >> /home/azureuser/webserver/data-collector/.env
             echo "BLIZZARD_LOCALE=ko_KR" >> /home/azureuser/webserver/data-collector/.env
-            echo "MONGODB_URI=${MONGODB_URI}" >> /home/azureuser/webserver/data-collector/.env
+            echo "MONGODB_URI=${{ env.MONGODB_URI }}" >> /home/azureuser/webserver/data-collector/.env
           fi
           
           # Next.js 환경 변수 설정
@@ -90,7 +90,7 @@ jobs:
             mkdir -p /home/azureuser/webserver/nextjs-app
             
             # MongoDB 관련 환경 변수 설정을 추가합니다
-            echo "MONGODB_URI=${MONGODB_URI}" > /home/azureuser/webserver/nextjs-app/.env
+            echo "MONGODB_URI=${{ env.MONGODB_URI }}" > /home/azureuser/webserver/nextjs-app/.env
           fi
           
           # 4. 서비스 빌드 및 실행
@@ -184,9 +184,9 @@ jobs:
 
           echo "모든 서비스 새로 빌드 (--no-cache) 및 시작..."
           # MONGODB_URI 값 디버그 출력 추가
-          echo "Debug: MONGODB_URI in script is '${MONGODB_URI}'"
+          echo "Debug: MONGODB_URI in script is '${{ env.MONGODB_URI }}'"
           # nextjs-app 빌드 시 --build-arg를 사용하여 MONGODB_URI 명시적 전달
-          run_docker_compose build --no-cache --build-arg MONGODB_URI="${MONGODB_URI}" nextjs-app
+          run_docker_compose build --no-cache --build-arg MONGODB_URI="${{ env.MONGODB_URI }}" nextjs-app
           run_docker_compose build --no-cache data-collector 
           run_docker_compose build --no-cache server-admin
           

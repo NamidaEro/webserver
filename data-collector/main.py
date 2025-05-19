@@ -263,7 +263,7 @@ if __name__ == "__main__":
         health_server.start()
         
         # DB 객체 전달
-        if db and auctions_collection:
+        if db is not None and auctions_collection is not None:
             health_server.set_db_objects(db, auctions_collection)
         else:
             logger.warning("main: DB 객체가 초기화되지 않아 health_server에 전달할 수 없습니다.")

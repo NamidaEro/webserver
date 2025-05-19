@@ -392,7 +392,7 @@ def schedule_jobs():
     schedule.every(COLLECTION_INTERVAL).minutes.do(collect_auction_data)
     
     # 아이템 메타데이터 처리 스케줄 설정 (10초마다)
-    schedule.every(10).seconds.do(process_item_metadata_queue)
+    schedule.every(2).seconds.do(process_item_metadata_queue)
     
     # 상태 확인 스케줄 설정
     schedule.every(30).minutes.do(health_check)

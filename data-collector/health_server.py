@@ -58,6 +58,8 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self._handle_db_status()
         elif path == '/auctions':
             self._handle_auctions(query_params)
+        elif path == '/realms':
+            self._handle_realms()
         else:
             self._set_headers(404)
             response = {'error': 'Not Found', 'message': 'The requested resource was not found.'}
@@ -226,6 +228,33 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self.wfile.write(json.dumps(response, default=str).encode())
         except Exception as e:
             logger.error(f"/auctions API 오류: {e}", exc_info=True)
+            self._set_headers(500)
+            response = {'status': 'error', 'message': str(e)}
+            self.wfile.write(json.dumps(response).encode())
+    
+    def _handle_realms(self):
+        """현재 auctions 컬렉션에 존재하는 모든 고유 realm_id와 각 count 반환"""
+        global auctions_collection
+        if auctions_collection is None:
+            self._set_headers(503)
+            response = {'status': 'error', 'message': 'MongoDB 컬렉션이 초기화되지 않았습니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
+        try:
+            pipeline = [
+                {"$group": {"_id": "$realm_id", "count": {"$sum": 1}}},
+                {"$sort": {"_id": 1}}
+            ]
+            result = list(auctions_collection.aggregate(pipeline))
+            realms = [{"realm_id": r["_id"], "count": r["count"]} for r in result if r["_id"] is not None]
+            self._set_headers()
+            response = {
+                'status': 'ok',
+                'realms': realms
+            }
+            self.wfile.write(json.dumps(response, default=str).encode())
+        except Exception as e:
+            logger.error(f"/realms API 오류: {e}", exc_info=True)
             self._set_headers(500)
             response = {'status': 'error', 'message': str(e)}
             self.wfile.write(json.dumps(response).encode())

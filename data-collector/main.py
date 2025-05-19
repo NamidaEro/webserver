@@ -7,7 +7,7 @@ import sys
 from datetime import datetime, timedelta
 
 from logger_config import setup_logger, get_logger
-from blizzard_api import get_access_token, get_connected_realms, get_auctions
+from blizzard_api import get_access_token, get_connected_realms, get_auctions, get_item_info
 # from firebase_db import save_auctions_to_firestore, init_firestore, get_realms_with_data
 from monitoring import Timer, stats
 from health_server import health_server
@@ -114,6 +114,111 @@ def save_auctions_to_mongodb(realm_id, auctions_data_list, collection_time):
     except Exception as e:
         logger.error(f"Realm ID {realm_id} 데이터 MongoDB 저장 중 오류 발생: {e}", exc_info=True)
         stats.increment('db_errors')
+
+def update_item_details_in_db(item_id: int, item_details: dict):
+    """특정 item_id에 해당하는 모든 경매 문서의 item_obj를 업데이트합니다."""
+    if not auctions_collection:
+        logger.error("MongoDB auctions_collection이 초기화되지 않아 아이템 상세 정보를 업데이트할 수 없습니다.")
+        return 0
+    if not item_details:
+        logger.warning(f"Item ID {item_id}에 대한 상세 정보가 비어 있어 업데이트하지 않습니다.")
+        return 0
+
+    try:
+        # item_obj 필드만 업데이트하고, 다른 필드는 유지합니다.
+        # API 응답 전체를 저장할지, 필요한 필드만 추출할지 결정 필요. 여기서는 전체 저장.
+        result = auctions_collection.update_many(
+            {'item_id': item_id},
+            {'$set': {'item_obj': item_details}}
+        )
+        if result.modified_count > 0:
+            logger.info(f"Item ID {item_id}: {result.modified_count}개 문서의 item_obj 업데이트 완료.")
+        return result.modified_count
+    except Exception as e:
+        logger.error(f"Item ID {item_id} 상세 정보 DB 업데이트 중 오류: {e}", exc_info=True)
+        stats.increment('db_errors')
+        return 0
+
+def fetch_and_update_single_item_info(item_id: int, token: str):
+    """Blizzard API에서 아이템 상세 정보를 가져와 DB에 업데이트합니다."""
+    logger.info(f"Item ID {item_id} 상세 정보 조회 및 업데이트 시작...")
+    try:
+        item_details = get_item_info(token, item_id) # blizzard_api.py의 함수
+        if item_details:
+            # 여기서 item_details 구조를 프론트엔드가 기대하는 형태로 추가 가공할 수 있습니다.
+            # 예를 들어, name, quality, icon 등을 직접 추출하여 item_obj의 루트 레벨에 둘 수 있습니다.
+            # 지금은 API 응답 그대로 저장합니다. 프론트엔드 API 라우트에서 이 구조를 파싱해야 합니다.
+            update_item_details_in_db(item_id, item_details)
+        else:
+            logger.warning(f"Item ID {item_id} 상세 정보를 가져오지 못했습니다 (API 결과가 None).")
+        
+        time.sleep(1) # API 호출 제한 준수를 위한 대기 (get_item_info 내부에도 있을 수 있으나 추가)
+        return True 
+    except Exception as e:
+        logger.error(f"Item ID {item_id} 상세 정보 처리 중 오류: {e}", exc_info=True)
+        # stats.increment('api_errors') # get_item_info 내부에서 이미 처리될 수 있음
+        return False
+
+def update_all_missing_item_info():
+    """item_obj가 없거나 이름 정보가 없는 아이템들의 상세 정보를 업데이트합니다."""
+    if shutdown_requested:
+        logger.info("종료 요청으로 아이템 정보 업데이트 작업을 건너뜁니다.")
+        return
+    
+    if not auctions_collection:
+        logger.error("MongoDB auctions_collection이 초기화되지 않아 아이템 정보 업데이트를 시작할 수 없습니다.")
+        return
+
+    logger.info("아이템 상세 정보 업데이트 작업 시작...")
+    token = None
+    try:
+        token = get_access_token()
+        logger.info(f"아이템 정보 업데이트용 API 토큰 발급 완료: {token[:10]}...")
+    except Exception as e:
+        logger.error(f"아이템 정보 업데이트용 API 토큰 발급 실패: {e}")
+        return
+
+    try:
+        # item_obj가 없거나, item_obj.name이 없는 (Blizzard API 기준) 아이템들의 item_id 목록 조회
+        # 실제 Blizzard API 응답에서 아이템 이름 필드 경로를 확인해야 합니다. 예: 'name.ko_KR'
+        # 여기서는 item_obj 자체가 없거나, item_obj 안에 name 필드가 없는 경우를 가정합니다.
+        # 또는, 프론트엔드에서 "이름 없음"으로 표시될 만한 특정 조건으로 필터링 할 수도 있습니다.
+        # 일단은 item_obj가 없는 문서들만 대상으로 하겠습니다. (더 구체적인 조건 추가 가능)
+        missing_info_items_cursor = auctions_collection.find(
+            {'$or': [{'item_obj': {'$exists': False}}, {'item_obj': None}]}, # 또는 {'item_obj.name': {'$exists': False}} 등
+            {'item_id': 1, '_id': 0} # item_id만 가져옴
+        )
+        
+        distinct_item_ids = set()
+        for item_doc in missing_info_items_cursor:
+            if 'item_id' in item_doc and item_doc['item_id'] is not None:
+                distinct_item_ids.add(item_doc['item_id'])
+        
+        if not distinct_item_ids:
+            logger.info("업데이트가 필요한 아이템 정보가 없습니다.")
+            return
+
+        total_ids_to_update = len(distinct_item_ids)
+        logger.info(f"총 {total_ids_to_update}개의 고유한 item_id에 대한 정보 업데이트 시도...")
+
+        updated_count = 0
+        failed_count = 0
+        for i, item_id in enumerate(list(distinct_item_ids)):
+            if shutdown_requested:
+                logger.info("종료 요청으로 아이템 정보 업데이트를 중단합니다.")
+                break
+            logger.info(f"[{i+1}/{total_ids_to_update}] Item ID {item_id} 처리 중...")
+            if fetch_and_update_single_item_info(item_id, token):
+                updated_count +=1
+            else:
+                failed_count +=1
+        
+        logger.info(f"아이템 상세 정보 업데이트 작업 완료. 성공: {updated_count} ID, 실패: {failed_count} ID")
+
+    except Exception as e:
+        logger.error(f"아이템 상세 정보 업데이트 작업 중 오류 발생: {e}", exc_info=True)
+    finally:
+        stats.log_stats() # 작업 후 통계 로깅
 
 def collect_auction_data():
     """Blizzard API에서 경매장 데이터를 수집하여 MongoDB에 저장"""
@@ -239,12 +344,19 @@ def schedule_jobs():
     # 데이터 수집 스케줄 설정
     schedule.every(COLLECTION_INTERVAL).minutes.do(collect_auction_data)
     
+    # 아이템 상세 정보 업데이트 스케줄 설정 (예: 6시간마다)
+    # 실제 운영 환경에 맞게 주기 조정 필요
+    schedule.every(1).hours.do(update_all_missing_item_info) 
+    
     # 상태 확인 스케줄 설정
     schedule.every(30).minutes.do(health_check)
     
     # 처음 실행 시 즉시 한 번 실행
     logger.info("첫 번째 데이터 수집 시작")
     collect_auction_data()
+    # 애플리케이션 시작 시 아이템 정보 업데이트도 한 번 실행할 수 있습니다 (선택 사항).
+    # logger.info("첫 번째 아이템 정보 업데이트 시작")
+    # update_all_missing_item_info()
     
     logger.info("스케줄러 시작됨")
     

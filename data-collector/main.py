@@ -125,14 +125,23 @@ def update_item_details_in_db(item_id: int, item_details: dict):
         return 0
 
     try:
-        # item_obj 필드만 업데이트하고, 다른 필드는 유지합니다.
-        # API 응답 전체를 저장할지, 필요한 필드만 추출할지 결정 필요. 여기서는 전체 저장.
+        # 아이템 이름이 없는 경우 로그 출력
+        if 'name' not in item_details:
+            logger.warning(f"Item ID {item_id}의 응답에 name 필드가 없습니다: {item_details}")
+            return 0
+            
+        # 이름이 있는 경우 업데이트 진행
+        # 이름 필드를 명시적으로 item_obj에 포함시킴
         result = auctions_collection.update_many(
             {'item_id': item_id},
-            {'$set': {'item_obj': item_details}}
+            {'$set': {
+                'item_obj': item_details,
+                'item_obj.name': item_details.get('name'),  # 이름 필드 명시적 추가
+                'item_name': item_details.get('name')  # 루트 레벨에도 이름 필드 추가
+            }}
         )
         if result.modified_count > 0:
-            logger.info(f"Item ID {item_id}: {result.modified_count}개 문서의 item_obj 업데이트 완료.")
+            logger.info(f"Item ID {item_id} ({item_details.get('name', '이름 없음')}): {result.modified_count}개 문서의 item_obj 업데이트 완료.")
         return result.modified_count
     except Exception as e:
         logger.error(f"Item ID {item_id} 상세 정보 DB 업데이트 중 오류: {e}", exc_info=True)
@@ -212,8 +221,8 @@ def update_all_missing_item_info():
         all_item_ids = list(distinct_item_ids)
         total_ids_to_update = len(all_item_ids)
         
-        # 한 번에 처리할 아이템 수를 5개로 제한 (API 제한 고려)
-        batch_size = 5
+        # 한 번에 처리할 아이템 수를 1개로 제한 (API 제한 고려)
+        batch_size = 1
         ids_to_process = all_item_ids[:batch_size]
         
         logger.info(f"총 {total_ids_to_update}개 아이템 중 이번 실행에서 {len(ids_to_process)}개 아이템 정보 업데이트 시도...")
@@ -231,7 +240,7 @@ def update_all_missing_item_info():
                 failed_count +=1
             
             # API 호출 사이에 약간의 시간 간격 추가 (블리자드 API 제한 준수)
-            time.sleep(3)
+            time.sleep(1)
         
         remaining = total_ids_to_update - len(ids_to_process)
         logger.info(f"아이템 상세 정보 업데이트 작업 완료. 성공: {updated_count} ID, 실패: {failed_count} ID, 남은 아이템: {remaining}개")
@@ -365,9 +374,9 @@ def schedule_jobs():
     # 데이터 수집 스케줄 설정
     schedule.every(COLLECTION_INTERVAL).minutes.do(collect_auction_data)
     
-    # 아이템 상세 정보 업데이트 스케줄 설정 (예: 6시간마다)
-    # 실제 운영 환경에 맞게 주기 조정 필요
-    schedule.every(1).hours.do(update_all_missing_item_info) 
+    # 아이템 상세 정보 업데이트 스케줄 설정
+    # 매 3초마다 실행하도록 변경
+    schedule.every(3).seconds.do(update_all_missing_item_info) 
     
     # 상태 확인 스케줄 설정
     schedule.every(30).minutes.do(health_check)
@@ -384,7 +393,7 @@ def schedule_jobs():
     # 스케줄러 무한 루프
     while not shutdown_requested:
         schedule.run_pending()
-        time.sleep(10)  # 10초마다 스케줄 확인
+        time.sleep(1)  # 1초마다 스케줄 확인 (3초 간격 일정을 위해 변경)
     
     logger.info("종료 요청으로 스케줄러 종료")
 

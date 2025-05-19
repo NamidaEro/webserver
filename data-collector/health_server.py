@@ -86,8 +86,13 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
         # 이름이 있는 아이템 개수 추가
         try:
             if auctions_collection is not None:
-                # item_obj.name이 존재하는 문서 수 계산
-                named_items_count = auctions_collection.count_documents({"item_obj.name": {"$exists": True}})
+                # item_obj.name 또는 item_name이 존재하는 문서 수 계산
+                named_items_count = auctions_collection.count_documents({
+                    "$or": [
+                        {"item_obj.name": {"$exists": True}},
+                        {"item_name": {"$exists": True}}
+                    ]
+                })
                 # 전체 아이템 수
                 total_items_count = auctions_collection.count_documents({})
                 # 이름이 없는 아이템 수

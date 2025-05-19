@@ -371,7 +371,7 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
                         "auctions": [
                             {"$skip": skip},
                             {"$limit": limit},
-                            {"$project": {"item_meta_docs": 0}} # 불필요한 필드 제거
+                            {"$project": {"item_meta_docs": 0, "item_meta":0 }} # item_meta도 최종 결과에서 제외
                         ],
                         "total_count": [
                             {"$count": "count"}
@@ -380,18 +380,25 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
                 }
             ]
             
-            result = list(auctions_collection.aggregate(pipeline))
+            results_from_aggregation = list(auctions_collection.aggregate(pipeline))
             
             auctions_list = []
             total_count = 0
 
-            if result and result[0]['auctions']:
-                auctions_list = result[0]['auctions']
-                for doc in auctions_list:
-                    doc['_id'] = str(doc['_id']) # ObjectId를 문자열로 변환
-            
-            if result and result[0]['total_count'] and result[0]['total_count'][0]:
-                total_count = result[0]['total_count'][0]['count']
+            if results_from_aggregation: # Check if the aggregation returned anything
+                facet_output = results_from_aggregation[0] # Should be the single doc from $facet
+
+                if 'auctions' in facet_output:
+                    auctions_list = facet_output['auctions']
+                    for doc in auctions_list:
+                        if '_id' in doc and not isinstance(doc['_id'], str):
+                            doc['_id'] = str(doc['_id'])
+                
+                if 'total_count' in facet_output:
+                    total_count_array = facet_output['total_count']
+                    if total_count_array: # If the array is not empty (i.e., count was performed)
+                        total_count = total_count_array[0].get('count', 0)
+                    # If total_count_array is empty, it means 0 documents were counted, so total_count remains 0.
             
             self._set_headers()
             response = {

@@ -17,11 +17,12 @@ logger = logging.getLogger('data-collector.blizzard_api')
 BLIZZARD_CLIENT_ID = os.getenv('BLIZZARD_CLIENT_ID')
 BLIZZARD_CLIENT_SECRET = os.getenv('BLIZZARD_CLIENT_SECRET')
 BLIZZARD_REGION = os.getenv('BLIZZARD_REGION', 'kr')
-BLIZZARD_NAMESPACE = os.getenv('BLIZZARD_NAMESPACE', f'dynamic-{BLIZZARD_REGION}')
+BLIZZARD_DYNAMIC_NAMESPACE = os.getenv('BLIZZARD_NAMESPACE', f'dynamic-{BLIZZARD_REGION}')
+BLIZZARD_STATIC_NAMESPACE = os.getenv('BLIZZARD_STATIC_NAMESPACE', f'static-{BLIZZARD_REGION}')
 BLIZZARD_LOCALE = os.getenv('BLIZZARD_LOCALE', 'ko_KR')
 
 # API 제한 관련 설정
-RATE_LIMIT_WAIT = 1  # 초당 API 호출 제한을 위한 대기 시간
+RATE_LIMIT_WAIT = float(os.getenv('RATE_LIMIT_WAIT', '0.5'))  # API 호출 간 대기 시간 (초)
 MAX_RETRIES = 3      # 최대 재시도 횟수
 
 # 세션 설정 (재시도 로직 포함)
@@ -36,6 +37,9 @@ def create_session():
     )
     adapter = HTTPAdapter(max_retries=retry_strategy)
     session.mount("https://", adapter)
+    session.headers.update({
+        'User-Agent': 'WoWAuction/1.0'
+    })
     return session
 
 @timeit
@@ -70,7 +74,7 @@ def get_connected_realms(token):
         
         url = f'https://{BLIZZARD_REGION}.api.blizzard.com/data/wow/connected-realm/index'
         params = {
-            'namespace': BLIZZARD_NAMESPACE,
+            'namespace': BLIZZARD_DYNAMIC_NAMESPACE,
             'locale': BLIZZARD_LOCALE
         }
         headers = {
@@ -103,7 +107,7 @@ def get_auctions(token, connected_realm_id):
         
         url = f'https://{BLIZZARD_REGION}.api.blizzard.com/data/wow/connected-realm/{connected_realm_id}/auctions'
         params = {
-            'namespace': BLIZZARD_NAMESPACE,
+            'namespace': BLIZZARD_DYNAMIC_NAMESPACE,
             'locale': BLIZZARD_LOCALE
         }
         headers = {
@@ -152,7 +156,7 @@ def get_item_info(token, item_id):
         
         url = f'https://{BLIZZARD_REGION}.api.blizzard.com/data/wow/item/{item_id}'
         params = {
-            'namespace': BLIZZARD_NAMESPACE,
+            'namespace': BLIZZARD_STATIC_NAMESPACE,  # 아이템 정보는 static 네임스페이스 사용
             'locale': BLIZZARD_LOCALE
         }
         headers = {
@@ -162,6 +166,7 @@ def get_item_info(token, item_id):
         # API 호출 제한 고려 - 필요 시 대기
         time.sleep(RATE_LIMIT_WAIT)
         
+        logger.info(f"아이템 정보 조회 요청: {url}?namespace={BLIZZARD_STATIC_NAMESPACE}&locale={BLIZZARD_LOCALE}")
         response = session.get(url, params=params, headers=headers)
         response.raise_for_status()
         return response.json()

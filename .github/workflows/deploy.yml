@@ -88,6 +88,9 @@ jobs:
           if ! grep -q "^BLIZZARD_NAMESPACE=" "$DATA_COLLECTOR_ENV_FILE"; then
             echo "BLIZZARD_NAMESPACE=dynamic-kr" >> "$DATA_COLLECTOR_ENV_FILE"
           fi
+          if ! grep -q "^BLIZZARD_STATIC_NAMESPACE=" "$DATA_COLLECTOR_ENV_FILE"; then
+            echo "BLIZZARD_STATIC_NAMESPACE=static-kr" >> "$DATA_COLLECTOR_ENV_FILE"
+          fi
           if ! grep -q "^BLIZZARD_LOCALE=" "$DATA_COLLECTOR_ENV_FILE"; then
             echo "BLIZZARD_LOCALE=ko_KR" >> "$DATA_COLLECTOR_ENV_FILE"
           fi

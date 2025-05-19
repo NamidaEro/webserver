@@ -146,14 +146,23 @@ def fetch_and_update_single_item_info(item_id: int, token: str):
         item_details = get_item_info(token, item_id) # blizzard_api.py의 함수
         if item_details:
             # 여기서 item_details 구조를 프론트엔드가 기대하는 형태로 추가 가공할 수 있습니다.
-            # 예를 들어, name, quality, icon 등을 직접 추출하여 item_obj의 루트 레벨에 둘 수 있습니다.
-            # 지금은 API 응답 그대로 저장합니다. 프론트엔드 API 라우트에서 이 구조를 파싱해야 합니다.
-            update_item_details_in_db(item_id, item_details)
+            # 예: name, quality 같은 중요 필드를 루트 레벨로 추출
+            if 'name' in item_details:
+                # 필요한 정보를 item_obj에 직접 추가
+                item_details_enhanced = item_details.copy()
+                # 기존 응답 구조 유지하면서 추가 필드 보강
+                update_item_details_in_db(item_id, item_details_enhanced)
+                logger.info(f"Item ID {item_id} '{item_details.get('name', '이름 없음')}' 정보 업데이트 완료")
+                return True
+            else:
+                logger.warning(f"Item ID {item_id} 상세 정보에 name 필드가 없습니다.")
+                update_item_details_in_db(item_id, item_details)
+                return True
         else:
             logger.warning(f"Item ID {item_id} 상세 정보를 가져오지 못했습니다 (API 결과가 None).")
         
-        time.sleep(1) # API 호출 제한 준수를 위한 대기 (get_item_info 내부에도 있을 수 있으나 추가)
-        return True 
+        time.sleep(2) # API 호출 제한 준수를 위한 대기 (get_item_info 내부에도 있음 - 추가 여유 확보)
+        return False 
     except Exception as e:
         logger.error(f"Item ID {item_id} 상세 정보 처리 중 오류: {e}", exc_info=True)
         # stats.increment('api_errors') # get_item_info 내부에서 이미 처리될 수 있음
@@ -184,7 +193,8 @@ def update_all_missing_item_info():
             {'$or': [
                 {'item_obj': {'$exists': False}}, 
                 {'item_obj': None},
-                {'item_obj.name': {'$exists': False}}  # name 필드가 없는 경우도 포함
+                {'item_obj.name': {'$exists': False}},  # name 필드가 없는 경우도 포함
+                {'item_obj.id': {'$exists': True, '$ne': None}, 'item_obj.name': {'$exists': False}}  # id는 있지만 name이 없는 항목
             ]},
             {'item_id': 1, '_id': 0} # item_id만 가져옴
         )
@@ -202,8 +212,8 @@ def update_all_missing_item_info():
         all_item_ids = list(distinct_item_ids)
         total_ids_to_update = len(all_item_ids)
         
-        # 한 번에 처리할 아이템 수를 10개로 제한
-        batch_size = 10
+        # 한 번에 처리할 아이템 수를 5개로 제한 (API 제한 고려)
+        batch_size = 5
         ids_to_process = all_item_ids[:batch_size]
         
         logger.info(f"총 {total_ids_to_update}개 아이템 중 이번 실행에서 {len(ids_to_process)}개 아이템 정보 업데이트 시도...")
@@ -220,8 +230,8 @@ def update_all_missing_item_info():
             else:
                 failed_count +=1
             
-            # API 호출 사이에 약간의 시간 간격 추가
-            time.sleep(1.5)
+            # API 호출 사이에 약간의 시간 간격 추가 (블리자드 API 제한 준수)
+            time.sleep(3)
         
         remaining = total_ids_to_update - len(ids_to_process)
         logger.info(f"아이템 상세 정보 업데이트 작업 완료. 성공: {updated_count} ID, 실패: {failed_count} ID, 남은 아이템: {remaining}개")

@@ -25,8 +25,8 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
   const itemId = item.itemId || item.item_id; // API는 item_id 사용
   const buyoutPrice = item.buyoutPrice || item.buyout; // API는 buyout 사용
   
-  // item_obj에서 이름 추출 (Blizzard API 응답 구조에 맞게)
-  let itemName = item.name;
+  // 아이템 이름 추출 - 우선순위: item_name -> name -> item_obj.name -> 아이템 ID 사용
+  let itemName = item.item_name || item.name;
   if (!itemName && item.item_obj) {
     // 직접 name 속성이 있는지 확인
     if (typeof item.item_obj.name === 'string') {
@@ -47,8 +47,8 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
     itemName = `아이템 #${itemId || '알 수 없음'}`;
   }
   
-  // 아이템 품질(등급) 확인
-  let quality = item.quality;
+  // 아이템 품질(등급) 확인 - 우선순위: item_quality -> quality -> item_obj.quality
+  let quality = item.item_quality || item.quality;
   if (!quality && item.item_obj && item.item_obj.quality) {
     // quality 값이 객체인지 확인
     if (typeof item.item_obj.quality === 'object' && item.item_obj.quality.type) {
@@ -82,6 +82,7 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
     itemId, 
     buyoutPrice, 
     name: itemName,
+    api_item_name: item.item_name, // API에서 제공한 이름 로그
     item_obj: item.item_obj
   });
 

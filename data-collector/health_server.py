@@ -301,48 +301,97 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             return
 
         # 파라미터 파싱
-        realm_id = query_params.get('realm_id', [None])[0]
+        realm_id_str = query_params.get('realm_id', [None])[0]
         limit = int(query_params.get('limit', [20])[0])
         page = int(query_params.get('page', [1])[0])
-        if not realm_id:
+        
+        if not realm_id_str:
             self._set_headers(400)
             response = {'status': 'error', 'message': 'realm_id 파라미터가 필요합니다.'}
             self.wfile.write(json.dumps(response).encode())
             return
+        
+        try:
+            realm_id = int(realm_id_str)
+        except ValueError:
+            self._set_headers(400)
+            response = {'status': 'error', 'message': 'realm_id는 정수여야 합니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
 
         try:
-            query = {'realm_id': int(realm_id)}
-            total_count = auctions_collection.count_documents(query)
+            query = {'realm_id': realm_id}
             skip = (page - 1) * limit
-            cursor = auctions_collection.find(query).sort('collection_time', -1).skip(skip).limit(limit)
+
+            # Aggregation pipeline 구축
+            pipeline = [
+                {"$match": query},
+                {"$sort": {"collection_time": -1}}, # 최신 수집 데이터 우선
+                {
+                    "$lookup": {
+                        "from": item_metadata_collection.name if item_metadata_collection else "item_metadata", # 실제 메타데이터 컬렉션 이름
+                        "localField": "item_id",
+                        "foreignField": "item_id",
+                        "as": "item_meta_docs"
+                    }
+                },
+                {
+                    "$addFields": {
+                        "item_meta": {"$arrayElemAt": ["$item_meta_docs", 0]}
+                    }
+                },
+                {
+                    "$addFields": {
+                        "item_name": {
+                            "$cond": {
+                                "if": {"$ifNull": ["$item_meta.name", False]},
+                                "then": "$item_meta.name",
+                                "else": {"$concat": ["아이템 #", {"$toString": "$item_id"}]}
+                            }
+                        },
+                        "item_quality": {"$ifNull": ["$item_meta.quality", "common"]},
+                        # item_name이 실제 이름인지 (아이템 #... 형태가 아닌지) 여부 필드 추가
+                        "has_real_name": {
+                            "$cond": {
+                                "if": {"$and": [
+                                    {"$ifNull": ["$item_meta.name", False]},
+                                    {"$ne": [{"$ifNull": ["$item_meta.name", ""]}, ""]}
+                                ]},
+                                "then": True,
+                                "else": False
+                            }
+                        }
+                    }
+                },
+                # 아이템 이름이 있는 것을 우선 정렬, 그 다음 collection_time (이미 위에서 정렬됨)
+                {"$sort": {"has_real_name": -1, "collection_time": -1}},
+                # 페이지네이션을 위한 $facet 사용
+                {
+                    "$facet": {
+                        "auctions": [
+                            {"$skip": skip},
+                            {"$limit": limit},
+                            {"$project": {"item_meta_docs": 0}} # 불필요한 필드 제거
+                        ],
+                        "total_count": [
+                            {"$count": "count"}
+                        ]
+                    }
+                }
+            ]
             
-            # 아이템 ID 목록 추출
-            item_ids = set()
+            result = list(auctions_collection.aggregate(pipeline))
+            
             auctions_list = []
-            for doc in cursor:
-                doc['_id'] = str(doc['_id'])  # ObjectId를 문자열로 변환
-                if 'item_id' in doc and doc['item_id'] is not None:
-                    item_ids.add(doc['item_id'])
-                auctions_list.append(doc)
+            total_count = 0
+
+            if result and result[0]['auctions']:
+                auctions_list = result[0]['auctions']
+                for doc in auctions_list:
+                    doc['_id'] = str(doc['_id']) # ObjectId를 문자열로 변환
             
-            # 메타데이터가 있는 경우 아이템 이름 추가
-            if item_metadata_collection is not None and item_ids:
-                # 해당 아이템 ID의 메타데이터 조회
-                item_metadata = {doc['item_id']: doc for doc in 
-                               item_metadata_collection.find({"item_id": {"$in": list(item_ids)}})}
-                
-                # 경매 데이터에 아이템 이름 추가
-                for auction in auctions_list:
-                    item_id = auction.get('item_id')
-                    if item_id in item_metadata:
-                        # 아이템 이름이 있으면 추가
-                        auction['item_name'] = item_metadata[item_id].get('name', f'아이템 #{item_id}')
-                        # 품질 정보도 추가 가능
-                        auction['item_quality'] = item_metadata[item_id].get('quality', '일반')
-                        # 기타 필요한 메타데이터 추가
-            
-            # 아이템 이름이 있는 항목을 우선으로 정렬
-            auctions_list.sort(key=lambda x: (0 if 'item_name' in x and x['item_name'] and not x['item_name'].startswith('아이템 #') else 1))
+            if result and result[0]['total_count'] and result[0]['total_count'][0]:
+                total_count = result[0]['total_count'][0]['count']
             
             self._set_headers()
             response = {

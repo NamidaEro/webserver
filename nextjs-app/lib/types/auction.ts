@@ -18,6 +18,8 @@ export interface AuctionItem {
   buyout?: number;
   time_left?: string;
   item_level?: number;
+  item_name?: string;   // 백엔드에서 추가된 아이템 이름 필드
+  item_quality?: string; // 백엔드에서 추가된 아이템 품질 필드
   
   // 아이템 상세 정보 객체 (Blizzard API 응답)
   item_obj?: {

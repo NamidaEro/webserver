@@ -13,6 +13,10 @@ from datetime import datetime
 collect_data_func = None
 collect_realm_data_func = None
 
+# main.py로부터 전달받을 DB 객체
+db = None
+auctions_collection = None
+
 # 로거 설정
 logger = logging.getLogger('data-collector.health_server')
 
@@ -243,6 +247,13 @@ class HealthServer:
         global collect_realm_data_func
         collect_realm_data_func = func
         logger.info("realm별 데이터 수집 함수가 설정되었습니다.")
+
+    def set_db_objects(self, main_db, main_auctions_collection):
+        """main.py에서 초기화된 DB 객체들을 설정"""
+        global db, auctions_collection
+        db = main_db
+        auctions_collection = main_auctions_collection
+        logger.info("DB 객체가 health_server에 설정되었습니다.")
 
 # 서버 인스턴스 생성
 health_server = HealthServer() 

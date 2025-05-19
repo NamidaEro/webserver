@@ -262,6 +262,12 @@ if __name__ == "__main__":
         # 헬스체크 서버 시작
         health_server.start()
         
+        # DB 객체 전달
+        if db and auctions_collection:
+            health_server.set_db_objects(db, auctions_collection)
+        else:
+            logger.warning("main: DB 객체가 초기화되지 않아 health_server에 전달할 수 없습니다.")
+            
         # 데이터 수집 함수 등록
         health_server.set_collect_function(collect_auction_data)
         health_server.set_realm_collect_function(collect_realm_auction_data)

@@ -30,6 +30,10 @@ shutdown_requested = False
 mongo_client = None
 db = None
 auctions_collection = None
+item_metadata_collection = None  # 아이템 메타데이터를 저장할 컬렉션
+
+# 메타데이터 처리 대기열
+new_item_ids_queue = set()
 
 if MONGODB_URI:
     try:
@@ -49,7 +53,8 @@ if MONGODB_URI:
 
         db = mongo_client[db_name]
         auctions_collection = db["auctions"] # 컬렉션 이름 'auctions'
-        logger.info(f"MongoDB 연결 성공: Database: {db.name}, Collection: {auctions_collection.name}")
+        item_metadata_collection = db["item_metadata"]  # 아이템 메타데이터를 저장할 컬렉션
+        logger.info(f"MongoDB 연결 성공: Database: {db.name}, Collection: {auctions_collection.name}, Item Metadata Collection: {item_metadata_collection.name}")
     except Exception as e:
         logger.error(f"MongoDB 연결 실패: {e}", exc_info=True)
         mongo_client = None # 연결 실패 시 None으로 설정
@@ -71,17 +76,23 @@ def save_auctions_to_mongodb(realm_id, auctions_data_list, collection_time):
         logger.info(f"Realm ID {realm_id}에 대한 경매 데이터가 없어 저장하지 않습니다.")
         return
 
+    # 발견된 모든 아이템 ID 기록 (나중에 메타데이터 조회용)
+    unique_item_ids = set()
+    
     items_to_insert = []
     for auction in auctions_data_list:
         item_id = None
         # Blizzard API 응답에서 item 객체 내의 id를 item_id로 사용
         if isinstance(auction.get('item'), dict) and 'id' in auction['item']:
             item_id = auction['item']['id']
+            # 발견된 아이템 ID 기록
+            if item_id:
+                unique_item_ids.add(item_id)
         
         document = {
             'blizzard_auction_id': auction.get('id'), # 블리자드 경매 ID
             'item_id': item_id,
-            'item_obj': auction.get('item'), # 아이템 상세 정보 객체
+            'item_obj': auction.get('item'), # 아이템 기본 정보 (API 응답 그대로)
             'buyout': auction.get('buyout'),
             'quantity': auction.get('quantity'),
             'time_left': auction.get('time_left'),
@@ -111,6 +122,12 @@ def save_auctions_to_mongodb(realm_id, auctions_data_list, collection_time):
             else:
                 logger.info(f"Realm ID {realm_id}에 MongoDB에 삽입할 최종 아이템이 없습니다.")
 
+            # 3. 새로 발견된 아이템 ID에 대해 메타데이터 조회 필요 여부 확인 및 백그라운드 처리
+            if unique_item_ids:
+                logger.info(f"Realm ID {realm_id}에서 총 {len(unique_item_ids)}개의 고유 아이템 ID가 발견되었습니다.")
+                # 여기서는 백그라운드에서 처리를 예약만 하고, 실제 처리는 다른 함수에서 수행
+                process_new_item_metadata(unique_item_ids)
+                
     except Exception as e:
         logger.error(f"Realm ID {realm_id} 데이터 MongoDB 저장 중 오류 발생: {e}", exc_info=True)
         stats.increment('db_errors')
@@ -374,9 +391,8 @@ def schedule_jobs():
     # 데이터 수집 스케줄 설정
     schedule.every(COLLECTION_INTERVAL).minutes.do(collect_auction_data)
     
-    # 아이템 상세 정보 업데이트 스케줄 설정
-    # 매 3초마다 실행하도록 변경
-    schedule.every(3).seconds.do(update_all_missing_item_info) 
+    # 아이템 메타데이터 처리 스케줄 설정 (10초마다)
+    schedule.every(10).seconds.do(process_item_metadata_queue)
     
     # 상태 확인 스케줄 설정
     schedule.every(30).minutes.do(health_check)
@@ -384,9 +400,6 @@ def schedule_jobs():
     # 처음 실행 시 즉시 한 번 실행
     logger.info("첫 번째 데이터 수집 시작")
     collect_auction_data()
-    # 애플리케이션 시작 시 아이템 정보 업데이트도 한 번 실행할 수 있습니다 (선택 사항).
-    # logger.info("첫 번째 아이템 정보 업데이트 시작")
-    # update_all_missing_item_info()
     
     logger.info("스케줄러 시작됨")
     
@@ -397,6 +410,166 @@ def schedule_jobs():
     
     logger.info("종료 요청으로 스케줄러 종료")
 
+def get_item_metadata(item_id):
+    """
+    아이템 메타데이터를 컬렉션에서 조회합니다.
+    없으면 None을 반환합니다.
+    """
+    if item_metadata_collection is None:
+        logger.error("MongoDB item_metadata_collection이 초기화되지 않았습니다.")
+        return None
+    
+    try:
+        return item_metadata_collection.find_one({"item_id": item_id})
+    except Exception as e:
+        logger.error(f"아이템 메타데이터 조회 중 오류: {e}", exc_info=True)
+        return None
+
+def save_item_metadata(item_id, item_details):
+    """
+    아이템 메타데이터를 컬렉션에 저장합니다.
+    이미 존재하면 업데이트하고, 없으면 새로 삽입합니다.
+    """
+    if item_metadata_collection is None:
+        logger.error("MongoDB item_metadata_collection이 초기화되지 않았습니다.")
+        return False
+    
+    if not item_details:
+        logger.warning(f"Item ID {item_id}에 대한 상세 정보가 비어 있어 저장하지 않습니다.")
+        return False
+    
+    try:
+        # 이름이 없으면 저장하지 않음
+        if 'name' not in item_details:
+            logger.warning(f"Item ID {item_id}의 응답에 name 필드가 없어 저장하지 않습니다.")
+            return False
+        
+        # 메타데이터 문서 구성
+        metadata = {
+            "item_id": item_id,
+            "name": item_details.get('name'),
+            "quality": item_details.get('quality', {}).get('name', '일반'),
+            "item_class": item_details.get('item_class', {}).get('name', '기타'),
+            "item_subclass": item_details.get('item_subclass', {}).get('name', ''),
+            "inventory_type": item_details.get('inventory_type', {}).get('name', ''),
+            "level": item_details.get('level', 0),
+            "required_level": item_details.get('required_level', 0),
+            "media_id": item_details.get('media', {}).get('id'),
+            "full_data": item_details,  # 전체 데이터도 저장
+            "updated_at": datetime.now().isoformat()
+        }
+        
+        # upsert 연산으로 업데이트 또는 삽입
+        result = item_metadata_collection.update_one(
+            {"item_id": item_id},
+            {"$set": metadata},
+            upsert=True
+        )
+        
+        if result.modified_count > 0:
+            logger.info(f"Item ID {item_id} ({item_details.get('name')}) 메타데이터 업데이트 완료.")
+        elif result.upserted_id:
+            logger.info(f"Item ID {item_id} ({item_details.get('name')}) 메타데이터 새로 추가됨.")
+        return True
+    except Exception as e:
+        logger.error(f"아이템 메타데이터 저장 중 오류: {e}", exc_info=True)
+        stats.increment('db_errors')
+        return False
+
+def fetch_missing_item_metadata(item_id):
+    """
+    컬렉션에서 아이템 메타데이터가 없는 경우 Blizzard API에서 가져와 저장합니다.
+    """
+    # 먼저 메타데이터 컬렉션에서 조회
+    metadata = get_item_metadata(item_id)
+    if metadata:
+        return metadata  # 이미 존재하면 반환
+    
+    # 없으면 Blizzard API에서 조회
+    logger.info(f"Item ID {item_id} 메타데이터가 없어 Blizzard API에서 조회합니다.")
+    try:
+        token = get_access_token()
+        item_details = get_item_info(token, item_id)
+        
+        if item_details and save_item_metadata(item_id, item_details):
+            return get_item_metadata(item_id)  # 저장 후 다시 조회하여 반환
+        else:
+            logger.warning(f"Item ID {item_id} 메타데이터를 가져오거나 저장하지 못했습니다.")
+            return None
+    except Exception as e:
+        logger.error(f"Item ID {item_id} 메타데이터 조회 중 오류: {e}", exc_info=True)
+        return None
+
+def process_new_item_metadata(item_ids):
+    """
+    새로 발견된 아이템 ID를 대기열에 추가합니다.
+    """
+    global new_item_ids_queue
+    if not item_ids:
+        return
+    
+    # 집합 연산으로 대기열에 아이템 ID 추가
+    new_item_ids_queue.update(item_ids)
+    logger.info(f"{len(item_ids)}개의 아이템 ID를 메타데이터 처리 대기열에 추가했습니다. 현재 대기열 크기: {len(new_item_ids_queue)}")
+
+def process_item_metadata_queue():
+    """
+    대기열에 있는 아이템 ID의 메타데이터를 처리합니다.
+    이 함수는 주기적으로 스케줄러에 의해 호출됩니다.
+    """
+    global new_item_ids_queue
+    
+    if shutdown_requested:
+        logger.info("종료 요청으로 아이템 메타데이터 처리를 건너뜁니다.")
+        return
+    
+    if not new_item_ids_queue:
+        # 처리할 아이템이 없으면 로그를 남기지 않고 종료
+        return
+    
+    logger.info(f"아이템 메타데이터 처리 시작. 대기열 크기: {len(new_item_ids_queue)}")
+    
+    # 최대 몇 개의 아이템을 한 번에 처리할지 설정
+    batch_size = 5
+    processed_count = 0
+    
+    try:
+        token = get_access_token()
+        
+        # 대기열에서 처리할 아이템 ID 일부 추출
+        to_process = []
+        for _ in range(min(batch_size, len(new_item_ids_queue))):
+            if new_item_ids_queue:  # 안전 검사
+                item_id = new_item_ids_queue.pop()
+                to_process.append(item_id)
+        
+        # 추출된 아이템 메타데이터 처리
+        for item_id in to_process:
+            # 이미 메타데이터가 있는지 확인
+            existing_metadata = get_item_metadata(item_id)
+            if existing_metadata:
+                # 이미 있으면 처리 생략
+                logger.debug(f"Item ID {item_id} ({existing_metadata.get('name', '이름 없음')})의 메타데이터가 이미 존재합니다.")
+                processed_count += 1
+                continue
+            
+            # 없으면 API에서 조회하여 저장
+            try:
+                item_details = get_item_info(token, item_id)
+                if item_details and save_item_metadata(item_id, item_details):
+                    processed_count += 1
+                    logger.info(f"Item ID {item_id} ({item_details.get('name', '이름 없음')})의 메타데이터를 저장했습니다.")
+                time.sleep(1)  # API 호출 간격 조절
+            except Exception as e:
+                logger.error(f"Item ID {item_id} 메타데이터 처리 중 오류: {e}")
+                # 실패한 항목은 다시 대기열에 추가
+                new_item_ids_queue.add(item_id)
+        
+        logger.info(f"아이템 메타데이터 처리 완료. 처리된 항목: {processed_count}, 남은 대기열 크기: {len(new_item_ids_queue)}")
+    
+    except Exception as e:
+        logger.error(f"아이템 메타데이터 처리 중 오류 발생: {e}", exc_info=True)
+
 if __name__ == "__main__":
     try:
         logger.info("WoW 경매장 데이터 수집기 시작")
@@ -406,7 +579,7 @@ if __name__ == "__main__":
         
         # DB 객체 전달
         if db is not None and auctions_collection is not None:
-            health_server.set_db_objects(db, auctions_collection)
+            health_server.set_db_objects(db, auctions_collection, item_metadata_collection)
         else:
             logger.warning("main: DB 객체가 초기화되지 않아 health_server에 전달할 수 없습니다.")
             

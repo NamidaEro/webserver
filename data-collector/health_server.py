@@ -17,6 +17,7 @@ update_item_info_func = None  # 아이템 정보 업데이트 함수
 # main.py로부터 전달받을 DB 객체
 db = None
 auctions_collection = None
+item_metadata_collection = None  # 아이템 메타데이터 컬렉션 추가
 
 # 로거 설정
 logger = logging.getLogger('data-collector.health_server')
@@ -63,6 +64,8 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self._handle_realms()
         elif path == '/item-update':
             self._handle_item_update(query_params)
+        elif path == '/item-metadata':
+            self._handle_item_metadata(query_params)
         else:
             self._set_headers(404)
             response = {'error': 'Not Found', 'message': 'The requested resource was not found.'}
@@ -83,8 +86,43 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
         # stats 인스턴스에서 현재 지표 가져오기
         metrics = stats.get_stats()
         
-        # 이름이 있는 아이템 개수 추가
+        # 아이템 정보 통계 추가
         try:
+            if auctions_collection is not None and item_metadata_collection is not None:
+                # 전체 아이템 수와 고유 아이템 ID 수 계산
+                total_items_count = auctions_collection.count_documents({})
+                
+                # 고유한 아이템 ID 목록 가져오기
+                unique_item_ids_cursor = auctions_collection.aggregate([
+                    {"$match": {"item_id": {"$ne": None}}},
+                    {"$group": {"_id": "$item_id"}},
+                    {"$project": {"item_id": "$_id", "_id": 0}}
+                ])
+                unique_item_ids = [doc.get('item_id') for doc in unique_item_ids_cursor]
+                
+                # 메타데이터가 있는 아이템 수 계산
+                metadata_count = item_metadata_collection.count_documents({})
+                
+                # 메타데이터 있는 아이템 ID 목록
+                metadata_item_ids = [doc.get('item_id') for doc in 
+                                    item_metadata_collection.find({}, {"item_id": 1, "_id": 0})]
+                
+                # 현재 경매에 등록된 아이템 중 메타데이터가 있는 비율 계산
+                items_with_metadata = len([item_id for item_id in unique_item_ids if item_id in metadata_item_ids])
+                metadata_coverage = round((items_with_metadata / len(unique_item_ids)) * 100, 2) if unique_item_ids else 0
+                
+                # 지표에 추가
+                metrics['total_auction_items'] = total_items_count
+                metrics['unique_item_ids'] = len(unique_item_ids)
+                metrics['items_with_metadata'] = items_with_metadata
+                metrics['metadata_coverage_percentage'] = metadata_coverage
+                metrics['total_metadata_count'] = metadata_count
+                metrics['metadata_queue_size'] = len(new_item_ids_queue) if 'new_item_ids_queue' in globals() else 0
+                
+        except Exception as e:
+            logger.error(f"아이템 메타데이터 통계 계산 중 오류: {str(e)}")
+            metrics['metadata_stats_error'] = str(e)
+        
             if auctions_collection is not None:
                 # item_obj.name 또는 item_name이 존재하는 문서 수 계산
                 named_items_count = auctions_collection.count_documents({
@@ -323,6 +361,51 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             response = {'status': 'error', 'message': str(e)}
             self.wfile.write(json.dumps(response).encode())
     
+    def _handle_item_metadata(self, query_params):
+        """아이템 메타데이터 조회"""
+        global db, item_metadata_collection
+        if item_metadata_collection is None:
+            self._set_headers(503)
+            response = {'status': 'error', 'message': 'MongoDB 아이템 메타데이터 컬렉션이 초기화되지 않았습니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
+
+        # 파라미터 파싱
+        item_id_str = query_params.get('item_id', [None])[0]
+        if not item_id_str:
+            self._set_headers(400)
+            response = {'status': 'error', 'message': 'item_id 파라미터가 필요합니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
+
+        try:
+            # 문자열을 정수로 변환
+            item_id = int(item_id_str)
+            # 메타데이터 컬렉션에서 조회
+            item = item_metadata_collection.find_one({"item_id": item_id})
+            if item:
+                # ObjectId를 문자열로 변환
+                item['_id'] = str(item['_id'])
+                self._set_headers()
+                response = {
+                    'status': 'ok',
+                    'item': item
+                }
+                self.wfile.write(json.dumps(response, default=str).encode())
+            else:
+                self._set_headers(404)
+                response = {'status': 'error', 'message': f'Item ID {item_id}의 메타데이터를 찾을 수 없습니다.'}
+                self.wfile.write(json.dumps(response).encode())
+        except ValueError:
+            self._set_headers(400)
+            response = {'status': 'error', 'message': 'item_id는 정수여야 합니다.'}
+            self.wfile.write(json.dumps(response).encode())
+        except Exception as e:
+            logger.error(f"/item-metadata API 오류: {e}", exc_info=True)
+            self._set_headers(500)
+            response = {'status': 'error', 'message': str(e)}
+            self.wfile.write(json.dumps(response).encode())
+    
     def log_message(self, format, *args):
         """로깅 처리 오버라이드"""
         logger.debug(f"HTTP 요청: {self.address_string()} - {format % args}")
@@ -386,11 +469,12 @@ class HealthServer:
         collect_realm_data_func = func
         logger.info("realm별 데이터 수집 함수가 설정되었습니다.")
 
-    def set_db_objects(self, main_db, main_auctions_collection):
+    def set_db_objects(self, main_db, main_auctions_collection, main_item_metadata_collection=None):
         """main.py에서 초기화된 DB 객체들을 설정"""
-        global db, auctions_collection
+        global db, auctions_collection, item_metadata_collection
         db = main_db
         auctions_collection = main_auctions_collection
+        item_metadata_collection = main_item_metadata_collection
         logger.info("DB 객체가 health_server에 설정되었습니다.")
 
     def set_item_update_function(self, func):

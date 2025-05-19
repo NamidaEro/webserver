@@ -368,5 +368,11 @@ class HealthServer:
         auctions_collection = main_auctions_collection
         logger.info("DB 객체가 health_server에 설정되었습니다.")
 
+    def set_item_update_function(self, func):
+        """아이템 정보 업데이트 함수 설정"""
+        global update_item_info_func
+        update_item_info_func = func
+        logger.info("아이템 정보 업데이트 함수가 설정되었습니다.")
+
 # 서버 인스턴스 생성
 health_server = HealthServer() 

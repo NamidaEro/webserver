@@ -395,6 +395,9 @@ if __name__ == "__main__":
         health_server.set_collect_function(collect_auction_data)
         health_server.set_realm_collect_function(collect_realm_auction_data)
         
+        # 아이템 정보 업데이트 함수 등록
+        health_server.set_item_update_function(update_all_missing_item_info)
+        
         # 스케줄러 시작
         schedule_jobs()
     except Exception as e:

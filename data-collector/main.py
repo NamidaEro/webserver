@@ -131,17 +131,17 @@ def update_item_details_in_db(item_id: int, item_details: dict):
             return 0
             
         # 이름이 있는 경우 업데이트 진행
-        # 이름 필드를 명시적으로 item_obj에 포함시킴
+        # item_obj 전체를 설정하고, 별도로 item_name 필드 추가
+        item_name = item_details.get('name')
         result = auctions_collection.update_many(
             {'item_id': item_id},
             {'$set': {
-                'item_obj': item_details,
-                'item_obj.name': item_details.get('name'),  # 이름 필드 명시적 추가
-                'item_name': item_details.get('name')  # 루트 레벨에도 이름 필드 추가
+                'item_obj': item_details,  # item_obj 전체 업데이트 (name 포함)
+                'item_name': item_name     # 루트 레벨에 이름 필드 추가
             }}
         )
         if result.modified_count > 0:
-            logger.info(f"Item ID {item_id} ({item_details.get('name', '이름 없음')}): {result.modified_count}개 문서의 item_obj 업데이트 완료.")
+            logger.info(f"Item ID {item_id} ({item_name}): {result.modified_count}개 문서의 item_obj 업데이트 완료.")
         return result.modified_count
     except Exception as e:
         logger.error(f"Item ID {item_id} 상세 정보 DB 업데이트 중 오류: {e}", exc_info=True)

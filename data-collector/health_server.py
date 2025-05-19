@@ -12,6 +12,7 @@ from datetime import datetime
 # 순환 import 방지를 위해 함수 참조만 저장
 collect_data_func = None
 collect_realm_data_func = None
+update_item_info_func = None  # 아이템 정보 업데이트 함수
 
 # main.py로부터 전달받을 DB 객체
 db = None
@@ -60,6 +61,8 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self._handle_auctions(query_params)
         elif path == '/realms':
             self._handle_realms()
+        elif path == '/item-update':
+            self._handle_item_update(query_params)
         else:
             self._set_headers(404)
             response = {'error': 'Not Found', 'message': 'The requested resource was not found.'}
@@ -123,6 +126,42 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             'message': f"{'Realm '+realm_id if realm_id else 'All realms'} data collection has been triggered and is running in the background"
         }
         self.wfile.write(json.dumps(response).encode())
+    
+    def _handle_item_update(self, query_params):
+        """아이템 정보 업데이트 처리"""
+        global update_item_info_func
+        
+        # 함수 초기화 확인
+        if update_item_info_func is None:
+            self._set_headers(503)
+            response = {
+                'status': 'error',
+                'message': 'Item update function is not initialized yet'
+            }
+            self.wfile.write(json.dumps(response).encode())
+            return
+        
+        # 아이템 업데이트 스레드 시작
+        thread = threading.Thread(target=self._run_item_update)
+        thread.daemon = True
+        thread.start()
+        
+        # 즉시 응답
+        self._set_headers()
+        response = {
+            'status': 'started',
+            'message': "Item metadata update has been triggered and is running in the background"
+        }
+        self.wfile.write(json.dumps(response).encode())
+    
+    def _run_item_update(self):
+        """백그라운드 스레드에서 아이템 정보 업데이트 실행"""
+        try:
+            logger.info("API 엔드포인트를 통해 수동으로 아이템 정보 업데이트 시작")
+            update_item_info_func()
+            logger.info("수동 아이템 정보 업데이트 완료")
+        except Exception as e:
+            logger.error(f"수동 아이템 정보 업데이트 중 오류 발생: {str(e)}")
     
     def _handle_db_status(self):
         """MongoDB 상태 확인 엔드포인트"""

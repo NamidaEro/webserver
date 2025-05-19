@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AuctionItem } from '@/lib/types/auction';
 import AuctionItemRow from './AuctionItemRow';
 // import PriceHistoryChart from '@/components/auction/chart/PriceHistoryChart'; // 나중에 추가
@@ -70,8 +70,21 @@ const mockAuctionItems: AuctionItem[] = [
 
 export default function AuctionTable({ items = mockAuctionItems }: AuctionTableProps) { // items prop 기본값을 mock 데이터로 설정
   const [selectedItem, setSelectedItem] = useState<AuctionItem | null>(null);
+  
+  useEffect(() => {
+    console.log('[AuctionTable] 컴포넌트가 마운트되었습니다');
+    console.log('[AuctionTable] 받은 아이템 데이터:', items);
+    console.log('[AuctionTable] 아이템 개수:', items?.length || 0);
+    
+    // 아이템의 키와 구조 확인
+    if (items && items.length > 0) {
+      console.log('[AuctionTable] 첫 번째 아이템의 속성:', Object.keys(items[0]));
+      console.log('[AuctionTable] 첫 번째 아이템:', items[0]);
+    }
+  }, [items]);
 
   const handleItemSelect = (item: AuctionItem) => {
+    console.log('[AuctionTable] 아이템 선택됨:', item);
     setSelectedItem(item);
     // TODO: 모달 열기 또는 상세 정보 표시 로직
     console.log('Selected item:', item);
@@ -81,9 +94,15 @@ export default function AuctionTable({ items = mockAuctionItems }: AuctionTableP
     setSelectedItem(null);
   };
 
+  console.log('[AuctionTable] 렌더링 전 아이템 확인:', items);
+  
   if (!items || items.length === 0) {
+    console.log('[AuctionTable] 아이템이 없습니다. items:', items);
     return <p className="text-center text-gray-500 py-8">표시할 경매 아이템이 없습니다.</p>;
   }
+
+  // 렌더링 전에 맵핑할 아이템 수 로그
+  console.log('[AuctionTable] 맵핑할 아이템 수:', items.length);
 
   return (
     <>
@@ -110,9 +129,13 @@ export default function AuctionTable({ items = mockAuctionItems }: AuctionTableP
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-200">
-            {items.map((item) => (
-              <AuctionItemRow key={item.id} item={item} onItemSelect={handleItemSelect} />
-            ))}
+            {items.map((item, index) => {
+              console.log(`[AuctionTable] 아이템 ${index} 렌더링:`, item);
+              console.log(`[AuctionTable] 아이템 ${index}의 키:`, item._id || item.blizzard_auction_id || item.id);
+              return (
+                <AuctionItemRow key={item._id || item.blizzard_auction_id || item.id} item={item} onItemSelect={handleItemSelect} />
+              );
+            })}
           </tbody>
         </table>
       </div>

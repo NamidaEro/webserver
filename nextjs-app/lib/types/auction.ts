@@ -1,14 +1,33 @@
 export interface AuctionItem {
-  id: number;
-  itemId: number; // 블리자드 아이템 ID
-  name: string;
-  iconUrl?: string; // 아이템 아이콘 URL (선택적)
-  level?: number;   // 아이템 레벨 (선택적)
-  quality?: string; // 아이템 등급 (예: "epic", "rare") - 스타일에 사용
-  quantity: number;
-  buyoutPrice: number; // 즉시 구매가 (코퍼 단위)
-  bidPrice?: number;   // 입찰가 (코퍼 단위, 선택적)
-  timeLeft?: string;  // 남은 시간 (예: "매우 김", "12시간")
+  // 기존 클라이언트 타입
+  id?: number;
+  itemId?: number;
+  name?: string;
+  iconUrl?: string;
+  level?: number;
+  quality?: string;
+  quantity?: number;
+  buyoutPrice?: number;
+  bidPrice?: number;
+  timeLeft?: string;
+  
+  // API 응답 타입
+  _id?: string;
+  blizzard_auction_id?: number;
+  item_id?: number;
+  buyout?: number;
+  time_left?: string;
+  item_level?: number;
+  
+  // 아이템 상세 정보 객체 (Blizzard API 응답)
+  item_obj?: {
+    id?: number;
+    name?: string | { ko_KR?: string; [key: string]: any };
+    quality?: string | number | { type?: string; [key: string]: any };
+    level?: number;
+    icon?: string;
+    [key: string]: any; // 나머지 모든 필드는 any 타입
+  };
 }
 
 // 화폐 단위를 위한 타입 (선택적)

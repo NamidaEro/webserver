@@ -7,51 +7,83 @@ import AuctionTable from '@/components/auction/list/AuctionTable';
 import { AuctionItem } from '@/lib/types/auction';
 
 export default function AuctionPage() {
-  const [auctionItems, setAuctionItems] = useState<AuctionItem[]>([]); 
+  const [auctionItems, setAuctionItems] = useState<AuctionItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [totalItems, setTotalItems] = useState(0);
+  const [realmList, setRealmList] = useState<{realm_id: number, count: number}[]>([]);
+  const [selectedRealm, setSelectedRealm] = useState<number | null>(205);
+  const limit = 10;
 
+  // realm 목록 불러오기
   useEffect(() => {
-    const fetchAuctionData = async (pageNumber: number) => {
-      setIsLoading(true);
-      setError(null);
-      try {
-        // 페이지 파라미터를 포함하여 API 호출
-        const response = await fetch(`/api/auctions?page=${pageNumber}&limit=10`); // limit을 10으로 변경
-        if (!response.ok) {
-          const errorData = await response.json();
-          throw new Error(errorData.error || `Error: ${response.status}`);
+    console.log('[AuctionPage] realm 목록을 불러오는 중...');
+    fetch('/api/realms')
+      .then(res => {
+        console.log('[AuctionPage] realm API 응답 상태:', res.status);
+        return res.json();
+      })
+      .then(data => {
+        console.log('[AuctionPage] 받은 realm 데이터:', data);
+        setRealmList(data.realms || []);
+        console.log('[AuctionPage] 설정된 realmList:', data.realms || []);
+        if (data.realms && data.realms.length > 0) {
+          setSelectedRealm(data.realms[0].realm_id);
+          console.log('[AuctionPage] 선택된 realm:', data.realms[0].realm_id);
         }
-        const data = await response.json();
-        setAuctionItems(data.items || []);
-        setCurrentPage(data.currentPage || 1);
-        setTotalPages(data.totalPages || 1);
-        setTotalItems(data.totalItems || 0);
-      } catch (err) {
-        console.error("Failed to fetch auction data:", err);
-        setError(err instanceof Error ? err.message : '알 수 없는 오류가 발생했습니다.');
-        setAuctionItems([]); // 오류 발생 시 아이템 목록 초기화
-      }
-      setIsLoading(false);
-    };
+      })
+      .catch(err => {
+        console.error('[AuctionPage] realm 목록 불러오기 오류:', err);
+      });
+  }, []);
 
-    fetchAuctionData(currentPage);
-  }, [currentPage]); // currentPage가 변경될 때마다 데이터를 다시 가져옴
+  // 경매 데이터 불러오기
+  useEffect(() => {
+    if (!selectedRealm) {
+      console.log('[AuctionPage] 선택된 realm이 없음');
+      return;
+    }
+    console.log(`[AuctionPage] 경매 데이터 불러오는 중... realm_id=${selectedRealm}, limit=${limit}, page=${currentPage}`);
+    setIsLoading(true);
+    setError(null);
+    fetch(`/api/auctions?realm_id=${selectedRealm}&limit=${limit}&page=${currentPage}`)
+      .then(res => {
+        console.log('[AuctionPage] 경매 API 응답 상태:', res.status);
+        return res.json();
+      })
+      .then(data => {
+        console.log('[AuctionPage] 받은 경매 데이터:', data);
+        console.log('[AuctionPage] 경매 아이템 수:', (data.auctions || []).length);
+        console.log('[AuctionPage] 총 아이템 수:', data.total_count || 0);
+        setAuctionItems(data.auctions || []);
+        setTotalItems(data.total_count || 0);
+        setTotalPages(Math.ceil((data.total_count || 0) / limit));
+      })
+      .catch(err => {
+        console.error('[AuctionPage] 경매 데이터 불러오기 오류:', err);
+        setError('데이터를 불러오는 데 실패했습니다.');
+      })
+      .finally(() => setIsLoading(false));
+  }, [selectedRealm, currentPage]);
 
   const handlePrevPage = () => {
-    if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
-    }
+    if (currentPage > 1) setCurrentPage(currentPage - 1);
+  };
+  const handleNextPage = () => {
+    if (currentPage < totalPages) setCurrentPage(currentPage + 1);
   };
 
-  const handleNextPage = () => {
-    if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
+  console.log('[AuctionPage] 렌더링 시점 상태:', {
+    auctionItems: auctionItems.length,
+    isLoading,
+    error,
+    currentPage,
+    totalPages,
+    totalItems,
+    selectedRealm
+  });
 
   return (
     <div>
@@ -61,7 +93,24 @@ export default function AuctionPage() {
         <div className="flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 md:space-y-0">
           <ItemSearchBar />
           <RealmFilterDropdown />
-          {/* TODO: 추가 필터 버튼 (가격, 레벨 등) */}
+          <div>
+            <label>서버(Realm): </label>
+            <select
+              value={selectedRealm ?? ''}
+              onChange={e => {
+                const newRealmId = Number(e.target.value);
+                console.log('[AuctionPage] 새로운 realm 선택됨:', newRealmId);
+                setSelectedRealm(newRealmId);
+                setCurrentPage(1);
+              }}
+            >
+              {realmList.map(r => (
+                <option key={r.realm_id} value={r.realm_id}>
+                  {r.realm_id} (경매 {r.count}개)
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
       </div>
       

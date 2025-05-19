@@ -117,7 +117,7 @@ def save_auctions_to_mongodb(realm_id, auctions_data_list, collection_time):
 
 def update_item_details_in_db(item_id: int, item_details: dict):
     """특정 item_id에 해당하는 모든 경매 문서의 item_obj를 업데이트합니다."""
-    if not auctions_collection:
+    if auctions_collection is None:
         logger.error("MongoDB auctions_collection이 초기화되지 않아 아이템 상세 정보를 업데이트할 수 없습니다.")
         return 0
     if not item_details:
@@ -165,7 +165,7 @@ def update_all_missing_item_info():
         logger.info("종료 요청으로 아이템 정보 업데이트 작업을 건너뜁니다.")
         return
     
-    if not auctions_collection:
+    if auctions_collection is None:
         logger.error("MongoDB auctions_collection이 초기화되지 않아 아이템 정보 업데이트를 시작할 수 없습니다.")
         return
 
@@ -179,13 +179,13 @@ def update_all_missing_item_info():
         return
 
     try:
-        # item_obj가 없거나, item_obj.name이 없는 (Blizzard API 기준) 아이템들의 item_id 목록 조회
-        # 실제 Blizzard API 응답에서 아이템 이름 필드 경로를 확인해야 합니다. 예: 'name.ko_KR'
-        # 여기서는 item_obj 자체가 없거나, item_obj 안에 name 필드가 없는 경우를 가정합니다.
-        # 또는, 프론트엔드에서 "이름 없음"으로 표시될 만한 특정 조건으로 필터링 할 수도 있습니다.
-        # 일단은 item_obj가 없는 문서들만 대상으로 하겠습니다. (더 구체적인 조건 추가 가능)
+        # item_obj가 없거나, name 필드가 없는 아이템 대상으로 확장
         missing_info_items_cursor = auctions_collection.find(
-            {'$or': [{'item_obj': {'$exists': False}}, {'item_obj': None}]}, # 또는 {'item_obj.name': {'$exists': False}} 등
+            {'$or': [
+                {'item_obj': {'$exists': False}}, 
+                {'item_obj': None},
+                {'item_obj.name': {'$exists': False}}  # name 필드가 없는 경우도 포함
+            ]},
             {'item_id': 1, '_id': 0} # item_id만 가져옴
         )
         
@@ -198,22 +198,33 @@ def update_all_missing_item_info():
             logger.info("업데이트가 필요한 아이템 정보가 없습니다.")
             return
 
-        total_ids_to_update = len(distinct_item_ids)
-        logger.info(f"총 {total_ids_to_update}개의 고유한 item_id에 대한 정보 업데이트 시도...")
+        # 전체 아이템 ID 목록
+        all_item_ids = list(distinct_item_ids)
+        total_ids_to_update = len(all_item_ids)
+        
+        # 한 번에 처리할 아이템 수를 10개로 제한
+        batch_size = 10
+        ids_to_process = all_item_ids[:batch_size]
+        
+        logger.info(f"총 {total_ids_to_update}개 아이템 중 이번 실행에서 {len(ids_to_process)}개 아이템 정보 업데이트 시도...")
 
         updated_count = 0
         failed_count = 0
-        for i, item_id in enumerate(list(distinct_item_ids)):
+        for i, item_id in enumerate(ids_to_process):
             if shutdown_requested:
                 logger.info("종료 요청으로 아이템 정보 업데이트를 중단합니다.")
                 break
-            logger.info(f"[{i+1}/{total_ids_to_update}] Item ID {item_id} 처리 중...")
+            logger.info(f"[{i+1}/{len(ids_to_process)}] Item ID {item_id} 처리 중...")
             if fetch_and_update_single_item_info(item_id, token):
                 updated_count +=1
             else:
                 failed_count +=1
+            
+            # API 호출 사이에 약간의 시간 간격 추가
+            time.sleep(1.5)
         
-        logger.info(f"아이템 상세 정보 업데이트 작업 완료. 성공: {updated_count} ID, 실패: {failed_count} ID")
+        remaining = total_ids_to_update - len(ids_to_process)
+        logger.info(f"아이템 상세 정보 업데이트 작업 완료. 성공: {updated_count} ID, 실패: {failed_count} ID, 남은 아이템: {remaining}개")
 
     except Exception as e:
         logger.error(f"아이템 상세 정보 업데이트 작업 중 오류 발생: {e}", exc_info=True)

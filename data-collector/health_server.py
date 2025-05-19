@@ -129,7 +129,7 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
 
         try:
             # MongoDB 연결 및 상태 확인 (main.py의 db, auctions_collection 사용)
-            if not db or not auctions_collection: # main.py에서 초기화된 db, auctions_collection 사용
+            if db is None or auctions_collection is None: # main.py에서 초기화된 db, auctions_collection 사용
                 logger.error("health_server: MongoDB DB 또는 컬렉션 객체가 초기화되지 않았습니다.")
                 self._set_headers(503)
                 response = {

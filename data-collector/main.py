@@ -62,7 +62,7 @@ def signal_handler(sig, frame):
 
 def save_auctions_to_mongodb(realm_id, auctions_data_list, collection_time):
     """MongoDB에 경매 데이터를 저장 (기존 데이터 삭제 후 새로 삽입)"""
-    if not mongo_client or not auctions_collection:
+    if mongo_client is None or auctions_collection is None:
         logger.error("MongoDB 클라이언트가 초기화되지 않아 데이터를 저장할 수 없습니다.")
         stats.increment('db_errors')
         return

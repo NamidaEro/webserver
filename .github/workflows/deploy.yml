@@ -70,27 +70,47 @@ jobs:
             echo "docker-compose가 이미 설치되어 있습니다."
           fi
           
-          # 3. .env 파일 확인 및 생성
-          if [ ! -f "/home/azureuser/webserver/data-collector/.env" ]; then
-            echo "데이터 수집기 .env 파일이 없습니다. 기본 템플릿을 생성합니다..."
-            mkdir -p /home/azureuser/webserver/data-collector
-            
-            # 개별 echo 명령어로 환경 변수 파일 생성
-            echo "BLIZZARD_CLIENT_ID=${BLIZZARD_CLIENT_ID}" > /home/azureuser/webserver/data-collector/.env
-            echo "BLIZZARD_CLIENT_SECRET=${BLIZZARD_CLIENT_SECRET}" >> /home/azureuser/webserver/data-collector/.env
-            echo "BLIZZARD_REGION=kr" >> /home/azureuser/webserver/data-collector/.env
-            echo "BLIZZARD_NAMESPACE=dynamic-kr" >> /home/azureuser/webserver/data-collector/.env
-            echo "BLIZZARD_LOCALE=ko_KR" >> /home/azureuser/webserver/data-collector/.env
-            echo "MONGODB_URI=${{ env.MONGODB_URI }}" >> /home/azureuser/webserver/data-collector/.env
+          # 3. .env 파일 확인 및 생성 (data-collector)
+          DATA_COLLECTOR_ENV_FILE="/home/azureuser/webserver/data-collector/.env"
+          mkdir -p "$(dirname "$DATA_COLLECTOR_ENV_FILE")"
+          touch "$DATA_COLLECTOR_ENV_FILE" # 파일이 없으면 생성
+
+          # BLIZZARD 관련 환경 변수 설정 (data-collector) - 파일이 없거나 해당 변수가 없을 때만 추가
+          if ! grep -q "^BLIZZARD_CLIENT_ID=" "$DATA_COLLECTOR_ENV_FILE"; then
+            echo "BLIZZARD_CLIENT_ID=${BLIZZARD_CLIENT_ID}" >> "$DATA_COLLECTOR_ENV_FILE"
+          fi
+          if ! grep -q "^BLIZZARD_CLIENT_SECRET=" "$DATA_COLLECTOR_ENV_FILE"; then
+            echo "BLIZZARD_CLIENT_SECRET=${BLIZZARD_CLIENT_SECRET}" >> "$DATA_COLLECTOR_ENV_FILE"
+          fi
+          if ! grep -q "^BLIZZARD_REGION=" "$DATA_COLLECTOR_ENV_FILE"; then
+            echo "BLIZZARD_REGION=kr" >> "$DATA_COLLECTOR_ENV_FILE"
+          fi
+          if ! grep -q "^BLIZZARD_NAMESPACE=" "$DATA_COLLECTOR_ENV_FILE"; then
+            echo "BLIZZARD_NAMESPACE=dynamic-kr" >> "$DATA_COLLECTOR_ENV_FILE"
+          fi
+          if ! grep -q "^BLIZZARD_LOCALE=" "$DATA_COLLECTOR_ENV_FILE"; then
+            echo "BLIZZARD_LOCALE=ko_KR" >> "$DATA_COLLECTOR_ENV_FILE"
           fi
           
+          # MONGODB_URI 설정 (data-collector) - 없으면 추가, 있으면 값 변경
+          if grep -q "^MONGODB_URI=" "$DATA_COLLECTOR_ENV_FILE"; then
+            # 기존 라인 변경 (macOS 호환성을 위해 sed -i '' 사용)
+            sed -i'' -e "s|^MONGODB_URI=.*|MONGODB_URI=${{ env.MONGODB_URI }}|" "$DATA_COLLECTOR_ENV_FILE"
+          else
+            echo "MONGODB_URI=${{ env.MONGODB_URI }}" >> "$DATA_COLLECTOR_ENV_FILE"
+          fi
+
           # Next.js 환경 변수 설정
-          if [ ! -f "/home/azureuser/webserver/nextjs-app/.env" ]; then
-            echo "Next.js 앱 .env 파일이 없습니다. 기본 템플릿을 생성합니다..."
-            mkdir -p /home/azureuser/webserver/nextjs-app
-            
-            # MongoDB 관련 환경 변수 설정을 추가합니다
-            echo "MONGODB_URI=${{ env.MONGODB_URI }}" > /home/azureuser/webserver/nextjs-app/.env
+          NEXTJS_ENV_FILE="/home/azureuser/webserver/nextjs-app/.env"
+          mkdir -p "$(dirname "$NEXTJS_ENV_FILE")"
+          touch "$NEXTJS_ENV_FILE" # 파일이 없으면 생성
+
+          # MONGODB_URI 설정 (nextjs-app) - 없으면 추가, 있으면 값 변경
+          if grep -q "^MONGODB_URI=" "$NEXTJS_ENV_FILE"; then
+            # 기존 라인 변경 (macOS 호환성을 위해 sed -i '' 사용)
+            sed -i'' -e "s|^MONGODB_URI=.*|MONGODB_URI=${{ env.MONGODB_URI }}|" "$NEXTJS_ENV_FILE"
+          else
+            echo "MONGODB_URI=${{ env.MONGODB_URI }}" >> "$NEXTJS_ENV_FILE"
           fi
           
           # 4. 서비스 빌드 및 실행

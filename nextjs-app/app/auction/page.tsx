@@ -115,7 +115,12 @@ export default function AuctionPage() {
       </div>
       
       <div className="p-4 bg-white shadow rounded-lg">
-        {isLoading && <p className="text-center text-gray-500 py-8">데이터를 불러오는 중입니다...</p>}
+        {isLoading && (
+          <div className="text-center py-8">
+            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-500 border-r-transparent align-middle"></div>
+            <p className="text-gray-500 mt-2 animate-pulse">데이터를 불러오는 중입니다...</p>
+          </div>
+        )}
         {error && <p className="text-center text-red-500 py-8">오류: {error}</p>}
         {!isLoading && !error && (
           <>

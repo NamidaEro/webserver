@@ -293,7 +293,7 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
     
     def _handle_auctions(self, query_params):
         """realm_id, limit, page 파라미터로 경매 데이터 조회"""
-        global db, auctions_collection
+        global db, auctions_collection, item_metadata_collection
         if auctions_collection is None:
             self._set_headers(503)
             response = {'status': 'error', 'message': 'MongoDB 컬렉션이 초기화되지 않았습니다.'}
@@ -315,17 +315,39 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             total_count = auctions_collection.count_documents(query)
             skip = (page - 1) * limit
             cursor = auctions_collection.find(query).sort('collection_time', -1).skip(skip).limit(limit)
-            auctions = []
+            
+            # 아이템 ID 목록 추출
+            item_ids = set()
+            auctions_list = []
             for doc in cursor:
-                doc['_id'] = str(doc['_id']) # ObjectId를 문자열로 변환
-                auctions.append(doc)
+                doc['_id'] = str(doc['_id'])  # ObjectId를 문자열로 변환
+                if 'item_id' in doc and doc['item_id'] is not None:
+                    item_ids.add(doc['item_id'])
+                auctions_list.append(doc)
+            
+            # 메타데이터가 있는 경우 아이템 이름 추가
+            if item_metadata_collection is not None and item_ids:
+                # 해당 아이템 ID의 메타데이터 조회
+                item_metadata = {doc['item_id']: doc for doc in 
+                               item_metadata_collection.find({"item_id": {"$in": list(item_ids)}})}
+                
+                # 경매 데이터에 아이템 이름 추가
+                for auction in auctions_list:
+                    item_id = auction.get('item_id')
+                    if item_id in item_metadata:
+                        # 아이템 이름이 있으면 추가
+                        auction['item_name'] = item_metadata[item_id].get('name', f'아이템 #{item_id}')
+                        # 품질 정보도 추가 가능
+                        auction['item_quality'] = item_metadata[item_id].get('quality', '일반')
+                        # 기타 필요한 메타데이터 추가
+            
             self._set_headers()
             response = {
                 'status': 'ok',
                 'total_count': total_count,
                 'page': page,
                 'limit': limit,
-                'auctions': auctions
+                'auctions': auctions_list
             }
             self.wfile.write(json.dumps(response, default=str).encode())
         except Exception as e:

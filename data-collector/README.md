@@ -1,14 +1,15 @@
 # WoW 경매장 데이터 수집기
 
-World of Warcraft(WoW) 경매장 데이터를 주기적으로 수집하여 MongoDB에 저장하는 Python 서비스입니다.
+World of Warcraft(WoW) 경매장 데이터와 아이템 메타데이터를 주기적으로 수집하여 MongoDB에 저장하는 Python 서비스입니다.
 
 ## 기능
 
 - Blizzard API를 통해 WoW 경매장 데이터를 수집
-- 수집된 데이터를 MongoDB에 저장 (데이터베이스명: `wowauction`, 컬렉션명: `auctions`)
-- 시간별 스케줄링으로 데이터를 주기적으로 업데이트 (기존 데이터 삭제 후 새로 삽입)
-- 오래된 데이터 자동 정리 (Blizzard API 응답에 따름, 현재는 realm별 전체 데이터 덮어쓰기)
-- 헬스체크 엔드포인트 제공 (Docker 통합용)
+- 아이템 ID에 대한 메타데이터(이름, 품질, 분류 등)를 수집하고 저장
+- 수집된 데이터를 MongoDB에 저장 (DB: `wowauction`, 컬렉션: `auctions`, `item_metadata`)
+- 시간별 스케줄링으로 데이터를 주기적으로 업데이트
+- 오래된 데이터 자동 정리 (Blizzard API 응답에 따름, realm별 전체 데이터 덮어쓰기)
+- 헬스체크 및 데이터 조회를 위한 HTTP API 엔드포인트 제공
 - 성능 모니터링 및 통계 기능
 
 ## 설정 방법
@@ -75,7 +76,7 @@ docker-compose up -d
 - `blizzard_api.py`: Blizzard API 통신 로직
 - `logger_config.py`: 로깅 설정 및 관리
 - `monitoring.py`: 성능 모니터링 및 통계 수집
-- `health_server.py`: 헬스체크 HTTP 서버 (MongoDB 상태 확인 포함)
+- `health_server.py`: HTTP API 서버 (데이터 조회, 헬스체크, 상태 확인 기능 포함)
 - `requirements.txt`: 필요한 Python 패키지 목록
 - `Dockerfile`: Docker 이미지 빌드 설정
 
@@ -88,6 +89,8 @@ docker-compose up -d
   - `blizzard_auction_id`: Blizzard API에서 제공하는 고유 경매 ID
   - `item_id`: 아이템 고유 ID
   - `item_obj`: 아이템 상세 정보 객체 (API 응답 그대로 저장)
+  - `item_name`: 아이템 이름 (메타데이터에서 추출)
+  - `item_quality`: 아이템 품질 (메타데이터에서 추출)
   - `buyout`: 즉시 구매가
   - `quantity`: 수량
   - `time_left`: 남은 시간 (예: `SHORT`, `MEDIUM`, `LONG`, `VERY_LONG`)
@@ -95,25 +98,81 @@ docker-compose up -d
   - `collection_time`: 데이터 수집 시간 (ISO 형식 문자열)
   - `_id`: MongoDB 자동 생성 ObjectId
 
-## HTTP 엔드포인트
+### `item_metadata` 컬렉션
+
+- 각 문서는 하나의 아이템에 대한 메타데이터를 나타냅니다.
+- 주요 필드:
+  - `item_id`: 아이템 고유 ID
+  - `name`: 아이템 이름
+  - `quality`: 아이템 품질 (일반, 고급, 희귀, 영웅, 전설 등)
+  - `item_class`: 아이템 분류 (무기, 방어구, 소비품 등)
+  - `item_subclass`: 아이템 하위 분류
+  - `inventory_type`: 장착 위치
+  - `level`: 아이템 레벨
+  - `required_level`: 요구 레벨
+  - `media_id`: 아이템 이미지 미디어 ID
+  - `full_data`: 전체 아이템 데이터 (Blizzard API 응답)
+  - `updated_at`: 업데이트 시간 (ISO 형식 문자열)
+  - `_id`: MongoDB 자동 생성 ObjectId
+
+## HTTP API 엔드포인트
+
+### 데이터 조회 API
+
+- `/auctions?realm_id=<id>&limit=<limit>&page=<page>`: 특정 realm의 경매 데이터 조회
+  - `realm_id`: 필수 파라미터, 서버(realm) ID
+  - `limit`: 선택적 파라미터, 한 페이지당 결과 수 (기본값: 20)
+  - `page`: 선택적 파라미터, 페이지 번호 (기본값: 1)
+  - 응답에는 `item_name`과 `item_quality` 필드가 포함됩니다.
+
+- `/realms`: 현재 데이터베이스에 저장된 모든 realm 목록과 각 realm의 경매 아이템 수 조회
+
+- `/item-metadata?item_id=<id>`: 특정 아이템 ID의 메타데이터 조회
+  - `item_id`: 필수 파라미터, 아이템 ID
+
+### 관리 API
 
 - `/health`: 애플리케이션 상태 확인 (Docker 헬스체크용)
 - `/metrics`: 성능 지표 및 통계 정보
 - `/collect`: 모든 realm에 대해 데이터 수집을 강제로 실행
 - `/collect?realm_id=<id>`: 특정 realm ID에 대해서만 데이터 수집을 강제로 실행
-- `/db-status`: MongoDB 연결 상태 및 `auctions` 컬렉션 정보 확인
+- `/item-update`: 아이템 메타데이터 업데이트를 강제로 실행
+- `/db-status`: MongoDB 연결 상태 및 컬렉션 정보 확인
 
-### 강제 데이터 수집 예시
+### 사용 예시
 
-모든 realm 데이터 강제 수집:
+#### 경매 데이터 조회 (realm ID가 205인 경우):
 ```
-curl http://<서버주소>:8080/collect
+curl http://<서버주소>:8080/auctions?realm_id=205&limit=10&page=1
 ```
 
-특정 realm 데이터 강제 수집 (예: realm ID가 205인 경우):
+#### 모든 realm 목록 조회:
+```
+curl http://<서버주소>:8080/realms
+```
+
+#### 아이템 메타데이터 조회 (아이템 ID가 223087인 경우):
+```
+curl http://<서버주소>:8080/item-metadata?item_id=223087
+```
+
+#### 특정 realm 데이터 강제 수집 (realm ID가 205인 경우):
 ```
 curl http://<서버주소>:8080/collect?realm_id=205
 ```
+
+#### 아이템 메타데이터 업데이트 강제 실행:
+```
+curl http://<서버주소>:8080/item-update
+```
+
+## 아이템 메타데이터 수집 프로세스
+
+1. Blizzard API를 통해 경매 데이터를 수집하는 과정에서 고유한 아이템 ID 목록을 추출합니다.
+2. 추출된 아이템 ID 중 메타데이터가 없는 항목을 식별합니다.
+3. 백그라운드 프로세스에서 누락된 아이템의 메타데이터를 Blizzard API를 통해 수집합니다.
+4. 수집된 메타데이터는 `item_metadata` 컬렉션에 저장됩니다.
+5. 경매 데이터 API 응답 시, 아이템 ID를 기반으로 메타데이터(이름, 품질 등)를 결합하여 반환합니다.
 
 ## 로그 및 모니터링
 

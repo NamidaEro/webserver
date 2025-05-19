@@ -82,6 +82,26 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
         self._set_headers()
         # stats 인스턴스에서 현재 지표 가져오기
         metrics = stats.get_stats()
+        
+        # 이름이 있는 아이템 개수 추가
+        try:
+            if auctions_collection is not None:
+                # item_obj.name이 존재하는 문서 수 계산
+                named_items_count = auctions_collection.count_documents({"item_obj.name": {"$exists": True}})
+                # 전체 아이템 수
+                total_items_count = auctions_collection.count_documents({})
+                # 이름이 없는 아이템 수
+                unnamed_items_count = total_items_count - named_items_count
+                
+                # 지표에 추가
+                metrics['named_items_count'] = named_items_count
+                metrics['unnamed_items_count'] = unnamed_items_count
+                metrics['total_items_count'] = total_items_count
+                metrics['named_items_percentage'] = round((named_items_count / total_items_count) * 100, 2) if total_items_count > 0 else 0
+        except Exception as e:
+            logger.error(f"이름이 있는 아이템 개수 계산 중 오류: {str(e)}")
+            metrics['named_items_count_error'] = str(e)
+        
         self.wfile.write(json.dumps(metrics).encode())
     
     def _handle_collect(self, query_params):

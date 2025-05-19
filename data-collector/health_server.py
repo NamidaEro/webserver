@@ -56,6 +56,8 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self._handle_collect(query_params)
         elif path == '/db-status':
             self._handle_db_status()
+        elif path == '/auctions':
+            self._handle_auctions(query_params)
         else:
             self._set_headers(404)
             response = {'error': 'Not Found', 'message': 'The requested resource was not found.'}
@@ -184,6 +186,49 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             logger.info(f"Realm {realm_id}의 수동 데이터 수집 완료")
         except Exception as e:
             logger.error(f"Realm {realm_id}의 수동 데이터 수집 중 오류 발생: {str(e)}")
+    
+    def _handle_auctions(self, query_params):
+        """realm_id, limit, page 파라미터로 경매 데이터 조회"""
+        global db, auctions_collection
+        if auctions_collection is None:
+            self._set_headers(503)
+            response = {'status': 'error', 'message': 'MongoDB 컬렉션이 초기화되지 않았습니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
+
+        # 파라미터 파싱
+        realm_id = query_params.get('realm_id', [None])[0]
+        limit = int(query_params.get('limit', [20])[0])
+        page = int(query_params.get('page', [1])[0])
+        if not realm_id:
+            self._set_headers(400)
+            response = {'status': 'error', 'message': 'realm_id 파라미터가 필요합니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
+
+        try:
+            query = {'realm_id': int(realm_id)}
+            total_count = auctions_collection.count_documents(query)
+            skip = (page - 1) * limit
+            cursor = auctions_collection.find(query).sort('collection_time', -1).skip(skip).limit(limit)
+            auctions = []
+            for doc in cursor:
+                doc['_id'] = str(doc['_id']) # ObjectId를 문자열로 변환
+                auctions.append(doc)
+            self._set_headers()
+            response = {
+                'status': 'ok',
+                'total_count': total_count,
+                'page': page,
+                'limit': limit,
+                'auctions': auctions
+            }
+            self.wfile.write(json.dumps(response, default=str).encode())
+        except Exception as e:
+            logger.error(f"/auctions API 오류: {e}", exc_info=True)
+            self._set_headers(500)
+            response = {'status': 'error', 'message': str(e)}
+            self.wfile.write(json.dumps(response).encode())
     
     def log_message(self, format, *args):
         """로깅 처리 오버라이드"""

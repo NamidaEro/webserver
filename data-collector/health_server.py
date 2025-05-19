@@ -341,6 +341,9 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
                         auction['item_quality'] = item_metadata[item_id].get('quality', '일반')
                         # 기타 필요한 메타데이터 추가
             
+            # 아이템 이름이 있는 항목을 우선으로 정렬
+            auctions_list.sort(key=lambda x: (0 if 'item_name' in x and x['item_name'] and not x['item_name'].startswith('아이템 #') else 1))
+            
             self._set_headers()
             response = {
                 'status': 'ok',

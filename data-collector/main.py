@@ -58,6 +58,9 @@ if MONGODB_URI:
     except Exception as e:
         logger.error(f"MongoDB 연결 실패: {e}", exc_info=True)
         mongo_client = None # 연결 실패 시 None으로 설정
+        # 연결 실패 시 컬렉션 객체도 None으로 명시적 설정
+        auctions_collection = None
+        item_metadata_collection = None
 
 def signal_handler(sig, frame):
     """종료 시그널 처리"""
@@ -416,7 +419,7 @@ def get_item_metadata(item_id):
     없으면 None을 반환합니다.
     """
     if item_metadata_collection is None:
-        logger.error("MongoDB item_metadata_collection이 초기화되지 않았습니다.")
+        logger.warning("Item metadata collection is not initialized.")
         return None
     
     try:
@@ -431,12 +434,13 @@ def save_item_metadata(item_id, item_details, item_media_details=None):
     이미 존재하면 업데이트하고, 없으면 새로 삽입합니다.
     """
     if item_metadata_collection is None:
-        logger.error("MongoDB item_metadata_collection이 초기화되지 않았습니다.")
-        return
+        logger.error("Item metadata collection is not initialized. Cannot save item metadata.")
+        stats.increment('db_errors')
+        return False
     
     if not item_details or 'name' not in item_details: # 이름이 없는 아이템은 저장하지 않음 (선택적)
         logger.warning(f"Item ID {item_id}에 대한 유효한 상세 정보(이름 포함)가 없어 메타데이터를 저장하지 않습니다.")
-        return
+        return False
 
     # 아이콘 URL 추출
     icon_url = None
@@ -615,6 +619,31 @@ def process_item_metadata_queue():
 
     if processed_count > 0:
         logger.info(f"아이템 메타데이터 처리 완료: 총 {processed_count}개 시도, {successful_fetches}개 성공, {failed_fetches}개 실패. 남은 대기열: {len(new_item_ids_queue)}")
+
+def delete_old_auctions():
+    """오래된 경매 데이터 삭제"""
+    if auctions_collection is None:
+        logger.error("MongoDB auctions_collection이 초기화되지 않아 오래된 데이터를 삭제할 수 없습니다.")
+        return
+    
+    if DATA_RETENTION_DAYS <= 0:
+        logger.warning("DATA_RETENTION_DAYS가 0 이하이므로 오래된 데이터를 삭제하지 않습니다.")
+        return
+
+    # 현재 시간에서 오래된 데이터의 기준 시간 계산
+    cutoff_time = datetime.now() - timedelta(days=DATA_RETENTION_DAYS)
+
+    try:
+        with Timer("오래된 경매 데이터 삭제"):
+            # 오래된 데이터 찾기
+            delete_result = auctions_collection.delete_many({
+                'collection_time': {'$lt': cutoff_time.isoformat()}
+            })
+            logger.info(f"총 {delete_result.deleted_count}건의 오래된 경매 데이터 삭제 완료.")
+            stats.increment('db_operations', delete_result.deleted_count)
+    except Exception as e:
+        logger.error(f"오래된 경매 데이터 삭제 중 오류 발생: {e}", exc_info=True)
+        stats.increment('db_errors')
 
 if __name__ == "__main__":
     try:

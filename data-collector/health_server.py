@@ -6,7 +6,8 @@ import logging
 from monitoring import stats
 import urllib.parse
 import pymongo
-from datetime import datetime
+from datetime import datetime, timedelta
+import time
 
 # collect_auction_data 함수 import (main.py에 있는 함수)
 # 순환 import 방지를 위해 함수 참조만 저장
@@ -34,6 +35,76 @@ if MONGODB_URI:
         logger.info("MongoDB 연결 성공")
     except Exception as e:
         logger.error(f"MongoDB 연결 실패: {e}")
+
+# 인메모리 경매 데이터 캐시
+# 구조: { realm_id: { "data": [아이템 목록], "total_count": N, "last_updated": datetime } }
+g_auction_data_cache = {}
+CACHE_TTL_SECONDS = 3000  # 캐시 유효 시간 (예: 5분)
+
+def update_realm_auction_cache(realm_id_int: int):
+    """특정 realm의 경매 데이터를 DB에서 읽어와 캐시를 업데이트합니다."""
+    global g_auction_data_cache, auctions_collection, item_metadata_collection, logger
+    logger.info(f"[{realm_id_int}] 캐시 업데이트 시작...")
+    try:
+        # 전체 데이터를 가져오기 위한 Aggregation Pipeline (페이지네이션 없음)
+        pipeline = [
+            {"$match": {"realm_id": realm_id_int, "buyout": {"$exists": True, "$ne": None, "$gt": 0}}},
+            {"$sort": {"item_id": 1, "buyout": 1, "collection_time": -1}},
+            {
+                "$group": {
+                    "_id": "$item_id",
+                    "representative_auction": {"$first": "$$ROOT"}
+                }
+            },
+            {"$replaceRoot": {"newRoot": "$representative_auction"}},
+            {
+                "$lookup": {
+                    "from": item_metadata_collection.name if item_metadata_collection is not None else "item_metadata",
+                    "localField": "item_id",
+                    "foreignField": "item_id",
+                    "as": "item_meta_docs"
+                }
+            },
+            {
+                "$addFields": {
+                    "item_meta": {"$arrayElemAt": ["$item_meta_docs", 0]},
+                }
+            },
+            {
+                "$addFields": {
+                    "item_name": {"$ifNull": ["$item_meta.name", {"$concat": ["아이템 #", {"$toString": "$item_id"}]}]},
+                    "item_quality": {"$ifNull": ["$item_meta.quality", "common"]},
+                    "iconUrl": {"$ifNull": ["$item_meta.icon", None]}
+                }
+            },
+            {"$project": {"item_meta_docs": 0, "item_meta": 0}},
+            {"$sort": {"item_name": 1}} # 최종적으로 아이템 이름으로 정렬된 전체 목록
+        ]
+        
+        all_auctions = list(auctions_collection.aggregate(pipeline))
+        for doc in all_auctions:
+            if '_id' in doc and not isinstance(doc['_id'], str):
+                 # _id가 ObjectId인 경우 문자열로 변환 (혹시 $group의 _id가 item_id가 아닌 다른 것이 될 경우 대비)
+                 # 현재는 item_id로 그룹핑하므로 대부분 숫자일 것이나, 안전장치
+                if not isinstance(doc['_id'], (int, float)):
+                    doc['_id'] = str(doc['_id'])
+            # representative_auction을 풀었으므로, 실제 MongoDB _id는 doc안에 blizzard_auction_id 등으로 있음
+            # JSON 직렬화를 위해 ObjectId가 있다면 변환 필요. 여기서는 $replaceRoot를 써서 auction 문서 자체가 나옴.
+            # auction 문서 내의 _id (blizzard_auction_id가 아님)가 ObjectId일 수 있으므로 변환.
+            if 'blizzard_auction_id' in doc: # 대표 경매의 실제 _id는 blizzard_auction_id일 수도, 그냥 _id일 수도 있음
+                pass # $replaceRoot로 인해 원본 문서의 _id가 사용될 수 있음
+
+        current_time = datetime.now()
+        g_auction_data_cache[realm_id_int] = {
+            "data": all_auctions,
+            "total_count": len(all_auctions),
+            "last_updated": current_time
+        }
+        logger.info(f"[{realm_id_int}] 캐시 업데이트 완료. 총 {len(all_auctions)}개 아이템 캐시됨.")
+        return g_auction_data_cache[realm_id_int]
+    except Exception as e:
+        logger.error(f"[{realm_id_int}] 캐시 업데이트 중 오류: {e}", exc_info=True)
+        return None
 
 class HealthRequestHandler(BaseHTTPRequestHandler):
     """헬스체크 및 상태 정보 제공을 위한 HTTP 핸들러"""
@@ -293,7 +364,7 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
     
     def _handle_auctions(self, query_params):
         """realm_id, limit, page 파라미터로 경매 데이터 조회"""
-        global db, auctions_collection, item_metadata_collection
+        global db, auctions_collection, item_metadata_collection, g_auction_data_cache, CACHE_TTL_SECONDS, logger
         if auctions_collection is None:
             self._set_headers(503)
             response = {'status': 'error', 'message': 'MongoDB 컬렉션이 초기화되지 않았습니다.'}
@@ -320,88 +391,49 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             return
 
         try:
-            query = {'realm_id': realm_id}
+            cached_realm_data = g_auction_data_cache.get(realm_id)
+            current_time = datetime.now()
+            
+            if cached_realm_data and \
+               (current_time - cached_realm_data['last_updated']).total_seconds() < CACHE_TTL_SECONDS:
+                logger.info(f"[{realm_id}] 캐시 사용. 마지막 업데이트: {cached_realm_data['last_updated']}")
+                all_items = cached_realm_data['data']
+                total_items_count = cached_realm_data['total_count']
+            else:
+                logger.info(f"[{realm_id}] 캐시 없거나 만료됨. DB에서 새로 빌드.")
+                cache_result = update_realm_auction_cache(realm_id)
+                if cache_result:
+                    all_items = cache_result['data']
+                    total_items_count = cache_result['total_count']
+                else: # 캐시 빌드 실패
+                    self._set_headers(500)
+                    response = {'status': 'error', 'message': f'Realm {realm_id} 데이터 처리 중 오류 발생'}
+                    self.wfile.write(json.dumps(response).encode())
+                    return
+            
+            # 페이지네이션 로직 (캐시된 전체 데이터에서 슬라이싱)
             skip = (page - 1) * limit
-
-            pipeline = [
-                # 1. realm_id로 매칭하고, 유효한 buyout 가격(0보다 크고 존재하는)을 가진 문서만 필터링
-                {"$match": {"realm_id": realm_id, "buyout": {"$exists": True, "$ne": None, "$gt": 0}}},
-                # 2. item_id 오름차순, buyout 가격 오름차순, 최신 수집 시간 내림차순으로 정렬
-                {"$sort": {"item_id": 1, "buyout": 1, "collection_time": -1}},
-                # 3. item_id로 그룹화하여 각 아이템의 최저가 경매를 대표로 선택
-                {
-                    "$group": {
-                        "_id": "$item_id", # item_id로 그룹핑
-                        "representative_auction": {"$first": "$$ROOT"} # 그룹 내 첫 번째 문서(최저가, 최신 경매)
-                    }
-                },
-                # 4. 그룹화된 대표 경매 문서를 루트 레벨로 올림
-                {"$replaceRoot": {"newRoot": "$representative_auction"}},
-                # 5. 메타데이터 조인 (대표 경매들에 대해서만 수행)
-                {
-                    "$lookup": {
-                        "from": item_metadata_collection.name if item_metadata_collection is not None else "item_metadata",
-                        "localField": "item_id",
-                        "foreignField": "item_id",
-                        "as": "item_meta_docs"
-                    }
-                },
-                # 6. 필요한 필드 추가 (아이템 이름, 품질, 아이콘 등)
-                {
-                    "$addFields": {
-                        "item_meta": {"$arrayElemAt": ["$item_meta_docs", 0]},
-                    }
-                },
-                {
-                    "$addFields": {
-                        "item_name": {"$ifNull": ["$item_meta.name", {"$concat": ["아이템 #", {"$toString": "$item_id"}]}]},
-                        "item_quality": {"$ifNull": ["$item_meta.quality", "common"]},
-                        "iconUrl": {"$ifNull": ["$item_meta.icon", None]} # 아이콘 URL (메타데이터에 있다면)
-                    }
-                },
-                # 7. 임시 필드 제거
-                {"$project": {"item_meta_docs": 0, "item_meta": 0}},
-                # 8. 최종 정렬 (예: 아이템 이름 오름차순)
-                {"$sort": {"item_name": 1}},
-                # 9. 페이지네이션과 전체 카운트를 위한 $facet
-                {
-                    "$facet": {
-                        "auctions": [
-                            {"$skip": skip},
-                            {"$limit": limit}
-                        ],
-                        "total_count": [
-                            {"$count": "count"}
-                        ]
-                    }
-                }
-            ]
+            paginated_auctions = all_items[skip : skip + limit]
             
-            results_from_aggregation = list(auctions_collection.aggregate(pipeline))
-            
-            auctions_list = []
-            total_count = 0
-
-            if results_from_aggregation and results_from_aggregation[0]['auctions']:
-                auctions_list = results_from_aggregation[0]['auctions']
-                for doc in auctions_list:
-                    if '_id' in doc and not isinstance(doc['_id'], str):
-                        doc['_id'] = str(doc['_id'])
-            
-            if results_from_aggregation and results_from_aggregation[0]['total_count'] and results_from_aggregation[0]['total_count'][0]:
-                total_count = results_from_aggregation[0]['total_count'][0]['count']
+            # ObjectId 변환은 update_realm_auction_cache에서 이미 처리되었어야 함
+            # 하지만 만약을 위해 한번 더 체크 (실제로는 필요 없을 수 있음)
+            # for doc in paginated_auctions:
+            #    if '_id' in doc and not isinstance(doc['_id'], (str, int, float)):
+            #        doc['_id'] = str(doc['_id'])
             
             self._set_headers()
             response = {
                 'status': 'ok',
-                'total_count': total_count,
+                'total_count': total_items_count,
                 'page': page,
                 'limit': limit,
-                'auctions': auctions_list
+                'auctions': paginated_auctions,
+                'cache_status': 'used' if cached_realm_data and (current_time - cached_realm_data['last_updated']).total_seconds() < CACHE_TTL_SECONDS else 'updated'
             }
             self.wfile.write(json.dumps(response, default=str).encode())
+
         except Exception as e:
-            logger.error(f"/auctions API 오류: {e}", exc_info=True)
+            logger.error(f"/auctions API 오류 ({realm_id}): {e}", exc_info=True)
             self._set_headers(500)
             response = {'status': 'error', 'message': str(e)}
             self.wfile.write(json.dumps(response).encode())

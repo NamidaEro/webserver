@@ -371,17 +371,15 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self.wfile.write(json.dumps(response).encode())
             return
 
-        # 파라미터 파싱
         realm_id_str = query_params.get('realm_id', [None])[0]
-        limit = int(query_params.get('limit', [20])[0])
-        page = int(query_params.get('page', [1])[0])
+        # limit = int(query_params.get('limit', [20])[0]) # limit 파라미터 제거
+        # page = int(query_params.get('page', [1])[0])   # page 파라미터 제거
         
         if not realm_id_str:
             self._set_headers(400)
             response = {'status': 'error', 'message': 'realm_id 파라미터가 필요합니다.'}
             self.wfile.write(json.dumps(response).encode())
             return
-        
         try:
             realm_id = int(realm_id_str)
         except ValueError:
@@ -393,42 +391,39 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
         try:
             cached_realm_data = g_auction_data_cache.get(realm_id)
             current_time = datetime.now()
+            cache_status_msg = 'no_cache_yet' # 캐시 상태 메시지 초기화
             
             if cached_realm_data and \
                (current_time - cached_realm_data['last_updated']).total_seconds() < CACHE_TTL_SECONDS:
                 logger.info(f"[{realm_id}] 캐시 사용. 마지막 업데이트: {cached_realm_data['last_updated']}")
                 all_items = cached_realm_data['data']
                 total_items_count = cached_realm_data['total_count']
+                cache_status_msg = 'used'
             else:
                 logger.info(f"[{realm_id}] 캐시 없거나 만료됨. DB에서 새로 빌드.")
                 cache_result = update_realm_auction_cache(realm_id)
                 if cache_result:
                     all_items = cache_result['data']
                     total_items_count = cache_result['total_count']
+                    cache_status_msg = 'updated'
                 else: # 캐시 빌드 실패
                     self._set_headers(500)
                     response = {'status': 'error', 'message': f'Realm {realm_id} 데이터 처리 중 오류 발생'}
                     self.wfile.write(json.dumps(response).encode())
                     return
             
-            # 페이지네이션 로직 (캐시된 전체 데이터에서 슬라이싱)
-            skip = (page - 1) * limit
-            paginated_auctions = all_items[skip : skip + limit]
-            
-            # ObjectId 변환은 update_realm_auction_cache에서 이미 처리되었어야 함
-            # 하지만 만약을 위해 한번 더 체크 (실제로는 필요 없을 수 있음)
-            # for doc in paginated_auctions:
-            #    if '_id' in doc and not isinstance(doc['_id'], (str, int, float)):
-            #        doc['_id'] = str(doc['_id'])
+            # 페이지네이션 로직 제거 - 전체 데이터 반환
+            # skip = (page - 1) * limit
+            # paginated_auctions = all_items[skip : skip + limit]
             
             self._set_headers()
             response = {
                 'status': 'ok',
-                'total_count': total_items_count,
-                'page': page,
-                'limit': limit,
-                'auctions': paginated_auctions,
-                'cache_status': 'used' if cached_realm_data and (current_time - cached_realm_data['last_updated']).total_seconds() < CACHE_TTL_SECONDS else 'updated'
+                'total_count': total_items_count, # 전체 아이템 수
+                # 'page': page, # page 정보 제거
+                # 'limit': limit, # limit 정보 제거
+                'auctions': all_items, # 전체 아이템 목록 반환
+                'cache_status': cache_status_msg
             }
             self.wfile.write(json.dumps(response, default=str).encode())
 

@@ -176,7 +176,7 @@ export default function AuctionPage() {
                 setSelectedRealm(newRealmId);
                 setCurrentPage(1); // 서버 변경 시 1페이지로 초기화
               }}
-              className="p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 text-sm"
+              className="p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 text-sm text-gray-900"
               disabled={realmList.length === 0 && !error} 
             >
               {realmList.length === 0 && !error && <option value="">서버 로딩 중...</option>}

@@ -131,6 +131,8 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self._handle_db_status()
         elif path == '/auctions':
             self._handle_auctions(query_params)
+        elif path == '/auctions-by-itemid':
+            self._handle_auctions_by_itemid(query_params)
         elif path == '/realms':
             self._handle_realms()
         elif path == '/item-update':
@@ -501,6 +503,70 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self.wfile.write(json.dumps(response).encode())
         except Exception as e:
             logger.error(f"/item-metadata API 오류: {e}", exc_info=True)
+            self._set_headers(500)
+            response = {'status': 'error', 'message': str(e)}
+            self.wfile.write(json.dumps(response).encode())
+    
+    def _handle_auctions_by_itemid(self, query_params):
+        """특정 item_id에 해당하는 모든 경매 정보를 buyout 가격 오름차순으로 반환"""
+        global auctions_collection, logger # item_metadata_collection은 여기서는 직접 사용 안 함 (필요시 추가)
+
+        if auctions_collection is None:
+            self._set_headers(503)
+            response = {'status': 'error', 'message': 'MongoDB 컬렉션이 초기화되지 않았습니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
+
+        realm_id_str = query_params.get('realm_id', [None])[0]
+        item_id_str = query_params.get('item_id', [None])[0]
+
+        if not realm_id_str or not item_id_str:
+            self._set_headers(400)
+            response = {'status': 'error', 'message': 'realm_id와 item_id 파라미터가 모두 필요합니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
+        
+        try:
+            realm_id = int(realm_id_str)
+            item_id = int(item_id_str)
+        except ValueError:
+            self._set_headers(400)
+            response = {'status': 'error', 'message': 'realm_id와 item_id는 정수여야 합니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
+
+        try:
+            # buyout이 존재하고 0보다 큰 경매만 조회, item_id와 realm_id로 필터링
+            query = {
+                'realm_id': realm_id,
+                'item_id': item_id,
+                'buyout': {"$exists": True, "$ne": None, "$gt": 0}
+            }
+            # 즉시 구매가(buyout) 오름차순으로 정렬
+            # 참고: 동일 가격일 경우 추가 정렬 기준(예: quantity)을 둘 수 있음
+            cursor = auctions_collection.find(query).sort('buyout', pymongo.ASCENDING)
+            
+            item_auctions = []
+            for doc in cursor:
+                # ObjectId를 문자열로 변환 (JSON 직렬화를 위해)
+                if '_id' in doc and not isinstance(doc['_id'], (str, int, float)):
+                    doc['_id'] = str(doc['_id'])
+                # 필요시 다른 필드(예: 아이템 이름, 아이콘 등)를 여기서 추가할 수 있으나,
+                # 프론트에서 이미 대표 아이템 정보를 가지고 있으므로 여기서는 순수 경매 데이터 위주로 반환
+                item_auctions.append(doc)
+            
+            self._set_headers()
+            response = {
+                'status': 'ok',
+                'realm_id': realm_id,
+                'item_id': item_id,
+                'auctions': item_auctions, # 해당 아이템의 모든 경매 목록
+                'count': len(item_auctions)   # 해당 아이템의 총 경매 수
+            }
+            self.wfile.write(json.dumps(response, default=str).encode())
+
+        except Exception as e:
+            logger.error(f"/auctions-by-itemid API 오류 (realm: {realm_id}, item: {item_id}): {e}", exc_info=True)
             self._set_headers(500)
             response = {'status': 'error', 'message': str(e)}
             self.wfile.write(json.dumps(response).encode())

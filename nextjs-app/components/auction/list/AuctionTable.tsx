@@ -121,9 +121,6 @@ export default function AuctionTable({ items = mockAuctionItems, onItemSelect }:
                 즉시 구매가
               </th>
               <th scope="col" className="py-3 px-4 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">
-                수량
-              </th>
-              <th scope="col" className="py-3 px-4 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">
                 남은 시간
               </th>
               {/* TODO: 클릭 시 정렬 기능 추가 */}

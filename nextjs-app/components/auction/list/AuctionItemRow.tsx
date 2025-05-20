@@ -111,7 +111,6 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
       <td className="py-3 px-4 text-right whitespace-nowrap">
         <CurrencyDisplay totalCopper={buyoutPrice || 0} />
       </td>
-      <td className="py-3 px-4 text-center whitespace-nowrap text-sm text-gray-600">{item.quantity || 1}</td>
       <td className="py-3 px-4 text-center whitespace-nowrap text-sm text-gray-600">{item.timeLeft || item.time_left || '-'}</td> 
       {/* TODO: 필요시 입찰가, 판매자 등 추가 컬럼 */}
     </tr>

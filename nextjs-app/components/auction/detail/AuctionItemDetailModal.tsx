@@ -33,13 +33,13 @@ export default function AuctionItemDetailModal({
     return null;
   }
 
-  const itemName = item.item_name || item.name || `아이템 #${item.item_id || item.itemId}`;
-  const itemQuality = (item.item_quality || item.quality || 'common').toLowerCase();
+  const itemName = item.item_name || `아이템 #${item.item_id}`;
+  const itemQuality = (item.item_quality || 'common').toLowerCase();
   const qualityClass = qualityColorClasses[itemQuality] || 'text-gray-300';
   
   // 대표 가격 (buyout) 표시. 백엔드에서 이미 최저가 1개만 보내므로 해당 가격 사용
-  const representativeBuyout = item.buyoutPrice || item.buyout || 0;
-  const iconUrl = item.iconUrl || item.item_obj?.icon;
+  const representativeBuyout = item.buyout || 0;
+  const iconUrl = item.iconUrl;
   const itemLevel = item.level || item.item_level;
 
   const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -111,7 +111,7 @@ export default function AuctionItemDetailModal({
                   {itemQuality.charAt(0).toUpperCase() + itemQuality.slice(1)}
                 </p>
                 <p className="text-gray-300 text-sm mb-1">
-                  아이템 ID: {item.itemId || item.item_id}
+                  아이템 ID: {item.item_id}
                 </p>
               </div>
             </div>

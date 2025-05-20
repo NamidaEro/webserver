@@ -329,7 +329,7 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
                 {"$sort": {"collection_time": -1}}, # 최신 수집 데이터 우선
                 {
                     "$lookup": {
-                        "from": item_metadata_collection.name if item_metadata_collection else "item_metadata", # 실제 메타데이터 컬렉션 이름
+                        "from": item_metadata_collection.name if item_metadata_collection is not None else "item_metadata", # 실제 메타데이터 컬렉션 이름
                         "localField": "item_id",
                         "foreignField": "item_id",
                         "as": "item_meta_docs"

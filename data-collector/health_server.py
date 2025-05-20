@@ -326,10 +326,9 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             # Aggregation pipeline 구축
             pipeline = [
                 {"$match": query},
-                {"$sort": {"collection_time": -1}}, # 최신 수집 데이터 우선
                 {
                     "$lookup": {
-                        "from": item_metadata_collection.name if item_metadata_collection is not None else "item_metadata", # 실제 메타데이터 컬렉션 이름
+                        "from": item_metadata_collection.name if item_metadata_collection is not None else "item_metadata",
                         "localField": "item_id",
                         "foreignField": "item_id",
                         "as": "item_meta_docs"
@@ -350,7 +349,6 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
                             }
                         },
                         "item_quality": {"$ifNull": ["$item_meta.quality", "common"]},
-                        # item_name이 실제 이름인지 (아이템 #... 형태가 아닌지) 여부 필드 추가
                         "has_real_name": {
                             "$cond": {
                                 "if": {"$and": [
@@ -363,15 +361,13 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
                         }
                     }
                 },
-                # 아이템 이름이 있는 것을 우선 정렬, 그 다음 collection_time (이미 위에서 정렬됨)
                 {"$sort": {"has_real_name": -1, "collection_time": -1}},
-                # 페이지네이션을 위한 $facet 사용
                 {
                     "$facet": {
                         "auctions": [
                             {"$skip": skip},
                             {"$limit": limit},
-                            {"$project": {"item_meta_docs": 0, "item_meta":0 }} # item_meta도 최종 결과에서 제외
+                            {"$project": {"item_meta_docs": 0, "item_meta":0 }}
                         ],
                         "total_count": [
                             {"$count": "count"}

@@ -10,62 +10,57 @@ interface AuctionTableProps {
   // TODO: 정렬 관련 props 추가 (예: onSort, currentSortKey, currentSortOrder)
 }
 
-// 임시 Mock 데이터
+// 임시 Mock 데이터 - AuctionItem 타입에 맞게 수정
 const mockAuctionItems: AuctionItem[] = [
   {
-    id: 1,
-    itemId: 19019, // 예시: 천둥격노 - 바람추적자의 성검
-    name: '천둥격노 - 바람추적자의 성검',
-    iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_34.jpg', // 실제 아이콘 URL로 대체 필요
-    level: 80,
-    quality: 'legendary',
+    id: 'mock-1', // 문자열로 변경
+    item_id: 19019, // itemId -> item_id
+    item_name: '천둥격노 - 바람추적자의 성검', // name -> item_name
+    iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_34.jpg',
+    item_quality: 'legendary', // quality -> item_quality
     quantity: 1,
-    buyoutPrice: 150000000, // 150,000 골드
-    timeLeft: '매우 김',
+    buyout: 150000000, // buyoutPrice -> buyout
+    // level, timeLeft는 AuctionItem 타입에 없음 - 제거
   },
   {
-    id: 2,
-    itemId: 17182, // 예시: 아지노스의 전투검 (주)
-    name: '아지노스의 전투검 (주 장비)',
+    id: 'mock-2', // 문자열로 변경
+    item_id: 17182, // itemId -> item_id
+    item_name: '아지노스의 전투검 (주 장비)', // name -> item_name
     iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_68.jpg',
-    level: 70,
-    quality: 'legendary',
+    item_quality: 'legendary', // quality -> item_quality
     quantity: 1,
-    buyoutPrice: 25000000, // 25,000 골드
-    timeLeft: '12시간 미만',
+    buyout: 25000000, // buyoutPrice -> buyout
+    // level, timeLeft는 AuctionItem 타입에 없음 - 제거
   },
   {
-    id: 3,
-    itemId: 32837, // 예시: 설퍼라스 - 꺼지지 않는 손길
-    name: '설퍼라스 - 꺼지지 않는 손길',
+    id: 'mock-3', // 문자열로 변경
+    item_id: 32837, // itemId -> item_id
+    item_name: '설퍼라스 - 꺼지지 않는 손길', // name -> item_name
     iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_mace_34.jpg',
-    level: 80,
-    quality: 'epic',
+    item_quality: 'epic', // quality -> item_quality
     quantity: 1,
-    buyoutPrice: 5000000, // 5,000 골드
-    timeLeft: '2일 이상',
+    buyout: 5000000, // buyoutPrice -> buyout
+    // level, timeLeft는 AuctionItem 타입에 없음 - 제거
   },
   {
-    id: 4,
-    itemId: 18582, // 예시: 아케이나이트 도끼
-    name: '아케이나이트 도끼',
+    id: 'mock-4', // 문자열로 변경
+    item_id: 18582, // itemId -> item_id
+    item_name: '아케이나이트 도끼', // name -> item_name
     iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_axe_09.jpg',
-    level: 58,
-    quality: 'rare',
+    item_quality: 'rare', // quality -> item_quality
     quantity: 5,
-    buyoutPrice: 150000, // 150 골드
-    timeLeft: '매우 김',
+    buyout: 150000, // buyoutPrice -> buyout
+    // level, timeLeft는 AuctionItem 타입에 없음 - 제거
   },
   {
-    id: 5,
-    itemId: 49623, // 예시: 왕의 M이다!
-    name: '왕의 M이다!',
+    id: 'mock-5', // 문자열로 변경
+    item_id: 49623, // itemId -> item_id
+    item_name: '왕의 M이다!', // name -> item_name
     iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_136.jpg',
-    level: 1,
-    quality: 'uncommon',
+    item_quality: 'uncommon', // quality -> item_quality
     quantity: 10,
-    buyoutPrice: 12055, // 1골드 20실버 55코퍼
-    timeLeft: '단기',
+    buyout: 12055, // buyoutPrice -> buyout
+    // level, timeLeft는 AuctionItem 타입에 없음 - 제거
   },
 ];
 
@@ -114,25 +109,29 @@ export default function AuctionTable({ items = mockAuctionItems, onItemSelect }:
               <th scope="col" className="py-3 px-4 text-left text-xs font-semibold text-gray-600 uppercase tracking-wider">
                 아이템
               </th>
+              {/* AuctionItem 타입에 level 정보 없으므로 헤더 제거
               <th scope="col" className="py-3 px-4 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">
                 레벨
               </th>
+              */}
               <th scope="col" className="py-3 px-4 text-right text-xs font-semibold text-gray-600 uppercase tracking-wider">
                 즉시 구매가
               </th>
+              {/* AuctionItem 타입에 timeLeft 정보 없으므로 헤더 제거
               <th scope="col" className="py-3 px-4 text-center text-xs font-semibold text-gray-600 uppercase tracking-wider">
                 남은 시간
               </th>
+              */}
               {/* TODO: 클릭 시 정렬 기능 추가 */}
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-200">
             {items.map((item, index) => {
               console.log(`[AuctionTable] 아이템 ${index} 렌더링:`, item);
-              console.log(`[AuctionTable] 아이템 ${index}의 키:`, item._id || item.blizzard_auction_id || item.id);
+              console.log(`[AuctionTable] 아이템 ${index}의 키:`, item.id || item.item_id);
               return (
                 <AuctionItemRow 
-                  key={item.blizzard_auction_id || item.id || item.item_id || index} 
+                  key={item.id || item.item_id || index}
                   item={item} 
                   onItemSelect={onItemSelect}
                 />

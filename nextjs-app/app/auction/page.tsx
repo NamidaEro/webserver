@@ -84,7 +84,7 @@ export default function AuctionPage() {
     setIsLoading(true);
     setError(null);
     // API 호출 시 page, limit 파라미터 제거
-    fetch(`/api/auctions?realm_id=${selectedRealm}`)
+    fetch(`/api/auctions/${selectedRealm}`)
       .then(res => {
         if (!res.ok) {
             return res.json().then(errData => { 

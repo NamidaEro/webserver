@@ -9,6 +9,9 @@ import pymongo
 from datetime import datetime, timedelta
 import time
 
+# blizzard_api에서 함수 import
+from blizzard_api import get_access_token, get_item_media # get_item_media 추가
+
 # collect_auction_data 함수 import (main.py에 있는 함수)
 # 순환 import 방지를 위해 함수 참조만 저장
 collect_data_func = None
@@ -139,6 +142,8 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self._handle_item_update(query_params)
         elif path == '/item-metadata':
             self._handle_item_metadata(query_params)
+        elif path == '/item-media': # 새로운 엔드포인트 추가
+            self._handle_item_media(query_params)
         else:
             self._set_headers(404)
             response = {'error': 'Not Found', 'message': 'The requested resource was not found.'}
@@ -503,6 +508,57 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self.wfile.write(json.dumps(response).encode())
         except Exception as e:
             logger.error(f"/item-metadata API 오류: {e}", exc_info=True)
+            self._set_headers(500)
+            response = {'status': 'error', 'message': str(e)}
+            self.wfile.write(json.dumps(response).encode())
+    
+    def _handle_item_media(self, query_params):
+        """아이템 미디어 정보 조회 (Blizzard API 직접 호출)"""
+        item_id_str = query_params.get('item_id', [None])[0]
+
+        if not item_id_str:
+            self._set_headers(400)
+            response = {'status': 'error', 'message': 'item_id 파라미터가 필요합니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
+
+        try:
+            item_id = int(item_id_str)
+        except ValueError:
+            self._set_headers(400)
+            response = {'status': 'error', 'message': 'item_id는 정수여야 합니다.'}
+            self.wfile.write(json.dumps(response).encode())
+            return
+
+        try:
+            # API 토큰 가져오기
+            # 실제 운영시에는 토큰 관리 정책에 따라 get_access_token() 호출을 최소화하거나
+            # 캐싱된 토큰을 사용하는 것이 좋습니다. 여기서는 단순화를 위해 매번 호출합니다.
+            token = get_access_token()
+            if not token:
+                self._set_headers(500)
+                response = {'status': 'error', 'message': 'Blizzard API 토큰을 가져올 수 없습니다.'}
+                self.wfile.write(json.dumps(response).encode())
+                return
+
+            media_data = get_item_media(token, item_id)
+
+            if media_data:
+                self._set_headers()
+                # 전체 응답을 그대로 전달하거나, 필요한 부분(예: 아이콘 URL)만 추출하여 전달할 수 있습니다.
+                # 여기서는 전체 응답을 전달합니다.
+                response = {
+                    'status': 'ok',
+                    'media': media_data
+                }
+                self.wfile.write(json.dumps(response, default=str).encode())
+            else:
+                self._set_headers(404)
+                response = {'status': 'error', 'message': f'Item ID {item_id}의 미디어 정보를 찾을 수 없습니다.'}
+                self.wfile.write(json.dumps(response).encode())
+        
+        except Exception as e:
+            logger.error(f"/item-media API 오류 (item_id: {item_id}): {e}", exc_info=True)
             self._set_headers(500)
             response = {'status': 'error', 'message': str(e)}
             self.wfile.write(json.dumps(response).encode())

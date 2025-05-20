@@ -4,6 +4,8 @@ import CurrencyDisplay from '@/components/auction/common/CurrencyDisplay';
 
 interface AuctionItemDetailModalProps {
   item: AuctionItem | null;
+  allAuctionsForItem?: AuctionItem[];
+  isLoadingDetails?: boolean;
   isOpen: boolean;
   onClose: () => void;
 }
@@ -22,6 +24,8 @@ const qualityColorClasses: { [key: string]: string } = {
 
 export default function AuctionItemDetailModal({
   item,
+  allAuctionsForItem,
+  isLoadingDetails,
   isOpen,
   onClose,
 }: AuctionItemDetailModalProps) {
@@ -44,15 +48,34 @@ export default function AuctionItemDetailModal({
     }
   };
 
+  // 가격별 그룹핑 로직
+  const groupedAuctions = React.useMemo(() => {
+    if (!allAuctionsForItem) return {};
+    return allAuctionsForItem.reduce((acc, auction) => {
+      const price = auction.buyout || 0;
+      if (price > 0) {
+        if (!acc[price]) {
+          acc[price] = { count: 0, price };
+        }
+        acc[price].count += (auction.quantity || 1); // 수량 고려 (기본 1)
+      }
+      return acc;
+    }, {} as { [price: number]: { count: number; price: number } });
+  }, [allAuctionsForItem]);
+
+  const sortedGroupedAuctions = React.useMemo(() => {
+    return Object.values(groupedAuctions).sort((a, b) => a.price - b.price);
+  }, [groupedAuctions]);
+
   return (
     <div 
-      className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 p-4"
+      className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 p-4 overflow-y-auto"
       onClick={handleBackdropClick}
     >
       {/* 와우 경매장 스타일 모달 컨테이너 */}
       <div 
-        className="bg-gray-800 border-4 border-gray-900 shadow-2xl rounded-md w-full max-w-lg relative"
-        style={{ boxShadow: '0 0 15px rgba(0,0,0,0.5)' }} // 좀 더 입체적인 그림자
+        className="bg-gray-800 border-4 border-gray-900 shadow-2xl rounded-md w-full max-w-2xl relative my-8" // 너비 증가, 상하 마진
+        style={{ boxShadow: '0 0 15px rgba(0,0,0,0.5)' }}
         onClick={(e) => e.stopPropagation()}
       >
         {/* 모달 헤더 (아이템 이름) */}
@@ -67,41 +90,66 @@ export default function AuctionItemDetailModal({
         </div>
 
         {/* 모달 본문 */}
-        <div className="p-5 bg-gray-700 bg-opacity-50">
-          <div className="flex">
+        <div className="p-5 bg-gray-700 bg-opacity-50 max-h-[70vh] overflow-y-auto"> {/* 스크롤 가능하도록 */}
+          <div className="flex flex-col md:flex-row">
             {/* 좌측: 아이콘 및 기본 정보 */}
-            <div className="mr-5 flex-shrink-0">
-              {iconUrl ? (
-                <img 
-                  src={iconUrl} 
-                  alt={itemName} 
-                  className="w-20 h-20 rounded border-2 border-gray-600 object-cover"
-                />              
-              ) : (
-                <div className="w-20 h-20 bg-gray-600 rounded border-2 border-gray-500 flex items-center justify-center text-gray-400 text-3xl">?</div>
-              )}
-              {itemLevel && <p className="text-center text-sm text-gray-400 mt-1">레벨: {itemLevel}</p>}
+            <div className="mr-0 md:mr-5 mb-5 md:mb-0 flex-shrink-0 w-full md:w-auto flex md:flex-col items-center md:items-start">
+              <div className="mr-4 md:mr-0">
+                {iconUrl ? (
+                  <img 
+                    src={iconUrl} 
+                    alt={itemName} 
+                    className="w-20 h-20 rounded border-2 border-gray-600 object-cover"
+                  />              
+                ) : (
+                  <div className="w-20 h-20 bg-gray-600 rounded border-2 border-gray-500 flex items-center justify-center text-gray-400 text-3xl">?</div>
+                )}
+              </div>
+              <div className="text-left md:text-center">
+                {itemLevel && <p className="text-sm text-gray-400 mt-1">레벨: {itemLevel}</p>}
+                <p className={`${qualityClass} font-semibold mt-1`}>
+                  {itemQuality.charAt(0).toUpperCase() + itemQuality.slice(1)}
+                </p>
+                <p className="text-gray-300 text-sm mb-1">
+                  아이템 ID: {item.itemId || item.item_id}
+                </p>
+              </div>
             </div>
 
-            {/* 우측: 상세 설명 및 가격 (조회용이므로 간단히) */}
+            {/* 우측: 가격별 경매 목록 또는 대표 가격 */}
             <div className="flex-grow">
-              <p className={`${qualityClass} font-semibold`}>
-                품질: {itemQuality.charAt(0).toUpperCase() + itemQuality.slice(1)}
-              </p>
-              <p className="text-gray-300 text-sm mb-3">
-                아이템 ID: {item.itemId || item.item_id}
-              </p>
-              
-              {/* 이 부분은 실제 와우 UI와는 다르지만, 대표 가격을 보여주는 예시 */}
-              {representativeBuyout > 0 && (
+              {/* 대표 즉시 구매가 (기존) - allAuctionsForItem이 없을 때 보여줄 수 있음 */}
+              {representativeBuyout > 0 && (!allAuctionsForItem || allAuctionsForItem.length === 0) && !isLoadingDetails && (
                 <div className="mt-3 pt-3 border-t border-gray-600">
                   <p className="text-gray-400 text-sm">대표 즉시 구매가:</p>
                   <CurrencyDisplay totalCopper={representativeBuyout} className="text-xl"/>
                 </div>
               )}
 
-              {/* TODO: 필요시 여기에 아이템 설명 (description) 추가 */}
-              {/* <p className="text-sm text-gray-400 mt-2">아이템 설명...</p> */}
+              {/* 가격별 경매 목록 */}
+              <h3 className="text-lg font-semibold text-gray-200 mb-2 border-b border-gray-600 pb-1">개별 경매 목록</h3>
+              {isLoadingDetails && (
+                <div className="text-center py-4">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-400 mx-auto"></div>
+                  <p className="mt-2 text-sm text-gray-400">경매 목록을 불러오는 중...</p>
+                </div>
+              )}
+              {!isLoadingDetails && sortedGroupedAuctions.length > 0 && (
+                <div className="space-y-2">
+                  {sortedGroupedAuctions.map(({ price, count }) => (
+                    <div key={price} className="flex justify-between items-center p-2 bg-gray-750 rounded shadow">
+                      <CurrencyDisplay totalCopper={price} className="text-md" />
+                      <span className="text-sm text-gray-300">{count} 개</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {!isLoadingDetails && sortedGroupedAuctions.length === 0 && allAuctionsForItem && (
+                 <p className="text-sm text-gray-400 text-center py-3">이 아이템에 대한 현재 경매가 없습니다.</p>
+              )}
+               {!isLoadingDetails && !allAuctionsForItem && ( // 로딩도 아니고 데이터도 없을때 (오류 상황 등)
+                 <p className="text-sm text-gray-400 text-center py-3">경매 정보를 불러올 수 없습니다.</p>
+              )}
             </div>
           </div>
         </div>

@@ -181,4 +181,42 @@ def get_item_info(token, item_id):
     except Exception as e:
         stats.increment('api_errors')
         logger.error(f"아이템 정보 조회 중 오류 발생: {str(e)}")
+        raise
+
+@timeit
+def get_item_media(token, item_id):
+    """아이템 미디어 정보 조회 (아이콘 등)"""
+    session = create_session()
+    
+    try:
+        stats.increment('api_calls')
+        
+        # API 요청 URL (예: https://us.api.blizzard.com/data/wow/media/item/19019)
+        url = f'https://{BLIZZARD_REGION}.api.blizzard.com/data/wow/media/item/{item_id}'
+        params = {
+            'namespace': BLIZZARD_STATIC_NAMESPACE, # 아이템 미디어는 static 네임스페이스 사용
+            'locale': BLIZZARD_LOCALE
+        }
+        headers = {
+            'Authorization': f'Bearer {token}'
+        }
+        
+        # API 호출 제한 고려 - 필요 시 대기
+        time.sleep(RATE_LIMIT_WAIT)
+        
+        logger.info(f"아이템 미디어 정보 조회 요청: {url}?namespace={BLIZZARD_STATIC_NAMESPACE}&locale={BLIZZARD_LOCALE}")
+        response = session.get(url, params=params, headers=headers)
+        response.raise_for_status()
+        return response.json()
+        
+    except requests.exceptions.HTTPError as e:
+        stats.increment('api_errors')
+        if e.response.status_code == 404:
+            logger.warning(f"아이템 ID {item_id}의 미디어 정보를 찾을 수 없습니다.")
+            return None
+        logger.error(f"아이템 미디어 정보 조회 실패: {str(e)}")
+        raise
+    except Exception as e:
+        stats.increment('api_errors')
+        logger.error(f"아이템 미디어 정보 조회 중 오류 발생: {str(e)}")
         raise 

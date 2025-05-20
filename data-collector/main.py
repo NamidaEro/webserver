@@ -7,7 +7,7 @@ import sys
 from datetime import datetime, timedelta
 
 from logger_config import setup_logger, get_logger
-from blizzard_api import get_access_token, get_connected_realms, get_auctions, get_item_info
+from blizzard_api import get_access_token, get_connected_realms, get_auctions, get_item_info, get_item_media
 # from firebase_db import save_auctions_to_firestore, init_firestore, get_realms_with_data
 from monitoring import Timer, stats
 from health_server import health_server
@@ -322,7 +322,7 @@ def collect_auction_data():
                     # 한 realm의 오류가 전체 프로세스를 중단시키지 않도록 계속 진행
                     continue
                 
-                # API 호출 간 간격 (Blizzard API 제한 고려)
+                # API 호출 간격 (Blizzard API 제한 고려)
                 time.sleep(1)
             
             # 성능 통계 로깅
@@ -425,92 +425,136 @@ def get_item_metadata(item_id):
         logger.error(f"아이템 메타데이터 조회 중 오류: {e}", exc_info=True)
         return None
 
-def save_item_metadata(item_id, item_details):
+def save_item_metadata(item_id, item_details, item_media_details=None):
     """
     아이템 메타데이터를 컬렉션에 저장합니다.
     이미 존재하면 업데이트하고, 없으면 새로 삽입합니다.
     """
     if item_metadata_collection is None:
         logger.error("MongoDB item_metadata_collection이 초기화되지 않았습니다.")
-        return False
-    
-    if not item_details:
-        logger.warning(f"Item ID {item_id}에 대한 상세 정보가 비어 있어 저장하지 않습니다.")
-        return False
-    
-    try:
-        # 이름이 없으면 저장하지 않음
-        if 'name' not in item_details:
-            logger.warning(f"Item ID {item_id}의 응답에 name 필드가 없어 저장하지 않습니다.")
-            return False
-        
-        # 메타데이터 문서 구성
-        metadata = {
-            "item_id": item_id,
-            "name": item_details.get('name'),
-            "quality": item_details.get('quality', {}).get('name', '일반'),
-            "item_class": item_details.get('item_class', {}).get('name', '기타'),
-            "item_subclass": item_details.get('item_subclass', {}).get('name', ''),
-            "inventory_type": item_details.get('inventory_type', {}).get('name', ''),
-            "level": item_details.get('level', 0),
-            "required_level": item_details.get('required_level', 0),
-            "media_id": item_details.get('media', {}).get('id'),
-            "full_data": item_details,  # 전체 데이터도 저장
-            "updated_at": datetime.now().isoformat()
-        }
-        
-        # upsert 연산으로 업데이트 또는 삽입
-        result = item_metadata_collection.update_one(
-            {"item_id": item_id},
-            {"$set": metadata},
-            upsert=True
-        )
-        
-        if result.modified_count > 0:
-            logger.info(f"Item ID {item_id} ({item_details.get('name')}) 메타데이터 업데이트 완료.")
-        elif result.upserted_id:
-            logger.info(f"Item ID {item_id} ({item_details.get('name')}) 메타데이터 새로 추가됨.")
-        return True
-    except Exception as e:
-        logger.error(f"아이템 메타데이터 저장 중 오류: {e}", exc_info=True)
-        stats.increment('db_errors')
-        return False
-
-def fetch_missing_item_metadata(item_id):
-    """
-    컬렉션에서 아이템 메타데이터가 없는 경우 Blizzard API에서 가져와 저장합니다.
-    """
-    # 먼저 메타데이터 컬렉션에서 조회
-    metadata = get_item_metadata(item_id)
-    if metadata:
-        return metadata  # 이미 존재하면 반환
-    
-    # 없으면 Blizzard API에서 조회
-    logger.info(f"Item ID {item_id} 메타데이터가 없어 Blizzard API에서 조회합니다.")
-    try:
-        token = get_access_token()
-        item_details = get_item_info(token, item_id)
-        
-        if item_details and save_item_metadata(item_id, item_details):
-            return get_item_metadata(item_id)  # 저장 후 다시 조회하여 반환
-        else:
-            logger.warning(f"Item ID {item_id} 메타데이터를 가져오거나 저장하지 못했습니다.")
-            return None
-    except Exception as e:
-        logger.error(f"Item ID {item_id} 메타데이터 조회 중 오류: {e}", exc_info=True)
-        return None
-
-def process_new_item_metadata(item_ids):
-    """
-    새로 발견된 아이템 ID를 대기열에 추가합니다.
-    """
-    global new_item_ids_queue
-    if not item_ids:
         return
     
-    # 집합 연산으로 대기열에 아이템 ID 추가
-    new_item_ids_queue.update(item_ids)
-    logger.info(f"{len(item_ids)}개의 아이템 ID를 메타데이터 처리 대기열에 추가했습니다. 현재 대기열 크기: {len(new_item_ids_queue)}")
+    if not item_details or 'name' not in item_details: # 이름이 없는 아이템은 저장하지 않음 (선택적)
+        logger.warning(f"Item ID {item_id}에 대한 유효한 상세 정보(이름 포함)가 없어 메타데이터를 저장하지 않습니다.")
+        return
+
+    # 아이콘 URL 추출
+    icon_url = None
+    if item_media_details and 'assets' in item_media_details:
+        for asset in item_media_details['assets']:
+            if asset.get('key') == 'icon':
+                icon_url = asset.get('value')
+                break
+    
+    # 저장할 데이터 구성
+    metadata_doc = {
+        "item_id": item_id,
+        "name": item_details.get("name"),
+        "quality": item_details.get("quality", {}).get("name"), # 예: "Epic"
+        "item_class": item_details.get("item_class", {}).get("name"),
+        "item_subclass": item_details.get("item_subclass", {}).get("name"),
+        "inventory_type": item_details.get("inventory_type", {}).get("name"),
+        "level": item_details.get("level"),
+        "required_level": item_details.get("required_level"),
+        "media_id": item_details.get("media", {}).get("id"), # item_details에도 media 정보가 있을 수 있음
+        "icon_url": icon_url,  # 추출된 아이콘 URL 추가
+        "full_data": item_details, # 원본 API 응답 전체 저장
+        "updated_at": datetime.now().isoformat()
+    }
+
+    try:
+        # upsert=True: 문서가 존재하면 업데이트, 없으면 새로 삽입
+        result = item_metadata_collection.update_one(
+            {"item_id": item_id},
+            {"$set": metadata_doc},
+            upsert=True
+        )
+        if result.upserted_id:
+            logger.info(f"Item ID {item_id} ('{metadata_doc['name']}') 메타데이터 새로 저장 완료 (Icon: {'있음' if icon_url else '없음'}).")
+            stats.increment('metadata_created')
+        elif result.modified_count > 0:
+            logger.info(f"Item ID {item_id} ('{metadata_doc['name']}') 메타데이터 업데이트 완료 (Icon: {'있음' if icon_url else '없음'}).")
+            stats.increment('metadata_updated')
+        else:
+            logger.debug(f"Item ID {item_id} 메타데이터 변경 사항 없음.")
+            
+    except Exception as e:
+        logger.error(f"Item ID {item_id} 메타데이터 저장 중 오류: {e}", exc_info=True)
+        stats.increment('db_errors')
+
+def fetch_missing_item_metadata(item_id):
+    """DB에 없는 아이템 메타데이터를 Blizzard API에서 가져와 저장합니다."""
+    if shutdown_requested:
+        logger.info("종료 요청으로 아이템 메타데이터 조회를 건너뜁니다.")
+        return False
+
+    # 1. DB에 이미 있는지 확인 (이름과 아이콘 URL 모두 있는지 확인)
+    existing_metadata = get_item_metadata(item_id)
+    if existing_metadata and existing_metadata.get('name') and existing_metadata.get('icon_url'):
+        logger.debug(f"Item ID {item_id} 메타데이터 ('{existing_metadata.get('name')}')가 이미 DB에 존재하며 아이콘 URL도 있습니다. 건너뜁니다.")
+        return True # 이미 처리됨
+
+    logger.info(f"Item ID {item_id} 메타데이터 조회 및 저장 시작 (기존 데이터: 이름만 있거나 아이콘 없음)...")
+    token = None
+    try:
+        token = get_access_token()
+    except Exception as e:
+        logger.error(f"메타데이터 조회용 API 토큰 발급 실패 (Item ID: {item_id}): {e}")
+        return False
+
+    item_details = None
+    item_media_details = None
+    success = False
+
+    try:
+        # 2. 아이템 기본 정보 가져오기 (기존에 이름만 있었을 수도 있으니 다시 가져옴)
+        item_details = get_item_info(token, item_id)
+        if not item_details or 'name' not in item_details:
+            logger.warning(f"Item ID {item_id}의 기본 정보를 가져오지 못했거나 이름이 없습니다. 메타데이터를 저장할 수 없습니다.")
+            return False 
+
+        # 3. 아이템 미디어 정보 가져오기 (아이콘 URL)
+        # 기존에 아이콘이 없었거나, 아이템 정보가 아예 없었을 경우에만 호출
+        if not (existing_metadata and existing_metadata.get('icon_url')):
+            item_media_details = get_item_media(token, item_id)
+            if not item_media_details:
+                logger.warning(f"Item ID {item_id}의 미디어 정보를 가져오지 못했습니다. 아이콘 없이 저장될 수 있습니다.")
+        elif existing_metadata and existing_metadata.get('icon_url'):
+             # 이미 아이콘 URL이 있는 경우, media details는 기존 것을 사용하거나 None으로 둘 수 있음.
+             # 여기서는 save_item_metadata가 item_media_details=None을 처리하므로, 다시 호출할 필요 없음.
+             logger.debug(f"Item ID {item_id}는 이미 아이콘 URL이 있으므로 미디어 API를 다시 호출하지 않습니다.")
+
+        # 4. DB에 저장
+        save_item_metadata(item_id, item_details, item_media_details) # item_media_details 전달
+        success = True
+
+    except Exception as e:
+        logger.error(f"Item ID {item_id} 메타데이터 처리 중 오류: {e}", exc_info=True)
+    
+    return success
+
+def process_new_item_metadata(item_ids):
+    """새로 발견된 아이템 ID 목록에 대해 메타데이터 처리를 대기열에 추가합니다."""
+    global new_item_ids_queue
+    if not item_metadata_collection:
+        logger.warning("item_metadata_collection이 초기화되지 않아 새 아이템 ID를 처리할 수 없습니다.")
+        return
+
+    added_to_queue_count = 0
+    for item_id in item_ids:
+        if item_id is None: continue
+        # DB에 해당 item_id의 메타데이터가 이미 있고, icon_url도 있는지 확인
+        # (이름만 체크하면 아이콘 없는 경우 다시 시도하도록) -> fetch_missing_item_metadata에서 icon_url도 체크하도록 변경
+        existing = item_metadata_collection.count_documents({"item_id": item_id, "icon_url": {"$exists": True, "$ne": None}})
+        if existing == 0:
+            if item_id not in new_item_ids_queue:
+                new_item_ids_queue.add(item_id)
+                added_to_queue_count += 1
+        # else: # 이미 DB에 있고 아이콘도 있는 경우 (디버그용)
+            # logger.debug(f"Item ID {item_id}는 이미 메타데이터(아이콘 포함)가 있어 대기열에 추가하지 않음.")
+            
+    if added_to_queue_count > 0:
+        logger.info(f"{added_to_queue_count}개의 새 아이템 ID를 메타데이터 처리 대기열에 추가했습니다. 현재 대기열 크기: {len(new_item_ids_queue)}")
 
 def process_item_metadata_queue():
     """
@@ -529,46 +573,48 @@ def process_item_metadata_queue():
     
     logger.info(f"아이템 메타데이터 처리 시작. 대기열 크기: {len(new_item_ids_queue)}")
     
-    # 최대 몇 개의 아이템을 한 번에 처리할지 설정
-    batch_size = 5
+    # 최대 몇 개의 아이템을 한 번에 처리할지 설정 (API 호출 제한 고려)
+    batch_size = int(os.getenv('METADATA_BATCH_SIZE', '3')) # 환경 변수 또는 기본값 3
     processed_count = 0
+    successful_fetches = 0
+    failed_fetches = 0
     
-    try:
-        token = get_access_token()
+    # 대기열에서 처리할 아이템 ID 일부 추출 (복사본 사용)
+    # new_item_ids_queue는 set이므로 순서 보장 안됨. list로 변환 후 슬라이싱
+    items_to_process_this_run = list(new_item_ids_queue)[:batch_size]
+
+    if not items_to_process_this_run:
+        return # 처리할 것이 없으면 바로 종료
+
+    logger.info(f"이번 실행에서 처리할 메타데이터 아이템 수: {len(items_to_process_this_run)}")
+
+    for item_id in items_to_process_this_run:
+        if shutdown_requested:
+            logger.info("종료 요청으로 아이템 메타데이터 처리 중단.")
+            break
         
-        # 대기열에서 처리할 아이템 ID 일부 추출
-        to_process = []
-        for _ in range(min(batch_size, len(new_item_ids_queue))):
-            if new_item_ids_queue:  # 안전 검사
-                item_id = new_item_ids_queue.pop()
-                to_process.append(item_id)
-        
-        # 추출된 아이템 메타데이터 처리
-        for item_id in to_process:
-            # 이미 메타데이터가 있는지 확인
-            existing_metadata = get_item_metadata(item_id)
-            if existing_metadata:
-                # 이미 있으면 처리 생략
-                logger.debug(f"Item ID {item_id} ({existing_metadata.get('name', '이름 없음')})의 메타데이터가 이미 존재합니다.")
-                processed_count += 1
-                continue
-            
-            # 없으면 API에서 조회하여 저장
-            try:
-                item_details = get_item_info(token, item_id)
-                if item_details and save_item_metadata(item_id, item_details):
-                    processed_count += 1
-                    logger.info(f"Item ID {item_id} ({item_details.get('name', '이름 없음')})의 메타데이터를 저장했습니다.")
-                time.sleep(1)  # API 호출 간격 조절
-            except Exception as e:
-                logger.error(f"Item ID {item_id} 메타데이터 처리 중 오류: {e}")
-                # 실패한 항목은 다시 대기열에 추가
-                new_item_ids_queue.add(item_id)
-        
-        logger.info(f"아이템 메타데이터 처리 완료. 처리된 항목: {processed_count}, 남은 대기열 크기: {len(new_item_ids_queue)}")
-    
-    except Exception as e:
-        logger.error(f"아이템 메타데이터 처리 중 오류 발생: {e}", exc_info=True)
+        # 아이템 처리 시도
+        try:
+            logger.info(f"대기열에서 Item ID {item_id} 메타데이터 처리 시도...")
+            if fetch_missing_item_metadata(item_id):
+                successful_fetches += 1
+            else:
+                # fetch_missing_item_metadata 내부에서 오류 로깅 및 실패 원인(예: API 404) 처리
+                # 여기서는 실패 카운트만 증가.
+                failed_fetches +=1
+        except Exception as e: # fetch_missing_item_metadata 내에서 발생하는 예외를 여기서도 캐치
+            logger.error(f"Item ID {item_id} 메타데이터 처리 중 예외 발생 (큐 처리): {e}", exc_info=True)
+            failed_fetches += 1
+        finally:
+            # 성공/실패 여부와 관계없이 큐에서 제거 (재시도는 다음 큐 처리 시점에 다른 아이템들과 함께)
+            if item_id in new_item_ids_queue: # 다시 한번 확인 (다른 스레드에서 제거했을 수도 있음)
+                new_item_ids_queue.remove(item_id)
+            processed_count += 1
+            # API 호출 간격 제어 (fetch_missing_item_metadata 내부에 이미 있음)
+            # time.sleep(1) # 각 아이템 처리 후 짧은 대기
+
+    if processed_count > 0:
+        logger.info(f"아이템 메타데이터 처리 완료: 총 {processed_count}개 시도, {successful_fetches}개 성공, {failed_fetches}개 실패. 남은 대기열: {len(new_item_ids_queue)}")
 
 if __name__ == "__main__":
     try:

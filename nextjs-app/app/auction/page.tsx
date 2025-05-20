@@ -36,6 +36,9 @@ export default function AuctionPage() {
   // 모달 상태 (기존 유지)
   const [selectedAuctionItemForModal, setSelectedAuctionItemForModal] = useState<AuctionItem | null>(null);
   const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
+  // 특정 아이템의 모든 경매 목록 및 로딩 상태 (신규 추가)
+  const [detailedAuctionList, setDetailedAuctionList] = useState<AuctionItem[]>([]);
+  const [isDetailedLoading, setIsDetailedLoading] = useState(false);
 
   // Realm 목록 가져오기 (원래 방식 복원)
   useEffect(() => {
@@ -129,15 +132,54 @@ export default function AuctionPage() {
     }
   }, [allAuctionItems, currentPage, itemsPerPage, totalItems]);
 
-  const handleItemSelect = (item: AuctionItem) => {
+  const handleItemSelect = async (item: AuctionItem) => {
     console.log("[AuctionPage] 아이템 선택됨:", item);
-    setSelectedAuctionItemForModal(item);
-    setIsDetailModalOpen(true);
+    setSelectedAuctionItemForModal(item); // 대표 아이템 정보 설정
+    setIsDetailModalOpen(true); // 모달 우선 열기 (로딩 표시를 위해)
+    setDetailedAuctionList([]); // 이전 데이터 초기화
+
+    if (!selectedRealm || !item.item_id) {
+      console.error("[AuctionPage] 상세 정보 조회 실패: 서버 ID 또는 아이템 ID 없음");
+      // 필요시 사용자에게 오류 메시지 표시
+      return;
+    }
+
+    const currentItemId = item.item_id;
+    if (!currentItemId) {
+        console.error("[AuctionPage] 아이템 ID를 찾을 수 없습니다.");
+        return;
+    }
+
+    setIsDetailedLoading(true);
+    try {
+      // 수정: Next.js API Route 호출로 변경
+      const response = await fetch(`/api/auctions-by-item?realmId=${selectedRealm}&itemId=${currentItemId}`);
+      
+      if (!response.ok) {
+        const errorData = await response.json().catch(() => ({ message: `HTTP error! status: ${response.status}` }));
+        throw new Error(errorData.message || '아이템 상세 경매 목록을 불러오는 데 실패했습니다.');
+      }
+      const data = await response.json();
+      console.log("[AuctionPage] 받은 아이템 상세 경매 목록:", data);
+      if (data.status === 'ok') {
+        setDetailedAuctionList(data.auctions || []);
+      } else {
+        throw new Error(data.message || '아이템 상세 경매 목록 응답 오류');
+      }
+    } catch (err: any) {
+      console.error("[AuctionPage] 아이템 상세 경매 목록 불러오기 오류:", err);
+      setError(`상세 경매 정보를 가져오는 중 오류 발생: ${err.message}`); // 페이지 레벨 에러에 표시 (선택적)
+      setDetailedAuctionList([]); // 오류 발생 시 목록 비우기
+    } finally {
+      setIsDetailedLoading(false);
+    }
   };
 
   const closeDetailModal = () => {
     setIsDetailModalOpen(false);
     setSelectedAuctionItemForModal(null);
+    setDetailedAuctionList([]); // 모달 닫을 때 상세 목록 초기화
+    // setError(null); // 상세 조회 에러는 모달 닫을 때 초기화할 수 있음
   };
 
   const handlePrevPage = () => {
@@ -233,6 +275,8 @@ export default function AuctionPage() {
       {/* 모달 렌더링 */}
       <AuctionItemDetailModal 
         item={selectedAuctionItemForModal}
+        allAuctionsForItem={detailedAuctionList} // 새로 추가된 prop 전달
+        isLoadingDetails={isDetailedLoading} // 로딩 상태 전달
         isOpen={isDetailModalOpen}
         onClose={closeDetailModal}
       />

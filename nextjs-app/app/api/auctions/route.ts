@@ -19,7 +19,7 @@ export async function GET(request: Request) {
   }
 
   try {
-    const url = `http://20.168.3.131:8080/auctions?realm_id=${realm_id}&limit=${limit}&page=${page}`;
+    const url = `http://20.168.3.131:8080/auctions?realm_id=${realm_id}`;
     console.log('[API] 경매 데이터 요청 중:', url);
     
     const res = await fetch(url);

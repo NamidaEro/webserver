@@ -5,5 +5,21 @@
 /* 기타 전역 스타일 (선택 사항) */
 body {
   /* 예시: 기본 배경색 등 */
-  /* background-color: #f3f4f6; */
+  /* background-color: #111827; /* 다크모드 기본 배경 */
+  /* color: #e5e7eb; */
+}
+
+/* 아이템 품질별 색상 */
+.item-quality.quality-poor { color: #9d9d9d; } /* 회색 */
+.item-quality.quality-common { color: #ffffff; } /* 흰색 */
+.item-quality.quality-uncommon { color: #1eff00; } /* 초록색 */
+.item-quality.quality-rare { color: #0070dd; } /* 파란색 */
+.item-quality.quality-epic { color: #a335ee; } /* 보라색 */
+.item-quality.quality-legendary { color: #ff8000; } /* 주황색 */
+.item-quality.quality-artifact { color: #e6cc80; } /* 황토색 (유물) */
+.item-quality.quality-heirloom { color: #00ccff; } /* 하늘색 (계승품) */
+
+/* 기본 아이템 이름 색상 (흰색) - 품질 클래스가 우선 적용됨 */
+.quality-common {
+  /* Tailwind의 text-white와 동일 효과지만, 명시적으로 */
 } 

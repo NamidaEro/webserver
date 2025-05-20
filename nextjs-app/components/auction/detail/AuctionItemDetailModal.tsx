@@ -40,7 +40,6 @@ export default function AuctionItemDetailModal({
   // 대표 가격 (buyout) 표시. 백엔드에서 이미 최저가 1개만 보내므로 해당 가격 사용
   const representativeBuyout = item.buyout || 0;
   const iconUrl = item.iconUrl;
-  const itemLevel = item.level || item.item_level;
 
   const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
@@ -106,7 +105,6 @@ export default function AuctionItemDetailModal({
                 )}
               </div>
               <div className="text-left md:text-center">
-                {itemLevel && <p className="text-sm text-gray-400 mt-1">레벨: {itemLevel}</p>}
                 <p className={`${qualityClass} font-semibold mt-1`}>
                   {itemQuality.charAt(0).toUpperCase() + itemQuality.slice(1)}
                 </p>

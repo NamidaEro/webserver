@@ -22,56 +22,16 @@ const qualityColorClasses: { [key: string]: string } = {
 
 export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowProps) {
   // API 데이터 구조와 일치하도록 매핑
-  const itemId = item.itemId || item.item_id; // API는 item_id 사용
-  const buyoutPrice = item.buyoutPrice || item.buyout; // API는 buyout 사용
+  const itemId = item.item_id; // item.itemId 대신 item.item_id 사용
+  const buyoutPrice = item.buyout; // item.buyoutPrice 대신 item.buyout 사용 (AuctionItem 타입 기준)
   
-  // 아이템 이름 추출 - 우선순위: item_name -> name -> item_obj.name -> 아이템 ID 사용
-  let itemName = item.item_name || item.name;
-  if (!itemName && item.item_obj) {
-    // 직접 name 속성이 있는지 확인
-    if (typeof item.item_obj.name === 'string') {
-      itemName = item.item_obj.name;
-    } 
-    // Blizzard API 형식: name 객체가 있고 로케일별 이름이 있는지
-    else if (item.item_obj.name && item.item_obj.name.ko_KR) {
-      itemName = item.item_obj.name.ko_KR;
-    }
-    // id 필드가 있을 수 있는 다른 경로
-    else if (item.item_obj.id) {
-      itemName = `아이템 #${item.item_obj.id}`;
-    }
-  }
+  // 아이템 이름 추출 - 우선순위: item_name -> 아이템 ID 사용
+  // AuctionItem 타입에 name, item_obj가 없으므로 관련 로직 간소화
+  let itemName = item.item_name || `아이템 #${item.item_id}`;
   
-  // 여전히 이름이 없으면 item_id로 대체
-  if (!itemName) {
-    itemName = `아이템 #${itemId || '알 수 없음'}`;
-  }
-  
-  // 아이템 품질(등급) 확인 - 우선순위: item_quality -> quality -> item_obj.quality
-  let quality = item.item_quality || item.quality;
-  if (!quality && item.item_obj && item.item_obj.quality) {
-    // quality 값이 객체인지 확인
-    if (typeof item.item_obj.quality === 'object' && item.item_obj.quality.type) {
-      quality = item.item_obj.quality.type.toLowerCase();
-    } 
-    // 직접 문자열 값인지 확인
-    else if (typeof item.item_obj.quality === 'string') {
-      quality = item.item_obj.quality.toLowerCase();
-    }
-    // 숫자 ID가 있는지 확인 (WoW API는 quality를 숫자로 제공할 수 있음)
-    else if (typeof item.item_obj.quality === 'number') {
-      // 0 = 일반, 1 = 고급, 2 = 희귀, 3 = 영웅, 4 = 전설 등의 매핑
-      const qualityMap: {[key: number]: string} = {
-        0: 'poor',
-        1: 'common',
-        2: 'uncommon',
-        3: 'rare',
-        4: 'epic',
-        5: 'legendary'
-      };
-      quality = qualityMap[item.item_obj.quality] || 'common';
-    }
-  }
+  // 아이템 품질(등급) 확인 - 우선순위: item_quality
+  // AuctionItem 타입에 quality, item_obj가 없으므로 관련 로직 간소화
+  let quality = item.item_quality;
   
   // quality가 없는 경우 기본값
   const qualityClass = quality ? 
@@ -79,14 +39,15 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
     'text-gray-700';
   
   // iconUrl 사용 (백엔드에서 제공)
-  const iconDisplayUrl = item.iconUrl || item.item_obj?.icon;
+  // AuctionItem 타입에 item_obj가 없으므로 iconDisplayUrl 간소화
+  const iconDisplayUrl = item.iconUrl;
 
   console.log('[AuctionItemRow] 렌더링 아이템:', { 
     itemId, 
     buyoutPrice, 
     name: itemName,
     api_item_name: item.item_name, // API에서 제공한 이름 로그
-    item_obj: item.item_obj
+    // item_obj: item.item_obj // AuctionItem 타입에 없음
   });
 
   return (
@@ -107,11 +68,15 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
           <span className={`font-medium ${qualityClass}`}>{itemName}</span>
         </div>
       </td>
+      {/* AuctionItem 타입에 level, item_level 없음 - 제거 
       <td className="py-3 px-4 text-center whitespace-nowrap text-sm text-gray-600">{item.level || item.item_level || '-'}</td>
+      */}
       <td className="py-3 px-4 text-right whitespace-nowrap">
         <CurrencyDisplay totalCopper={buyoutPrice || 0} />
       </td>
+      {/* AuctionItem 타입에 timeLeft, time_left 없음 - 제거
       <td className="py-3 px-4 text-center whitespace-nowrap text-sm text-gray-600">{item.timeLeft || item.time_left || '-'}</td> 
+      */}
       {/* TODO: 필요시 입찰가, 판매자 등 추가 컬럼 */}
     </tr>
   );

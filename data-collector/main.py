@@ -540,7 +540,7 @@ def fetch_missing_item_metadata(item_id):
 def process_new_item_metadata(item_ids):
     """새로 발견된 아이템 ID 목록에 대해 메타데이터 처리를 대기열에 추가합니다."""
     global new_item_ids_queue
-    if not item_metadata_collection:
+    if item_metadata_collection is None:
         logger.warning("item_metadata_collection이 초기화되지 않아 새 아이템 ID를 처리할 수 없습니다.")
         return
 

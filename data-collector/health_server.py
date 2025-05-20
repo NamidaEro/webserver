@@ -321,80 +321,37 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
 
         try:
             query = {'realm_id': realm_id}
+            total_count = auctions_collection.count_documents(query)
             skip = (page - 1) * limit
-
-            # Aggregation pipeline 구축
-            pipeline = [
-                {"$match": query},
-                {
-                    "$lookup": {
-                        "from": item_metadata_collection.name if item_metadata_collection is not None else "item_metadata",
-                        "localField": "item_id",
-                        "foreignField": "item_id",
-                        "as": "item_meta_docs"
-                    }
-                },
-                {
-                    "$addFields": {
-                        "item_meta": {"$arrayElemAt": ["$item_meta_docs", 0]}
-                    }
-                },
-                {
-                    "$addFields": {
-                        "item_name": {
-                            "$cond": {
-                                "if": {"$ifNull": ["$item_meta.name", False]},
-                                "then": "$item_meta.name",
-                                "else": {"$concat": ["아이템 #", {"$toString": "$item_id"}]}
-                            }
-                        },
-                        "item_quality": {"$ifNull": ["$item_meta.quality", "common"]},
-                        "has_real_name": {
-                            "$cond": {
-                                "if": {"$and": [
-                                    {"$ifNull": ["$item_meta.name", False]},
-                                    {"$ne": [{"$ifNull": ["$item_meta.name", ""]}, ""]}
-                                ]},
-                                "then": True,
-                                "else": False
-                            }
-                        }
-                    }
-                },
-                {"$sort": {"has_real_name": -1, "collection_time": -1}},
-                {
-                    "$facet": {
-                        "auctions": [
-                            {"$skip": skip},
-                            {"$limit": limit},
-                            {"$project": {"item_meta_docs": 0, "item_meta":0 }}
-                        ],
-                        "total_count": [
-                            {"$count": "count"}
-                        ]
-                    }
-                }
-            ]
+            cursor = auctions_collection.find(query).sort('collection_time', -1).skip(skip).limit(limit)
             
-            results_from_aggregation = list(auctions_collection.aggregate(pipeline))
-            
+            # 아이템 ID 목록 추출
+            item_ids = set()
             auctions_list = []
-            total_count = 0
-
-            if results_from_aggregation: # Check if the aggregation returned anything
-                facet_output = results_from_aggregation[0] # Should be the single doc from $facet
-
-                if 'auctions' in facet_output:
-                    auctions_list = facet_output['auctions']
-                    for doc in auctions_list:
-                        if '_id' in doc and not isinstance(doc['_id'], str):
-                            doc['_id'] = str(doc['_id'])
+            for doc in cursor:
+                doc['_id'] = str(doc['_id'])  # ObjectId를 문자열로 변환
+                if 'item_id' in doc and doc['item_id'] is not None:
+                    item_ids.add(doc['item_id'])
+                auctions_list.append(doc)
+            
+            # 메타데이터가 있는 경우 아이템 이름 추가
+            if item_metadata_collection is not None and item_ids:
+                # 해당 아이템 ID의 메타데이터 조회
+                item_metadata_docs = {doc['item_id']: doc for doc in 
+                               item_metadata_collection.find({"item_id": {"$in": list(item_ids)}})}
                 
-                if 'total_count' in facet_output:
-                    total_count_array = facet_output['total_count']
-                    if total_count_array: # If the array is not empty (i.e., count was performed)
-                        total_count = total_count_array[0].get('count', 0)
-                    # If total_count_array is empty, it means 0 documents were counted, so total_count remains 0.
+                # 경매 데이터에 아이템 이름 추가
+                for auction in auctions_list:
+                    item_id = auction.get('item_id')
+                    if item_id in item_metadata_docs:
+                        # 아이템 이름이 있으면 추가
+                        auction['item_name'] = item_metadata_docs[item_id].get('name', f'아이템 #{item_id}')
+                        # 품질 정보도 추가 가능
+                        auction['item_quality'] = item_metadata_docs[item_id].get('quality', '일반')
+                        # 기타 필요한 메타데이터 추가
+            
+            # 아이템 이름이 있는 항목을 우선으로 정렬
+            auctions_list.sort(key=lambda x: (0 if 'item_name' in x and x['item_name'] and not x['item_name'].startswith('아이템 #') else 1))
             
             self._set_headers()
             response = {

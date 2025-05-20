@@ -5,6 +5,7 @@ import ItemSearchBar from '@/components/auction/search/ItemSearchBar';
 import RealmFilterDropdown from '@/components/auction/filter/RealmFilterDropdown';
 import AuctionTable from '@/components/auction/list/AuctionTable';
 import { AuctionItem } from '@/lib/types/auction';
+import AuctionItemDetailModal from '@/components/auction/detail/AuctionItemDetailModal';
 
 export default function AuctionPage() {
   const [auctionItems, setAuctionItems] = useState<AuctionItem[]>([]);
@@ -16,6 +17,21 @@ export default function AuctionPage() {
   const [realmList, setRealmList] = useState<{realm_id: number, count: number}[]>([]);
   const [selectedRealm, setSelectedRealm] = useState<number | null>(205);
   const limit = 10;
+
+  // 모달 상태 및 핸들러 추가
+  const [selectedAuctionItemForModal, setSelectedAuctionItemForModal] = useState<AuctionItem | null>(null);
+  const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
+
+  const handleItemSelect = (item: AuctionItem) => {
+    console.log("[AuctionPage] 아이템 선택됨:", item);
+    setSelectedAuctionItemForModal(item);
+    setIsDetailModalOpen(true);
+  };
+
+  const closeDetailModal = () => {
+    setIsDetailModalOpen(false);
+    setSelectedAuctionItemForModal(null);
+  };
 
   // realm 목록 불러오기
   useEffect(() => {
@@ -94,8 +110,9 @@ export default function AuctionPage() {
           <ItemSearchBar />
           <RealmFilterDropdown />
           <div>
-            <label>서버(Realm): </label>
+            <label htmlFor="realmSelect" className="mr-2 text-sm font-medium text-gray-700">서버:</label>
             <select
+              id="realmSelect"
               value={selectedRealm ?? ''}
               onChange={e => {
                 const newRealmId = Number(e.target.value);
@@ -103,7 +120,9 @@ export default function AuctionPage() {
                 setSelectedRealm(newRealmId);
                 setCurrentPage(1);
               }}
+              className="p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 text-sm"
             >
+              {realmList.length === 0 && <option value="">로딩 중...</option>}
               {realmList.map(r => (
                 <option key={r.realm_id} value={r.realm_id}>
                   {r.realm_id} (경매 {r.count}개)
@@ -117,14 +136,14 @@ export default function AuctionPage() {
       <div className="p-4 bg-white shadow rounded-lg">
         {isLoading && (
           <div className="text-center py-8">
-            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-blue-500 border-r-transparent align-middle"></div>
-            <p className="text-gray-500 mt-2 animate-pulse">데이터를 불러오는 중입니다...</p>
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto"></div>
+            <p className="mt-2 text-gray-500">데이터를 불러오는 중입니다...</p>
           </div>
         )}
         {error && <p className="text-center text-red-500 py-8">오류: {error}</p>}
         {!isLoading && !error && (
           <>
-            <AuctionTable items={auctionItems} />
+            <AuctionTable items={auctionItems} onItemSelect={handleItemSelect} />
             {totalItems > 0 && (
               <div className="mt-6 flex justify-between items-center">
                 <button 
@@ -152,6 +171,13 @@ export default function AuctionPage() {
             <p className="text-center text-gray-500 py-8">표시할 경매 아이템이 없습니다.</p>
         )}
       </div>
+
+      {/* 모달 렌더링 */}
+      <AuctionItemDetailModal 
+        item={selectedAuctionItemForModal}
+        isOpen={isDetailModalOpen}
+        onClose={closeDetailModal}
+      />
     </div>
   );
 } 

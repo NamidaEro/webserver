@@ -6,6 +6,7 @@ import AuctionItemRow from './AuctionItemRow';
 
 interface AuctionTableProps {
   items: AuctionItem[];
+  onItemSelect: (item: AuctionItem) => void;
   // TODO: 정렬 관련 props 추가 (예: onSort, currentSortKey, currentSortOrder)
 }
 
@@ -68,7 +69,7 @@ const mockAuctionItems: AuctionItem[] = [
   },
 ];
 
-export default function AuctionTable({ items = mockAuctionItems }: AuctionTableProps) { // items prop 기본값을 mock 데이터로 설정
+export default function AuctionTable({ items = mockAuctionItems, onItemSelect }: AuctionTableProps) { // items prop 기본값을 mock 데이터로 설정
   const [selectedItem, setSelectedItem] = useState<AuctionItem | null>(null);
   
   useEffect(() => {
@@ -133,7 +134,11 @@ export default function AuctionTable({ items = mockAuctionItems }: AuctionTableP
               console.log(`[AuctionTable] 아이템 ${index} 렌더링:`, item);
               console.log(`[AuctionTable] 아이템 ${index}의 키:`, item._id || item.blizzard_auction_id || item.id);
               return (
-                <AuctionItemRow key={item._id || item.blizzard_auction_id || item.id} item={item} onItemSelect={handleItemSelect} />
+                <AuctionItemRow 
+                  key={item.blizzard_auction_id || item.id || item.item_id || index} 
+                  item={item} 
+                  onItemSelect={onItemSelect}
+                />
               );
             })}
           </tbody>

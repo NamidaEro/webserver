@@ -78,6 +78,9 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
     qualityColorClasses[quality.toLowerCase()] || 'text-gray-700' : 
     'text-gray-700';
   
+  // iconUrl 사용 (백엔드에서 제공)
+  const iconDisplayUrl = item.iconUrl || item.item_obj?.icon;
+
   console.log('[AuctionItemRow] 렌더링 아이템:', { 
     itemId, 
     buyoutPrice, 
@@ -93,9 +96,13 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
     >
       <td className="py-3 px-4 whitespace-nowrap">
         <div className="flex items-center">
-          <div className="w-8 h-8 mr-3 bg-gray-300 rounded flex items-center justify-center text-gray-500 text-xs">
-            {/* 아이콘 대신 첫 글자 또는 ID 표시 */}
-            {itemId ? String(itemId).substring(0, 1) : "?"}
+          <div className="w-8 h-8 mr-3 bg-gray-300 rounded flex items-center justify-center text-gray-500 text-xs overflow-hidden">
+            {/* 아이콘 표시 로직 수정 */}
+            {iconDisplayUrl ? (
+              <img src={iconDisplayUrl} alt={itemName} className="w-full h-full object-cover" />
+            ) : (
+              itemId ? String(itemId).substring(0, 1) : "?"
+            )}
           </div>
           <span className={`font-medium ${qualityClass}`}>{itemName}</span>
         </div>

@@ -321,37 +321,78 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
 
         try:
             query = {'realm_id': realm_id}
-            total_count = auctions_collection.count_documents(query)
             skip = (page - 1) * limit
-            cursor = auctions_collection.find(query).sort('collection_time', -1).skip(skip).limit(limit)
+
+            pipeline = [
+                # 1. realm_id로 매칭하고, 유효한 buyout 가격(0보다 크고 존재하는)을 가진 문서만 필터링
+                {"\$match": {"realm_id": realm_id, "buyout": {"\$exists": True, "\$ne": None, "\$gt": 0}}},
+                # 2. item_id 오름차순, buyout 가격 오름차순, 최신 수집 시간 내림차순으로 정렬
+                #    이렇게 하면 $group에서 $first 사용 시 각 item_id의 최저가이면서 가장 최신 경매를 선택
+                {"\$sort": {"item_id": 1, "buyout": 1, "collection_time": -1}},
+                # 3. item_id로 그룹화하여 각 아이템의 최저가 경매를 대표로 선택
+                {
+                    "\$group": {
+                        "_id": "\$item_id", # item_id로 그룹핑
+                        "representative_auction": {"\$first": "\$\$ROOT"} # 그룹 내 첫 번째 문서(최저가, 최신 경매)
+                    }
+                },
+                # 4. 그룹화된 대표 경매 문서를 루트 레벨로 올림
+                {"\$replaceRoot": {"newRoot": "\$representative_auction"}},
+                # 5. 메타데이터 조인 (대표 경매들에 대해서만 수행)
+                {
+                    "\$lookup": {
+                        "from": item_metadata_collection.name if item_metadata_collection is not None else "item_metadata",
+                        "localField": "item_id",
+                        "foreignField": "item_id",
+                        "as": "item_meta_docs"
+                    }
+                },
+                # 6. 필요한 필드 추가 (아이템 이름, 품질, 아이콘 등)
+                {
+                    "\$addFields": {
+                        "item_meta": {"\$arrayElemAt": ["\$item_meta_docs", 0]},
+                    }
+                },
+                {
+                    "\$addFields": {
+                        "item_name": {"\$ifNull": ["\$item_meta.name", {"\$concat": ["아이템 #", {"\$toString": "\$item_id"}]}]},
+                        "item_quality": {"\$ifNull": ["\$item_meta.quality", "common"]},
+                        "iconUrl": {"\$ifNull": ["\$item_meta.icon", None]} # 아이콘 URL (메타데이터에 있다면)
+                    }
+                },
+                # 7. 임시 필드 제거
+                {"\$project": {"item_meta_docs": 0, "item_meta": 0}},
+                # 8. 최종 정렬 (예: 아이템 이름 오름차순)
+                #    주의: 이 정렬은 $facet 내부의 auctions 배열에 적용되는 것이 아니라, 전체 대표 아이템 목록에 적용됨.
+                #    페이지네이션 전에 전체 데이터에 대해 정렬 수행.
+                {"\$sort": {"item_name": 1}},
+                # 9. 페이지네이션과 전체 카운트를 위한 $facet
+                {
+                    "\$facet": {
+                        "auctions": [
+                            {"\$skip": skip},
+                            {"\$limit": limit}
+                        ],
+                        "total_count": [
+                            {"\$count": "count"}
+                        ]
+                    }
+                }
+            ]
             
-            # 아이템 ID 목록 추출
-            item_ids = set()
+            results_from_aggregation = list(auctions_collection.aggregate(pipeline))
+            
             auctions_list = []
-            for doc in cursor:
-                doc['_id'] = str(doc['_id'])  # ObjectId를 문자열로 변환
-                if 'item_id' in doc and doc['item_id'] is not None:
-                    item_ids.add(doc['item_id'])
-                auctions_list.append(doc)
+            total_count = 0
+
+            if results_from_aggregation and results_from_aggregation[0]['auctions']:
+                auctions_list = results_from_aggregation[0]['auctions']
+                for doc in auctions_list:
+                    if '_id' in doc and not isinstance(doc['_id'], str):
+                        doc['_id'] = str(doc['_id'])
             
-            # 메타데이터가 있는 경우 아이템 이름 추가
-            if item_metadata_collection is not None and item_ids:
-                # 해당 아이템 ID의 메타데이터 조회
-                item_metadata_docs = {doc['item_id']: doc for doc in 
-                               item_metadata_collection.find({"item_id": {"$in": list(item_ids)}})}
-                
-                # 경매 데이터에 아이템 이름 추가
-                for auction in auctions_list:
-                    item_id = auction.get('item_id')
-                    if item_id in item_metadata_docs:
-                        # 아이템 이름이 있으면 추가
-                        auction['item_name'] = item_metadata_docs[item_id].get('name', f'아이템 #{item_id}')
-                        # 품질 정보도 추가 가능
-                        auction['item_quality'] = item_metadata_docs[item_id].get('quality', '일반')
-                        # 기타 필요한 메타데이터 추가
-            
-            # 아이템 이름이 있는 항목을 우선으로 정렬
-            auctions_list.sort(key=lambda x: (0 if 'item_name' in x and x['item_name'] and not x['item_name'].startswith('아이템 #') else 1))
+            if results_from_aggregation and results_from_aggregation[0]['total_count'] and results_from_aggregation[0]['total_count'][0]:
+                total_count = results_from_aggregation[0]['total_count'][0]['count']
             
             self._set_headers()
             response = {

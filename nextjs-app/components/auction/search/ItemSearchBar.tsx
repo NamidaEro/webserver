@@ -1,17 +1,24 @@
-export default function ItemSearchBar() {
-  // TODO: 검색 로직 및 상태 관리 추가
+import React from 'react';
+
+interface ItemSearchBarProps {
+  searchTerm: string;
+  onSearchTermChange: (term: string) => void;
+  placeholder?: string;
+}
+
+export default function ItemSearchBar({ 
+  searchTerm, 
+  onSearchTermChange, 
+  placeholder = "아이템 이름으로 검색..." 
+}: ItemSearchBarProps) {
   return (
-    <div className="w-full max-w-md">
-      <label htmlFor="item-search" className="sr-only">
-        아이템 검색
-      </label>
+    <div className="mb-4 md:mb-0"> {/* 모바일에서는 하단 마진, md 이상에서는 마진 없음 */}
       <input
-        type="search"
-        name="item-search"
-        id="item-search"
-        className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2"
-        placeholder="아이템 이름으로 검색..."
-        // onChange={(e) => setSearchTerm(e.target.value)} // 예시
+        type="text"
+        placeholder={placeholder}
+        value={searchTerm}
+        onChange={(e) => onSearchTermChange(e.target.value)}
+        className="w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-black"
       />
     </div>
   );

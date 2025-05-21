@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { AuctionItem } from '@/lib/types/auction';
 import AuctionItemRow from './AuctionItemRow';
+// import ItemSearchBar from '@/components/auction/search/ItemSearchBar'; // 검색창 컴포넌트 import 제거
 // import PriceHistoryChart from '@/components/auction/chart/PriceHistoryChart'; // 나중에 추가
 // import Modal from '@/components/shared/Modal'; // 나중에 추가
 
@@ -64,15 +65,15 @@ const mockAuctionItems: AuctionItem[] = [
   },
 ];
 
-export default function AuctionTable({ items = mockAuctionItems, onItemSelect }: AuctionTableProps) { // items prop 기본값을 mock 데이터로 설정
+export default function AuctionTable({ items = mockAuctionItems, onItemSelect }: AuctionTableProps) {
   const [selectedItem, setSelectedItem] = useState<AuctionItem | null>(null);
+  // const [searchTerm, setSearchTerm] = useState(''); // 검색어 상태 제거
   
   useEffect(() => {
     console.log('[AuctionTable] 컴포넌트가 마운트되었습니다');
     console.log('[AuctionTable] 받은 아이템 데이터:', items);
     console.log('[AuctionTable] 아이템 개수:', items?.length || 0);
     
-    // 아이템의 키와 구조 확인
     if (items && items.length > 0) {
       console.log('[AuctionTable] 첫 번째 아이템의 속성:', Object.keys(items[0]));
       console.log('[AuctionTable] 첫 번째 아이템:', items[0]);
@@ -82,7 +83,6 @@ export default function AuctionTable({ items = mockAuctionItems, onItemSelect }:
   const handleItemSelect = (item: AuctionItem) => {
     console.log('[AuctionTable] 아이템 선택됨:', item);
     setSelectedItem(item);
-    // TODO: 모달 열기 또는 상세 정보 표시 로직
     console.log('Selected item:', item);
   };
 
@@ -90,19 +90,41 @@ export default function AuctionTable({ items = mockAuctionItems, onItemSelect }:
     setSelectedItem(null);
   };
 
+  // const handleSearchTermChange = (term: string) => { // 검색어 변경 핸들러 제거
+  //   setSearchTerm(term);
+  // };
+
   console.log('[AuctionTable] 렌더링 전 아이템 확인:', items);
   
-  if (!items || items.length === 0) {
-    console.log('[AuctionTable] 아이템이 없습니다. items:', items);
-    return <p className="text-center text-gray-500 py-8">표시할 경매 아이템이 없습니다.</p>;
-  }
+  // const filteredItems = items.filter(item =>  // 필터링 로직 제거
+  //   (item.item_name || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+  //   String(item.item_id).includes(searchTerm)
+  // );
 
-  // 렌더링 전에 맵핑할 아이템 수 로그
+  // 검색 결과 없을 때 메시지 처리 로직 제거
+  // if (items && items.length > 0 && filteredItems.length === 0) {
+  //   console.log('[AuctionTable] 검색 결과 없음. 검색어:', searchTerm);
+  //   return (
+  //     <>
+  //       <div className="overflow-x-auto shadow-md rounded-lg">
+  //         {/* <ItemSearchBar searchTerm={searchTerm} onSearchTermChange={handleSearchTermChange} /> */}
+  //         <p className="text-center text-gray-500 py-8">'{searchTerm}'에 대한 검색 결과가 없습니다.</p>
+  //       </div>
+  //     </>
+  //   );
+  // }
+  
+  // if (!items || items.length === 0) {
+  //   console.log('[AuctionTable] 아이템이 없습니다. items:', items);
+  //   return <p className="text-center text-gray-500 py-8">표시할 경매 아이템이 없습니다.</p>;
+  // }
+
   console.log('[AuctionTable] 맵핑할 아이템 수:', items.length);
 
   return (
     <>
       <div className="overflow-x-auto shadow-md rounded-lg">
+        {/* <ItemSearchBar searchTerm={searchTerm} onSearchTermChange={handleSearchTermChange} /> */}{/* 검색 바 제거 */}
         <table className="min-w-full bg-white">
           <thead className="bg-gray-200">
             <tr>
@@ -126,7 +148,7 @@ export default function AuctionTable({ items = mockAuctionItems, onItemSelect }:
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-200">
-            {items.map((item, index) => {
+            {items.map((item, index) => { // filteredItems 대신 items 사용
               console.log(`[AuctionTable] 아이템 ${index} 렌더링:`, item);
               console.log(`[AuctionTable] 아이템 ${index}의 키:`, item.id || item.item_id);
               return (

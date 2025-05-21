@@ -2,11 +2,15 @@
 
 import React, { useEffect, useState } from 'react';
 // import useSWR from 'swr'; // SWR import 제거
-import ItemSearchBar from '@/components/auction/search/ItemSearchBar';
+// import AuctionList from '@/components/auction/list/AuctionList'; // 임시 주석 처리
+// import ItemSearchBar from '@/components/auction/search/ItemSearchBar'; // 삭제
+// import RealmSelector from '@/components/auction/filter/RealmSelector'; // 임시 주석 처리
 // import RealmFilterDropdown from '@/components/auction/filter/RealmFilterDropdown'; // RealmFilterDropdown 임포트 제거
 import AuctionTable from '@/components/auction/list/AuctionTable';
 import { AuctionItem } from '@/lib/types/auction';
 import AuctionItemDetailModal from '@/components/auction/detail/AuctionItemDetailModal';
+import AuctionSidebar from '@/components/auction/sidebar/AuctionSidebar'; // 사이드바 컴포넌트 import
+import ItemSearchBar from '@/components/auction/search/ItemSearchBar'; // ItemSearchBar import 추가
 
 // fetcher 함수는 범용적으로 사용할 수 있으므로 유지하거나, 필요 없으면 삭제 가능
 // 여기서는 fetch를 직접 사용하는 방식으로 복원하므로 일단 주석 처리 또는 삭제
@@ -29,8 +33,10 @@ export default function AuctionPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [totalItems, setTotalItems] = useState(0);
-  const [realmList, setRealmList] = useState<{realm_id: number, count: number}[]>([]);
-  const [selectedRealm, setSelectedRealm] = useState<number | null>(null); 
+  const [realmList, setRealmList] = useState<{ realm_id: number, count: number }[]>([]);
+  const [selectedRealm, setSelectedRealm] = useState<number | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null); // 선택된 카테고리 상태 추가
+  const [searchTerm, setSearchTerm] = useState(''); // 검색어 상태 추가
   const itemsPerPage = 10; // 페이지당 아이템 수 (클라이언트에서 관리)
 
   // 서버 ID와 이름 매핑 객체
@@ -95,9 +101,9 @@ export default function AuctionPage() {
     fetch(`/api/auctions/${selectedRealm}`)
       .then(res => {
         if (!res.ok) {
-            return res.json().then(errData => { 
-                throw new Error(errData.message || '경매 데이터를 불러오는 데 실패했습니다.'); 
-            });
+          return res.json().then(errData => {
+            throw new Error(errData.message || '경매 데이터를 불러오는 데 실패했습니다.');
+          });
         }
         return res.json();
       })
@@ -107,7 +113,7 @@ export default function AuctionPage() {
         setTotalItems(data.total_count || 0); // 서버가 제공하는 total_count 사용
         // totalPages는 allAuctionItems.length 기반으로 클라이언트에서 계산할 수도 있음
         // 여기서는 서버가 제공하는 total_count를 신뢰
-        console.log('[AuctionPage] API 응답의 cache_status:', data.cache_status); 
+        console.log('[AuctionPage] API 응답의 cache_status:', data.cache_status);
       })
       .catch(err => {
         console.error('[AuctionPage] 전체 경매 데이터 불러오기 오류:', err);
@@ -122,23 +128,45 @@ export default function AuctionPage() {
 
   // 클라이언트 사이드 페이지네이션 로직
   useEffect(() => {
-    if (totalItems > 0) {
-      const newTotalPages = Math.ceil(totalItems / itemsPerPage);
+    let itemsToPaginate = allAuctionItems;
+
+    // 검색어 필터링
+    if (searchTerm) {
+      itemsToPaginate = itemsToPaginate.filter(item =>
+        (item.item_name || '').toLowerCase().includes(searchTerm.toLowerCase()) ||
+        String(item.item_id).includes(searchTerm)
+      );
+    }
+
+    // 카테고리 필터링 (실제 필드명에 따라 수정 필요)
+    if (selectedCategory) {
+      // 예시: item.category_id === selectedCategory (실제 아이템 객체의 카테고리 필드 사용)
+      // itemsToPaginate = itemsToPaginate.filter(item => item.item_class === selectedCategory || item.item_subclass === selectedCategory);
+      // 현재는 AuctionItem 타입에 카테고리 필드가 없으므로, 이 부분은 주석 처리하거나 실제 필드에 맞게 수정해야 합니다.
+      // 임시로 모든 아이템을 보여주도록 남겨둡니다.
+      console.log("카테고리 필터링 건너뛰기: AuctionItem에 카테고리 필드 부재 또는 미구현");
+    }
+
+    const newTotalItems = itemsToPaginate.length;
+    setTotalItems(newTotalItems);
+
+    if (newTotalItems > 0) {
+      const newTotalPages = Math.ceil(newTotalItems / itemsPerPage);
       setTotalPages(newTotalPages);
 
       const startIndex = (currentPage - 1) * itemsPerPage;
       const endIndex = startIndex + itemsPerPage;
-      setDisplayedAuctionItems(allAuctionItems.slice(startIndex, endIndex));
-      
-      // 현재 페이지가 전체 페이지 수를 넘어갈 경우 (예: 데이터가 줄어든 경우) 현재 페이지 조정
+      setDisplayedAuctionItems(itemsToPaginate.slice(startIndex, endIndex));
+
       if (currentPage > newTotalPages && newTotalPages > 0) {
         setCurrentPage(newTotalPages);
       }
     } else {
       setDisplayedAuctionItems([]);
       setTotalPages(1);
+      // currentPage는 1로 유지하거나, 필요시 조정
     }
-  }, [allAuctionItems, currentPage, itemsPerPage, totalItems]);
+  }, [allAuctionItems, currentPage, itemsPerPage, selectedCategory, searchTerm]); // searchTerm, selectedCategory 의존성 배열에 추가
 
   const handleItemSelect = async (item: AuctionItem) => {
     console.log("[AuctionPage] 아이템 선택됨:", item);
@@ -154,15 +182,15 @@ export default function AuctionPage() {
 
     const currentItemId = item.item_id;
     if (!currentItemId) {
-        console.error("[AuctionPage] 아이템 ID를 찾을 수 없습니다.");
-        return;
+      console.error("[AuctionPage] 아이템 ID를 찾을 수 없습니다.");
+      return;
     }
 
     setIsDetailedLoading(true);
     try {
       // 수정: Next.js API Route 호출로 변경
       const response = await fetch(`/api/auctions-by-item?realmId=${selectedRealm}&itemId=${currentItemId}`);
-      
+
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({ message: `HTTP error! status: ${response.status}` }));
         throw new Error(errorData.message || '아이템 상세 경매 목록을 불러오는 데 실패했습니다.');
@@ -190,6 +218,18 @@ export default function AuctionPage() {
     // setError(null); // 상세 조회 에러는 모달 닫을 때 초기화할 수 있음
   };
 
+  const handleCategorySelect = (categoryId: string | null) => {
+    setSelectedCategory(categoryId);
+    setCurrentPage(1); // 카테고리 변경 시 1페이지로 초기화
+    // TODO: 실제 카테고리별 필터링 로직 추가 (useEffect에서 allAuctionItems를 필터링)
+    console.log("[AuctionPage] 선택된 카테고리:", categoryId);
+  };
+
+  const handleSearchTermChange = (term: string) => {
+    setSearchTerm(term);
+    setCurrentPage(1); // 검색어 변경 시 1페이지로 초기화
+  };
+
   const handlePrevPage = () => {
     if (currentPage > 1) setCurrentPage(currentPage - 1);
   };
@@ -210,12 +250,10 @@ export default function AuctionPage() {
   return (
     <div>
       <h1 className="text-3xl font-bold mb-6 text-gray-800">경매장</h1>
-      
+
+      {/* 상단 필터 영역 (서버 선택 등) */}
       <div className="mb-6 p-4 bg-white shadow rounded-lg">
         <div className="flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 md:space-y-0">
-          <div className="flex-grow">
-            <ItemSearchBar />
-          </div>
           <div className="flex items-center">
             <label htmlFor="realmSelect" className="mr-2 text-sm font-medium text-gray-700 whitespace-nowrap">서버:</label>
             <select
@@ -228,7 +266,7 @@ export default function AuctionPage() {
                 setCurrentPage(1); // 서버 변경 시 1페이지로 초기화
               }}
               className="p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 text-sm text-gray-900"
-              disabled={realmList.length === 0 && !error} 
+              disabled={realmList.length === 0 && !error}
             >
               {realmList.length === 0 && !error && <option value="">서버 로딩 중...</option>}
               {error && realmList.length === 0 && <option value="">서버 로드 실패</option>}
@@ -241,48 +279,69 @@ export default function AuctionPage() {
           </div>
         </div>
       </div>
-      
-      <div className="p-4 bg-white shadow rounded-lg">
-        {isLoading && (
-          <div className="text-center py-8">
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto"></div>
-            <p className="mt-2 text-gray-500">데이터를 불러오는 중입니다...</p>
-          </div>
-        )}
-        {error && !isLoading && <p className="text-center text-red-500 py-8">오류: {error}</p>}
-        {!isLoading && !error && (
-          <>
-            <AuctionTable items={displayedAuctionItems} onItemSelect={handleItemSelect} />
-            {totalItems > 0 && displayedAuctionItems.length > 0 && (
-              <div className="mt-6 flex justify-between items-center">
-                <button 
-                  onClick={handlePrevPage} 
-                  disabled={currentPage <= 1}
-                  className="px-4 py-2 bg-gray-300 text-gray-700 rounded disabled:opacity-50 hover:bg-gray-400 transition-colors"
-                >
-                  이전
-                </button>
-                <span className="text-sm text-gray-700">
-                  페이지 {currentPage} / {totalPages} (총 {totalItems}개 아이템)
-                </span>
-                <button 
-                  onClick={handleNextPage} 
-                  disabled={currentPage >= totalPages}
-                  className="px-4 py-2 bg-gray-300 text-gray-700 rounded disabled:opacity-50 hover:bg-gray-400 transition-colors"
-                >
-                  다음
-                </button>
+
+      {/* 메인 컨텐츠 영역: 사이드바 + 경매 목록 */}
+      <div className="flex flex-col md:flex-row">
+        {/* 사이드바 */}
+        <AuctionSidebar
+          selectedCategory={selectedCategory}
+          onSelectCategory={handleCategorySelect}
+        />
+
+        {/* 경매 목록 및 페이지네이션 */}
+        <div className="flex-grow p-4 bg-white shadow rounded-lg md:ml-0">
+          {isLoading && (
+            <div className="text-center py-8">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto"></div>
+              <p className="mt-2 text-gray-500">데이터를 불러오는 중입니다...</p>
+            </div>
+          )}
+          {error && !isLoading && <p className="text-center text-red-500 py-8">오류: {error}</p>}
+          {!isLoading && !error && (
+            <>
+              <AuctionTable items={displayedAuctionItems} onItemSelect={handleItemSelect} />
+              <div className="flex-grow">
+                {/* ItemSearchBar를 이곳으로 이동 */}
+                {totalItems === 0 && searchTerm && !isLoading && (
+                  <p className="text-center text-gray-500 py-4 col-span-full">
+                    '{searchTerm}'에 대한 검색 결과가 없습니다.
+                  </p>
+                )}
+                <ItemSearchBar searchTerm={searchTerm} onSearchTermChange={handleSearchTermChange} />
               </div>
-            )}
-          </>
-        )}
-        {!isLoading && !error && totalItems === 0 && (
+              {totalItems > 0 && displayedAuctionItems.length > 0 && (
+                <>
+                  <div className="mt-6 flex justify-between items-center">
+                    <button
+                      onClick={handlePrevPage}
+                      disabled={currentPage <= 1}
+                      className="px-4 py-2 bg-gray-300 text-gray-700 rounded disabled:opacity-50 hover:bg-gray-400 transition-colors"
+                    >
+                      이전
+                    </button>
+                    <span className="text-sm text-gray-700">
+                      페이지 {currentPage} / {totalPages} (총 {totalItems}개 아이템)
+                    </span>
+                    <button
+                      onClick={handleNextPage}
+                      disabled={currentPage >= totalPages}
+                      className="px-4 py-2 bg-gray-300 text-gray-700 rounded disabled:opacity-50 hover:bg-gray-400 transition-colors"
+                    >
+                      다음
+                    </button>
+                  </div>
+                </>
+              )}
+            </>
+          )}
+          {/* {!isLoading && !error && totalItems === 0 && !searchTerm && ( // searchTerm 없을 때만 기존 메시지 표시
             <p className="text-center text-gray-500 py-8">표시할 경매 아이템이 없습니다.</p>
-        )}
+          )} */}
+        </div>
       </div>
 
       {/* 모달 렌더링 */}
-      <AuctionItemDetailModal 
+      <AuctionItemDetailModal
         item={selectedAuctionItemForModal}
         allAuctionsForItem={detailedAuctionList} // 새로 추가된 prop 전달
         isLoadingDetails={isDetailedLoading} // 로딩 상태 전달

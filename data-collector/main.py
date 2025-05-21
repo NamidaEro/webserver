@@ -429,61 +429,84 @@ def get_item_metadata(item_id):
         return None
 
 def save_item_metadata(item_id, item_details, item_media_details=None):
-    """
-    아이템 메타데이터를 컬렉션에 저장합니다.
-    이미 존재하면 업데이트하고, 없으면 새로 삽입합니다.
-    """
+    """아이템 메타데이터와 미디어 정보를 MongoDB에 저장합니다."""
     if item_metadata_collection is None:
-        logger.error("Item metadata collection is not initialized. Cannot save item metadata.")
+        logger.error("MongoDB item_metadata_collection이 초기화되지 않아 아이템 메타데이터를 저장할 수 없습니다.")
         stats.increment('db_errors')
-        return False
-    
-    if not item_details or 'name' not in item_details: # 이름이 없는 아이템은 저장하지 않음 (선택적)
-        logger.warning(f"Item ID {item_id}에 대한 유효한 상세 정보(이름 포함)가 없어 메타데이터를 저장하지 않습니다.")
-        return False
+        return
 
-    # 아이콘 URL 추출
+    if not item_details or not isinstance(item_details, dict):
+        logger.warning(f"Item ID {item_id}에 대한 상세 정보가 유효하지 않아 저장하지 않습니다.")
+        return
+
+    # 아이콘 URL 추출 로직 (제공된 이미지 기반으로 수정)
     icon_url = None
-    if item_media_details and 'assets' in item_media_details:
-        for asset in item_media_details['assets']:
-            if asset.get('key') == 'icon':
-                icon_url = asset.get('value')
-                break
-    
-    # 저장할 데이터 구성
+    if item_media_details and isinstance(item_media_details, dict):
+        assets = item_media_details.get('assets')
+        if isinstance(assets, list): # 이전 로직: assets가 배열인 경우
+            for asset_item in assets:
+                if isinstance(asset_item, dict) and asset_item.get('key') == 'icon' and 'value' in asset_item:
+                    icon_url = asset_item['value']
+                    logger.info(f"Item ID {item_id}의 아이콘 URL 추출 (리스트 내 객체): {icon_url}")
+                    break
+        elif isinstance(assets, dict): # 새로운 로직: assets가 단일 객체인 경우
+            if assets.get('key') == 'icon' and 'value' in assets:
+                icon_url = assets['value']
+                logger.info(f"Item ID {item_id}의 아이콘 URL 추출 (단일 객체): {icon_url}")
+        # 경우에 따라 item_media_details 자체가 icon 정보를 담고 있을 수도 있음 (가장 바깥 레벨)
+        elif item_media_details.get('key') == 'icon' and 'value' in item_media_details: 
+             icon_url = item_media_details['value']
+             logger.info(f"Item ID {item_id}의 아이콘 URL 추출 (루트 객체): {icon_url}")
+
+
+    if not icon_url:
+        # assets가 없는 경우 또는 icon 타입이 아닌 다른 타입의 asset만 있는 경우도 고려
+        # 예시: item_media_details = {"id": 123} 또는 {"assets": {"key": "zoom", "value": "..."}}
+        logger.warning(f"Item ID {item_id}의 아이콘 URL을 찾지 못했습니다. Media Details: {item_media_details}")
+
+    # 저장할 문서 생성 (기존 item_details의 주요 필드와 icon_url 포함)
+    # item_details가 API 응답 그대로라면 필요한 필드만 선택적으로 저장하는 것이 좋음
+    # 예시: name, quality, item_level, required_level, item_class, item_subclass 등
     metadata_doc = {
-        "item_id": item_id,
-        "name": item_details.get("name"),
-        "quality": item_details.get("quality", {}).get("name"), # 예: "Epic"
-        "item_class": item_details.get("item_class", {}).get("name"),
-        "item_subclass": item_details.get("item_subclass", {}).get("name"),
-        "inventory_type": item_details.get("inventory_type", {}).get("name"),
-        "level": item_details.get("level"),
-        "required_level": item_details.get("required_level"),
-        "media_id": item_details.get("media", {}).get("id"), # item_details에도 media 정보가 있을 수 있음
-        "icon_url": icon_url,  # 추출된 아이콘 URL 추가
-        "full_data": item_details, # 원본 API 응답 전체 저장
-        "updated_at": datetime.now().isoformat()
+        '_id': item_id,  # item_id를 MongoDB의 _id로 사용
+        'item_id': item_id,
+        'name': item_details.get('name'),
+        'quality': item_details.get('quality', {}).get('name', {}).get('ko_KR') if isinstance(item_details.get('quality'), dict) and isinstance(item_details.get('quality', {}).get('name'), dict) else item_details.get('quality', {}).get('type'), # 품질 (ko_KR 우선, 없으면 type)
+        'item_level': item_details.get('level'),
+        'required_level': item_details.get('required_level'),
+        'item_class': item_details.get('item_class', {}).get('name', {}).get('ko_KR') if isinstance(item_details.get('item_class'), dict) and isinstance(item_details.get('item_class', {}).get('name'), dict) else None, # 아이템 분류 (ko_KR)
+        'item_subclass': item_details.get('item_subclass', {}).get('name', {}).get('ko_KR') if isinstance(item_details.get('item_subclass'), dict) and isinstance(item_details.get('item_subclass', {}).get('name'), dict) else None, # 아이템 하위 분류 (ko_KR)
+        'inventory_type': item_details.get('inventory_type', {}).get('name', {}).get('ko_KR') if isinstance(item_details.get('inventory_type'), dict) and isinstance(item_details.get('inventory_type', {}).get('name'), dict) else None, # 착용 부위 (ko_KR)
+        'purchase_price': item_details.get('purchase_price'),
+        'sell_price': item_details.get('sell_price'),
+        'is_equippable': item_details.get('is_equippable'),
+        'is_stackable': item_details.get('is_stackable'),
+        'max_count': item_details.get('max_count'),
+        # 여기에 iconUrl 추가 (DB 필드명은 일관성 있게 icon_url 또는 iconUrl 중 하나로 통일)
+        'iconUrl': icon_url, # 프론트엔드에서 iconUrl을 사용하므로 동일하게 맞춤
+        'blizzard_item_details': item_details, # 원본 API 응답 보관 (선택적)
+        'blizzard_item_media_details': item_media_details, # 원본 미디어 API 응답 보관 (선택적)
+        'last_updated': datetime.utcnow().isoformat() + 'Z' # UTC 시간으로 마지막 업데이트 시간 기록
     }
 
     try:
-        # upsert=True: 문서가 존재하면 업데이트, 없으면 새로 삽입
-        result = item_metadata_collection.update_one(
-            {"item_id": item_id},
-            {"$set": metadata_doc},
-            upsert=True
-        )
-        if result.upserted_id:
-            logger.info(f"Item ID {item_id} ('{metadata_doc['name']}') 메타데이터 새로 저장 완료 (Icon: {'있음' if icon_url else '없음'}).")
-            stats.increment('metadata_created')
-        elif result.modified_count > 0:
-            logger.info(f"Item ID {item_id} ('{metadata_doc['name']}') 메타데이터 업데이트 완료 (Icon: {'있음' if icon_url else '없음'}).")
-            stats.increment('metadata_updated')
-        else:
-            logger.debug(f"Item ID {item_id} 메타데이터 변경 사항 없음.")
-            
+        with Timer(f"MongoDB 아이템 메타데이터 저장 (Item ID: {item_id})"):
+            # update_one을 사용하여 이미 문서가 있으면 덮어쓰고, 없으면 새로 삽입 (upsert=True)
+            update_result = item_metadata_collection.update_one(
+                {'_id': item_id},
+                {'$set': metadata_doc},
+                upsert=True
+            )
+            stats.increment('db_operations')
+            if update_result.upserted_id:
+                logger.info(f"Item ID {item_id} 메타데이터 새로 저장 완료.")
+            elif update_result.modified_count > 0:
+                logger.info(f"Item ID {item_id} 메타데이터 업데이트 완료.")
+            else:
+                logger.info(f"Item ID {item_id} 메타데이터 변경 사항 없음.")
+
     except Exception as e:
-        logger.error(f"Item ID {item_id} 메타데이터 저장 중 오류: {e}", exc_info=True)
+        logger.error(f"Item ID {item_id} 메타데이터 MongoDB 저장 중 오류 발생: {e}", exc_info=True)
         stats.increment('db_errors')
 
 def fetch_missing_item_metadata(item_id):

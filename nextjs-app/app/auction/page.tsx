@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 // import useSWR from 'swr'; // SWR import 제거
 import ItemSearchBar from '@/components/auction/search/ItemSearchBar';
-import RealmFilterDropdown from '@/components/auction/filter/RealmFilterDropdown';
+// import RealmFilterDropdown from '@/components/auction/filter/RealmFilterDropdown'; // RealmFilterDropdown 임포트 제거
 import AuctionTable from '@/components/auction/list/AuctionTable';
 import { AuctionItem } from '@/lib/types/auction';
 import AuctionItemDetailModal from '@/components/auction/detail/AuctionItemDetailModal';
@@ -32,6 +32,14 @@ export default function AuctionPage() {
   const [realmList, setRealmList] = useState<{realm_id: number, count: number}[]>([]);
   const [selectedRealm, setSelectedRealm] = useState<number | null>(null); 
   const itemsPerPage = 10; // 페이지당 아이템 수 (클라이언트에서 관리)
+
+  // 서버 ID와 이름 매핑 객체
+  const realmNameMap: { [key: number]: string } = {
+    205: '아즈샤라',
+    210: '듀로탄',
+    214: '윈드러너',
+    2116: '줄진',
+  };
 
   // 모달 상태 (기존 유지)
   const [selectedAuctionItemForModal, setSelectedAuctionItemForModal] = useState<AuctionItem | null>(null);
@@ -205,10 +213,11 @@ export default function AuctionPage() {
       
       <div className="mb-6 p-4 bg-white shadow rounded-lg">
         <div className="flex flex-col md:flex-row md:items-center md:space-x-4 space-y-4 md:space-y-0">
-          <ItemSearchBar />
-          <RealmFilterDropdown />
-          <div>
-            <label htmlFor="realmSelect" className="mr-2 text-sm font-medium text-gray-700">서버:</label>
+          <div className="flex-grow">
+            <ItemSearchBar />
+          </div>
+          <div className="flex items-center">
+            <label htmlFor="realmSelect" className="mr-2 text-sm font-medium text-gray-700 whitespace-nowrap">서버:</label>
             <select
               id="realmSelect"
               value={selectedRealm ?? ''}
@@ -225,7 +234,7 @@ export default function AuctionPage() {
               {error && realmList.length === 0 && <option value="">서버 로드 실패</option>}
               {realmList.map(r => (
                 <option key={r.realm_id} value={r.realm_id}>
-                  {r.realm_id} (경매 {r.count}개)
+                  {realmNameMap[r.realm_id] || r.realm_id} (경매 {r.count}개)
                 </option>
               ))}
             </select>

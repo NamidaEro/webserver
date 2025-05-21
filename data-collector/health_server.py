@@ -77,7 +77,7 @@ def update_realm_auction_cache(realm_id_int: int):
                 "$addFields": {
                     "item_name": {"$ifNull": ["$item_meta.name", {"$concat": ["아이템 #", {"$toString": "$item_id"}]}]},
                     "item_quality": {"$ifNull": ["$item_meta.quality", "common"]},
-                    "iconUrl": {"$ifNull": ["$item_meta.icon", None]}
+                    "icon_url": {"$ifNull": ["$item_meta.icon_url", None]}
                 }
             },
             {"$project": {"item_meta_docs": 0, "item_meta": 0}},

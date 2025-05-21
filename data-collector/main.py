@@ -106,7 +106,7 @@ def save_auctions_to_mongodb(realm_id, auctions_data_list, collection_time):
         items_to_insert.append(document)
 
     if not items_to_insert:
-        logger.info(f"Realm ID {realm_id}에 대해 MongoDB에 저장할 가공된 데이터가 없습니다.")
+        logger.info(f"Realm ID {realm_id}에 MongoDB에 저장할 가공된 데이터가 없습니다.")
         return
 
     try:
@@ -482,8 +482,7 @@ def save_item_metadata(item_id, item_details, item_media_details=None):
         'is_equippable': item_details.get('is_equippable'),
         'is_stackable': item_details.get('is_stackable'),
         'max_count': item_details.get('max_count'),
-        # 여기에 iconUrl 추가 (DB 필드명은 일관성 있게 icon_url 또는 iconUrl 중 하나로 통일)
-        'iconUrl': icon_url, # 프론트엔드에서 iconUrl을 사용하므로 동일하게 맞춤
+        'icon_url': icon_url, # 필드명을 iconUrl에서 icon_url로 변경
         'blizzard_item_details': item_details, # 원본 API 응답 보관 (선택적)
         'blizzard_item_media_details': item_media_details, # 원본 미디어 API 응답 보관 (선택적)
         'last_updated': datetime.utcnow().isoformat() + 'Z' # UTC 시간으로 마지막 업데이트 시간 기록

@@ -39,8 +39,8 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
     'text-gray-700';
   
   // iconUrl 사용 (백엔드에서 제공)
-  // AuctionItem 타입에 item_obj가 없으므로 iconDisplayUrl 간소화
-  const iconDisplayUrl = item.iconUrl;
+  // const iconDisplayUrl = item.iconUrl; // iconUrl -> icon_url
+  const iconDisplayUrl = item.icon_url;
 
   console.log('[AuctionItemRow] 렌더링 아이템:', { 
     itemId, 

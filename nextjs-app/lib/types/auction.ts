@@ -2,7 +2,7 @@ export interface AuctionItem {
   item_id: number;
   item_name: string;
   item_quality: string; // 예: "common", "uncommon", "rare", "epic", "legendary"
-  iconUrl: string | null;
+  icon_url: string | null;
   buyout: number; 
   id: string; // MongoDB _id 또는 blizzard_auction_id (실제로는 representative_auction의 _id 또는 blizzard_auction_id)
   quantity: number; 

@@ -39,7 +39,7 @@ export default function AuctionItemDetailModal({
   
   // 대표 가격 (buyout) 표시. 백엔드에서 이미 최저가 1개만 보내므로 해당 가격 사용
   const representativeBuyout = item.buyout || 0;
-  const iconUrl = item.iconUrl;
+  const 대표_아이콘_URL = item.icon_url || '기본_아이콘_경로_또는_처리';
 
   const handleBackdropClick = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target === e.currentTarget) {
@@ -94,9 +94,9 @@ export default function AuctionItemDetailModal({
             {/* 좌측: 아이콘 및 기본 정보 */}
             <div className="mr-0 md:mr-5 mb-5 md:mb-0 flex-shrink-0 w-full md:w-auto flex md:flex-col items-center md:items-start">
               <div className="mr-4 md:mr-0">
-                {iconUrl ? (
+                {대표_아이콘_URL ? (
                   <img 
-                    src={iconUrl} 
+                    src={대표_아이콘_URL} 
                     alt={itemName} 
                     className="w-20 h-20 rounded border-2 border-gray-600 object-cover"
                   />              

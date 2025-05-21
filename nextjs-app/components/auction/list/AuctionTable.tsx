@@ -16,7 +16,7 @@ const mockAuctionItems: AuctionItem[] = [
     id: 'mock-1', // 문자열로 변경
     item_id: 19019, // itemId -> item_id
     item_name: '천둥격노 - 바람추적자의 성검', // name -> item_name
-    iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_34.jpg',
+    icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_34.jpg',
     item_quality: 'legendary', // quality -> item_quality
     quantity: 1,
     buyout: 150000000, // buyoutPrice -> buyout
@@ -26,7 +26,7 @@ const mockAuctionItems: AuctionItem[] = [
     id: 'mock-2', // 문자열로 변경
     item_id: 17182, // itemId -> item_id
     item_name: '아지노스의 전투검 (주 장비)', // name -> item_name
-    iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_68.jpg',
+    icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_68.jpg',
     item_quality: 'legendary', // quality -> item_quality
     quantity: 1,
     buyout: 25000000, // buyoutPrice -> buyout
@@ -36,7 +36,7 @@ const mockAuctionItems: AuctionItem[] = [
     id: 'mock-3', // 문자열로 변경
     item_id: 32837, // itemId -> item_id
     item_name: '설퍼라스 - 꺼지지 않는 손길', // name -> item_name
-    iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_mace_34.jpg',
+    icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_mace_34.jpg',
     item_quality: 'epic', // quality -> item_quality
     quantity: 1,
     buyout: 5000000, // buyoutPrice -> buyout
@@ -46,7 +46,7 @@ const mockAuctionItems: AuctionItem[] = [
     id: 'mock-4', // 문자열로 변경
     item_id: 18582, // itemId -> item_id
     item_name: '아케이나이트 도끼', // name -> item_name
-    iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_axe_09.jpg',
+    icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_axe_09.jpg',
     item_quality: 'rare', // quality -> item_quality
     quantity: 5,
     buyout: 150000, // buyoutPrice -> buyout
@@ -56,7 +56,7 @@ const mockAuctionItems: AuctionItem[] = [
     id: 'mock-5', // 문자열로 변경
     item_id: 49623, // itemId -> item_id
     item_name: '왕의 M이다!', // name -> item_name
-    iconUrl: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_136.jpg',
+    icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_136.jpg',
     item_quality: 'uncommon', // quality -> item_quality
     quantity: 10,
     buyout: 12055, // buyoutPrice -> buyout

@@ -49,9 +49,9 @@ export default async function AuctionPage({ params }: AuctionPageProps) {
         {items.map((item) => (
           <Link key={item.id || item.item_id} href={`/auction/${realmId}/item/${item.item_id}`} legacyBehavior>
             <a className="border rounded-lg p-3 hover:shadow-lg transition-shadow bg-gray-800 text-white block">
-              {item.iconUrl && (
+              {item.icon_url && (
                 <img 
-                  src={item.iconUrl} 
+                  src={item.icon_url} 
                   alt={item.item_name} 
                   className="w-16 h-16 mx-auto mb-2 rounded border border-gray-600" 
                   onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}

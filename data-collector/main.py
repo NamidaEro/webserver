@@ -76,33 +76,29 @@ def save_auctions_to_mongodb(realm_id, auctions_data_list, collection_time):
         stats.increment('db_errors')
         return
 
-    if not auctions_data_list: # Blizzard API 응답의 auctions 리스트 직접 받도록 수정
+    if not auctions_data_list:
         logger.info(f"ID {realm_id}에 대한 경매 데이터가 없어 저장하지 않습니다.")
         return
 
-    # 발견된 모든 아이템 ID 기록 (나중에 메타데이터 조회용)
     unique_item_ids = set()
-    
     items_to_insert = []
-    for auction in auctions_data_list:
+    for auction in auctions_data_list: # auction은 API 응답의 개별 경매 아이템
         item_id_val = None
-        # Blizzard API 응답에서 item 객체 내의 id를 item_id로 사용
+        # API 응답의 item 객체 내의 id를 item_id로 사용
         if isinstance(auction.get('item'), dict) and 'id' in auction['item']:
             item_id_val = auction['item']['id']
-            # 발견된 아이템 ID 기록
             if item_id_val:
-                unique_item_ids.add(item_id_val)
+                unique_item_ids.add(item_id_val) # 메타데이터 처리용 ID 수집
         
         document = {
-            'blizzard_auction_id': auction.get('id'), # 블리자드 경매 ID
-            'item_id': item_id_val,
-            'item_obj': auction.get('item'), # 아이템 기본 정보 (API 응답 그대로)
-            'buyout': auction.get('buyout'),
+            'id': auction.get('id'), # API의 경매 ID
+            'item': auction.get('item'), # API의 item 객체 전체
             'quantity': auction.get('quantity'),
+            'unit_price': auction.get('unit_price'), # API의 unit_price (기존 buyout 대체)
             'time_left': auction.get('time_left'),
             'realm_id': realm_id, # int 또는 str 타입 그대로 저장
-            'collection_time': collection_time, # ISO 형식 문자열
-            # 'last_modified_timestamp': auction.get('last_modified_timestamp') # API 응답에 있다면 추가
+            'collection_time': collection_time, # 수집 시간
+            # 'item_id': item_id_val, # 최상위 레벨에 item_id를 중복 저장할 필요는 없음 (item 객체 내에 존재)
         }
         items_to_insert.append(document)
 

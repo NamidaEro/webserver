@@ -219,4 +219,54 @@ def get_item_media(token, item_id):
     except Exception as e:
         stats.increment('api_errors')
         logger.error(f"아이템 미디어 정보 조회 중 오류 발생: {str(e)}")
+        raise
+
+@timeit
+def get_commodities_auctions(token):
+    """상품 경매장 데이터 조회 (전체 게임 지역)"""
+    session = create_session()
+    
+    try:
+        stats.increment('api_calls')
+        
+        url = f'https://{BLIZZARD_REGION}.api.blizzard.com/data/wow/auctions/commodities'
+        params = {
+            'namespace': BLIZZARD_DYNAMIC_NAMESPACE,
+            'locale': BLIZZARD_LOCALE
+        }
+        headers = {
+            'Authorization': f'Bearer {token}'
+        }
+        
+        # API 호출 제한 고려 - 필요 시 대기
+        time.sleep(RATE_LIMIT_WAIT)
+        
+        logger.info(f"상품 경매장 데이터 조회 요청: {url}?namespace={BLIZZARD_DYNAMIC_NAMESPACE}&locale={BLIZZARD_LOCALE}")
+        response = session.get(url, params=params, headers=headers)
+        response.raise_for_status()
+        
+        data = response.json()
+        
+        # 결과 유효성 검증
+        if 'auctions' not in data:
+            logger.warning(f"상품 경매장 응답에 auctions 키가 없습니다.")
+            return {'auctions': []}
+            
+        # 통계 정보 업데이트
+        auctions_count = len(data.get('auctions', []))
+        stats.increment('items_processed', auctions_count)
+        logger.info(f"상품 경매장에서 {auctions_count}개 경매 항목 조회됨")
+        
+        return data
+        
+    except requests.exceptions.HTTPError as e:
+        stats.increment('api_errors')
+        if e.response.status_code == 404:
+            logger.warning(f"상품 경매장 데이터를 찾을 수 없습니다.")
+            return {'auctions': []}
+        logger.error(f"상품 경매장 데이터 조회 실패: {str(e)}")
+        raise
+    except Exception as e:
+        stats.increment('api_errors')
+        logger.error(f"상품 경매장 데이터 조회 중 오류 발생: {str(e)}")
         raise 

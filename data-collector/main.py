@@ -7,7 +7,7 @@ import sys
 from datetime import datetime, timedelta
 
 from logger_config import setup_logger, get_logger
-from blizzard_api import get_access_token, get_connected_realms, get_auctions, get_item_info, get_item_media
+from blizzard_api import get_access_token, get_connected_realms, get_auctions, get_item_info, get_item_media, get_commodities_auctions
 # from firebase_db import save_auctions_to_firestore, init_firestore, get_realms_with_data
 from monitoring import Timer, stats
 from health_server import health_server
@@ -22,6 +22,7 @@ MONGODB_URI = os.getenv("MONGODB_URI")
 MAX_REALMS = int(os.getenv('MAX_REALMS', '0'))  # 0은 모든 realm 처리
 COLLECTION_INTERVAL = int(os.getenv('COLLECTION_INTERVAL', '60'))  # 분 단위, 기본 60분(1시간)
 DATA_RETENTION_DAYS = int(os.getenv('DATA_RETENTION_DAYS', '7'))  # 데이터 보관 기간, 기본 7일
+BLIZZARD_REGION = os.getenv('BLIZZARD_REGION', 'kr') # 지역 코드
 
 # 종료 플래그
 shutdown_requested = False
@@ -76,7 +77,7 @@ def save_auctions_to_mongodb(realm_id, auctions_data_list, collection_time):
         return
 
     if not auctions_data_list: # Blizzard API 응답의 auctions 리스트 직접 받도록 수정
-        logger.info(f"Realm ID {realm_id}에 대한 경매 데이터가 없어 저장하지 않습니다.")
+        logger.info(f"ID {realm_id}에 대한 경매 데이터가 없어 저장하지 않습니다.")
         return
 
     # 발견된 모든 아이템 ID 기록 (나중에 메타데이터 조회용)
@@ -84,55 +85,55 @@ def save_auctions_to_mongodb(realm_id, auctions_data_list, collection_time):
     
     items_to_insert = []
     for auction in auctions_data_list:
-        item_id = None
+        item_id_val = None
         # Blizzard API 응답에서 item 객체 내의 id를 item_id로 사용
         if isinstance(auction.get('item'), dict) and 'id' in auction['item']:
-            item_id = auction['item']['id']
+            item_id_val = auction['item']['id']
             # 발견된 아이템 ID 기록
-            if item_id:
-                unique_item_ids.add(item_id)
+            if item_id_val:
+                unique_item_ids.add(item_id_val)
         
         document = {
             'blizzard_auction_id': auction.get('id'), # 블리자드 경매 ID
-            'item_id': item_id,
+            'item_id': item_id_val,
             'item_obj': auction.get('item'), # 아이템 기본 정보 (API 응답 그대로)
             'buyout': auction.get('buyout'),
             'quantity': auction.get('quantity'),
             'time_left': auction.get('time_left'),
-            'realm_id': int(realm_id), # 숫자형으로 저장
+            'realm_id': realm_id, # int 또는 str 타입 그대로 저장
             'collection_time': collection_time, # ISO 형식 문자열
             # 'last_modified_timestamp': auction.get('last_modified_timestamp') # API 응답에 있다면 추가
         }
         items_to_insert.append(document)
 
     if not items_to_insert:
-        logger.info(f"Realm ID {realm_id}에 MongoDB에 저장할 가공된 데이터가 없습니다.")
+        logger.info(f"ID {realm_id}에 MongoDB에 저장할 가공된 데이터가 없습니다.")
         return
 
     try:
-        with Timer(f"MongoDB 저장 (Realm ID: {realm_id})"):
+        with Timer(f"MongoDB 저장 (ID: {realm_id})"):
             # 1. 해당 realm_id의 기존 데이터 삭제
-            delete_result = auctions_collection.delete_many({'realm_id': int(realm_id)})
-            logger.info(f"Realm ID {realm_id}의 기존 경매 데이터 {delete_result.deleted_count}건 삭제 완료.")
+            delete_result = auctions_collection.delete_many({'realm_id': realm_id})
+            logger.info(f"ID {realm_id}의 기존 경매 데이터 {delete_result.deleted_count}건 삭제 완료.")
             stats.increment('db_operations')
 
             # 2. 새로운 데이터 삽입
             if items_to_insert: # 삽입할 아이템이 있을 경우에만 실행
                 insert_result = auctions_collection.insert_many(items_to_insert)
-                logger.info(f"Realm ID {realm_id}에 {len(insert_result.inserted_ids)}건의 경매 데이터 MongoDB 저장 완료.")
+                logger.info(f"ID {realm_id}에 {len(insert_result.inserted_ids)}건의 경매 데이터 MongoDB 저장 완료.")
                 stats.increment('db_operations', len(insert_result.inserted_ids))
                 # stats.increment('items_processed_db', len(items_to_insert)) # items_processed와 중복될 수 있어 일단 주석
             else:
-                logger.info(f"Realm ID {realm_id}에 MongoDB에 삽입할 최종 아이템이 없습니다.")
+                logger.info(f"ID {realm_id}에 MongoDB에 삽입할 최종 아이템이 없습니다.")
 
             # 3. 새로 발견된 아이템 ID에 대해 메타데이터 조회 필요 여부 확인 및 백그라운드 처리
             if unique_item_ids:
-                logger.info(f"Realm ID {realm_id}에서 총 {len(unique_item_ids)}개의 고유 아이템 ID가 발견되었습니다.")
+                logger.info(f"ID {realm_id}에서 총 {len(unique_item_ids)}개의 고유 아이템 ID가 발견되었습니다.")
                 # 여기서는 백그라운드에서 처리를 예약만 하고, 실제 처리는 다른 함수에서 수행
                 process_new_item_metadata(unique_item_ids)
                 
     except Exception as e:
-        logger.error(f"Realm ID {realm_id} 데이터 MongoDB 저장 중 오류 발생: {e}", exc_info=True)
+        logger.error(f"ID {realm_id} 데이터 MongoDB 저장 중 오류 발생: {e}", exc_info=True)
         stats.increment('db_errors')
 
 def update_item_details_in_db(item_id: int, item_details: dict):
@@ -271,69 +272,47 @@ def update_all_missing_item_info():
         stats.log_stats() # 작업 후 통계 로깅
 
 def collect_auction_data():
-    """Blizzard API에서 경매장 데이터를 수집하여 MongoDB에 저장"""
+    """전체 지역의 상품 경매 데이터를 수집합니다."""
     if shutdown_requested:
-        logger.info("종료 요청으로 데이터 수집 작업을 건너뜁니다.")
+        logger.info("종료 요청으로 상품 경매 데이터 수집을 건너뜁니다.")
         return
-    
+
+    logger.info("상품 경매 데이터 수집 시작...")
+    token = None
     try:
-        with Timer("전체 데이터 수집"):
-            logger.info("데이터 수집 시작")
-            
-            # Blizzard API 토큰 발급
+        with Timer("OAuth 토큰 발급"):
             token = get_access_token()
-            logger.info(f"API 토큰 발급 완료: {token[:10]}...")
-            
-            # Connected Realms 목록 조회
-            realms = get_connected_realms(token)
-            total_realms = len(realms)
-            logger.info(f"총 {total_realms}개 realm 발견")
-            
-            # 처리할 realm 수 제한 (필요 시)
-            if MAX_REALMS > 0 and MAX_REALMS < total_realms:
-                logger.info(f"환경 변수 설정으로 처리할 realm 수를 {MAX_REALMS}개로 제한합니다.")
-                realms = realms[:MAX_REALMS]
-            
-            # 모든 realm에 대해 경매 데이터 수집
-            for idx, realm in enumerate(realms):
-                if shutdown_requested:
-                    logger.info("종료 요청으로 데이터 수집을 중단합니다.")
-                    break
-                    
-                realm_url = realm['href']
-                connected_realm_id = realm_url.split('/')[-1].split('?')[0]
-                
-                try:
-                    with Timer(f"Realm {connected_realm_id} 데이터 수집"):
-                        logger.info(f"[{idx+1}/{len(realms)}] Realm ID {connected_realm_id} 데이터 수집 중...")
-                        
-                        # 경매 데이터 가져오기
-                        auctions_data = get_auctions(token, connected_realm_id)
-                        
-                        # 현재 timestamp 추가
-                        collection_time = datetime.now().isoformat()
-                        
-                        # MongoDB에 저장
-                        if auctions_data and 'auctions' in auctions_data:
-                            save_auctions_to_mongodb(connected_realm_id, auctions_data['auctions'], collection_time)
-                        else:
-                            logger.warning(f"Realm ID {connected_realm_id}에서 유효한 경매 데이터를 받지 못했습니다.")
-                        
-                        logger.info(f"Realm ID {connected_realm_id} 데이터 처리 완료")
-                except Exception as e:
-                    logger.error(f"Realm ID {connected_realm_id} 처리 중 오류 발생: {str(e)}")
-                    # 한 realm의 오류가 전체 프로세스를 중단시키지 않도록 계속 진행
-                    continue
-                
-                # API 호출 간격 (Blizzard API 제한 고려)
-                time.sleep(1)
-            
-            # 성능 통계 로깅
-            stats.log_stats()
-            logger.info("데이터 수집 완료")
-        
+        if not token:
+            logger.error("OAuth 토큰 발급에 실패하여 상품 경매 데이터 수집을 중단합니다.")
+            return
+        logger.info(f"OAuth 토큰 발급 성공 (상품 경매용): {token[:10]}...")
     except Exception as e:
-        logger.error(f"데이터 수집 중 오류 발생: {str(e)}", exc_info=True)
+        logger.error(f"OAuth 토큰 발급 중 오류 발생 (상품 경매용): {e}", exc_info=True)
+        return
+
+    try:
+        with Timer("상품 경매 데이터 API 호출"):
+            commodities_data = get_commodities_auctions(token) # blizzard_api.py의 함수 사용
+        
+        if commodities_data and 'auctions' in commodities_data:
+            auctions_list = commodities_data['auctions']
+            collection_time_iso = datetime.utcnow().isoformat()
+            
+            # 상품 데이터의 경우 특별한 realm_id 사용 (예: "commodities_kr")
+            commodities_identifier = f"commodities_{BLIZZARD_REGION}"
+            
+            logger.info(f"{commodities_identifier}에서 {len(auctions_list)}개의 상품 경매 데이터 수신.")
+            save_auctions_to_mongodb(commodities_identifier, auctions_list, collection_time_iso)
+            stats.increment('collections_completed_total')
+        else:
+            logger.warning("상품 경매 데이터를 가져오지 못했거나 데이터 형식이 올바르지 않습니다.")
+            stats.increment('collections_failed_total')
+
+    except Exception as e:
+        logger.error(f"상품 경매 데이터 수집 중 오류 발생: {e}", exc_info=True)
+        stats.increment('collections_failed_total')
+    finally:
+        logger.info("상품 경매 데이터 수집 완료.")
 
 def collect_realm_auction_data(realm_id):
     """특정 Realm에 대해 Blizzard API에서 경매장 데이터를 수집하여 MongoDB에 저장"""

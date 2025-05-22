@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 import time
 
 # blizzard_api에서 함수 import
-from blizzard_api import get_access_token, get_item_media # get_item_media 추가
+from blizzard_api import get_access_token, get_item_media, get_commodities_auctions # get_item_media 추가
 
 # collect_auction_data 함수 import (main.py에 있는 함수)
 # 순환 import 방지를 위해 함수 참조만 저장
@@ -124,26 +124,28 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
         path = parsed_path.path
         query_params = urllib.parse.parse_qs(parsed_path.query)
         
-        if path == '/health':
+        if path == '/health': # 헬스체크 엔드포인트
             self._handle_health_check()
-        elif path == '/metrics':
+        elif path == '/metrics': # 성능 지표 엔드포인트
             self._handle_metrics()
-        elif path == '/collect':
+        elif path == '/collect': # 데이터 수집 엔드포인트
             self._handle_collect(query_params)
-        elif path == '/db-status':
+        elif path == '/db-status': # MongoDB 상태 엔드포인트
             self._handle_db_status()
-        elif path == '/auctions':
+        elif path == '/auctions': # 모든 경매 데이터 엔드포인트
             self._handle_auctions(query_params)
-        elif path == '/auctions-by-itemid':
+        elif path == '/auctions-by-itemid': # 특정 아이템 ID의 경매 데이터 엔드포인트
             self._handle_auctions_by_itemid(query_params)
-        elif path == '/realms':
+        elif path == '/realms': # 모든 렐름 목록 엔드포인트
             self._handle_realms()
-        elif path == '/item-update':
+        elif path == '/item-update': # 아이템 정보 업데이트 엔드포인트
             self._handle_item_update(query_params)
-        elif path == '/item-metadata':
+        elif path == '/item-metadata': # 아이템 메타데이터 엔드포인트
             self._handle_item_metadata(query_params)
         elif path == '/item-media': # 새로운 엔드포인트 추가
             self._handle_item_media(query_params)
+        elif path == '/commodities': # 상품 경매 API 엔드포인트
+            self._handle_commodities_auctions()
         else:
             self._set_headers(404)
             response = {'error': 'Not Found', 'message': 'The requested resource was not found.'}
@@ -564,7 +566,7 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self.wfile.write(json.dumps(response).encode())
     
     def _handle_auctions_by_itemid(self, query_params):
-        """특정 item_id에 해당하는 모든 경매 정보를 buyout 가격 오름차순으로 반환"""
+        """특정 item ID에 대한 모든 서버의 경매 정보 조회"""
         global auctions_collection, logger # item_metadata_collection은 여기서는 직접 사용 안 함 (필요시 추가)
 
         if auctions_collection is None:
@@ -627,6 +629,26 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             response = {'status': 'error', 'message': str(e)}
             self.wfile.write(json.dumps(response).encode())
     
+    def _handle_commodities_auctions(self):
+        """Blizzard 상품 경매 API 호출 및 결과 반환"""
+        try:
+            token = get_access_token()
+            if not token:
+                self._set_headers(500)
+                response = {'error': 'Failed to get access token'}
+                self.wfile.write(json.dumps(response).encode())
+                return
+
+            commodities_data = get_commodities_auctions(token)
+            self._set_headers()
+            self.wfile.write(json.dumps(commodities_data).encode())
+            
+        except Exception as e:
+            logger.error(f"Error handling /wow/auctions/commodities: {e}", exc_info=True)
+            self._set_headers(500)
+            response = {'error': 'Internal Server Error', 'message': str(e)}
+            self.wfile.write(json.dumps(response).encode())
+    
     def log_message(self, format, *args):
         """로깅 처리 오버라이드"""
         logger.debug(f"HTTP 요청: {self.address_string()} - {format % args}")
@@ -667,6 +689,8 @@ class HealthServer:
             logger.error(f"헬스체크 서버 실행 중 오류 발생: {str(e)}")
         finally:
             self.is_running = False
+            logger.info(f"Server {self.server_address} is shutting down.")
+            self.server.shutdown()
     
     def stop(self):
         """서버 종료"""

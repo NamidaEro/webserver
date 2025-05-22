@@ -23,7 +23,7 @@ export interface Auction {
   auction_id: number;
   item_id: number;
   bid: number;
-  buyout: number;
+  unit_price: number;
   quantity: number;
   time_left: string;
   collection_time: string;
@@ -78,7 +78,7 @@ export async function getAuctionsByRealm(
   realmId: string,
   pageSize: number = 20,
   lastDoc: QueryDocumentSnapshot | null = null,
-  sortField: string = 'buyout',
+  sortField: string = 'unit_price',
   sortDirection: 'asc' | 'desc' = 'asc',
   filterItemName?: string
 ): Promise<AuctionPaginationResult> {

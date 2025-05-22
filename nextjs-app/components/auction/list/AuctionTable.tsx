@@ -20,7 +20,7 @@ const mockAuctionItems: AuctionItem[] = [
     icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_34.jpg',
     item_quality: 'legendary', // quality -> item_quality
     quantity: 1,
-    buyout: 150000000, // buyoutPrice -> buyout
+    unit_price: 150000000, // buyoutPrice -> buyout
     // level, timeLeft는 AuctionItem 타입에 없음 - 제거
   },
   {
@@ -30,7 +30,7 @@ const mockAuctionItems: AuctionItem[] = [
     icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_68.jpg',
     item_quality: 'legendary', // quality -> item_quality
     quantity: 1,
-    buyout: 25000000, // buyoutPrice -> buyout
+    unit_price: 25000000, // buyoutPrice -> buyout
     // level, timeLeft는 AuctionItem 타입에 없음 - 제거
   },
   {
@@ -40,7 +40,7 @@ const mockAuctionItems: AuctionItem[] = [
     icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_mace_34.jpg',
     item_quality: 'epic', // quality -> item_quality
     quantity: 1,
-    buyout: 5000000, // buyoutPrice -> buyout
+    unit_price: 5000000, // buyoutPrice -> buyout
     // level, timeLeft는 AuctionItem 타입에 없음 - 제거
   },
   {
@@ -50,7 +50,7 @@ const mockAuctionItems: AuctionItem[] = [
     icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_axe_09.jpg',
     item_quality: 'rare', // quality -> item_quality
     quantity: 5,
-    buyout: 150000, // buyoutPrice -> buyout
+    unit_price: 150000, // buyoutPrice -> buyout
     // level, timeLeft는 AuctionItem 타입에 없음 - 제거
   },
   {
@@ -60,7 +60,7 @@ const mockAuctionItems: AuctionItem[] = [
     icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_136.jpg',
     item_quality: 'uncommon', // quality -> item_quality
     quantity: 10,
-    buyout: 12055, // buyoutPrice -> buyout
+    unit_price: 12055, // buyoutPrice -> buyout
     // level, timeLeft는 AuctionItem 타입에 없음 - 제거
   },
 ];

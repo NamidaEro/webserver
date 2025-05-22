@@ -22,9 +22,12 @@ export async function GET(
   // 여기서는 Next.js의 기본 동작을 신뢰하고 제거합니다.
 
   try {
+    // 기본 렐름 ID 처리 추가 - 숫자 대신 문자열 ID(commodities_kr)로 설정
+    const effectiveRealmId = realmId || 'commodities_kr';
+    
     // limit, page 파라미터는 현재 백엔드 요청에는 포함하지 않습니다.
     // 만약 백엔드에서 해당 파라미터를 지원한다면 여기에 추가해야 합니다.
-    const backendApiUrl = `${BACKEND_URL}/auctions?realm_id=${realmId}`;
+    const backendApiUrl = `${BACKEND_URL}/auctions?realm_id=${effectiveRealmId}`;
     console.log('[API] 경매 데이터 요청 중:', backendApiUrl);
 
     const response = await fetch(backendApiUrl, {

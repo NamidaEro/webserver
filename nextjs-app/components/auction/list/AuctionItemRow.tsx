@@ -10,8 +10,8 @@ interface AuctionItemRowProps {
 
 // 아이템 등급별 텍스트 색상 (Tailwind CSS 클래스)
 const qualityColorClasses: { [key: string]: string } = {
-  poor: 'text-gray-400',
-  common: 'text-white', // 기본 흰색 또는 상황에 맞게
+  poor: 'text-gray-500',
+  common: 'text-black', // 기본 흰색 또는 상황에 맞게
   uncommon: 'text-green-500',
   rare: 'text-blue-500',
   epic: 'text-purple-500',
@@ -23,7 +23,7 @@ const qualityColorClasses: { [key: string]: string } = {
 export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowProps) {
   // API 데이터 구조와 일치하도록 매핑
   const itemId = item.item_id; // item.itemId 대신 item.item_id 사용
-  const buyoutPrice = item.buyout; // item.buyoutPrice 대신 item.buyout 사용 (AuctionItem 타입 기준)
+  const unit_price = item.unit_price; // item.buyoutPrice 대신 item.buyout 사용 (AuctionItem 타입 기준)
   
   // 아이템 이름 추출 - 우선순위: item_name -> 아이템 ID 사용
   // AuctionItem 타입에 name, item_obj가 없으므로 관련 로직 간소화
@@ -44,7 +44,7 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
 
   console.log('[AuctionItemRow] 렌더링 아이템:', { 
     itemId, 
-    buyoutPrice, 
+    unit_price, 
     name: itemName,
     api_item_name: item.item_name, // API에서 제공한 이름 로그
     // item_obj: item.item_obj // AuctionItem 타입에 없음
@@ -72,7 +72,7 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
       <td className="py-3 px-4 text-center whitespace-nowrap text-sm text-gray-600">{item.level || item.item_level || '-'}</td>
       */}
       <td className="py-3 px-4 text-right whitespace-nowrap">
-        <CurrencyDisplay totalCopper={buyoutPrice || 0} />
+        <CurrencyDisplay totalCopper={unit_price || 0} />
       </td>
       {/* AuctionItem 타입에 timeLeft, time_left 없음 - 제거
       <td className="py-3 px-4 text-center whitespace-nowrap text-sm text-gray-600">{item.timeLeft || item.time_left || '-'}</td> 

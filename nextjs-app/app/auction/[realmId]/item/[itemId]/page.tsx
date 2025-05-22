@@ -87,13 +87,13 @@ export default async function ItemDetailPage({ params }: ItemDetailPageProps) {
               
               <div className="mt-3">
                 <p className="text-sm text-gray-400">개당 가격: <span className="text-yellow-400">
-                  {auctions.length > 0 && auctions[0].buyout && auctions[0].quantity ? 
-                    (auctions[0].buyout / auctions[0].quantity / 10000).toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2}) + " G"
+                  {auctions.length > 0 && auctions[0].unit_price && auctions[0].quantity ? 
+                    (auctions[0].unit_price / auctions[0].quantity / 10000).toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2}) + " G"
                     : "N/A"}
                   </span></p>
                 <p className="text-sm text-gray-400">총 가격: <span className="text-yellow-400">
-                  {auctions.length > 0 && auctions[0].buyout ? 
-                    (auctions[0].buyout / 10000).toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2}) + " G"
+                  {auctions.length > 0 && auctions[0].unit_price ? 
+                    (auctions[0].unit_price / 10000).toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2}) + " G"
                     : "N/A"}
                   </span> (수량 1개 기준, 첫 매물 기준)</p>
               </div>
@@ -114,8 +114,8 @@ export default async function ItemDetailPage({ params }: ItemDetailPageProps) {
                     </div>
                     <div>
                       <p className="text-sm">개당 가격: <span className="font-medium text-yellow-400">
-                        {auc.buyout && auc.quantity ? 
-                         (auc.buyout / auc.quantity / 10000).toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2}) + " G" 
+                        {auc.unit_price && auc.quantity ? 
+                         (auc.unit_price / auc.quantity / 10000).toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2}) + " G" 
                          : "N/A" }
                         </span></p>
                     </div>

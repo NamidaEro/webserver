@@ -44,18 +44,24 @@ if MONGODB_URI:
 g_auction_data_cache = {}
 CACHE_TTL_SECONDS = 3000  # 캐시 유효 시간 (예: 5분)
 
-def update_realm_auction_cache(realm_id_int: int):
-    """특정 realm의 경매 데이터를 DB에서 읽어와 캐시를 업데이트합니다."""
+def update_auction_data_cache(entity_id: str | int):
+    """특정 엔티티(realm 또는 commodities)의 경매 데이터를 DB에서 읽어와 캐시를 업데이트합니다."""
     global g_auction_data_cache, auctions_collection, item_metadata_collection, logger
-    logger.info(f"[{realm_id_int}] 캐시 업데이트 시작...")
+    logger.info(f"[{entity_id}] 캐시 업데이트 시작...")
     try:
-        # 전체 데이터를 가져오기 위한 Aggregation Pipeline (페이지네이션 없음)
+        # 상품 데이터인지 일반 realm 데이터인지에 따라 필드명 및 매치 조건 조정 가능성 있었으나,
+        # 현재 DB 저장 시 unit_price로 통일되었으므로 match 조건은 realm_id만 사용.
+        # realm_id 필드는 숫자(서버 ID) 또는 문자열("commodities_xx")일 수 있음.
+        match_query = {"realm_id": entity_id, "unit_price": {"$exists": True, "$ne": None, "$gt": 0}}
+        
+        # item 객체 내의 id 필드를 item_id로 사용하고, 해당 item_id로 그룹화합니다.
+        # unit_price를 사용 (buyout 대신)
         pipeline = [
-            {"$match": {"realm_id": realm_id_int, "buyout": {"$exists": True, "$ne": None, "$gt": 0}}},
-            {"$sort": {"item_id": 1, "buyout": 1, "collection_time": -1}},
+            {"$match": match_query},
+            {"$sort": {"item.id": 1, "unit_price": 1, "collection_time": -1}},
             {
                 "$group": {
-                    "_id": "$item_id",
+                    "_id": "$item.id", # item 객체 내의 id로 그룹화
                     "representative_auction": {"$first": "$$ROOT"}
                 }
             },
@@ -63,7 +69,7 @@ def update_realm_auction_cache(realm_id_int: int):
             {
                 "$lookup": {
                     "from": item_metadata_collection.name if item_metadata_collection is not None else "item_metadata",
-                    "localField": "item_id",
+                    "localField": "item.id", # item 객체 내의 id를 사용
                     "foreignField": "item_id",
                     "as": "item_meta_docs"
                 }
@@ -75,38 +81,32 @@ def update_realm_auction_cache(realm_id_int: int):
             },
             {
                 "$addFields": {
-                    "item_name": {"$ifNull": ["$item_meta.name", {"$concat": ["아이템 #", {"$toString": "$item_id"}]}]},
+                    # item 객체 내의 id를 문자열로 변환하여 아이템 이름 생성에 사용
+                    "item_name": {"$ifNull": ["$item_meta.name", {"$concat": ["아이템 #", {"$toString": "$item.id"}]}]},
                     "item_quality": {"$ifNull": ["$item_meta.quality", "common"]},
                     "icon_url": {"$ifNull": ["$item_meta.icon_url", None]}
                 }
             },
             {"$project": {"item_meta_docs": 0, "item_meta": 0}},
-            {"$sort": {"item_name": 1}} # 최종적으로 아이템 이름으로 정렬된 전체 목록
+            {"$sort": {"item_name": 1}}
         ]
         
         all_auctions = list(auctions_collection.aggregate(pipeline))
+        # ObjectId를 문자열로 변환하는 로직은 유지 (JSON 직렬화 위함)
         for doc in all_auctions:
-            if '_id' in doc and not isinstance(doc['_id'], str):
-                 # _id가 ObjectId인 경우 문자열로 변환 (혹시 $group의 _id가 item_id가 아닌 다른 것이 될 경우 대비)
-                 # 현재는 item_id로 그룹핑하므로 대부분 숫자일 것이나, 안전장치
-                if not isinstance(doc['_id'], (int, float)):
-                    doc['_id'] = str(doc['_id'])
-            # representative_auction을 풀었으므로, 실제 MongoDB _id는 doc안에 blizzard_auction_id 등으로 있음
-            # JSON 직렬화를 위해 ObjectId가 있다면 변환 필요. 여기서는 $replaceRoot를 써서 auction 문서 자체가 나옴.
-            # auction 문서 내의 _id (blizzard_auction_id가 아님)가 ObjectId일 수 있으므로 변환.
-            if 'blizzard_auction_id' in doc: # 대표 경매의 실제 _id는 blizzard_auction_id일 수도, 그냥 _id일 수도 있음
-                pass # $replaceRoot로 인해 원본 문서의 _id가 사용될 수 있음
+            if '_id' in doc and not isinstance(doc['_id'], (str, int, float)):
+                doc['_id'] = str(doc['_id'])
 
         current_time = datetime.now()
-        g_auction_data_cache[realm_id_int] = {
+        g_auction_data_cache[entity_id] = {
             "data": all_auctions,
             "total_count": len(all_auctions),
             "last_updated": current_time
         }
-        logger.info(f"[{realm_id_int}] 캐시 업데이트 완료. 총 {len(all_auctions)}개 아이템 캐시됨.")
-        return g_auction_data_cache[realm_id_int]
+        logger.info(f"[{entity_id}] 캐시 업데이트 완료. 총 {len(all_auctions)}개 아이템 캐시됨.")
+        return g_auction_data_cache[entity_id]
     except Exception as e:
-        logger.error(f"[{realm_id_int}] 캐시 업데이트 중 오류: {e}", exc_info=True)
+        logger.error(f"[{entity_id}] 캐시 업데이트 중 오류: {e}", exc_info=True)
         return None
 
 class HealthRequestHandler(BaseHTTPRequestHandler):
@@ -372,7 +372,7 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             logger.error(f"Realm {realm_id}의 수동 데이터 수집 중 오류 발생: {str(e)}")
     
     def _handle_auctions(self, query_params):
-        """realm_id, limit, page 파라미터로 경매 데이터 조회"""
+        """realm_id 또는 commodities_id로 경매 데이터 조회 (캐시 활용)"""
         global db, auctions_collection, item_metadata_collection, g_auction_data_cache, CACHE_TTL_SECONDS, logger
         if auctions_collection is None:
             self._set_headers(503)
@@ -380,64 +380,64 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self.wfile.write(json.dumps(response).encode())
             return
 
-        realm_id_str = query_params.get('realm_id', [None])[0]
-        # limit = int(query_params.get('limit', [20])[0]) # limit 파라미터 제거
-        # page = int(query_params.get('page', [1])[0])   # page 파라미터 제거
+        entity_id_str = query_params.get('realm_id', [None])[0] # 파라미터 이름은 realm_id 유지
         
-        if not realm_id_str:
+        if not entity_id_str:
             self._set_headers(400)
             response = {'status': 'error', 'message': 'realm_id 파라미터가 필요합니다.'}
             self.wfile.write(json.dumps(response).encode())
             return
-        try:
-            realm_id = int(realm_id_str)
-        except ValueError:
-            self._set_headers(400)
-            response = {'status': 'error', 'message': 'realm_id는 정수여야 합니다.'}
-            self.wfile.write(json.dumps(response).encode())
-            return
+        
+        entity_id: str | int
+        if entity_id_str.startswith("commodities_"):
+            entity_id = entity_id_str
+            logger.info(f"상품 데이터 요청: {entity_id}")
+        else:
+            try:
+                entity_id = int(entity_id_str)
+                logger.info(f"Realm 데이터 요청: {entity_id}")
+            except ValueError:
+                self._set_headers(400)
+                response = {'status': 'error', 'message': 'realm_id는 정수이거나 \'commodities_REGION\' 형식이어야 합니다.'}
+                self.wfile.write(json.dumps(response).encode())
+                return
 
         try:
-            cached_realm_data = g_auction_data_cache.get(realm_id)
+            cached_entity_data = g_auction_data_cache.get(entity_id)
             current_time = datetime.now()
-            cache_status_msg = 'no_cache_yet' # 캐시 상태 메시지 초기화
+            cache_status_msg = 'no_cache_yet'
             
-            if cached_realm_data and \
-               (current_time - cached_realm_data['last_updated']).total_seconds() < CACHE_TTL_SECONDS:
-                logger.info(f"[{realm_id}] 캐시 사용. 마지막 업데이트: {cached_realm_data['last_updated']}")
-                all_items = cached_realm_data['data']
-                total_items_count = cached_realm_data['total_count']
+            if cached_entity_data and \
+               (current_time - cached_entity_data['last_updated']).total_seconds() < CACHE_TTL_SECONDS:
+                logger.info(f"[{entity_id}] 캐시 사용. 마지막 업데이트: {cached_entity_data['last_updated']}")
+                all_items = cached_entity_data['data']
+                total_items_count = cached_entity_data['total_count']
                 cache_status_msg = 'used'
             else:
-                logger.info(f"[{realm_id}] 캐시 없거나 만료됨. DB에서 새로 빌드.")
-                cache_result = update_realm_auction_cache(realm_id)
+                logger.info(f"[{entity_id}] 캐시 없거나 만료됨. DB에서 새로 빌드.")
+                cache_result = update_auction_data_cache(entity_id) # 수정된 캐시 함수 호출
                 if cache_result:
                     all_items = cache_result['data']
                     total_items_count = cache_result['total_count']
                     cache_status_msg = 'updated'
-                else: # 캐시 빌드 실패
+                else:
                     self._set_headers(500)
-                    response = {'status': 'error', 'message': f'Realm {realm_id} 데이터 처리 중 오류 발생'}
+                    response = {'status': 'error', 'message': f'ID {entity_id} 데이터 처리 중 오류 발생'}
                     self.wfile.write(json.dumps(response).encode())
                     return
-            
-            # 페이지네이션 로직 제거 - 전체 데이터 반환
-            # skip = (page - 1) * limit
-            # paginated_auctions = all_items[skip : skip + limit]
             
             self._set_headers()
             response = {
                 'status': 'ok',
-                'total_count': total_items_count, # 전체 아이템 수
-                # 'page': page, # page 정보 제거
-                # 'limit': limit, # limit 정보 제거
-                'auctions': all_items, # 전체 아이템 목록 반환
+                'entity_id': entity_id, # 조회한 ID 명시
+                'total_count': total_items_count,
+                'auctions': all_items,
                 'cache_status': cache_status_msg
             }
             self.wfile.write(json.dumps(response, default=str).encode())
 
         except Exception as e:
-            logger.error(f"/auctions API 오류 ({realm_id}): {e}", exc_info=True)
+            logger.error(f"/auctions API 오류 (ID: {entity_id}): {e}", exc_info=True)
             self._set_headers(500)
             response = {'status': 'error', 'message': str(e)}
             self.wfile.write(json.dumps(response).encode())

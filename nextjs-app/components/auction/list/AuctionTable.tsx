@@ -12,58 +12,7 @@ interface AuctionTableProps {
 }
 
 // 임시 Mock 데이터 - AuctionItem 타입에 맞게 수정
-const mockAuctionItems: AuctionItem[] = [
-  {
-    id: 'mock-1', // 문자열로 변경
-    item_id: 19019, // itemId -> item_id
-    item_name: '천둥격노 - 바람추적자의 성검', // name -> item_name
-    icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_34.jpg',
-    item_quality: 'legendary', // quality -> item_quality
-    quantity: 1,
-    unit_price: 150000000, // buyoutPrice -> buyout
-    // level, timeLeft는 AuctionItem 타입에 없음 - 제거
-  },
-  {
-    id: 'mock-2', // 문자열로 변경
-    item_id: 17182, // itemId -> item_id
-    item_name: '아지노스의 전투검 (주 장비)', // name -> item_name
-    icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_68.jpg',
-    item_quality: 'legendary', // quality -> item_quality
-    quantity: 1,
-    unit_price: 25000000, // buyoutPrice -> buyout
-    // level, timeLeft는 AuctionItem 타입에 없음 - 제거
-  },
-  {
-    id: 'mock-3', // 문자열로 변경
-    item_id: 32837, // itemId -> item_id
-    item_name: '설퍼라스 - 꺼지지 않는 손길', // name -> item_name
-    icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_mace_34.jpg',
-    item_quality: 'epic', // quality -> item_quality
-    quantity: 1,
-    unit_price: 5000000, // buyoutPrice -> buyout
-    // level, timeLeft는 AuctionItem 타입에 없음 - 제거
-  },
-  {
-    id: 'mock-4', // 문자열로 변경
-    item_id: 18582, // itemId -> item_id
-    item_name: '아케이나이트 도끼', // name -> item_name
-    icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_axe_09.jpg',
-    item_quality: 'rare', // quality -> item_quality
-    quantity: 5,
-    unit_price: 150000, // buyoutPrice -> buyout
-    // level, timeLeft는 AuctionItem 타입에 없음 - 제거
-  },
-  {
-    id: 'mock-5', // 문자열로 변경
-    item_id: 49623, // itemId -> item_id
-    item_name: '왕의 M이다!', // name -> item_name
-    icon_url: 'https://wow.zamimg.com/images/wow/icons/large/inv_sword_136.jpg',
-    item_quality: 'uncommon', // quality -> item_quality
-    quantity: 10,
-    unit_price: 12055, // buyoutPrice -> buyout
-    // level, timeLeft는 AuctionItem 타입에 없음 - 제거
-  },
-];
+const mockAuctionItems: AuctionItem[] = [];
 
 export default function AuctionTable({ items = mockAuctionItems, onItemSelect }: AuctionTableProps) {
   const [selectedItem, setSelectedItem] = useState<AuctionItem | null>(null);

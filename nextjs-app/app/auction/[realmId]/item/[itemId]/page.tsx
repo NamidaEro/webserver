@@ -64,7 +64,7 @@ export default async function ItemDetailPage({ params }: ItemDetailPageProps) {
 
   const auctions = itemAuctionsData.auctions;
   const itemName = itemMetadata?.name || `아이템 #${itemId}`;
-  const itemIcon = itemMetadata?.icon; //  메타데이터의 아이콘을 우선 사용
+  const itemIcon = itemMetadata?.icon_url; //  메타데이터의 아이콘을 우선 사용
   const itemQuality = itemMetadata?.quality || 'common';
 
   return (

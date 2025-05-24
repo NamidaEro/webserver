@@ -124,6 +124,15 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
         path = parsed_path.path
         query_params = urllib.parse.parse_qs(parsed_path.query)
         
+        # /auctions/{realmId} 패턴 매칭
+        auctions_path_match = path.startswith('/auctions/')
+        if auctions_path_match:
+            realm_id = path.split('/auctions/')[1]
+            # query_params에 realm_id 추가
+            query_params['realm_id'] = [realm_id]
+            self._handle_auctions(query_params)
+            return
+        
         if path == '/health': # 헬스체크 엔드포인트
             self._handle_health_check()
         elif path == '/metrics': # 성능 지표 엔드포인트
@@ -132,8 +141,6 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             self._handle_collect(query_params)
         elif path == '/db-status': # MongoDB 상태 엔드포인트
             self._handle_db_status()
-        elif path == '/auctions': # 모든 경매 데이터 엔드포인트
-            self._handle_auctions(query_params)
         elif path == '/auctions-by-itemid': # 특정 아이템 ID의 경매 데이터 엔드포인트
             self._handle_auctions_by_itemid(query_params)
         elif path == '/realms': # 모든 렐름 목록 엔드포인트
@@ -381,6 +388,8 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
             return
 
         entity_id_str = query_params.get('realm_id', [None])[0] # 파라미터 이름은 realm_id 유지
+        item_name = query_params.get('itemName', [None])[0]  # 아이템 이름 파라미터
+        item_id = query_params.get('itemId', [None])[0]  # 아이템 ID 파라미터
         
         if not entity_id_str:
             self._set_headers(400)
@@ -426,13 +435,31 @@ class HealthRequestHandler(BaseHTTPRequestHandler):
                     self.wfile.write(json.dumps(response).encode())
                     return
             
+            # 아이템 이름과 ID로 필터링
+            filtered_items = all_items
+            if item_name:
+                filtered_items = [item for item in filtered_items 
+                                if item.get('item_name', '').lower().find(item_name.lower()) != -1]
+            if item_id:
+                try:
+                    item_id_int = int(item_id)
+                    filtered_items = [item for item in filtered_items 
+                                    if item.get('item', {}).get('id') == item_id_int]
+                except ValueError:
+                    logger.warning(f"잘못된 item_id 형식: {item_id}")
+                    # 잘못된 item_id는 무시하고 진행
+            
             self._set_headers()
             response = {
                 'status': 'ok',
                 'entity_id': entity_id, # 조회한 ID 명시
-                'total_count': total_items_count,
-                'auctions': all_items,
-                'cache_status': cache_status_msg
+                'total_count': len(filtered_items),  # 필터링된 아이템 수로 변경
+                'auctions': filtered_items,
+                'cache_status': cache_status_msg,
+                'filters': {
+                    'itemName': item_name,
+                    'itemId': item_id
+                }
             }
             self.wfile.write(json.dumps(response, default=str).encode())
 

@@ -137,9 +137,9 @@ export default function AuctionItemDetailModal({
                 <p className="text-gray-300 text-sm mb-1">
                   아이템 ID: {item.item_id || '알 수 없음'}
                 </p>
-                {item.blizzard_id && (
+                {item.item_id && (
                   <p className="text-gray-400 text-xs">
-                    Blizzard ID: {item.blizzard_id}
+                    Blizzard ID: {item.item_id}
                   </p>
                 )}
               </div>

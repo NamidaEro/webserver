@@ -1,7 +1,7 @@
-import { MongoClient } from 'mongodb';
+import { MongoClient, Db } from 'mongodb';
 
 if (!process.env.MONGODB_URI) {
-  throw new Error('MONGODB_URI 환경 변수가 설정되지 않았습니다.');
+  throw new Error('MONGODB_URI is not defined');
 }
 
 const uri = process.env.MONGODB_URI;
@@ -27,10 +27,15 @@ if (process.env.NODE_ENV === 'development') {
   clientPromise = client.connect();
 }
 
-export async function connectToDatabase() {
+export interface DatabaseConnection {
+  client: MongoClient;
+  db: Db;
+}
+
+export async function connectToDatabase(): Promise<DatabaseConnection> {
   const client = await clientPromise;
   const db = client.db(process.env.MONGODB_DB || 'wow_auction');
-  return db;
+  return { client, db };
 }
 
 export default clientPromise; 

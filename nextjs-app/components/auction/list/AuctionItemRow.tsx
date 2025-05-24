@@ -11,7 +11,7 @@ interface AuctionItemRowProps {
 // 아이템 등급별 텍스트 색상 (Tailwind CSS 클래스)
 const qualityColorClasses: { [key: string]: string } = {
   poor: 'text-gray-500',
-  common: 'text-black', // 기본 흰색 또는 상황에 맞게
+  common: 'text-white',
   uncommon: 'text-green-500',
   rare: 'text-blue-500',
   epic: 'text-purple-500',
@@ -35,8 +35,8 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
   
   // quality가 없는 경우 기본값
   const qualityClass = quality ? 
-    qualityColorClasses[quality.toLowerCase()] || 'text-gray-700' : 
-    'text-gray-700';
+    qualityColorClasses[quality.toLowerCase()] || 'text-white' : 
+    'text-white';
   
   // iconUrl 사용 (백엔드에서 제공)
   // const iconDisplayUrl = item.iconUrl; // iconUrl -> icon_url
@@ -68,12 +68,15 @@ export default function AuctionItemRow({ item, onItemSelect }: AuctionItemRowPro
           <span className={`font-medium ${qualityClass}`}>{itemName}</span>
         </div>
       </td>
-      {/* AuctionItem 타입에 level, item_level 없음 - 제거 
-      <td className="py-3 px-4 text-center whitespace-nowrap text-sm text-gray-600">{item.level || item.item_level || '-'}</td>
-      */}
+      <td className="py-3 px-4 text-right whitespace-nowrap text-sm text-gray-600">
+        {item.quantity}
+      </td>
       <td className="py-3 px-4 text-right whitespace-nowrap">
         <CurrencyDisplay totalCopper={unit_price || 0} />
       </td>
+      {/* AuctionItem 타입에 level, item_level 없음 - 제거 
+      <td className="py-3 px-4 text-center whitespace-nowrap text-sm text-gray-600">{item.level || item.item_level || '-'}</td>
+      */}
       {/* AuctionItem 타입에 timeLeft, time_left 없음 - 제거
       <td className="py-3 px-4 text-center whitespace-nowrap text-sm text-gray-600">{item.timeLeft || item.time_left || '-'}</td> 
       */}

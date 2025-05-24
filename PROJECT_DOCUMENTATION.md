@@ -86,6 +86,17 @@ interface AuctionItem {
   quantity: number;
   time_left: string;
   realm_id: string;
+  item_class: string;
+  item_subclass: string;
+}
+
+interface ItemClass {
+  id: number;
+  name: string;
+  subclasses: Array<{
+    id: number;
+    name: string;
+  }>;
 }
 
 interface RealmInfo {
@@ -100,6 +111,7 @@ interface RealmInfo {
 - `/api/auctions/[realmId]`: 서버별 경매 데이터
 - `/api/auctions-by-item`: 아이템별 경매 데이터
 - `/api/realms`: 서버 목록
+- `/api/item-classes`: 아이템 클래스 목록
 - `/health`: 시스템 상태 체크
 
 ## 5. 주요 기능 구현 상태
@@ -109,12 +121,14 @@ interface RealmInfo {
 - [x] 실시간 데이터 동기화
 - [x] 경매장 UI 기본 기능
 - [x] 아이템 검색 및 필터링
+- [x] 아이템 클래스 시스템
 
 ### 5.2 진행 중
 - [ ] 가격 트렌드 분석
 - [ ] 고급 검색 필터
 - [ ] 사용자 알림 시스템
 - [ ] 성능 최적화
+- [ ] 아이템 클래스 기반 필터링 개선
 
 ## 6. 배포 및 운영 가이드
 

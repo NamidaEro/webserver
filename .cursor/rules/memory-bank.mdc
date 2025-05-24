@@ -1,15 +1,21 @@
 ---
 description: 
 globs: 
-alwaysApply: false
+alwaysApply: true
 ---
-1. 새로운 작업하기 전에 확인해야하는 파일
+1. 작업전 프로젝트 아키텍쳐 및 요구사항과 todo 확인 후 답변.
+- PROJECT_ARCHITECTURE.md
+- PROJECT_DOCUMENTATION.md
+- PROJECT_OVERVIEW.md
+- PROJECT_REQUIREMENTS.md
+- todo.md
+
+2. 작업 시작하기전 todo 에 할 일 기입.
+
+3. 작업 후 변동사항 문서 업데이트
+- PROJECT_ARCHITECTURE.md
 - PROJECT_DOCUMENTATION.md
 - PROJECT_OVERVIEW.md
 - PROJECT_REQUIREMENTS.md
 
-2. 사용자의 작업을 수행하기전에 작업내용 기입
-- todo.md
-
-
-3. 작업 후 변동사항에 대한 내용은 문서 업데이트
+4. 작업후 todo에서 해당 작업 삭제해도되는지 사용자에게 확인

@@ -91,10 +91,10 @@ export default function AuctionPage({ params }: AuctionPageProps) {
     if (!initialAuctionData || !initialAuctionData.auctions) return [];
     
     const groupedItems = initialAuctionData.auctions.reduce((acc, current) => {
-      if (!current.item || typeof current.item.id !== 'number') {
+      if (!current.item_id) {
         return acc;
       }
-      const itemId = current.item.id;
+      const itemId = current.item_id;
       const existingItem = acc[itemId];
       
       if (current.unit_price != null) {
@@ -182,10 +182,10 @@ export default function AuctionPage({ params }: AuctionPageProps) {
           
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
             {representativeItemsToDisplay.map((item) => {
-              if (!item.item || typeof item.item.id !== 'number') return null;
+              if (!item.item_id) return null;
               return (
                 <div 
-                  key={`${item.item.id}-${item.id}`}
+                  key={`${item.item_id}`}
                   onClick={() => handleItemClick(item)}
                   className="border rounded-lg p-3 hover:shadow-lg transition-shadow bg-gray-800 text-white block cursor-pointer"
                 >

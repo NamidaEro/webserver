@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react';
 // import RealmSelector from '@/components/auction/filter/RealmSelector'; // 임시 주석 처리
 // import RealmFilterDropdown from '@/components/auction/filter/RealmFilterDropdown'; // RealmFilterDropdown 임포트 제거
 import AuctionTable from '@/components/auction/list/AuctionTable';
-import { AuctionItem } from '@/lib/types/auction';
+import { AuctionItem, IndividualAuction } from '@/lib/types/auction';
 import AuctionItemDetailModal from '@/components/auction/detail/AuctionItemDetailModal';
 import AuctionSidebar from '@/components/auction/sidebar/AuctionSidebar'; // 사이드바 컴포넌트 import
 import ItemSearchBar from '@/components/auction/search/ItemSearchBar'; // ItemSearchBar import 추가
@@ -51,7 +51,7 @@ export default function AuctionPage() {
   const [selectedAuctionItemForModal, setSelectedAuctionItemForModal] = useState<AuctionItem | null>(null);
   const [isDetailModalOpen, setIsDetailModalOpen] = useState(false);
   // 특정 아이템의 모든 경매 목록 및 로딩 상태 (신규 추가)
-  const [detailedAuctionList, setDetailedAuctionList] = useState<AuctionItem[]>([]);
+  const [detailedAuctionList, setDetailedAuctionList] = useState<IndividualAuction[]>([]);
   const [isDetailedLoading, setIsDetailedLoading] = useState(false);
 
   // Realm 목록 가져오기 (원래 방식 복원)
@@ -239,11 +239,16 @@ export default function AuctionPage() {
 
     try {
       // 전체 경매 목록에서 같은 이름의 아이템 찾기
-      const sameNameItems = allAuctionItems.filter(auction => 
-        auction.item_name && // 이름이 있는 아이템만
-        item.item_name && // 선택된 아이템도 이름이 있어야 함
-        auction.item_name === item.item_name // 이름이 같은 아이템
-      );
+      const sameNameItems = allAuctionItems
+        .filter(auction => 
+          auction.item_name && // 이름이 있는 아이템만
+          item.item_name && // 선택된 아이템도 이름이 있어야 함
+          auction.item_name === item.item_name // 이름이 같은 아이템
+        )
+        .map(item => ({
+          ...item,
+          _id: `${item.item_id}-${Date.now()}`, // 임시 고유 ID 생성
+        })) as IndividualAuction[];
 
       console.log(`[AuctionPage] '${item.item_name}' 아이템 검색 결과:`, {
         totalFound: sameNameItems.length,

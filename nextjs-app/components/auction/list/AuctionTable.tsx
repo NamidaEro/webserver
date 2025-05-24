@@ -1,32 +1,41 @@
 import React, { useState } from 'react';
-import { AuctionItem } from '@/lib/types/auction';
+import { AuctionItem, IndividualAuction } from '@/lib/types/auction';
 import AuctionItemRow from './AuctionItemRow';
 import AuctionItemDetailModal from '../detail/AuctionItemDetailModal';
 
 interface AuctionTableProps {
   items: AuctionItem[];
-  realmId: string;
+  realmId?: string;
+  onItemSelect?: (item: AuctionItem) => Promise<void>;
 }
 
-export default function AuctionTable({ items, realmId }: AuctionTableProps) {
+export default function AuctionTable({ items, realmId, onItemSelect }: AuctionTableProps) {
   const [selectedItem, setSelectedItem] = useState<AuctionItem | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isLoadingDetails, setIsLoadingDetails] = useState(false);
-  const [itemAuctions, setItemAuctions] = useState<AuctionItem[]>([]);
+  const [itemAuctions, setItemAuctions] = useState<IndividualAuction[]>([]);
 
   const handleItemSelect = async (item: AuctionItem) => {
+    if (onItemSelect) {
+      await onItemSelect(item);
+      return;
+    }
+
     setSelectedItem(item);
     setIsModalOpen(true);
     setIsLoadingDetails(true);
     
     try {
+      if (!realmId) {
+        throw new Error('Realm ID is required to fetch auctions');
+      }
       const response = await fetch(`/api/auctions/${realmId}?itemId=${item.item_id}`);
       if (!response.ok) {
         throw new Error('Failed to fetch auctions');
       }
       
       const data = await response.json();
-      setItemAuctions(data);
+      setItemAuctions(data as IndividualAuction[]);
     } catch (error) {
       console.error('Error fetching auctions:', error);
       setItemAuctions([]);

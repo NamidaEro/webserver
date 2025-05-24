@@ -135,8 +135,13 @@ export default function AuctionItemDetailModal({
                   {itemQuality.charAt(0).toUpperCase() + itemQuality.slice(1)}
                 </p>
                 <p className="text-gray-300 text-sm mb-1">
-                  아이템 ID: {item.item_id}
+                  아이템 ID: {item.item_id || '알 수 없음'}
                 </p>
+                {item.blizzard_id && (
+                  <p className="text-gray-400 text-xs">
+                    Blizzard ID: {item.blizzard_id}
+                  </p>
+                )}
               </div>
             </div>
 

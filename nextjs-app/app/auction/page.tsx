@@ -225,99 +225,57 @@ export default function AuctionPage() {
   }, [allAuctionItems, currentPage, itemsPerPage, selectedCategory, searchTerm]); // searchTerm, selectedCategory 의존성 배열에 추가
 
   const handleItemSelect = async (item: AuctionItem) => {
-    console.log("[AuctionPage] 아이템 선택됨:", item);
-    setSelectedAuctionItemForModal(item); // 대표 아이템 정보 설정
-    setIsDetailModalOpen(true); // 모달 우선 열기 (로딩 표시를 위해)
-    setDetailedAuctionList([]); // 이전 데이터 초기화
+    console.log("[AuctionPage] 아이템 선택됨:", {
+      id: item.item_id,
+      name: item.item_name,
+      price: item.unit_price
+    });
 
-    if (!selectedRealm || !item.item_id) {
-      console.error("[AuctionPage] 상세 정보 조회 실패: 서버 ID 또는 아이템 ID 없음");
-      // 필요시 사용자에게 오류 메시지 표시
-      return;
-    }
-
-    const currentItemId = item.item_id;
-    if (!currentItemId) {
-      console.error("[AuctionPage] 아이템 ID를 찾을 수 없습니다.");
-      return;
-    }
-
+    // 선택된 아이템 정보 설정 및 모달 표시
+    setSelectedAuctionItemForModal(item);
+    setIsDetailModalOpen(true);
+    setDetailedAuctionList([]);
     setIsDetailedLoading(true);
-    try {
-      // 디버깅 정보 추가
-      console.log(`[AuctionPage] 아이템 상세 조회: 이름=${item.item_name}, ID=${currentItemId}`);
-      
-      // 수정: Next.js API Route 호출로 변경
-      const response = await fetch(`/api/auctions-by-item?realmId=${selectedRealm}&itemId=${currentItemId}`);
 
-      if (!response.ok) {
-        const errorData = await response.json().catch(() => ({ message: `HTTP error! status: ${response.status}` }));
-        throw new Error(errorData.message || '아이템 상세 경매 목록을 불러오는 데 실패했습니다.');
-      }
-      const data = await response.json();
-      console.log("[AuctionPage] 받은 전체 아이템 목록:", {
-        itemId: data.item_id,
-        itemName: data.item_name,
-        totalAuctions: data.total_auctions
+    try {
+      // 전체 경매 목록에서 같은 이름의 아이템 찾기
+      const sameNameItems = allAuctionItems.filter(auction => 
+        auction.item_name && // 이름이 있는 아이템만
+        item.item_name && // 선택된 아이템도 이름이 있어야 함
+        auction.item_name === item.item_name // 이름이 같은 아이템
+      );
+
+      console.log(`[AuctionPage] '${item.item_name}' 아이템 검색 결과:`, {
+        totalFound: sameNameItems.length,
+        searchedName: item.item_name
       });
-      
-      // 경매 목록이 비어있고 같은 이름의 아이템이 있는지 확인
-      if (data.status === 'ok') {
-        const allAuctions = data.auctions || [];
-        const selectedItem = data.selected_item;
-        
-        if (allAuctions.length === 0) {
-          console.log("[AuctionPage] API에서 받은 경매 목록이 비어있습니다.");
-          setDetailedAuctionList([]);
-        } else {
-          console.log(`[AuctionPage] ${allAuctions.length}개의 전체 경매 항목 수신됨`);
-          
-          // 클라이언트에서 동일한 이름을 가진 아이템 필터링
-          let filteredAuctions = [];
-          if (selectedItem && selectedItem.item_name) {
-            console.log(`[AuctionPage] 선택한 아이템 이름: ${selectedItem.item_name}`);
-            
-            // 이름 기준으로 필터링
-            filteredAuctions = allAuctions.filter((auction: AuctionItem) => {
-              return auction.item_name === selectedItem.item_name;
-            });
-            
-            console.log(`[AuctionPage] 이름으로 필터링된 아이템 수: ${filteredAuctions.length}`);
-            
-            // 필터링된 아이템이 없으면 ID로 필터링
-            if (filteredAuctions.length === 0) {
-              filteredAuctions = allAuctions.filter((auction: AuctionItem) => {
-                return auction.item_id === selectedItem.item_id || 
-                      (auction.item && auction.item.id === selectedItem.item.id);
-              });
-              console.log(`[AuctionPage] ID로 필터링된 아이템 수: ${filteredAuctions.length}`);
-            }
-          } else {
-            // 대체 필터링 - ID 기준
-            filteredAuctions = allAuctions.filter((auction: AuctionItem) => {
-              return auction.item_id === currentItemId || 
-                    (auction.item && auction.item.id === currentItemId);
-            });
-            console.log(`[AuctionPage] ID로만 필터링된 아이템 수: ${filteredAuctions.length}`);
-          }
-          
-          // 가격 순 정렬
-          filteredAuctions.sort((a: AuctionItem, b: AuctionItem) => {
-            if (a.unit_price === null && b.unit_price === null) return 0;
-            if (a.unit_price === null) return 1;
-            if (b.unit_price === null) return -1;
-            return a.unit_price - b.unit_price;
-          });
-          
-          setDetailedAuctionList(filteredAuctions);
-        }
+
+      if (sameNameItems.length === 0) {
+        console.log("[AuctionPage] 같은 이름의 아이템이 없습니다");
+        setDetailedAuctionList([]);
       } else {
-        throw new Error(data.message || '아이템 상세 경매 목록 응답 오류');
+        // 가격순 정렬 (null 값은 뒤로)
+        const sortedItems = [...sameNameItems].sort((a, b) => {
+          if (a.unit_price === null && b.unit_price === null) return 0;
+          if (a.unit_price === null) return 1;
+          if (b.unit_price === null) return -1;
+          return a.unit_price - b.unit_price;
+        });
+
+        console.log("[AuctionPage] 정렬된 아이템 목록:", {
+          count: sortedItems.length,
+          priceRange: {
+            min: sortedItems[0]?.unit_price,
+            max: sortedItems[sortedItems.length - 1]?.unit_price
+          }
+        });
+
+        setDetailedAuctionList(sortedItems);
       }
-    } catch (err: any) {
-      console.error("[AuctionPage] 아이템 상세 경매 목록 불러오기 오류:", err);
-      setError(`상세 경매 정보를 가져오는 중 오류 발생: ${err.message}`); // 페이지 레벨 에러에 표시 (선택적)
-      setDetailedAuctionList([]); // 오류 발생 시 목록 비우기
+    } catch (err) {
+      console.error("[AuctionPage] 상세 경매 목록 처리 중 오류:", err);
+      setError(err instanceof Error ? err.message : '알 수 없는 오류가 발생했습니다');
+      setDetailedAuctionList([]);
     } finally {
       setIsDetailedLoading(false);
     }

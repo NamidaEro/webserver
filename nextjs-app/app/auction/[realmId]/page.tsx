@@ -114,11 +114,17 @@ export default function AuctionPage({ params }: AuctionPageProps) {
   }, [initialAuctionData]);
 
   const handleItemClick = async (item: AuctionItem) => {
-    if (!item.item || typeof item.item.id !== 'number') return; // 유효한 item.id 확인
+    // item.item.id 대신 item.item_id 사용
+    if (!item.item_id) {
+      console.error("[AuctionPage] 아이템 ID가 없습니다:", item);
+      return;
+    }
+    
     setSelectedItemForModal(item);
     setIsModalOpen(true);
     setIsLoadingModalDetails(true);
-    const detailedAuctions = await getItemAuctionsForModal(realmId, item.item.id);
+    
+    const detailedAuctions = await getItemAuctionsForModal(realmId, item.item_id);
     if (detailedAuctions) {
       setAllAuctionsForSelectedItem(detailedAuctions);
     } else {

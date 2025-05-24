@@ -167,4 +167,70 @@ nextjs-app/
 - **신뢰성**: 오류 복구 및 로깅 기능 내장
 - **배포 자동화**: GitHub Actions를 통한 CI/CD 자동화
 
-###
+### 6. 경매장 기능 상세
+
+#### 6.1 경매 아이템 목록 생성 프로세스
+
+1. **데이터 수집 및 처리**
+   - `/api/auctions/[realmId]` 엔드포인트에서 서버별 경매 데이터 조회
+   - `AuctionItem` 인터페이스 기반 데이터 구조화 (아이템 ID, 이름, 품질, 아이콘 URL 등)
+   - 동일 아이템 그룹화 및 최저가 기준 대표 아이템 선정
+
+2. **화면 표시**
+   - `AuctionTable` 컴포넌트를 통한 그리드 형태 목록 표시
+   - 아이템별 아이콘, 이름, 품질, 최저가 정보 제공
+   - 페이지네이션을 통한 대량 데이터 처리
+
+#### 6.2 아이템 상세 정보 표시
+
+1. **클릭 이벤트 처리**
+   ```typescript
+   const handleItemClick = async (item: AuctionItem) => {
+     setSelectedItemForModal(item);
+     setIsModalOpen(true);
+     const detailedAuctions = await getItemAuctionsForModal(realmId, item.item.id);
+     setAllAuctionsForSelectedItem(detailedAuctions);
+   };
+   ```
+
+2. **상세 정보 모달**
+   - 아이템 기본 정보 (아이콘, 이름, 품질 등)
+   - 품질 등급별 차별화된 색상 표시
+   - 현재 등록된 전체 경매 목록
+   - 가격별 그룹화된 경매 정보 표시
+
+#### 6.3 주요 기능 및 최적화
+
+1. **데이터 관리**
+   - 실시간 데이터 업데이트 (`no-store` 캐시 옵션)
+   - 에러 처리 및 로딩 상태 표시
+   - 반응형 디자인 지원
+
+2. **사용자 경험**
+   - 아이템 이름 기반 검색 기능
+   - 가격, 수량 기반 필터링
+   - 실시간 가격 정보 모니터링
+
+3. **성능 최적화**
+   - `useMemo`를 통한 아이템 그룹화 최적화
+   - 이미지 로드 에러 처리
+   - 컴포넌트 분리를 통한 렌더링 최적화
+   - 데이터 캐싱 및 페이지네이션
+
+4. **데이터 구조**
+   ```typescript
+   interface AuctionResponse {
+     status: string;
+     total_count: number;
+     auctions: AuctionItem[];
+     cache_status: string;
+   }
+
+   interface AuctionsByItemResponse {
+     status: string;
+     realm_id: number | string;
+     item_id: number;
+     auctions: IndividualAuction[];
+     count: number;
+   }
+   ```

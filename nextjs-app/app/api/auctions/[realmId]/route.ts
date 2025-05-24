@@ -27,6 +27,8 @@ export async function GET(
         realm_id: realmId,
         item_id: parseInt(itemId)
       }).toArray();
+      
+      console.log('[API] 아이템 경매 목록 첫 번째 항목:', auctions[0]);
       return NextResponse.json(auctions);
     }
 

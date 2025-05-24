@@ -20,6 +20,8 @@ export interface AuctionResponse {
 }
 
 export interface IndividualAuction extends AuctionItem {
+  _id: string;
+  blizzard_auction_id?: number;
   seller?: string;
   time_left?: string;
 }

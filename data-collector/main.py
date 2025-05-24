@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 
 from logger_config import setup_logger, get_logger
 from blizzard_api import get_access_token, get_connected_realms, get_auctions, get_item_info, get_item_media, get_commodities_auctions
+from item_class_collector import ItemClassCollector
 # from firebase_db import save_auctions_to_firestore, init_firestore, get_realms_with_data
 from monitoring import Timer, stats
 from health_server import health_server
@@ -23,6 +24,7 @@ MAX_REALMS = int(os.getenv('MAX_REALMS', '0'))  # 0은 모든 realm 처리
 COLLECTION_INTERVAL = int(os.getenv('COLLECTION_INTERVAL', '60'))  # 분 단위, 기본 60분(1시간)
 DATA_RETENTION_DAYS = int(os.getenv('DATA_RETENTION_DAYS', '7'))  # 데이터 보관 기간, 기본 7일
 BLIZZARD_REGION = os.getenv('BLIZZARD_REGION', 'kr') # 지역 코드
+ITEM_CLASS_UPDATE_INTERVAL = int(os.getenv('ITEM_CLASS_UPDATE_INTERVAL', '1440'))  # 분 단위, 기본 24시간
 
 # 종료 플래그
 shutdown_requested = False
@@ -32,6 +34,7 @@ mongo_client = None
 db = None
 auctions_collection = None
 item_metadata_collection = None  # 아이템 메타데이터를 저장할 컬렉션
+item_class_collector = None  # 아이템 클래스 수집기
 
 # 메타데이터 처리 대기열
 new_item_ids_queue = set()
@@ -55,6 +58,7 @@ if MONGODB_URI:
         db = mongo_client[db_name]
         auctions_collection = db["auctions"] # 컬렉션 이름 'auctions'
         item_metadata_collection = db["item_metadata"]  # 아이템 메타데이터를 저장할 컬렉션
+        item_class_collector = ItemClassCollector(mongo_client)  # 아이템 클래스 수집기 초기화
         logger.info(f"MongoDB 연결 성공: Database: {db.name}, Collection: {auctions_collection.name}, Item Metadata Collection: {item_metadata_collection.name}")
     except Exception as e:
         logger.error(f"MongoDB 연결 실패: {e}", exc_info=True)
@@ -62,6 +66,7 @@ if MONGODB_URI:
         # 연결 실패 시 컬렉션 객체도 None으로 명시적 설정
         auctions_collection = None
         item_metadata_collection = None
+        item_class_collector = None
 
 def signal_handler(sig, frame):
     """종료 시그널 처리"""
@@ -364,7 +369,7 @@ def schedule_jobs():
     signal.signal(signal.SIGINT, signal_handler)
     
     # 환경 변수를 통한 스케줄 간격 설정
-    logger.info(f"스케줄 간격: {COLLECTION_INTERVAL}분마다 데이터 수집, {DATA_RETENTION_DAYS}일간 데이터 보관")
+    logger.info(f"스케줄 간격: {COLLECTION_INTERVAL}분마다 데이터 수집, {DATA_RETENTION_DAYS}일간 데이터 보관, {ITEM_CLASS_UPDATE_INTERVAL}분마다 아이템 클래스 업데이트")
     
     # 데이터 수집 스케줄 설정
     schedule.every(COLLECTION_INTERVAL).minutes.do(collect_auction_data)
@@ -372,19 +377,23 @@ def schedule_jobs():
     # 아이템 메타데이터 처리 스케줄 설정 (10초마다)
     schedule.every(2).seconds.do(process_item_metadata_queue)
     
+    # 아이템 클래스 업데이트 스케줄 설정
+    schedule.every(ITEM_CLASS_UPDATE_INTERVAL).minutes.do(update_item_classes)
+    
     # 상태 확인 스케줄 설정
     schedule.every(30).minutes.do(health_check)
     
     # 처음 실행 시 즉시 한 번 실행
     logger.info("첫 번째 데이터 수집 시작")
     collect_auction_data()
+    update_item_classes()  # 아이템 클래스도 초기 실행
     
     logger.info("스케줄러 시작됨")
     
     # 스케줄러 무한 루프
     while not shutdown_requested:
         schedule.run_pending()
-        time.sleep(1)  # 1초마다 스케줄 확인 (3초 간격 일정을 위해 변경)
+        time.sleep(1)  # 1초마다 스케줄 확인
     
     logger.info("종료 요청으로 스케줄러 종료")
 
@@ -641,6 +650,36 @@ def delete_old_auctions():
     except Exception as e:
         logger.error(f"오래된 경매 데이터 삭제 중 오류 발생: {e}", exc_info=True)
         stats.increment('db_errors')
+
+def update_item_classes():
+    """아이템 클래스 정보를 업데이트합니다."""
+    if shutdown_requested:
+        logger.info("종료 요청으로 아이템 클래스 업데이트를 건너뜁니다.")
+        return
+
+    if item_class_collector is None:
+        logger.error("아이템 클래스 수집기가 초기화되지 않아 업데이트를 수행할 수 없습니다.")
+        return
+
+    try:
+        logger.info("아이템 클래스 정보 업데이트 시작")
+        
+        # 아이템 클래스 정보 수집
+        if item_class_collector.collect_item_classes():
+            logger.info("아이템 클래스 정보 수집 완료")
+        else:
+            logger.error("아이템 클래스 정보 수집 실패")
+            return
+        
+        # 아이템 메타데이터 업데이트
+        if item_class_collector.update_item_metadata_with_class():
+            logger.info("아이템 메타데이터 클래스 정보 업데이트 완료")
+        else:
+            logger.error("아이템 메타데이터 클래스 정보 업데이트 실패")
+            return
+            
+    except Exception as e:
+        logger.error(f"아이템 클래스 업데이트 중 오류 발생: {str(e)}")
 
 if __name__ == "__main__":
     try:

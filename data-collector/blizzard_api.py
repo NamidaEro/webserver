@@ -269,4 +269,87 @@ def get_commodities_auctions(token):
     except Exception as e:
         stats.increment('api_errors')
         logger.error(f"상품 경매장 데이터 조회 중 오류 발생: {str(e)}")
+        raise
+
+@timeit
+def get_item_classes(token):
+    """아이템 클래스 목록 조회"""
+    session = create_session()
+    
+    try:
+        stats.increment('api_calls')
+        
+        url = f'https://{BLIZZARD_REGION}.api.blizzard.com/data/wow/item-class/index'
+        params = {
+            'namespace': BLIZZARD_STATIC_NAMESPACE,  # 아이템 클래스는 static 네임스페이스 사용
+            'locale': BLIZZARD_LOCALE
+        }
+        headers = {
+            'Authorization': f'Bearer {token}'
+        }
+        
+        # API 호출 제한 고려 - 필요 시 대기
+        time.sleep(RATE_LIMIT_WAIT)
+        
+        logger.info(f"아이템 클래스 목록 조회 요청: {url}?namespace={BLIZZARD_STATIC_NAMESPACE}&locale={BLIZZARD_LOCALE}")
+        response = session.get(url, params=params, headers=headers)
+        response.raise_for_status()
+        
+        data = response.json()
+        if 'item_classes' not in data:
+            logger.warning("API 응답에 item_classes 키가 없습니다.")
+            return []
+            
+        return data['item_classes']
+        
+    except requests.exceptions.HTTPError as e:
+        stats.increment('api_errors')
+        logger.error(f"아이템 클래스 목록 조회 실패: {str(e)}")
+        raise
+    except Exception as e:
+        stats.increment('api_errors')
+        logger.error(f"아이템 클래스 목록 조회 중 오류 발생: {str(e)}")
+        raise
+
+@timeit
+def get_item_class_details(token, class_id):
+    """특정 아이템 클래스의 상세 정보 조회"""
+    session = create_session()
+    
+    try:
+        stats.increment('api_calls')
+        
+        url = f'https://{BLIZZARD_REGION}.api.blizzard.com/data/wow/item-class/{class_id}'
+        params = {
+            'namespace': BLIZZARD_STATIC_NAMESPACE,
+            'locale': BLIZZARD_LOCALE
+        }
+        headers = {
+            'Authorization': f'Bearer {token}'
+        }
+        
+        # API 호출 제한 고려 - 필요 시 대기
+        time.sleep(RATE_LIMIT_WAIT)
+        
+        logger.info(f"아이템 클래스 상세 정보 조회 요청: {url}?namespace={BLIZZARD_STATIC_NAMESPACE}&locale={BLIZZARD_LOCALE}")
+        response = session.get(url, params=params, headers=headers)
+        response.raise_for_status()
+        
+        data = response.json()
+        if 'item_subclasses' not in data:
+            logger.warning(f"아이템 클래스 ID {class_id}의 응답에 item_subclasses 키가 없습니다.")
+            return None
+            
+        return data
+        
+    except requests.exceptions.HTTPError as e:
+        stats.increment('api_errors')
+        if e.response.status_code == 404:
+            logger.warning(f"아이템 클래스 ID {class_id}를 찾을 수 없습니다.")
+            return None
+        logger.error(f"아이템 클래스 상세 정보 조회 실패: {str(e)}")
+        raise
+    except Exception as e:
+        stats.increment('api_errors')
+        logger.error(f"아이템 클래스 상세 정보 조회 중 오류 발생: {str(e)}")
         raise 

@@ -28,22 +28,22 @@ async function getAuctions(realmId: string): Promise<AuctionResponse | null> {
   }
 }
 
-async function getItemAuctionsForModal(realmId: string, itemId: number): Promise<IndividualAuction[] | null> {
+async function getItemAuctionsForModal(realmId: string, itemName: string): Promise<IndividualAuction[] | null> {
   try {
     // realmId가 없으면 commodities_kr을 사용하도록 변경
     const effectiveRealmId = realmId || 'commodities_kr';
     
-    const res = await fetch(`/api/auctions-by-item?realmId=${effectiveRealmId}&itemId=${itemId}`, {
+    const res = await fetch(`/api/auctions-by-item?realmId=${effectiveRealmId}&itemName=${encodeURIComponent(itemName)}`, {
       cache: 'no-store',
     });
     if (!res.ok) {
-      console.error(`Error fetching item auctions for modal: ${res.status} ${res.statusText}`);
+      console.error(`Error fetching item auctions for modal (itemName: ${itemName}): ${res.status} ${res.statusText}`);
       return null;
     }
     const data: AuctionsByItemResponse = await res.json();
     return data.status === 'ok' ? data.auctions : null;
   } catch (error) {
-    console.error('Failed to fetch item auction data for modal:', error);
+    console.error(`Failed to fetch item auction data for modal (itemName: ${itemName}):`, error);
     return null;
   }
 }
@@ -122,8 +122,8 @@ export default function AuctionPage({ params }: AuctionPageProps) {
   }, [initialAuctionData, selectedCategory]);
 
   const handleItemClick = async (item: AuctionItem) => {
-    if (!item.item_id) {
-      console.error("[AuctionPage] 아이템 ID가 없습니다:", item);
+    if (!item.item_name) {
+      console.error("[AuctionPage] 아이템 이름이 없습니다:", item);
       return;
     }
     
@@ -131,7 +131,7 @@ export default function AuctionPage({ params }: AuctionPageProps) {
     setIsModalOpen(true);
     setIsLoadingModalDetails(true);
     
-    const detailedAuctions = await getItemAuctionsForModal(realmId, item.item_id);
+    const detailedAuctions = await getItemAuctionsForModal(realmId, item.item_name);
     if (detailedAuctions) {
       setAllAuctionsForSelectedItem(detailedAuctions);
     } else {

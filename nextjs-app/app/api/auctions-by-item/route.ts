@@ -7,18 +7,18 @@ export async function GET(request: Request) {
   try {
     const { searchParams } = new URL(request.url);
     const realmId = searchParams.get('realmId');
-    const itemId = searchParams.get('itemId');
+    const itemName = searchParams.get('itemName');
 
-    if (!realmId || !itemId) {
+    if (!realmId || !itemName) {
       return NextResponse.json({ 
         status: 'error', 
-        message: 'realmId와 itemId는 필수 파라미터입니다.' 
+        message: 'realmId와 itemName은 필수 파라미터입니다.' 
       }, { status: 400 });
     }
 
     // 백엔드 API에서 아이템 상세 정보 조회
-    const backendApiUrl = `${BACKEND_URL}/auctions-by-item?realm_id=${realmId}&item_id=${itemId}`;
-    console.log('[API] 아이템 상세 정보 요청:', backendApiUrl);
+    const backendApiUrl = `${BACKEND_URL}/auctions-by-item?realm_id=${realmId}&item_name=${encodeURIComponent(itemName)}`;
+    console.log('[API] 아이템 상세 정보 요청 (by itemName):', backendApiUrl);
 
     const response = await fetch(backendApiUrl, {
       cache: 'no-store'
@@ -35,7 +35,7 @@ export async function GET(request: Request) {
     }
 
     const data = await response.json();
-    console.log('[API] 아이템 상세 정보 받음:', {
+    console.log('[API] 아이템 상세 정보 받음 (by itemName):', {
       auctions_count: data.auctions?.length || 0
     });
 

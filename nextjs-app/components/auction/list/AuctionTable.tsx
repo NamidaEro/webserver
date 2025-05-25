@@ -76,9 +76,9 @@ export default function AuctionTable({ items, realmId, onItemSelect }: AuctionTa
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-200">
-            {items.map((item) => (
+            {items.map((item, index) => (
               <AuctionItemRow 
-                key={item.item_id}
+                key={`${item.item_id}-${index}`}
                 item={item} 
                 onItemSelect={handleItemSelect}
               />

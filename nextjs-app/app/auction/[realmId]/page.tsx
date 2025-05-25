@@ -122,6 +122,7 @@ export default function AuctionPage({ params }: AuctionPageProps) {
   }, [initialAuctionData, selectedCategory]);
 
   const handleItemClick = async (item: AuctionItem) => {
+    console.log('[AuctionPage] handleItemClick 호출됨, 아이템:', item);
     if (!item.item_name) {
       console.error("[AuctionPage] 아이템 이름이 없습니다:", item);
       return;

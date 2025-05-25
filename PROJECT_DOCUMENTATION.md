@@ -109,7 +109,7 @@ interface RealmInfo {
 
 ### 4.2 API 엔드포인트
 - `/api/auctions/[realmId]`: 서버별 경매 데이터
-- `/api/auctions-by-item`: 아이템 이름(`itemName`)으로 해당 아이템의 모든 경매 데이터 조회
+- `/api/auctions-by-item`: 아이템 이름(`itemName`)으로 MongoDB의 `item_metadata` 및 `auctions` 컬렉션을 직접 조회하여 해당 아이템의 모든 경매 데이터 반환
 - `/api/realms`: 서버 목록
 - `/api/item-classes`: 아이템 클래스 목록
 - `/health`: 시스템 상태 체크

@@ -91,7 +91,7 @@ export default function AuctionItemDetailModal({
                   </thead>
                   <tbody className="divide-y divide-gray-800">
                     {allAuctionsForItem.map((auction, index) => (
-                      <tr key={index} className="hover:bg-gray-700 transition-colors">
+                      <tr key={auction._id || auction.blizzard_auction_id || index} className="hover:bg-gray-700 transition-colors">
                         <td className="py-3 px-4 whitespace-nowrap text-gray-300">
                           {auction.seller || '알 수 없음'}
                         </td>

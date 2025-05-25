@@ -72,7 +72,10 @@
 
 ## 아이템 이름 기준 경매 목록 조회 기능 추가
 ### 1. 백엔드 API 수정
-- `/api/auctions-by-item` 엔드포인트가 `itemName` 파라미터를 받아서, 해당 이름을 가진 모든 아이템의 경매 목록을 반환하도록 수정
+- `/api/auctions-by-item` 엔드포인트 로직 변경:
+  - Next.js API 라우트에서 직접 MongoDB에 연결 (`nextjs-app/lib/mongodb.ts` 활용).
+  - 전달받은 `itemName` 파라미터를 사용하여 `item_metadata` 컬렉션에서 해당 이름을 가진 모든 아이템의 `_id`(아이템 ID) 목록을 조회.
+  - 조회된 아이템 ID 목록을 사용하여 `auctions` 컬렉션에서 `item.id`가 일치하는 모든 경매 데이터를 조회하여 반환.
 - 데이터베이스 쿼리 최적화 (필요시 인덱싱 추가)
 
 ### 2. 프론트엔드 수정

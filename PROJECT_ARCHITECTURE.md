@@ -86,7 +86,7 @@ nextjs-app/
 │   ├── mongodb.ts                        # MongoDB 클라이언트 설정 (재사용)
 │   ├── api/                              # 백엔드 API 라우트 핸들러 (Next.js API Routes 또는 Route Handlers)
 │   │   └── auctions.ts                 # 경매 데이터 조회 API (필터링, 정렬, 검색 로직 포함)
-│   │   └── auctions-by-item.ts         # 아이템 이름(itemName)으로 해당 아이템의 모든 경매 목록 조회 API
+│   │   └── auctions-by-item.ts         # 아이템 이름(itemName)으로 MongoDB의 item_metadata 및 auctions 컬렉션을 직접 조회하여 해당 아이템의 모든 경매 목록 반환
 │   ├── hooks/                            # 커스텀 React Hooks (상태 관리, 데이터 페칭 등)
 │   ├── types/                            # TypeScript 타입 정의 (아이템, 경매 데이터 등)
 │   └── utils/                            # 기타 유틸리티 함수
